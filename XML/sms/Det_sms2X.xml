@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="sms">
+   <e id="tut_det">
+      <lg>
+         <l pos="Det">tut</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="200" BEDLAN_ID="*168"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Det">тот</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Det">тудт</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Det">tuo</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Det">that</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="Det">jenes</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Det" stat="pref">det</t>
+            <t pos="Det">det der</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Det">dot</t>
+            <t pos="Det">duot</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Det">dühta</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tät_det">
+      <lg>
+         <l pos="Det">tät</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="*174"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Det">этот</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Det">tämä</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Det" neuter="dette">denne</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Det">та̄дт</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Det">this</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="Det">dieses</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Det">dát</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Det">daahta</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="seämma_det">
+      <lg>
+         <l pos="Det">seämma</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="a">same</t>
+            <t pos="a">sama</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="a">одинаковый</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="a">samme</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="måttam_det">
+      <lg>
+         <l pos="Det">måttam</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Det">one of</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Det">кто-то</t>
+            <t pos="Det">какой-то</t>
+            <t pos="Det" exclude="oahpa;">некий</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Det">joku</t>
+            <t pos="Det">jokunen</t>
+            <t pos="Det">muuan</t>
+            <t pos="Det">eräs</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Det">noen blant</t>
+            <t pos="Det">en av</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="nåkkam_det">
+      <lg>
+         <l pos="Det">nåkkam</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Det">such</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Det">такой</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Det">sellainen</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Det">slik</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="jeeʹres_det">
+      <lg>
+         <l pos="Det">jeeʹres</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+         <book name="lookkamkerjj" lesson="1"/>
+         <book name="200" BEDLAN_ID="116"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="a" stat="pref">other</t>
+            <t pos="a">different</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="a">другой</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="a" stat="pref">annen</t>
+            <t pos="a">annerledes</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="a">eri</t>
+            <t pos="a">toinen</t>
+            <t pos="a" stat="pref">muu</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="a">eará</t>
+            <t pos="a">iežá</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="a">mübˈbee</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tõt_det">
+      <lg>
+         <l pos="Det">tõt</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Det">se</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Det" stat="pref">этот</t>
+            <t pos="Det">тот</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Det" neuter="dette">denne</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Det">this</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tõʹst_det">
+      <lg>
+         <l pos="Det" lemma="tõt" gloss="loc">tõʹst</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="PLACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="adv">siinä</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="adv">там</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="adv">der</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="adv">there</t>
+         </tg>
+      </mg>
+   </e>
+</r>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="sms">
+   <e id="-ǥa_pcle">
+      <lg>
+         <l pos="Pcle">-ǥa</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Pcle" labial="-ka">-kä</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Pcle">ли</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="ni_pcle">
+      <lg>
+         <l pos="Pcle">ni</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pcle">ни</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pcle" labial="-kaan">-kään</t>
+            <t pos="v" gloss="3sg">ei</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="adv">ikke</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="adv">not</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="-a_pcle">
+      <lg>
+         <l pos="Pcle">-a</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pcle">ли</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pcle" labial="-ko">-kö</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="-i_pcle">
+      <lg>
+         <l pos="Pcle">-i</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pcle">ведь</t>
+            <t pos="Pcle">же</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pcle" labial="-pa">-pä</t>
+            <t pos="Pcle" labial="-han">-hän</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="-tâma_pcle">
+      <lg>
+         <l pos="Pcle">-tâma</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="a">sure</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pcle" labial="-pa">-pä</t>
+            <t pos="Pcle" labial="-han">-hän</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Pcle">ведь</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pcle">jo, da</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="naa_pcle">
+      <lg>
+         <l pos="Pcle">naa</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pcle">да</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pcle">kyllä</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pcle">sånn</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Pcle">yes</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="nuʹtt_pcle">
+      <lg>
+         <l pos="Pcle">nuʹtt</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pcle">так</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pcle">niin</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pcle">så</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="še_pcle">
+      <lg>
+         <l pos="Pcle">še</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Pcle">also</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Pcle">тоже</t>
+            <t pos="Pcle">также</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pcle">mjös</t>
+            <t pos="Pcle">-kin</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pcle">også</t>
+         </tg>
+      </mg>
+   </e>
+</r>

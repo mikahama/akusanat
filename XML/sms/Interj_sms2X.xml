@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="sms">
+   <e id="kâʹl_i">
+      <lg>
+         <l pos="Interj">kâʹl</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Interj">yes</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Interj" stat="pref">да</t>
+            <t pos="Interj">всё-таки</t>
+            <t pos="Interj" t_type="sr">все-таки</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Interj">kyllä</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Interj" stat="pref">ja</t>
+            <t pos="Interj">vel</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tiõrv_i">
+      <lg>
+         <l pos="Interj">tiõrv</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">SOCIAL</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Interj" stat="pref">terve</t>
+            <t pos="Interj">päivää</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Interj" stat="pref">привет</t>
+            <t pos="Interj">добрый день</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Interj" stat="pref">hei</t>
+            <t pos="Interj">god dag</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Interj" stat="pref">hallo</t>
+            <t pos="Interj">good day</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tiõrvvsa_i">
+      <lg>
+         <l pos="Interj">tiõrvvsa</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">SOCIAL</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Interj">ole hyvä</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Interj">пожалуйста</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Interj">vær så god</t>
+            <t pos="Interj">ingen årsak</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Interj">you are welcome</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tuõtt_i">
+      <lg>
+         <l pos="Interj">tuõtt</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Interj" stat="pref">правда</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Interj">totta</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Interj">ja</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Interj">right</t>
+         </tg>
+      </mg>
+   </e>
+</r>

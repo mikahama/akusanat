@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="sms">
+   <e id="håʹt_cs">
+      <lg>
+         <l pos="CS">håʹt</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="CS">even though</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="CS">vaikka</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="CS">хотя</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="CS">selv om</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="CS">obwohl</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="CS">vaikko</t>
+            <t pos="CS">vaikke</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="kååʹtt_cs">
+      <lg>
+         <l pos="CS">kååʹtt</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="CS">that</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="pro">кто</t>
+            <t pos="pro">что</t>
+            <t pos="pro" stat="pref">который</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="CS">joka</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="CS">som</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="ko_cs">
+      <lg>
+         <l pos="CS">ko</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="CS">поскольку</t>
+            <t pos="CS" stat="pref">потомучто</t>
+            <t pos="CS">потому что</t>
+            <t pos="CS">потому, что</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="CS">kun</t>
+            <t pos="CS">koska</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="CS">fordi</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="jos_cs">
+      <lg>
+         <l pos="CS">jos</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="84"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="CS">if</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="CS">если</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="CS">hvis</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="CS">jos</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="CS">jos</t>
+            <t pos="CS">jus</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="CS">jus</t>
+            <t pos="CS">jüs</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tõʹnt_cs">
+      <lg>
+         <l pos="CS">tõʹnt</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="200" BEDLAN_ID="9"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="CS" stat="pref">koska</t>
+            <t pos="CS">sille</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="CS">because</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="CS">fordi</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="CS" stat="pref">потомучто</t>
+            <t pos="CS">потому что</t>
+            <t pos="CS">потому, что</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="što_cs">
+      <lg>
+         <l pos="CS">što</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="CS">that</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="CS">että</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="CS">что</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="CS">at</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="CS">dass</t>
+         </tg>
+      </mg>
+   </e>
+</r>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r id="smsfin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+   You are free to copy, distribute and adapt the work, as long as you always give
+   proper attribution using the attribution text below.
+   For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
+   Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref> <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
+   This is NOT a fully styled and published dictionary.
+   As such it can and will contain unfinished entries, unpublished entries, 
+   entries with objectionable translations, etc. If you find any errors 
+   or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.</sourcenote> </lics>
+<e> <lg> <l pos="Pcle">-han</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">-a</t> <t Contlex="PCLE_" pos="Pcle">-ala</t> <tCtn> <t Contlex="PCLE_" pos="Pcle">deʹbe</t> <re/> </tCtn> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-han</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">han</t> <t Contlex="PCLE_" pos="Pcle">i</t><t Contlex="PCLE_" pos="Pcle">ju</t> <t Contlex="PCLE_" pos="Pcle">teʹbe</t><t Contlex="PCLE_" pos="Pcle">tâma</t> <tCtn> <t Contlex="PCLE_" pos="Pcle">veât</t> <re/> </tCtn> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-han</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">âma</t> <t Contlex="PCLE_" pos="Pcle">ât</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-han, -hän</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">-son</t> <t Contlex="PCLE_" pos="Pcle">deʹbet</t><t Contlex="PCLE_" pos="Pcle">nâčat</t> <t Contlex="PCLE_" pos="Pcle">veʹt</t><t Contlex="PCLE_" pos="Pcle">õt</t> <t Contlex="PCLE_" pos="Pcle">õtju</t> <t Contlex="PCLE_" pos="Pcle">šât</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-hän</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-i</t><t Contlex="PCLE_" pos="Pcle">-tâma</t><t Contlex="PCLE_" pos="Pcle">-a</t> <t Contlex="PCLE_" pos="Pcle">-ala</t><t Contlex="PCLE_" pos="Pcle">deʹbe</t> <t Contlex="PCLE_" pos="Pcle">han</t><t Contlex="PCLE_" pos="Pcle">i</t> <t Contlex="PCLE_" pos="Pcle">ju</t><t Contlex="PCLE_" pos="Pcle">teʹbe</t> <t Contlex="PCLE_" pos="Pcle">tâma</t><t Contlex="PCLE_" pos="Pcle">âma</t> <t Contlex="PCLE_" pos="Pcle">ât</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-ka</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-ǥa</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-ka</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">ga</t> <t Contlex="PCLE_" pos="Pcle">ka</t> <t Contlex="PCLE_" pos="Pcle">ǥa</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kaan</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">ni</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kaan</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">ni</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kin</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-i</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kin</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">še</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">-jõs</t> <t Contlex="PCLE_" pos="Pcle">-mes</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-ko</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <tCtn> <t Contlex="PCLE_" pos="Pcle">-ko</t> <re/> </tCtn> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-ko</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <tCtn> <t Contlex="PCLE_" pos="Pcle">-o</t> <re/> </tCtn> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-ko</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">a</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-ko, -kö</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">-go</t> <t Contlex="PCLE_" pos="Pcle">-ǥo</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kos</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">-ǥos</t> <t Contlex="PCLE_" pos="Pcle">kâʹllǥu</t> <t Contlex="PCLE_" pos="Pcle">mana</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-ga</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-ǥa</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <tCtn> <t Contlex="PCLE_" pos="Pcle">-ka</t> <re/> </tCtn> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">ga</t> <t Contlex="PCLE_" pos="Pcle">ka</t> <t Contlex="PCLE_" pos="Pcle">ǥa</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kään</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">ni</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kään</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">ni</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kõs</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">-ǥos</t> <t Contlex="PCLE_" pos="Pcle">kâʹllǥu</t> <t Contlex="PCLE_" pos="Pcle">mana</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kö</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-a</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-kö</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">-ko</t> <t Contlex="PCLE_" pos="Pcle">-o</t> <t Contlex="PCLE_" pos="Pcle">a</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-pa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">-âs</t> <t Contlex="PCLE_" pos="Pcle">ba</t><t Contlex="PCLE_" pos="Pcle">teʹbe</t> <t Contlex="PCLE_" pos="Pcle">tâm-a</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-pa, -pä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-ba</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-pa,-pä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">tâʹm</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-pä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-i</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-pä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-tâma</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">-pä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PCLE_" pos="Pcle">-âs</t> <t Contlex="PCLE_" pos="Pcle">ba</t><t Contlex="PCLE_" pos="Pcle">teʹbe</t> <t Contlex="PCLE_" pos="Pcle">tâm-a</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">aivan</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-i</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">edes</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">ni</t> </tg> </mg> </e>
+<e> <lg> <l pos="V">ei</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">ni</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">eikä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">ni</t> </tg> </mg> </e>
+<e> <lg> <l pos="V">eikä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="V_" pos="Pcle">ni</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">entä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">a</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">jospa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">vâʹrmm</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">juuri</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-i</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">kai</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">šât</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">kun</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-ǥu</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">kyllä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">kâl</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">lähes</l> <stg> <st/> </stg> </lg> <mg> <semantics> <!-- CHECKME How are particles related to emotions? --> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">nuʹtt</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">melkein</l> <stg> <st/> </stg> </lg> <mg> <semantics> <!-- CHECKME How are particles related to emotions? --> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">nuʹtt</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">myös</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">še</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">niin</l> <stg> <st/> </stg> </lg> <mg> <semantics> <!-- CHECKME How are particles related to emotions? --> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">nuʹtt</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">no sitten</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">näde</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">noin</l> <stg> <st/> </stg> </lg> <mg> <semantics> <!-- CHECKME How are particles related to emotions? --> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">nuʹtt</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">sitten</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">šât</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">suunnilleen</l> <stg> <st/> </stg> </lg> <mg> <semantics> <!-- CHECKME How are particles related to emotions? --> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">nuʹtt</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">tahansa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">håʹt</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">tosin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">kâl</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pcle">vuorostaan</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PCLE_" pos="Pcle">-ǥõs</t> </tg> </mg> </e>
+</r>

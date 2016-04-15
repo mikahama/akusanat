@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="sms">
+   <e id="nuʹbb_num">
+      <lg>
+         <l pos="Num" lemma="num_kuõʹhtt">nuʹbb</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="116"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Num">second</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Num">второй</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Num">annen</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Num">toinen</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Num">nubbi</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Num">jietjaa</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="mäŋgg_num">
+      <lg>
+         <l pos="Num">mäŋgg</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="phon"/>
+         <book name="kurss" lesson="2"/>
+         <book name="200" BEDLAN_ID="*100"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Num" stat="pref">много</t>
+            <t pos="Num">несколько</t>
+            <t pos="a">многочисленный</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Num">monta</t>
+            <t pos="Num">moni</t>
+            <t pos="Num">usea</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Num">many</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="Num">viele</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Num">mange</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Num">е̄ннэ</t>
+         </tg>
+         <tg xml:lang="smn">
+            <t pos="Num">maŋga</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Num">eatnat</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Num">mǜhtema</t>
+         </tg>
+      </mg>
+   </e>
+</r>

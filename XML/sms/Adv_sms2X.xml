@@ -1,0 +1,2012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="sms">
+   <e id="miõlstes_adv">
+      <lg>
+         <l pos="Adv">miõlstes</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN"/>
+            <sem class="SENSE"/>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">gladly</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="A">радостный</t>
+            <t pos="A">довольный</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="A">tyytyväinen</t>
+            <t pos="Adv">mielissään</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="A">fornøyd</t>
+            <t pos="A">glad</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="jiânnai_adv">
+      <lg>
+         <l pos="Adv" lemma="xxx">jiânnai</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE"/>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">much</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">очень</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">paljon</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">mye</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="seämmanalla_adv">
+      <lg>
+         <l pos="Adv" lemma="xxx">seämmanalla</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Adv">samalla tavalla</t>
+            <t pos="Adv">samoin</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">подобным образом</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="A">det samme</t>
+            <t pos="Adv" stat="pref">på samme sett</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">in the same</t>
+            <t pos="Adv">similarly</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tâʹlles_adv">
+      <lg>
+         <l pos="Adv">tâʹlles</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="adv">immediately</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="adv">heti</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="adv">сразу</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="adv">umiddelbart</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="jiânnai_adv">
+      <lg>
+         <l pos="Adv">jiânnai</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Adv">paljon</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">очень</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">mye</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">much</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="mõõzz_adv">
+      <lg>
+         <l pos="Adv">mõõzz</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">why</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">miksi</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">почему</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">hvorfor</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="pâi_adv">
+      <lg>
+         <l pos="Adv">pâi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">CYCLE</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">always</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">aina</t>
+            <t pos="Adv">vaan</t>
+            <t pos="Adv">vain</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">всегда</t>
+            <t pos="Adv" exclude="oahpa;">только</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">alltid</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="viiššlânji_adv">
+      <lg>
+         <l pos="Adv">viiššlânji</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="WORK">ECONOMY</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">diligently</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">ahkerasti</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">усердно</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">flittig</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="vuâlla_adv">
+      <lg>
+         <l pos="Adv">vuâlla</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">under</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">alle</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">под</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">ned</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="de_adv">
+      <lg>
+         <l pos="Adv">de</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">POINT</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">тогда</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">sitten</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">da</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">then</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="domoi_adv">
+      <lg>
+         <l pos="Adv">domoi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">MOTION</sem>
+            <sem class="HUMAN">FAMILY</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv" stat="pref">home</t>
+            <t pos="Adv">homeward</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">kotiin</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">домой</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">hjem</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="Adv">heim</t>
+            <t pos="Adv">nach Hause</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">ruoktiin</t>
+            <t pos="Adv">ruoktot</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="eʹpet_adv">
+      <lg>
+         <l pos="Adv">eʹpet</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="4"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">CYCLE</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">again</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">taas</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">опять</t>
+            <t pos="Adv">снова</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">igjen</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="juʹn_adv">
+      <lg>
+         <l pos="Adv">juʹn</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">POINT</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv" stat="pref">уже</t>
+            <t pos="Adv">уж</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">jo</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">allerede</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">already</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="jâđđa_adv">
+      <lg>
+         <l pos="Adv">jâđđa</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">POINT</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">завтра</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">huomenna</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">i morgen</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">tomorrow</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">ihttin</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="jåhtta_adv">
+      <lg>
+         <l pos="Adv">jåhtta</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="213"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">POINT</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">yesterday</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">вчера</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">igår</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">eilen</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">ikte</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">jukˈta</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="jåʹttlõnji_adv">
+      <lg>
+         <l pos="Adv">jåʹttlõnji</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">CYCLE</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">быстро</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">nopeasti</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">raskt</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">quickly</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="kuuʹǩǩ_adv">
+      <lg>
+         <l pos="Adv">kuuʹǩǩ</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">CYCLE</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">long time</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv" stat="pref">долго</t>
+            <t pos="Adv">давно</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">kauan</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">lang tid</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="kuärǥast_adv">
+      <lg>
+         <l pos="Adv">kuärǥast</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="phon"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv" stat="pref">радостно</t>
+            <t pos="Adv">весело</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">iloisesti</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">gladsomely</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">gledelig</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="kuäʹss_adv">
+      <lg>
+         <l pos="Adv">kuäʹss</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="191"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">POINT</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">when</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">когда</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">når</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv" stat="pref">milloin</t>
+            <t pos="Adv">koska</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">goas</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">gåssee</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="kuʹǩǩen_adv">
+      <lg>
+         <l pos="Adv">kuʹǩǩen</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+         <book name="200" BEDLAN_ID="43"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">RELATION</sem>
+            <sem class="WORK">TRAVEL</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">far</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">далеко</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">langt</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">kaukana</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">guhkkin</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">meälˈgada</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="kõskkneez_adv">
+      <lg>
+         <l pos="Adv">kõskkneez</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">POSSESSION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">между собой</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">keskenään</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">seg imellom</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">by themselves</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="luʹnn_adv">
+      <lg>
+         <l pos="Adv">luʹnn</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="108"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">RELATION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">near</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv" stat="pref">рядом</t>
+            <t pos="Adv">окола</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">nær</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">lähellä</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Adv">луннь</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">lahka</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">lahka</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="miâlggâd_adv">
+      <lg>
+         <l pos="Adv">miâlggâd</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">довольно-таки</t>
+            <t pos="Adv">сравнительно</t>
+            <t pos="Adv">относительно</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">melko</t>
+            <t pos="Adv">melkein</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">snarere</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="muđoi_adv">
+      <lg>
+         <l pos="Adv">muđoi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">иначе</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">muuten</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">ellers</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">else</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="mäʹhtt_adv">
+      <lg>
+         <l pos="Adv">mäʹhtt</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+         <book name="200" BEDLAN_ID="79"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">как</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">miten</t>
+            <t pos="Adv">kuinka</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">hvordan</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">how</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">govt</t>
+            <t pos="Adv">mō</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">maktè</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="occanj_adv">
+      <lg>
+         <l pos="Adv">occanj</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="phon"/>
+         <book name="200" BEDLAN_ID="48"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">чуточку</t>
+            <t pos="Adv" stat="pref">чуть-чуть</t>
+            <t pos="Adv">немного</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">vähän</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">litt</t>
+            <t pos="Adv" stat="pref">en smule</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv" stat="pref">a little bit</t>
+            <t pos="Adv">somewhat</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Adv">ва̄нас</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">veahá</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">gille</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="occnja_adv">
+      <lg>
+         <l pos="Adv">occnja</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="48"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">чуточку</t>
+            <t pos="Adv" stat="pref">чуть-чуть</t>
+            <t pos="Adv">немного</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">vähän</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">litt</t>
+            <t pos="Adv" stat="pref">en smule</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv" stat="pref">a little bit</t>
+            <t pos="Adv">somewhat</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Adv">ва̄нас</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">veahá</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">gille</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="paaldâst_adv">
+      <lg>
+         <l pos="Adv">paaldâst</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">next to</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">рядом</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">vieressä</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">ved siden</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="puârast_adv">
+      <lg>
+         <l pos="Adv">puârast</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">well</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">хорошо</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">hyvin</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">bra</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="sami_adv">
+      <lg>
+         <l pos="Adv">sami</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">очень</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">hyvin</t>
+            <t pos="Adv">oikein</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">mye</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="1_seʹst_adv">
+      <lg>
+         <l pos="Adv">seʹst</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="85"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv" stat="pref">in</t>
+            <t pos="Adv">inside</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">внутри</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">inne</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">sisällä</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">siste</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">sissnee</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="2_seʹst_adv">
+      <lg>
+         <l pos="Adv">seʹst</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="85"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">MOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">out</t>
+            <t pos="Adv">from inside</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">ut</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">изнутри</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">sisältä</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">siste</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">sissnee</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="simmna_adv">
+      <lg>
+         <l pos="Adv">simmna</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="200" BEDLAN_ID="48"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">чуть-чуть</t>
+            <t pos="Adv">чуточку</t>
+            <t pos="Adv" stat="pref">немного</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">vähän</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv" stat="pref">en smule</t>
+            <t pos="Adv">litt</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv" stat="pref">a little bit</t>
+            <t pos="Adv">somewhat</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Adv">ва̄нас</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">hárvvis</t>
+            <t pos="Adv">uhccán</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">gille</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="siõmmna_adv">
+      <lg>
+         <l pos="Adv">siõmmna</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+         <book name="200" BEDLAN_ID="48"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">чуточку</t>
+            <t pos="Adv" stat="pref">чуть-чуть</t>
+            <t pos="Adv">немного</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">vähän</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">litt</t>
+            <t pos="Adv" stat="pref">en smule</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv" stat="pref">a little bit</t>
+            <t pos="Adv">somewhat</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Adv">ва̄нас</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">veahá</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">gille</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="sõrgg_adv">
+      <lg>
+         <l pos="Adv">sõrgg</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">CYCLE</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Adv">pian</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">скоро</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">straks</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">soon</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="teʹl_adv">
+      <lg>
+         <l pos="Adv">teʹl</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">POINT</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">тогда</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">silloin</t>
+            <t pos="Adv">sitten</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">da</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">then</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tiiʹǩ_adv">
+      <lg>
+         <l pos="Adv">tiiʹǩ</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="4"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">MOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv" exclude="oahpa;" style="obs">hither</t>
+            <t pos="Adv">to here</t>
+            <t pos="Adv" stat="pref">here</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">tänne</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">сюда</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">hit</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tiõrvân_adv">
+      <lg>
+         <l pos="Adv">tiõrvân</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="BODY">HEALTH</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">здорово</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">terveenä</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">sunt</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tiõttlõs_adv">
+      <lg>
+         <l pos="Adv">tiõttlõs</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">self-evidently</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">конечно</t>
+            <t pos="Adv">известно</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">tietenkin</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">selvfølgelig</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tok_adv">
+      <lg>
+         <l pos="Adv">tok</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">MOTION</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Adv">sinne</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">туда</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">dit</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv" stat="pref">to there</t>
+            <t pos="Adv">there</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="toʹben_adv">
+      <lg>
+         <l pos="Adv">toʹben</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">там</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">siellä</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">der</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">there</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tuõđi_adv">
+      <lg>
+         <l pos="Adv">tuõđi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv" stat="pref">на самом деле</t>
+            <t pos="Adv">вправду</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">todella</t>
+            <t pos="Adv">tosiaan</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">faktisk</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">in fact</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tâʹlles_adv">
+      <lg>
+         <l pos="Adv">tâʹlles</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="4"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">immediately</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">heti</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">сразу</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">umiddelbart</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="täujja_adv">
+      <lg>
+         <l pos="Adv">täujja</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">CYCLE</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Adv">usein</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">часто</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">ofte</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">often</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="1_tääiʹb_adv">
+      <lg>
+         <l pos="Adv">tääiʹb</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="75"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">здесь</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">her</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">here</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">täällä</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">dáppe</t>
+            <t pos="Adv">dá</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">dàdnee</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="2_tääiʹb_adv">
+      <lg>
+         <l pos="Adv">tääiʹb</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="75"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">MOTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">отсюда</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">herfra</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">from here</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">täältä</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">dáppe</t>
+            <t pos="Adv">dá</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">dàdnee</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="1_tääiʹben_adv">
+      <lg>
+         <l pos="Adv">tääiʹben</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="75"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">здесь</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">her</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">here</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">täällä</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">dáppe</t>
+            <t pos="Adv">dá</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">dàdnee</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="2_tääiʹben_adv">
+      <lg>
+         <l pos="Adv">tääiʹben</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="75"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">MOTION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">отсюда</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">herfra</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">from here</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">täältä</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">dáppe</t>
+            <t pos="Adv">dá</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">dàdnee</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="täʹbbe_adv">
+      <lg>
+         <l pos="Adv">täʹbbe</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">POINT</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">сегодня</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">tänään</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">i dag</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">odne</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">today</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="täʹst_adv">
+      <lg>
+         <l pos="Adv">täʹst</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">здесь</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">tässä</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">her</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">here</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="1_tåʹben_adv">
+      <lg>
+         <l pos="Adv">tåʹben</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="200" BEDLAN_ID="169"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">there</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">там</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">der</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv" stat="pref">siellä</t>
+            <t pos="Adv">tuolla</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">dos</t>
+            <t pos="Adv">duos</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">duggù</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="2_tåʹben_adv">
+      <lg>
+         <l pos="Adv">tåʹben</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="200" BEDLAN_ID="169"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">MOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">from there</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv" stat="pref">оттуда</t>
+            <t pos="Adv">от там</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">derfra</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv" stat="pref">sieltä</t>
+            <t pos="Adv">tuolta</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">dos</t>
+            <t pos="Adv">duos</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">duggù</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tõndiõtt_adv">
+      <lg>
+         <l pos="Adv">tõndiõtt</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="200" BEDLAN_ID="9"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Adv" stat="pref">sen takia</t>
+            <t pos="Adv">siksi</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv" stat="pref">for that reason</t>
+            <t pos="Adv">that's why</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv" stat="pref">по этой причине</t>
+            <t pos="Adv">поэтому</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">derfor</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">danne</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">diaht</t>
+            <t pos="Adv">diahta</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="vuâsti_adv">
+      <lg>
+         <l pos="Adv">vuâsti</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="4"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">certainly</t>
+            <t pos="Adv">surely</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">varmaan</t>
+            <t pos="Adv">varmasti</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">наверно</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">sikkert</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="vuõššân_adv">
+      <lg>
+         <l pos="Adv">vuõššân</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">POINT</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">first</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">во-первых</t>
+            <t pos="Adv">сначала</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">ensiksi</t>
+            <t pos="Adv">ensin</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">i begynnelse</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="võl_adv">
+      <lg>
+         <l pos="Adv">võl</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">more</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv" stat="pref">ещё</t>
+            <t pos="Adv" t_type="sr">еще</t>
+            <t pos="Adv">еще</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">vielä</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">mer</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="ââlda_adv">
+      <lg>
+         <l pos="Adv">ââlda</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="108"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv" stat="pref">близко</t>
+            <t pos="Adv">недалеко</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv" stat="pref">near</t>
+            <t pos="Adv">nearby</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv" stat="pref">lähellä</t>
+            <t pos="Adv">lähelle</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">lahka</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">lahka</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="ålggan_adv">
+      <lg>
+         <l pos="Adv">ålggan</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">outside</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">ulkona</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">на улица</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">ute</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="ååʹn_adv">
+      <lg>
+         <l pos="Adv">ååʹn</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="TIME">POINT</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">теперь</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">nyt</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">nå</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">dal</t>
+            <t pos="Adv">dál</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">now</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="õhttu_adv">
+      <lg>
+         <l pos="Adv">õhttu</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="phon"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Adv">один</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">yksin</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">alene</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">alone</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="čuuʹt_adv">
+      <lg>
+         <l pos="Adv">čuuʹt</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="4"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">EMOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">very much</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv" stat="pref">kovin</t>
+            <t pos="Adv">aivan</t>
+            <t pos="Adv">liian</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv" stat="pref">очень</t>
+            <t pos="Adv">слишком</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">mye</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="1_koʹst-ne_adv">
+      <lg>
+         <l pos="Adv" lemma="koʹst">koʹst-ne</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">somewhere</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">где-то</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">jossain</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">noensteds</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="2_koʹst-ne_adv">
+      <lg>
+         <l pos="Adv" lemma="koʹst">koʹst-ne</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">MOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">from somewhere</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">откуда-то</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">jossain</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">fra noensteds</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="1_täʹst_adv">
+      <lg>
+         <l pos="Adv" lemma="xxx">täʹst</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="xxx"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem/>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">here</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="pro">tässä</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">здесь</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">her</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="2_täʹst_adv">
+      <lg>
+         <l pos="Adv" lemma="xxx">täʹst</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="xxx"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem/>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">from here</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="pro">tästä</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">отсюда</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">herifra</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tõõzz_adv">
+      <lg>
+         <l pos="Adv" lemma="xxx">tõõzz</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="xxx"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem/>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Adv">sille</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">туда</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="koozz_adv">
+      <lg>
+         <l pos="Adv" lemma="xxx" gloss="ill">koozz</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="4"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">MOTION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv" exclude="oahpa;" style="obs">whither</t>
+            <t pos="Adv" stat="pref">where</t>
+            <t pos="Adv">to where</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv" stat="pref">mihin</t>
+            <t pos="Adv">minne</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">куда</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv" stat="pref">hvor</t>
+            <t pos="Adv">hvorhen</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="1_koʹst_adv">
+      <lg>
+         <l pos="Adv" lemma="xxx" gloss="loc">koʹst</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="192"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv" stat="pref">where</t>
+            <t pos="Adv">where at</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">missä</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">где</t>
+            <t pos="Adv">где</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">gos</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">hvor</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Adv">güssnè</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="2_koʹst_adv">
+      <lg>
+         <l pos="Adv" lemma="xxx" gloss="loc">koʹst</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="192"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SPACE">POSITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv" exclude="oahpa;" style="obs">whence</t>
+            <t pos="Adv" stat="pref">wherefrom</t>
+            <t pos="Adv">from where</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">mistä</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">откуда</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">hvor fra</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Adv">gos</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="jäänab_adv">
+      <lg>
+         <l pos="Adv" lemma="jiânnai" gloss="comp">jäänab</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Adv">enemmän</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">больше</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">mer</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Adv">more</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="teänab_adv">
+      <lg>
+         <l pos="Adv" lemma="xxx" gloss="comp">teänab</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Adv">not more</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Adv">enää</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Adv">не больше</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Adv">ikke mer</t>
+         </tg>
+      </mg>
+   </e>
+</r>

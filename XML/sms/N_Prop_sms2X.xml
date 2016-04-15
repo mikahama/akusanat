@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="sms">
+   <e id="Dåʹmnn_prop">
+      <lg>
+         <l pos="N" sem_type="Human" type="Prop" gender="f">Dåʹmnn</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Human" type="Prop">Tyyne</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Human" type="Prop">Домна</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Human" type="Prop">Domna</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Human" type="Prop">Tyyne</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Aanar_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Aanar</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="phon"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Inari</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Inari</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Инари</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Enare</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="N" sem_type="Plc" type="Prop">Anár</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="N" sem_type="Plc" type="Prop">Inari</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Evvan_prop">
+      <lg>
+         <l pos="N" sem_type="Human" type="Prop" gender="m">Evvan</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Human" type="Prop">Ivan</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Human" type="Prop">Juhani</t>
+            <t pos="N" sem_type="Human" type="Prop">Jussi</t>
+            <t pos="N" sem_type="Human" type="Prop">Iivana</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Human" type="Prop">Иван</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Human" type="Prop">Ivan</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="N" sem_type="Human" type="Prop">Ivan</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Eŋgglõs_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Eŋgglõs</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Англия</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Englanti</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">England</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">England</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Lääʹddjânnam_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Lääʹddjânnam</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Suomi</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Финляндия</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Finland</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Finland</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Mäʹrjj_prop">
+      <lg>
+         <l pos="N" sem_type="Human" type="Prop" gender="f">Mäʹrjj</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Human" type="Prop">Мария</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Prop" stat="pref">Marja</t>
+            <t pos="N" sem_type="Human" type="Prop">Maria</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Human" type="Prop">Maria</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Human" type="Prop">Maria</t>
+            <t pos="Prop" stat="pref">Mary</t>
+            <t pos="N" sem_type="Human" type="Prop">Miriam</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Njeʹǯǯjäuʹrr_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Njeʹǯǯjäuʹrr</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="phon"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">TOPONOMY</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Нитсиярви</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Nitsijärvi</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Nitsijärvi</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Nitsijärvi</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Ruäʹvnjargg_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Ruäʹvnjargg</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Рованиеми</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Rovaniemi</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Rovaniemi</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="N" sem_type="Plc" type="Prop">Roavvenjárga</t>
+            <t pos="N" sem_type="Plc" type="Prop">Roavenjárga</t>
+         </tg>
+         <tg xml:lang="smn">
+            <t pos="N" sem_type="Plc" type="Prop">Ruávinjargâ</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Rovaniemi</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Ruõcˈc_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Ruõcc</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Швеция</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Ruotsi</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Sverige</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Sweden</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Ruõššjânnam_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Ruõššjânnam</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Venäjä</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Россия</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Russland</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Russia</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Sakssajânnam_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Sakssajânnam</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Saksa</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Германия</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Tyskland</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Germany</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Taarrjânnam_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Taarrjânnam</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Norja</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Новрегия</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Norge</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Norway</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Väʹsǩǩ_prop">
+      <lg>
+         <l pos="N" sem_type="Human" type="Prop" gender="m">Väʹsǩǩ</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Prop" stat="pref">Vasko</t>
+            <t pos="N" sem_type="Human" type="Prop">Pasi</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Human" type="Prop">Василий</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Human" type="Prop">Basil</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Human" type="Prop">Basil</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Âʹvvel_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Âʹvvel</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="phon"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Ivalo</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Ivalo</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Ивало</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Ivalo</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="N" sem_type="Plc" type="Prop">Ivalo</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="N" sem_type="Plc" type="Prop">Avvil</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Äännaž_prop">
+      <lg>
+         <l pos="N" sem_type="Human" type="Prop" gender="f">Äännaž</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="Prop" stat="pref">Annikki</t>
+            <t pos="N" sem_type="Human" type="Prop">Anni</t>
+            <t pos="N" sem_type="Human" type="Prop">Annika</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Human" type="Prop">Анюшка</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Prop" stat="pref">Anni</t>
+            <t pos="N" sem_type="Human" type="Prop">Anna</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Human" type="Prop">Anna</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Äʹnn_prop">
+      <lg>
+         <l pos="N" sem_type="Human" type="Prop" gender="f">Äʹnn</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Human" type="Prop">Anni</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Prop" stat="pref">Анна</t>
+            <t pos="N" sem_type="Human" type="Prop">Аня</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Human" type="Prop">Anna</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Human" type="Prop">Ann</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="1_Čeʹvetjäuʹrr_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Čeʹvetjäuʹrr</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Севеттиярви</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Sevettijärvi</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Sevettijärvi</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Sevettijärvi</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="2_Čeʹvetjäuʹrr_prop">
+      <lg>
+         <l pos="N" sem_type="Plc" type="Prop">Čeʹvetjäuʹrr</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">TOPONOMY</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Plc" type="Prop">Севеттиярви</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Plc" type="Prop">Sevettijärvi</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Plc" type="Prop">Sevettijärvi</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Plc" type="Prop">Sevettijärvi</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Ǩiuʹrrel_prop">
+      <lg>
+         <l pos="N" sem_type="Human" type="Prop" gender="m">Ǩiuʹrrel</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="N" sem_type="Human" type="Prop">Cyprian</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N" sem_type="Human" type="Prop">Kiureli</t>
+            <t pos="N" sem_type="Human" type="Prop">Kari</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="N" sem_type="Human" type="Prop">Кирилл</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="N" sem_type="Human" type="Prop">Kiprian</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="N" sem_type="Human" type="Prop">Kiprian</t>
+         </tg>
+         <tg xml:lang="rom">
+            <t pos="N" sem_type="Human" type="Prop">Ciprian</t>
+         </tg>
+      </mg>
+   </e>
+</r>

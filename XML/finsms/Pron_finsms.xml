@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r id="smsfin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+   You are free to copy, distribute and adapt the work, as long as you always give
+   proper attribution using the attribution text below.
+   For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
+   Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref> <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
+   This is NOT a fully styled and published dictionary.
+   As such it can and will contain unfinished entries, unpublished entries, 
+   entries with objectionable translations, etc. If you find any errors 
+   or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.</sourcenote> </lics>
+
+
+
+
+<e> <lg> <l pos="Pron">he</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-PERS-PL3_" pos="Pron">sij</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">he kaksi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-PERS-DU3_" pos="Pron">suäna</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">hän</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-PERS-SG3_" pos="Pron">son</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">hänen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">suu</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">hänen luoksensa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">årrses</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">itse</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jiõčč</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">itse</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON-REFL_" pos="Pron">jiõčč</t> <t Contlex="PRON-REFL-SG-NOM_" pos="Pron">jičč</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itsekseen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON-REFL-SG1-COM_" pos="Pron">jiõččinan</t> <t Contlex="PRON-REFL-SG1-COM_" pos="Pron">jiõččinan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itseksemme</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-SG1-COM_" pos="Pron">jiõččinan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itsekseni</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-SG1-COM_" pos="Pron">jiõččinan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itseksenne</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-SG1-COM_" pos="Pron">jiõččinan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itseksesi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-SG1-COM_" pos="Pron">jiõččinan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itselleen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON-REFL-SG1-ILL_" pos="Pron">jiõccan</t> <t Contlex="PRON-REFL-SG1-ILL_" pos="Pron">jiõccan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itsellemme</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-SG1-ILL_" pos="Pron">jiõccan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itselleni</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-SG1-ILL_" pos="Pron">jiõccan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itsellenne</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-SG1-ILL_" pos="Pron">jiõccan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itsellesi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-SG1-ILL_" pos="Pron">jiõccan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itseltämme</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-PL1-LOC_" pos="Pron">jijsteen</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itseltäni</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-SG1-LOC_" pos="Pron">jijstan</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itseltänne</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-PL2-LOC_" pos="Pron">jijsteed</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itseltäsi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL-SG2-LOC_" pos="Pron">jijstad</t> </tg> </mg> </e>
+<e> <lg> <l pos="">itseltään</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON-REFL-SG3-LOC_" pos="Pron">jijstes</t> <t Contlex="PRON-REFL-PL3-LOC_" pos="Pron">jijsteez</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">itsemme</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jieʹččen</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">itseni</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON-REFL_" pos="Pron">jiõččân</t> <t Contlex="PRON-REFL_" pos="Pron">jiõččan</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">itsensä, heidän, heidän omansa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jiiʹjjez</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">itsesi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jiõččad</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">joka</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-REL_" pos="Pron">kååʹtt</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">jokainen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON_" pos="Pron">jueʹǩǩkaž</t> <t Contlex="PRON_" pos="Pron">juâkksaž</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">jokin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-INDEF_" pos="Pron">mii-ne</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">joku</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON_" pos="Pron">kevätǩii-ne</t> <t Contlex="PRON-INDEF_" pos="Pron">kååʹtt-ne</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">jolloin</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="TIME">POINT</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-REL_" pos="Pron">kuäʹss</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">jompikumpi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-QNT_" pos="Pron">kuäbbaž-ne</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">jotakin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">mâʹid-ne</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">jälkeensä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-SPAT-SG3-ILL_" pos="Pron">mâʹŋŋlasas</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">kaikki</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">QUANTITY</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON_PUK" pos="Pron">puk</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">ken</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-REL_" pos="Pron">kååʹtt</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">kenen</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-PERS_" pos="Pron">ǩeän</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">kenen; jonka</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">koon</t> </tg> </mg> </e>
+<e> <lg> <l pos="Adv">keskenään</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">POSSESSION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">kõskkneez</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">ketkä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">ǩeäk</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">ketkä; jotka</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">kook</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">koko; kokonaan</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_PUK" pos="Pron">puk</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">kuka</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">ǩii</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">kukin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">ǩii-a</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">kumpikin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-QNT_" pos="Pron">kuäbbaž-a</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">luokseen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">årrseez</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">luoksemme</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">årrseen</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">luokseni</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-SPAT-SG1-ILL_" pos="Pron">årrsan</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">luokseni,-si,-nsa,-mme,-nne,-nsa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-SPAT-PL1-ILL_" pos="Pron">luuzzân</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">luoksenne</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">årrseed</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">luoksesi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">årrsad</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">luona|an, -mme, -nne,-nsa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-SPAT-SG3-LOC_" pos="Pron">luuʹnnes</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">luona|ni,-si, luota|ni,-si</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">loonnan</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">me</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-PERS-PL1_" pos="Pron">mij</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">me kaksi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-PERS-DU1_" pos="Pron">muäna</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">meidän</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jieʹččen</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">meidän omamme, omamme</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jieʹččen</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">mikä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-REL_" pos="Pron">mii</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">minun</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON-REFL_" pos="Pron">jiõččân</t> <t Contlex="PRON-REFL_" pos="Pron">jiõččan</t> <t Contlex="PRON-PERS_" pos="Pron">muu</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">minun omani</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jiõččan</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">minut itseni</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jiõččan</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">minä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-PERS-SG1_" pos="Pron">mon</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">mitä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-REL_" pos="Pron">mii</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">mitä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-INTERR_" pos="Pron">mâiʹd</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">mitään</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">snaahh</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">mukanani, -si</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-SPAT-SG1-LOC_" pos="Pron">meâldan</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">mukana|an,-mme, -nne,-nsa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-SPAT-SG3-LOC_" pos="Pron">mieʹldes</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">noin kaksi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Qnt">muånn</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">nämä (tässä)</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">tiekk-aa</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">omani</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON-REFL_" pos="Pron">jiõččân</t> <t Contlex="PRON-REFL_" pos="Pron">jiõččan</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">omasi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jiõččad</t> </tg> </mg> </e>
+<e> <lg> <l pos="A">omituinen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jiiʹjjes</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">pari</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Qnt">muånn</t> </tg> </mg> </e>
+<e> <lg> <l pos="">päälleen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON_" pos="Pron">oolâs</t> <t Contlex="PRON_" pos="Pron">oolâz</t> </tg> </mg> </e>
+<e> <lg> <l pos="">päällemme</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">oolâm</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">päälleni</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">oolam</t> </tg> </mg> </e>
+<e> <lg> <l pos="">päällenne</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">oolâd</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">päällesi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">oolad</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">se</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-PERS-SG3_" pos="Pron">son</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">se ja se</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">tõt-aa tõt-aa</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">sinun</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON-REFL_" pos="Pron">jiõččad</t> <t Contlex="PRON_" pos="Pron">tuu</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">sinun omasi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON-REFL_" pos="Pron">jiijjad</t> <t Contlex="PRON-REFL_" pos="Pron">jiõččad</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">sinut itsesi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-REFL_" pos="Pron">jiõččad</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">sinä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-PERS-SG2_" pos="Pron">ton</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">sinä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">tun</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">taakseen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-SPAT-SG3-ILL_" pos="Pron">mâʹŋŋlasas</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">te</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> </semantics> <tg xml:lang="sms"> <t Contlex="PRON-PERS-PL2_" pos="Pron">tij</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">te kaksi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-PERS-DU2_" pos="Pron">tuäna</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">toinen toisensa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron::Pron">kueiʹmm kueiʹmes</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">tämä (tässä)</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">tiett-aa</t> </tg> </mg> </e>
+<e> <lg> <l pos="">ylleen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="PRON_" pos="Pron">oolâs</t> <t Contlex="PRON_" pos="Pron">oolâz</t> </tg> </mg> </e>
+<e> <lg> <l pos="">yllemme</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">oolâm</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">ylleni</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">oolam</t> </tg> </mg> </e>
+<e> <lg> <l pos="">yllenne</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">oolâd</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">yllesi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON_" pos="Pron">oolad</t> </tg> </mg> </e>
+<e> <lg> <l pos="Pron">ympärille|ni,-si,-nsä,-mme,-nne, -nsä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="PRON-SPAT-SG1-ILL_" pos="Pron">pirrsan</t> </tg> </mg> </e>
+</r>

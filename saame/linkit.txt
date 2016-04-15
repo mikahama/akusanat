@@ -1,0 +1,13 @@
+morfologiaa
+https://victorio.uit.no/langtech/trunk/langs/sms/src/morphology/stems/N_sms2x.xml
+
+https://victorio.uit.no/langtech/trunk/langs/sms/src/morphology/stems/N_sms2x.lexc
+
+finlav NDS
+https://victorio.uit.no/langtech/trunk/words/dicts/finlav/src/N_finlav.xml
+finsms NDS
+https://victorio.uit.no/langtech/trunk/words/dicts/finsms/src/N_finsms.xml
+
+OAHPA:
+https://victorio.uit.no/langtech/trunk/ped/sms/src/N_sms2X.xml
+

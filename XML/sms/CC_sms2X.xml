@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="sms">
+   <e id="avi_cc">
+      <lg>
+         <l pos="CC">avi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="CC">or</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="CC">vai</t>
+            <t pos="CC">tai</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="CC">или</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="CC">eller</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="a_cc">
+      <lg>
+         <l pos="CC">a</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="CC" stat="pref">но</t>
+            <t pos="CC">однако</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="CC">mutta</t>
+            <t pos="CC">vaan</t>
+            <t pos="CC">entä</t>
+            <t pos="CC">no</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="CC">men</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="CC">but</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="CC">muhto</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="da_cc">
+      <lg>
+         <l pos="CC">da</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="sju">
+            <t pos="CC">ja</t>
+            <t pos="CC">jah</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="CC">и</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="CC">ja</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="CC">og</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="CC">and</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="CC">ja</t>
+         </tg>
+         <tg xml:lang="smn">
+            <t pos="CC">já</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="ja_cc">
+      <lg>
+         <l pos="CC">ja</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="CC">and</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="CC">и</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="CC">og</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="CC">ja</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="CC">ja</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="CC">ja</t>
+            <t pos="CC">jah</t>
+         </tg>
+      </mg>
+   </e>
+</r>

@@ -1,0 +1,176 @@
+!! This is where new words are added as lexc entries before they are 
+!! added to the xml source files.
+!! Mättʼtõshalltõs:Mättʼtõshalltõs PROP_ČÅRRÕS "(eng) /(fin) /(rus) " ;
+
+
+LEXICON PROP_NEWWORDS
+test:test N_MUÕRR "(eng) /(fin) /(rus) " ;
+!! ADD PROPER NOUNS BELOW
+!! LACKING SPECIFIC DECLENSION TYPE
+Heikki+Sem/Mal:Heikki PROP_  "(eng) /(fin) /(rus) " ;
+
+!! WITH SPECIFIC DECLENSION TYPE
+Aikio+Sem/Sur:Aikio PROP_RADIO "(eng) /(fin) /(rus) " ;
+Näkkäläjäuʹrr+Sem/Sur:Näkkälä#j%^1VOWäurr PROP_JÄUʹRR  "(eng) /(fin) Näkkäläjärvi/(rus) " ;
+Paltto+Sem/Sur:Paltto PROP_RADIO  "(eng) /(fin) /(rus) " ;
+Sanila+Sem/Sur:Sanila PROP_BIOLOGIA  "(eng) /(fin) /(rus) " ;
+Sanila-Aikio+Sem/Sur:Sanila-Aikio PROP_RADIO "(eng) /(fin) /(rus) " ;
+
+!! First names
+Anna+Sem/Fem:Anna PROP_MERJA ;
+Heidi+Sem/Fem:Heidi PROP_TERHI ;
+Miika+Sem/Mal:Miika PROP_MERJA ;
+Anne+Sem/Fem:Anne PROP_JOUSTE ;
+Terhi+Sem/Fem:Terhi PROP_TERHI ;
+Erkki+Sem/Mal:Erkki PROP_TERHI ;
+Olli+Sem/Mal:Olli PROP_TERHI ;
+Heini+Sem/Fem:Heini PROP_TERHI ;
+Toini+Sem/Fem:Toini PROP_TERHI ;
+Jouni+Sem/Mal:Jouni PROP_TERHI ;
+Jari+Sem/Mal:Jari PROP_TERHI ;
+Kari+Sem/Mal:Kari PROP_TERHI ;
+Mari+Sem/Fem:Mari PROP_TERHI ;
+Sari+Sem/Fem:Sari PROP_TERHI ;
+Ilmari+Sem/Mal:Ilmari PROP_TERHI ;
+Seri+Sem/Fem:Seri PROP_TERHI ;
+Siiri+Sem/Fem:Siiri PROP_TERHI ;
+Henri+Sem/Mal:Henri PROP_TERHI ;
+Harri+Sem/Mal:Harri PROP_TERHI ;
+Katri+Sem/Fem:Katri PROP_TERHI ;
+Petri+Sem/Mal:Petri PROP_TERHI ;
+Ahti+Sem/Mal:Ahti PROP_TERHI ;
+Kirsti+Sem/Fem:Kirsti PROP_TERHI ;
+Klemetti+Sem/Mal:Klemetti PROP_TERHI ;
+Antti+Sem/Mal:Antti PROP_TERHI ;
+Pentti+Sem/Mal:Pentti PROP_TERHI ;
+Pertti+Sem/Mal:Pertti PROP_TERHI ;
+Servi+Sem/Mal:Servi PROP_TERHI ;
+Jussi+Sem/Mal:Jussi PROP_TERHI ;
+Anna-Katariina+Sem/Fem:Anna-Katariina PROP_MERJA ;
+Anna-Liisa+Sem/Fem:Anna-Liisa PROP_MERJA ;
+Anna-Maja+Sem/Fem:Anna-Maja PROP_MERJA ;
+Anu+Sem/Fem:Anu PROP_OULU ;
+Asko+Sem/Mal:Asko PROP_RADIO ;
+Carita+Sem/Fem:Carita PROP_MERJA ;
+Chiara+Sem/Fem:Chiara PROP_MERJA ;
+Domna+Sem/Fem:Domna PROP_MERJA ;
+Eeva+Sem/Fem:Eeva PROP_MERJA ;
+Eija+Sem/Fem:Eija PROP_MERJA ;
+Eila+Sem/Fem:Eila PROP_MERJA ;
+Elina+Sem/Fem:Elina PROP_MERJA ;
+Hanna-Maaria+Sem/Fem:Hanna-Maaria PROP_MERJA ;
+Helena+Sem/Fem:Helena PROP_MERJA ;
+Hetta+Sem/Fem:Hetta PROP_MERJA ;
+Irja+Sem/Fem:Irja PROP_MERJA ;
+Jaakko+Sem/Mal:Jaakko PROP_RADIO ;
+Jarno+Sem/Mal:Jarno PROP_RADIO ;
+Jarva+Sem/Fem:Jarva PROP_MERJA ;
+Jouko+Sem/Mal:Jouko PROP_RADIO ;
+Juha+Sem/Mal:Juha PROP_MERJA ;
+Jukka+Sem/Mal:Jukka PROP_MERJA ;
+Juuso+Sem/Mal:Juuso PROP_RADIO ;
+Juvva+Sem/Mal:Juvva PROP_MERJA ;
+Kaisja+Sem/Fem:Kaisja PROP_MERJA ;
+Katja+Sem/Fem:Katja PROP_MERJA ;
+Magreta+Sem/Fem:Magreta PROP_MERJA ;
+Maija-Liisa+Sem/Fem:Maija-Liisa PROP_MERJA ;
+Maritta+Sem/Fem:Maritta PROP_MERJA ;
+Marja+Sem/Fem:Marja PROP_MERJA ;
+Marja-Liisa+Sem/Fem:Marja-Liisa PROP_MERJA ;
+Marko+Sem/Mal:Marko PROP_RADIO ;
+Matleena+Sem/Fem:Matleena PROP_MERJA ;
+Merja+Sem/Fem:Merja PROP_MERJA ;
+Mika+Sem/Mal:Mika PROP_MERJA ;
+Minna+Sem/Fem:Minna PROP_MERJA ;
+Mira+Sem/Fem:Mira PROP_MERJA ;
+Mirka+Sem/Fem:Mirka PROP_MERJA ;
+Natalia+Sem/Fem:Natalia PROP_MERJA ;
+Neeta+Sem/Fem:Neeta PROP_MERJA ;
+Niilo+Sem/Mal:Niilo PROP_RADIO ;
+Nilla+Sem/Mal:Nilla PROP_MERJA ;
+Oiva+Sem/Mal:Oiva PROP_MERJA ;
+Pauliina+Sem/Fem:Pauliina PROP_MERJA ;
+Pekka+Sem/Mal:Pekka PROP_MERJA ;
+Per-Oula+Sem/Mal:Per-Oula PROP_MERJA ;
+Petra+Sem/Fem:Petra PROP_MERJA ;
+Pia+Sem/Fem:Pia PROP_MERJA ;
+Pigga+Sem/Fem:Pigga PROP_MERJA ;
+Pirkko+Sem/Fem:Pirkko PROP_RADIO ;
+Sara+Sem/Fem:Sara PROP_MERJA ;
+Seija+Sem/Fem:Seija PROP_MERJA ;
+Sirkka+Sem/Fem:Sirkka PROP_MERJA ;
+Taarna+Sem/Fem:Taarna PROP_MERJA ;
+Tauna+Sem/Fem:Tauna PROP_MERJA ;
+Tauno+Sem/Mal:Tauno PROP_RADIO ;
+Tero+Sem/Mal:Tero PROP_RADIO ;
+Unna+Sem/Fem:Unna PROP_MERJA ;
+Vesa+Sem/Mal:Vesa PROP_MERJA ;
+Åsa+Sem/Fem:Åsa PROP_MERJA ;
+
+Eino+Sem/Mal:Eino PROP_RADIO  "(eng) /(fin) /(rus) " ;
+Ismo+Sem/Mal:Ismo PROP_RADIO  "(eng) /(fin) /(rus) " ;
+Jarmo+Sem/Mal:Jarmo PROP_RADIO  "(eng) /(fin) /(rus) " ;
+Tanja+Sem/Fem:Tanja PROP_MERJA  "(eng) /(fin) /(rus) " ;
+Tiina+Sem/Fem:Tiina PROP_MERJA  "(eng) /(fin) /(rus) " ;
+Raimo+Sem/Mal:Raimo PROP_RADIO  "(eng) /(fin) /(rus) " ;
+Simo+Sem/Mal:Simo PROP_RADIO  "(eng) /(fin) /(rus) " ;
+Tapio+Sem/Mal:Tapio PROP_RADIO  "(eng) /(fin) /(rus) " ;
+Tauno+Sem/Mal:Tauno PROP_RADIO  "(eng) /(fin) /(rus) " ;
+Veikko+Sem/Mal:Veikko PROP_RADIO  "(eng) /(fin) /(rus) " ;
+
+
+
+!! SURNAMES
+Feodoroff:Feodoroff PROP_SEM/SUR_PAPP "" ;
+Fofanoff:Fofanoff PROP_SEM/SUR_PAPP "" ;
+Fofonoff:Fofonoff PROP_SEM/SUR_PAPP "" ;
+Gauriloff:Gauriloff PROP_SEM/SUR_PAPP "" ;
+Jefremoff:Jefremoff PROP_SEM/SUR_PAPP "" ;
+Kiprianoff:Kiprianoff PROP_SEM/SUR_PAPP "" ;
+Lietoff:Lietoff PROP_SEM/SUR_PAPP "" ;
+Ljetoff:Ljetoff PROP_SEM/SUR_PAPP "" ;
+Moshnikoff:Moshnikoff PROP_SEM/SUR_PAPP "" ;
+Semenoff:Semenoff PROP_SEM/SUR_PAPP "" ;
+Sverloff:Sverloff PROP_SEM/SUR_PAPP "" ;
+Titoff:Titoff PROP_SEM/SUR_PAPP "" ;
+
+Avaskari+Sem/Sur:Avaskari PROP_TERHI ;
+Hakkola+Sem/Sur:Hakkola PROP_MERJA ;
+Haltta+Sem/Sur:Haltta PROP_MERJA ;
+Harju+Sem/Sur:Harju PROP_OULU	;
+Hyppä+Sem/Sur:Hyppä SURNAME_DUMMY	;
+Jouste+Sem/Sur:Jouste PROP_JOUSTE ;
+Juutinen+Sem/Sur:Juutinen SURNAME_DUMMY	;
+Jääskö+Sem/Sur:Jääskö SURNAME_DUMMY	;
+Kiviniemi+Sem/Sur:Kiviniemi PROP_TERHI	;
+Lindberg+Sem/Sur:Lindberg SURNAME_DUMMY		;
+Lehtinen+Sem/Sur:Lehtinen SURNAME_DUMMY		;
+Leivo+Sem/Sur:Leivo PROP_RADIO		;
+Lotvonen+Sem/Sur:Lotvonen SURNAME_DUMMY		;
+Lumisalmi+Sem/Sur:Lumisalmi PROP_TERHI	;
+Mustonen+Sem/Sur:Mustonen SURNAME_DUMMY		;
+Mäenpää+Sem/Sur:Mäenpää SURNAME_DUMMY		;
+Määttä+Sem/Sur:Määttä SURNAME_DUMMY		;
+Nuorteva+Sem/Sur:Nuorteva PROP_MERJA ;
+Näkkäläjärvi+Sem/Sur:Näkkäläjärvi PROP_TERHI	;
+Porsanger+Sem/Sur:Porsanger SURNAME_DUMMY	;
+Rantakeisu+Sem/Sur:Rantakeisu PROP_OULU	;
+Saijets+Sem/Sur:Saijets SURNAME_DUMMY		;
+Semenoja+Sem/Sur:Semenoja PROP_MERJA ;
+Sivertsen+Sem/Sur:Sivertsen SURNAME_DUMMY	;
+Tapiola+Sem/Sur:Tapiola PROP_MERJA ;
+Valjakka+Sem/Sur:Valjakka PROP_MERJA ;
+Valtonen+Sem/Sur:Valtonen SURNAME_DUMMY	;
+Väyrynen+Sem/Sur:Väyrynen SURNAME_DUMMY	;
+Wesslin+Sem/Sur:Wesslin SURNAME_DUMMY	;
+Wetterstrand+Sem/Sur:Wetterstrand SURNAME_DUMMY	;
+
+!! ORGANIZATIONS
+!+Sem/Org
+Areena+Sem/Org:Areena PROP_MERJA ;
+Giellagas-institutt+Sem/Org:Giellagas-instit%^1VOWutt PROP_PAPP ;
+Unesco+Sem/Org:Unesco PROP_RADIO ;
+Meersažarkiiv+Sem/Org:Meersažarkiiv PROP_JARPLAAN ;
+Rospuutto%-joukk+Sem/Org:Rospuutto%-j%^1VOWoukk PROP_AUTT ;
+
+

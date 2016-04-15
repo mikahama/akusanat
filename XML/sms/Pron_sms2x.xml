@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="sms">
+   <e id="ni ǩeän_pro">
+      <lg>
+         <l pos="Pron" lemma="pro_ǩii">ni ǩeän</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Pron">nobody</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Pron" gloss="gen.sg">никого</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron">ketään</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">ikke noen</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="ni mâiʹd_pro">
+      <lg>
+         <l pos="Pron" lemma="pcle_ni">ni mâiʹd</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Pron">nothing</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron">mitään</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Pron" gloss="gen.sg">ничего</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">ikke noe</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="jiõčč_pro">
+      <lg>
+         <l pos="Pron">jiõčč</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Pron">self</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron">itse</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Pron">сам</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">selv</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="mii_pro">
+      <lg>
+         <l pos="Pron">mii</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="*190"/>
+         <book name="200" BEDLAN_ID="153"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pron">что</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron" stat="pref">mikä</t>
+            <t pos="Pron">mitä</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hva</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Pron">мӣ</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Pron">what</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="Pron">was</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Pron">mii</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Pron">mii</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="mij_pro">
+      <lg>
+         <l pos="Pron">mij</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="*188"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pron">мы</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Pron">мыйй</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron">me</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Pron">we</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="Pron">wir</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">vi</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Pron">mii</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Pron">mijja</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="mon_pro">
+      <lg>
+         <l pos="Pron">mon</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="*82"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pron">я</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Pron">I</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron">minä</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Pron">mun</t>
+            <t pos="Pron">mun</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Pron">мунн</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="Pron">ich</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">jeg</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Pron">månna</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="puk_pro">
+      <lg>
+         <l pos="Pron">puk</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+         <book name="200" BEDLAN_ID="*1"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pron" stat="pref">всё</t>
+            <t pos="Pron" t_type="sr">все</t>
+            <t pos="Pron">все</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Pron">пугк</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron">kaikki</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Pron">all</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="Pron">alle</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">alle</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Pron">buot</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Pron">gàihka</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="sij_pro">
+      <lg>
+         <l pos="Pron">sij</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="170"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Pron">they</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron">he</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Pron">они</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">dem</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Pron">sii</t>
+            <t pos="Pron">sii</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Pron">sijja</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="son_pro">
+      <lg>
+         <l pos="Pron">son</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="70"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pron" fem="она">он</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron" stat="pref">hän</t>
+            <t pos="Pron">se</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" fem="hun">han</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Pron" fem="she">he</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Pron">son</t>
+            <t pos="Pron">dat</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Pron">sådˈna</t>
+            <t pos="Pron">å̀ivee</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="ton_pro">
+      <lg>
+         <l pos="Pron">ton</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="*207"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pron">ты</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Pron" number="sg">you</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron">sinä</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Pron">don</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Pron">dådˈna</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Pron">то̄нн</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="Pron">du</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">du</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="ǩii_pro">
+      <lg>
+         <l pos="Pron">ǩii</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="*194"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="rus">
+            <t pos="Pron">кто</t>
+         </tg>
+         <tg xml:lang="sjd">
+            <t pos="Pron">ке̄</t>
+         </tg>
+         <tg xml:lang="eng">
+            <t pos="Pron">who</t>
+         </tg>
+         <tg xml:lang="deu">
+            <t pos="Pron">wer</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hvem</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron">kuka</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Pron">gii</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Pron">gìe</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tij_pro">
+      <lg>
+         <l pos="Pron">tij</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="206"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="eng">
+            <t pos="Pron">you</t>
+         </tg>
+         <tg xml:lang="rus">
+            <t pos="Pron">вы</t>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron">dere</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="Pron">te</t>
+         </tg>
+         <tg xml:lang="sme">
+            <t pos="Pron">dii</t>
+         </tg>
+         <tg xml:lang="sju">
+            <t pos="Pron">dijja</t>
+         </tg>
+      </mg>
+   </e>
+</r>
