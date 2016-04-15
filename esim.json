@@ -1,0 +1,29 @@
+{
+	"_id" : "Mongon generoima",
+	"lemma" : "kuusi",
+	"homonymy" : [
+			{
+				"POS" : "Num",
+				"translations" : {
+					"eng" : [
+						{"word": "six", "POS" : "Num" }//muita attribuutteja...
+					]
+				},
+				"sms2xml" :{//sms2x.xml -tiedostospesifi data
+					"id" : "kuusi_num",
+					"file" : "Num_sms2X.xml",
+					"sources" : [
+						{"name": "kurssi", "lesson": "3"}//muita attribuutteja...
+					],
+					"lemmas_additional_attributes": {"subjectrectio": "loc"}//esim.
+				},
+				"semantics" : [
+				{
+					"class":"SPACE", 
+					"value": "MOTION"
+				}
+				]
+			}
+
+	]
+}
