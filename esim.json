@@ -1,7 +1,8 @@
 {
 	"_id" : "Mongon generoima",
+	"created_at" : 1214235425,
 	"lemma" : "kuusi",
-	"homonymy" : [
+	"homonyms" : [
 			{
 				"POS" : "Num",
 				"translations" : {
@@ -9,8 +10,8 @@
 						{"word": "six", "POS" : "Num" }//muita attribuutteja...
 					]
 				},
+				"sms2xml_id" : "kuusi_num",
 				"sms2xml" :{//sms2x.xml -tiedostospesifi data
-					"id" : "kuusi_num",
 					"file" : "Num_sms2X.xml",
 					"sources" : [
 						{"name": "kurssi", "lesson": "3"}//muita attribuutteja...
