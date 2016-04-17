@@ -10,8 +10,14 @@
 						{"word": "six", "POS" : "Num" }//muita attribuutteja...
 					]
 				},
+				"morph_id": "gt_N_439",
+				"morph":{
+					"element" :{"attribuutteja": "arvoja"}
+				},
+				"lexicon": {"lat": "Lorem ipsum"},
+				"finsms": {"file": "file.xml", "Contlex" : "Num_"}, //finsms-spesifiä dataa
 				"sms2xml_id" : "kuusi_num",
-				"sms2xml" :{//sms2x.xml -tiedostospesifi data
+				"sms2xml" :{//sms2x.xml-tiedostospesifi data
 					"file" : "Num_sms2X.xml",
 					"sources" : [
 						{"name": "kurssi", "lesson": "3"}//muita attribuutteja...
