@@ -2,6 +2,7 @@
 __author__ = 'mikahamalainen'
 
 from pymongo import MongoClient
+import tietokanta.xml_to_db as xml_to_db
 from tietokanta.models import WikiUpdateQueue
 import time
 client = MongoClient()
@@ -110,6 +111,11 @@ def update_word_in_lemma(lemma, word, identify_homonym_by="POS", language="sms")
 def get_all_lemmas(language):
     collection = __get_db_collection__(language)
     return collection.find()
+
+def store_xml_in_db(xml_data, file_type, file_name, language):
+    data = xml_to_db.update_db_from_xml(xml_data, file_type, file_name, language)
+    for lemma, dic in data:
+        update_word_in_lemma(lemma, dic, identify_homonym_by="POS", language="sms")
 
 def __update_to_wiki__(lemma, language):
     try:

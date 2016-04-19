@@ -12,7 +12,11 @@
 				},
 				"morph_id": "gt_N_439",
 				"morph":{
-					"element" :{"attribuutteja": "arvoja"}
+					"element" :{"attribuutteja": "arvoja"},
+					"map" : {"attribuutteja": "arvoja"},
+					"meta" : "3",
+					"revsortkey": "",
+					"lg" : {"tag" : "<tag>XML-dataa</tag"}
 				},
 				"lexicon": {"lat": "Lorem ipsum"},
 				"finsms": {"file": "file.xml", "Contlex" : "Num_"}, //finsms-spesifiä dataa

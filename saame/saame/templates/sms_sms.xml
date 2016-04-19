@@ -1,0 +1,38 @@
+{% comment  %}
+   Takes lemma list as lemmas and file name as file_name
+{% endcomment %}
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="sms">
+    {% for element in lemmas %}
+    {% for homonym in element.homonyms %}
+    {% if homonym.sms2xml and homonym.sms2xml.file == file_name %}
+   <e id="{{ homonym.sms2xml_id }}">
+      <lg>
+         <l pos="{{ homonym.POS }}" {%for key, value in homonym.sms2xml.lemmas_additional_attributes.items %} {{ key }}="{{ value }}" {% endfor %}>{{ element.lemma }}</l>
+      </lg>
+        {% if homonym.sms2xml %}
+         <sources>
+             {% for source in homonym.sms2xml.sources %}
+           <book {%for key, value in source.items %} {{ key }}="{{ value }}" {% endfor %}/>
+             {% endfor %}
+         </sources>
+        {% endif %}
+      <mg>
+         <semantics>
+             {% for semantic in homonym.semantics %}
+           <sem class="{{ semantic.class }}">{{ semantic.value }}</sem>
+             {% endfor %}
+         </semantics>
+           {% for lang, translations in homonym.translations %}
+             <tg xml:lang="{{ lang }}">
+                 {% for translation in translations %}
+               <t pos="{{translation.POS}}">translation.word</t>
+                 {% endfor %}
+             </tg>
+           {% endfor %}
+      </mg>
+   </e>
+    {% endfor %}
+    {% endfor %}
+    {% endif %}
+ </r>

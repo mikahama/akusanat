@@ -123,12 +123,14 @@ def __process_morph_xml__(root, file_name):
     for element in root:
         homonym ={"lexicon":{},"translations": {},"semantics":[],"morph":{"lg":{}},"sms2xml":{"sources":[]}}
         id = element.get("id") or ""
+        meta = element.get("meta") or ""
         homonym["morph_id"] = id
+        homonym["morph"]["meta"] = meta
         homonym["morph"]["element"] = element.attrib
         if element.find("map") is not None:
             homonym["morph"]["map"] = element.find("map").attrib
         if element.find("rev-sort_key") is not None:
-            homonym["morph"]["rev-sort_key"] = element.find("rev-sort_key").text
+            homonym["morph"]["revsortkey"] = element.find("rev-sort_key").text
         lg = element.find("lg")
         for ele in lg:
             if ele.tag == "l":
@@ -137,7 +139,7 @@ def __process_morph_xml__(root, file_name):
                 homonym["POS"] = (ele.get("pos") or "").upper()
             else:
                 #other stuff
-                homonym["morph"]["lg"][ele.tag] = __xml_node_to_list__(ele)
+                homonym["morph"]["lg"][ele.tag] = ET.tostring(ele, encoding="utf-8", method="xml") #__xml_node_to_list__(ele)
         sources = element.find("sources")
         if sources is not None:
             for ele in sources:
