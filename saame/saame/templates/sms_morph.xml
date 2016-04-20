@@ -5,7 +5,7 @@
 <r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="sms">
     {% for element in lemmas %}
     {% for homonym in element.homonyms %}
-    {% if homonym.morph and homonym.morph.file == file_name %}
+    {% if (homonym.morph and homonym.morph.file == file_name) or homonym.POS + "_sms2x.xml" == file_name  %}
     <e id="{{ homonym.morph_id }}" meta="{{ homonym.morph.meta }}">
         {% if homonym.morph.map %}
        <map {% for key, value in homonym.morph.map.items %} {{ key }} = "{{ value }}" {% endfor %}/>

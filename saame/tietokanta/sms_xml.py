@@ -93,7 +93,7 @@ def __process_finsms_xml__(root, file_name):
                 lemma, contlex, pos = sami_lemma
                 homonym = {"POS": pos.upper(), "finsms": {"Contlex":contlex, "file": file_name}}
                 homonym["semantics"] = semantics
-                homonym["translations"] = {"fin": trans_attributes}
+                homonym["translations"] = {"fin": [trans_attributes]}
                 lemmas.append((lemma, homonym))
 
     return lemmas
@@ -166,4 +166,3 @@ def __process_morph_xml__(root, file_name):
 
 
 
-print update_sms_db_from_xml(f.read(), "morph", "A_sms.xml")

@@ -14,7 +14,7 @@
 
     {% for element in lemmas %}
     {% for homonym in element.homonyms %}
-    {% if homonym.finsms and homonym.finsms.file == file_name %}
+    {% if (homonym.finsms and homonym.finsms.file == file_name) or homonym.POS + "_finsms.xml" == file_name  %}
     {% if homonym.translations.fin %}
     {% for translation in homonym.translations.fin %}
 <e>

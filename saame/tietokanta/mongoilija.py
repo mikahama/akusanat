@@ -39,31 +39,38 @@ def __get_db_collection__(language="sms"):
     db = client["wiki_sync"]
     return db[language]
 
-def __merge_dictionaries__(old, new):
+def __merge_dictionaries__(old, new, replace=True):
     was_changed = False
     for key in new.keys():
         data = new[key]
         if key in old.keys():
             if type(data) == dict:
                 #dictionary -> recursion
-                change = __merge_dictionaries__(old[key], new[key])
+                change = __merge_dictionaries__(old[key], new[key],replace)
                 if not was_changed:
                     was_changed = change
             elif type(data) == list:
-                if len(data) != old[key]:
-                    #data added or removed
-                    old[key] = data
-                    was_changed = True
-                elif len(data) > 0 and type(data[0]) == dict:
+                if len(data) > 0 and type(data[0]) == dict:
                     for i in range(len(data)):
-                        change = __merge_dictionaries__(old[key][i], new[key][i])
+                        if len(old[key]) > i:
+                            old_d = old[key][i]
+                        else:
+                            old_d = {}
+                        change = __merge_dictionaries__(old_d, new[key][i],replace)
                         if not was_changed:
                             was_changed = change
+                elif replace:
+                    if len(data) != old[key]:
+                        old[key] = data
+                        was_changed = True
+                    else:
+                        for i in range(len(data)):
+                            if old[key][i] != data[i]:
+                                old[key][i] = data[i]
+                                was_changed = True
                 else:
-                    for i in range(len(data)):
-                        if old[key][i] != data[i]:
-                            old[key][i] = data[i]
-                            was_changed = True
+                    old[key] = list(old[key] + data)
+                    was_changed = True
             else:
                 #not a list or a dictionary
                 if old[key] != new[key]:
@@ -91,15 +98,15 @@ def __get_lemma__(lemma, language="sms"):
     else:
         return result, False
 
-def update_word_in_lemma(lemma, word, identify_homonym_by="POS", language="sms"):
-    lemma = __get_lemma__(lemma, language)
+def update_word_in_lemma(lemma, word, identify_homonym_by="POS", language="sms",first_time_sync=False):
+    lemma, empty = __get_lemma__(lemma, language)
     id = word[identify_homonym_by]
     exists = False
     for homonym in lemma["homonyms"]:
         if __identify_homonym__(homonym, identify_homonym_by, id):
             #The homonym already exists -> update
             exists = True
-            was_changed = __merge_dictionaries__(homonym, word)
+            was_changed = __merge_dictionaries__(homonym, word, not first_time_sync)
     if not exists:
         was_changed = True
         lemma["homonyms"].append(word)
@@ -112,10 +119,10 @@ def get_all_lemmas(language):
     collection = __get_db_collection__(language)
     return collection.find()
 
-def store_xml_in_db(xml_data, file_type, file_name, language):
+def store_xml_in_db(xml_data, file_type, file_name, language, first_time_sync=False):
     data = xml_to_db.update_db_from_xml(xml_data, file_type, file_name, language)
-    for lemma, dic in data:
-        update_word_in_lemma(lemma, dic, identify_homonym_by="POS", language="sms")
+    for item in data:
+        update_word_in_lemma(item[0], item[1], "POS", "sms", first_time_sync)
 
 def __update_to_wiki__(lemma, language):
     try:

@@ -5,7 +5,7 @@
 <r xml:lang="sms">
     {% for element in lemmas %}
     {% for homonym in element.homonyms %}
-    {% if homonym.sms2xml and homonym.sms2xml.file == file_name %}
+    {% if (homonym.sms2xml and homonym.sms2xml.file == file_name) or homonym.POS + "_sms2.xml" == file_name  %}
    <e id="{{ homonym.sms2xml_id }}">
       <lg>
          <l pos="{{ homonym.POS }}" {%for key, value in homonym.sms2xml.lemmas_additional_attributes.items %} {{ key }}="{{ value }}" {% endfor %}>{{ element.lemma }}</l>
