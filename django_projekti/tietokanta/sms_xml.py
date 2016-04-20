@@ -3,9 +3,6 @@ import codecs
 import xml.etree.ElementTree as ET
 from tietokanta.exceptions import UnsupportedXMLSchema
 
-file_p = "C:\Users\mikah\Documents\saame\XML\morph\N_sms2x.xml"
-f = codecs.open(file_p, "r")
-
 
 
 def update_sms_db_from_xml(xml_text, file_type, file_name):

@@ -46,6 +46,13 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'APP_DIRS': True,
+    },
+]
+
 ROOT_URLCONF = 'saame.urls'
 
 WSGI_APPLICATION = 'saame.wsgi.application'
