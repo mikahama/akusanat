@@ -11,28 +11,27 @@
    As such it can and will contain unfinished entries, unpublished entries,
    entries with objectionable translations, etc. If you find any errors
    or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.</sourcenote> </lics>
-
     {% for element in lemmas %}
-    {% for homonym in element.homonyms %}
-    {% if (homonym.finsms and homonym.finsms.file == file_name) or homonym.POS + "_finsms.xml" == file_name  %}
-    {% if homonym.translations.fin %}
-    {% for translation in homonym.translations.fin %}
+        {% for homonym in element.homonyms %}
+            {% get_subitem_text homonym "finsms.file" as homonym_file_name %}
+            {% filename_and_pos homonym.POS file_name as file_pos %}
+            {% if homonym_file_name  == file_name or file_pos %}
+                {% get_subitem_list homonym "translations.fin" as translations %}
+                {% for translation in translations %}
 <e>
-
     <lg>
-        <l pos="{{translation.POS}}">{{translation.word}}</l>
+        <l pos="{{ translation.POS }}">{{ translation.word }}</l>
         <stg> <st/> </stg>
     </lg>
     <mg>
         <tg xml:lang="sms">
-            <t {% if homonym.finsms and homonym.finsms.Contlex %} Contlex="{{ homonym.finsms.Contlex }}" {% endif %} pos="{{homonym.POS}}">{{ element.lemma }}</t>
+            {% get_subitem_text homonym "finsms.Contlex" as contlex%}
+            <t {% if contlex != "" %} Contlex="{{ contlex }}" {% endif %} pos="{{ homonym.POS }}">{{ element.lemma }}</t>
         </tg>
     </mg>
 </e>
-
-    {% endfor %]
-    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
     {% endfor %}
-    {% endfor %}
-    {% endif %}
 </r>

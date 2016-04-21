@@ -5,21 +5,29 @@
 <r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="sms">
     {% for element in lemmas %}
     {% for homonym in element.homonyms %}
-    {% if (homonym.morph and homonym.morph.file == file_name) or homonym.POS + "_sms2x.xml" == file_name  %}
-    <e id="{{ homonym.morph_id }}" meta="{{ homonym.morph.meta }}">
-        {% if homonym.morph.map %}
+    {% get_subitem_text homonym "morph.file" as homonym_file_name %}
+    {% filename_and_pos_sms homonym.POS file_name as file_pos %}
+    {% if homonym_file_name == file_name or file_pos %}
+    {% get_subitem homonym "homonym.morph_id" as morph_id %}
+    {% get_subitem_text homonym "homonym.meta" as ,_meta %}
+    <e id="{{ morph_id }}" meta="{{ m_meta }}">
+        {% has_subkey homonym "morph.map" as has_map %}
+        {% if has_map %}
        <map {% for key, value in homonym.morph.map.items %} {{ key }} = "{{ value }}" {% endfor %}/>
         {% endif %}
-        {% if homonym.morph.revsortkey %}
+        {% has_subkey homonym "morph.revsortkey" as has_revsort %}
+        {% if has_revsort %}
        <rev-sort_key>{{ homonym.morph.revsortkey }}</rev-sort_key>
         {% endif %}
        <lg>
          <l pos="{{ homonym.POS }}">{{ element.lemma }}</l>
-         {% for key, value in homonym.morph.lg.items %}
-           {{value}}
+           {% get_subitem_dict homonym "morph.lg" as lg %}
+         {% for key, value in lg.items %}
+           {{value | safe}}
            {% endfor %}
        </lg>
-        {% if homonym.sms2xml %}
+        {% has_key homonym "sms2xml" as has_sms2xml %}
+        {% if has_sms2xml %}
          <sources>
              {% for source in homonym.sms2xml.sources %}
            <book {%for key, value in source.items %} {{ key }}="{{ value }}" {% endfor %}/>
@@ -27,25 +35,27 @@
          </sources>
         {% endif %}
        <mg>
-           {% for key, value in homonym.lexicon.items %}
+           {% get_item_dict homonym "lexicon" as lexicon %}
+           {% for key, value in lexicon.items %}
            <lexicon xml:lang="{{ key }}">{{ value }}</lexicon>
            {% endfor %}
          <semantics>
-             {% for semantic in homonym.semantics %}
+             {% get_item_list homonym "semantics" as semantics %}
+             {% for semantic in semantics %}
            <sem class="{{ semantic.class }}">{{ semantic.value }}</sem>
              {% endfor %}
          </semantics>
-           {% for lang, translations in homonym.translations %}
+           {% for lang, translations in homonym.translations.items %}
              <tg xml:lang="{{ lang }}">
                  {% for translation in translations %}
-               <t pos="{{translation.POS}}">translation.word</t>
+               <t pos="{{translation.POS}}">{{ translation.word }}</t>
                  {% endfor %}
              </tg>
            {% endfor %}
 
        </mg>
     </e>
-    {% endfor %}
-    {% endfor %}
     {% endif %}
+    {% endfor %}
+    {% endfor %}
 </r>
