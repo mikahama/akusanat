@@ -4,17 +4,17 @@
 
 == Semantiikka ==
 
-- Ihminen - kieli
+* Ihminen - kieli
 
 == Käännökset ==
 
 === suomi ===
-- sana
-- jotain
+* sana
+* jotain
 
 === englanti ===
-- word
-- something
+* word
+* something
 
 ----
 
@@ -24,15 +24,15 @@
 
 == Semantiikka ==
 
-- Ihminen - liike
+* Ihminen - liike
 
 == Käännökset ==
 
 === suomi ===
-- juosta
-- jolkotella
+* juosta
+* jolkotella
 
 === englanti ===
-- run
+* run
 
 {{#css:/sms.css}}
