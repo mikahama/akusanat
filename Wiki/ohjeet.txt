@@ -1,0 +1,1 @@
+1) Asenna CSS-laajennos https://www.mediawiki.org/wiki/Extension:CSS
