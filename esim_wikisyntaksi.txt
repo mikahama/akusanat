@@ -1,0 +1,36 @@
+= sona (substantiivi) =
+
+[[Taivuta]]
+
+== Semantiikka ==
+
+- Ihminen - kieli
+
+== Käännökset ==
+
+=== suomi ===
+- sana
+- jotain
+
+=== englanti ===
+- word
+- something
+
+----
+
+= sona (verbi) =
+
+[[Taivuta]]
+
+== Semantiikka ==
+
+- Ihminen - liike
+
+== Käännökset ==
+
+=== suomi ===
+- juosta
+- jolkotella
+
+=== englanti ===
+- run
