@@ -34,3 +34,5 @@
 
 === englanti ===
 - run
+
+{{#css:/sms.css}}
