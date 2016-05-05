@@ -1,38 +1,124 @@
-= sona (substantiivi) =
+<div class="homonym">
+= sona ({{sms:POS_N}}) =
 
-[[Taivuta]]
+[[javascript:inflect('sona', 'n')|Taivuta]]
 
+<div class="semantics">
 == Semantiikka ==
 
-* Ihminen - kieli
+* {{ sms:sem_HUMAN }} - {{ sms:sem_c_SPEECH }}
+</div>
 
+<div class="translations">
 == Käännökset ==
 
-=== suomi ===
-* sana
-* jotain
+<div class="trans_language">
+=== {{ lang:fin }} ===
+* [[fin:sana|sana]] ({{sms:POS_N}})
+* [[fin:jotain|jotain]] ({{sms:POS_N}})
 
-=== englanti ===
-* word
-* something
+</div>
 
+<div class="trans_language">
+=== {{ lang:eng }}  ===
+* [[eng:word|word]] ({{sms:POS_N}})
+* [[eng:something|something]] ({{sms:POS_N}})
+</div>
+</div>
+
+<span style="display:none" class="json_data"> <![CDATA[
+				"POS" : "Num",
+				"translations" : {
+					"eng" : [
+						{"word": "six", "POS" : "Num" }//muita attribuutteja...
+					]
+				},
+				"morph_id": "gt_N_439",
+				"morph":{
+					"element" :{"attribuutteja": "arvoja"},
+					"map" : {"attribuutteja": "arvoja"},
+					"meta" : "3",
+					"revsortkey": "",
+					"lg" : {"tag" : "<tag>XML-dataa</tag"}
+				},
+				"lexicon": {"lat": "Lorem ipsum"},
+				"finsms": {"file": "file.xml", "Contlex" : "Num_"}, //finsms-spesifiä dataa
+				"sms2xml_id" : "kuusi_num",
+				"sms2xml" :{//sms2x.xml-tiedostospesifi data
+					"file" : "Num_sms2X.xml",
+					"sources" : [
+						{"name": "kurssi", "lesson": "3"}//muita attribuutteja...
+					],
+					"lemmas_additional_attributes": {"subjectrectio": "loc"}//esim.
+				},
+				"semantics" : [
+				{
+					"class":"SPACE", 
+					"value": "MOTION"
+				}
+]]> </span>
+</div>
 ----
+<div class="homonym">
+= sona ({{sms:POS_V}}) =
 
-= sona (verbi) =
+[[javascript:inflect('sona', 'n')|Taivuta]]
 
-[[Taivuta]]
-
+<div class="semantics">
 == Semantiikka ==
 
-* Ihminen - liike
+* {{ sms:sem_HUMAN }} - {{ sms:sem_c_MOVEMENT }}
+</div>
 
+<div class="translations">
 == Käännökset ==
 
-=== suomi ===
-* juosta
-* jolkotella
+<div class="trans_language">
+=== {{ lang:fin }} ===
+* [[fin:sana|juosta]] ({{sms:POS_V}})
+* [[fin:jotain|jolkotella]] ({{sms:POS_V}})
 
-=== englanti ===
-* run
+</div>
+
+<div class="trans_language">
+=== {{ lang:eng }}  ===
+* [[eng:word|run]] ({{sms:POS_V}})
+* [[eng:something|spring]] ({{sms:POS_V}})
+</div>
+</div>
+
+<span style="display:none" class="json_data"> <![CDATA[
+				"POS" : "Num",
+				"translations" : {
+					"eng" : [
+						{"word": "six", "POS" : "Num" }//muita attribuutteja...
+					]
+				},
+				"morph_id": "gt_N_439",
+				"morph":{
+					"element" :{"attribuutteja": "arvoja"},
+					"map" : {"attribuutteja": "arvoja"},
+					"meta" : "3",
+					"revsortkey": "",
+					"lg" : {"tag" : "<tag>XML-dataa</tag"}
+				},
+				"lexicon": {"lat": "Lorem ipsum"},
+				"finsms": {"file": "file.xml", "Contlex" : "Num_"}, //finsms-spesifiä dataa
+				"sms2xml_id" : "kuusi_num",
+				"sms2xml" :{//sms2x.xml-tiedostospesifi data
+					"file" : "Num_sms2X.xml",
+					"sources" : [
+						{"name": "kurssi", "lesson": "3"}//muita attribuutteja...
+					],
+					"lemmas_additional_attributes": {"subjectrectio": "loc"}//esim.
+				},
+				"semantics" : [
+				{
+					"class":"SPACE", 
+					"value": "MOTION"
+				}
+]]> </span>
+</div>
+
 
 {{#css:/sms.css}}

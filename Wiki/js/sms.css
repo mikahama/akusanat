@@ -1,0 +1,25 @@
+.lemma_edit{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.lemma_pos_edit button{
+	float: right;
+}
+
+.semantics_edit, .translations_edit{
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+
+	padding: 20px;
+}
+
+.language{
+	padding: 20px;
+	padding-left: 100px;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}

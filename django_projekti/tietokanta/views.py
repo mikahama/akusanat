@@ -21,7 +21,7 @@ def xml_out(request):
         'lemmas': lemmas,
         "file_name" : xml_filename
     })
-    return HttpResponse(template.render(context))
+    return HttpResponse(template.render(context), content_type="application/json")
 
 @register.assignment_tag
 def get_item(dictionary, key):

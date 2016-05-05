@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Mika Hämäläinen"
+        ]
+    },
+    "myextension": "The name of the extension's entry in Special:SpecialPages",
+    "myextension-desc": "{{desc}}",
+    "myextension-summary": "Description appearing on top of <tvar|1>[[Special:MyExtension]]</>."
+}

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Mika Hämäläinen"
+        ]
+    },
+    "myextension": "Saame",
+    "myextension-desc": "An extension for Skolt Same",
+    "myextension-summary": "Provides a form for editing Skolt Same entries"
+}
