@@ -23,3 +23,17 @@
 	border-bottom-style: dotted;
 	border-bottom-width: 1px;
 }
+.smsFormInput input{
+	font-weight: bold;
+}
+.deleteButton {
+	cursor: pointer;
+	color: red;
+}
+td{
+	text-align: center;
+}
+.saveButton{
+	margin-top: 100px;
+	font-weight: bold;
+}

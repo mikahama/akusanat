@@ -26,11 +26,11 @@
 </div>
 </div>
 
-<span style="display:none" class="json_data"> <![CDATA[
+<span style="display:none" class="json_data">{
 				"POS" : "Num",
 				"translations" : {
 					"eng" : [
-						{"word": "six", "POS" : "Num" }//muita attribuutteja...
+						{"word": "six", "POS" : "Num" }
 					]
 				},
 				"morph_id": "gt_N_439",
@@ -42,21 +42,21 @@
 					"lg" : {"tag" : "<tag>XML-dataa</tag"}
 				},
 				"lexicon": {"lat": "Lorem ipsum"},
-				"finsms": {"file": "file.xml", "Contlex" : "Num_"}, //finsms-spesifiä dataa
+				"finsms": {"file": "file.xml", "Contlex" : "Num_"},
 				"sms2xml_id" : "kuusi_num",
-				"sms2xml" :{//sms2x.xml-tiedostospesifi data
+				"sms2xml" :{
 					"file" : "Num_sms2X.xml",
 					"sources" : [
-						{"name": "kurssi", "lesson": "3"}//muita attribuutteja...
+						{"name": "kurssi", "lesson": "3"}
 					],
-					"lemmas_additional_attributes": {"subjectrectio": "loc"}//esim.
+					"lemmas_additional_attributes": {"subjectrectio": "loc"}
 				},
 				"semantics" : [
 				{
 					"class":"SPACE", 
 					"value": "MOTION"
-				}
-]]> </span>
+				}]
+} </span>
 </div>
 ----
 <div class="homonym">
@@ -87,11 +87,11 @@
 </div>
 </div>
 
-<span style="display:none" class="json_data"> <![CDATA[
+<span style="display:none" class="json_data"> {
 				"POS" : "Num",
 				"translations" : {
 					"eng" : [
-						{"word": "six", "POS" : "Num" }//muita attribuutteja...
+						{"word": "six", "POS" : "Num" }
 					]
 				},
 				"morph_id": "gt_N_439",
@@ -103,21 +103,21 @@
 					"lg" : {"tag" : "<tag>XML-dataa</tag"}
 				},
 				"lexicon": {"lat": "Lorem ipsum"},
-				"finsms": {"file": "file.xml", "Contlex" : "Num_"}, //finsms-spesifiä dataa
+				"finsms": {"file": "file.xml", "Contlex" : "Num_"}, 
 				"sms2xml_id" : "kuusi_num",
-				"sms2xml" :{//sms2x.xml-tiedostospesifi data
+				"sms2xml" :{
 					"file" : "Num_sms2X.xml",
 					"sources" : [
-						{"name": "kurssi", "lesson": "3"}//muita attribuutteja...
+						{"name": "kurssi", "lesson": "3"}
 					],
-					"lemmas_additional_attributes": {"subjectrectio": "loc"}//esim.
+					"lemmas_additional_attributes": {"subjectrectio": "loc"}
 				},
 				"semantics" : [
 				{
 					"class":"SPACE", 
 					"value": "MOTION"
-				}
-]]> </span>
+				}] }
+ </span>
 </div>
 
 
