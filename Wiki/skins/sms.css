@@ -1,3 +1,11 @@
-  h1, h2, h3 {
-    border-bottom: 0px;
-  }
+h1, h2, h3 {
+border-bottom: 0px;
+}
+
+.mw-editsection{
+	display: none;
+}
+
+.trans_language, .semantics ul{
+	margin-left: 30px;
+}

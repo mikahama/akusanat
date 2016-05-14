@@ -16,6 +16,14 @@ document.addEventListener('DOMContentLoaded', function() {
     createEditForm();
 }, false);
 
+function getLemma(){
+	var h = getEle("firstHeading");
+	var lemma = h.textContent.toLowerCase();
+	var index = lemma.indexOf("sms:");
+	lemma = lemma.substring(index+4);
+
+	return lemma;
+}
 
 function createEditForm(){
 	var formContainer = getEle("mw-content-text");
@@ -76,7 +84,7 @@ function loadFromWikiMarkup(){
 		var homonym = homonyms[i];
 		var heading = homonym.getElementsByTagName("H1")[0].textContent;
 		var lemma = heading.split("({{")[0].strip();
-		current_lemma = lemma;
+		current_lemma = getLemma();
 		var pos = heading.split("sms:POS_")[1].replace("}})" ,"").strip();
 		var semanticsElement = homonym.getElementsByClassName("semantics")[0];
 		var semanticsItems = [];
