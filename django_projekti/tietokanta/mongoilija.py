@@ -115,6 +115,15 @@ def update_word_in_lemma(lemma, word, identify_homonym_by="POS", language="sms",
         __write_to_db__(lemma, language)
         __update_to_wiki__(lemma["lemma"], language)
 
+def drop_lemma(lemma, language="sms"):
+    collection = __get_db_collection__(language)
+    collection.remove({"lemma": lemma})
+
+def update_lemma(lemma, homonyms, language="sms"):
+    lem, new = __get_lemma__(lemma, language)
+    lem["homonyms"] = homonyms
+    __write_to_db__(lem, language)
+
 def get_all_lemmas(language):
     collection = __get_db_collection__(language)
     return collection.find()

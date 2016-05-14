@@ -18,4 +18,6 @@ from tietokanta import views
 
 urlpatterns = [
     url(r'^xml_out/', views.xml_out, name='xml_out'),
+    url(r'^deleteLemma/', views.delete_lemma, name='delete_lemma'),
+    url(r'^updateLemma/', views.update_lemma, name='update_lemma')
 ]

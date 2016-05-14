@@ -1,3 +1,7 @@
 1) Asenna CSS-laajennos https://www.mediawiki.org/wiki/Extension:CSS
 
 2) määritä kansio /js/ apachen kautta
+
+3) Asenna mongon php-tuki
+
+4) Lisää LocalSettings.php-tiedostoon rivi require_once "$IP/extensions/Saame/Saame.php";

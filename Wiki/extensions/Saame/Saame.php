@@ -13,7 +13,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'Saame',
 	'author' => 'Mika Hämäläinen',
 	'url' => 'https://www.mikakalevi.com',
-	'descriptionmsg' => 'An extension for Skolt Same',
+	'descriptionmsg' => 'An extension for Skolt Sami',
 	'version' => '1.0.0',
 );
 
@@ -22,3 +22,11 @@ $wgMessagesDirs['Saame'] = __DIR__ . "/i18n"; # Location of localisation files (
 $wgExtensionMessagesFiles['SaameAlias'] = __DIR__ . '/Saame.alias.php'; # Location of an aliases file (Tell MediaWiki to load it)
 $wgSpecialPages['Saame'] = 'SpecialSaame'; # Tell MediaWiki about the new special page and its class name
 $wgHooks['AlternateEdit'][] = 'SpecialSaame::onAlternateEdit';
+
+$wgHooks['ArticleDeleteComplete'][] = 'SpecialSaame::onDelete';
+
+#$wgHooks['ArticleUndelete'][] = 'SpecialSaame::onArticleUndelete';
+#$wgHooks['ArticleRevisionUndeleted'][] = 'SpecialSaame::onArticleRevisionUndeleted';
+$wgHooks['ArticleInsertComplete'][] = 'SpecialSaame::onArticleInsertComplete';
+$wgHooks['PageContentSaveComplete'][] = 'SpecialSaame::onPageContentSaveComplete';
+$wgHooks['ArticleRollbackComplete'][] = 'SpecialSaame::onArticleRollbackComplete';

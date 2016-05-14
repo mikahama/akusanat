@@ -3,3 +3,5 @@ class UnsupportedLanguageException(Exception):
     pass
 class UnsupportedXMLSchema(Exception):
     pass
+class UnauthorizedException(Exception):
+    pass

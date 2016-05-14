@@ -3,11 +3,15 @@ from django.http import HttpResponse
 from django.template import RequestContext, loader
 import tietokanta.mongoilija as mongoilija
 from django.template.defaulttags import register
+from exceptions import *
+import json
+from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 
 file_types = {
     "sms" : {"finsms": "sms_finsms.xml", "sms":"sms_sms.xml", "morph": "sms_morph.xml"}
 }
+api_keys =[u"sdfrf4535gdg35ertgfd"]
 
 def xml_out(request):
     xml_filename = request.GET["file"]
@@ -22,6 +26,31 @@ def xml_out(request):
         "file_name" : xml_filename
     })
     return HttpResponse(template.render(context), content_type="application/json")
+
+def check_apikey(request):
+    api_key = request.POST["api"]
+    if api_key in api_keys:
+        return True
+    else:
+        raise UnauthorizedException
+
+@csrf_exempt
+def delete_lemma(request):
+    check_apikey(request)
+    lemma = request.POST["lemma"]
+    language = request.POST["lang"]
+    mongoilija.drop_lemma(lemma, language)
+    return HttpResponse("",status=200)
+
+@csrf_exempt
+def update_lemma(request):
+    check_apikey(request)
+    lemma = request.POST["lemma"]
+    language = request.POST["lang"]
+    homonyms = json.loads(request.POST["homonyms"])
+    mongoilija.update_lemma(lemma, homonyms["homonyms"], language)
+    return HttpResponse("",status=200)
+
 
 @register.assignment_tag
 def get_item(dictionary, key):

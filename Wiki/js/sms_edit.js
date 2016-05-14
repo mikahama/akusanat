@@ -79,7 +79,12 @@ function loadFromWikiMarkup(){
 		current_lemma = lemma;
 		var pos = heading.split("sms:POS_")[1].replace("}})" ,"").strip();
 		var semanticsElement = homonym.getElementsByClassName("semantics")[0];
-		var semanticsItems = semanticsElement.getElementsByTagName("UL")[0].getElementsByTagName("LI");
+		var semanticsItems = [];
+		try{
+			semanticsElement.getElementsByTagName("UL")[0].getElementsByTagName("LI")
+		}catch (ex){
+
+		}
 		var semantics = [];
 		for (var x =0; x < semanticsItems.length; x++){
 			var semanticsItem = semanticsItems[x];
@@ -287,6 +292,9 @@ function updateJsons(){
 	for (var i =0; i< homonyms.length; i++){
 		var homonym = homonyms[i];
 		var pos = findPOSByUIElement(homonym);
+		if (pos == ""){
+			continue;
+		}
 		var json_text = homonym.getElementsByClassName("edit_json_data")[0].textContent;
 		var json = JSON.parse(json_text);
 		json["POS"] = pos;
