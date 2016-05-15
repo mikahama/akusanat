@@ -406,6 +406,15 @@ function jsonsToWiki(json_list){
 	return wiki;
 }
 
+/*
+ This will be called by Django, not MediaWiki
+
+*/
+function jsonsToWikiFromDjango(json_list, lemma){
+	current_lemma = lemma;
+	return jsonsToWiki(json_list);
+}
+
 function saveModifications(){
 	var jsons = updateJsons();
 	var wikiText = jsonsToWiki(jsons);

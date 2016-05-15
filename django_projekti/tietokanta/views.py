@@ -6,6 +6,8 @@ from django.template.defaulttags import register
 from exceptions import *
 import json
 from django.views.decorators.csrf import csrf_exempt
+from tietokanta.models import *
+from tietokanta.wikitool import Wikitool
 # Create your views here.
 
 file_types = {
@@ -51,6 +53,19 @@ def update_lemma(request):
     mongoilija.update_lemma(lemma, homonyms["homonyms"], language)
     return HttpResponse("",status=200)
 
+def process_towiki_queue(request):
+    queue = WikiUpdateQueue.objects.all()
+    wt = Wikitool("SyncBot","SyncBot12")
+    print wt.login()
+    print wt.get_token()
+
+    #A for loop here
+    item = queue.first()
+    lemmaData = mongoilija.get_lemma(item.lemma, item.language)
+
+    success, results = wt.post_lemma(item.lemma, item.language, lemmaData)
+
+    return HttpResponse(results,status=200)
 
 @register.assignment_tag
 def get_item(dictionary, key):

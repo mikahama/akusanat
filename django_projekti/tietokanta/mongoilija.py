@@ -128,6 +128,13 @@ def get_all_lemmas(language):
     collection = __get_db_collection__(language)
     return collection.find()
 
+def get_lemma(lemma, language):
+    data, new = __get_lemma__(lemma, language)
+    if new:
+        return None
+    else:
+        return data
+
 def store_xml_in_db(xml_data, file_type, file_name, language, first_time_sync=False):
     data = xml_to_db.update_db_from_xml(xml_data, file_type, file_name, language)
     for item in data:
