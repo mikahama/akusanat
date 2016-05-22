@@ -8,12 +8,14 @@ import json
 from django.views.decorators.csrf import csrf_exempt
 from tietokanta.models import *
 from tietokanta.wikitool import Wikitool
+from tietokanta.git_tool import GitTool
+from django.conf import settings
 # Create your views here.
 
 file_types = {
     "sms" : {"finsms": "sms_finsms.xml", "sms":"sms_sms.xml", "morph": "sms_morph.xml"}
 }
-api_keys =[u"sdfrf4535gdg35ertgfd"]
+api_keys =[u"sdfrf4535gdg35ertgfd", u"45454arefg785421!R", u"e3455rtwe54325t"]
 
 def xml_out(request):
     xml_filename = request.GET["file"]
@@ -36,6 +38,20 @@ def check_apikey(request):
     else:
         raise UnauthorizedException
 
+def check_apikey_get(request):
+    api_key = request.GET["api"]
+    if api_key in api_keys:
+        return True
+    else:
+        raise UnauthorizedException
+
+def dump_to_git(request):
+    #check_apikey_get()
+    git_tool = GitTool()
+    git_tool.pull()
+    git_tool.dump_and_commit()
+    return HttpResponse("OK", status=200)
+
 @csrf_exempt
 def delete_lemma(request):
     check_apikey(request)
@@ -55,17 +71,23 @@ def update_lemma(request):
 
 def process_towiki_queue(request):
     queue = WikiUpdateQueue.objects.all()
-    wt = Wikitool("SyncBot","SyncBot12")
+    username = getattr(settings, "WIKI_USERNAME", None)
+    password = getattr(settings, "WIKI_PASSWORD", None)
+    wt = Wikitool(username,password)
     print wt.login()
     print wt.get_token()
 
-    #A for loop here
-    item = queue.first()
-    lemmaData = mongoilija.get_lemma(item.lemma, item.language)
+    count = 0
+    s_count = 0
+    for item in queue:
+        lemmaData = mongoilija.get_lemma(item.lemma, item.language)
+        success, results = wt.post_lemma(item.lemma, item.language, lemmaData)
+        count += 1
+        if success:
+            item.delete()
+            s_count += 1
 
-    success, results = wt.post_lemma(item.lemma, item.language, lemmaData)
-
-    return HttpResponse(results,status=200)
+    return HttpResponse(str(s_count) + " out of " + str(count) + " OK",status=200)
 
 @register.assignment_tag
 def get_item(dictionary, key):

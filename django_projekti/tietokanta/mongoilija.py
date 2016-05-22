@@ -5,6 +5,7 @@ from pymongo import MongoClient
 import tietokanta.xml_to_db as xml_to_db
 from tietokanta.models import WikiUpdateQueue
 import time
+import pymongo
 client = MongoClient()
 
 def __identify_homonym__(homonym, id_by, id):
@@ -126,7 +127,7 @@ def update_lemma(lemma, homonyms, language="sms"):
 
 def get_all_lemmas(language):
     collection = __get_db_collection__(language)
-    return collection.find()
+    return collection.find().sort("created_at",pymongo.ASCENDING)
 
 def get_lemma(lemma, language):
     data, new = __get_lemma__(lemma, language)

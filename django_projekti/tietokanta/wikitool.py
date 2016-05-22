@@ -2,11 +2,12 @@ import requests
 import json
 import urllib
 import execjs
+from django.conf import settings
 
 class Wikitool():
-    wiki_url = "http://localhost/mediawiki/"
-    sms_edit_url = "http://localhost/js/sms_edit.js"
     def __init__(self, username, password):
+        self.wiki_url = getattr(settings, "WIKI_URL", None)
+        self.sms_edit_url = getattr(settings, "WIKI_JS_URL", None)
         self.username = username
         self.password = password
         self.login_cookies = {}

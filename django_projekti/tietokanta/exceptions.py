@@ -5,3 +5,5 @@ class UnsupportedXMLSchema(Exception):
     pass
 class UnauthorizedException(Exception):
     pass
+class HTTPException(Exception):
+    pass

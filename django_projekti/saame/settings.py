@@ -91,3 +91,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+
+WIKI_URL = "http://localhost/mediawiki/"
+WIKI_JS_URL = "http://localhost/js/sms_edit.js"
+WIKI_USERNAME = "Syncbot"
+WIKI_PASSWORD = "SyncBot12"
+GIT_DIR = "C:\\Users\\mikah\\Desktop\\saame_test\\"
+CURRENT_URL = "http://127.0.0.1:8000/"
