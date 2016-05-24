@@ -1,21 +1,19 @@
-from git import Repo
 from django.conf import settings
 import glob
 import os
 import requests
 from exceptions import *
 import codecs
-from git import Actor
+from easy_git import EasyGit
 
 class GitTool():
     def __init__(self):
         self.repo_path = getattr(settings, "GIT_DIR", None)
-        self.repo = Repo(self.repo_path)
-        self.origin = self.repo.remotes.origin
         self.current_url = getattr(settings, "CURRENT_URL", None)
+        self.easy_git = EasyGit(self.repo_path)
 
     def pull(self):
-        self.origin.pull()
+        self.easy_git.pull()
 
     def dump_and_commit(self):
         folders = ["finsms", "morph", "sms"]
@@ -31,9 +29,7 @@ class GitTool():
                 f.write(r.text)
                 f.close()
                 print file
-
-        a = Actor("SyncBot", "syncbot@none.com")
-        self.repo.index.commit("Data from wiki ", author=a, committer=a)
-        self.origin.push()
+        self.easy_git.commit("Data from wiki")
+        self.easy_git.push()
 
 
