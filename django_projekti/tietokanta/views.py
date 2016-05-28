@@ -9,6 +9,11 @@ from django.views.decorators.csrf import csrf_exempt
 from tietokanta.models import *
 from tietokanta.wikitool import Wikitool
 from tietokanta.git_tool import GitTool
+import thread
+
+import os
+
+
 from django.conf import settings
 # Create your views here.
 
@@ -51,6 +56,33 @@ def dump_to_git(request):
     git_tool.pull()
     git_tool.dump_and_commit()
     return HttpResponse("OK", status=200)
+
+
+def pull_git(request):
+    t = thread.start_new_thread(pull_from_git(), ())
+    t.setDaemon(True)
+    t.start()
+    return HttpResponse("OK", status=200)
+
+
+def pull_from_git():
+    git_tool = GitTool()
+    old_files = git_tool.list_files()
+    git_tool.pull()
+    new_files = git_tool.list_files()
+    for folder in new_files:
+        for file in new_files[folder]:
+            print file
+            f = open(file, 'r')
+            xml = f.read()
+            head, tail = os.path.split(file)
+            if file not in old_files[folder]:
+                first_time = True
+            else:
+                first_time = False
+            mongoilija.store_xml_in_db(xml, folder, tail, "sms", first_time)
+    process_towiki_queue("")
+
 
 @csrf_exempt
 def delete_lemma(request):

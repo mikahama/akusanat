@@ -15,6 +15,16 @@ class GitTool():
     def pull(self):
         self.easy_git.pull()
 
+    def list_files(self):
+        file_list = {}
+        folders = ["finsms", "morph", "sms"]
+        for folder in folders:
+            file_list[folder] = []
+            files = glob.glob(self.repo_path + folder +"/*.xml")
+            for file in files:
+                file_list[folder].append(file)
+        return file_list
+
     def dump_and_commit(self):
         folders = ["finsms", "morph", "sms"]
         for folder in folders:
