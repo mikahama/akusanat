@@ -424,7 +424,9 @@ function saveModifications(){
 }
 
 
-
+function showOriginalEdit(){
+	getEle("editform").style.display = "block";
+}
 
 
 

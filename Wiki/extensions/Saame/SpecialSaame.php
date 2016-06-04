@@ -113,4 +113,14 @@ class SpecialSaame extends SpecialPage {
 		$wikiText = $article->getRawText();
 		self::onChange($title, $wikiText);
 	 }
+
+	 public static function onBeforePageDisplay( $editPage, $skin ) {
+		$title = $editPage->getPageTitle();
+		if (self::startsWith(strtolower($title), "sms:")){
+			#Modify only Skolt Sami pages
+			$editPage->addScript("<script type='text/javascript' src='/js/sms_view.js'></script>");
+		}
+		
+		return $editPage;
+	 }
 }
