@@ -10,20 +10,20 @@
 	float: right;
 }
 
-.semantics_edit, .translations_edit{
+.semantics_edit, .translations_edit, .etymology_edit{
 	border-bottom-style: dotted;
 	border-bottom-width: 1px;
 
 	padding: 20px;
 }
 
-.language{
+.language, .etyEntry{
 	padding: 20px;
 	padding-left: 100px;
 	border-bottom-style: dotted;
 	border-bottom-width: 1px;
 }
-.smsFormInput input{
+.smsFormInput input, .etyWord, .etyType{
 	font-weight: bold;
 }
 .deleteButton {
@@ -36,4 +36,13 @@ td{
 .saveButton{
 	margin-top: 100px;
 	font-weight: bold;
+}
+.etymology_edit ul{
+	list-style: none;
+}
+.etyType{
+	margin-right: 10px;
+}
+.etyEntry .deleteButton{
+	margin-left: 20px;
 }

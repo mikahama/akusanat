@@ -33,7 +33,7 @@ function createEditForm(){
 	var entries = loadFromWikiMarkup();
 	for(var i =0; i< entries.length; i++){
 		var entry = entries[i];
-		var item = createFormItem(entry["lemma"], entry["pos"], entry["semantics"], entry["translations"], entry["json_data"]);
+		var item = createFormItem(entry["lemma"], entry["pos"], entry["semantics"], entry["translations"], entry["json_data"], entry["json"]);
 		editForm.appendChild(item);
 	}
 	var addButton = document.createElement("button");
@@ -112,7 +112,9 @@ function loadFromWikiMarkup(){
 			trans = []
 			for(var z=0; z< langTranslations.length; z++){
 				var langTranslation = langTranslations[z].textContent;
-				var parts = langTranslation.split(" (");
+				var lastIndex = langTranslation.lastIndexOf(" (");
+				var parts = [langTranslation.substring(0, lastIndex), langTranslation.substring(lastIndex+2)];
+				print(parts[1]);
 				var word = removeBrackets(parts[0]);
 				var pos = removeBrackets(parts[1].split("sms:POS_")[1]);
 				trans.push([word, pos]);
@@ -120,13 +122,13 @@ function loadFromWikiMarkup(){
 			translations[language_name] = trans;
 		}
 		var json_data = escapeHTML(jsons[i]);
-		entries.push({"lemma":lemma, "pos":pos, "semantics":semantics, "translations": translations, "json_data": json_data});
+		entries.push({"lemma":lemma, "pos":pos, "semantics":semantics, "translations": translations, "json_data": json_data, "json": JSON.parse(jsons[i])});
 
 	}
 	return entries;
 }
 
-function createFormItem(lemma, pos, semantics, translations, json_data){
+function createFormItem(lemma, pos, semantics, translations, json_data, json){
 	var lemma_edit = document.createElement("div");
 	lemma_edit.className = "lemma_edit";
 	var form_item = "<div class='lemma_pos_edit'> <button onclick='deleteHomonym(event)'>Poista sanaluokka</button>"
@@ -137,9 +139,50 @@ function createFormItem(lemma, pos, semantics, translations, json_data){
 	form_item = form_item + "<div class='translations_edit'><p><b>Käännökset</b></p><button onclick='addTranslationLanguage(event)'>Lisää kieli</button>"
 	var translation_table = createTranslationsTable(translations);
 	form_item = form_item + translation_table.innerHTML + "</div>"
+	form_item = form_item + etymologyForm(json);
 	lemma_edit.innerHTML = form_item;
 	return lemma_edit;
 }
+
+
+function etymologyForm(json){
+	var return_string = "<div class='etymology_edit'><p><b>Etymologia</b></p><button onclick='addEtyWord(event)'>Lisää kantasana</button>";
+	try{
+		var etym = json["morph"]["lg"]["etymology"];
+		var parser = new DOMParser();
+    	var xmlDoc = parser.parseFromString(etym, "text/xml");
+    	var etymologies = xmlDoc.childNodes[0];
+    	if(etymologies.tagName == "html"){
+    		throw "";
+    	}
+    	etymologies = etymologies.childNodes;
+	}catch (e){
+		//No etymology defined
+		var etymologies = [];
+	}
+	if (etymologies == undefined || etymologies.length==0){
+		return return_string + "</div>";
+	}
+	for (var i = 0; i < etymologies.length; i++) {
+		var etymology = etymologies[i];
+		var data = etymology.textContent;
+		if(etymology.tagName == undefined){
+			continue;
+		}
+
+		var html = "<div class='etyEntry'>Kantasana: <input class='etyWord' value='" + data + "'> Tyyppi: <input class='etyType' value='" + etymology.tagName + "'><button onclick='addEtyAttr(event)'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul>";
+		var attrs = etymology.attributes || [];
+		for (var ii = 0; ii < attrs.length; ii++) {
+			var attribute = attrs[ii];
+			html = html + "<li>Nimi: <input class='etyAttr' value='" + attribute.name + "'> Arvo: <input class='etyValue' value='" + attribute.value + "'><span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>"
+		}
+		html = html + "</ul></div>"
+		return_string = return_string + html;
+	}
+	return_string = return_string + "</div>";
+	return return_string
+}
+
 
 function createSemanticsTable(semantics){
 	var tableContainer = document.createElement("div");
@@ -212,6 +255,30 @@ function deleteSemantics(event){
 	var row = event.target.parentElement;
 	row.remove();
 }
+
+function deleteEtyAttr(event){
+	var row = event.target.parentElement;
+	row.remove();	
+}
+function deleteEtyWord(event){
+	var row = event.target.parentElement;
+	row.remove();
+}
+
+function addEtyAttr(event){
+	var list = event.target.parentElement.getElementsByTagName("UL")[0];
+	var html = "<li>Nimi: <input class='etyAttr' value=''> Arvo: <input class='etyValue' value=''><span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>";
+	var row = HTMLtoDOM(html, "UL");
+	list.appendChild(row);
+}
+
+function addEtyWord(event){
+	var list = event.target.parentElement;
+	var html = "<div class='etyEntry'>Kantasana: <input class='etyWord' value=''> Tyyppi: <input class='etyType' value=''><button onclick='addEtyAttr(event)'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul></ul></div>";
+	var row = HTMLtoDOM(html, "UL");
+	list.appendChild(row);
+}
+
 
 function deleteTranslation(event){
 	var row = event.target.parentElement;
@@ -361,6 +428,14 @@ function updateJsons(){
 		}
 		json["translations"] = translations;
 
+		if(!("morph" in json)){
+			json["morph"] = {};
+		}
+		if(!("lg" in json["morph"])){
+			json["morph"]["lg"] = {};
+		}
+		json["morph"]["lg"]["etymology"] = etymologyToXML(homonym);
+
 		jsons.push(json);
 	}
 	return jsons;
@@ -394,6 +469,37 @@ function jsonToWiki(json){
 
 	return wiki;
 
+}
+
+function etymologyToXML(homonym){
+	var xml = "<etymology>\n"
+	var etymology = homonym.getElementsByClassName("etymology_edit")[0];
+	var entries = etymology.getElementsByClassName("etyEntry");
+	for (var i = 0; i < entries.length; i++) {
+		var entry = entries[i];
+		var word = entry.getElementsByClassName("etyWord")[0].value;
+		var type = entry.getElementsByClassName("etyType")[0].value;
+		if(word == ""){
+			continue;
+		}
+		if(type == ""){
+			type = "etymon";
+		}
+		var attributes = "";
+		var attribute_list = entry.getElementsByTagName("LI");
+		for (var a = 0; a < attribute_list.length; a++) {
+			var listItem = attribute_list[a];
+			var attribute = listItem.getElementsByClassName("etyAttr")[0].value;
+			var value = listItem.getElementsByClassName("etyValue")[0].value;
+			if(attribute == ""){
+				continue;
+			}
+			attributes = attributes + " " + attribute + "=\"" + value + "\" ";
+		}
+		xml = xml + "<" + type + attributes + ">" + word +"</" + type + ">\n";
+	}
+	xml = xml + "</etymology>";
+	return xml;
 }
 
 function jsonsToWiki(json_list){

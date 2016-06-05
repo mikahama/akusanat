@@ -10,7 +10,6 @@ function populateView(){
 	for (var i = 0; i < homonyms.length; i++) {
 		var homonym = homonyms[i];
 		var json_text = homonym.getElementsByClassName("json_data")[0].textContent;
-		print(homonym.getElementsByClassName("json_data")[0].innerHTML);
 		var json_data = JSON.parse(json_text);
 		var h1 = homonym.getElementsByTagName("H1")[0];
 		for (var a = 0; a < processors.length; a++) {
@@ -64,7 +63,6 @@ function getEtymology(json){
 	if (etymologies == undefined || etymologies.length==0){
 		return [return_string, placing.TOP];
 	}
-	print(etymologies);
 	return_string = "<div class='etymology_container'><button class='etybutton' onclick='showEtymology(event)'>Näytä etymologia</button><ul class='etylist'>"
 	for (var i = 0; i < etymologies.length; i++) {
 		var etymology = etymologies[i];
@@ -75,7 +73,6 @@ function getEtymology(json){
 
 		var html = "<li>" + data + " (" + _(etymology.tagName) + ") <ul>";
 		var attrs = etymology.attributes || [];
-		print(attrs)
 		for (var ii = 0; ii < attrs.length; ii++) {
 			var attribute = attrs[ii];
 			html = html + "<li>" + _(attribute.name) + " - " + _(attribute.value) + "</li>"
@@ -103,6 +100,15 @@ function _(text){
 		return lokaali[text];
 	}else{
 		return text;
+	}
+}
+
+function showEtymology(event){
+	var etylist = event.target.parentNode.getElementsByClassName("etylist")[0];
+	if(etylist.style.display == "none" || etylist.style.display == ""){
+		etylist.style.display = "block";
+	}else{
+		etylist.style.display = "none";
 	}
 }
 
