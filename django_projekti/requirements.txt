@@ -1,4 +1,6 @@
-GitPython
 requests
 PyExecJS
 pymongo
+
+mongodb
+nodejs

@@ -30,3 +30,4 @@ $wgHooks['ArticleDeleteComplete'][] = 'SpecialSaame::onDelete';
 $wgHooks['ArticleInsertComplete'][] = 'SpecialSaame::onArticleInsertComplete';
 $wgHooks['PageContentSaveComplete'][] = 'SpecialSaame::onPageContentSaveComplete';
 $wgHooks['ArticleRollbackComplete'][] = 'SpecialSaame::onArticleRollbackComplete';
+$wgHooks['BeforePageDisplay'][] = 'SpecialSaame::onBeforePageDisplay';
