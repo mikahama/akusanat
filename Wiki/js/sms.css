@@ -10,7 +10,7 @@
 	float: right;
 }
 
-.semantics_edit, .translations_edit, .etymology_edit{
+.semantics_edit, .translations_edit, .etymology_edit, .compg_edit, .stg_edit, .morphEditor{
 	border-bottom-style: dotted;
 	border-bottom-width: 1px;
 
@@ -23,7 +23,7 @@
 	border-bottom-style: dotted;
 	border-bottom-width: 1px;
 }
-.smsFormInput input, .etyWord, .etyType{
+.smsFormInput input, .etyWord, .etyType, .stgType, .stgWord{
 	font-weight: bold;
 }
 .deleteButton {
@@ -37,12 +37,12 @@ td{
 	margin-top: 100px;
 	font-weight: bold;
 }
-.etymology_edit ul{
+.etymology_edit ul, .compg_edit ul, .stg_edit ul{
 	list-style: none;
 }
-.etyType{
+.etyType, .comType, .stgType{
 	margin-right: 10px;
 }
-.etyEntry .deleteButton{
+.etyEntry .deleteButton, .comEntry .deleteButton, .stgEntry .deleteButton{
 	margin-left: 20px;
 }

@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     populateView();
 }, false);
 
-var processors = [getEtymology, getSwadesh];
+var processors = [getEtymology, getCompg, getSwadesh];
 
 function populateView(){
 	var homonyms = document.getElementsByClassName("homonym");
@@ -30,31 +30,44 @@ function populateView(){
 
 function getSwadesh(json){
 	try{
-		var semantics = json["sms2xml"]["sources"];
+		var samples = json["morph"]["lg"]["inc-sampling"];
 	}catch (e){
 		//No sources defined
-		var semantics = [];
+		var samples = "";
+	}
+	if(samples == undefined){
+		samples = "";
 	}
 
-	for (var i = 0; i < semantics.length; i++) {
-		var sem = semantics[i];
-		if("Swades_ID" in sem){
-			return ["<p id='swadesh'>Swadesh ID <a href='swadesh%3A"+sem["Swades_ID"]+"'>" + sem["Swades_ID"] + "</a></p>", placing.TOP];
-		}
+	var index = samples.indexOf("Swadesh");
+	if(index == -1){
+		return ["", placing.TOP];
+	}else{
+		samples = samples.substring(index);
+		index = samples.indexOf(">");
+		var swadeshType = samples.substring(0, index-1);
+		samples = samples.substring(index+1);
+		index = samples.indexOf("<"); 
+		var swadeshNumber = samples.substring(0, index-1);
+		return ["<p id='swadesh'><i>"+swadeshType+" ID</i> <b><a href='"+swadeshType+"%3A"+swadeshNumber+"'>" + swadeshNumber + "</a></b></p>", placing.TOP];
 	}
-	return ["", placing.TOP];
+	
+}
+
+function getCompg(json){
+	var data = lgData(json, "compg", "muodostus");
+	return data;
 }
 
 function getEtymology(json){
+	return lgData(json, "etymology", "etymologia");
+}
+
+function lgData(json, lgType, buttonText){
 	var return_string = "";
-	var buttonText = "";
 	try{
-		if ("etymology" in json["morph"]["lg"]){
-			var etym = json["morph"]["lg"]["etymology"];
-			buttonText = "etymologia";
-		}else{
-			var etym = json["morph"]["lg"]["compg"];
-			buttonText = "muodostus";
+		if (lgType in json["morph"]["lg"]){
+			var etym = json["morph"]["lg"][lgType];
 		}
 		var parser = new DOMParser();
     	var xmlDoc = parser.parseFromString(etym, "text/xml");
@@ -88,9 +101,14 @@ function getEtymology(json){
 		return_string = return_string + html;
 	}
 	return_string = return_string + "</ul></div>";
+	if(return_string.contains("<ul class='etylist'></ul>")){
+		//Empty
+		return ["", placing.TOP]
+	}
 	return [return_string, placing.TOP]
 }
 
+String.prototype.contains = function(it) { return this.indexOf(it) != -1; };
 
 function print(data){
 	console.log(data);

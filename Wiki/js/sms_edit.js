@@ -140,6 +140,10 @@ function createFormItem(lemma, pos, semantics, translations, json_data, json){
 	var translation_table = createTranslationsTable(translations);
 	form_item = form_item + translation_table.innerHTML + "</div>"
 	form_item = form_item + etymologyForm(json);
+	form_item = form_item + compgForm(json);
+	form_item = form_item + formFromLgXML(json, "stg", "stg");
+	form_item = form_item + morphDictEdit(json, "element");
+	form_item = form_item + morphDictEdit(json, "map");
 	lemma_edit.innerHTML = form_item;
 	return lemma_edit;
 }
@@ -148,8 +152,12 @@ function etymologyForm(json){
 	return formFromLgXML(json, "etymology", "etymology");
 }
 
+function compgForm(json){
+	return formFromLgXML(json, "compg", "compg");
+}
+
 function formFromLgXML(json, xmlTag, classPrefix){
-	var return_string = "<div class='" +classPrefix+"_edit'><p><b>Etymologia</b></p><button onclick='add"+classPrefix+"Word(event)'>Lisää kantasana</button>";
+	var return_string = "<div class='" +classPrefix+"_edit'><p><b>" +_(classPrefix) +"</b></p><button onclick='addetymologyWord(event, \""+ classPrefix +"\")'>Lisää kantasana</button>";
 	try{
 		var etym = json["morph"]["lg"][xmlTag];
 		var parser = new DOMParser();
@@ -173,7 +181,7 @@ function formFromLgXML(json, xmlTag, classPrefix){
 			continue;
 		}
 
-		var html = "<div class='"+ classPrefix.substring(0,3) +"Entry'>Kantasana: <input class='"+ classPrefix.substring(0,3) +"Word' value='" + data + "'> Tyyppi: <input class='"+ classPrefix.substring(0,3) +"Type' value='" + etymology.tagName + "'><button onclick='add"+classPrefix"+Attr(event)'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul>";
+		var html = "<div class='"+ classPrefix.substring(0,3) +"Entry'>Kantasana: <input class='"+ classPrefix.substring(0,3) +"Word' value='" + data + "'> Tyyppi: <input class='"+ classPrefix.substring(0,3) +"Type' value='" + etymology.tagName + "'><button onclick='addetymologyAttr(event, \"" +classPrefix+ "\")'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul>";
 		var attrs = etymology.attributes || [];
 		for (var ii = 0; ii < attrs.length; ii++) {
 			var attribute = attrs[ii];
@@ -268,16 +276,16 @@ function deleteEtyWord(event){
 	row.remove();
 }
 
-function addetymologyAttr(event){
+function addetymologyAttr(event, classPrefix){
 	var list = event.target.parentElement.getElementsByTagName("UL")[0];
-	var html = "<li>Nimi: <input class='etyAttr' value=''> Arvo: <input class='etyValue' value=''><span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>";
+	var html = "<li>Nimi: <input class='"+ classPrefix.substring(0,3) +"Attr' value=''> Arvo: <input class='"+ classPrefix.substring(0,3) +"Value' value=''><span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>";
 	var row = HTMLtoDOM(html, "UL");
 	list.appendChild(row);
 }
 
-function addetymologyWord(event){
+function addetymologyWord(event, classPrefix){
 	var list = event.target.parentElement;
-	var html = "<div class='etyEntry'>Kantasana: <input class='etyWord' value=''> Tyyppi: <input class='etyType' value=''><button onclick='addEtyAttr(event)'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul></ul></div>";
+	var html = "<div class='"+ classPrefix.substring(0,3) +"Entry'>Kantasana: <input class='"+ classPrefix.substring(0,3) +"Word' value=''> Tyyppi: <input class='"+ classPrefix.substring(0,3) +"Type' value=''><button onclick='addetymologyAttr(event, \"" +classPrefix+ "\")'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul></ul></div>";
 	var row = HTMLtoDOM(html, "UL");
 	list.appendChild(row);
 }
@@ -438,10 +446,43 @@ function updateJsons(){
 			json["morph"]["lg"] = {};
 		}
 		json["morph"]["lg"]["etymology"] = etymologyToXML(homonym);
+		json["morph"]["lg"]["compg"] = compgToXML(homonym);
+		json["morph"]["lg"]["stg"] = stgToXML(homonym);
+		json["morph"]["map"] = morphDictEditToJsonData(homonym, "map");
+		json["morph"]["element"] = morphDictEditToJsonData(homonym, "element");
 
 		jsons.push(json);
 	}
 	return jsons;
+
+}
+
+function morphDictEdit(json, classPrefix){
+	var return_string = "<div class='morphEditor " + classPrefix + "_edit'><b>"+_(classPrefix)+"</b><br><button onclick='addetymologyAttr(event, \"" + classPrefix + "\")'>Lisää attribuutti</button><ul>";
+	var dict = json["morph"][classPrefix];
+	if(dict != undefined){
+		for( var key in dict){
+			var html = "<li>Nimi: <input class='"+ classPrefix.substring(0,3) +"Attr' value='"+key+"'> Arvo: <input class='"+ classPrefix.substring(0,3) +"Value' value='"+dict[key]+"'><span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>";
+			var return_string = return_string + html;
+		}
+	}
+	return return_string + "</ul></div>"
+}
+function morphDictEditToJsonData(homonym, classPrefix){
+	var dict = {};
+	var etymology = homonym.getElementsByClassName(classPrefix + "_edit")[0];
+	var entries = etymology.getElementsByTagName("LI");
+	for (var a = 0; a < entries.length; a++) {
+			var listItem = entries[a];
+			var attribute = listItem.getElementsByClassName(classPrefix.substring(0,3) +"Attr")[0].value;
+			var value = listItem.getElementsByClassName(classPrefix.substring(0,3) +"Value")[0].value;
+			if(attribute == ""){
+				continue;
+			}
+			dict[attribute] = value;
+	}
+	return dict;
+
 
 }
 
@@ -475,25 +516,36 @@ function jsonToWiki(json){
 }
 
 function etymologyToXML(homonym){
-	var xml = "<etymology>\n"
-	var etymology = homonym.getElementsByClassName("etymology_edit")[0];
-	var entries = etymology.getElementsByClassName("etyEntry");
+	return lgToXML(homonym, "etymology", "etymon");
+}
+
+function compgToXML(homonym){
+	return lgToXML(homonym, "compg", "comp");
+}
+function stgToXML(homonym){
+	return lgToXML(homonym, "stg", "st");
+}
+
+function lgToXML(homonym, classPrefix, default_type){
+	var xml = "<"+classPrefix+">\n"
+	var etymology = homonym.getElementsByClassName(classPrefix + "_edit")[0];
+	var entries = etymology.getElementsByClassName(classPrefix.substring(0,3) +"Entry");
 	for (var i = 0; i < entries.length; i++) {
 		var entry = entries[i];
-		var word = entry.getElementsByClassName("etyWord")[0].value;
-		var type = entry.getElementsByClassName("etyType")[0].value;
+		var word = entry.getElementsByClassName(classPrefix.substring(0,3) +"Word")[0].value;
+		var type = entry.getElementsByClassName(classPrefix.substring(0,3) +"Type")[0].value;
 		if(word == ""){
 			continue;
 		}
 		if(type == ""){
-			type = "etymon";
+			type = default_type;
 		}
 		var attributes = "";
 		var attribute_list = entry.getElementsByTagName("LI");
 		for (var a = 0; a < attribute_list.length; a++) {
 			var listItem = attribute_list[a];
-			var attribute = listItem.getElementsByClassName("etyAttr")[0].value;
-			var value = listItem.getElementsByClassName("etyValue")[0].value;
+			var attribute = listItem.getElementsByClassName(classPrefix.substring(0,3) +"Attr")[0].value;
+			var value = listItem.getElementsByClassName(classPrefix.substring(0,3) +"Value")[0].value;
 			if(attribute == ""){
 				continue;
 			}
@@ -501,7 +553,7 @@ function etymologyToXML(homonym){
 		}
 		xml = xml + "<" + type + attributes + ">" + word +"</" + type + ">\n";
 	}
-	xml = xml + "</etymology>";
+	xml = xml + "</"+classPrefix+">";
 	return xml;
 }
 
@@ -683,3 +735,14 @@ function wiki2html(s) {
 }
     
 })();
+
+
+function _(text){
+	if(text in lokaali){
+		return lokaali[text];
+	}else{
+		return text;
+	}
+}
+
+var lokaali = {"etymology": "Etymologia", "compg": "Johtaminen", "element": "elementti", "map": "kartta"}
