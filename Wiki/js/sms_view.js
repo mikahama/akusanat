@@ -47,8 +47,15 @@ function getSwadesh(json){
 
 function getEtymology(json){
 	var return_string = "";
+	var buttonText = "";
 	try{
-		var etym = json["morph"]["lg"]["etymology"];
+		if ("etymology" in json["morph"]["lg"]){
+			var etym = json["morph"]["lg"]["etymology"];
+			buttonText = "etymologia";
+		}else{
+			var etym = json["morph"]["lg"]["compg"];
+			buttonText = "muodostus";
+		}
 		var parser = new DOMParser();
     	var xmlDoc = parser.parseFromString(etym, "text/xml");
     	var etymologies = xmlDoc.childNodes[0];
@@ -63,7 +70,7 @@ function getEtymology(json){
 	if (etymologies == undefined || etymologies.length==0){
 		return [return_string, placing.TOP];
 	}
-	return_string = "<div class='etymology_container'><button class='etybutton' onclick='showEtymology(event)'>Näytä etymologia</button><ul class='etylist'>"
+	return_string = "<div class='etymology_container'><button class='etybutton' onclick='showEtymology(event)'>Näytä "+ buttonText +"</button><ul class='etylist'>"
 	for (var i = 0; i < etymologies.length; i++) {
 		var etymology = etymologies[i];
 		var data = etymology.textContent;

@@ -144,11 +144,14 @@ function createFormItem(lemma, pos, semantics, translations, json_data, json){
 	return lemma_edit;
 }
 
-
 function etymologyForm(json){
-	var return_string = "<div class='etymology_edit'><p><b>Etymologia</b></p><button onclick='addEtyWord(event)'>Lisää kantasana</button>";
+	return formFromLgXML(json, "etymology", "etymology");
+}
+
+function formFromLgXML(json, xmlTag, classPrefix){
+	var return_string = "<div class='" +classPrefix+"_edit'><p><b>Etymologia</b></p><button onclick='add"+classPrefix+"Word(event)'>Lisää kantasana</button>";
 	try{
-		var etym = json["morph"]["lg"]["etymology"];
+		var etym = json["morph"]["lg"][xmlTag];
 		var parser = new DOMParser();
     	var xmlDoc = parser.parseFromString(etym, "text/xml");
     	var etymologies = xmlDoc.childNodes[0];
@@ -170,11 +173,11 @@ function etymologyForm(json){
 			continue;
 		}
 
-		var html = "<div class='etyEntry'>Kantasana: <input class='etyWord' value='" + data + "'> Tyyppi: <input class='etyType' value='" + etymology.tagName + "'><button onclick='addEtyAttr(event)'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul>";
+		var html = "<div class='"+ classPrefix.substring(0,3) +"Entry'>Kantasana: <input class='"+ classPrefix.substring(0,3) +"Word' value='" + data + "'> Tyyppi: <input class='"+ classPrefix.substring(0,3) +"Type' value='" + etymology.tagName + "'><button onclick='add"+classPrefix"+Attr(event)'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul>";
 		var attrs = etymology.attributes || [];
 		for (var ii = 0; ii < attrs.length; ii++) {
 			var attribute = attrs[ii];
-			html = html + "<li>Nimi: <input class='etyAttr' value='" + attribute.name + "'> Arvo: <input class='etyValue' value='" + attribute.value + "'><span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>"
+			html = html + "<li>Nimi: <input class='"+ classPrefix.substring(0,3) +"Attr' value='" + attribute.name + "'> Arvo: <input class='"+ classPrefix.substring(0,3) +"Value' value='" + attribute.value + "'><span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>"
 		}
 		html = html + "</ul></div>"
 		return_string = return_string + html;
@@ -265,14 +268,14 @@ function deleteEtyWord(event){
 	row.remove();
 }
 
-function addEtyAttr(event){
+function addetymologyAttr(event){
 	var list = event.target.parentElement.getElementsByTagName("UL")[0];
 	var html = "<li>Nimi: <input class='etyAttr' value=''> Arvo: <input class='etyValue' value=''><span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>";
 	var row = HTMLtoDOM(html, "UL");
 	list.appendChild(row);
 }
 
-function addEtyWord(event){
+function addetymologyWord(event){
 	var list = event.target.parentElement;
 	var html = "<div class='etyEntry'>Kantasana: <input class='etyWord' value=''> Tyyppi: <input class='etyType' value=''><button onclick='addEtyAttr(event)'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul></ul></div>";
 	var row = HTMLtoDOM(html, "UL");
