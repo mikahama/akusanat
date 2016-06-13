@@ -459,14 +459,18 @@ function updateJsons(){
 
 function morphDictEdit(json, classPrefix){
 	var return_string = "<div class='morphEditor " + classPrefix + "_edit'><b>"+_(classPrefix)+"</b><br><button onclick='addetymologyAttr(event, \"" + classPrefix + "\")'>Lisää attribuutti</button><ul>";
+	try{
 	var dict = json["morph"][classPrefix];
 	if(dict != undefined){
 		for( var key in dict){
 			var html = "<li>Nimi: <input class='"+ classPrefix.substring(0,3) +"Attr' value='"+key+"'> Arvo: <input class='"+ classPrefix.substring(0,3) +"Value' value='"+dict[key]+"'><span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>";
 			var return_string = return_string + html;
 		}
+	}	
+	} catch (e){
 	}
-	return return_string + "</ul></div>"
+	return return_string + "</ul></div>";
+
 }
 function morphDictEditToJsonData(homonym, classPrefix){
 	var dict = {};
