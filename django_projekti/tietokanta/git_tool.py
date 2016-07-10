@@ -5,6 +5,7 @@ import requests
 from exceptions import *
 import codecs
 from easy_git import EasyGit
+import xml.dom.minidom
 
 class GitTool():
     def __init__(self):
@@ -35,8 +36,10 @@ class GitTool():
                 r = requests.get(self.current_url + 'xml_out/', params=payload)
                 if r.status_code != requests.codes.ok:
                     raise HTTPException()
+                xml_data = xml.dom.minidom.parseString(r.text)
+                xml_text = xml_data.toprettyxml()
                 f = codecs.open(file, "w", encoding="UTF-8")
-                f.write(r.text)
+                f.write(xml_text)
                 f.close()
                 print file
         self.easy_git.commit("Data from wiki")
