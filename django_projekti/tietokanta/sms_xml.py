@@ -27,7 +27,7 @@ def update_sms_db_from_xml(xml_text, file_type, file_name):
 def __process_sms_xml__(root, file_name):
     lemmas = []
     for element in root:
-        homonym = {"translations": {},"semantics":[],"sms2xml":{"sources":[], "file": file_name, "lemmas_additional_attributes":{}}}
+        homonym = {"mg_data": [], "translations": {},"semantics":[],"sms2xml":{"sources":[], "file": file_name, "lemmas_additional_attributes":{}}}
         homonym["sms2xml_id"] = element.get("id")
         l = element.find("lg").find("l")
         lemma = l.text
@@ -41,21 +41,28 @@ def __process_sms_xml__(root, file_name):
         if sources is not None:
             for book in sources:
                 homonym["sms2xml"]["sources"].append(book.attrib)
-        mg = element.find("mg")
-        for child in mg:
-            if child.tag == "semantics":
-                for sem in child:
-                    d = {"class": sem.get("class"), "value": sem.text or ""}
-                    homonym["semantics"].append(d)
-            if child.tag == "tg":
-                lang = child.get("xml_lang").lower()
-                if lang not in homonym["translations"]:
-                    homonym["translations"][lang] = []
-                for trans in child:
-                    t = {}
-                    t["sms2xml"] = trans.attrib
-                    t["word"] = trans.text
-                    homonym["translations"][lang].append(t)
+        mgs = element.findall("mg")
+        mg_index = -1
+        for mg in mgs:
+            mg_index += 1
+            for child in mg:
+                if child.tag == "semantics":
+                    for sem in child:
+                        d = {"mg": str(mg_index), "class": sem.get("class"), "value": sem.text or ""}
+                        homonym["semantics"].append(d)
+                if child.tag == "tg":
+                    lang = child.get("xml_lang").lower()
+                    if lang not in homonym["translations"]:
+                        homonym["translations"][lang] = []
+                    for trans in child:
+                        t = {}
+                        t["mg"] = str(mg_index)
+                        t["sms2xml"] = trans.attrib
+                        t["word"] = trans.text
+                        homonym["translations"][lang].append(t)
+                else:
+                    mg_data = {"text": child.text, "element": child.tag, "attributes": child.attrib, "mg": str(mg_index)}
+                    homonym["mg_data"].append(mg_data)
         lemmas.append((lemma, homonym))
     return lemmas
 
@@ -81,11 +88,15 @@ def __process_finsms_xml__(root, file_name):
                     pos = t.get("pos","")
                     sami_lemmas.append((lemma, contlex, pos))
             semantics = []
-            sems = element.find("mg").find("semantics")
-            if sems is not None:
-                for sem in sems:
-                    d = {"class": sem.get("class"), "value": sem.text or ""}
-                    semantics.append(d)
+            mgs = element.findall("mg")
+            mg_index = -1
+            for mg in mgs:
+                mg_index += 1
+                sems = mg.find("semantics")
+                if sems is not None:
+                    for sem in sems:
+                        d = {"mg": str(mg_index),"class": sem.get("class"), "value": sem.text or ""}
+                        semantics.append(d)
             for sami_lemma in sami_lemmas:
                 lemma, contlex, pos = sami_lemma
                 homonym = {"POS": pos.upper(), "finsms": {"Contlex":contlex, "file": file_name}}
@@ -118,7 +129,7 @@ def __xml_node_to_list__(node):
 def __process_morph_xml__(root, file_name):
     lemmas = []
     for element in root:
-        homonym ={"lexicon":{},"translations": {},"semantics":[],"morph":{"lg":{}},"sms2xml":{"sources":[]}}
+        homonym ={"mg_data":[], "lexicon":{},"translations": {},"semantics":[],"morph":{"lg":{}},"sms2xml":{"sources":[]}}
         id = element.get("id") or ""
         meta = element.get("meta") or ""
         homonym["morph_id"] = id
@@ -141,23 +152,28 @@ def __process_morph_xml__(root, file_name):
         if sources is not None:
             for ele in sources:
                 homonym["sms2xml"]["sources"].append(ele.attrib)
-        mg = element.find("mg")
-        if mg is not None:
-            for ele in mg:
-                if ele.tag == "semantics":
-                    for sem in ele:
-                        d = {"class": sem.get("class"), "value": sem.text or ""}
-                        homonym["semantics"].append(d)
-                elif ele.tag == "tg":
-                    language = ele.get("xml_lang")
-                    if language not in homonym["translations"]:
-                        homonym["translations"][language] = []
-                    for t in ele:
-                        attribs = t.attrib
-                        attribs["word"] = t.text
-                        homonym["translations"][language].append(attribs)
-                elif ele.tag == "lexicon":
-                    homonym["lexicon"][ele.get("xml_lang", "lat")] = ele.text
+        mgs = element.findall("mg")
+        mg_index = -1
+        for mg in mgs:
+            mg_index += 1
+            if mg is not None:
+                for ele in mg:
+                    if ele.tag == "semantics":
+                        for sem in ele:
+                            d = {"mg": str(mg_index), "class": sem.get("class"), "value": sem.text or ""}
+                            homonym["semantics"].append(d)
+                    elif ele.tag == "tg":
+                        language = ele.get("xml_lang")
+                        if language not in homonym["translations"]:
+                            homonym["translations"][language] = []
+                        for t in ele:
+                            attribs = t.attrib
+                            attribs["word"] = t.text
+                            attribs["mg"] = str(mg_index)
+                            homonym["translations"][language].append(attribs)
+                    else:
+                        mg_data = {"text": ele.text, "element": ele.tag, "attributes": ele.attrib, "mg": str(mg_index)}
+                        homonym["mg_data"].append(mg_data)
         lemmas.append((lemma, homonym))
     return lemmas
 
