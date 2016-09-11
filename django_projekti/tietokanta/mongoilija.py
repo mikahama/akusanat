@@ -141,6 +141,16 @@ def store_xml_in_db(xml_data, file_type, file_name, language, first_time_sync=Fa
     for item in data:
         update_word_in_lemma(item[0], item[1], "POS", "sms", first_time_sync)
 
+def push_everything_to_wiki(language):
+    collection = __get_db_collection__(language=language)
+    cursor = collection.find({})
+    index = 0
+    count = cursor.count()
+    while index != count:
+        doc = cursor[index]
+        __update_to_wiki__(doc["lemma"], language)
+        index += 1
+
 def __update_to_wiki__(lemma, language):
     try:
         #check if already queued
@@ -149,4 +159,3 @@ def __update_to_wiki__(lemma, language):
         #not in queue -> add
         item = WikiUpdateQueue(lemma=lemma,language=language)
         item.save()
-        #TODO: Process the queue

@@ -22,5 +22,6 @@ urlpatterns = [
     url(r'^deleteLemma/', views.delete_lemma, name='delete_lemma'),
     url(r'^updateLemma/', views.update_lemma, name='update_lemma'),
     url(r'^updateWiki/', views.process_towiki_queue, name='update_wiki'),
-    url(r'^git_postmerge/', views.pull_git, name='pull_git')
+    url(r'^git_postmerge/', views.pull_git, name='pull_git'),
+    url(r'^rebaseWiki/', views.rebase_wiki, name='rebase_wiki')
 ]

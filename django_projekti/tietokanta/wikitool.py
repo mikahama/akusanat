@@ -19,6 +19,8 @@ class Wikitool():
     def post(self, url, data, cookies={}):
         r = requests.post(url, data=data,cookies=cookies)
         success = r.status_code >= 200 and r.status_code < 300
+        if "mediawiki-api-error" in dict(r.headers).keys():
+            success = False
         if success:
             try:
                 d = r.json()

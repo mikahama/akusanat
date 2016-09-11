@@ -650,7 +650,7 @@ function jsonsToWiki(json_list){
 		var json = json_list[i];
 		wiki = wiki + jsonToWiki(json);
 	}
-	wiki = wiki + "{{#css:/sms.css}}";
+	wiki = wiki + "\n[[Category:Sms]]";
 	return wiki;
 }
 

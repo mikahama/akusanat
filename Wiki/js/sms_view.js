@@ -1,6 +1,11 @@
 var placing = {"TOP":0, "BOTTOM":1}
 document.addEventListener('DOMContentLoaded', function() {
     populateView();
+    var editors = document.getElementsByClassName("mw-editsection");
+    for (var i = 0; i < editors.length; i++) {
+    	var editor = editors[i];
+    	editor.style.display = "none";
+    }
 }, false);
 
 var processors = [getEtymology, getCompg, getSwadesh];

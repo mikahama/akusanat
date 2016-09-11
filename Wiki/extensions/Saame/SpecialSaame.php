@@ -119,6 +119,7 @@ class SpecialSaame extends SpecialPage {
 		if (self::startsWith(strtolower($title), "sms:")){
 			#Modify only Skolt Sami pages
 			$editPage->addScript("<script type='text/javascript' src='/js/sms_view.js'></script>");
+			$editPage->addStyle( "/js/sms_view.css");
 		}
 		
 		return $editPage;

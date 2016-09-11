@@ -83,6 +83,11 @@ def pull_from_git():
             mongoilija.store_xml_in_db(xml, folder, tail, "sms", first_time)
     process_towiki_queue("")
 
+def rebase_wiki(request):
+    language = request.GET.get("language", "sms")
+    mongoilija.push_everything_to_wiki("language")
+    process_towiki_queue("")
+    return HttpResponse("OK", status=200)
 
 @csrf_exempt
 def delete_lemma(request):
