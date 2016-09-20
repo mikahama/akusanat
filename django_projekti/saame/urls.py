@@ -17,11 +17,11 @@ from django.conf.urls import include, url
 from tietokanta import views
 
 urlpatterns = [
-    url(r'^xml_out/', views.xml_out, name='xml_out'),
-    url(r'^git_premerge/', views.dump_to_git, name='git_premerge'),
-    url(r'^deleteLemma/', views.delete_lemma, name='delete_lemma'),
-    url(r'^updateLemma/', views.update_lemma, name='update_lemma'),
-    url(r'^updateWiki/', views.process_towiki_queue, name='update_wiki'),
-    url(r'^git_postmerge/', views.pull_git, name='pull_git'),
-    url(r'^rebaseWiki/', views.rebase_wiki, name='rebase_wiki')
+    url(r'^smsxml/xml_out/', views.xml_out, name='xml_out'),
+    url(r'^smsxml/git_premerge/', views.dump_to_git, name='git_premerge'),
+    url(r'^smsxml/deleteLemma/', views.delete_lemma, name='delete_lemma'),
+    url(r'^smsxml/updateLemma/', views.update_lemma, name='update_lemma'),
+    url(r'^smsxml/updateWiki/', views.process_towiki_queue, name='update_wiki'),
+    url(r'^smsxml/git_postmerge/', views.pull_git, name='pull_git'),
+    url(r'^smsxml/rebaseWiki/', views.rebase_wiki, name='rebase_wiki')
 ]

@@ -85,7 +85,7 @@ def pull_from_git():
 
 def rebase_wiki(request):
     language = request.GET.get("language", "sms")
-    mongoilija.push_everything_to_wiki("language")
+    mongoilija.push_everything_to_wiki(language)
     process_towiki_queue("")
     return HttpResponse("OK", status=200)
 
