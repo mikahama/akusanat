@@ -1,13 +1,4178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <r id="smsfin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
-   You are free to copy, distribute and adapt the work, as long as you always give
-   proper attribution using the attribution text below.
-   For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
-   Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref> <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
-   This is NOT a fully styled and published dictionary.
-   As such it can and will contain unfinished entries, unpublished entries, 
-   entries with objectionable translations, etc. If you find any errors 
-   or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.</sourcenote> </lics>
-<e> <lg> <l pos="CC::Adv::Adv">ja niin edelleen</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="xxx"/> </semantics> <tg xml:lang="sms"> <t pos="CC::Adv::Adv">da nuʹtt ooudâs</t> </tg> </mg> </e>
-<e> <lg> <l pos="">jne.</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="CC::Adv::Adv">da nuʹtt ooudâs</t> </tg> </mg> </e>
+ You are free to copy, distribute and adapt the work, as long as you always give
+ proper attribution using the attribution text below.
+ For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
+ Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref>
+     <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
+ This is NOT a fully styled and published dictionary.
+ As such it can and will contain unfinished entries, unpublished entries, 
+ entries with objectionable translations, etc. If you find any errors 
+ or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.
+     </sourcenote> </lics>
+<e>
+   <lg>
+     <l pos="V">ahdistaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">rõõʹddid säʹlbbed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">aitoa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ääidi pâʹjjel urččâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ajaa lumessa mutkitellen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kuäʹllcid päʹštted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ajaa poroilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SOLLAQTTED" pos="V">puõccid käʹrjstâʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">alistaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vuâlla väʹldded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">alkaa odottaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">siõʹme årra jåttjed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">alkaa odottaa lasta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">siõʹme årra jåttjed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">alkaa vihertää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SHORRNED" pos="V">ruõnâs pâjjned</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ampua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POAOASSAD" pos="V">liâžžeeʹl pääččad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">anna mennä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">äʹn mâânn</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">anna olla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">äʹn åårr</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">antaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">uʹvdded kaaup ool</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">antaa anteeksi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">uʹvdded proʹsttjõõžž</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">antaa mennä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">äʹn mâânn</t>
+       <t Contlex="V_" pos="V">äʹn åårr</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">antaa nenää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">puʹhtted njuuʹn</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">antaa oikeutta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">uʹvdded vuõiggâdvuõđ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">antaa vuokralle</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">võõur vuâlla uʹvdded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">arvostaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">uʹvdded äärv</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">aurinko laskee</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">peiʹvv luâštt</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">digitoida</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">diǧited diǧitteed ?</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">edistyä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mõõnnâd ooudâs</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">edistää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">viikkâd ooudâs</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ei arvosteltu</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jeät ärvstõllum</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">eivät ole</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="V_" pos="V">jie leäkku</t> <re/>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">eivät olisi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V-NEG_" pos="V">jie leʹjje</t>
+       <t Contlex="V-NEG_" pos="V">jie leʹčče</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">en jaksa kantaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jiõm kuåsttâd kueʹdded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ennustaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TIEQTTED" pos="V">ouddâl tieʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">epäonnistua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩiâvvâd ǩeähneld</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">grillata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">grillist päʹštted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">haastaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kåččâd suudid</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">haastaa oikeuteen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kåččâd suudid</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">haljeta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">kuvddân mõõnnâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">halkaista kiilalla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vââuʹjin luõʹddjed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">heiluttaa häntää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">seeiʹb puʹštted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">heittää kuperkeikkaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čeäǥǥeed pâjspõõđi</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">herättää mielenkiintoa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩieʹssed miõl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">hiekoittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TEEQMEED" pos="V">vuõddsid kâʹlvveed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">hiipiä jonkun perässä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">njaaǥǥted ǩeän-ne</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">hillat kypsyvät</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">luâmman lääʹdde</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">hinnoitella</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">hõõʹddid piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">honottaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SARNNAD" pos="V">njuuʹnn vueʹlnn särnnad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">huokaista syvään</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">pâʹjjel rõõʹddi vuõiŋsted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">huolestua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SHKUEAQTTED" pos="V">huõl ââʹnškueʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">huutaa yhteen ääneen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_KUAESTTAD" pos="V">õõut jiõʹnne čuârvvad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">hypätä tasajalkaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TEEQMEED" pos="V">nânnjueʹlji njuiʹǩǩeed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">höylätä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vuõllâd råʹǩǩlin</t>
+       <t Contlex="V_" pos="V">vuõllâd tueʹlin</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">illastaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">poorrâd jeäʹǩǩesveär</t>
+       <t Contlex="V_" pos="V">ââʹnned jeäʹǩǩesstuäʹl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">imuroida</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ooccâd domoi</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">iskeä silmää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čâʹcǩǩed čââʹlm</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">istua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">išttâd åårrad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC::Adv::Adv">ja niin edelleen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="xxx"/>
+     </semantics>
+     <tg xml:lang="sms">
+       <t pos="CC::Adv::Adv">da nuʹtt ooudâs</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">jne.</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t pos="CC::Adv::Adv">da nuʹtt ooudâs</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">joutua mielenhäiriöön</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">miõlid rõttjed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">julistaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">uʹvdded teâttân</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">juoda paljon vettä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">juukkâd jiânnai čääʹʒʒ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">juontaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jååʹđted juuhl</t>
+       <t Contlex="V_" pos="V">jååʹđted prääʹzniǩ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">juoruta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩiõlid kueʹdded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">juurtua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jäälõõttâd aainâs</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">jäädä eloon</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">piâssâd jieʹllmen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">jäädä henkiin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">piâssâd jieʹllmen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kaatua mätkähtää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">joorrâd pääčkted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kahlehtia</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩiʹddjed aauʹlin</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kaitsea</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_KHIOCHCHCHYD" pos="V">päärnaid ǩiõččâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kalastaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">šeeʹlled kueʹl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kammata ja meikata päiväkuntoon</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_LAADDYD" pos="V">vueiʹv koopčâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kantaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">väʹldded peäʹl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">katsastaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">praavâd aaut</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">katsella seutua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩiõččâd vuuʹd årra</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">katsoa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_KHIOCHCHCHYD" pos="V">jåårǥčõõʹlmin ǩiõččâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">katsoa karsaasti</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_KHIOCHCHCHYD" pos="V">jåårǥčõõʹlmin ǩiõččâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kaukaa katsoen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kuʹǩǩen ǩiččeeʹl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kehittyä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mõõnnâd ooudâs</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kehittää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">viikkâd ooudâs</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kehrätä kuosalilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kueʹsslin pââʹnned</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kehrätä värttinällä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">snaʹddjin pââʹnned</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">keilata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">ruuhhivuiʹm siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kengittää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">käʹmmid piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kengät vuotavat</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">käʹmme čääʹʒʒ lueʹštte</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kertoa satua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jååʹđted mainnâz</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kiilata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">lååʹđ piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kiinnostaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩieʹssed miõl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kirjautua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mõõnnâd meädda</t>
+       <t Contlex="V_" pos="V">piâssâd sizz</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kirjoittaa muistiin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩeʹrjjted mušttu</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kokea ansoja</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SUOAPPYD" pos="V">ǩiõlid vuåppâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">koparoida</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_CHIOKKYD" pos="V">kõõʒʒivuiʹm riõkkâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kotkata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">soojted nääuʹl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kulkea kimpsuinen kampsuineen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">seerdal jååʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kulkea talosta taloon</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">põõrti mieʹldd jååʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kunnioittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ciistâst ââʹnned</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kuoria</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">pieʹʒʒid låhtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kuoria pettua männystä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">pieʹʒʒid låhtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kurittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kõrrâz uʹvdded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kutoa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">loottâd skaʹrripänna</t>
+       <t Contlex="V_" pos="V">seeʹleld kååʹđđed</t>
+       <t Contlex="V_" pos="V">säurra kååʹđđed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kuuluttaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">uʹvdded teâttan</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kylmettyä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kââlmted jiijjâs</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">käsitellä tekstiä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩiõtʼttõõllâd teeʹkst</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kätellä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩiõttǩiõʹtte tiõrvted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kävellä käsillä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩiõđi âʹlnn väʹʒʒed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">kävellä sauvoilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">väʹʒʒed sueʹbbivuiʹm</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">käydä koulua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jååʹtted škooul</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">käydä viidettäkymmenettä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jååʹtted viiđad lååi</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">käyttää hyväksi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ââʹnned äuʹǩǩen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">käyttää hyväksi jtkuta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kueiʹmes ââʹnned</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">käyttää hyödyksi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ââʹnned äuʹǩǩen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ladata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">noorrâd liâdǥ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">laiskottaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jiõm viišš-škuättam</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">langeta syntiin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">viõrrled reäkka</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">laskea hyppyristä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čiõrsted njuiʹǩǩtõõǥǥ mieʹldd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">laskea syöksylaskua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_LAUKKOOLLYD" pos="V">hooddin čiõrstõõllâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">laukata hurjaa vauhtia</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kååmkõʹʒʒe tiârrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">leikata puoliksi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">lââʹǩǩ-lâkka čuõppâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">leikkiä porosilla leikkiä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">puäʒʒpuäʒʒ siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lentää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_ROVVYD" pos="V">kävvad rõvvâd</t>
+       <t Contlex="V_" pos="V">suäjjan ǩeʹrdded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lentää selälleen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_ROVVYD" pos="V">kävvad rõvvâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">liikuttaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">likstâʹtted miõl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">liikuttua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">pâiʹl rââʹdd vuõiŋsted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">linnustaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">looʹddid šeeʹlled</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lohestaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">šeeʹlled luõzz</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">loitsuta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">saaʹnid piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lumota</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩieʹssed miõl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">luoda</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">sõhssmid lueʹštted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">luoda karvat</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">sõhssmid lueʹštted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lyödä löylyä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">žaar piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lyödä veikkaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">zaklaad čâʹcǩǩed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lyödä vetoa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">zaklaad čâʹcǩǩed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lähteä jhonk</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vueʹlǧǧed ... årra</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lähteä kotiinsa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vueʹlǧǧed domoi</t>
+       <t Contlex="V_" pos="V">vueʹlǧǧed päikkses</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lähteä rahaa hakemaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vueʹlǧǧed tieʹǧǧi årra</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">lähteä verkkoja kokemaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">sääiʹmi årra vueʹlǧǧed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">maata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_PIYSSYD" pos="V">pââjas jueʹlji liâššâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">maata jalat ylhäällä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_PIYSSYD" pos="V">pââjas jueʹlji liâššâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">majoittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">väʹldded sizz</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">maksaa laina</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">lääin taʹssjed</t>
+       <t Contlex="V_" pos="V">lääin tääzzted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">maksaa nettipankissa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mäʹhssed neeʹttin</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">marjastaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mueʹrjid uussâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">marjat kypsyvät</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mueʹrj ǩiõrggne</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">menettää impeytensä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SOLLAQTTED" pos="V">nijddsläävâs puåttrâʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mennä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">kõõumâs mõõnnâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mennä halki</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">kuvddân mõõnnâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mennä hukkaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">tuʹššen mõõnnâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mennä mustelmaiseksi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mõõnnâd obbmaallu</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mennä pakoon</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">puåttrõʹsse mõõnnâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mennä synnyttämään</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mõõnnâd pääʹrn puʹhtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mennä tiehensä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mõõnnâd ǩeäinnses</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mennä väärin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_ROVVYD" pos="V">puästtad šõddâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">merkitä muistiin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">piijjâd ǩeeʹrj ool</t>
+       <t Contlex="V_POOLLYD" pos="V">ǩeeʹrj ool piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mitata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TEEQMEED" pos="V">jueʹlǧǧlaaʹvin mieʹrreed</t>
+       <t Contlex="V_TEEQMEED" pos="V">laauʹǩin mieʹrreed</t>
+       <t Contlex="V_TEEQMEED" pos="V">tuäʹres kuämmrin mieʹrreed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mittaaminen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TEEQMEED" pos="V">ceäggpeälgga mieʹrreed</t>
+       <t Contlex="V_" pos="V">tuäʹres kuämmra metteed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">molskahtaa veteen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čäcca pääčkted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">mongertaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_MAINSTED" pos="V">muäʹlǩǩnjuhččma mainsted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">monipuolistaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">tuejjeed määŋgpeällsen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">munia</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kueʹdded mõõʹnid</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">murhata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kåʹdded oummu</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">nenitellä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">puʹhtted njuuʹn</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">niellä väärään kurkkuun</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">puästčoddǥa njiõllâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">niiata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_LAUKKOOLLYD" pos="V">puõlvi ool njiõkklõõttâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">niittää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čuõppâd sueiʹnid</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">nojata kättä poskeen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">njiõrâst ǩiõđi åårrad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">nousta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">heäppaž ool võʹllʼjed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">nousta jaloilleen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SHORRNED" pos="V">jueʹlji ool pâjjned</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">nousta kuolleista</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kaggõõttâd jaaʹmmjest</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">nousta seisomaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SHORRNED" pos="V">jueʹlji ool pâjjned</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">nuijia</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POAOASSAD" pos="V">koorǩin tääkkad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">nuolla kynsiään</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">njuällad kõõʒʒees</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">näyttää todeksi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čuäʹjted tuõttân</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">odottaa lasta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">siõʹme årra leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ohittaa hipaisten</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">kleezz mõõnnâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ojittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kuäivvad vuäj</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">koukkrõõžž âʹlnn leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla arpanoppasilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SOLLAQTTED" pos="V">ǩiõppkuurč jåårǥlâʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla hengenahdistuksessa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SARNNAD" pos="V">rõõʹddid sälbbad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla huonovointinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">pannvââi leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla istaallaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">išttâd åårrad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla itara</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">njuällad kõõʒʒees</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla jäljillä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vueʹttel leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla kirkkosilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">ceerkvi-ceerkvi siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla käräjillä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">sudâst leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla paha mieli</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">miõlid poonnjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla pallosilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">päällain siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla porosilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">puõcci-puõcci siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla surullinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">peʹcclest leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla tiineenä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čååuʹjest leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla turvassa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">nânnsõõzzâst leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla vankina</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">åårrad ǩidd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla vireillä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">tuʹmmjem vueʹlnn åårrad</t>
+       <t Contlex="V_" pos="V">ǩiõttʼtõõllâm vueʹlnn åårrad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla voimassa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">åårrad viõǥǥâst</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">olla vuotteessa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vueʹttel leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">onnitella</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">tuäivted leekk</t>
+       <t Contlex="V_" pos="V">äʹjsted leekk</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">osoittaa mieltä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čuäʹjted miõl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ottaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">väʹldded peäʹl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ottaa huomioon</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">väʹldded lokku</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ottaa kohmeloryyppy</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vueiʹv taalksted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ottaa lukuun</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">väʹldded lokku</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ottaa pahakseen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">neuʹrren väʹldded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ottaa valokuva</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kaart ool väʹldded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ottaa yhteen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">õhttses väʹldded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">paahtaa kahvia</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kaaʹffid puäʹldded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">paimentaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_KHIOCHCHCHYD" pos="V">puõccid ǩiõččâd</t>
+       <t Contlex="V_KHIOCHCHCHYD" pos="V">saauʒid ǩiõččâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">paistaa rinkilöitä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kuäʹllcid päʹštted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">panna muistiin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">piijjâd ǩeeʹrj ool</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">panna suu suppuun</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_LAADDYD" pos="V">njääʹlm koopčâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">panna veikkaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">zaklaad piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">panna vetoa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">zaklaad piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">parantaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">saaʹnid piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pauloittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_CHIOKKYD" pos="V">vuõddjid ǩiõssâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pedata sänky</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_LAADDYD" pos="V">siâŋgg koopčâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pedata vuode</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_LAADDYD" pos="V">siâgg koopčâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pelata jalkapalloa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">kâripääll siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pelata jääkiekkoa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">jiõŋŋhokki siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pelata jääpalloa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">jiõŋŋpääll siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pelata katkoa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čâʹcǩǩed kaatk</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pelata kyykkää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">ruuhhivuiʹm siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pelata lentopalloa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">ǩiʹrddipäällain siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pelata palapeliä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">kuuʹsǩin siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pelata pesäpalloa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">piâlddpäällain siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pelata potkupalloa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">kâripäällain siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pelata puupalloa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">šaarin siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pesiä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">raajjâd piäʹzz</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pieksää koparalla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_CHIOKKYD" pos="V">kõõʒʒivuiʹm riõkkâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">piiluttaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SUOAPPYD" pos="V">peellääušain viârrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">piiskata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TEEVVAD" pos="V">pleâtnin vââđđad</t>
+       <t Contlex="V_TEEVVAD" pos="V">reessin vââđđad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pilkkiä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_VUAGGGAD" pos="V">kaʹlddjest vuäggad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pitkästyä matkaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kokkšed määʹtǩ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pitää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ââʹnned miõlin</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pitää hyvänä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">pueʹrren ââʹnned</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pitää mielessä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ââʹnned miõlâst</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pitää muistojumalanpalvelus</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">panahida ââʹnned</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pitää nähtävänä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ââʹnned vueiʹnnemnalla</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pitää nälässä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ââʹnned neäʹljest</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pitää pahana</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">neuʹrren väʹldded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pitää puhe</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ââʹnned saaǥǥ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pitää silmällä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ââʹnned čâʹlmmvärddjest</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">poimia marjoja</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mueʹrjid uussâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">polttaa taulanpala kipeän kohdan päällä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">tuuʹlin puäldded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pudottaa karvat</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">sõhssmid lueʹštted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pudottaa silmukka kutoessa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">läʹpped čââʹlm</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">puhua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SARNNAD" pos="V">njuuʹnn vueʹlnn särnnad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">puhua jotain kieltä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">mainsted koon-ne ǩiõl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pujotella</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">måkkad-måkkad mõõnnâd</t>
+       <t Contlex="V_" pos="V">måkkad-måkkad čiõrsted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">puuttua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">väjja leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pyytää anteeksi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">äännad proʹsttjõõžž</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pyörryttää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jieʹrmid rõttjed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">pyöräillä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jååʹtted tanccâmkååʹlzin</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">päästää lapsi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čiõʹljest leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">raivostua silmittömästi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_ROVVYD" pos="V">papinski suttâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ratsastaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">heäppaž âʹlnn vuejjad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">retkeillä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">luâđast jååʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">riippua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">šõddâd koonn mieʹldd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">rokottaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">uuʹrm piijjâd</t>
+       <t Contlex="V_POOLLYD" pos="V">uuʹrmid piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">rukoilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TOBDDYD" pos="V">čõõʹlmid risttâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ruoskia</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TEEVVAD" pos="V">pleâtnin vââđđad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ruveta pyörryttämään</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_SOLLAQTTED" pos="V">jieʹrmid jåårǥlâʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">saada</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vuäǯǯad puuʹđ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">saada anteeksi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vuäǯǯad proʹsttjõõžž</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">saada henkiin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vuäǯǯad jiõʹǧǧe</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">saada kaloja</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kueʹlid kåʹdded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">saada koppi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">päll pâššan kuämmra</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">saada pitkä nenä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vuäǯǯad kuʹǩes njuuʹnn</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">saada rukkaset</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_LUYDDDAD" pos="V">äpprid vuäǯǯad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">saada silmät mustiksi tappelussa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vuäǯǯad ååʹšǩid</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">salaojittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kuäivvad määddvuâlažvuäj</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">sattua kohtaamaan joku</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kuivvâd ǩeän-ne ool</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">seistä toljottaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čueǯǯad koikkšed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">seistä yhdellä jalalla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jueʹlǧǧpieʹlin čueǯǯad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">selailla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="V_LAUKKOOLLYD" pos="V">liistid joortõõllâd</t> <re/>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">selailla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="V_LAUKKOOLLYD" pos="V">lõõstid joortõõllâd</t> <re/>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">selata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">liistid joorted</t>
+       <t Contlex="V_" pos="V">lõõstid joorted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">sienestää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kuõbbrid uussâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">sijata vuode</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_LIEQDHDHED" pos="V">sââi šieʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">sijoittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ruõkkâd tieʹǧǧ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">sijoittaa rahaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ruõkkâd tieʹǧǧ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">sinetöidä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">piijjâd pječat</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">soittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">puʹštted ǩeâllaid</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">soittaa kelloja</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩeâllaid puʹštted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">sokkosilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_HUOLLYD" pos="V">måskkčõõʹlmi siõrrâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">soutaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_VIIKKYD" pos="V">måkkad suukkâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">sovittaa yhteen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">õʹhtte suânnʼjed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">suomentaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jåårǥlâʹtted lääddas</t>
+       <t Contlex="V_" pos="V">jåårǥlâʹtted lääʹddǩiõʹlle</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">suostua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">åskkâd vueʹlǧǧed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">surffata netissä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="V_" pos="V">joođčed neeʹttist</t> <re/>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">suudita</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">lååʹđ piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">suunnata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">piijjâd ... årra</t>
+       <t Contlex="V_" pos="V">vueʹlǧǧed ... årra</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">suuttua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_ROVVYD" pos="V">papinski suttâd</t>
+       <t Contlex="V_" pos="V">suttâd ǩeän-ne ool</t>
+       <t Contlex="V_ROVVYD" pos="V">åʹddren suttâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">synnyttää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">puʹhtted pääʹrn</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">sytyttää kynttilä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">puâllted tuõvvâz</t>
+       <t Contlex="V_POOLLYD" pos="V">tuõvvsa leeuʹs piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">syytellä varkaudesta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">viârtõõllâd suõlvuõđâst</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">säkittää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">piijjâd sieʹǩǩe</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tahallaan härnätä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jääutai viggted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">taittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">piijjâd kueʹsttemnalla</t>
+       <t Contlex="V_" pos="V">raajjâd layout</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">takaperin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">põõđlâs väʹʒʒed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">taluttaa niskasta ulos</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">njiʹšǩǩmaddjest åålǥas laidsted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">talvehtia</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">aassâd tääʹlv</t>
+       <t Contlex="V_" pos="V">jälsted tääʹlv</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tapella</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kõõʒʒivuiʹm rååttad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tapetoida</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">seiʹnnpõʹmmjid liʹjmmjed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">taputtaa käsiään</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩiõđid päčktted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tauloa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">tuuʹlin puäldded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tehdä itsemurha</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">jiijjâs hiâvted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tehdä ristinmerkki</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TOBDDYD" pos="V">čõõʹlmees risttâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tehdä tuli</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">toool piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tervehtiä posketusten</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">tiõrvted njiõrr-njiõʹrre</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tiedottaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">uʹvdded teâttan</t>
+       <t Contlex="V_" pos="V">uʹvdded teâttân</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tietää ennalta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TIEQTTED" pos="V">ouddâl tieʹtted</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">todistaa väärin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">särnnad ǩieʹles čorr saaǥǥid</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">toimia kätilönä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čiõʹljest leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">toivottaa hyvää onnea</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">tuäivted šiõǥǥ tuur</t>
+       <t Contlex="V_" pos="V">ǩiõkkâd šiõǥǥ tuur</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">toteuttaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">viikkâd čõõđ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tulla isäänsä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">šõddâd eeʹjjes beälla</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tulla kaihiseksi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čââʹlm veâlǥee</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tulla näkyviin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">eeʹtted kuesttma</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tulla raskaaksi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">siõʹme årra jåttjed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tulla täyteen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">šõddâd tiudden</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tulla voimaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">šõddâd viõʹǩǩe</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tulla äkkiä esiin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ǩeuʹǧǧeʹl leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tuntea omassatunnossaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TOBDDYD" pos="V">âʹlnnes tobddâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tuoda</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">puʹhtted tiõttu</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tuskin ymmärtää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TEEQMEED" pos="V">pannalla toʹlǩǩeed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">tuulastaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">toolin šeeʹlled</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">uistella</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_PIEAQKHKHED" pos="V">vuõgg ǩieʹssed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ulkoilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">åårrad ålggan</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">vainuta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">piõgg väʹldded</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">vaipua makeaan uneen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vueʹđđed njääʹljes nâkkrid</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">vakoilla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">suâleed teâđaid</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">valmistaa pettua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">låhtted pieʹʒʒ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">valtuuttaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">uʹvdded vääʹld</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">vangita</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">väʹldded ǩidd</t>
+       <t Contlex="V_POOLLYD" pos="V">ǩidd piijjâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">vannoa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vuârnnad jiiʹjjes</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">vannoa vala</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vuârnnad jiiʹjjes</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">varata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">noorrâd pakkâz</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">varttaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="V_" pos="V">nõđđad ?</t> <re/>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">vasaroida</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POAOASSAD" pos="V">veäʹččrin tääkkad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">veneen keula edellä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">njuuni laʹddjed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">verottaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">väʹldded piiđ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">vetää niskanuoraa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_AIBBYD" pos="V">njeʹšǩǩnueʹr čouggâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">vetää sormikoukkua</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">čouggâd suõrmmkueʹǩǩ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">viedä läpi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">viikkâd čõõđ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">viemäröidä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">uiddeed njeäʹšščääʹʒʒ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">viilata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_TEEVVAD" pos="V">raaʹspin sââjjad</t>
+       <t Contlex="V_TEEVVAD" pos="V">veeilain sââjjad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">virkata</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">kååʹđđemäʹǧǧlin kååʹđđed</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">virvoittaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">vuäǯǯad jiõʹǧǧe</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V::A::N">vivahtaa moneen väriin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_LAUKKOOLLYD" pos="V">eeuʹn suåppõõttâd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V::Adv">voida pahoin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_POOLLYD" pos="V">pannalla võõjjâd</t>
+       <t Contlex="V_" pos="V">pannvââi leeʹd</t>
+       <t Contlex="V_" pos="V">pannääʹppest leeʹd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ylentää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">ââʹleed veeʹrjest</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="V">ylläpitää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="V_" pos="V">juäʹtǩǩed ooudâs</t>
+       <t Contlex="V_" pos="V">ââʹnned âʹlnn</t>
+     </tg>
+   </mg>
+</e>
 </r>

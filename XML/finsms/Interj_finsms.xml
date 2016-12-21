@@ -1,45 +1,418 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r id="smsfin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
-   You are free to copy, distribute and adapt the work, as long as you always give
-   proper attribution using the attribution text below.
-   For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
-   Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref> <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
-   This is NOT a fully styled and published dictionary.
-   As such it can and will contain unfinished entries, unpublished entries, 
-   entries with objectionable translations, etc. If you find any errors 
-   or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.</sourcenote> </lics>
-<e> <lg> <l pos="Interj">aamen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">amen</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">anna</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">äʹn</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">antaa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">äʹn</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">hei</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">tiõrv</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">hemmetti</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">kåirr</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">hoi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">ai</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">hyvää päivää</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">tiõrv</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">terve</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">tiõrv</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">jaaha</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">jaa</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">joo, kyllä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Intrj">joo</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">joshan</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">davai</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">katsos, kas, näes</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">vuânak</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">kunpa</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">davai</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">kyllä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">EMOTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">naa</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">kyllä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">kâʹl</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">luojan kiitos (huudahdus kun onnestaa)</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">sloovboh</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">niin, noin; noin, lähes, suunnilleen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">nuʹtt</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">no</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">na</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">noin, sillä tavoin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">nuʹt-a</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">noin, suunnilleen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">nuʹt-a</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">näet</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">vuäinak</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">ole hyvä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">SOCIAL</sem> </semantics> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">tiõrvvsa</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">pahus</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">kåirr</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">päivää</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">SOCIAL</sem> </semantics> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">tiõrv</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">seh</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">ce</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">sillä lailla, sillä tavalla</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">nuʹt-a</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">siunatkoon, hui (salaman päivittelyhuudahdus)</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">sveât</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">terve</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">SOCIAL</sem> </semantics> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">tiõrv</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">tosi</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">tuõtt</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">tosi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">tuõtt</t> </tg> </mg> </e>
-<e> <lg> <l pos="N">totta</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">tuõtt</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">tuota noin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">ponimaš</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">voi surkeus</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">beâddaa</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">voi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="INTERJ_" pos="Interj">voi</t> </tg> </mg> </e>
+<r id="finsms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+ You are free to copy, distribute and adapt the work, as long as you always give
+ proper attribution using the attribution text below.
+ For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
+ Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref>
+     <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
+ This is NOT a fully styled and published dictionary.
+ As such it can and will contain unfinished entries, unpublished entries, 
+ entries with objectionable translations, etc. If you find any errors 
+ or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.
+     </sourcenote> </lics>
+<e>
+   <lg>
+     <l pos="Interj">aamen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">amen</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">anna, antaa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">äʹn</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">hei!</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">tiõrv!</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">hemmetti</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">kåirr</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">hoi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">ai</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">hyvää päivää!, terve!</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">tiõrv!</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">jaaha</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">jaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">joo, kyllä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Intrj">joo</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">joshan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">davai</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">katsos, kas, näes</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">vuânak</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">kunpa</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">davai</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">kyllä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">EMOTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">naa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">kyllä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">kâʹl</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">luojan kiitos (huudahdus kun onnestaa)</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">sloovboh</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">niin, noin; noin, lähes, suunnilleen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">nuʹtt</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">no</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">na</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">noin, sillä tavoin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">nuʹt-a</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">noin, suunnilleen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">nuʹt-a</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">näet</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">vuäinak</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ole hyvä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="HUMAN">SOCIAL</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">tiõrvvsa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">pahus</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">kåirr</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">päivää</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="HUMAN">SOCIAL</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">tiõrv</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">seh</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">ce</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">sillä lailla, sillä tavalla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">nuʹt-a</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">siunatkoon, hui (salaman päivittelyhuudahdus)</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">sveât</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">terve</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="HUMAN">SOCIAL</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">tiõrv</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">tosi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">tuõtt</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">tosi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">tuõtt</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="N">totta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">tuõtt</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">tuota noin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">ponimaš</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">voi surkeus!</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">beâddaa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">voi!</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="INTERJ_" pos="Interj">voi!</t>
+     </tg>
+   </mg>
+</e>
 </r>

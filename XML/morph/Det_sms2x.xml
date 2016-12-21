@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?> <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="sms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
-  <e id="fm_3882">
+<e id="fm_3882">
    <map fin_lemma_id="25671::::21741::" stamp="fm_3882:sml_16631:sml_16632"/>
    <rev-sort_key>meddvʹun</rev-sort_key>
    <lg>
      <l pos="Det">nuʹvddem</l>
      <stg>
-       <st Contlex="DET_SPÄʹSSEB" inflexId="::::1.2">nuʹvddem</st>
+       <st Contlex="DET_AANAR" inflexId="::::1.2">nuʹvddem</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3883</c>
@@ -131,7 +131,7 @@
        <l_var>måkkam</l_var>
      </variants>
      <stg>
-       <st Contlex="DET_JÂNNAM" inflexId="::::1.2">måkam</st>
+       <st Contlex="DET_AANAR" inflexId="::::1.2">måkam</st>
      </stg>
    </lg>
    <mg exclude="oahpa;">
@@ -222,13 +222,13 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst" id="gt_Det_4" meta="04">
+<e id="gt_Det_4" meta="04">
    <map fin_lemma_id="26196::" stamp="gt_Det_4:fm_4064:sml_29369"/>
    <rev-sort_key>tät</rev-sort_key>
    <lg>
      <l pos="Det">tät</l>
      <stg>
-       <st Contlex="DET-SHORTDE_" inflexId="::::1000">tä</st>
+       <st Contlex="DET-SHORTDEM_" inflexId="::::1000">tä</st>
      </stg>
      <inc-sampling>
        <c name="Swadesh100">4</c>
@@ -407,7 +407,7 @@
        <l_var>nåkam</l_var>
      </variants>
      <stg>
-       <st Contlex="DET_JÂNNAM" inflexId="::::1.2">nåkkam</st>
+       <st Contlex="DET_AANAR" inflexId="::::1.2">nåkkam</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3882</c>
@@ -459,7 +459,7 @@
    <lg>
      <l pos="Det">jeeʹres</l>
      <stg>
-       <st Contlex="DET_ǨEEʹLES" inflexId="::::1.2">jeärˈrez</st>
+       <st Contlex="DET_KHEEQLES" inflexId="::::1.2">jeärˈres</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">709</c>
@@ -515,7 +515,7 @@
      </tg>
    </mg>
 </e>
-<e exclude="fst" id="gt_Det_9" meta="03">
+<e id="gt_Det_9" meta="03">
    <map fin_lemma_id="21605::" stamp="gt_Det_9:fm_472:sml_28211"/>
    <rev-sort_key>tõt</rev-sort_key>
    <lg>
@@ -594,7 +594,7 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="Det">sechste(r, s)</t>
+       <t pos="Det" re="r, s">sechste</t>
      </tg>
      <tg xml:lang="eng">
        <t pos="Det">sixth</t>
@@ -677,10 +677,10 @@
        <t pos="Det">monesko</t>
      </tg>
      <tg xml:lang="nob">
-       <t pos="Det">hvilken (om antall)</t>
+       <t pos="Det" re="om antall">hvilken </t>
      </tg>
      <tg xml:lang="rus">
-       <t pos="Det">который? какой? (при счёте)</t>
+       <t pos="Det" re="при счёте">который? какой? </t>
      </tg>
    </mg>
 </e>
@@ -742,7 +742,7 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="Det">zehnte(r,s)</t>
+       <t pos="Det" re="r,s">zehnte</t>
      </tg>
      <tg xml:lang="eng">
        <t pos="Det">tenth</t>
@@ -783,7 +783,7 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="Det">vierte(r,s)</t>
+       <t pos="Det" re="r,s">vierte</t>
      </tg>
      <tg xml:lang="eng">
        <t pos="Det">fourth</t>
@@ -822,7 +822,7 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="Det">fünfte(r,s)</t>
+       <t pos="Det" re="r,s">fünfte</t>
      </tg>
      <tg xml:lang="eng">
        <t pos="Det">fifth</t>
@@ -855,7 +855,7 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="Det">neunte(r,s)</t>
+       <t pos="Det" re="r,s">neunte</t>
      </tg>
      <tg xml:lang="eng">
        <t pos="Det">ninth</t>
@@ -888,7 +888,7 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="Det">siebte(r,s)</t>
+       <t pos="Det" re="r,s">siebte</t>
      </tg>
      <tg xml:lang="eng">
        <t pos="Det">seventh</t>
@@ -929,7 +929,7 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="Det">hundertste(r,s)</t>
+       <t pos="Det" re="r,s">hundertste</t>
      </tg>
      <tg xml:lang="eng">
        <t pos="Det">hundredth</t>
@@ -962,7 +962,7 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="Det">welche(r, s)</t>
+       <t pos="Det" re="r, s">welche</t>
      </tg>
      <tg xml:lang="eng">
        <t pos="Det">which</t>
@@ -971,10 +971,10 @@
        <t pos="Det">kumpi</t>
      </tg>
      <tg xml:lang="nob">
-       <t pos="Det">hvilken/hvilket (av to)</t>
+       <t pos="Det" re="av to">hvilken/hvilket </t>
      </tg>
      <tg xml:lang="rus">
-       <t pos="Det">который (из двух)</t>
+       <t pos="Det" re="из двух">который </t>
      </tg>
    </mg>
 </e>
@@ -995,10 +995,10 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="Det">andere(r,s)</t>
+       <t pos="Det" re="r,s">andere</t>
      </tg>
      <tg xml:lang="eng">
-       <t pos="Det">other(s)</t>
+       <t pos="Det" re="s">other</t>
      </tg>
      <tg xml:lang="fin">
        <t pos="Det">muu</t>
@@ -1031,7 +1031,7 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="Det">jede(r,s)</t>
+       <t pos="Det" re="r,s">jede</t>
      </tg>
      <tg xml:lang="eng">
        <t pos="Det">each, every, everyone</t>
@@ -1062,9 +1062,7 @@
    </lg>
    <mg>
      <tg xml:lang="fin">
-       <tCtn>
-       <t Contlex="" pos="Det">kumpikin</t> <re/>
-       </tCtn>
+       <t Contlex="" pos="Det">kumpikin</t>
      </tg>
    </mg>
 </e>
@@ -1081,9 +1079,7 @@
    </lg>
    <mg>
      <tg xml:lang="fin">
-       <tCtn>
-       <t Contlex="" pos="Det">kumpikin</t> <re/>
-       </tCtn>
+       <t Contlex="" pos="Det">kumpikin</t>
      </tg>
    </mg>
 </e>
@@ -1208,7 +1204,7 @@
    <lg>
      <l pos="Det">nuʹbb</l>
      <stg>
-       <st Contlex="DET_NUʹBB" inflexId="::::1.113">nubb</st>
+       <st Contlex="DET_NUQBB" inflexId="::::1.113">nu%^1VOWbb</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3495</c>
@@ -1255,7 +1251,7 @@
        <l_var>näkkam</l_var>
      </variants>
      <stg>
-       <st Contlex="DET_JÂNNAM" inflexId="::::1.2">näkam</st>
+       <st Contlex="DET_AANAR" inflexId="::::1.2">näkam</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2424</c>
@@ -1284,7 +1280,7 @@
        <t pos="Det">tällainen</t>
      </tg>
      <tg xml:lang="nob">
-       <t pos="Det">slik (som denne)</t>
+       <t pos="Det" re="som denne">slik </t>
      </tg>
      <tg xml:lang="rus">
        <t pos="Det">такой, таковой</t>
@@ -1371,4 +1367,106 @@
      </tg>
    </mg>
 </e>
+<e>
+   <lg>
+     <l pos="Det">jiiʹjjes</l>
+     <stg>
+       <st Contlex="DET-REFL_">jiijj</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="eng">
+       <t pos="Det">his own</t>
+       <t pos="Det">her own</t>
+       <t pos="Det">its own</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Det">hänen oma</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Det">jiiʹjjez</l>
+     <stg>
+       <st Contlex="DET-REFL_">jiijj</st>
+       </stg>
+       </lg>
+   <mg>
+     <tg xml:lang="eng">
+       <t pos="Det">their own</t>
+       </tg>
+     <tg xml:lang="fin">
+       <t pos="Det">heidän oma</t>
+       </tg>
+       </mg>
+       </e>
+<e exclude="fst">
+   <lg>
+     <l pos="Det">jiijjân</l>
+     <stg>
+       <st Contlex="DET-REFL_">jiijj</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="eng">
+       <t pos="Det">my own</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Det">minun oma</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="Det">jiiʹjjen</l>
+     <stg>
+       <st Contlex="DET-REFL_">jiijj</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="eng">
+       <t pos="Det">our own</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Det">meidän oma</t>
+     </tg>
+     <xg>
+       <x src="Sääʹmǩiõll, äʹrbbǩiõll:2010:Elias Moshnikoff:" pgNo="0049">Mij mõõnim mååust jiiʹjjen päikka.</x>
+       <xt xml:lang="fin">Me menimme takaisin omaan kotiin.</xt>
+     </xg>
+   </mg>
+ </e>
+<e exclude="fst">
+   <lg>
+     <l pos="Det">jiiʹjjed</l>
+     <stg>
+       <st Contlex="DET-REFL_">jiijj</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="eng">
+       <t pos="Det" re="pl.">your own</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Det">teidän oma</t>
+     </tg>
+   </mg>
+ </e>
+<e exclude="fst">
+   <lg>
+     <l pos="Det">jiijjâd</l>
+     <stg>
+       <st Contlex="DET-REFL_">jiijj</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="eng">
+       <t pos="Det" re="Sg.">your own</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Det">sinun oma</t>
+     </tg>
+   </mg>
+ </e>
 </r> 

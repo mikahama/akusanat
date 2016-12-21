@@ -1,49 +1,562 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r id="smsfin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
-   You are free to copy, distribute and adapt the work, as long as you always give
-   proper attribution using the attribution text below.
-   For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
-   Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref> <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
-   This is NOT a fully styled and published dictionary.
-   As such it can and will contain unfinished entries, unpublished entries, 
-   entries with objectionable translations, etc. If you find any errors 
-   or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.</sourcenote> </lics>
-<e> <lg> <l pos="CC">eli</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">leʹbe</t> </tg> </mg> </e>
-<e> <lg> <l pos="Pcle">entä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">a</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">ja</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">da</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">ja</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">de</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">ja</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">di</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">ja</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">ja</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">ja niin</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">de</t> </tg> </mg> </e>
-<e> <lg> <l pos="CS">kunhan</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">leâša</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">mutta</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">a</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">mutta</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="CC_" pos="">ba</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">mutta</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">leâša</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">mutta</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <tCtn> <t Contlex="CC_" pos="CC">leša</t> <re/> </tCtn> </tg> </mg> </e>
-<e> <lg> <l pos="CC">mutta</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">seâša</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">mutta</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <tCtn> <t Contlex="CC_" pos="CC">seša</t> <re/> </tCtn> </tg> </mg> </e>
-<e> <lg> <l pos="CC">mutta, vaan; paitsi</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">peʹce</t> </tg> </mg> </e>
-<e> <lg> <l pos="Interj">niin</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">de</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">niin kuin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">nuʹtt-mâta</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">niinkuin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">diǥo</t> </tg> </mg> </e>
-<e> <lg> <l pos="Pcle">no</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">a</t> </tg> </mg> </e>
-<e> <lg> <l pos="CS">saati</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">leâša</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">sekä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">da</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">sekä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">di</t> </tg> </mg> </e>
-<e> <lg> <l pos="CS">silti</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">leâša</t> </tg> </mg> </e>
-<e> <lg> <l pos="Adv">sitten</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">de</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">tai</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">avi</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">tai</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">leʹbe</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">vaan</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">a</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">vaan</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="CC_" pos="">ba</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">vaan</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">leâša</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">vaan</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">nâga</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">vaan</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">nâǥa</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">vaan</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">pâi</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">vaan</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">seâša</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">vaan</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <tCtn> <t Contlex="CC_" pos="CC">seša</t> <re/> </tCtn> </tg> </mg> </e>
-<e> <lg> <l pos="CC">vai</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">avi</t> </tg> </mg> </e>
-<e> <lg> <l pos="CC">vai</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">leʹbe</t> </tg> </mg> </e>
-<e> <lg> <l pos="CS">vaikka</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">leâša</t> </tg> </mg> </e>
-<e> <lg> <l pos="Adv">vain</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="CC_" pos="CC">leâša</t> </tg> </mg> </e>
+<r id="finsms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+ You are free to copy, distribute and adapt the work, as long as you always give
+ proper attribution using the attribution text below.
+ For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
+ Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref>
+     <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
+ This is NOT a fully styled and published dictionary.
+ As such it can and will contain unfinished entries, unpublished entries, 
+ entries with objectionable translations, etc. If you find any errors 
+ or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.
+     </sourcenote> </lics>
+<e>
+   <lg>
+     <l pos="CC">eli</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">leʹbe</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Pcle">entä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">a</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">ja</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">da</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">ja</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">de</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">ja</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">di</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">ja</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">ja</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">ja niin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">de</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CS">kunhan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">leâša</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">mutta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">a</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">mutta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="">ba</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">mutta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">leâša</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">mutta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="CC_" pos="CC">leša</t> <re/>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">mutta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">seâša</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">mutta</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="CC_" pos="CC">seša</t> <re/>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">mutta, vaan; paitsi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">peʹce</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Interj">niin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">de</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">niin kuin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">nuʹtt-mâta</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">niinkuin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">diǥo</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Pcle">no</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">a</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CS">saati</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">leâša</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">sekä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">da</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">sekä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">di</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CS">silti</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">leâša</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">sitten</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">de</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">tai</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">avi</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">tai</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">leʹbe</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">vaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">a</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">vaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="">ba</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">vaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">leâša</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">vaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">nâga</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">vaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">nâǥa</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">vaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">pâi</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">vaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">seâša</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">vaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="CC_" pos="CC">seša</t> <re/>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">vai</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">avi</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CC">vai</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">leʹbe</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="CS">vaikka</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">leâša</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">vain</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="CC_" pos="CC">leâša</t>
+     </tg>
+   </mg>
+</e>
 </r>

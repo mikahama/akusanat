@@ -1,57 +1,645 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r id="smsfin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
-   You are free to copy, distribute and adapt the work, as long as you always give
-   proper attribution using the attribution text below.
-   For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
-   Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref> <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
-   This is NOT a fully styled and published dictionary.
-   As such it can and will contain unfinished entries, unpublished entries, 
-   entries with objectionable translations, etc. If you find any errors 
-   or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.</sourcenote> </lics>
-<e> <lg> <l pos="Det">edellinen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">oouʹdbuž</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">ensi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">vuõss</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">ensimmäinnen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">vuõss</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">eri</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">jeeʹres</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">eräs</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">måttam</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">eräs, muuan; joku, jokunen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">måttam</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">joka, jokainen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">jueʹǩǩ</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">joku</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">måttam</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">jokunen</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">måttam</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">kahdeksas</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="NUM-ORD_NEELLJAD" pos="Det">kääucad</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">kahdestoista</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"><t Contlex="DET_" pos="Det">kuâtmlååǥǥad</t> <t Contlex="DET_" pos="Det">kuâtmlååǥǥad</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">kolmas</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="NUM-ORD_NEELLJAD" pos="Det">kuälmad</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">kumpi</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">kuäbbaž</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">kumpikin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <tCtn> <t Contlex="DET_" pos="Det">kuäbbaž-a</t> <re/> </tCtn> </tg> </mg> </e>
-<e> <lg> <l pos="Det">kumpikin</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <tCtn> <t Contlex="DET_" pos="Det">kuõhttu</t> <re/> </tCtn> </tg> </mg> </e>
-<e> <lg> <l pos="Det">kumpikin, molemmat</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">kuhttu</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">kuudes</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="NUM-ORD_NEELLJAD" pos="Det">kuuđad</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">kymmenes</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="NUM-ORD_NEELLJAD" pos="Det">lååǥǥad</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">millainen</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_JÂNNAM" pos="Det">måkam</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">millainen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">muʹvddem</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">minkälainen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">muʹvddem</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">moinen</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_JÂNNAM" pos="Det">nåkkam</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">monesko</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="ORD_" pos="Det">kââllad</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">muu</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">jeeʹres</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">muu</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">jeäʹrab</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">muuan</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">måttam</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">neljäs</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="NUM-ORD_NEELLJAD" pos="Det">neelljad</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">pari, noin kaksi, muutama</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">muäʹdd</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">puolitoista</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">piäʹllneʹb</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">sadas</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="NUM-ORD_NEELLJAD" pos="Det">čuâđad</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">sama</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">seämma</t> </tg> </mg> </e>
-<e> <lg> <l pos="Adv">samaten</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">seämma</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">se</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET-SHORTDEM_" pos="Det">tõt</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">seitsemäs</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="NUM-ORD_NEELLJAD" pos="Det">čiiččad</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">sellainen</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SENSE">PERCEPTION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_JÂNNAM" pos="Det">nåkkam</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">seuraaja</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_NUʹBB" pos="Det">nuʹbb</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">seuraava</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_NUʹBB" pos="Det">nuʹbb</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">toinen</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="HUMAN">PEOPLE</sem> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">jeeʹres</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">toinen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_NUʹBB" pos="Det">nuʹbb</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">tuo</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SPACE">POSITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET-SHORTDEM_" pos="Det">tut</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">tuo tuolla</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SPACE">POSITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET-SHORTDEM_" pos="Det">tut</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">tällainen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_JÂNNAM" pos="Det">näkam</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">tämä</l> <stg> <st/> </stg> </lg> <mg> <semantics> <sem class="SPACE">POSITION</sem> <sem class="SENSE">COGNITION</sem> </semantics> <tg xml:lang="sms"> <t Contlex="DET-SHORTDE_" pos="Det">tät</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">viides</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="NUM-ORD_NEELLJAD" pos="Det">viiđad</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">viidestoista</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="DET_" pos="Det">vittmlååǥǥad</t> </tg> </mg> </e>
-<e> <lg> <l pos="Det">yhdeksäs</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t Contlex="NUM-ORD_NEELLJAD" pos="Det">ååucad</t> </tg> </mg> </e>
+<r id="finsms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+ You are free to copy, distribute and adapt the work, as long as you always give
+ proper attribution using the attribution text below.
+ For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
+ Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref>
+     <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
+ This is NOT a fully styled and published dictionary.
+ As such it can and will contain unfinished entries, unpublished entries, 
+ entries with objectionable translations, etc. If you find any errors 
+ or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.
+     </sourcenote> </lics>
+<e>
+   <lg>
+     <l pos="Det">edellinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">oouʹdbuž</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">ensi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">vuõss</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">ensimmäinnen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">vuõss</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">eri</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="HUMAN">PEOPLE</sem>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_KHEEQLES" pos="Det">jeeʹres</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">eräs</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">måttam</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">eräs, muuan; joku, jokunen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">måttam</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">joka, jokainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">jueʹǩǩ</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">joku</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">måttam</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">jokunen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">måttam</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kahdeksas</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="NUM-ORD_NEELLJAD" pos="Det">kääucad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kahdestoista</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">kuâtmlååǥǥad</t>
+       <t Contlex="DET_" pos="Det">kuâtmlååǥǥad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kolmas</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="NUM-ORD_NEELLJAD" pos="Det">kuälmad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kumpi</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">kuäbbaž</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kumpikin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="DET_" pos="Det">kuäbbaž-a</t> <re/>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kumpikin</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="DET_" pos="Det">kuõhttu</t> <re/>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kumpikin, molemmat</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">kuhttu</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kuudes</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="NUM-ORD_NEELLJAD" pos="Det">kuuđad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">kymmenes</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="NUM-ORD_NEELLJAD" pos="Det">lååǥǥad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">millainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="HUMAN">PEOPLE</sem>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_AANAR" pos="Det">måkam</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">millainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">muʹvddem</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">minkälainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">muʹvddem</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">moinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_AANAR" pos="Det">nåkkam</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">monesko</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="ORD_" pos="Det">kââllad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">muu</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="HUMAN">PEOPLE</sem>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_KHEEQLES" pos="Det">jeeʹres</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">muu</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">jeäʹrab</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">muuan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">måttam</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">neljäs</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="NUM-ORD_NEELLJAD" pos="Det">neelljad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">pari, noin kaksi, muutama</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">muäʹdd</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">puolitoista</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">piäʹllneʹb</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">sadas</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="NUM-ORD_NEELLJAD" pos="Det">čuâđad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">sama</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="HUMAN">PEOPLE</sem>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">seämma</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">samaten</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">seämma</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">se</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET-SHORTDEM_" pos="Det">tõt</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">seitsemäs</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="NUM-ORD_NEELLJAD" pos="Det">čiiččad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">sellainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_AANAR" pos="Det">nuʹvddem</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">sellainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SENSE">PERCEPTION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_AANAR" pos="Det">nåkkam</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">seuraaja</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_NUQBB" pos="Det">nuʹbb</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">seuraava</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_NUQBB" pos="Det">nuʹbb</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">toinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="HUMAN">PEOPLE</sem>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET_KHEEQLES" pos="Det">jeeʹres</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">toinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_NUQBB" pos="Det">nuʹbb</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">tuo</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SPACE">POSITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET-SHORTDEM_" pos="Det">tut</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">tuo tuolla</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SPACE">POSITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET-SHORTDEM_" pos="Det">tut</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">tuollainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_AANAR" pos="Det">nuʹvddem</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">tällainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_AANAR" pos="Det">näkam</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">tämä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="SPACE">POSITION</sem>
+       <sem class="SENSE">COGNITION</sem>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="DET-SHORTDE_" pos="Det">tät</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">viides</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="NUM-ORD_NEELLJAD" pos="Det">viiđad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">viidestoista</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="DET_" pos="Det">vittmlååǥǥad</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Det">yhdeksäs</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="NUM-ORD_NEELLJAD" pos="Det">ååucad</t>
+     </tg>
+   </mg>
+</e>
 </r>

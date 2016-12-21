@@ -5,7 +5,7 @@
    <lg>
      <l pos="Prefix">tueʹles-</l>
      <stg>
-       <st Contlex="Prefix_" inflexId="1000">tueʹles-</st>
+       <st Contlex="PREFIX/A_" inflexId="1000">tueʹles</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2626</c>
@@ -45,7 +45,7 @@
        <l_var>njeeʹǩǩ-</l_var>
      </variants>
      <stg>
-       <st Contlex="Prefix_" inflexId="1000">njeʹǩǩ-</st>
+       <st Contlex="PREFIX/A_" inflexId="1000">njeʹǩǩ</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">754</c>
@@ -73,7 +73,7 @@
    <lg>
      <l pos="Prefix">puäst-</l>
      <stg>
-       <st Contlex="A_" inflexId="::::1000">puäst-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">puäst</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">6019</c>
@@ -112,7 +112,7 @@
    <lg>
      <l pos="Prefix">påʹnnj-</l>
      <stg>
-       <st Contlex="A_" inflexId="::::1000">påʹnnj-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">påʹnnj</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">1344</c>
@@ -124,14 +124,14 @@
    <mg>
      <tg xml:lang="deu">
        <t pos="A">krumm</t>
-       <t pos="A">windschief (Baum)</t>
+       <t pos="A" re="Baum">windschief </t>
      </tg>
      <tg xml:lang="eng">
        <t pos="A">crooked</t>
-       <t pos="A">wry (of a tree)</t>
+       <t pos="A" re="of a tree">wry </t>
      </tg>
      <tg xml:lang="fin">
-       <t pos="A">kiero (puusta)</t>
+       <t pos="A" re="puusta">kiero </t>
      </tg>
    </mg>
 </e>
@@ -141,7 +141,7 @@
    <lg>
      <l pos="Prefix">sitt-</l>
      <stg>
-       <st Contlex="A_" inflexId="::::1000">sitt-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">sitt</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2463</c>
@@ -171,7 +171,7 @@
    <lg>
      <l pos="Prefix">tuäʹres-</l>
      <stg>
-       <st Contlex="A_" inflexId="::::1.2">tuäʹres-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1.2">tuäʹres</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">630</c>
@@ -205,7 +205,7 @@
        <l_syn>luõmmum</l_syn>
      </variants>
      <stg>
-       <st Contlex="A_" inflexId="::::1.114">vieʹmm-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1.114">vieʹmm</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">1368</c>
@@ -237,7 +237,7 @@
    <lg>
      <l pos="Prefix">ââʹjjpeiʹvv-</l>
      <stg>
-       <st Contlex="A_" inflexId="::::1.113">ââʹjjpeiʹvv-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1.113">ââʹjjpeiʹvv</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">1613</c>
@@ -273,7 +273,7 @@
        <l_var>čiʹǯs-</l_var>
      </variants>
      <stg>
-       <st Contlex="A_" inflexId="::::1000">čiʹǯǯ-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">čiʹǯǯ</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2395</c>
@@ -307,7 +307,7 @@
    <lg>
      <l pos="Prefix">čokk-</l>
      <stg>
-       <st Contlex="A_" inflexId="::::">čokk-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::">čokk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3553</c>
@@ -334,7 +334,7 @@
    <lg>
      <l pos="Prefix">čuõmâr-</l>
      <stg>
-       <st Contlex="A_" inflexId="::::1.2">čuõmâr-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1.2">čuõmâr</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">394</c>
@@ -355,7 +355,7 @@
    <lg>
      <l pos="Prefix">kuäʹstt-</l>
      <stg>
-       <st Contlex="A_" inflexId="::::1000">kuäʹstt-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">kuäʹstt</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3769</c>
@@ -388,7 +388,7 @@
    <lg>
      <l pos="Prefix">ceägg-</l>
      <stg>
-       <st Contlex="A_" inflexId="::::1000">ceägg-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">ceägg</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3827</c>
@@ -419,7 +419,7 @@
    <lg>
      <l pos="Prefix">jåårǥ-</l>
      <stg>
-       <st inflexId="::::1000">jåårǥ-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">jåårǥ</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3253</c>
@@ -453,7 +453,7 @@
    <lg>
      <l pos="Prefix">kääv-</l>
      <stg>
-       <st inflexId="::::1000">kääv-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">kääv</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">521</c>
@@ -478,7 +478,7 @@
    <lg>
      <l pos="Prefix">käʹrŋŋ-</l>
      <stg>
-       <st inflexId="::::1000">käʹrŋŋ-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">käʹrŋŋ</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">1449</c>
@@ -495,8 +495,7 @@
        <t>sloping, inclined</t>
      </tg>
      <tg xml:lang="fin">
-       <re>sivulle</re>
-       <t>vino</t>
+       <t re="sivulle">vino</t>
      </tg>
      <tg xml:lang="nob">
        <t>skeiv</t>
@@ -513,7 +512,7 @@
    <lg>
      <l pos="Prefix">mieʹtt-</l>
      <stg>
-       <st inflexId="::::1000">mieʹtt-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">mieʹtt</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">669</c>
@@ -547,7 +546,7 @@
    <lg>
      <l pos="Prefix">mââi-</l>
      <stg>
-       <st inflexId="::::1000">mââi-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">mââi</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">794</c>
@@ -564,8 +563,7 @@
        <t>back-</t>
      </tg>
      <tg xml:lang="fin">
-       <re>perällä oleva</re>
-       <t>perä-, taka-</t>
+       <t re="perällä oleva">perä-, taka-</t>
      </tg>
      <tg xml:lang="nob">
        <t>akter-</t>
@@ -587,7 +585,7 @@
        <l_var>õudd-</l_var>
      </variants>
      <stg>
-       <st inflexId="::::1000">ooud-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">ooud</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">1886</c>
@@ -619,7 +617,7 @@
        <l_var>ooud-</l_var>
      </variants>
      <stg>
-       <st inflexId="::::1000">oudd-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">oudd</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3071</c>
@@ -647,7 +645,7 @@
    <lg>
      <l pos="Prefix">pann-</l>
      <stg>
-       <st inflexId="::::1000">pann-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">pann</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">5752</c>
@@ -658,17 +656,16 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t>un-, miss-</t>
+       <t pos="Prefix">un-</t>
+       <t pos="Prefix">miss-</t>
      </tg>
      <tg xml:lang="eng">
-       <t>un-, dis-</t>
+       <t pos="Prefix">un-</t>
+       <t pos="Prefix">dis-</t>
      </tg>
      <tg xml:lang="fin">
-       <t>epä-</t>
-       <tCtn>
-       <re>pieni</re>
-       <t pos="A">pahanen</t>
-       </tCtn>
+       <t pos="Prefix">epä-</t>
+       <t re="pieni" pos="A">pahanen</t>
      </tg>
    </mg>
 </e>
@@ -678,7 +675,7 @@
    <lg>
      <l pos="Prefix">pââi-</l>
      <stg>
-       <st inflexId="::::1000">pââi-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">pââi</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">5782</c>
@@ -708,7 +705,7 @@
        <l_syn>pååđai</l_syn>
      </variants>
      <stg>
-       <st inflexId="::::1000">pååđ-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">pååđ</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2466</c>
@@ -722,15 +719,12 @@
        <t>lose, locker</t>
      </tg>
      <tg xml:lang="eng">
-       <t>loose (in compounds)</t>
+       <t re="in compounds">loose </t>
      </tg>
      <tg xml:lang="fin">
        <t>irto</t>
        <t pos="A">irrallinen</t>
-       <tCtn>
-       <re>vapaa</re>
-       <t pos="Adv">irrallaan</t>
-       </tCtn>
+       <t re="vapaa" pos="Adv">irrallaan</t>
        <t pos="A">itsenäinen</t>
      </tg>
    </mg>
@@ -741,7 +735,7 @@
    <lg>
      <l pos="Prefix">vueʹll-</l>
      <stg>
-       <st inflexId="::::1000">vueʹll-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">vueʹll</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">908</c>
@@ -768,7 +762,7 @@
    <lg>
      <l pos="Prefix">vueʹstt-</l>
      <stg>
-       <st inflexId="::::1000">vueʹstt-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">vueʹstt</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">714</c>
@@ -798,7 +792,7 @@
        <l_attr>vuäʹljs-</l_attr>
      </variants>
      <stg>
-       <st inflexId="::::1000">vuäʹls-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">vuäʹls</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3364</c>
@@ -812,11 +806,10 @@
        <t>rechte(r,s) (Hälfte, Hand)</t>
      </tg>
      <tg xml:lang="eng">
-       <t>right- (half, hand)</t>
+       <t re="half, hand">right- </t>
      </tg>
      <tg xml:lang="fin">
-       <re>puoli, käsi</re>
-       <t>oikea</t>
+       <t re="puoli, käsi">oikea</t>
      </tg>
    </mg>
 </e>
@@ -826,7 +819,7 @@
    <lg>
      <l pos="Prefix">vällj-</l>
      <stg>
-       <st inflexId="::::1000">vällj-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">vällj</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">915</c>
@@ -853,7 +846,7 @@
    <lg>
      <l pos="Prefix">äävainjäʹlmm-</l>
      <stg>
-       <st inflexId="::::">äävainjäʹlmm-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::">äävainjäʹlmm</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2844</c>
@@ -879,7 +872,7 @@
        <l_var>åugg-</l_var>
      </variants>
      <stg>
-       <st inflexId="::::1000">ålgg-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::1000">ålgg</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2872</c>
@@ -909,7 +902,7 @@
    <lg>
      <l pos="Prefix">ǩiõld-</l>
      <stg>
-       <st inflexId="::::">ǩiõld-</st>
+       <st Contlex="PREFIX/A_" inflexId="::::">ǩiõld</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2342</c>
@@ -935,5 +928,5 @@
        <t pos="A">кильдинский</t>
      </tg>
    </mg>
-</e>
+</e> <!-- Development 2016-05-04 -->
 </r> 

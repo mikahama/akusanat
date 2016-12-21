@@ -4,7 +4,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Aacciǩ</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_PÅÅTTAǨ">Aacciǩ</st>
+       <st Contlex="PROP_SEM/FEM_AACCIKH">Aacciǩ</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -46,19 +46,19 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="N" type="Prop">(Gestalt in Märchen)</t>
+       <t pos="N" type="Prop" re="Gestalt in Märchen"></t>
      </tg>
      <tg xml:lang="eng">
-       <t pos="N" type="Prop">(a character in fairytales)</t>
+       <t pos="N" type="Prop" re="a character in fairytales"></t>
      </tg>
      <tg xml:lang="fin">
-       <t pos="N" type="Prop">Syöjättären tytär (saduissa)</t>
+       <t pos="N" type="Prop" re="saduissa">Syöjättären tytär </t>
      </tg>
      <tg xml:lang="nob">
        <t pos="N" type="Prop">en sagnfigur, datteren til en furie</t>
      </tg>
      <tg xml:lang="rus">
-       <t pos="N" type="Prop">(сказочный персонаж)</t>
+       <t pos="N" type="Prop" re="сказочный персонаж"></t>
      </tg>
    </mg>
 </e>
@@ -67,7 +67,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Aadam</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM">Aadam</st>
+       <st Contlex="PROP_SEM/MAL_AANAR">Aadam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -90,7 +90,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Aagni</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SÄʹPPLI" inflexId="::::1.22">Aagn</st>
+       <st Contlex="PROP_SEM/FEM_SAQPPLI" inflexId="::::1.22">Aagn</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3114</c>
@@ -169,14 +169,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Artman</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::">Artman</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::">Artman</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3181</c>
        <c name="Reader">1</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Артмaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Артмaн</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3181" quality="1" speaker="1"/> </audio>
    </lg>
@@ -210,7 +211,7 @@
        <l_syn>Ååntašǩ</l_syn>
      </variants>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KRIʹLCC" inflexId="::::1.2">A%^1VOWntt</st>
+       <st Contlex="PROP_SEM/MAL_KRIQLCC" inflexId="::::1.2">A%^1VOWntt</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2674</c>
@@ -331,7 +332,8 @@
        <c name="Reader">2</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Ба̊̄рес</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Ба̊̄рес</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3118" quality="1" speaker="2"/> </audio>
    </lg>
@@ -398,7 +400,8 @@
        <analysis ms="Sg_Ill">
            <wordform>Daaveda</wordform>
        </analysis>
-     </mini_paradigm> <translit_cyr>Да̄вед</translit_cyr>
+     </mini_paradigm>
+     <translit_cyr>Да̄вед</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3212" quality="1" speaker="3"/> </audio>
    </lg>
@@ -432,7 +435,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Dimkk</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_PÕRTT" inflexId="::::">Di%^1VOWmkk</st>
+       <st Contlex="PROP_SEM/MAL_ALGG" inflexId="::::">Di%^1VOWmkk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3182</c>
@@ -458,7 +461,7 @@
    <lg>
      <l pos="N" sem_type="Org" type="Prop">Dommjânnmlaž ǩiõli tuʹtǩǩeemkõõskõs</l>
      <stg>
-       <st Contlex="N_ČÅRRÕS" NumContlex="400">Dommjânnmlaž ǩiõli tuʹtǩǩeemkõõskõ%^1VOWs</st>
+       <st Contlex="N_SAJOS" NumContlex="400">Dommjânnmlaž ǩiõli tuʹtǩǩeemkõõskõ%^1VOWs</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kõõskõõzz</wordform>
@@ -480,7 +483,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Däʹrjj</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KÄʹLBB">Dä%^1VOWrjj</st>
+       <st Contlex="PROP_SEM/FEM_KAQLBB">Dä%^1VOWrjj</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Dääʹrj</wordform>
@@ -503,14 +506,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Dåårfi</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SÄʹPPLI" inflexId="::::1.4">Dåårf</st>
+       <st Contlex="PROP_SEM/FEM_SAQPPLI" inflexId="::::1.4">Dåårf</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3121</c>
        <c name="Reader">3</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Да̊̄рфы</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Да̊̄рфы</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Dåårfee</wordform>
@@ -547,7 +551,7 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Dåʹmnn</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KÄʹLBB" inflexId="::::1.113">Då%^1VOWmnn</st>
+       <st Contlex="PROP_SEM/FEM_KAQLBB" inflexId="::::1.113">Då%^1VOWmnn</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3222</c>
@@ -593,14 +597,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Eejjav</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Ẹẹjjav</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Ẹẹjjav</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3150</c>
        <c name="Reader">4</c>
        <c name="Recording">0</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Э̄йяв</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Э̄йяв</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Ẹẹjjav</wordform>
@@ -636,7 +641,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Eelljaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ">Ẹẹllj</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH">Ẹẹllj</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Eellja</wordform>
@@ -670,6 +675,9 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="SKS" page="26"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Jesaja</t>
@@ -682,14 +690,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Eessak</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KÅÅLVAK" inflexId="::::">Ẹẹssak</st>
+       <st Contlex="PROP_SEM/MAL_KOALVAK" inflexId="::::">Ẹẹssak</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3126</c>
        <c name="Reader">4</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Э̄ссaк</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Э̄ссaк</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3126" quality="1" speaker="4"/> </audio>
    </lg>
@@ -726,7 +735,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Eeunkaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SÄʹMMLAŽ" inflexId="::::1.26">Eeunk</st>
+       <st Contlex="PROP_SEM/MAL_MEERSAZH" inflexId="::::1.26">Eeunk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3151</c>
@@ -761,14 +770,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Eeʹhrem</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SPÄʹSSEB" inflexId="::::1.2">Eeʹhrem</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Eeʹhrem</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3122</c>
        <c name="Reader">4</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Э̄хьрэм</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Э̄хьрэм</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -806,14 +816,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Eeʹled</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SPÄʹSSEB" inflexId="::::1.22">Eeʹled</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::1.22">Eeʹled</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3124</c>
        <c name="Reader">4</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Э̄лед</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Э̄лед</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -850,7 +861,7 @@
    <lg>
      <l pos="N" type="Prop">Eeʹđestäʹsnn</l>
      <stg>
-       <st Contlex="PROP_KÄʹLBB" NumContlex="1.113">Eeʹđes#tä%^1VOWsnn</st>
+       <st Contlex="PROP_KAQLBB" NumContlex="1.113">Eeʹđes#tä%^1VOWsnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-tääʹsn</wordform>
@@ -872,7 +883,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Essak</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KÅÅLVAK">Ẹssak</st>
+       <st Contlex="PROP_SEM/MAL_KOALVAK">Ẹssak</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -895,7 +906,7 @@
    <lg>
      <l pos="N" sem_type="Txt" type="Prop">Evaŋǧeʹliumǩeʹrjj</l>
      <stg>
-       <st Contlex="PROP_ǨEʹRJJ">Evaŋǧeʹlium#ǩẹ%^1VOWrjj</st>
+       <st Contlex="PROP_KHEQRJJ">Evaŋǧeʹlium#ǩẹ%^1VOWrjj</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-ǩeeʹrj</wordform>
@@ -921,14 +932,15 @@
        <l_syn>Evvnaž</l_syn>
      </variants>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Ẹvvan</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Ẹvvan</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3140</c>
        <c name="Reader">4</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Эввaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Эввaн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -971,7 +983,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Evvnaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SÄʹMMLAŽ">Evvn</st>
+       <st Contlex="PROP_SEM/MAL_MEERSAZH">Evvn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Evvna</wordform>
@@ -994,7 +1006,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Eʹll</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_" inflexId="::::1.113">Eʹll</st>
+       <st Contlex="PROP_SEM/FEM_PEQLLJ" inflexId="::::1.113">Ẹ%^1VOWll</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3125</c>
@@ -1064,7 +1076,7 @@
    <lg>
      <l pos="N" sem_type="Time" type="Prop">Eʹlljpeiʹvv</l>
      <stg>
-       <st Contlex="PROP_PEIʹVV">Eʹllj#pẹ%^1VOWivv</st>
+       <st Contlex="PROP_PEIQVV">Eʹllj#pẹ%^1VOWivv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-peeiʹv</wordform>
@@ -1086,7 +1098,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Eʹlnnaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SÄʹMMLAŽ">Eʹlnn</st>
+       <st Contlex="PROP_SEM/FEM_MEERSAZH">Eʹlnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Elnna</wordform>
@@ -1121,19 +1133,19 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="N" type="Prop">Gott (protestantisch)</t>
+       <t pos="N" type="Prop" re="protestantisch">Gott </t>
      </tg>
      <tg xml:lang="eng">
-       <t pos="N" type="Prop">God (protestant)</t>
+       <t pos="N" type="Prop" re="protestant">God </t>
      </tg>
      <tg xml:lang="fin">
-       <t pos="N" type="Prop">jumala (protestanttinen)</t>
+       <t pos="N" type="Prop" re="protestanttinen">jumala </t>
      </tg>
      <tg xml:lang="nob">
-       <t pos="N" type="Prop">gud (protestantantisk)</t>
+       <t pos="N" type="Prop" re="protestantantisk">gud </t>
      </tg>
      <tg xml:lang="rus">
-       <t pos="N" type="Prop">Бог (у протестантов)</t>
+       <t pos="N" type="Prop" re="у протестантов">Бог </t>
      </tg>
    </mg>
 </e>
@@ -1142,7 +1154,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Eʹmmel</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SPÄʹSSEB">Eʹmmel</st>
+       <st Contlex="PROP_SEM/MAL_AANAR">Eʹmmel</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1173,7 +1185,8 @@
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Фэдорa</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Фэдорa</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1210,14 +1223,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Feekkat</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_JÂNNAM" inflexId="::::1.2">Fẹẹkkat</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::1.2">Fẹẹkkat</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3135</c>
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Фэ̄ккaт</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Фэ̄ккaт</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1254,14 +1268,15 @@
    <lg>
      <l gender="f" hid="Hom1" pos="N" sem_type="Fem" type="Prop">Feeʹla</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_ÅÅʹLGA" inflexId="::::1.4">Feeʹl</st>
+       <st Contlex="PROP_SEM/FEM_OAQLGA" inflexId="::::1.4">Feeʹl</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3142</c>
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Фэ̄ля</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Фэ̄ля</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1299,14 +1314,15 @@
    <lg>
      <l gender="m" hid="Hom2" pos="N" sem_type="Mal" type="Prop">Feeʹla</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_ÅÅʹLGA" inflexId="::::1.4">Feeʹl</st>
+       <st Contlex="PROP_SEM/MAL_OAQLGA" inflexId="::::1.4">Feeʹl</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3142</c>
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Фэ̄ля</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Фэ̄ля</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1344,14 +1360,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Feâdar</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_JÂNNAM" inflexId="::::1.2">Feâdar</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::1.2">Feâdar</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3134</c>
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Фэâдaр</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Фэâдaр</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1410,14 +1427,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Feäddsi</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SÄʹPPLI" inflexId="::::">Feädˈds</st>
+       <st Contlex="PROP_SEM/FEM_SAQPPLI" inflexId="::::">Feädˈds</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3132</c>
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Фэӕдˈдсы</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Фэӕдˈдсы</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Feäddsee</wordform>
@@ -1477,14 +1495,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Huâttar</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::">Huâtˈtar</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::">Huâtˈtar</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3133</c>
        <c name="Reader">5</c>
        <c name="Recording">3</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Хуâтˈтaр</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Хуâтˈтaр</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1522,7 +1541,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Iirešǩ</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_IILÂSǨ">Iirešǩ</st>
+       <st Contlex="PROP_SEM/FEM_IILYSKH">Iirešǩ</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1546,7 +1565,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Iirâšǩ</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_IILÂSǨ" inflexId="::::1.2">Iirâšǩ</st>
+       <st Contlex="PROP_SEM/FEM_IILYSKH" inflexId="::::1.2">Iirâšǩ</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3143</c>
@@ -1581,7 +1600,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Irškaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SÄʹMMLAŽ">Iršk</st>
+       <st Contlex="PROP_SEM/FEM_MEERSAZH">Iršk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Irška</wordform>
@@ -1603,7 +1622,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Isõs</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_ČÅRRÕS">Isõ%^1VOWs</st>
+       <st Contlex="PROP_SEM/MAL_SAJOS">Isõ%^1VOWs</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Isõõzz</wordform>
@@ -1661,14 +1680,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Iʹllep</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SPÄʹSSEB" inflexId="::::1.2">Iʹllep</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Iʹllep</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3141</c>
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>ыллеп</translit_cyr>
+     </inc-audio>
+     <translit_cyr>ыллеп</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1709,7 +1729,7 @@
        <l_syn>Juuʹhmi</l_syn>
      </variants>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SPÄʹSSEB" inflexId="::::1.2">Jeeʹfem</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Jeeʹfem</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3148</c>
@@ -1752,7 +1772,8 @@
        <c name="Reader">6</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Йэвидa</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Йэвидa</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1790,14 +1811,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Jiʹlssi</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JIʹLSSI" inflexId="::::1.2">Ji%^1VOWʹlssi</st>
+       <st Contlex="PROP_SEM/MAL_JIQLSSI" inflexId="::::1.2">Ji%^1VOWʹlssi</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3149</c>
        <c name="Reader">6</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Ильсси</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Ильсси</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1834,7 +1856,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Jooʹsef</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SPÄʹSSEB">Jooʹsef</st>
+       <st Contlex="PROP_SEM/MAL_AANAR">Jooʹsef</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1860,7 +1882,7 @@
        <l_syn>Jeeʹfem</l_syn>
      </variants>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JIʹLSSI" inflexId="::::1.2">Ju%^1VOWuʹhmi</st>
+       <st Contlex="PROP_SEM/MAL_JIQLSSI" inflexId="::::1.2">Juuʹhmi</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2675</c>
@@ -1878,6 +1900,9 @@
        </analysis>
      </mini_paradigm>
    </lg>
+     <sources>
+       <book name="KKS" page="1042"/>
+     </sources>
    <mg>
      <tg xml:lang="deu">
        <t pos="N" type="Prop"/>
@@ -1910,7 +1935,8 @@
        <c name="Reader">6</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Йӯсе</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Йӯсе</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Juuʹsse</wordform>
@@ -1949,14 +1975,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Järmman</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Järmman</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Järmman</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3138</c>
        <c name="Reader">6</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Йӕрммaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Йӕрммaн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -2000,7 +2027,8 @@
        <c name="Reader">6</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Йӕррсы</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Йӕррсы</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -2044,7 +2072,8 @@
        <c name="Reader">6</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Йӕсттфи</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Йӕсттфи</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Jästtfii</wordform>
@@ -2088,7 +2117,8 @@
        <c name="Reader">6</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Йӕ̄кк</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Йӕ̄кк</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Jakku</wordform>
@@ -2101,6 +2131,10 @@
        </analysis>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3146" quality="1" speaker="6"/> </audio>
    </lg>
+     <sources>
+       <book name="KKS" page="1041"/>
+       <book name="SKS" page="26"/>
+     </sources>
    <mg>
      <semantics>
        <sem type="HUMAN">PEOPLE</sem>
@@ -2130,14 +2164,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Jäʹǩǩem</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SPÄʹSSEB" inflexId="::::1.2">Jäʹǩǩem</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::1.2">Jäʹǩǩem</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3147</c>
        <c name="Reader">6</c>
        <c name="Recording">6</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Йӕќќем</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Йӕќќем</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -2175,7 +2210,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Jååffaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUÂLAŽ" inflexId="::::1.26">Jååff</st>
+       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Jååff</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3128</c>
@@ -2210,14 +2245,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Jååǥǥar</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Jååǥǥar</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Jååǥǥar</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3230</c>
        <c name="Reader">6</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Йа̊̄ғғaр</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Йа̊̄ғғaр</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -2254,14 +2290,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Kaaʹdren</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SPÄʹSSEB" inflexId="::::1.2">Kaaʹdren</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::1.2">Kaaʹdren</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3157</c>
        <c name="Reader">7</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Ка̄дьрэн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Ка̄дьрэн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -2301,14 +2338,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Kaiʹssi</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_HÕʹPPI" inflexId="::::1.2">Kaiʹssi</st>
+       <st Contlex="PROP_SEM/FEM_HOQPPI" inflexId="::::1.2">Kaiʹssi</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3154</c>
        <c name="Reader">7</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Кaисси</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Кaисси</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -2352,7 +2390,8 @@
        <c name="Reader">7</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Кaуррâль</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Кaуррâль</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -2390,7 +2429,7 @@
    <lg>
      <l pos="N" type="Prop">Kaʹʒʒemčââlmaž</l>
      <stg>
-       <st Contlex="PROP_KUÂLAŽ">Kaʹʒʒem#čââlm</st>
+       <st Contlex="PROP_KUALAZH">Kaʹʒʒem#čââlm</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-čââlma</wordform>
@@ -2413,7 +2452,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Klääša</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_ÅÅʹLGA" inflexId="::::1.4">Klääš</st>
+       <st Contlex="PROP_SEM/FEM_OAQLGA" inflexId="::::1.4">Klääš</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2676</c>
@@ -2489,7 +2528,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Kondrõs</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_ČÅRRÕS" inflexId="::::400">Kondrõ%^1VOWs</st>
+       <st Contlex="PROP_SEM/MAL_SAJOS" inflexId="::::400">Kondrõ%^1VOWs</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3161</c>
@@ -2559,14 +2598,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Kreessan</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Kreessan</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Kreessan</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3164</c>
        <c name="Reader">7</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Крэ̄ссaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Крэ̄ссaн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -2644,14 +2684,15 @@
        <l_syn>Kreeʹstež</l_syn>
      </variants>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SPÄʹSSEB" inflexId="::::1.2">Kreʹstten</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::1.2">Kreʹstten</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3159</c>
        <c name="Reader">7</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Крэсьттэн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Крэсьттэн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -2698,7 +2739,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Kristõs</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_ČÅRRÕS">Kristõ%^1VOWs</st>
+       <st Contlex="PROP_SEM/MAL_SAJOS">Kristõ%^1VOWs</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-tõõzz</wordform>
@@ -2721,7 +2762,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Kueʹsmm</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JUEʹLǦǦ" inflexId="::::1.113">Kuâsmm</st>
+       <st Contlex="PROP_SEM/MAL_JUEQLGHGH" inflexId="::::1.113">Kuâsmm</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3165</c>
@@ -2756,7 +2797,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Kunnpeeipuž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_PIISSUŽ">Kunnpẹẹip</st>
+       <st Contlex="PROP_SEM/MAL_PIISSUZH">Kunnpẹẹip</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-peeipu</wordform>
@@ -2779,7 +2820,7 @@
    <lg>
      <l pos="N" type="Prop">Kuʹǩesseiʹbb</l>
      <stg>
-       <st Contlex="PROP_PEIʹVV" inflexId="::::">Kuʹǩes#sẹ%^1VOWibb</st>
+       <st Contlex="PROP_PEIQVV" inflexId="::::">Kuʹǩes#sẹ%^1VOWibb</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">1859</c>
@@ -2790,19 +2831,19 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="N" type="Prop">Fuchs (in Märchen)</t>
+       <t pos="N" type="Prop" re="in Märchen">Fuchs </t>
      </tg>
      <tg xml:lang="eng">
-       <t pos="N" type="Prop">fox (in fairytales)</t>
+       <t pos="N" type="Prop" re="in fairytales">fox </t>
      </tg>
      <tg xml:lang="fin">
-       <t pos="N" type="Prop">kettu (sadussa)</t>
+       <t pos="N" type="Prop" re="sadussa">kettu </t>
      </tg>
      <tg xml:lang="nob">
-       <t pos="N" type="Prop">rev (i sagn og eventyr)</t>
+       <t pos="N" type="Prop" re="i sagn og eventyr">rev </t>
      </tg>
      <tg xml:lang="rus">
-       <t pos="N" type="Prop">лиса (в сказках)</t>
+       <t pos="N" type="Prop" re="в сказках">лиса </t>
      </tg>
    </mg>
 </e>
@@ -2812,7 +2853,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Käättaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUÂLAŽ" inflexId="::::1.26">Käätt</st>
+       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Käätt</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3156</c>
@@ -2847,7 +2888,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Käʹrpp</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KÄʹLBB" inflexId="::::1.113">Kä%^1VOWrpp</st>
+       <st Contlex="PROP_SEM/MAL_KAQLBB" inflexId="::::1.113">Kä%^1VOWrpp</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3155</c>
@@ -2899,7 +2940,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Laaʹrkaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ" inflexId="::::">Laaʹrk</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::">Laaʹrk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3169</c>
@@ -2948,7 +2989,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Leeukaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ" inflexId="::::">Leeuk</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::">Leeuk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3170</c>
@@ -2975,7 +3016,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Leuʹǩǩ</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_" inflexId="::::1.113">Leuʹǩǩ</st>
+       <st Contlex="PROP_SEM/MAL_SAIQMM" inflexId="::::1.113">Leukk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3171</c>
@@ -3009,7 +3050,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Leâukaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ">Leâuk</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH">Leâuk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Leâuka</wordform>
@@ -3039,7 +3080,8 @@
        <c name="Reader">8</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Лӣзз</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Лӣзз</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -3112,10 +3154,13 @@
            <wordform>Luuʹǩǩ</wordform>
        </analysis>
        <analysis ms="Sg_Ill">
-           <wordform>Luʹǩǩe</wordform>
+           <wordform>Lokka</wordform>
        </analysis>
      </mini_paradigm>
    </lg>
+     <sources>
+       <book name="KKS" page="1045"/>
+     </sources>
    <mg>
      <tg xml:lang="deu">
        <t pos="N" type="Prop"/>
@@ -3137,14 +3182,15 @@
        <l_syn>Lääddaž</l_syn>
      </variants>
      <stg>
-       <st Contlex="PROP_SEM/MAL_ÅÅʹLGA" inflexId="::::1.4">Lääd</st>
+       <st Contlex="PROP_SEM/MAL_OAQLGA" inflexId="::::1.4">Lääd</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3229</c>
        <c name="Reader">8</c>
        <c name="Recording">6</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Лӕ̄дa</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Лӕ̄дa</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -3181,7 +3227,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Lääddaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ">Läädd</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH">Läädd</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -3204,14 +3250,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Läärvam</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::">Läärvam</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::">Läärvam</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3167</c>
        <c name="Reader">8</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Лӕ̄рвaм</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Лӕ̄рвaм</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3167" quality="1" speaker="8"/> </audio>
    </lg>
@@ -3241,7 +3288,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Läärvan</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM">Läärvan</st>
+       <st Contlex="PROP_SEM/MAL_AANAR">Läärvan</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -3264,14 +3311,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Lääzar</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Lääzar</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Lääzar</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3166</c>
        <c name="Reader">8</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Лӕ̄зaр</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Лӕ̄зaр</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -3307,7 +3355,7 @@
    <lg>
      <l pos="N" sem_type="Org" type="Prop">Lääʹdd Baŋkk</l>
      <stg>
-       <st Contlex="PROP_PÕRTT">Lääʹdd #Ba%^1VOWŋkk</st>
+       <st Contlex="PROP_ALGG">Lääʹdd #Ba%^1VOWŋkk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Baaŋk</wordform>
@@ -3329,7 +3377,7 @@
    <lg>
      <l pos="N" sem_type="Org" type="Prop">Lääʹddjânnam Baŋkk</l>
      <stg>
-       <st Contlex="PROP_PÕRTT">Lääʹddjânnam Ba%^1VOWŋkk</st>
+       <st Contlex="PROP_ALGG">Lääʹddjânnam Ba%^1VOWŋkk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Baaŋk</wordform>
@@ -3351,7 +3399,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Lääʹreǩ</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_PÅÅTTAǨ">Lääʹreǩ</st>
+       <st Contlex="PROP_SEM/MAL_AACCIKH">Lääʹreǩ</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -3362,6 +3410,9 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="SKS" page="58"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Lauri</t>
@@ -3374,14 +3425,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Lääʹriǩ</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_PÅÅTTAǨ" inflexId="::::1.2">Lääʹriǩ</st>
+       <st Contlex="PROP_SEM/MAL_AACCIKH" inflexId="::::1.2">Lääʹriǩ</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3168</c>
        <c name="Reader">8</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Лӕ̄риќ</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Лӕ̄риќ</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -3417,7 +3469,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Lääʹrkaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SÄʹMMLAŽ">Lääʹrk</st>
+       <st Contlex="PROP_SEM/MAL_MEERSAZH">Lääʹrk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Läärka</wordform>
@@ -3447,7 +3499,8 @@
        <c name="Reader">9</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Ма̄дрон</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Ма̄дрон</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3178" quality="1" speaker="9"/> </audio>
    </lg>
@@ -3495,6 +3548,9 @@
        </analysis>
      </mini_paradigm>
    </lg>
+     <sources>
+       <book name="KKS" page="1046"/>
+     </sources>
    <mg>
      <tg xml:lang="deu">
        <t pos="N" type="Prop"/>
@@ -3528,7 +3584,8 @@
        <c name="Reader">9</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Ма̄đрâн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Ма̄đрâн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -3566,7 +3623,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Maaʹren</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SPÄʹSSEB" inflexId="::::1.2">Maaʹren</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::1.2">Maaʹren</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2677</c>
@@ -3607,7 +3664,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Maaʹtfi</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_" inflexId="::::1.4">Maaʹtfi</st>
+       <st Contlex="PROP_SEM/MAL_SAQPPLI" inflexId="::::1.4">Maaʹtf</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2679</c>
@@ -3670,7 +3727,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Maʹtt</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_DIʹLL" NumContlex="1,114">Ma%^1VOWtt</st>
+       <st Contlex="PROP_SEM/MAL_DIQLL" NumContlex="1,114">Ma%^1VOWtt</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Maaʹtt</wordform>
@@ -3722,7 +3779,8 @@
        <c name="Reader">9</c>
        <c name="Recording">5</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Мэ̄дьрaй</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Мэ̄дьрaй</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -3761,7 +3819,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Mekk</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_PẸSS" inflexId="::::1.115">Mẹ%^1VOWkk</st>
+       <st Contlex="PROP_SEM/MAL_PESS" inflexId="::::1.115">Mẹ%^1VOWkk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3184</c>
@@ -3774,10 +3832,13 @@
            <wordform>Meekk</wordform>
        </analysis>
        <analysis ms="Sg_Ill">
-           <wordform>Mekka</wordform>
+           <wordform>Mikku</wordform>
        </analysis>
      </mini_paradigm>
    </lg>
+     <sources>
+       <book name="KKS" page="1046"/>
+     </sources>
    <mg>
      <tg xml:lang="deu">
        <t pos="N" type="Prop"/>
@@ -3825,7 +3886,8 @@
        <c name="Reader">9</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Мӣкка̊т</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Мӣкка̊т</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3183" quality="1" speaker="9"/> </audio>
    </lg>
@@ -3863,7 +3925,8 @@
        <c name="Reader">9</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Миклaй</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Миклaй</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -3873,6 +3936,9 @@
        </analysis>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3187" quality="1" speaker="9"/> </audio>
    </lg>
+     <sources>
+       <book name="SKS" page="77"/>
+     </sources>
    <mg>
      <semantics>
        <sem type="HUMAN">PEOPLE</sem>
@@ -3922,14 +3988,15 @@
    <lg>
      <l hid="Hom2" pos="N" sem_type="Mal" type="Prop">Moskk</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_PÕRTT" inflexId="::::1.111">Mo%^1VOWskk</st>
+       <st Contlex="PROP_SEM/MAL_ALGG" inflexId="::::1.111">Mo%^1VOWskk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">383</c>
        <c name="Reader">9</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Москк</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Москк</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Moosk</wordform>
@@ -3976,7 +4043,8 @@
        <c name="Reader">9</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Мӕккры</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Мӕккры</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -4013,7 +4081,7 @@
    <lg>
      <l pos="N" sem_type="Org" type="Prop">Mättʼtõshalltõs</l>
      <stg>
-       <st Contlex="PROP_ČÅRRÕS">Mättʼtõs#halltõ%^1VOWs</st>
+       <st Contlex="PROP_SAJOS">Mättʼtõs#halltõ%^1VOWs</st>
      </stg>
    </lg>
    <mg>
@@ -4035,7 +4103,8 @@
        <c name="Reader">9</c>
        <c name="Recording">6</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Мӕ̄рф</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Мӕ̄рф</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Määrfa</wordform>
@@ -4071,7 +4140,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Määrjaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUÂLAŽ">Määrj</st>
+       <st Contlex="PROP_SEM/FEM_KUALAZH">Määrj</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Määrja</wordform>
@@ -4094,7 +4163,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Mäšš</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_PẸSS" inflexId="::::1.112">Mä%^1VOWšš</st>
+       <st Contlex="PROP_SEM/MAL_PESS" inflexId="::::1.112">Mä%^1VOWšš</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3179</c>
@@ -4129,7 +4198,7 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Mäʹrjj</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KÄʹLBB" inflexId="::::1.113">Mä%^1VOWrjj</st>
+       <st Contlex="PROP_SEM/FEM_KAQLBB" inflexId="::::1.113">Mä%^1VOWrjj</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3175</c>
@@ -4184,7 +4253,8 @@
        <c name="Reader">10</c>
        <c name="Recording">0</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Нэ̄ффaй</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Нэ̄ффaй</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -4237,7 +4307,13 @@
            <wordform>??XX</wordform>
        </analysis>
      </mini_paradigm>
-   </lg>
+     <etymology>
+       <etymon xml:lang="sms" algu_lekseemi_id="2081" id="4853">Nijddkäärja</etymon>
+   </etymology>
+ </lg>
+     <sources>
+       <book name="KKS" page="90:6"/>
+     </sources>
    <mg>
      <tg xml:lang="deu">
        <t pos="N" type="Prop">Plejaden</t>
@@ -4257,11 +4333,35 @@
    </mg>
 </e>
 <e>
+   <lg>
+     <l pos="N" type="Prop">Mjurgg</l>
+     <stg>
+       <st Contlex="PROP_ALGG" NumContlex="400">Mju%^1VOWrgg</st>
+     <mini_paradigm exclude="NDS">
+       <analysis ms="Sg_Gen">
+           <wordform>Mjuurǥ</wordform>
+       </analysis>
+       <analysis ms="Sg_Ill">
+           <wordform>Mjuʹrǧǧe</wordform>
+       </analysis>
+     </mini_paradigm>
+     </stg>
+   </lg>
+<sources>
+<media name="Koltankieliset" date="2016-08-23"/>
+</sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N" re="Muumi">Mörkö</t>
+     </tg>
+   </mg>
+</e>
+<e>
    <map sml_ids=""/>
    <lg>
      <l pos="N" type="Prop">Nuõrttsääʹmkulttur pâʹjjel raaji -haʹŋǩǩõs</l>
      <stg>
-       <st Contlex="N_ČÅRRÕS" NumContlex="400">Nuõrttsääʹmkulttur pâʹjjel raaji -haʹŋǩǩõ%^1VOWs</st>
+       <st Contlex="N_SAJOS" NumContlex="400">Nuõrttsääʹmkulttur pâʹjjel raaji -haʹŋǩǩõ%^1VOWs</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-ǩõõzz</wordform>
@@ -4283,7 +4383,7 @@
    <lg>
      <l pos="N" sem_type="Org" type="Prop">Nuõrttsääʹmkultturfondd</l>
      <stg>
-       <st Contlex="PROP_PÕRTT" NumContlex="1.111">Nuõrttsääʹmkultturfo%^1VOWndd</st>
+       <st Contlex="PROP_ALGG" NumContlex="1.111">Nuõrttsääʹmkultturfo%^1VOWndd</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-foond</wordform>
@@ -4306,7 +4406,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Näskk</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_ÄLDD" inflexId="::::1.115">Nä%^1VOWskk</st>
+       <st Contlex="PROP_SEM/FEM_AELDD" inflexId="::::1.115">Nä%^1VOWskk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3106</c>
@@ -4324,6 +4424,9 @@
        </analysis>
      </mini_paradigm>
    </lg>
+     <sources>
+       <book name="KKS" page="1047"/>
+     </sources>
    <mg>
      <tg xml:lang="deu">
        <t pos="N" type="Prop"/>
@@ -4342,14 +4445,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Nättli</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SÄʹPPLI" inflexId="::::1.22">Nättl</st>
+       <st Contlex="PROP_SEM/FEM_SAQPPLI" inflexId="::::1.22">Nättl</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3186</c>
        <c name="Reader">10</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Нӕттли</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Нӕттли</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Nättlee</wordform>
@@ -4385,7 +4489,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Nääskaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUÂLAŽ">Nääsk</st>
+       <st Contlex="PROP_SEM/FEM_KUALAZH">Nääsk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Nääska</wordform>
@@ -4415,7 +4519,8 @@
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Оггвы</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Оггвы</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3102" quality="9" speaker="0"/> </audio>
    </lg>
@@ -4475,7 +4580,8 @@
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Оорфaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Оорфaн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -4512,7 +4618,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Ooudaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ" inflexId="::::1.26">Ooud</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::1.26">Ooud</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3127</c>
@@ -4549,14 +4655,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Oʹhssni</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_JIʹLSSI" inflexId="::::1.2">O%^1VOWʹhssni</st>
+       <st Contlex="PROP_SEM/FEM_JIQLSSI" inflexId="::::1.2">O%^1VOWʹhssni</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3206</c>
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>охьссни</translit_cyr>
+     </inc-audio>
+     <translit_cyr>охьссни</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -4566,6 +4673,9 @@
        </analysis>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3206" quality="9" speaker="0"/> </audio>
    </lg>
+     <sources>
+       <book name="KKS" page="1048"/>
+     </sources>
    <mg>
      <semantics>
        <sem type="HUMAN">PEOPLE</sem>
@@ -4592,7 +4702,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Oʹhssnti</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SÄʹPPLI">Oʹhssnt</st>
+       <st Contlex="PROP_SEM/MAL_SAQPPLI">Oʹhssnt</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Oʹhssntee</wordform>
@@ -4615,14 +4725,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Oʹlssi</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SÄʹPPLI" inflexId="::::1.2">Oʹlss</st>
+       <st Contlex="PROP_SEM/MAL_SAQPPLI" inflexId="::::1.2">Oʹlss</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3105</c>
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Ольсси</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Ольсси</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Oʹlssee</wordform>
@@ -4633,6 +4744,9 @@
        </analysis>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3105" quality="9" speaker="0"/> </audio>
    </lg>
+     <sources>
+       <book name="KKS" page="1048"/>
+     </sources>
    <mg>
      <semantics>
        <sem type="HUMAN">PEOPLE</sem>
@@ -4660,14 +4774,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Oʹnddri</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SÄʹPPLI" inflexId="::::1.4">Oʹnddr</st>
+       <st Contlex="PROP_SEM/MAL_SAQPPLI" inflexId="::::1.4">Oʹnddr</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3109</c>
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Оньддры</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Оньддры</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Oʹnddree</wordform>
@@ -4724,14 +4839,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Oʹrttem</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SPÄʹSSEB" inflexId="::::1.2">Oʹrttem</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Oʹrttem</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3112</c>
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Орьттэм</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Орьттэм</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -4777,7 +4893,8 @@
        <c name="Reader">0</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>оќќми</translit_cyr>
+     </inc-audio>
+     <translit_cyr>оќќми</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -4787,6 +4904,9 @@
        </analysis>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3188" quality="9" speaker="0"/> </audio>
    </lg>
+     <sources>
+       <book name="KKS" page="1048"/>
+     </sources>
    <mg>
      <semantics>
        <sem type="HUMAN">PEOPLE</sem>
@@ -4836,14 +4956,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Paavvâl</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_OOBRÂC" inflexId="::::1.2">Paavvâl</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Paavvâl</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3196</c>
        <c name="Reader">11</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Па̄ввâл</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Па̄ввâл</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Pavvâl</wordform>
@@ -4881,14 +5002,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Peeddar</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Pẹẹddar</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Pẹẹddar</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3198</c>
        <c name="Reader">11</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Пэ̄ддaр</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Пэ̄ддaр</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -4930,7 +5052,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Peâttar</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM">Peâttar</st>
+       <st Contlex="PROP_SEM/MAL_AANAR">Peâttar</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -4963,6 +5085,9 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="SKS" page="19"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Honganvetäjä</t>
@@ -4975,14 +5100,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Piiʹmen</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SPÄʹSSEB" inflexId="::::1.2">Piiʹmen</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Piiʹmen</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3235</c>
        <c name="Reader">11</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Пӣмен</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Пӣмен</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5065,10 +5191,10 @@
    </lg>
    <mg>
      <tg xml:lang="eng">
-       <t pos="N" type="Prop">pine tree pacemaker ??? (in fairytales)</t>
+       <t pos="N" type="Prop" re="in fairytales">pine tree pacemaker ??? </t>
      </tg>
      <tg xml:lang="fin">
-       <t pos="N" type="Prop">Männynvetäjä (sadussa)</t>
+       <t pos="N" type="Prop" re="sadussa">Männynvetäjä </t>
      </tg>
    </mg>
 </e>
@@ -5077,7 +5203,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Poʹlčč-Peeddar</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM">Poʹlčč-Peeddar</st>
+       <st Contlex="PROP_SEM/MAL_AANAR">Poʹlčč-Peeddar</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5107,7 +5233,8 @@
        <c name="Reader">11</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Пра̊ккпи</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Пра̊ккпи</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3236" quality="1" speaker="11"/> </audio>
    </lg>
@@ -5138,7 +5265,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Prååkkaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ" inflexId="::::1.26">Prååkk</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::1.26">Prååkk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3237</c>
@@ -5173,14 +5300,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Päälaǥ</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_JÂNNAM" inflexId="::::">Päälaǥ</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::">Päälaǥ</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3234</c>
        <c name="Reader">11</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Пӕ̄лaг</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Пӕ̄лaг</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5227,7 +5355,8 @@
        <c name="Reader">11</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Пӕ̄рaск</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Пӕ̄рaск</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3233" quality="1" speaker="11"/> </audio>
    </lg>
@@ -5287,7 +5416,8 @@
        <c name="Reader">12</c>
        <c name="Recording">3</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Рэ̄иг</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Рэ̄иг</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Riiggu</wordform>
@@ -5297,6 +5427,9 @@
        </analysis>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3199" quality="3" speaker="12"/> </audio>
    </lg>
+     <sources>
+       <book name="KKS" page="1050"/>
+     </sources>
    <mg>
      <semantics>
        <sem type="HUMAN">PEOPLE</sem>
@@ -5422,13 +5555,13 @@
    </lg>
    <mg>
      <tg xml:lang="deu">
-       <t pos="N" type="Prop">Eisenbieger (in Märchen)</t>
+       <t pos="N" type="Prop" re="in Märchen">Eisenbieger </t>
      </tg>
      <tg xml:lang="eng">
-       <t pos="N" type="Prop">Irontwister (in fairytales)</t>
+       <t pos="N" type="Prop" re="in fairytales">Irontwister </t>
      </tg>
      <tg xml:lang="fin">
-       <t pos="N" type="Prop">Raudanvääntäjä (sadussa)</t>
+       <t pos="N" type="Prop" re="sadussa">Raudanvääntäjä </t>
      </tg>
    </mg>
 </e>
@@ -5460,14 +5593,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Råmman</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Råmman</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Råmman</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3200</c>
        <c name="Reader">12</c>
        <c name="Recording">3</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Ра̊ммaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Ра̊ммaн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5504,14 +5638,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Saammâl</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_LUUBBÂL" inflexId="::::1.2">Sa%^1VOWmmâl</st>
+       <st Contlex="PROP_SEM/MAL_LUUBBYL" inflexId="::::1.2">Sa%^1VOWmmâl</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3205</c>
        <c name="Reader">13</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Са̄ммâл</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Са̄ммâл</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Sammâl</wordform>
@@ -5546,7 +5681,7 @@
    <lg>
      <l pos="N" sem_type="Org" type="Prop">Sajos</l>
      <stg>
-       <st Contlex="PROP_ČÅRRÕS">Sajo%^1VOWs</st>
+       <st Contlex="PROP_SAJOS">Sajo%^1VOWs</st>
      </stg>
    </lg>
    <mg>
@@ -5568,7 +5703,8 @@
        <c name="Reader">13</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Сaндрa</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Сaндрa</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5609,14 +5745,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Seeddar</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SÅÅBBAR" inflexId="::::">Se%^1VOWddar</st>
+       <st Contlex="PROP_SEM/MAL_SOAOABBAR" inflexId="::::">Se%^1VOWddar</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3144</c>
        <c name="Reader">13</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Сэддaр</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Сэддaр</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Seddar</wordform>
@@ -5654,14 +5791,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Semman</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Semman</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Semman</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3209</c>
        <c name="Reader">13</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Сэммaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Сэммaн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5720,14 +5858,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Siʹrǧǧi</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JIʹLSSI" inflexId="::::1.2">Si%^1VOWʹrǧǧi</st>
+       <st Contlex="PROP_SEM/MAL_JIQLSSI" inflexId="::::1.2">Si%^1VOWʹrǧǧi</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3207</c>
        <c name="Reader">13</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Сирьѓѓи</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Сирьѓѓи</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5737,6 +5876,9 @@
        </analysis>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3207" quality="1" speaker="13"/> </audio>
    </lg>
+     <sources>
+       <book name="KKS" page="114"/>
+     </sources>
    <mg>
      <semantics>
        <sem type="HUMAN">PEOPLE</sem>
@@ -5819,7 +5961,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Säkkri</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SÄʹPPLI" inflexId="::::1.4">Säkkr</st>
+       <st Contlex="PROP_SEM/MAL_SAQPPLI" inflexId="::::1.4">Säkkr</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3916</c>
@@ -5886,7 +6028,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Sämssan</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM">Sämssan</st>
+       <st Contlex="PROP_SEM/MAL_AANAR">Sämssan</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5909,7 +6051,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Säämmaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUÂLAŽ" inflexId="::::1.26">Säämm</st>
+       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Säämm</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3201</c>
@@ -5944,7 +6086,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Säävaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ" inflexId="::::1.26">Sääv</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::1.26">Sääv</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3238</c>
@@ -6083,7 +6225,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Sååffaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUÂLAŽ" inflexId="::::1.26">Sååff</st>
+       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Sååff</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3210</c>
@@ -6110,7 +6252,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Såållaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUÂLAŽ" inflexId="::::1.26">Sååll</st>
+       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Sååll</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3204</c>
@@ -6155,6 +6297,9 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="KKS" page="116"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Sofia</t>
@@ -6167,7 +6312,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Såʹll</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_DIʹLL" inflexId="::::1.114">Så%^1VOWll</st>
+       <st Contlex="PROP_SEM/FEM_DIQLL" inflexId="::::1.114">Så%^1VOWll</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3203</c>
@@ -6184,6 +6329,9 @@
        </analysis>
      </mini_paradigm>
    </lg>
+     <sources>
+       <book name="KKS" page="1051"/>
+     </sources>
    <mg>
      <tg xml:lang="deu">
        <t pos="N" type="Prop"/>
@@ -6209,7 +6357,8 @@
        <c name="Reader">14</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Tа̄ннâл</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Tа̄ннâл</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6247,14 +6396,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Teehhan</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Tẹẹhhan</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Tẹẹhhan</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3217</c>
        <c name="Reader">14</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Tэ̄ххaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Tэ̄ххaн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6291,7 +6441,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Temm</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_PẸSS" inflexId="::::">Te%^1VOWmm</st>
+       <st Contlex="PROP_SEM/MAL_PESS" inflexId="::::">Tẹ%^1VOWmm</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3218</c>
@@ -6308,6 +6458,9 @@
        </analysis>
      </mini_paradigm>
    </lg>
+     <sources>
+       <book name="SKS" page="130"/>
+     </sources>
    <mg>
      <tg xml:lang="deu">
        <t pos="N" type="Prop"/>
@@ -6326,14 +6479,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Teäppan</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::">Teäpˈpan</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::">Teäpˈpan</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3215</c>
        <c name="Reader">14</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Tэӕпˈпaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Tэӕпˈпaн</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3215" quality="1" speaker="14"/> </audio>
    </lg>
@@ -6366,7 +6520,7 @@
    <lg>
      <l pos="N" type="Prop">Teäppanpeiʹvv</l>
      <stg>
-       <st Contlex="PROP_PEIʹVV" inflexId="::::">Teäpˈpan#pẹ%^1VOWiʹvv</st>
+       <st Contlex="PROP_PEIQVV" inflexId="::::">Teäpˈpan#pẹ%^1VOWiʹvv</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">1013</c>
@@ -6422,7 +6576,7 @@
        <t pos="N" type="Prop"/>
      </tg>
      <tg xml:lang="rus">
-       <t pos="N" type="Prop">Степанида (жен. имя)</t>
+       <t pos="N" type="Prop" re="жен. имя">Степанида </t>
      </tg>
    </mg>
 </e>
@@ -6471,14 +6625,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Teʹrnti</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JIʹLSSI" inflexId="::::1.2">Te%^1VOWʹrnti</st>
+       <st Contlex="PROP_SEM/MAL_JIQLSSI" inflexId="::::1.2">Te%^1VOWʹrnti</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3216</c>
        <c name="Reader">14</c>
        <c name="Recording">0</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Tэрьнти</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Tэрьнти</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6516,14 +6671,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Timofi</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SÄʹPPLI" inflexId="::::1.4">Timof</st>
+       <st Contlex="PROP_SEM/MAL_SAQPPLI" inflexId="::::1.4">Timof</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3219</c>
        <c name="Reader">14</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Tимофи</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Tимофи</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>??Timofe</wordform>
@@ -6560,14 +6716,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Treeffan</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_JÂNNAM" inflexId="::::1.2">Trẹẹffan</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Trẹẹffan</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3220</c>
        <c name="Reader">14</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Tрэ̄ффaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Tрэ̄ффaн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6604,14 +6761,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Trooʹfem</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_SPÄʹSSEB" inflexId="::::1.2">Trooʹfem</st>
+       <st Contlex="PROP_SEM/MAL_AANAR" inflexId="::::1.2">Trooʹfem</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3221</c>
        <c name="Reader">14</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Tро̄фем</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Tро̄фем</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6649,14 +6807,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Tädjjan</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_JÂNNAM" inflexId="::::1.2">Tädjjan</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::1.2">Tädjjan</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3214</c>
        <c name="Reader">14</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Tӕдйян</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Tӕдйян</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6790,7 +6949,7 @@
        <l_syn>Uʹlljnaž</l_syn>
      </variants>
      <stg>
-       <st Contlex="PROP_SEM/FEM_JÂNNAM" inflexId="::::1.2">Uʹlljan</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::1.2">Uʹlljan</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3152</c>
@@ -6826,7 +6985,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Uʹlljnaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_SÄʹMMLAŽ">Uʹlljn</st>
+       <st Contlex="PROP_SEM/FEM_MEERSAZH">Uʹlljn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Uʹlljna</wordform>
@@ -6857,7 +7016,8 @@
        <c name="Reader">15</c>
        <c name="Recording">3</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Усьттэн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Усьттэн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6902,7 +7062,8 @@
        <c name="Reader">16</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Ва̄ссел</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Ва̄ссел</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6984,7 +7145,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Vaʹss</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_DIʹLL" inflexId="::::1.114">Va%^1VOWss</st>
+       <st Contlex="PROP_SEM/FEM_DIQLL" inflexId="::::1.114">Va%^1VOWss</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3226</c>
@@ -7001,6 +7162,9 @@
        </analysis>
      </mini_paradigm>
    </lg>
+     <sources>
+       <book name="KKS" page="1054"/>
+     </sources>
    <mg>
      <tg xml:lang="deu">
        <t pos="N" type="Prop"/>
@@ -7027,7 +7191,8 @@
        <c name="Reader">16</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Вэâрa</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Вэâрa</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3228" quality="1" speaker="16"/> </audio>
    </lg>
@@ -7079,7 +7244,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Vieʹrmmääkkaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUÂLAŽ">Vieʹrmm#ääkk</st>
+       <st Contlex="PROP_SEM/FEM_KUALAZH">Vieʹrmm#ääkk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-ääkka</wordform>
@@ -7157,7 +7322,7 @@
    <lg>
      <l pos="N" type="Prop">Vuâsppåʹd</l>
      <stg>
-       <st Contlex="PROP_" inflexId="::::1.22">Vuâsppåʹd</st>
+       <st Contlex="PROP_" inflexId="::::1.22">Vuâsppå%^1VOWd</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">1942</c>
@@ -7174,6 +7339,9 @@
        </analysis>
      </mini_paradigm>
    </lg>
+     <sources>
+       <book name="KKS" page="796"/>
+     </sources>
    <mg>
      <tg xml:lang="deu">
        <t pos="N" type="Prop">Gott</t>
@@ -7198,14 +7366,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Värvvan</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_JÂNNAM" inflexId="::::1.2">Värvvan</st>
+       <st Contlex="PROP_SEM/FEM_AANAR" inflexId="::::1.2">Värvvan</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3115</c>
        <c name="Reader">16</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Вӕрввaн</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Вӕрввaн</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Värvvan</wordform>
@@ -7243,14 +7412,15 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Vääna</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_ÅÅʹLGA" inflexId="::::1.4">Vääna</st>
+       <st Contlex="PROP_SEM/MAL_OAQLGA" inflexId="::::1.4">Vääna</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3116</c>
        <c name="Reader">16</c>
        <c name="Recording">1</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Вӕ̄нa</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Вӕ̄нa</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -7287,7 +7457,7 @@
    <lg>
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Väʹsǩǩ</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_" inflexId="::::1.113">Väʹsǩǩ</st>
+       <st Contlex="PROP_SEM/MAL_KAQLBB" inflexId="::::1.113">Vä%^1VOWskk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3225</c>
@@ -7356,14 +7526,15 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Ziina</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_ÅÅʹLGA" inflexId="::::1.4">Ziin</st>
+       <st Contlex="PROP_SEM/FEM_OAQLGA" inflexId="::::1.4">Ziin</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3208</c>
        <c name="Reader">0</c>
        <c name="Recording">4</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Зӣнa</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Зӣнa</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -7456,7 +7627,7 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Äännaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUÂLAŽ" inflexId="::::1.26">Äänn</st>
+       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Äänn</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3108</c>
@@ -7512,7 +7683,8 @@
        <c name="Reader">17</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Ӕ̄рьхэп</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Ӕ̄рьхэп</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -7551,7 +7723,7 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Äʹnn</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_VÄʹLL" inflexId="::::1.113">Ä%^1VOWnn</st>
+       <st Contlex="PROP_SEM/FEM_VAEQLL" inflexId="::::1.113">Ä%^1VOWnn</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3107</c>
@@ -7604,7 +7776,8 @@
        <c name="Reader">17</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>А̊ггвы</translit_cyr>
+     </inc-audio>
+     <translit_cyr>А̊ггвы</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -7686,12 +7859,10 @@
        <t pos="N" type="Prop">??Ortsbezeichnung</t>
      </tg>
      <tg xml:lang="eng">
-       <re>woman's name</re>
-       <t pos="N" type="Prop">Akuliina</t>
+       <t pos="N" type="Prop" re="woman's name">Akuliina</t>
      </tg>
      <tg xml:lang="fin">
-       <re>naisen nimi</re>
-       <t pos="N" type="Prop">Akuliina</t>
+       <t pos="N" type="Prop" re="naisen nimi">Akuliina</t>
      </tg>
      <tg xml:lang="nob">
        <t pos="N" type="Prop"/>
@@ -7714,7 +7885,8 @@
        <c name="Reader">17</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>А̊̄ггaшќ</translit_cyr>
+     </inc-audio>
+     <translit_cyr>А̊̄ггaшќ</translit_cyr>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -7738,10 +7910,7 @@
      </tg>
      <tg xml:lang="fin">
        <t pos="N" type="Prop">Agata</t>
-       <tCtn>
-       <re>hellittelynimi</re>
-       <t pos="N" type="Prop">Olga</t>
-       </tCtn>
+       <t re="hellittelynimi" pos="N" type="Prop">Olga</t>
      </tg>
      <tg xml:lang="nob">
        <t pos="N" type="Prop"/>
@@ -7783,7 +7952,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Ååjjaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUÂLAŽ">Ååjj</st>
+       <st Contlex="PROP_SEM/FEM_KUALAZH">Ååjj</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Ååjja</wordform>
@@ -7806,7 +7975,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Åållaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ">Ååll</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH">Ååll</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Åålla</wordform>
@@ -7853,7 +8022,8 @@
      <l gender="m" pos="N" sem_type="Mal" type="Prop">Ååntašǩ</l>
      <stg>
        <st Contlex="PROP_SEM/MAL_" inflexId="::::">Ååntašǩ</st>
-     </stg> <translit_cyr>А̂а̊нтaшќ</translit_cyr>
+     </stg>
+     <translit_cyr>А̂а̊нтaшќ</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3110" quality="1" speaker="17"/> </audio>
    </lg>
@@ -7885,7 +8055,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Ååskaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ" inflexId="::::1.26">Ååsk</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::1.26">Ååsk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3193</c>
@@ -7928,7 +8098,8 @@
        <c name="Reader">17</c>
        <c name="Recording">9</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>А̊̄стaќ</translit_cyr>
+     </inc-audio>
+     <translit_cyr>А̊̄стaќ</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3130" quality="9" speaker="17"/> </audio>
    </lg>
@@ -7959,7 +8130,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Ååđaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUÂLAŽ" inflexId="::::">Ååđ</st>
+       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::">Ååđ</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3195</c>
@@ -7986,7 +8157,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Ååʹlga</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_ÅÅʹLGA" inflexId="::::1.4">Ååʹlg</st>
+       <st Contlex="PROP_SEM/FEM_OAQLGA" inflexId="::::1.4">Ååʹlg</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3189</c>
@@ -8020,7 +8191,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Ååʹstaǩ</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_PÅÅTTAǨ">Ååʹstaǩ</st>
+       <st Contlex="PROP_SEM/MAL_AACCIKH">Ååʹstaǩ</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -8065,7 +8236,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Åʹll</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_VÄʹLL" inflexId="::::1.113">Å%^1VOWll</st>
+       <st Contlex="PROP_SEM/MAL_VAEQLL" inflexId="::::1.113">Å%^1VOWll</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3190</c>
@@ -8198,7 +8369,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Åʹsǩǩ</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_" inflexId="::::1.113">Åʹsǩǩ</st>
+       <st Contlex="PROP_SEM/MAL_KAQLBB" inflexId="::::1.113">Åskk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3192</c>
@@ -8320,7 +8491,8 @@
        <c name="Reader">22</c>
        <c name="Recording">2</c>
        <c name="included">yes</c>
-     </inc-audio> <translit_cyr>Ќиуррел</translit_cyr>
+     </inc-audio>
+     <translit_cyr>Ќиуррел</translit_cyr>
      <mini_paradigm exclude="NDS"> <stem>=</stem>
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3160" quality="2" speaker="22"/> </audio>
    </lg>
@@ -8357,7 +8529,7 @@
    <lg>
      <l pos="N" sem_type="Org" type="Prop">Ǩiõllkaʹlddi</l>
      <stg>
-       <st Contlex="PROP_ÄJJNÕʹSTTI">Ǩiõll#ka%^1VOWʹlddi</st>
+       <st Contlex="PROP_PRSPRC-VXYY-I">Ǩiõll#ka%^1VOWʹlddi</st>
      </stg>
    </lg>
    <mg>
@@ -8383,7 +8555,7 @@
    <lg>
      <l pos="PROP">Sääʹmparlamentt</l>
      <stg>
-       <st Contlex="PROP_PÕRTT">Sääʹm#parlame%^1VOWntt</st>
+       <st Contlex="PROP_ALGG">Sääʹm#parlame%^1VOWntt</st>
      </stg>
    </lg>
    <mg>
@@ -8392,4 +8564,25 @@
      </tg>
    </mg>
 </e>
+<e>
+   <lg>
+     <l pos="N" sem_type="Fem" type="Prop">Nuusk Riâvsaž</l>
+     <stg>
+       <st Contlex="PROP_SEM/FEM_MEERSAZH">Nuusk Riâvs</st>
+     </stg>
+   </lg>
+<sources>
+<media name="Koltankieliset" date="2016-07-09"/>
+</sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N" re="Muumi">Nuuskamuikkunen</t>
+     </tg>
+   </mg>
+</e>
+<e><lg><l pos="N" type="Prop">Saakkummužveʹrǧǧkoontâr</l><stg><st Contlex="PROP_KOONTYR">Saakkummuž#veʹrǧǧ#ko%^1VOWnttâr</st></stg></lg><mg><defNative/><tg xml:lang="fin"><t pos="N" type="Prop">Viestintävirasto</t></tg></mg></e>
+<e><lg><l pos="N" type="Prop">Ǩiõʹllkaʹlddi-haʹŋǩǩõs</l><stg><st Contlex="PROP_SAJOS">Ǩiõʹllkaʹlddi-haʹŋǩǩõ%^1VOWs</st></stg></lg><mg><defNative/><tg xml:lang="fin"><t pos="N" type="Prop">Kielikaltio</t></tg></mg></e>
+<e><lg><l pos="N" type="Prop">Sääʹm-museo</l><stg><st Contlex="PROP_RADIO">Sääʹm-museo</st></stg></lg><mg><defNative/><tg xml:lang="fin"><t pos="N" type="Prop">Saamelaismuseo</t></tg></mg></e>
+<e><lg><l pos="N" type="Prop">Teäʹǧǧautomattõhttõs</l><stg><st Contlex="PROP_SAJOS">Teäʹǧǧautomattõhttõ%^1VOWs</st></stg></lg><mg><defNative/><tg xml:lang="fin"><t pos="N" type="Prop">RAY</t></tg></mg></e>
+<e><lg><l pos="N" type="Prop">JTP-kõõskõs</l><stg><st Contlex="PROP_SAJOS">JTP-kõõskõ%^1VOWs</st></stg></lg><mg><defNative/><tg xml:lang="fin"><t pos="N" type="Prop">ELY-keskus</t></tg></mg></e>
 </r> 

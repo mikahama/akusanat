@@ -1,4 +1,5 @@
 
+
 LEXICON Adp_sms2x
 
 aalǥâst:aalǥâst ADP_  "alusta" ;
@@ -10,7 +11,7 @@ grååʹm% ǥu:grååʹm% ǥu ADP_  "paitsi" ;
 huâđast:huâđast ADP_  "hallussa" ;
 huõđđu:huõđˈđu ADP_  "haltuun" ;
 jeäʹrab:jeäʹrab ADP-GOV-LOC_  "paitsi" ;
-krååʹma:krååʹma ADP_  "ilman (jtak)" ;
+krååʹma:krååʹma ADP_  "ilman" ;
 kuvddân:kuvddân ADP_  "halki" ;
 kuâŋŋ:kuâŋˈŋ ADP_  "pitkin" ;
 kuâŋŋa:kuâŋŋa ADP_  "pitkin" ;
@@ -21,7 +22,7 @@ kõõskâst:kõõskâst ADP_  "keskuudessa" ;
 kõʹsǩǩe:kõʹsǩǩe ADP_  "keskuuteen" ;
 luzz:luzz ADP_  "luo" ;
 luʹnn:luʹnn ADV_  "lähellä" ;
-lââʹssen:lââʹssen ADP_  "ohella" ;
+lââʹssen:lââʹssen PO_  "ohella" ;
 mieʹldd:mieʹldd ADP_  "mukana" ;
 mieʹtt:mieʹtt ADP_  "myöten" ;
 mââibeälla:mââi#beälˈla ADP_  "jälkeen" ;
@@ -33,7 +34,7 @@ määiʹnest:määiʹnest ADP_  "takia" ;
 notta:notta ADP_  "ilman" ;
 ool:ool ADP_  "päälle" ;
 ooudbeälla:ooud#beälˈla ADP_  "edelle" ;
-ooudbeäʹl:ooudbeäʹl ADP_  "etupuolta" ;
+ooudbeäʹl:ooudbeäʹl ADP_  "etupuolitse" ;
 ooudpeäʹlnn:ooudpeäʹlnn ADP_  "edellä" ;
 ooudâs:ooudâs ADP_  "eteenpäin" ;
 ooudâst:ooudâst ADP_  "edellä" ;

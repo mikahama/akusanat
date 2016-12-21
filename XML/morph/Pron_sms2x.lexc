@@ -1,4 +1,5 @@
 
+
 LEXICON Pron_sms2x
 
 kõskkneez:kõskkneez PRON_  "keskenään" ;
@@ -63,8 +64,8 @@ kååʹtt-ne:kååʹtt-ne PRON-INDEF_  "joku" ;
 mii-ne:mii-ne PRON-INDEF_  "jokin" ;
 suu:suu PRON_  "hänen" ;
 suäna:suän PRON-PERS-DU3_  "he kaksi" ;
-tiekk-aa:tiekk-aa PRON_  "nämä (tässä)" ;
-tiett-aa:tiett-aa PRON_  "tämä (tässä)" ;
+tiekk-aa:tiekk-aa PRON_  "nämä" ;
+tiett-aa:tiett-aa PRON_  "tämä" ;
 tun:tun PRON_  "sinä" ;
 tuu:tuu PRON_  "sinun" ;
 tuäna:tuän PRON-PERS-DU2_  "te kaksi" ;

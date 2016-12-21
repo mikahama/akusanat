@@ -644,13 +644,16 @@ function lgToXML(homonym, classPrefix, default_type){
 	return xml;
 }
 
-function jsonsToWiki(json_list){
+function jsonsToWiki(json_list, language){
+	if(language == undefined){
+		language = "Sms";
+	}
 	var wiki ="";
 	for (var i = 0; i < json_list.length; i++) {
 		var json = json_list[i];
 		wiki = wiki + jsonToWiki(json);
 	}
-	wiki = wiki + "\n[[Category:Sms]]";
+	wiki = wiki + "\n[[Category:"+ language +"]]";
 	return wiki;
 }
 
@@ -658,9 +661,12 @@ function jsonsToWiki(json_list){
  This will be called by Django, not MediaWiki
 
 */
-function jsonsToWikiFromDjango(json_list, lemma){
+function jsonsToWikiFromDjango(json_list, lemma, language){
+	if (language == undefined){
+		language = "Sms";
+	}
 	current_lemma = lemma;
-	return jsonsToWiki(json_list);
+	return jsonsToWiki(json_list, language);
 }
 
 function saveModifications(){

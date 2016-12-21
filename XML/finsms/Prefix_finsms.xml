@@ -1,35 +1,577 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<r id="smsfin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
-   You are free to copy, distribute and adapt the work, as long as you always give
-   proper attribution using the attribution text below.
-   For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
-   Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref> <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
-   This is NOT a fully styled and published dictionary.
-   As such it can and will contain unfinished entries, unpublished entries, 
-   entries with objectionable translations, etc. If you find any errors 
-   or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.</sourcenote> </lics>
-<e> <lg> <l pos="Prefix">ala</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">vueʹll-</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">avosuinen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">äävainjäʹlmm-</t> </tg> </mg> </e>
-<e> <lg> <l pos="Prefix">ennakko-</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">oudd-</t> </tg> </mg> </e>
-<e> <lg> <l pos="Prefix">epä-</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">pann-</t> </tg> </mg> </e>
-<e> <lg> <l pos="Prefix">esi-</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">oudd-</t> </tg> </mg> </e>
-<e> <lg> <l pos="Prefix">etu-</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">ooud-</t> </tg> </mg> </e>
-<e> <lg> <l pos="Adv">irrallaan</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <tCtn> <t pos="Prefix">pååđ-</t> <re>vapaa</re> </tCtn> </tg> </mg> </e>
-<e> <lg> <l pos="A">irrallinen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">pååđ-</t> </tg> </mg> </e>
-<e> <lg> <l pos="">irto</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">pååđ-</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">itsenäinen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">pååđ-</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">kildinin-</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">ǩiõld-</t> </tg> </mg> </e>
-<e> <lg> <l pos="">myötä</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">mieʹtt-</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">myötäinen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">mieʹtt-</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">nurja</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">jåårǥ-</t> </tg> </mg> </e>
-<e> <lg> <l pos="">oikea</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">vuäʹls-</t> </tg> </mg> </e>
-<e> <lg> <l pos="A">pahanen</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <tCtn> <t pos="Prefix">pann-</t> <re>pieni</re> </tCtn> </tg> </mg> </e>
-<e> <lg> <l pos="">perä-, taka-</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">mââi-</t> </tg> </mg> </e>
-<e> <lg> <l pos="">selällään</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">kääv-</t> </tg> </mg> </e>
-<e> <lg> <l pos="">ulko</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">ålgg-</t> </tg> </mg> </e>
-<e> <lg> <l pos="">valio-, mainio</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">vällj-</t> </tg> </mg> </e>
-<e> <lg> <l pos="">vasta-</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">vueʹstt-</t> </tg> </mg> </e>
-<e> <lg> <l pos="">vino</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">käʹrŋŋ-</t> </tg> </mg> </e>
-<e> <lg> <l pos="">ylä-, ??päällis-, ??päällys- (-puoli tms.)</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">pââi-</t> </tg> </mg> </e>
-<e> <lg> <l pos="">ylössuin oleva</l> <stg> <st/> </stg> </lg> <mg> <tg xml:lang="sms"> <t pos="Prefix">kääv-</t> </tg> </mg> </e>
+<r id="finsms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="/Users/rueter/main/gtcore/schemas/fiu-dict-schema.xsd" xml:lang="fin"> <lics xml:space="preserve"> <lic xml:lang="en">This code is made available under a Creative Commons Attribution license <a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+ You are free to copy, distribute and adapt the work, as long as you always give
+ proper attribution using the attribution text below.
+ For the full license text, see the link above.</lic> <ref>Work by AKU, Kone foundation, Giellatekno at UiT and members of the language communities. 
+ Source code available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref>
+     <sourcenote>THIS TEXT IS THE ORIGINAL SOURCE CODE. 
+ This is NOT a fully styled and published dictionary.
+ As such it can and will contain unfinished entries, unpublished entries, 
+ entries with objectionable translations, etc. If you find any errors 
+ or want to add more words, download the file, edit it, and send it back to <a>mailto:giellatekno@hum.uit.no</a>.
+     </sourcenote> </lics>
+<e>
+   <lg>
+     <l pos="N">aamu-</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="TIME"/>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">tueʹles-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">aamuinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <semantics>
+       <sem class="TIME"/>
+     </semantics>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">tueʹles-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">ala</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">vueʹll-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">avosuinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">äävainjäʹlmm-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">elinikäinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">ââʹjjpeiʹvv-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">ennakko-</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">oudd-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">epä-</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">pann-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">esi-</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">oudd-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">etu-</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">ooud-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="N">etukumara</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">njeʹǩǩ-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">hallava</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">sitt-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">hapan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">kuäʹstt-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">harmahtava</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">sitt-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">ikuinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">ââʹjjpeiʹvv-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="Adv">irrallaan</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="PREFIX/A_" pos="Prefix">pååđ-</t>
+       <re>vapaa</re>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">irrallinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">pååđ-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">irto</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">pååđ-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">itsenäinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">pååđ-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">kaltto, kallellaan oleva</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">njeʹǩǩ-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">kiero (puusta)</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">påʹnnj-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">kildinin-</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">ǩiõld-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">manattu</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">vieʹmm-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">myötä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">mieʹtt-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">myötäinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">mieʹtt-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">noiduttu</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">vieʹmm-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">nurja</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">jåårǥ-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">oikea</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">vuäʹls-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">pahanen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <tCtn>
+       <t Contlex="PREFIX/A_" pos="Prefix">pann-</t>
+       <re>pieni</re>
+       </tCtn>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">perä-, taka-</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">mââi-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">pitkäkarvainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">sitt-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">poikittainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">tuäʹres-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">poikki-</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">tuäʹres-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">pysty; jyrkkä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">ceägg-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">raemainen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">čuõmâr-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">rumanvärinen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">sitt-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">selällään</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">kääv-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">taiottu</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">vieʹmm-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">terävä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">čokk-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">ulko</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">ålgg-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">valio-, mainio</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">vällj-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">vasen</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">čiʹǯǯ-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">vasta-</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">vueʹstt-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">vino</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">käʹrŋŋ-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="A">väärä</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">puäst-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">ylä-, ??päällis-, ??päällys- (-puoli tms.)</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">pââi-</t>
+     </tg>
+   </mg>
+</e>
+<e>
+   <lg>
+     <l pos="">ylössuin oleva</l>
+     <stg> <st/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="sms">
+       <t Contlex="PREFIX/A_" pos="Prefix">kääv-</t>
+     </tg>
+   </mg>
+</e>
 </r>

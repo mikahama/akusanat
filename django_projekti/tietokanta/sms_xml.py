@@ -19,7 +19,8 @@ def update_sms_db_from_xml(xml_text, file_type, file_name):
         return __process_sms_xml__(root, file_name)
     elif file_type == "finsms":
         return  __process_finsms_xml__(root, file_name)
-    elif file_type == "morph":
+    elif file_type == "morph" or file_type == ".":
+        #SMS morph and IZH because the syntax is the same
         return  __process_morph_xml__(root, file_name)
     else:
         raise UnsupportedXMLSchema("The schema " + file_type + " is not supported!")

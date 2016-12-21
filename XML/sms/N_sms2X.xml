@@ -16,6 +16,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="fin">
             <t pos="N">mies</t>
@@ -284,6 +285,7 @@
             <sem class="BIRD"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">синица</t>
@@ -312,6 +314,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N" stat="pref">physician</t>
@@ -341,6 +344,7 @@
             <sem class="INSECT"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">паук</t>
@@ -370,6 +374,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">хозяин</t>
@@ -470,6 +475,7 @@
 	        <sem class="M_VISUAL_CNT"/>
 	        <sem class="M_AURAL_CNT"/>
 	        <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">отец</t>
@@ -559,6 +565,7 @@
             <sem class="BOT"/>
             <sem class="GRASS"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">цветок</t>
@@ -636,6 +643,7 @@
             <sem class="BOT"/>
             <sem class="BERRY"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">голубика</t>
@@ -674,6 +682,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">мать</t>
@@ -713,6 +722,7 @@
             <sem class="ECONOMY"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">бык</t>
@@ -738,6 +748,7 @@
             <sem class="BOT"/>
             <sem class="TREE"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">dwarf birch</t>
@@ -794,6 +805,7 @@
             <sem class="NATURE"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">animal</t>
@@ -829,6 +841,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">uncle</t>
@@ -1202,6 +1215,7 @@
             <sem class="HUMAN"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">cat</t>
@@ -1265,6 +1279,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="PERSON"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">bride</t>
@@ -1404,6 +1419,7 @@
             <sem class="INSECT"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">ant</t>
@@ -1444,6 +1460,7 @@
             <sem class="M_FOOD_DISH"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">рыба</t>
@@ -1484,6 +1501,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">гость</t>
@@ -1555,6 +1573,7 @@
             <sem class="DOMESTIC"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">cow</t>
@@ -1639,6 +1658,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">tailor</t>
@@ -1735,6 +1755,7 @@
             <sem class="INSECT"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">snake</t>
@@ -1779,6 +1800,7 @@
             <sem class="M_FOOD_DISH"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">кумжа</t>
@@ -2016,6 +2038,7 @@
             <sem class="BOT"/>
             <sem class="TREE"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">можжевельник</t>
@@ -2231,6 +2254,7 @@
             <sem class="FOOD"/>
             <sem class="NATURE"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">морошка</t>
@@ -2295,6 +2319,7 @@
             <sem class="M_FOOD_DISH"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N" stat="pref">сёмга</t>
@@ -2384,6 +2409,7 @@
             <sem class="NATURE"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">птица</t>
@@ -2669,6 +2695,7 @@
             <sem class="BOT"/>
             <sem class="BERRY"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">berry</t>
@@ -2730,6 +2757,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">тётя</t>
@@ -2766,6 +2794,7 @@
             <sem class="ELEMENT"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">дерево</t>
@@ -2848,6 +2877,7 @@
             <sem class="NATURE"/>
             <sem class="M_FOOD_DISH"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">яйцо</t>
@@ -3040,6 +3070,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">женщина</t>
@@ -3113,6 +3144,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">девочка</t>
@@ -3141,6 +3173,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="FAMILY"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">дочь</t>
@@ -3231,6 +3264,7 @@
             <sem class="BIRD"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">swan</t>
@@ -3933,6 +3967,7 @@
             <sem class="FAMILY"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">собака</t>
@@ -4234,6 +4269,7 @@
             <sem class="ECONOMY"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">reindeer</t>
@@ -4291,6 +4327,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">оленевод</t>
@@ -4317,6 +4354,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">reindeer herder</t>
@@ -4343,6 +4381,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">parent</t>
@@ -4504,6 +4543,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">повар</t>
@@ -4605,6 +4645,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">boy</t>
@@ -4644,6 +4685,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N" stat="pref">ребёнок</t>
@@ -4903,6 +4945,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">relative</t>
@@ -4932,6 +4975,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">русский</t>
@@ -5119,6 +5163,7 @@
             <sem class="REINDEER"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">barren reindeer cow</t>
@@ -5148,6 +5193,7 @@
             <sem class="DOMESTIC"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">овца</t>
@@ -5408,6 +5454,7 @@
             <sem class="INSECT"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="deu">
             <t pos="N">Eidechse</t>
@@ -5832,6 +5879,7 @@
             <sem class="BOT"/>
             <sem class="TREE"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="fin">
             <t pos="N">koivu</t>
@@ -5862,6 +5910,7 @@
             <sem class="BOT"/>
             <sem class="BERRY"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="nob">
             <t pos="N">blåbær</t>
@@ -6186,6 +6235,7 @@
             <sem class="BODY"/>
             <sem class="HEALTH"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">вошь</t>
@@ -6300,6 +6350,8 @@
          <semantics>
             <sem class="WORK"/>
             <sem class="MUSIC"/>
+	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">батрак</t>
@@ -6561,6 +6613,7 @@
             <sem class="HUMAN"/>
             <sem class="MYTHOLOGY"/>
 	    <sem class="M_VISUAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">звезда</t>
@@ -6742,6 +6795,7 @@
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
 	    <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="fin">
             <t pos="N">veli</t>
@@ -6814,6 +6868,7 @@
             <sem class="ZOO"/>
 	    <sem class="M_VISUAL_CNT"/>
 	    <sem class="M_AURAL_CNT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">calf</t>
@@ -6951,6 +7006,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="FAMILY"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="fin">
             <t pos="N">sisar</t>
@@ -7495,6 +7551,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="FAMILY"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">сын</t>
@@ -7521,6 +7578,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">boy</t>
@@ -7671,6 +7729,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">старуха</t>
@@ -7729,6 +7788,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="FAMILY"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="fin">
             <t pos="N">mies</t>
@@ -7765,6 +7825,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">человек</t>
@@ -7801,6 +7862,7 @@
             <sem class="MAMMAL"/>
             <sem class="WORK"/>
             <sem class="ECONOMY"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="deu">
             <t pos="N" term="zool">Männchen</t>
@@ -7859,6 +7921,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">человек</t>
@@ -7965,6 +8028,7 @@
          <semantics>
             <sem class="HUMAN"/>
             <sem class="M_PEOPLE"/>
+	    <sem class="M_PEOPLE_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">uncle</t>
@@ -8081,6 +8145,7 @@
          <semantics>
             <sem class="BOT"/>
             <sem class="TREE"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N" short="stumb">tree stumb</t>
@@ -8107,6 +8172,7 @@
          <semantics>
             <sem class="ZOO"/>
             <sem class="INSECT"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">fly</t>
@@ -8218,6 +8284,7 @@
             <sem class="NATURE"/>
             <sem class="BOT"/>
             <sem class="BERRY"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="eng">
             <t pos="N">crowberry</t>
@@ -8543,6 +8610,7 @@
             <sem class="FOOD"/>
             <sem class="NATURE"/>
             <sem class="M_FOOD_DISH"/>
+            <sem class="M_BEING_ESS"/>
          </semantics>
          <tg xml:lang="rus">
             <t pos="N">сиг</t>

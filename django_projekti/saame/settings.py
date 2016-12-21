@@ -92,9 +92,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-WIKI_URL = "http://localhost/mediawiki/"
+WIKI_URL = "http://localhost/"
 WIKI_JS_URL = "http://localhost/js/sms_edit.js"
 WIKI_USERNAME = "Syncbot"
 WIKI_PASSWORD = "SyncBot12"
-GIT_DIR = "C:\\Users\\mikah\\Desktop\\saame_test\\"
+GIT_DIR_SMS = "/Users/mikahamalainen/saame_testi/"
+GIT_DIR_IZH = "/Users/mikahamalainen/inkeroinen/"
 CURRENT_URL = "http://127.0.0.1:8000/"

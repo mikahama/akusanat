@@ -74,7 +74,7 @@
    <lg>
      <l pos="Num">kolmm</l>
      <stg>
-       <st Contlex="NUM_PÕRTT">k%^1VOWolmm</st>
+       <st Contlex="NUM_ALGG">k%^1VOWolmm</st>
      </stg>
      <etymology>
        <etymon source="finnougric" type="xxx">kolme</etymon>
@@ -179,7 +179,8 @@
    <lg>
      <l pos="Num">koumm</l>
      <stg>
-       <st Contlex="NUM_AUTT" inflexId="::::4.11">k%^1VOWoumm</st>
+       <st Contlex="NUM_AUTT" inflexId="::::4.11">ko%^1VOWumm</st>
+       <st Contlex="NUM_ALGG" inflexId="::::4.11">ko%^1VOWlmm</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">4073</c>
@@ -300,7 +301,7 @@
        <l_var>kuiʹhtt</l_var>
      </variants>
      <stg>
-       <st Contlex="NUM_KUEʹHTT" inflexId="::::4.11">kuâhtt</st>
+       <st Contlex="NUM_KUEQHTT" inflexId="::::4.11">kuâhtt</st>
      </stg>
      <inc-sampling>
        <c name="Swadesh100">12</c>
@@ -574,9 +575,7 @@
    </lg>
    <mg>
      <tg xml:lang="fin">
-       <tCtn>
-       <t pos="Num">kuusitoista</t> <re/>
-       </tCtn>
+       <t pos="Num">kuusitoista</t>
      </tg>
    </mg>
 </e>
@@ -589,9 +588,7 @@
    </lg>
    <mg>
      <tg xml:lang="fin">
-       <tCtn>
-       <t pos="Num">kuusitoista</t> <re/>
-       </tCtn>
+       <t pos="Num">kuusitoista</t>
      </tg>
    </mg>
 </e>
@@ -821,9 +818,7 @@
    </lg>
    <mg>
      <tg xml:lang="fin">
-       <tCtn>
-       <t pos="Num">kaksi</t> <re/>
-       </tCtn>
+       <t pos="Num">kaksi</t>
      </tg>
    </mg>
 </e>
@@ -945,9 +940,7 @@
    </lg>
    <mg>
      <tg xml:lang="fin">
-       <tCtn>
-       <t pos="Num">kahdeksan</t> <re/>
-       </tCtn>
+       <t pos="Num">kahdeksan</t>
      </tg>
    </mg>
 </e>
@@ -1059,7 +1052,7 @@
    <lg>
      <l pos="Num">lååi</l>
      <stg>
-       <st Contlex="NUM_LÅÅI" inflexId="::::4.11">lååi</st>
+       <st Contlex="NUM_LOAOAI" inflexId="::::4.11">lååi</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3986</c>
@@ -1222,7 +1215,7 @@
    <lg>
      <l pos="Num">mäŋgg</l>
      <stg>
-       <st Contlex="NUM_" inflexId="::::1.112">mäŋgg</st>
+       <st Contlex="NUM_AELDD" inflexId="::::1.112">mä%^1VOWŋgg</st>
      </stg>
      <inc-sampling>
        <c name="Swadesh100">10</c>
@@ -1294,7 +1287,7 @@
    <lg>
      <l pos="">nellj</l>
      <stg>
-       <st Contlex="NUM_NẸLLJ" NumContlex="">n%^1VOWẹllj</st>
+       <st Contlex="NUM_NELLJ" NumContlex="">n%^1VOWẹllj</st>
      <mini_paradigm>
        <analysis ms="N_Pl_Nom">neellj
        </analysis>
@@ -1871,9 +1864,7 @@
    </lg>
    <mg>
      <tg xml:lang="fin">
-       <tCtn>
-       <t pos="Num">yhdeksän</t> <re/>
-       </tCtn>
+       <t pos="Num">yhdeksän</t>
      </tg>
    </mg>
 </e>
@@ -2272,7 +2263,7 @@
    <lg>
      <l pos="Num">čueʹtt</l>
      <stg>
-       <st Contlex="NUM_KUEʹLL" inflexId="::::1.113">čuâtt</st>
+       <st Contlex="NUM_KUEQLL" inflexId="::::1.113">čuâtt</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Pl_Nom">
            <wordform>čueʹđ</wordform>

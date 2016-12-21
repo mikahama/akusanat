@@ -5,7 +5,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Aanar</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM" inflexId="::::1.2">Aanar</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::1.2">Aanar</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">369</c>
@@ -31,28 +31,22 @@
        <sem type="ENVIR">SETTLEMENT</sem>
      </semantics>
      <tg xml:lang="deu">
-       <re>Dorf</re>
-       <t pos="N" type="Prop">Inari</t>
+       <t pos="N" type="Prop" re="Dorf">Inari</t>
      </tg>
      <tg xml:lang="eng">
-       <re>village</re>
-       <t pos="N" type="Prop">Inari</t>
+       <t pos="N" type="Prop" re="village">Inari</t>
      </tg>
      <tg xml:lang="fin">
-       <re>kylä</re>
-       <t pos="N" type="Prop">Inari</t>
+       <t pos="N" type="Prop" re="kylä">Inari</t>
      </tg>
      <tg xml:lang="nob">
-       <re>landsby</re>
-       <t pos="N" type="Prop">Enare</t>
+       <t pos="N" type="Prop" re="landsby">Enare</t>
      </tg>
      <tg xml:lang="rus">
-       <re>посёлок</re>
-       <t pos="N" type="Prop">Инари</t>
+       <t pos="N" type="Prop" re="посёлок">Инари</t>
      </tg>
      <tg xml:lang="sme">
-       <re>siida</re>
-       <t pos="N" type="Prop">Anár</t>
+       <t pos="N" type="Prop" re="siida">Anár</t>
      </tg>
    </mg>
 </e>
@@ -61,7 +55,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Aanarjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Aanar#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Aanar#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -105,7 +99,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Aaʹlp</l>
      <stg>
-       <st Contlex="PROP_TOP_">Aaʹlp</st>
+       <st Contlex="PROP_TOP_KAQLBB-PL">A%^1VOWlpp</st>
      <mini_paradigm exclude="NDS">
        <analysis/>
      </mini_paradigm>
@@ -113,7 +107,6 @@
    </lg>
    <mg>
      <tg xml:lang="fin">
-       <t pos="N">Alpit</t>
        <t pos="N">Alpit</t>
      </tg>
    </mg>
@@ -145,7 +138,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ailijäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Aili#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Aili#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -167,7 +160,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Akujäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Aku#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Aku#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -189,7 +182,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Alaskk</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Ala%^1VOWskk</st>
+       <st Contlex="PROP_TOP_ALGG">Ala%^1VOWskk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Alaask</wordform>
@@ -233,7 +226,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Atlantt</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Atla%^1VOWntt</st>
+       <st Contlex="PROP_TOP_ALGG">Atla%^1VOWntt</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Atlaantt</wordform>
@@ -255,7 +248,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Aŋŋel</l>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB">Aŋŋel</st>
+       <st Contlex="PROP_TOP_AANAR">Aŋŋel</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Aŋŋeeʹl</wordform>
@@ -365,7 +358,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ceäggkuõškk</l>
      <stg>
-       <st Contlex="PROP_TOP_ČUÕŠKK">Ceägg#kuõškk</st>
+       <st Contlex="PROP_TOP_CHUOSHKK">Ceägg#kuõškk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kuõšk</wordform>
@@ -476,7 +469,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Eŋgglõs</l>
      <stg>
-       <st Contlex="PROP_TOP_ČÅRRÕS" inflexId="::::">Eŋgglõ%^1VOWs</st>
+       <st Contlex="PROP_TOP_SAJOS" inflexId="::::">Eŋgglõ%^1VOWs</st>
      </stg>
    </lg>
      <sources>
@@ -506,7 +499,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Eŋgglõsjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Eŋgglõs#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Eŋgglõs#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -529,7 +522,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Eŋglõs</l>
      <stg>
-       <st Contlex="PROP_TOP_ČÅRRÕS" inflexId="::::">Eŋglõ%^1VOWs</st>
+       <st Contlex="PROP_TOP_SAJOS" inflexId="::::">Eŋglõ%^1VOWs</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">1594</c>
@@ -561,7 +554,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Franskkjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Franskk#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Franskk#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -605,7 +598,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Greikkajânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Greikka#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Greikka#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -627,7 +620,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Heävaškuõškk</l>
      <stg>
-       <st Contlex="PROP_TOP_ČUÕŠKK">Heävaš#kuõškk</st>
+       <st Contlex="PROP_TOP_CHUOSHKK">Heävaš#kuõškk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kuõšk</wordform>
@@ -649,7 +642,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Heävašsuâl</l>
      <stg>
-       <st Contlex="PROP_TOP_SUÂL">Heävaš#suõlˈl</st>
+       <st Contlex="PROP_TOP_SUYL">Heävaš#suõlˈl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-suõlˈlu</wordform>
@@ -672,7 +665,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Heʹlssen</l>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB" inflexId="::::1.2">Heʹlssen</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::1.2">Heʹlssen</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">380</c>
@@ -719,7 +712,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Iisakjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Iisak#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Iisak#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -758,7 +751,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Irlantt</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Irla%^1VOWntt</st>
+       <st Contlex="PROP_TOP_ALGG">Irla%^1VOWntt</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Irlaant</wordform>
@@ -780,7 +773,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Islantt</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Isla%^1VOWntt</st>
+       <st Contlex="PROP_TOP_ALGG">Isla%^1VOWntt</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Islaantt</wordform>
@@ -846,7 +839,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Jaappan</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Jaappan</st>
+       <st Contlex="PROP_TOP_AANAR">Jaappan</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -890,7 +883,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Jeeʹelsuâl</l>
      <stg>
-       <st Contlex="PROP_TOP_SUÂL">Jeeʹel#suõlˈl</st>
+       <st Contlex="PROP_TOP_SUYL">Jeeʹel#suõlˈl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-suõlˈlu</wordform>
@@ -912,7 +905,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Jeeʹelvueiʹvv</l>
      <stg>
-       <st Contlex="PROP_TOP_VUẸIʹVV">Jeeʹel#vuäivv</st>
+       <st Contlex="PROP_TOP_VUEAIQVV">Jeeʹel#vuäivv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vueiʹv</wordform>
@@ -956,7 +949,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Jiõŋŋjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Jiõŋŋ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Jiõŋŋ#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -979,7 +972,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Jiõŋŋmiârr</l>
      <stg>
-       <st Contlex="PROP_TOP_PUÅVV" inflexId="::::1.111">Jiõŋŋ#miârr</st>
+       <st Contlex="PROP_TOP_PUOAVV" inflexId="::::1.111">Jiõŋŋ#miârr</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2187</c>
@@ -1019,7 +1012,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Jooultuõddâr</l>
      <stg>
-       <st Contlex="PROP_TOP_TUÕDDÂR">Jooul#tuõdˈdâr</st>
+       <st Contlex="PROP_TOP_TUODDYR">Jooul#tuõdˈdâr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-tuõdˈdâr</wordform>
@@ -1041,7 +1034,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Jooǥǥnjäʹlmm</l>
      <stg>
-       <st Contlex="PROP_TOP_KÄʹLBB">Jooǥǥ#njä%^1VOWlmm</st>
+       <st Contlex="PROP_TOP_KAQLBB">Jooǥǥ#njä%^1VOWlmm</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njääʹlm</wordform>
@@ -1085,7 +1078,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Juuŋâsnjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Juuŋâs#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG">Juuŋâs#nja%^1VOWrgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njaarǥ</wordform>
@@ -1129,7 +1122,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Jõnn Suäʹvveljäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Jõnn Suäʹvvel#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Jõnn Suäʹvvel#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1173,7 +1166,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Jõnn-Luubbâl</l>
      <stg>
-       <st Contlex="PROP_TOP_LUUBBÂL">Jõnn-Lu%^1VOWbbâl</st>
+       <st Contlex="PROP_TOP_LUUBBYL">Jõnn-Lu%^1VOWbbâl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-Lubbâl</wordform>
@@ -1195,7 +1188,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Jõnnǩeäʹdǧǧjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Jõnnǩeäʹdǧǧ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Jõnnǩeäʹdǧǧ#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1217,7 +1210,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kaalčuäʹlmm</l>
      <stg>
-       <st Contlex="PROP_TOP_JEÄʹRMM">Kaal#čuälmm</st>
+       <st Contlex="PROP_TOP_JEAQRMM">Kaal#čuälmm</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-čueʹlmm</wordform>
@@ -1261,7 +1254,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kaaʹdrenjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kaaʹdren#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kaaʹdren#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1283,7 +1276,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kaaʹrdluubbâl</l>
      <stg>
-       <st Contlex="PROP_TOP_LUUBBÂL">Kaaʹrd#lu%^1VOWbbâl</st>
+       <st Contlex="PROP_TOP_LUUBBYL">Kaaʹrd#lu%^1VOWbbâl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-lubbâl</wordform>
@@ -1327,7 +1320,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Karekkjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Karekk#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Karekk#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1349,7 +1342,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Karigasnjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Karigas#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG">Karigas#nja%^1VOWrgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njaarǥ</wordform>
@@ -1375,7 +1368,7 @@
        <l_var>Käʹrjjel</l_var>
      </variants>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB" inflexId="::::1.2">Kaʹrjjel</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::1.2">Kaʹrjjel</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">381</c>
@@ -1422,7 +1415,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Keväjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kevä#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kevä#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1445,7 +1438,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Keârkknjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT" inflexId="::::">Keârkk#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG" inflexId="::::">Keârkk#nja%^1VOWrgg</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">382</c>
@@ -1515,7 +1508,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kirakkajäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kirakka#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kirakka#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1537,7 +1530,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kiʹǩǩernjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Kiʹǩǩer#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG">Kiʹǩǩer#nja%^1VOWrgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njaarǥ</wordform>
@@ -1559,7 +1552,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Konnsažvueiʹvv</l>
      <stg>
-       <st Contlex="PROP_TOP_VUẸIʹVV">Konnsaž#vuäivv</st>
+       <st Contlex="PROP_TOP_VUEAIQVV">Konnsaž#vuäivv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vueiʹv</wordform>
@@ -1603,7 +1596,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Koolâsjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Koolâs#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Koolâs#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1647,7 +1640,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kooʹrneǩjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kooʹrneǩ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kooʹrneǩ#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1669,7 +1662,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kooʹrneǩvääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Kooʹrneǩ#väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Kooʹrneǩ#väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -1691,7 +1684,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kuddteʹmesjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kuddteʹmes#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kuddteʹmes#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1713,7 +1706,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kueʹlǩesmiârr</l>
      <stg>
-       <st Contlex="PROP_TOP_PUÅVV">Kueʹlǩes#miârr</st>
+       <st Contlex="PROP_TOP_PUOAVV">Kueʹlǩes#miârr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-miâr</wordform>
@@ -1757,7 +1750,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kueʹttjõrŋŋ</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Kueʹtt#jõ%^1VOWrŋŋ</st>
+       <st Contlex="PROP_TOP_ALGG">Kueʹtt#jõ%^1VOWrŋŋ</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jõõrŋ</wordform>
@@ -1779,7 +1772,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kueʹttluubbâl</l>
      <stg>
-       <st Contlex="PROP_TOP_LUUBBÂL">Kueʹtt#lu%^1VOWbbâl</st>
+       <st Contlex="PROP_TOP_LUUBBYL">Kueʹtt#lu%^1VOWbbâl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-lubbâl</wordform>
@@ -1864,7 +1857,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kuâlõk</l>
      <stg>
-       <st Contlex="PROP_TOP_TÄÄVTÕS" inflexId="::::1.22">Kuâlõ%^1VOWk</st>
+       <st Contlex="PROP_TOP_SAJOS" inflexId="::::1.22">Kuâlõ%^1VOWk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3232</c>
@@ -1898,7 +1891,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kuärddjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kuärdd#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kuärdd#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1920,7 +1913,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kuäʹppel</l>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB">Kuäʹppel</st>
+       <st Contlex="PROP_TOP_AANAR">Kuäʹppel</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -1964,7 +1957,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kuõškk-kaʹlddijäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kuõškk-kaʹlddi#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kuõškk-kaʹlddi#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -1986,7 +1979,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kuʹǩesjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kuʹǩes#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kuʹǩes#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2071,7 +2064,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Källjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Käll#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Käll#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2093,7 +2086,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Källkuõškk</l>
      <stg>
-       <st Contlex="PROP_TOP_ČUÕŠKK">Käll#kuõškk</st>
+       <st Contlex="PROP_TOP_CHUOSHKK">Käll#kuõškk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kuõšk</wordform>
@@ -2115,7 +2108,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Källvueiʹvv</l>
      <stg>
-       <st Contlex="PROP_TOP_VUẸIʹVV">Käll#vuäivv</st>
+       <st Contlex="PROP_TOP_VUEAIQVV">Käll#vuäivv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vueiʹv</wordform>
@@ -2195,7 +2188,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kååmmčuäʹrvv</l>
      <stg>
-       <st Contlex="PROP_TOP_JEÄʹRMM">Kååmmčuärvv</st>
+       <st Contlex="PROP_TOP_JEAQRMM">Kååmmčuärvv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-čueʹrv</wordform>
@@ -2217,7 +2210,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kååđđjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kååđđ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kååđđ#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2239,7 +2232,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kåšǩǩ-Ruʹvddjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kåšǩǩ-Ruʹvdd#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kåšǩǩ-Ruʹvdd#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2261,7 +2254,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kåʹddsueʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_KUEʹLL">Kåʹdd#suârr</st>
+       <st Contlex="PROP_TOP_KUEQLL">Kåʹdd#suârr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-sueʹr</wordform>
@@ -2283,7 +2276,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kõskkmajäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Kõskkma#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Kõskkma#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2305,7 +2298,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kõskkmavueiʹvv</l>
      <stg>
-       <st Contlex="PROP_TOP_VUẸIʹVV">Kõskkma#vuäivv</st>
+       <st Contlex="PROP_TOP_VUEAIQVV">Kõskkma#vuäivv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vueiʹv</wordform>
@@ -2327,7 +2320,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Kõskkmiârr</l>
      <stg>
-       <st Contlex="PROP_TOP_PUÅVV">Kõskk#miârr</st>
+       <st Contlex="PROP_TOP_PUOAVV">Kõskk#miârr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-miâr</wordform>
@@ -2349,7 +2342,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Laauljäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Laaul#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Laaul#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2371,7 +2364,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Laukkjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Laukk#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Laukk#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2393,7 +2386,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Laukkvuäivaž</l>
      <stg>
-       <st Contlex="PROP_TOP_KUÂLAŽ">Laukkvuäiv</st>
+       <st Contlex="PROP_TOP_KUALAZH">Laukkvuäiv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuäiva</wordform>
@@ -2415,7 +2408,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Leijäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Lei#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Lei#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2459,7 +2452,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Lueʹppčuäʹrvv</l>
      <stg>
-       <st Contlex="PROP_TOP_JEÄʹRMM">Lueʹpp#čuärvv</st>
+       <st Contlex="PROP_TOP_JEAQRMM">Lueʹpp#čuärvv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-čueʹrv</wordform>
@@ -2481,7 +2474,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Luolajäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR" NumContlex="1.113">Luola#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR" NumContlex="1.113">Luola#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2504,7 +2497,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Luujäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR" inflexId="::::1.113">Luu#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR" inflexId="::::1.113">Luu#jä%^1VOWurr</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">371</c>
@@ -2593,12 +2586,12 @@
 <e>
    <map sml_ids="23028"/>
    <lg>
-     <l pos="N" sem_type="Plc" type="Prop">Lääʹdd</l>
+     <l pos="N" sem_type="Plc" type="Prop">Läʹdd</l>
      <stg>
-       <st Contlex="PROP_TOP_">Lääʹdd</st>
+       <st Contlex="PROP_TOP_VAEQLL">Lä%^1VOWdd</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
-           <wordform>??Lääʹd</wordform>
+           <wordform>Lääʹdd</wordform>
        </analysis>
        <analysis ms="Sg_Ill">
            <wordform>Lädda</wordform>
@@ -2606,6 +2599,10 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="KKS" page="186A"/>
+       <book name="SKS" page="119"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Suomi</t>
@@ -2618,7 +2615,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Lääʹddjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM" inflexId="::::1.2">Lääʹddjânnam</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::1.2">Lääʹddjânnam</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">1728</c>
@@ -2688,7 +2685,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Lääʹreǩvääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Lääʹreǩ#väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Lääʹreǩ#väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -2710,7 +2707,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Läʹbǯǯjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Läʹbǯǯ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Läʹbǯǯ#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2732,7 +2729,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Läʹdd</l>
      <stg>
-       <st Contlex="PROP_TOP_VÄʹLL" inflexId="::::">Lä%^1VOWdd</st>
+       <st Contlex="PROP_TOP_VAEQLL" inflexId="::::">Lä%^1VOWdd</st>
      </stg>
    </lg>
    <mg>
@@ -2758,7 +2755,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Lått</l>
      <stg>
-       <st Contlex="PROP_TOP_PẸSS">Lå%^1VOWtt</st>
+       <st Contlex="PROP_TOP_PESS">Lå%^1VOWtt</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Låått</wordform>
@@ -2802,7 +2799,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Maadd-Lääʹddjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Maadd-Lääʹdd#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Maadd-Lääʹdd#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -2824,7 +2821,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Maaddvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Maadd#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Maadd#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -2846,7 +2843,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Maaseäʹlǧǧ</l>
      <stg>
-       <st Contlex="PROP_TOP_JEÄʹRMM">Maa#seälgg</st>
+       <st Contlex="PROP_TOP_JEAQRMM">Maa#seälgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-sieʹlj</wordform>
@@ -2868,7 +2865,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Maaʒʒsâžjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Maaʒʒsâž#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Maaʒʒsâž#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2890,7 +2887,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Maiddeǩkuõškk</l>
      <stg>
-       <st Contlex="PROP_TOP_ČUÕŠKK">Maiddeǩ#kuõškk</st>
+       <st Contlex="PROP_TOP_CHUOSHKK">Maiddeǩ#kuõškk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kuõšk</wordform>
@@ -2912,7 +2909,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Maʹrnnjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Maʹrnn#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Maʹrnn#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2934,7 +2931,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Meiʹssjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Meiʹss#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Meiʹss#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2956,7 +2953,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Menesjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Menes#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Menes#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -2996,7 +2993,7 @@
    <lg>
      <l hid="Hom1" pos="N" sem_type="Plc" type="Prop">Moskk</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT" inflexId="::::1.111">Mo%^1VOWskk</st>
+       <st Contlex="PROP_TOP_ALGG" inflexId="::::1.111">Mo%^1VOWskk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">383</c>
@@ -3043,7 +3040,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Mueʹtǩǩ</l>
      <stg>
-       <st Contlex="PROP_TOP_JUEʹLǦǦ" inflexId="::::1.113">Muâtkk</st>
+       <st Contlex="PROP_TOP_JUEQLGHGH" inflexId="::::1.113">Muâtkk</st>
      </stg>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
@@ -3065,8 +3062,7 @@
        <t pos="N" type="Prop">??Motka</t>
      </tg>
      <tg xml:lang="fin">
-       <re>kolttakylä</re>
-       <t pos="N" type="Prop">Muotka</t>
+       <t pos="N" type="Prop" re="kolttakylä">Muotka</t>
      </tg>
      <tg xml:lang="nob">
        <t pos="N" type="Prop">Muotka</t>
@@ -3085,7 +3081,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Mueʹtǩǩvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Mueʹtǩǩ#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Mueʹtǩǩ#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -3108,7 +3104,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Muurman</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM" inflexId="::::1.2">Muurman</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::1.2">Muurman</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">384</c>
@@ -3154,7 +3150,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Myössäjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Myössä#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Myössä#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3176,7 +3172,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Määššsuâl</l>
      <stg>
-       <st Contlex="PROP_TOP_SUÂL">Määšš#suõlˈl</st>
+       <st Contlex="PROP_TOP_SUYL">Määšš#suõlˈl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-suõlˈlu</wordform>
@@ -3198,7 +3194,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Mååʹđđjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Mååʹđđ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Mååʹđđ#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3242,7 +3238,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Mååʹđđmädd</l>
      <stg>
-       <st Contlex="PROP_TOP_PẸSS">Mååʹđđ#mä%^1VOWdd</st>
+       <st Contlex="PROP_TOP_PESS">Mååʹđđ#mä%^1VOWdd</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-määdd</wordform>
@@ -3264,7 +3260,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Nanabeljäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Nanabel#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Nanabel#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3286,7 +3282,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Neäʹlǧǧjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Neäʹlǧǧ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Neäʹlǧǧ#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3308,7 +3304,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Neäʹsǩǩemjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Neäʹsǩǩem#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Neäʹsǩǩem#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3330,7 +3326,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Nijddkuõškk</l>
      <stg>
-       <st Contlex="PROP_TOP_ČUÕŠKK">Nijdd#kuõškk</st>
+       <st Contlex="PROP_TOP_CHUOSHKK">Nijdd#kuõškk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kuõšk</wordform>
@@ -3352,7 +3348,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Nijddnjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Nijdd#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG">Nijdd#nja%^1VOWrgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njaarǥ</wordform>
@@ -3374,7 +3370,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njannâmjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Njannâm#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Njannâm#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3396,7 +3392,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njarggjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Njargg#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Njargg#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3419,7 +3415,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njauddâm</l>
      <stg>
-       <st Contlex="PROP_TOP_OOBRÂC" inflexId="::::1.2">Njauddâm</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::1.2">Njauddâm</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2686</c>
@@ -3546,7 +3542,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njeäʹllem</l>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB" inflexId="::::">Njeäʹlˈlem</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::">Njeäʹlˈlem</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2689</c>
@@ -3612,7 +3608,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njeäʹllemjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Njeäʹllem#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Njeäʹllem#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3635,7 +3631,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njeʹǯǯjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR" inflexId="::::1.113">Njeʹǯǯ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR" inflexId="::::1.113">Njeʹǯǯ#jä%^1VOWurr</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2691</c>
@@ -3677,7 +3673,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njuhččjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Njuhčč#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Njuhčč#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3710,6 +3706,10 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="SKS" page="77"/>
+       <book name="KKS" page="296"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Joutsenniva</t>
@@ -3721,7 +3721,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njuäʹmmeljäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Njuäʹmˈmel#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Njuäʹmˈmel#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3743,7 +3743,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njuäʹmmelkuõškk</l>
      <stg>
-       <st Contlex="PROP_TOP_ČUÕŠKK">Njuäʹmˈmel#kuõškk</st>
+       <st Contlex="PROP_TOP_CHUOSHKK">Njuäʹmˈmel#kuõškk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kuõšk</wordform>
@@ -3765,7 +3765,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njuäʹmmelnjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Njuäʹmˈmel#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG">Njuäʹmˈmel#nja%^1VOWrgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njaarǥ</wordform>
@@ -3809,7 +3809,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njuäʹmmelvueiʹvv</l>
      <stg>
-       <st Contlex="PROP_TOP_VUẸIʹVV">Njuäʹmˈmel#vuäivv</st>
+       <st Contlex="PROP_TOP_VUEAIQVV">Njuäʹmˈmel#vuäivv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vueiʹv</wordform>
@@ -3875,7 +3875,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njuõʹrttjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Njuõʹrtt#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Njuõʹrtt#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -3920,7 +3920,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njuõʹttjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR" inflexId="::::">Njuõʹtˈt#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR" inflexId="::::">Njuõʹtˈt#jä%^1VOWurr</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2683</c>
@@ -3998,7 +3998,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njäʹhččjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Njäʹhčč#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Njäʹhčč#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -4042,7 +4042,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Njõlljäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Njõll#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Njõll#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -4104,7 +4104,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Nuõrtimiârr</l>
      <stg>
-       <st Contlex="PROP_TOP_PUÅVV">Nuõrti#miârr</st>
+       <st Contlex="PROP_TOP_PUOAVV">Nuõrti#miârr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-miâr</wordform>
@@ -4149,7 +4149,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Nuõʹttjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR" inflexId="::::">Nuõʹtˈt#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR" inflexId="::::">Nuõʹtˈt#jä%^1VOWurr</st>
      </stg>
    </lg>
      <sources>
@@ -4203,7 +4203,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Nâânpieʹlljäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Nâânpieʹll#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Nâânpieʹll#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -4226,7 +4226,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Näŋŋjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR" inflexId="::::1.113">Näŋŋ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR" inflexId="::::1.113">Näŋŋ#jä%^1VOWurr</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2687</c>
@@ -4260,7 +4260,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Näŋŋvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Näŋŋ#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Näŋŋ#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -4282,7 +4282,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ollvääʹrr vääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Ollvääʹrr #väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Ollvääʹrr #väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -4304,7 +4304,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Opukasjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Opukas#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Opukas#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -4326,7 +4326,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Outakuõškk</l>
      <stg>
-       <st Contlex="PROP_TOP_ČUÕŠKK">Outa#kuõškk</st>
+       <st Contlex="PROP_TOP_CHUOSHKK">Outa#kuõškk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kuõšk</wordform>
@@ -4370,7 +4370,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Paalǥâs-suâl</l>
      <stg>
-       <st Contlex="PROP_TOP_SUÂL">Paalǥâs-#suõlˈl</st>
+       <st Contlex="PROP_TOP_SUYL">Paalǥâs-#suõlˈl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-suõlˈlu</wordform>
@@ -4469,7 +4469,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pakšvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Pakš#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Pakš#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -4491,7 +4491,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Palggsuâl</l>
      <stg>
-       <st Contlex="PROP_TOP_SUÂL">Palgg#suõlˈl</st>
+       <st Contlex="PROP_TOP_SUYL">Palgg#suõlˈl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-suõlˈlu</wordform>
@@ -4513,7 +4513,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pauddjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Paudd#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Paudd#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -4579,7 +4579,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Paččvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Pačč#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Pačč#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -4601,7 +4601,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pellavuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Pella#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Pella#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -4624,7 +4624,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Peäccam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM" inflexId="::::">Peäcˈcam</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::">Peäcˈcam</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2973</c>
@@ -4694,7 +4694,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Peäccamtuõddâr</l>
      <stg>
-       <st Contlex="PROP_TOP_TUÕDDÂR">Peäccam#tuõdˈdâr</st>
+       <st Contlex="PROP_TOP_TUODDYR">Peäccam#tuõdˈdâr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-tuõdˈdâr</wordform>
@@ -4716,7 +4716,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Peäccamvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Peäccam#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Peäccam#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -4756,7 +4756,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Peʹllavuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Peʹlla#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Peʹlla#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -4778,7 +4778,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Peʹlljtuõddâr</l>
      <stg>
-       <st Contlex="PROP_TOP_TUÕDDÂR">Peʹllj#tuõdˈdâr</st>
+       <st Contlex="PROP_TOP_TUODDYR">Peʹllj#tuõdˈdâr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-tuõdˈdâr</wordform>
@@ -4822,7 +4822,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pieʹccjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Pieʹcc#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Pieʹcc#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -4844,7 +4844,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pieʹccvääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Pieʹcc#väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Pieʹcc#väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -4866,7 +4866,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Piiltâǩjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Piiltâǩ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Piiltâǩ#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -4888,7 +4888,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Piõggjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Piõgg#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Piõgg#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -4910,7 +4910,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Polmak</l>
      <stg><!-- CHECKME -->
-       <st Contlex="PROP_TOP_KÅÅLVAK">Polmak</st>
+       <st Contlex="PROP_TOP_KOALVAK">Polmak</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Polmaak</wordform>
@@ -4932,7 +4932,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Polmakjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Polmak#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Polmak#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -4954,7 +4954,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pommaivuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Pommai#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Pommai#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis/>
      </mini_paradigm>
@@ -4971,7 +4971,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Poorjâsnjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Poorjâs#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG">Poorjâs#nja%^1VOWrgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njaarǥ</wordform>
@@ -4993,7 +4993,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Porijäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Pori#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Pori#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -5104,7 +5104,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Puâllamvääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Puâllam#väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Puâllam#väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -5126,7 +5126,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Puäʹrrevjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Puäʹrrev#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Puäʹrrev#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -5170,7 +5170,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Puåššmiârr</l>
      <stg>
-       <st Contlex="PROP_TOP_PUÅVV">Puåšš#miârr</st>
+       <st Contlex="PROP_TOP_PUOAVV">Puåšš#miârr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-miâr</wordform>
@@ -5236,7 +5236,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pââʹsstuõddâr</l>
      <stg>
-       <st Contlex="PROP_TOP_TUÕDDÂR">Pââʹss#tuõdˈdâr</st>
+       <st Contlex="PROP_TOP_TUODDYR">Pââʹss#tuõdˈdâr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-tuõdˈdâr</wordform>
@@ -5259,7 +5259,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pâʹjj-Njauddâm</l>
      <stg>
-       <st Contlex="PROP_TOP_OOBRÂC" inflexId="::::">Pâʹjj-#Njauddâm</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::">Pâʹjj-#Njauddâm</st>
      </stg>
    </lg>
      <sources>
@@ -5291,7 +5291,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pâʹjj-Sääʹmjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Pâʹjj-Sääʹm#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Pâʹjj-Sääʹm#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5335,7 +5335,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pâʹjj-jäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Pâʹjj-#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Pâʹjj-#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -5379,7 +5379,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Päärtõk</l>
      <stg>
-       <st Contlex="PROP_TOP_TÄÄVTÕS">Päärtõ%^1VOWk</st>
+       <st Contlex="PROP_TOP_SAJOS">Päärtõ%^1VOWk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-tõõǥǥ</wordform>
@@ -5401,7 +5401,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pääʹnnjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Pääʹnn#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Pääʹnn#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -5423,7 +5423,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Pääʹnntuõddâr</l>
      <stg>
-       <st Contlex="PROP_TOP_TUÕDDÂR">Pääʹnn#tuõdˈdâr</st>
+       <st Contlex="PROP_TOP_TUODDYR">Pääʹnn#tuõdˈdâr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-tuõdˈdâr</wordform>
@@ -5445,7 +5445,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Raajj-Jooʹsep</l>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB">Raajj-Jooʹsep</st>
+       <st Contlex="PROP_TOP_AANAR">Raajj-Jooʹsep</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5467,7 +5467,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Raajjkuõškk</l>
      <stg>
-       <st Contlex="PROP_TOP_ČUÕŠKK">Raajj#kuõškk</st>
+       <st Contlex="PROP_TOP_CHUOSHKK">Raajj#kuõškk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kuõšk</wordform>
@@ -5489,13 +5489,13 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Raajjvueiʹvv</l>
      <stg>
-       <st Contlex="PROP_TOP_VUẸIʹVV">Raajj#vuäivv</st>
+       <st Contlex="PROP_TOP_VUEAIQVV">Raajj#vuäivv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
-           <wordform>-vueiʹv</wordform>
+           <wordform>-vuẹiʹv</wordform>
        </analysis>
        <analysis ms="Sg_Ill">
-           <wordform>-vuäiva</wordform>
+           <wordform>-vuäivva</wordform>
        </analysis>
      </mini_paradigm>
      </stg>
@@ -5511,7 +5511,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Reissvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Reiss#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Reiss#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -5533,7 +5533,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Rekkjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Rekk#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Rekk#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -5555,7 +5555,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Reäʹmalkuõškk</l>
      <stg>
-       <st Contlex="PROP_TOP_ČUÕŠKK">Reäʹmal#kuõškk</st>
+       <st Contlex="PROP_TOP_CHUOSHKK">Reäʹmal#kuõškk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kuõšk</wordform>
@@ -5577,7 +5577,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Risttčuäʹlmm</l>
      <stg>
-       <st Contlex="PROP_TOP_JEÄʹRMM">Ristt#čuälmm</st>
+       <st Contlex="PROP_TOP_JEAQRMM">Ristt#čuälmm</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-čueʹlmm</wordform>
@@ -5690,7 +5690,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ruânnjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Ruânn#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Ruânn#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5713,7 +5713,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ruäʹvnjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT" inflexId="::::1.111">Ruäʹv#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG" inflexId="::::1.111">Ruäʹv#nja%^1VOWrgg</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3409</c>
@@ -5786,7 +5786,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ruäʹvvjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Ruäʹvv#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Ruäʹvv#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -5808,7 +5808,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ruäʹvvčiõʹlj</l>
      <stg>
-       <st Contlex="PROP_TOP_">Ruäʹvvčiõʹlj</st>
+       <st Contlex="PROP_SEM/PLC_CHIOQLJ">Ruäʹvv#čeâlǥ</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -5831,7 +5831,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ruõcc</l>
      <stg>
-       <st Contlex="PROP_TOP_RUÕCˈC" inflexId="::::">Ruõcˈc</st>
+       <st Contlex="PROP_TOP_RUOCCC" inflexId="::::">Ruõcˈc</st>
      </stg>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
@@ -5841,8 +5841,12 @@
            <wordform>Ruõʹcˈce</wordform>
        </analysis>
      </mini_paradigm>
-   </lg>
+     <etymology>
+       <etymon xml:lang="sms" algu_lekseemi_id="34684" id="86346">Ruõcˈc</etymon>
+   </etymology>
+ </lg>
      <sources>
+       <book name="KKS" page="459:4"/>
        <book lesson="dict" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -5870,7 +5874,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ruõššjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM" inflexId="::::1.2">Ruõšˈš#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::1.2">Ruõšˈš#jânnam</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3418</c>
@@ -5906,7 +5910,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ruʹvddjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Ruʹvdd#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Ruʹvdd#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -5939,6 +5943,9 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="KKS" page="181"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Routasenkuru</t>
@@ -5950,7 +5957,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ruʹvddvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Ruʹvdd#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Ruʹvdd#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -5972,7 +5979,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ruʹvddvääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Ruʹvdd#väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Ruʹvdd#väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -6016,7 +6023,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Räuddjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Räudd#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Räudd#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -6038,7 +6045,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Räuddčiõʹlj</l>
      <stg>
-       <st Contlex="PROP_TOP_">Räuddčiõʹlj</st>
+       <st Contlex="PROP_SEM/PLC_CHIOQLJ">Räudd#čeâlǥ</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6049,6 +6056,10 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="KKS" page="113"/>
+       <book name="SKS" page="661"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Rautuselkä</t>
@@ -6106,7 +6117,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Sakssajânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM" inflexId="::::">Sakssa#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::">Sakssa#jânnam</st>
      </stg>
    </lg>
      <sources>
@@ -6136,7 +6147,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Saksslajânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Sakssla#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Sakssla#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6158,7 +6169,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Sammutjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Sammut#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Sammut#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -6224,7 +6235,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Sauʒʒsuâl</l>
      <stg>
-       <st Contlex="PROP_TOP_SUÂL">Sauʒʒ#suõlˈl</st>
+       <st Contlex="PROP_TOP_SUYL">Sauʒʒ#suõlˈl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-suõlˈlu</wordform>
@@ -6246,7 +6257,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Seäʹlǧǧjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Seäʹlǧǧ#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Seäʹlǧǧ#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -6290,7 +6301,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Silisvääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Silis#väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Silis#väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -6356,7 +6367,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Solmusjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Solmus#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Solmus#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -6378,7 +6389,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Spasiteʹlpääutaž</l>
      <stg>
-       <st Contlex="PROP_TOP_KUÂLAŽ">Spasiteʹl#pääut</st>
+       <st Contlex="PROP_TOP_KUALAZH">Spasiteʹl#pääut</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-pääuta</wordform>
@@ -6400,7 +6411,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Sueʹǩǩvääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Sueʹǩǩ#väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Sueʹǩǩ#väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -6422,7 +6433,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Sundijäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Sundi#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Sundi#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -6444,7 +6455,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Suâljäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Suâl#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Suâl#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -6488,7 +6499,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Suâlčiõʹlj</l>
      <stg>
-       <st Contlex="PROP_TOP_">Suâlčiõʹlj</st>
+       <st Contlex="PROP_SEM/PLC_CHIOQLJ">Suâl#čeâlǥ</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6543,7 +6554,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Suäʹvveljäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Suäʹvvel#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Suäʹvvel#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -6565,7 +6576,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Suäʹđjel</l>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB">Suäʹđjel</st>
+       <st Contlex="PROP_TOP_AANAR">Suäʹđjel</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6587,7 +6598,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Suõvvkuõškk</l>
      <stg>
-       <st Contlex="PROP_TOP_ČUÕŠKK">Suõvv#kuõškk</st>
+       <st Contlex="PROP_TOP_CHUOSHKK">Suõvv#kuõškk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-kuõšk</wordform>
@@ -6609,7 +6620,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Suõʹbddinjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Suõʹbddi#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG">Suõʹbddi#nja%^1VOWrgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njaarǥ</wordform>
@@ -6632,7 +6643,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Suõʹnnʼjel</l>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB" inflexId="::::">Suõʹnˈnʼjel</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::">Suõʹnˈnʼjel</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3909</c>
@@ -6724,7 +6735,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Sveiccjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Sveicc#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Sveicc#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -6746,7 +6757,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Sââʹrrvääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Sââʹrr#väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Sââʹrr#väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -6791,7 +6802,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Sââʹrvesjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR" inflexId="::::1.113">Sââʹrves#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR" inflexId="::::1.113">Sââʹrves#jä%^1VOWurr</st>
      </stg>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
@@ -6874,7 +6885,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Sääʹmjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM" inflexId="::::1.2">Sääʹm#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::1.2">Sääʹm#jânnam</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2371</c>
@@ -6916,7 +6927,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Taalmaisuâl</l>
      <stg>
-       <st Contlex="PROP_TOP_SUÂL" NumContlex="1.13">Taalmai#suõlˈl</st>
+       <st Contlex="PROP_TOP_SUYL" NumContlex="1.13">Taalmai#suõlˈl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-suõlˈlu</wordform>
@@ -6980,7 +6991,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Taarrjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM" inflexId="::::">Taarr#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::">Taarr#jânnam</st>
      </stg>
    </lg>
      <sources>
@@ -7032,7 +7043,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Teäppankueʹttjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Teäppankueʹtt#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Teäppankueʹtt#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -7076,7 +7087,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Tuiʹskkjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Tuiʹskk#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Tuiʹskk#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -7098,7 +7109,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Turkkjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Turkk#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Turkk#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -7225,7 +7236,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Tuõlbbluubbâl</l>
      <stg>
-       <st Contlex="PROP_TOP_LUUBBÂL">Tuõlbb#lu%^1VOWbbâl</st>
+       <st Contlex="PROP_TOP_LUUBBYL">Tuõlbb#lu%^1VOWbbâl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-lubbâl</wordform>
@@ -7258,6 +7269,10 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="KKS" page="479"/>
+       <book name="SKS" page="121"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Pyöreäsuvanto</t>
@@ -7298,7 +7313,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Tâʹvv-Lääʹddjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Tâʹvv-Lääʹdd#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Tâʹvv-Lääʹdd#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -7321,7 +7336,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Tâʹvv-Läʹdd</l>
      <stg>
-       <st Contlex="PROP_TOP_VÄʹLL" inflexId="::::">Tâʹvv-#Lä%^1VOWdd</st>
+       <st Contlex="PROP_TOP_VAEQLL" inflexId="::::">Tâʹvv-#Lä%^1VOWdd</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2754</c>
@@ -7375,7 +7390,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Tâʹvvjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Tâʹvv#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">Tâʹvv#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis/>
      </mini_paradigm>
@@ -7526,7 +7541,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Urrjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Urr#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Urr#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -7548,7 +7563,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Urrvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Urr#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Urr#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -7592,7 +7607,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Uŋŋar</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">Uŋŋar</st>
+       <st Contlex="PROP_TOP_AANAR">Uŋŋar</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -7615,7 +7630,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Uʹcc-Peäccam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM" inflexId="::::">Uʹcc-#Peäcˈcam</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::">Uʹcc-#Peäcˈcam</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">264</c>
@@ -7647,7 +7662,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vainosjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Vainos#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Vainos#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -7669,7 +7684,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Varjjel</l>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB">Varjjel</st>
+       <st Contlex="PROP_TOP_AANAR">Varjjel</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -7691,7 +7706,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Varjjelvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Varjjel#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Varjjel#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -7713,7 +7728,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vaǥǥatemjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Vaǥǥatem#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Vaǥǥatem#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -7735,7 +7750,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vaʹsseljäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Vaʹssel#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Vaʹssel#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -7757,7 +7772,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vaʹsselvääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Vaʹssel#väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Vaʹssel#väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -7802,7 +7817,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Veʹrddnjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT" inflexId="::::1.111">Veʹrddnja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG" inflexId="::::1.111">Veʹrddnja%^1VOWrgg</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">2690</c>
@@ -7836,7 +7851,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Veʹrddčuäʹlmm</l>
      <stg>
-       <st Contlex="PROP_TOP_JEÄʹRMM">Veʹrdd#čuälmm</st>
+       <st Contlex="PROP_TOP_JEAQRMM">Veʹrdd#čuälmm</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-čueʹlmm</wordform>
@@ -7858,7 +7873,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Viõʹlǧǧesmiârr</l>
      <stg>
-       <st Contlex="PROP_TOP_PUÅVV">Viõʹlǧǧes#miârr</st>
+       <st Contlex="PROP_TOP_PUOAVV">Viõʹlǧǧes#miârr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-miâr</wordform>
@@ -7924,7 +7939,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vueʹrnsjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Vueʹrns#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Vueʹrns#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -7946,7 +7961,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vuâskjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Vuâsk#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Vuâsk#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -7968,7 +7983,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vuâskčiõʹlj</l>
      <stg>
-       <st Contlex="PROP_TOP_">Vuâskčiõʹlj</st>
+       <st Contlex="PROP_SEM/PLC_CHIOQLJ">Vuâsk#čeâlǥ</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -8034,7 +8049,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vuâđđmädd</l>
      <stg>
-       <st Contlex="PROP_TOP_PẸSS">Vuâđđ#mä%^1VOWdd</st>
+       <st Contlex="PROP_TOP_PESS">Vuâđđ#mä%^1VOWdd</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-määdd</wordform>
@@ -8056,7 +8071,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vuåmârjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Vuåmâr#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Vuåmâr#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8078,7 +8093,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vuåššjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Vuåšš#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Vuåšš#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8144,7 +8159,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vuõddâsjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Vuõddâs#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Vuõddâs#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8166,7 +8181,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vuõddâsluubbâl</l>
      <stg>
-       <st Contlex="PROP_TOP_LUUBBÂL">Vuõddâs#lu%^1VOWbbâl</st>
+       <st Contlex="PROP_TOP_LUUBBYL">Vuõddâs#lu%^1VOWbbâl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-lubbâl</wordform>
@@ -8210,7 +8225,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vuõnnjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Vuõnn#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Vuõnn#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8243,6 +8258,9 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="KKS" page="1033"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Vuoreija</t>
@@ -8276,7 +8294,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Vääʹlesjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Vääʹles#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Vääʹles#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8299,7 +8317,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Väʹvll</l>
      <stg>
-       <st Contlex="PROP_TOP_">Väʹvll</st>
+       <st Contlex="PROP_TOP_">Vä%^1VOWvll</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Vääʹvl</wordform>
@@ -8310,6 +8328,9 @@
      </mini_paradigm>
      </stg>
    </lg>
+     <sources>
+       <book name="KKS" page="726"/>
+     </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Väylä</t>
@@ -8343,7 +8364,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">tâppjum-Lääʹddjânnam</l>
      <stg>
-       <st Contlex="PROP_TOP_JÂNNAM">tâppjum-#Lääʹdd#jânnam</st>
+       <st Contlex="PROP_TOP_AANAR">tâppjum-#Lääʹdd#jânnam</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -8365,7 +8386,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Âiʹddvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Âiʹdd#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Âiʹdd#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -8387,7 +8408,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ââlǥažjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Ââlǥaž#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Ââlǥaž#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8432,7 +8453,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Âʹvvel</l>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB" inflexId="::::">Âʹvvel</st>
+       <st Contlex="PROP_TOP_AANAR" inflexId="::::">Âʹvvel</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">370</c>
@@ -8482,7 +8503,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Âʹvver</l>
      <stg>
-       <st Contlex="PROP_TOP_SPÄʹSSEB">Âʹvver</st>
+       <st Contlex="PROP_TOP_AANAR">Âʹvver</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -8504,7 +8525,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Âʹvverjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Âʹvver#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Âʹvver#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8544,7 +8565,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Äuʹddsuâl</l>
      <stg>
-       <st Contlex="PROP_TOP_SUÂL">Äuʹdd#suõlˈl</st>
+       <st Contlex="PROP_TOP_SUYL">Äuʹdd#suõlˈl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-suõlˈlu</wordform>
@@ -8566,7 +8587,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Äälisjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Äälis#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Äälis#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8588,7 +8609,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ääuʹljäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Ääuʹl#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Ääuʹl#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8610,7 +8631,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Äʹnn-njargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Äʹnn-#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG">Äʹnn-#nja%^1VOWrgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njaarǥ</wordform>
@@ -8654,7 +8675,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Åʹrddvääʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_SÄÄʹMM">Åʹrdd#väärr</st>
+       <st Contlex="PROP_TOP_SAAQMM">Åʹrdd#väärr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vääʹr</wordform>
@@ -8676,7 +8697,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čarmmjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Čarmm#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Čarmm#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8698,7 +8719,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čarmmtuõddâr</l>
      <stg>
-       <st Contlex="PROP_TOP_TUÕDDÂR">Čarmm#tuõdˈdâr</st>
+       <st Contlex="PROP_TOP_TUODDYR">Čarmm#tuõdˈdâr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-tuõdˈdâr</wordform>
@@ -8720,7 +8741,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čeäppatvuäivaž</l>
      <stg>
-       <st Contlex="PROP_TOP_KUÂLAŽ">Čeäppatvuäiv</st>
+       <st Contlex="PROP_TOP_KUALAZH">Čeäppatvuäiv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuäivva</wordform>
@@ -8743,7 +8764,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čeʹvetjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR" inflexId="::::1.113">Čeʹvet#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR" inflexId="::::1.113">Čeʹvet#jä%^1VOWurr</st>
      </stg>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
@@ -8804,7 +8825,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čiŋŋlõs-Maaŋŋijäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Čiŋŋlõs-Maaŋŋi#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Čiŋŋlõs-Maaŋŋi#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8826,7 +8847,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čiŋŋlõsluubbâl</l>
      <stg>
-       <st Contlex="PROP_TOP_LUUBBÂL">Čiŋŋlõs#lu%^1VOWbbâl</st>
+       <st Contlex="PROP_TOP_LUUBBYL">Čiŋŋlõs#lu%^1VOWbbâl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-lubbâl</wordform>
@@ -8848,7 +8869,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čokkisjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Čokkis#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Čokkis#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8871,7 +8892,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čokksuâl</l>
      <stg>
-       <st Contlex="PROP_TOP_SUÂL" inflexId="::::">Čokk#suõlˈl</st>
+       <st Contlex="PROP_TOP_SUYL" inflexId="::::">Čokk#suõlˈl</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">413</c>
@@ -8903,7 +8924,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čueʹlsjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Čueʹls#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Čueʹls#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8925,7 +8946,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čueʹlsvuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Čueʹls#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Čueʹls#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -8947,7 +8968,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čueʹttpieʹccnjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Čueʹttpieʹcc#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG">Čueʹttpieʹcc#nja%^1VOWrgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njaarǥ</wordform>
@@ -8969,7 +8990,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čuhččjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Čuhčč#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Čuhčč#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -8991,7 +9012,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čurnnjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Čurnn#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Čurnn#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -9013,7 +9034,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čuârvvjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Čuârvv#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Čuârvv#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -9035,7 +9056,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čuäʹlmm</l>
      <stg>
-       <st Contlex="PROP_TOP_JEÄʹRMM">Čuälmm</st>
+       <st Contlex="PROP_TOP_JEAQRMM">Čuälmm</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Čueʹlmm</wordform>
@@ -9057,7 +9078,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čuäʹlmmjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Čuäʹlmm#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Čuäʹlmm#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -9079,7 +9100,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čuʹlpptuõddâr</l>
      <stg>
-       <st Contlex="PROP_TOP_TUÕDDÂR">Čuʹlpp#tuõdˈdâr</st>
+       <st Contlex="PROP_TOP_TUODDYR">Čuʹlpp#tuõdˈdâr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-tuõdˈdâr</wordform>
@@ -9101,7 +9122,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čuʹǩǩsuâl</l>
      <stg>
-       <st Contlex="PROP_TOP_SUÂL">Čuʹǩǩ#suõlˈl</st>
+       <st Contlex="PROP_TOP_SUYL">Čuʹǩǩ#suõlˈl</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-suõlˈlu</wordform>
@@ -9145,7 +9166,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čõhččmädd</l>
      <stg>
-       <st Contlex="PROP_TOP_PẸSS">Čõhčč#mä%^1VOWdd</st>
+       <st Contlex="PROP_TOP_PESS">Čõhčč#mä%^1VOWdd</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-määdd</wordform>
@@ -9167,7 +9188,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Šapššjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Šapšš#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Šapšš#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -9285,7 +9306,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ǩeeʹmmjäuʹrr</l>
      <stg>
-       <st Contlex="PROP_TOP_JÄUʹRR">Ǩeeʹmm#jä%^1VOWurr</st>
+       <st Contlex="PROP_TOP_JAUQRR">Ǩeeʹmm#jä%^1VOWurr</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-jääuʹr</wordform>
@@ -9307,7 +9328,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ǩeeʹrv-vuõnn</l>
      <stg>
-       <st Contlex="PROP_TOP_MUÕRR">Ǩeeʹrv-#vuõnn</st>
+       <st Contlex="PROP_TOP_MUORR">Ǩeeʹrv-#vuõnn</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuõn</wordform>
@@ -9329,7 +9350,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ǩeârkknjargg</l>
      <stg>
-       <st Contlex="PROP_TOP_PÕRTT">Ǩeârkk#nja%^1VOWrgg</st>
+       <st Contlex="PROP_TOP_ALGG">Ǩeârkk#nja%^1VOWrgg</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-njaarǥ</wordform>
@@ -9351,7 +9372,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Ǩeäʹdǧǧčiõʹlj</l>
      <stg>
-       <st Contlex="PROP_TOP_">Ǩeäʹdǧǧčiõʹlj</st>
+       <st Contlex="PROP_SEM/PLC_CHIOQLJ">Ǩeäʹdǧǧ#čeâlǥ</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -9434,7 +9455,7 @@
    <lg>
      <l pos="PROP">Pâjj-Sääʹmjânnam</l>
      <stg>
-       <st Contlex="PROP_JÂNNAM">Pâjj-#Sääʹm#jânnam</st>
+       <st Contlex="PROP_AANAR">Pâjj-#Sääʹm#jânnam</st>
      </stg>
    </lg>
    <mg>
@@ -9447,7 +9468,7 @@
    <lg>
      <l pos="PROP">Tuõddâr-Sääʹmjânnam</l>
      <stg>
-       <st Contlex="PROP_JÂNNAM">Tuõddâr-#Sääʹmjânnam</st>
+       <st Contlex="PROP_AANAR">Tuõddâr-#Sääʹmjânnam</st>
      </stg>
    </lg>
    <mg>
@@ -9460,7 +9481,7 @@
    <lg>
      <l pos="PROP">Tâʹvv-Sääʹmjânnam</l>
      <stg>
-       <st Contlex="PROP_JÂNNAM">Tâʹvv-#Sääʹm#jânnam</st>
+       <st Contlex="PROP_AANAR">Tâʹvv-#Sääʹm#jânnam</st>
      </stg>
    </lg>
    <mg>

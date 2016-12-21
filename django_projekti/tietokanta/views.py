@@ -18,7 +18,8 @@ from django.conf import settings
 # Create your views here.
 
 file_types = {
-    "sms" : {"finsms": "sms_finsms.xml", "sms":"sms_sms.xml", "morph": "sms_morph.xml"}
+    "sms" : {"finsms": "sms_finsms.xml", "sms":"sms_sms.xml", "morph": "sms_morph.xml"},
+    "izh" : {".": "sms_morph.xml"}
 }
 api_keys =[u"sdfrf4535gdg35ertgfd", u"45454arefg785421!R", u"e3455rtwe54325t"]
 
@@ -59,14 +60,13 @@ def dump_to_git(request):
 
 
 def pull_git(request):
-    t = thread.start_new_thread(pull_from_git(), ())
-    t.setDaemon(True)
-    t.start()
+    lang = request.GET.get("language", "sms")
+    pull_from_git(lang)
     return HttpResponse("OK", status=200)
 
 
-def pull_from_git():
-    git_tool = GitTool()
+def pull_from_git(lang):
+    git_tool = GitTool(lang)
     old_files = git_tool.list_files()
     git_tool.pull()
     new_files = git_tool.list_files()
@@ -80,13 +80,13 @@ def pull_from_git():
                 first_time = True
             else:
                 first_time = False
-            mongoilija.store_xml_in_db(xml, folder, tail, "sms", first_time)
-    process_towiki_queue("")
+            mongoilija.store_xml_in_db(xml, folder, tail, lang, first_time)
+    process_towiki_queue("", lang)
 
 def rebase_wiki(request):
     language = request.GET.get("language", "sms")
     mongoilija.push_everything_to_wiki(language)
-    process_towiki_queue("")
+    process_towiki_queue("", request.GET.get("language", "sms"))
     return HttpResponse("OK", status=200)
 
 @csrf_exempt
@@ -106,11 +106,11 @@ def update_lemma(request):
     mongoilija.update_lemma(lemma, homonyms["homonyms"], language)
     return HttpResponse("",status=200)
 
-def process_towiki_queue(request):
+def process_towiki_queue(request, language="sms"):
     queue = WikiUpdateQueue.objects.all()
     username = getattr(settings, "WIKI_USERNAME", None)
     password = getattr(settings, "WIKI_PASSWORD", None)
-    wt = Wikitool(username,password)
+    wt = Wikitool(username,password, language)
     print wt.login()
     print wt.get_token()
 

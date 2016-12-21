@@ -139,7 +139,7 @@ def get_lemma(lemma, language):
 def store_xml_in_db(xml_data, file_type, file_name, language, first_time_sync=False):
     data = xml_to_db.update_db_from_xml(xml_data, file_type, file_name, language)
     for item in data:
-        update_word_in_lemma(item[0], item[1], "POS", "sms", first_time_sync)
+        update_word_in_lemma(item[0], item[1], "POS", language, first_time_sync)
 
 def push_everything_to_wiki(language):
     collection = __get_db_collection__(language=language)

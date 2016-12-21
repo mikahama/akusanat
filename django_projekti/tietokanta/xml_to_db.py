@@ -3,7 +3,7 @@ from tietokanta.exceptions import UnsupportedLanguageException
 import tietokanta.mongoilija
 from tietokanta import sms_xml
 
-language_processors = {"sms": sms_xml.update_sms_db_from_xml}
+language_processors = {"sms": sms_xml.update_sms_db_from_xml, "izh": sms_xml.update_sms_db_from_xml}
 
 
 
