@@ -1,5 +1,6 @@
 <?php
 class SpecialSaame extends SpecialPage {
+
 	function __construct() {
 		parent::__construct( 'Saame' );
 	}
@@ -17,8 +18,9 @@ class SpecialSaame extends SpecialPage {
 	}
 
 	public static function sendChangeToDjango($change, $jsonData, $lemma){
-		$url = "http://127.0.0.1:8000/";
-		$apiKey = "sdfrf4535gdg35ertgfd";
+		$configs = parse_ini_file('SaameConfig.ini');
+		$url = $configs["djangoUrl"];
+		$apiKey = $configs["djangoApiKey"];
 		if($change == "delete"){
 			$url = $url . "deleteLemma/";
 		}else{
@@ -53,7 +55,8 @@ class SpecialSaame extends SpecialPage {
 		$title = $editPage->mArticle->getTitle();
 		if (self::startsWith(strtolower($title), "sms:")){
 			#Modify only Skolt Sami pages
-			$editPage->editFormPageTop .= "<script type='text/javascript' src='/js/sms_edit.js'></script> <link rel='stylesheet' type='text/css' href='/js/sms.css'>";
+			$configs = parse_ini_file('SaameConfig.ini');
+			$editPage->editFormPageTop .= "<script type='text/javascript' src='". $configs["jsBaseUrl"] . "sms_edit.js'></script> <link rel='stylesheet' type='text/css' href='". $configs["jsBaseUrl"] . "sms.css'>";
 		}
 		
 		return $editPage;
@@ -118,8 +121,9 @@ class SpecialSaame extends SpecialPage {
 		$title = $editPage->getPageTitle();
 		if (self::startsWith(strtolower($title), "sms:")){
 			#Modify only Skolt Sami pages
-			$editPage->addScript("<script type='text/javascript' src='/js/sms_view.js'></script>");
-			$editPage->addStyle( "/js/sms_view.css");
+			$configs = parse_ini_file('SaameConfig.ini');
+			$editPage->addScript("<script type='text/javascript' src='". $configs["jsBaseUrl"] . "sms_view.js'></script>");
+			$editPage->addStyle( $configs["jsBaseUrl"] . "sms_view.css");
 		}
 		
 		return $editPage;

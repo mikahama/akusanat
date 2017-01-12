@@ -16,6 +16,7 @@ class Wikitool():
         txt = urllib.urlopen(self.sms_edit_url).read()
         js_header = u"var document ={};document['addEventListener']=function(x,y,z){};\n"
         self.js = js_header + txt.decode('utf-8')
+        self.cookies = {}
 
 
     def post(self, url, data):
