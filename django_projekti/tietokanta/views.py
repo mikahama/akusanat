@@ -113,6 +113,7 @@ def process_towiki_queue(request, language="sms"):
     wt = Wikitool(username,password, language)
     print wt.login()
     print wt.get_token()
+    print wt.token
 
     count = 0
     s_count = 0

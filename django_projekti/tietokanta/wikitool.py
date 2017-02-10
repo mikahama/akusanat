@@ -78,7 +78,3 @@ class Wikitool():
         success, results = self.post(self.wiki_url + "api.php", postParameters)
         print success
         print results
-
-
-
-
