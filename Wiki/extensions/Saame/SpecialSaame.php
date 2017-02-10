@@ -5,6 +5,10 @@ class SpecialSaame extends SpecialPage {
 		parent::__construct( 'Saame' );
 	}
 
+	public static function getSupportedLanguages(){
+		return array("sms", "izh");
+	}
+
 	public static function httpPost($url, $data){
 	    $curl = curl_init($url);
 	    curl_setopt($curl, CURLOPT_POST, true);
@@ -17,7 +21,7 @@ class SpecialSaame extends SpecialPage {
 	    return $error;
 	}
 
-	public static function sendChangeToDjango($change, $jsonData, $lemma){
+	public static function sendChangeToDjango($change, $jsonData, $lemma, $langCode){
 		$configs = parse_ini_file('SaameConfig.ini');
 		$url = $configs["djangoUrl"];
 		$apiKey = $configs["djangoApiKey"];
@@ -26,16 +30,25 @@ class SpecialSaame extends SpecialPage {
 		}else{
 			$url = $url . "updateLemma/";
 		}
-		$data = array('lemma' => $lemma, 'homonyms' => $jsonData, "api" => $apiKey, "lang" => "sms");
+		$data = array('lemma' => $lemma, 'homonyms' => $jsonData, "api" => $apiKey, "lang" => $langCode);
 
 		$error = self::httpPost($url, $data);
 		if ($error) { 
 			$m = new MongoClient(); // connect
-			$collection = $m->selectCollection("wiki2django_queue", 'sms');
+			$collection = $m->selectCollection("wiki2django_queue", $langCode);
 			$collection->insert($data);
 			error_log("Django connection failed" . $error . $url);
 		}
 
+	}
+
+	private static function languageSupported($title){
+		$langCode = strtolower(substr($title, 0, 3)); 
+		if(in_array($langCode, self::getSupportedLanguages())){
+			return $langCode;
+		}else{
+			return false;
+		}
 	}
 
 	function execute( $par ) {
@@ -53,8 +66,9 @@ class SpecialSaame extends SpecialPage {
 	}
 	public static function onAlternateEdit( $editPage ) {
 		$title = $editPage->mArticle->getTitle();
-		if (self::startsWith(strtolower($title), "sms:")){
-			#Modify only Skolt Sami pages
+		$langCode = self::languageSupported($title);
+		if ($langCode){
+			#Modify only pages of supported languages
 			$configs = parse_ini_file('SaameConfig.ini');
 			$editPage->editFormPageTop .= "<script type='text/javascript' src='". $configs["jsBaseUrl"] . "sms_edit.js'></script> <link rel='stylesheet' type='text/css' href='". $configs["jsBaseUrl"] . "sms.css'>";
 		}
@@ -67,13 +81,19 @@ class SpecialSaame extends SpecialPage {
 	}
 	public static function onDelete( &$article, User &$user, $reason, $id, Content $content = null, LogEntry $logEntry ) { 
 		$title = $article->getTitle();
-		if (self::startsWith(strtolower($title), "sms:")){
+		$langCode = self::languageSupported($title);
+		if ($langCode){
 			#Sami page was deleted
 			$lemma = explode(":", $title, 2);
-			self::sendChangeToDjango("delete", "[]", $lemma[1]);
+			self::sendChangeToDjango("delete", "[]", $lemma[1], $langCode);
 		}
 	}
 	public static function onChange($title, $articleText){
+		$langCode = self::languageSupported($title);
+		if (!$langCode){
+			//If the language is not supported, don't do a thing
+			return;
+		}
 		$lemma = explode(":", $title, 2);
 		$homonyms = "[";
 		while(true){
@@ -91,7 +111,7 @@ class SpecialSaame extends SpecialPage {
 			$homonyms = substr($homonyms, 0, strlen($homonyms)-1);
 		}
 		$homonyms = "{ \"homonyms\" : " . $homonyms . "] }";
-		self::sendChangeToDjango("edit", $homonyms, $lemma[1]);
+		self::sendChangeToDjango("edit", $homonyms, $lemma[1], $langCode);
 
 	}
 
@@ -119,8 +139,9 @@ class SpecialSaame extends SpecialPage {
 
 	 public static function onBeforePageDisplay( $editPage, $skin ) {
 		$title = $editPage->getPageTitle();
-		if (self::startsWith(strtolower($title), "sms:")){
-			#Modify only Skolt Sami pages
+		$langCode = self::languageSupported($title);
+		if ($langCode){
+			#Modify only pages of supported languages
 			$configs = parse_ini_file('SaameConfig.ini');
 			$editPage->addScript("<script type='text/javascript' src='". $configs["jsBaseUrl"] . "sms_view.js'></script>");
 			$editPage->addStyle( $configs["jsBaseUrl"] . "sms_view.css");
