@@ -42,6 +42,15 @@ class SpecialSaame extends SpecialPage {
 
 	}
 
+	public static function getWikiText($article){
+
+    $revision = $article->getRevision();
+    $content = $revision->getContent( Revision::RAW );
+    $text = ContentHandler::getContentText( $content );
+    return $text;
+
+	}
+
 	private static function languageSupported($title){
 		$langCode = strtolower(substr($title, 0, 3)); 
 		if(in_array($langCode, self::getSupportedLanguages())){
@@ -123,17 +132,17 @@ class SpecialSaame extends SpecialPage {
 	}
 	public static function onArticleInsertComplete( &$article, User &$user, $text, $summary, $minoredit, $watchthis, $sectionanchor, &$flags, Revision $revision ) { 
 		$title = $article->getTitle();
-		$wikiText = $article->getRawText();
+		$wikiText = self::getWikiText($article);
 		self::onChange($title, $wikiText);
 	 }
 	public static function onPageContentSaveComplete( $article, $user, $content, $summary, $isMinor, $isWatch, $section, $flags, $revision, $status, $baseRevId ) { 
 		$title = $article->getTitle();
-		$wikiText = $article->getRawText();
+		$wikiText = self::getWikiText($article);
 		self::onChange($title, $wikiText);
 	 }
 	public static function onArticleRollbackComplete( &$article, $user, $revision, $current ) { 
 		$title = $article->getTitle();
-		$wikiText = $article->getRawText();
+		$wikiText = self::getWikiText($article);
 		self::onChange($title, $wikiText);
 	 }
 

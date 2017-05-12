@@ -1,0 +1,61 @@
+{% comment  %}
+   Takes lemma list as lemmas and file name as file_name
+{% endcomment %}
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="izh">
+    {% for element in lemmas %}
+    {% for homonym in element.homonyms %}
+    {% get_subitem_text homonym "morph.file" as homonym_file_name %}
+    {% filename_and_pos_izh homonym.POS file_name as file_pos %}
+    {% if homonym_file_name == file_name or file_pos %}
+    {% get_subitem homonym "homonym.morph_id" as morph_id %}
+    {% get_subitem_text homonym "homonym.meta" as ,_meta %}
+    <e id="{{ morph_id }}" meta="{{ m_meta }}">
+        {% has_subkey homonym "morph.map" as has_map %}
+        {% if has_map %}
+       <map {% for key, value in homonym.morph.map.items %} {{ key }} = "{{ value }}" {% endfor %}/>
+        {% endif %}
+        {% has_subkey homonym "morph.revsortkey" as has_revsort %}
+        {% if has_revsort %}
+       <rev-sort_key>{{ homonym.morph.revsortkey }}</rev-sort_key>
+        {% endif %}
+       <lg>
+         <l pos="{{ homonym.POS }}">{{ element.lemma }}</l>
+           {% get_subitem_dict homonym "morph.lg" as lg %}
+         {% for key, value in lg.items %}
+           {{value | safe}}
+           {% endfor %}
+       </lg>
+        {% has_key homonym "sms2xml" as has_sms2xml %}
+        {% if has_sms2xml %}
+         <sources>
+             {% for source in homonym.sms2xml.sources %}
+           <book {%for key, value in source.items %} {{ key }}="{{ value }}" {% endfor %}/>
+             {% endfor %}
+         </sources>
+        {% endif %}
+       <mg>
+           {% get_item_dict homonym "lexicon" as lexicon %}
+           {% for key, value in lexicon.items %}
+           <lexicon xml:lang="{{ key }}">{{ value }}</lexicon>
+           {% endfor %}
+         <semantics>
+             {% get_item_list homonym "semantics" as semantics %}
+             {% for semantic in semantics %}
+           <sem class="{{ semantic.class }}">{{ semantic.value }}</sem>
+             {% endfor %}
+         </semantics>
+           {% for lang, translations in homonym.translations.items %}
+             <tg xml:lang="{{ lang }}">
+                 {% for translation in translations %}
+               <t pos="{{translation.POS}}">{{ translation.word }}</t>
+                 {% endfor %}
+             </tg>
+           {% endfor %}
+
+       </mg>
+    </e>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</r>

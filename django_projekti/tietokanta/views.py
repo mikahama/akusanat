@@ -10,6 +10,7 @@ from tietokanta.models import *
 from tietokanta.wikitool import Wikitool
 from tietokanta.git_tool import GitTool
 import thread
+import subprocess
 
 import os
 
@@ -19,7 +20,7 @@ from django.conf import settings
 
 file_types = {
     "sms" : {"finsms": "sms_finsms.xml", "sms":"sms_sms.xml", "morph": "sms_morph.xml"},
-    "izh" : {".": "sms_morph.xml"}
+    "izh" : {".": "izh_morph.xml"}
 }
 api_keys =[u"sdfrf4535gdg35ertgfd", u"45454arefg785421!R", u"e3455rtwe54325t"]
 
@@ -127,6 +128,13 @@ def process_towiki_queue(request, language="sms"):
 
     return HttpResponse(str(s_count) + " out of " + str(count) + " OK",status=200)
 
+def update_system(request):
+    result = subprocess.call("update_smsxml", shell=True, stdout=subprocess.PIPE)
+    return HttpResponse(result, status=200)
+
+def version(request):
+    return HttpResponse("1.0.1 " + getattr(settings, "CURRENT_URL", "null domain"), status=200)
+
 @register.assignment_tag
 def get_item(dictionary, key):
     return dictionary.get(key)
@@ -173,8 +181,15 @@ def filename_and_pos(pos, file_name):
 
 @register.assignment_tag
 def filename_and_pos_sms(pos, file_name):
-    return pos + "_sms2X.xml" == file_name
+    return pos + "_sms2X.xml" == file_name or pos + "_sms2x.xml" == file_name
 
+
+pos_abreviations = {"N": "nouns", "A": "adjectives", "Pr":"adpositions", "Po":"adpositions", "Adv": "adverbs", "CC":"conjunctors", "CS":"conjunctors", "Interj": "interjections", "Pcle": "particles", "Pron":"pronouns", "Num":"quantifiers", "V":"verbs"}
+@register.assignment_tag
+def filename_and_pos_izh(pos, file_name):
+    if pos == "Pr" and file_name == "prepositions.xml":
+        return True
+    return pos_abreviations[pos] + ".xml" == file_name
 
 @register.assignment_tag
 def get_subitem(dictionary, key):

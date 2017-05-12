@@ -90,12 +90,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
+URL_PREFIX = "smsxml/"
 STATIC_URL = '/static/'
 
-WIKI_URL = "http://localhost/"
-WIKI_JS_URL = "http://localhost/js/sms_edit.js"
+WIKI_URL = "http://localhost:8888/"
+WIKI_JS_URL = "http://localhost:8888/js/sms_edit.js"
 WIKI_USERNAME = "Synkkis"
 WIKI_PASSWORD = "SyncBot12"
-GIT_DIR_SMS = "/Users/mikahamalainen/saame_testi/"
-GIT_DIR_IZH = "/Users/mikahamalainen/inkeroinen/"
+GIT_DIR_SMS = "/Users/mika/kielet/saame_testi/"
+GIT_DIR_IZH = "/Users/mika/kielet/inkeroinen/"
 CURRENT_URL = "http://127.0.0.1:8000/"
