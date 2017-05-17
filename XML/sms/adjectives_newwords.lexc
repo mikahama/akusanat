@@ -1,0 +1,188 @@
+!! This is where new words are added as lexc entries before they are 
+!! added to the xml source files.
+!! slooman:slooman A_AANAR "(eng) /(fin) /(rus) " ;
+
+
+LEXICON A_NEWWORDS
+test:test N_MUORR "(eng) /(fin) /(rus) " ;
+!! ADD ADJECTIVES BELOW
+õhttsažtâʹvvjânnamlaž:õhttsaž#tâʹvv#jânnaml A_MEERSAZH "(eng) /(fin) yhteispohjoismaalainen/(rus) " ;
+pannveerǥlaž:pann#veerǥl A_MEERSAZH "(eng) unofficial/(fin) epävirallinen/(rus) " ;
+vuâđđlääǥǥlaž:vuâđđlääǥǥl A_MEERSAZH "(eng) /(fin) perustuslaillinen/(rus) " ;
+ålggbeällsaž:ålgg#beälls A_MEERSAZH ;
+
+
+!! Not added yet to wiki
+
+eeʹjjpoddsaž:eeʹjjpodds A_MEERSAZH "(eng) /(fin) /(rus) " ;
+kemiaalʼlaž:kemiaalʼl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+kolifoormlaž:kolifoorml A_MEERSAZH "(eng) /(fin) /(rus) " ;
+kvaliteettlaž:kvaliteettl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+lååʹvmieʹlddsaž:lååʹv#mieʹldds A_MEERSAZH "(eng) /(fin) /(rus) " ;
+lääʹjjšeâttmõõžžlaž:lääʹjjšeâttmõõžžl  A_MEERSAZH "(eng) /(fin) /(rus) " ;
+meärlaž:meärl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+meäʹrteʹm% ääiʹj% viõǥǥâst% åårrai:meäʹrteʹm% ääiʹj% viõǥǥâst% åårrai A_ "(eng) /(fin) toistaiseksi voimassa oleva/(rus) " ;
+mieʹlddsaž:mieʹldds A_MEERSAZH "(eng) /(fin) /(rus) " ;
+mineraalmäddvälddsaž:mineraalmäddväldds A_MEERSAZH "(eng) /(fin) /(rus) " ;
+määŋghämmsaž:määŋghämms A_MEERSAZH "(eng) /(fin) /(rus) " ;
+määŋgtäävtõõzzlaž:määŋg#täävtõõzzl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+pâʹjjpeällsaž:pâʹjjpeälls A_MEERSAZH "(eng) /(fin) /(rus) " ;
+tiuddsallaž:tiuddsall A_MEERSAZH "(eng) /(fin) /(rus) " ;
+tuõttääššlaž:tuõtt#ääššl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+vuâsttsaž:vuâstts A_MEERSAZH "(eng) /(fin) /(rus) " ;
+väʹlddveârlaž:väʹldd#veârl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+äʹrbbvuâđlaž:äʹrbb#vuâđl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+foneettlaž:foneettl A_MEERSAZH "" ;
+!!
+aanarkååddlaž:aanarkååddl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+čeʹvetjääurlaž:čeʹvet#jääurl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+didaktlaž:didaktl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+digitaalaž:digitaal A_MEERSAZH "(eng) /(fin) /(rus) " ;
+etymologiilaž:etymologiil A_MEERSAZH "(eng) /(fin) /(rus) " ;
+hääitlaž:hääitl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+jiõččvälddlaž:jiõččvälddl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+jiõccvälddsaž:jiõccväldds A_MEERSAZH "(eng) /(fin) /(rus) " ;
+jäärnâǩekonoomlaž:jäärnâǩekonooml A_MEERSAZH "(eng) /(fin) /(rus) " ;
+kulttuurlaž:kulttuurl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+kultturpoliittlaž:kulttur#poliittl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+ǩeerjlaž:ǩeerjl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+ǩiõllämmatlaž:ǩiõllämmatl N_MEERSAZH "(eng) /(fin) /(rus) " ;
+liâdǥlaž:liâdǥl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+mieʹrrmeâldlaž:mieʹrrmeâldl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+mäddkååddlaž:mäddkååddl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+naroodlaž:naroodl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+nuõripoliittlaž:nuõri#poliittl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+parlamenttaarlaž:parlamenttaarl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+personkåʹddpoliittlaž:person#kåʹdd#poliittl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+pirrõs-suõjlaž:pirrõs-#suõjl A_MEERSAZH "(eng) /(fin) /(rus) " ; ! ?suâjlaž
+späʹssebvuõđlaž:späʹssebvuõđl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+šiõttʼteem-meâldlaž:šiõttʼteem-meâldl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+šiõttʼteemvuâlaž:šiõttʼteemvuâl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+šiõttõsvuâđđlaž:šiõttõsvuâđđl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+tiõđkååddlaž:tiõđ#kååddl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+tâʹvvjânnamlaž:tâʹvvjânnaml A_MEERSAZH "(eng) /(fin) /(rus) " ;
+tääʹssärvvpoliittlaž:tääʹss#ärvv#poliittl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+vuârluânddlaž:vuârluânddl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+vueʹjjmeâldlaž:vueʹjjmeâldl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+väʹlddkååddlaž:väʹlddkååddl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+ämmatlaž:ämmatl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+ärbbvuõđlaž:ärbbvuõđl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+äʹšštobddivuäzzlaž:äʹšštobddivuäzzl A_MEERSAZH "(eng) /(fin) /(rus) " ;
+veeʹrjsâjjsaž:veeʹrjsâjjs A_MEERSAZH "(eng) /(fin) /(rus) " ;
+
+måkamnallšem:måkamnallšẹ%^1VOWm A_NALLSHEM "" ;
+nåkamnallšem:nåkamnallšẹ%^1VOWm A_NALLSHEM "" ;
+suunallšem:suunallšẹ%^1VOWm A_NALLSHEM "" ;
+eʹmmelnallšem:eʹmmẹlnallšẹ%^1VOWm A_NALLSHEM "" ;
+jeeʹrabnallšem:jeeʹrabnallšẹ%^1VOWm A_NALLSHEM "" ;
+tännallšem:tännallšẹ%^1VOWm A_NALLSHEM "" ;
+njäʹlmmkuõmnallšem:njäʹlmmkuõmnallšẹ%^1VOWm A_NALLSHEM "" ;
+peittsaž:peitts A_MEERSAZH "(eng) secret/(fin) salainen/(rus) " ;
+jeeʹresnallšem:jeeʹresnallšẹ%^1VOWm A_NALLSHEM "" ;
+jiijjâsnallšem:jiijjâsnallšẹ%^1VOWm A_NALLSHEM "" ;
+jiiʹjjesnallšem:jiiʹjjesnallšẹ%^1VOWm A_NALLSHEM "" ;
+seämmanallšem:seämmanallšẹ%^1VOWm A_NALLSHEM "" ;
+määŋgnallšem:määŋgnallšẹ%^1VOWm A_NALLSHEM "" ;
+ǩiõttʼtõõllâmnallšem:ǩiõttʼtõõllâmnallšẹ%^1VOWm A_NALLSHEM "" ;
+obbväʹlddsaž:obbväʹldds A_MEERSAZH "" ;
+jeeʹrestässʼsaž:jeeʹrestässʼs A_MEERSAZH "" ;
+mättjemäiggsaž:mättjemäiggs A_MEERSAZH "" ;
+
+
+ainnsaž:ainns A_MEERSAZH "" ;
+beâddlvaž:beâddlv A_MEERSAZH "" ;
+caarlaž:caarl A_MEERSAZH "" ;
+čâlmmsaž:čâlmms A_MEERSAZH "" ;
+čuettsaž:čuetts A_MEERSAZH "" ;
+čårrpeällsaž:čårrpeällsaž A_MEERSAZH "" ;
+dohhtsaž:dohhts A_MEERSAZH "" ;
+eunnsaž:eunns A_MEERSAZH "" ;
+innpoddsaž:innpodds A_MEERSAZH "" ;
+jemmlaž:jemml A_MEERSAZH "" ;
+jeällsaž:jeälls A_MEERSAZH "" ;
+jieʹnnlaž:jieʹnnl A_MEERSAZH "" ;
+jiõččpeelvaž:jiõččpeelvaž A_MEERSAZH "" ;
+jämmjaž:jämmj A_MEERSAZH "" ;
+jäskksaž:jäskks A_MEERSAZH "" ;
+ǩeähnasmiõllsaž:ǩeähnasmiõlls A_MEERSAZH "" ;
+kueʹhttmiõllsaž:kueʹhttmiõlls A_MEERSAZH "" ;
+leekklaž:leekkl A_MEERSAZH "" ;
+lekklvaž:lekklv A_MEERSAZH "" ;
+mõõnaž:mõõn A_MEERSAZH "" ;
+pâjjsaž:pâjjs A_MEERSAZH "" ;
+peittsaž:peitts A_MEERSAZH "" ;
+pääʹnnkõppsaž:pääʹnnkõpps A_MEERSAZH "" ;
+rååpplaž:rååppl A_MEERSAZH "" ;
+rääuhlaž:rääuhl A_MEERSAZH "" ;
+seämmaverddsaž:seämmaverdds A_MEERSAZH "" ;
+šiõǥǥõppsaž:šiõǥǥõpps A_MEERSAZH "" ;
+sveicclaž:sveiccl A_MEERSAZH "" ;
+sõhssmaž:sõhssm A_MEERSAZH "" ;
+verddsaž:verdds A_MEERSAZH "" ;
+vueʹljespeällsaž:vueʹljespeälls A_MEERSAZH "" ;
+vällaž:väll A_MEERSAZH "" ;
+åsklvaž:åsklv A_MEERSAZH "" ;
+åålǥpeällsaž:åålǥpeällsaž A_MEERSAZH "" ;
+õcckaž:õcck A_MEERSAZH "" ;
+fiʹttjammaž:fiʹttjamm A_MEERSAZH "" ;
+kuâđđjammaž:kuâđđjamm A_MEERSAZH "" ;
+âʹǩǩpâjjsaž:âʹǩǩpâjjs A_MEERSAZH "" ;
+čårrpeällsaž:čårrpeälls A_MEERSAZH "" ;
+ǩeäʹppsõsmiõllsaž:ǩeäʹppsõsmiõlls A_MEERSAZH "" ;
+åålǥpeällsaž:åålǥpeälls A_MEERSAZH "" ;
+caarrlaž:caarrl A_MEERSAZH "" ;
+
+veeʹresǩiõllsaž:veeʹresǩiõlls  A_MEERSAZH ;
+vueʹssäiggsaž:vueʹssäiggs  A_MEERSAZH ;
+määŋgkulttuursaž:määŋgkulttuurs  A_MEERSAZH ;
+kueiʹt-peiʹvvsaž:kueiʹt-peiʹvvs  A_MEERSAZH ;
+kueʹhtekksaž:kueʹhtekks  A_MEERSAZH ;
+jeäʹnnǩiõllsaž:jeäʹnnǩiõlls  A_MEERSAZH ;
+ååuǥbeällsaž:ååuǥbeälls  A_MEERSAZH ;
+vittpuärddsaž:vittpuärdds  A_MEERSAZH ;
+täss-äʹrvvsaž:täss-äʹrvvs  A_MEERSAZH ;
+tâʹvvriikksaž:tâʹvvriikks  A_MEERSAZH ;
+tâʹvvǩiõllsaž:tâʹvvǩiõlls  A_MEERSAZH ;
+Rääuhrepp-nõmmsaž:Rääuhrepp-nõmms  A_MEERSAZH ;
+päiʹǩǩsaž:päiʹǩǩs  A_MEERSAZH ;
+pirrsaž:pirrs  A_MEERSAZH ;
+nuõrttǩiõllsaž:nuõrttǩiõlls  A_MEERSAZH ;
+kõskkmieʹrrsaž:kõskkmieʹrrs  A_MEERSAZH ;
+koummǩiõllsaž:koummǩiõlls  A_MEERSAZH ;
+eŋgglõsǩiõllsaž:eŋgglõsǩiõlls  A_MEERSAZH ;
+aanrõšǩiõllsaž:aanrõšǩiõlls  A_MEERSAZH ;
+
+äʹššǩeerjlaž:äʹšš#ǩeerjl A_MEERSAZH ;
+lääddlaž:lääddl A_MEERSAZH ;
+kollektiivlaž:kollektiivl A_MEERSAZH ;
+antropolooglaž:antropoloogl A_MEERSAZH ;
+čeäppvuõđlaž:čeäppvuõđl A_MEERSAZH ;
+âlddsaž:âldds A_MEERSAZH ;
+arggpeivvsaž:argg#peivvs A_MEERSAZH ;
+õõutpeällsaž:õõut#peälls A_MEERSAZH ;
+äiggsaž:äiggs A_MEERSAZH ;
+vuäddaž-nõmmsaž:vuäddaž-#nõmms A_MEERSAZH ;
+Suõmmkar-nõmmsaž:Suõmmkar-#nõmms A_MEERSAZH ;
+minoriteʹttpoliittlaž:minoriteʹttpoliittl A_MEERSAZH ;
+ǩiõllpoliittlaž:ǩiõllpoliittl A_MEERSAZH ;
+passiivlaž:passiivl A_MEERSAZH ;
+kommunikatiivlaž:kommunikatiivl A_MEERSAZH ;
+ǩiõlltiõđlaž:ǩiõlltiõđl A_MEERSAZH ;
+täälʼlaž:täälʼl A_MEERSAZH ;
+ǩiõllteknolooglaž:ǩiõllteknoloogl A_MEERSAZH ;
+ǩiõllsosiolooglaž:ǩiõllsosioloogl A_MEERSAZH ;
+õhttsažkåʹddtiõđlaž:õhttsažkåʹddtiõđl A_MEERSAZH ;
+tuåimlaž:tuåiml A_MEERSAZH ;
+sääʹmpoliittlaž:sääʹmpoliittl A_MEERSAZH ;
+metodolooglaž:metodoloogl A_MEERSAZH ;
+juuʹlevsäʹmmlaž:juuʹlevsäʹmml A_MEERSAZH ;
+evaŋkelʼlaž-luterlaž:evaŋkelʼlaž-luterl A_MEERSAZH ;
+ämmtallaš:ämmtallaš A_TOBDDSALLASH ;
+tuåimmsallaš:tuåimmsallaš A_TOBDDSALLASH ;
+ceerkvallaš:ceerkvallaš A_TOBDDSALLASH ;
+ânnsallaš:ânnsallaš A_TOBDDSALLASH ;
+almmjallaš:almmjallaš A_TOBDDSALLASH ;
+teâttmašinakõskksaž:teâttmašinakõskks A_MEERSAZH "" ;
+pâiʹlkuʹǩǩ:pâiʹlku%^1VOWkk A_NUQBB "" ;
+
+ 

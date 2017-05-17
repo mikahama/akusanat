@@ -23,8 +23,12 @@
         <l pos="{{ translation.POS }}">{{ translation.word }}</l>
         <stg> <st/> </stg>
     </lg>
-    {% prepare_mg homonym True as mg%}
-    {{ mg }}
+    <mg>
+        <tg xml:lang="sms">
+            {% get_subitem_text homonym "finsms.Contlex" as contlex%}
+            <t {% if contlex != "" %} Contlex="{{ contlex }}" {% endif %} pos="{{ homonym.POS }}">{{ element.lemma }}</t>
+        </tg>
+    </mg>
 </e>
                 {% endfor %}
             {% endif %}

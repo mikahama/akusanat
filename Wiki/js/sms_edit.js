@@ -301,20 +301,20 @@ function createSemanticsTable(semantics){
 	var tableContainer = document.createElement("div");
 	var table = document.createElement("table");
 	table.className = "semantics_table";
-	table.innerHTML = "<tr><th>Luokka</th><th>Arvo</th><th>Poista</th></tr>";
+	table.innerHTML = "<tr><th>Luokka</th><th>Arvo</th><th>Mg</th><th>Poista</th></tr>";
 	for(var i =0; i < semantics.length; i++){
 		var semantic = semantics[i];
 		
-		var tableRow = semanticTableRow(semantic["class"],semantic["value"]);
+		var tableRow = semanticTableRow(semantic["class"],semantic["value"],semantic["mg"]);
 		table.appendChild(tableRow);
 	}
 	tableContainer.appendChild(table);
 	return tableContainer;
 }
 
-function semanticTableRow(cl, val){
+function semanticTableRow(cl, val, mg){
 	var tableRow = document.createElement("tr");
-	var row = "<td><input class='semantics_class'  list='semantics_datalist' value='"+  cl +"'></td><td><input class='semantics_value'  list='semantics_datalist' value='"+  val +"'></td><td class='deleteButton' onclick='deleteSemantics(event)'>X</td>";
+	var row = "<td><input class='semantics_class'  list='semantics_datalist' value='"+  cl +"'></td><td><input class='semantics_value'  list='semantics_datalist' value='"+  val +"'></td><td><input class='semantics_mg' value='"+  mg +"'></td><td class='deleteButton' onclick='deleteSemantics(event)'>X</td>";
 	tableRow.innerHTML = row;
 	return tableRow;
 }
@@ -448,7 +448,7 @@ function deleteHomonym(event){
 
 function addSemantics(event){
 	var table = event.target.parentElement.getElementsByTagName("TABLE")[0];
-	var tableRow = semanticTableRow("","");
+	var tableRow = semanticTableRow("","", "0");
 	table.appendChild(tableRow);
 }
 
@@ -520,10 +520,14 @@ function updateJsons(){
 			}
 			sem_class = sem_class_e.value;
 			sem_value = semantic_item.getElementsByClassName("semantics_value")[0].value;
+            sem_mg = semantic_item.getElementsByClassName("semantics_mg")[0].value;
 			if (sem_value.length+sem_class.length == 0){//filter empty rows
 				continue;
 			}
-			sem = {"class": sem_class, "value" : sem_value};
+			if(sem_mg == ""){
+				sem_mg = "0";
+			}
+			sem = {"class": sem_class, "value" : sem_value, "mg": sem_mg};
 			semantics.push(sem);
 		}
 		json["semantics"] = semantics;
@@ -736,7 +740,36 @@ function jsonsToWiki(json_list, language){
     wiki = wiki + compg_properties(json_list);
     wiki = wiki + etymology_properties(json_list);
     wiki = wiki + audio_properties(json_list);
+    wiki = wiki + xg_properties(json_list);
+    wiki = wiki + argg_properties(json_list);
+    wiki = wiki + "\n[[RevSort::"+ reverse(getLemma()) +"]]";
 	return wiki;
+}
+
+function reverse (str)
+{
+    var charArray = [];
+    for (var i = 0; i < str.length; i++)
+    {
+        if (i+1 < str.length)
+        {
+            var value = str.charCodeAt(i);
+            var nextValue = str.charCodeAt(i+1);
+            if (   (   value >= 0xD800 && value <= 0xDBFF
+                && (nextValue & 0xFC00) == 0xDC00) // Surrogate pair)
+                || (nextValue >= 0x0300 && nextValue <= 0x036F)) // Combining marks
+            {
+                charArray.unshift(str.substring(i, i+2));
+                i++; // Skip the other half
+                continue;
+            }
+        }
+
+        // Otherwise we just have a rogue surrogate marker or a plain old character.
+        charArray.unshift(str[i]);
+    }
+
+    return charArray.join('');
 }
 
 function contlex_properties(json_list){
@@ -760,6 +793,62 @@ function contlex_properties(json_list){
 		}
     }
     return wiki;
+
+}
+
+function xg_properties(json_list){
+    for (var i = 0; i < json_list.length; i++) {
+        var json = json_list[i];
+        try {
+            var mgs = json["mg_data"];
+            for(var i =0;i< mgs.length; i++){
+            	var mg = mgs[i];
+            	if(mg["element"] == "xg"){
+            		has_xg = true;
+            		return  "\n[[xg::yes]]";
+				}
+			}
+
+        }
+        catch (e){
+            //pass, the word doesn't have contlex
+            console.log(e);
+        }
+    }
+    return  "\n[[xg::no]]";
+
+}
+
+function argg_properties(json_list){
+	var wiki = "";
+    for (var i = 0; i < json_list.length; i++) {
+        var json = json_list[i];
+        try {
+            var mgs = json["mg_data"];
+            for(var i =0;i< mgs.length; i++){
+                var mg = mgs[i];
+                if(mg["element"] == "argg"){
+                	var atrs = mg["attributes"];
+                    for(var key in atrs){
+                    	if(key == "arg1"){
+                            wiki = wiki + "\n[[arg1::" + atrs[key]  +"]]";
+                        } else if(key == "arg2"){
+                            wiki = wiki + "\n[[arg2::" + atrs[key]  +"]]";
+                        } else if(key == "arg3"){
+                            wiki = wiki + "\n[[arg3::" + atrs[key]  +"]]";
+                        }
+					}
+					break;
+                }
+            }
+
+        }
+        catch (e){
+            //pass, the word doesn't have contlex
+            console.log(e);
+        }
+    }
+    return  wiki;
 
 }
 

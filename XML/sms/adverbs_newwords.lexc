@@ -1,0 +1,161 @@
+!! This is where new words are added as lexc entries before they are 
+!! added to the xml source files.
+!! Mättʼtõshalltõs:Mättʼtõshalltõs PROP_SAJOS "(eng) /(fin) /(rus) " ;
+
+
+LEXICON ADV_NEWWORDS
+test:test N_MUORR "(eng) /(fin) /(rus) " ;
+!! ADD ADVERBS BELOW
+âʹtte:âʹtte ADV-TEMP_ "(eng) /(fin) sitten/(rus) " ;
+nuõrttsäämas:nuõrtt#säämas ADV_ "(eng) /(fin) koltaksi/(rus) " ;
+vueiʹtlvânji:vueiʹtlvânji ADV_ "(eng) possibly/(fin) mahdollisesti/(rus) " ;
+
+kueiʹtnalla:kueiʹtnalla ADV_ ;
+alggbeäʹlnn:alggbeäʹlnn ADV_ ;
+aailjânji:aailjânji ADV_ ;
+čuõjjlânji:čuõjjlânji ADV_ ;
+jåttlânji:jåttlânji ADV-MANNER_ ;
+ǩeʹnnvânji:ǩeʹnnvânji ADV_ ;
+ǩeäʹppsânji:ǩeäʹppsânji ADV_ ;
+ǩeäppsânji:ǩeäppsânji ADV_ ;
+kirggânji:kirggânji ADV_ ;
+ǩirrsânji:ǩirrsânji ADV_ ;
+kõlmmsânji:kõlmmsânji ADV_ ;
+loʹssânji:loʹssânji ADV_ ;
+miõllsânji:miõllsânji ADV_ ;
+occânji:occânji ADV_ ;
+pâʹsttlânji:pâʹsttlânji ADV_ ;
+vieʹsslânji:vieʹsslânji ADV_ ;
+äʹlššânji:äʹlššânji ADV_ ;
+väʹlddkååʹddlanji:väʹlddkååʹddlanji ADV_ ;
+nânnsanji:nânnsanji ADV_ ;
+pääiklanji:pääiklanji ADV_ ;
+väʹlddkååʹddlanji:väʹlddkååʹddlanji ADV_ ;
+tuåimlanji:tuåimlanji ADV_ ;
+tiuddpeivvsanji:tiuddpeivvsanji ADV_ ;
+fyyslanji:fyyslanji ADV_ ;
+aktiivlanji:aktiivlanji ADV_ ;
+
+
+aaʹlǩeld:aaʹlǩeld ADV_ ;
+meâldlânji:meâldlânji ADV_ ;
+mieʹlddlânji:mieʹlddlânji ADV_ ;
+jiõččtuåimmsânji:jiõččtuåimmsânji ADV_ ;
+õõutmiõllsânji:õõutmiõllsânji ADV_ ;
+täävtõsvuõđlânji:täävtõsvuõđlânji ADV_ ;
+mieʹlddšânji:mieʹlddšânji ADV_ ;
+äʹrbbvuõttlânji:äʹrbbvuõttlânji ADV_ ;
+vuõssʹsâjjsânji:vuõssʹsâjjsânji ADV_ ;
+õõutpieʹllsânji:õõutpieʹllsânji ADV_ ;
+õlmmsânji:õlmmsânji ADV_ ;
+virtuaalsânji:virtuaalsânji ADV_ ;
+veiddsânji:veiddsânji ADV_ ;
+vaajtõõllʼlânji:vaajtõõllʼlânji ADV_ ;
+vââǥǥlânji:vââǥǥlânji ADV_ ;
+pannveerǥlânji:pannveerǥlânji ADV_ ;
+meerlânji:meerlânji ADV_ ;
+meâlddsânji:meâlddsânji ADV_ ;
+vueʹjjmeâldlanji:vueʹjjmeâldlanji ADV_ ;
+virtuaalʼlânji:virtuaalʼlânji ADV_ ;
+veerjlânji:veerjlânji ADV_ ;
+veerǥlânji:veerǥlânji ADV_ ;
+positiivlânji:positiivlânji ADV_ ;
+kulttuurlânji:kulttuurlânji ADV_ ;
+kollektiivlanji:kollektiivlanji ADV_ ;
+ǩiõlʼlânji:ǩiõlʼlânji ADV_ ;
+kiõlʼlânji:kiõlʼlânji ADV_ ;
+aktiivlânji:aktiivlânji ADV_ ;
+ämmatlânji:ämmatlânji ADV_ ;
+älššanji:älššanji ADV_ ;
+väʹlddvueʹǩǩsânji:väʹlddvueʹǩǩsânji ADV_ ;
+vuõss-sâjjsânji:vuõss-sâjjsânji ADV_ ;
+vueʹlǧǧemaalǥlânji:vueʹlǧǧemaalǥlânji ADV_ ;
+vuâđđjurddlânji:vuâđđjurddlânji ADV_ ;
+vooudlânji:vooudlânji ADV_ ;
+vooudlanji:vooudlanji ADV_ ;
+viõkkšânji:viõkkšânji ADV_ ;
+tiuddmieʹrrsânji:tiuddmieʹrrsânji ADV_ ;
+teknlânji:teknlânji ADV_ ;
+sosiaalânji:sosiaalânji ADV_ ;
+sektorpuõttlânji:sektorpuõttlânji ADV_ ;
+puʹhttsânji:puʹhttsânji ADV_ ;
+politiikklânji:politiikklânji ADV_ ;
+peʹšttlânji:peʹšttlânji ADV_ ;
+määŋgämmatsânji:määŋgämmatsânji ADV_ ;
+miõttlânji:miõttlânji ADV_ ;
+miârkksõõvlânji:miârkksõõvlânji ADV_ ;
+mašinanallsânji:mašinanallsânji ADV_ ;
+lääʹjjvuâstlânji:lääʹjjvuâstlânji ADV_ ;
+ǩiõllpolitiikklânji:ǩiõllpolitiikklânji ADV_ ;
+ǩeʹrjjlânji:ǩeʹrjjlânji ADV_ ;
+ekologlânji:ekologlânji ADV_ ;
+alggveärlânji:alggveärlânji ADV_ ;
+vueiʹvv-vueʹǩǩšânji:vueiʹvv-vueʹǩǩšânji ADV_ ;
+viõusânji:viõusânji ADV_ ;
+tääʹssärvvsânji:tääʹssärvvsânji ADV_ ;
+psykolooglânji:psykolooglânji ADV_ ;
+peittsânji:peittsânji ADV_ ;
+njikkõnj:njikkõnj ADV_ ;
+njikkõnja:njikkõnja ADV_ ;
+musiiklânji:musiiklânji ADV_ ;
+maaiʹlmveiʹddsânji:maaiʹlmveiʹddsânji ADV_ ;
+luâđlânji:luâđlânji ADV_ ;
+lossânji:lossânji ADV_ ;
+käuʹnnji:käuʹnnji ADV_ ;
+kuullviõkkšânji:kuullviõkkšânji ADV_ ;
+ǩeeʹrjlânji:ǩeeʹrjlânji ADV_ ;
+digitaalʼlânji:digitaalʼlânji ADV_ ;
+
+
+!! CODED BY EINO AND JASKA
+
+
+!-gõs:-gõs PCLE_ ;
+!-i:-i PCLE_ ;
+!-jõs:-jõs PCLE_ ;
+!-meʹt:-meʹt SUF_ ;
+!-mâna:-mâna ADV_ ;
+!-nalla:-nalla ADV_ ;
+!-rääʹjest:-rääʹjest ADV_ ;
+!-tää:-tää ADV_ ;
+!-õs:-õs ADV_ ;
+!-õs:-õs PCLE_ ;
+!Njiõccǥõõzzin:Njiõccǥõõzzin ADV_ ;
+!fââʹsteʹld:fââʹsteʹld ADV_ ;
+!tokʹaa:tokʹaa ADV_ ;
+!vuâllsanad:vuâllsanad ADV_ ;
+
+!! perintökieli
+äävnjaaʹlmi:äävnjaaʹlmi ADV_ ; !secondary predication
+
+ooccâmnalla:ooccâmnalla ADV_ ;
+ǩiõččâmnalla:ǩiõččâmnalla ADV_ ;
+laaddâmnalla:laaddâmnalla ADV_ ;
+håiddamnalla:håiddamnalla ADV_ ;
+raajjâmnalla:raajjâmnalla ADV_ ;
+viikkâmnalla:viikkâmnalla ADV_ ;
+siillâmnalla:siillâmnalla ADV_ ;
+kuullâmnalla:kuullâmnalla ADV_ ;
+kaunnâmnalla:kaunnâmnalla ADV_ ;
+miõttâmnalla:miõttâmnalla ADV_ ;
+tuõttâmnalla:tuõttâmnalla ADV_ ;
+miârkkšõõvvâmnalla:miârkkšõõvvâmnalla ADV_ ;
+ooudldemnalla:ooudldemnalla ADV_ ;
+veeideemnalla:veeideemnalla ADV_ ;
+vaʹlljeemnalla:vaʹlljeemnalla ADV_ ;
+äuʹǩǩeemnalla:äuʹǩǩeemnalla ADV_ ;
+čormmeemnalla:čormmeemnalla ADV_ ;
+plaaneemnalla:plaaneemnalla ADV_ ;
+vaʹstteemnalla:vaʹstteemnalla ADV_ ;
+naʹddjemnalla:naʹddjemnalla ADV_ ;
+hoiʹddjemnalla:hoiʹddjemnalla ADV_ ;
+riʹjttjemnalla:riʹjttjemnalla ADV_ ;
+jueʹǩǩemnalla:jueʹǩǩemnalla ADV_ ;
+kaaupšemnalla:kaaupšemnalla ADV_ ;
+mäʹhssemnalla:mäʹhssemnalla ADV_ ;
+čuäʹjtemnalla:čuäʹjtemnalla ADV_ ;
+tuõđštemnalla:tuõđštemnalla ADV_ ;
+mainstemnalla:mainstemnalla ADV_ ;
+mättʼtemnalla:mättʼtemnalla ADV_ ;
+tiõrvtemnalla:tiõrvtemnalla ADV_ ;
+ââʹjjpeivva:ââʹjjpeivva ADV-TEMP_ ;

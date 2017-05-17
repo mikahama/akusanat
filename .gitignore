@@ -2,9 +2,10 @@
 # Created by https://www.gitignore.io/api/python,django,pycharm
 
 *.*~
-
-
-
+*.zip
+Wiki/.idea/*
+Wiki/Wiki.iml
+django_projekti/.idea/*
 
 # Django stuff:
 *.log
