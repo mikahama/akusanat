@@ -46,10 +46,14 @@ def __process_sms_xml__(root, file_name):
         mg_index = -1
         for mg in mgs:
             mg_index += 1
+            mg_atrs = mg.attrib
+            use_index = str(mg_index)
+            if "relId" in mg_atrs.keys():
+                use_index = mg_atrs["relId"]
             for child in mg:
                 if child.tag == "semantics":
                     for sem in child:
-                        d = {"mg": str(mg_index), "class": sem.get("class"), "value": sem.text or ""}
+                        d = {"mg": use_index, "class": sem.get("class"), "value": sem.text or ""}
                         homonym["semantics"].append(d)
                 if child.tag == "tg":
                     lang = child.get("xml_lang").lower()
@@ -57,12 +61,12 @@ def __process_sms_xml__(root, file_name):
                         homonym["translations"][lang] = []
                     for trans in child:
                         t = {}
-                        t["mg"] = str(mg_index)
+                        t["mg"] = use_index
                         t["sms2xml"] = trans.attrib
                         t["word"] = trans.text
                         homonym["translations"][lang].append(t)
                 else:
-                    mg_data = {"text": child.text, "element": child.tag, "attributes": child.attrib, "mg": str(mg_index)}
+                    mg_data = {"text": child.text, "element": child.tag, "attributes": child.attrib, "mg": use_index}
                     homonym["mg_data"].append(mg_data)
         lemmas.append((lemma, homonym))
     return lemmas
@@ -93,10 +97,14 @@ def __process_finsms_xml__(root, file_name):
             mg_index = -1
             for mg in mgs:
                 mg_index += 1
+                mg_atrs = mg.attrib
+                use_index = str(mg_index)
+                if "relId" in mg_atrs.keys():
+                    use_index = mg_atrs["relId"]
                 sems = mg.find("semantics")
                 if sems is not None:
                     for sem in sems:
-                        d = {"mg": str(mg_index),"class": sem.get("class"), "value": sem.text or ""}
+                        d = {"mg": use_index,"class": sem.get("class"), "value": sem.text or ""}
                         semantics.append(d)
             for sami_lemma in sami_lemmas:
                 lemma, contlex, pos = sami_lemma
@@ -158,10 +166,14 @@ def __process_morph_xml__(root, file_name):
         for mg in mgs:
             mg_index += 1
             if mg is not None:
+                mg_atrs = mg.attrib
+                use_index = str(mg_index)
+                if "relId" in mg_atrs.keys():
+                    use_index = mg_atrs["relId"]
                 for ele in mg:
                     if ele.tag == "semantics":
                         for sem in ele:
-                            d = {"mg": str(mg_index), "class": sem.get("class"), "value": sem.text or ""}
+                            d = {"mg": use_index, "class": sem.get("class"), "value": sem.text or ""}
                             homonym["semantics"].append(d)
                     elif ele.tag == "tg":
                         language = ele.get("xml_lang")
@@ -170,10 +182,10 @@ def __process_morph_xml__(root, file_name):
                         for t in ele:
                             attribs = t.attrib
                             attribs["word"] = t.text
-                            attribs["mg"] = str(mg_index)
+                            attribs["mg"] = use_index
                             homonym["translations"][language].append(attribs)
                     else:
-                        mg_data = {"text": ele.text, "element": ele.tag, "attributes": ele.attrib, "mg": str(mg_index)}
+                        mg_data = {"text": ele.text, "element": ele.tag, "attributes": ele.attrib, "mg": use_index}
                         homonym["mg_data"].append(mg_data)
         lemmas.append((lemma, homonym))
     return lemmas

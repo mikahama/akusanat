@@ -4,6 +4,7 @@
 	"lemma" : "kuusi",
 	"homonyms" : [
 			{
+				"mg_data" : [{"text": "instrument for weighting", "element": "lexicon", "mg": "0", "attributes":{"xml_lang": "eng"}}],
 				"POS" : "Num",
 				"translations" : {
 					"eng" : [

@@ -11,6 +11,7 @@ from tietokanta.wikitool import Wikitool
 from tietokanta.git_tool import GitTool
 import thread
 import subprocess
+import logging
 
 import os
 
@@ -122,13 +123,33 @@ def process_towiki_queue(request, language="sms"):
         lemmaData = mongoilija.get_lemma(item.lemma, item.language)
         success, results = wt.post_lemma(item.lemma, item.language, lemmaData)
         count += 1
+        if u"\"code\": \"badtoken\"" in results:
+            #try again with a new token
+            wt = Wikitool(username,password, language)
+            wt.login()
+            wt.get_token()
+            success, results = wt.post_lemma(item.lemma, item.language, lemmaData)
+        if u"\"result\": \"Success\"" not in results:
+            success = False
         if success:
             item.delete()
             s_count += 1
+        else:
+            find_string = "<pre class=\"api-pretty-content\">"
+            message_start = results.find(find_string)
+            error_message = results[message_start + len(find_string):]
+            end_string = "</pre>"
+            error_message = error_message[0:error_message.find(end_string) + len(end_string)]
+            logger = logging.getLogger()
+            logger.error(error_message)
+        #return HttpResponse(str(success) + results, status=200)
 
     return HttpResponse(str(s_count) + " out of " + str(count) + " OK",status=200)
 
 def update_system(request):
+    domain = getattr(settings, "CURRENT_URL", "null domain")
+    if "127.0.0.1" in domain or "localhost" in domain:
+        return HttpResponse("can't update on debug (domain is either 127.0.0.1 or localhost)", status=500)
     result = subprocess.call("update_smsxml", shell=True, stdout=subprocess.PIPE)
     return HttpResponse(result, status=200)
 
@@ -238,3 +259,67 @@ def get_subitem_text(dictionary, key):
             return ""
     except:
         return ""
+
+@register.assignment_tag
+def prepare_mg(homonym, only_fin=False):
+    mgs = {}
+    if "mg_data" in homonym:
+        for mg_other in homonym["mg_data"]:
+            line = "<" + mg_other["element"]
+            for at_key in mg_other["attributes"].keys():
+                line += " " + at_key.replace("xml_lang", "xml:lang") + "=\"" + mg_other["attributes"][at_key] + "\""
+            line += ">" + mg_other["text"] + "</"+ mg_other["element"] + ">"
+            mg_id = mg_other["mg"]
+            if mg_id not in mgs:
+                mgs[mg_id] = {"sem":[], "tr":{}, "other": []}
+            mgs[mg_id]["other"].append(line)
+
+    for sem in homonym["semantics"]:
+        if "mg" in sem:
+            mg_id = sem["mg"]
+        else:
+            mg_id = "0"
+        if mg_id not in mgs:
+            mgs[mg_id] = {"sem":[], "tr":{}, "other": []}
+        mgs[mg_id]["sem"].append("<sem class=\"" +sem["class"]+"\">" +sem["value"]+"</sem>")
+    for langs in homonym["translations"]:
+        for lang in langs.keys():
+            if only_fin and lang != "fin":
+                continue
+            for trans in langs[lang]:
+                for tr in trans:
+                    if "mg" in tr:
+                        mg_id = tr["mg"]
+                    else:
+                        mg_id = "0"
+                    if mg_id not in mgs:
+                        mgs[mg_id] = {"sem":[], "tr":{},"other": []}
+                    if lang not in mgs[mg_id][tr]:
+                        mgs[mg_id][tr][lang] = []
+
+                    xml_line = "<t"
+                    for item in tr.keys():
+                        if item == "word" or item == "mg" or item == "POS":
+                            continue
+                        else:
+                            xml_line = xml_line + " " + item + "=\"" + tr[item] + "\""
+                    mgs[mg_id][tr][lang].append(xml_line + " pos=\"" + tr["POS"] + "\">" + tr["word"] + "</t>")
+    xml = ""
+    for mg_k in mgs.keys():
+        xml += "<mg relId=\"" + mg_k + "\">\n"
+        mg = mgs[mg_k]
+        for other in mg["other"]:
+            xml += other + "\n"
+        if len(mg["sem"]) > 0:
+            xml += "<semantics>\n"
+            for sem in mg["sem"]:
+                xml += sem + "\n"
+            xml += "</semantics>\n"
+        for lang in mg["tr"].keys():
+            xml += "<tg xml:lang=\"" + lang + "\">"
+            for trans in mg["tr"][lang]:
+                xml += trans + "\n"
+            xml += "</tg>\n"
+        xml += "</mg>\n"
+    return xml
+

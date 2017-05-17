@@ -236,7 +236,11 @@ function lgRootAttributeHTML(name, value) {
 }
 
 function formFromLgXML(json, xmlTag, classPrefix){
-	var return_string = "<div class='" +classPrefix+"_edit'><p><b>" +_(classPrefix) +"</b></p>!!PLACEHOLDER!!<button onclick='addetymologyWord(event, \""+ classPrefix +"\")'>Lisää kantasana</button>";
+	var kantasana = "kantasana";
+	if (xmlTag == "stg"){
+		kantasana = "vartalo";
+	}
+	var return_string = "<div class='" +classPrefix+"_edit'><p><b>" +_(classPrefix) +"</b></p>!!PLACEHOLDER!!<button onclick='addetymologyWord(event, \""+ classPrefix +"\")'>Lisää "+ kantasana + "</button>";
 	var place_holder = "<div>Juurielementin arvot <ul>";
 	try{
 		var etym = json["morph"]["lg"][xmlTag];
@@ -272,7 +276,7 @@ function formFromLgXML(json, xmlTag, classPrefix){
 			continue;
 		}
 
-		var html = "<div class='"+ classPrefix.substring(0,3) +"Entry'>Kantasana: <input class='"+ classPrefix.substring(0,3) +"Word' value='" + data + "'> Tyyppi: <input class='"+ classPrefix.substring(0,3) +"Type' value='" + etymology.tagName + "'><button onclick='addetymologyAttr(event, \"" +classPrefix+ "\")'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul>";
+		var html = "<div class='"+ classPrefix.substring(0,3) +"Entry'>" + kantasana + ": <input class='"+ classPrefix.substring(0,3) +"Word' value='" + data + "'> Tyyppi: <input class='"+ classPrefix.substring(0,3) +"Type' value='" + etymology.tagName + "'><button onclick='addetymologyAttr(event, \"" +classPrefix+ "\")'>Lisää attribuutti</button><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span><ul>";
 		var attrs = etymology.attributes || [];
 		for (var ii = 0; ii < attrs.length; ii++) {
 			var attribute = attrs[ii];

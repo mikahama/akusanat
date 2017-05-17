@@ -20,21 +20,8 @@
            <book {%for key, value in source.items %} {{ key }}="{{ value }}" {% endfor %}/>
              {% endfor %}
          </sources>
-      <mg>
-         <semantics>
-             {% get_item_list homonym "semantics" as semantics %}
-             {% for semantic in semantics %}
-           <sem class="{{ semantic.class }}">{{ semantic.value }}</sem>
-             {% endfor %}
-         </semantics>
-           {% for lang, translations in homonym.translations.items %}
-             <tg xml:lang="{{ lang }}">
-                 {% for translation in translations %}
-               <t pos="{{translation.POS}}">{{ translation.word }}</t>
-                 {% endfor %}
-             </tg>
-           {% endfor %}
-      </mg>
+    {% prepare_mg homonym True as mg%}
+    {{ mg }}
    </e>
     {% endif %}
     {% endfor %}

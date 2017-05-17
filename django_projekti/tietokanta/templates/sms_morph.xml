@@ -34,26 +34,8 @@
              {% endfor %}
          </sources>
         {% endif %}
-       <mg>
-           {% get_item_dict homonym "lexicon" as lexicon %}
-           {% for key, value in lexicon.items %}
-           <lexicon xml:lang="{{ key }}">{{ value }}</lexicon>
-           {% endfor %}
-         <semantics>
-             {% get_item_list homonym "semantics" as semantics %}
-             {% for semantic in semantics %}
-           <sem class="{{ semantic.class }}">{{ semantic.value }}</sem>
-             {% endfor %}
-         </semantics>
-           {% for lang, translations in homonym.translations.items %}
-             <tg xml:lang="{{ lang }}">
-                 {% for translation in translations %}
-               <t pos="{{translation.POS}}">{{ translation.word }}</t>
-                 {% endfor %}
-             </tg>
-           {% endfor %}
-
-       </mg>
+        {% prepare_mg homonym False as mg%}
+        {{ mg }}
     </e>
     {% endif %}
     {% endfor %}
