@@ -3,8 +3,9 @@ import urllib
 #izh https://victorio.uit.no/langtech/trunk/langs/izh/src/morphology/stems/
 #https://victorio.uit.no/langtech/trunk/langs/sms/src/morphology/stems/
 #https://victorio.uit.no/langtech/trunk/ped/sms/src/
+#https://victorio.uit.no/langtech/trunk/ped/sms/finsms/
 url = "https://victorio.uit.no/langtech/trunk/langs/sms/src/morphology/stems/"
-save_to_dir = "/sms/"
+save_to_dir = "/morph/"
 
 response = urllib2.urlopen(url)
 html = response.read()

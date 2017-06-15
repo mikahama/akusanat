@@ -1,7 +1,8 @@
 
-
 LEXICON Prefix_sms2x
 
+puhss-:puhss PREFIX/A_  "housu-" ;
+ǩiiđâš-:ǩiiđâš- PREFIX/A_  "kevät" ;
 tueʹles-:tueʹles PREFIX/A_  "aamu-" ;
 njeʹǩǩ-:njeʹǩǩ PREFIX/A_  "kaltto, kallellaan oleva" ;
 puäst-:puäst PREFIX/A_  "väärä" ;
@@ -32,3 +33,5 @@ vällj-:vällj PREFIX/A_  "valio-, mainio" ;
 äävainjäʹlmm-:äävainjäʹlmm PREFIX/A_  "avosuinen" ;
 ålgg-:ålgg PREFIX/A_  "ulko" ;
 ǩiõld-:ǩiõld PREFIX/A_  "kildinin-" ;
+kåʹšǩǩ-:kåʹšǩǩ- A_  "kuiva" ;
+pååđ-:pååđ- A_  "erillinen" ;

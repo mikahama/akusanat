@@ -13,17 +13,22 @@ class GitTool():
         print self.repo_path
         print "GIT_DIR_" + lang
         self.current_url = getattr(settings, "CURRENT_URL", None)
+        self.git_user = getattr(settings, "GIT_USERNAME", "SmsBot")
         self.easy_git = EasyGit(self.repo_path)
+        self.easy_git.set_user(self.git_user)
         self.lang = lang
 
     def pull(self):
-        self.easy_git.pull()
+        try:
+            return self.easy_git.pull()
+        except:
+            return "pull error"
 
     def get_folders(self):
-        if self.lang == "izh":
-            folders = ["."]
+        if self.lang == "sms":
+            folders = ["morph"]
         else:
-            folders = ["finsms", "morph", "sms"]
+            folders = ["."]
         return folders
 
     def list_files(self):

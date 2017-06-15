@@ -16,6 +16,10 @@ def __identify_homonym__(homonym, id_by, id):
     else:
         return False
 
+def clear_language(language):
+    collection = __get_db_collection__(language)
+    collection.drop()
+
 def __write_to_db__(lemma_data, language="sms"):
     collection = __get_db_collection__(language)
     if "_id" in lemma_data.keys():
@@ -57,7 +61,8 @@ def __merge_dictionaries__(old, new, replace=True):
                             old_d = old[key][i]
                         else:
                             old_d = {}
-                        change = __merge_dictionaries__(old_d, new[key][i],replace)
+                            old[key].append(old_d)
+                        change = __merge_dictionaries__(old_d, data[i],replace)
                         if not was_changed:
                             was_changed = change
                 elif replace:
@@ -66,7 +71,11 @@ def __merge_dictionaries__(old, new, replace=True):
                         was_changed = True
                     else:
                         for i in range(len(data)):
-                            if old[key][i] != data[i]:
+                            if type(data[i]) == str:
+                                test_to = unicode(data[i], "utf-8")
+                            else:
+                                test_to = data[i]
+                            if old[key][i] != test_to:
                                 old[key][i] = data[i]
                                 was_changed = True
                 else:
@@ -74,7 +83,11 @@ def __merge_dictionaries__(old, new, replace=True):
                     was_changed = True
             else:
                 #not a list or a dictionary
-                if old[key] != new[key]:
+                if type(new[key]) == str:
+                    test_to = unicode(new[key], "utf-8")
+                else:
+                    test_to = new[key]
+                if old[key] != test_to:
                     old[key] = new[key]
                     was_changed = True
 
@@ -84,6 +97,7 @@ def __merge_dictionaries__(old, new, replace=True):
             old[key] = new[key]
 
     return was_changed
+
 
 def __get_lemma__(lemma, language="sms"):
     """
@@ -101,6 +115,8 @@ def __get_lemma__(lemma, language="sms"):
 
 def update_word_in_lemma(lemma, word, identify_homonym_by="POS", language="sms",first_time_sync=False):
     lemma, empty = __get_lemma__(lemma, language)
+    if "hid" in word.keys():
+        identify_homonym_by = "hid"
     id = word[identify_homonym_by]
     exists = False
     for homonym in lemma["homonyms"]:

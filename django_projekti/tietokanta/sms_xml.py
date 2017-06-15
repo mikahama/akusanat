@@ -2,6 +2,7 @@
 import codecs
 import xml.etree.ElementTree as ET
 from tietokanta.exceptions import UnsupportedXMLSchema
+import copy
 
 
 
@@ -28,7 +29,7 @@ def update_sms_db_from_xml(xml_text, file_type, file_name):
 def __process_sms_xml__(root, file_name):
     lemmas = []
     for element in root:
-        homonym = {"mg_data": [], "translations": {},"semantics":[],"sms2xml":{"sources":[], "file": file_name, "lemmas_additional_attributes":{}}}
+        homonym = {"mg_data": [],"l_attrib": {}, "translations": {},"semantics":[],"sms2xml":{"sources":[], "file": file_name}}
         homonym["sms2xml_id"] = element.get("id")
         l = element.find("lg").find("l")
         lemma = l.text
@@ -36,8 +37,10 @@ def __process_sms_xml__(root, file_name):
         for lemma_attribute in l.attrib.keys():
             if lemma_attribute == "pos":
                 continue
+            elif lemma_attribute == "hid":
+                homonym["hid"] = l.get(lemma_attribute)
             else:
-                homonym["sms2xml"]["lemmas_additional_attributes"][lemma_attribute] = l.get(lemma_attribute)
+                homonym["l_attrib"][lemma_attribute] = l.get(lemma_attribute)
         sources = element.find("sources")
         if sources is not None:
             for book in sources:
@@ -67,9 +70,14 @@ def __process_sms_xml__(root, file_name):
                         homonym["translations"][lang].append(t)
                 else:
                     mg_data = {"text": child.text, "element": child.tag, "attributes": child.attrib, "mg": use_index}
+                    if child.tag == "xg":
+                        mg_data["text"] = __xml_element_content__(child)
                     homonym["mg_data"].append(mg_data)
         lemmas.append((lemma, homonym))
     return lemmas
+
+def __xml_element_content__(tag):
+    return (tag.text or "") + ''.join(ET.tostring(e) for e in tag)
 
 def __process_finsms_xml__(root, file_name):
     lemmas = []
@@ -138,7 +146,7 @@ def __xml_node_to_list__(node):
 def __process_morph_xml__(root, file_name):
     lemmas = []
     for element in root:
-        homonym ={"mg_data":[], "lexicon":{},"translations": {},"semantics":[],"morph":{"lg":{}},"sms2xml":{"sources":[]}}
+        homonym ={"mg_data":[], "l_attrib": {}, "lexicon":{},"translations": {},"semantics":[], "semantics_attributes":[], "morph":{"lg":{}},"sms2xml":{"sources":[]}, "tg_attrs":{}}
         id = element.get("id") or ""
         meta = element.get("meta") or ""
         homonym["morph_id"] = id
@@ -154,6 +162,15 @@ def __process_morph_xml__(root, file_name):
                 #lemma
                 lemma = ele.text
                 homonym["POS"] = (ele.get("pos") or "").upper()
+                l_attrib = copy.copy(ele.attrib)
+                if "pos" in l_attrib:
+                    del l_attrib['pos']
+                if "hid" in l_attrib:
+                    del l_attrib['hid']
+                homonym["l_attrib"] = l_attrib
+                hid = ele.get("hid")
+                if hid is not None:
+                    homonym["hid"] = hid
             else:
                 #other stuff
                 homonym["morph"]["lg"][ele.tag] = ET.tostring(ele, encoding="utf-8", method="xml") #__xml_node_to_list__(ele)
@@ -172,20 +189,29 @@ def __process_morph_xml__(root, file_name):
                     use_index = mg_atrs["relId"]
                 for ele in mg:
                     if ele.tag == "semantics":
+                        homonym["semantics_attributes"].append(ele.attrib or {})
                         for sem in ele:
-                            d = {"mg": use_index, "class": sem.get("class"), "value": sem.text or ""}
+                            d = {"mg": use_index, "class": sem.get("class"), "value": sem.text or "", "attributes": (sem.attrib or {})}
                             homonym["semantics"].append(d)
                     elif ele.tag == "tg":
                         language = ele.get("xml_lang")
                         if language not in homonym["translations"]:
                             homonym["translations"][language] = []
+                        if use_index not in homonym["tg_attrs"]:
+                            homonym["tg_attrs"][use_index] = {}
+                        homonym["tg_attrs"][use_index][language] = ele.attrib
                         for t in ele:
                             attribs = t.attrib
+                            if t.tag == "re":
+                                attribs["re"] = "true"
+
                             attribs["word"] = t.text
                             attribs["mg"] = use_index
                             homonym["translations"][language].append(attribs)
                     else:
                         mg_data = {"text": ele.text, "element": ele.tag, "attributes": ele.attrib, "mg": use_index}
+                        if ele.tag == "xg":
+                            mg_data["text"] = __xml_element_content__(ele)
                         homonym["mg_data"].append(mg_data)
         lemmas.append((lemma, homonym))
     return lemmas

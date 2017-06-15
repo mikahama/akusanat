@@ -29,5 +29,10 @@ urlpatterns = [
     url(r'^' + re.escape(prefix)+ r'git_postmerge/', views.pull_git, name='pull_git'),
     url(r'^' + re.escape(prefix)+ r'rebaseWiki/', views.rebase_wiki, name='rebase_wiki'),
     url(r'^' + re.escape(prefix)+ r'updateSystem/', views.update_system, name='update_system'),
-    url(r'^' + re.escape(prefix)+ r'version/', views.version, name='version')
+    url(r'^' + re.escape(prefix)+ r'version/', views.version, name='version'),
+    url(r'^' + re.escape(prefix)+ r'errorLog/', views.error_log, name='error_log'),
+    url(r'^' + re.escape(prefix)+ r'testMongo/', views.test_mongo, name='test_mongo'),
+    url(r'^' + re.escape(prefix)+ r'rsaKey/', views.rsa_key, name='rsa_key'),
+    url(r'^' + re.escape(prefix)+ r'testGit/', views.test_git, name='test_git'),
+    url(r'^' + re.escape(prefix)+ r'inflect/', views.inflect, name='inflect')
 ]

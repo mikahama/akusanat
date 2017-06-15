@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 {% comment  %}
    Takes lemma list as lemmas and file name as file_name
 {% endcomment %}
-<?xml version="1.0" encoding="UTF-8"?>
 <r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="sms">
     {% for element in lemmas %}
     {% for homonym in element.homonyms %}
@@ -10,7 +10,8 @@
     {% if homonym_file_name == file_name or file_pos %}
     {% get_subitem homonym "homonym.morph_id" as morph_id %}
     {% get_subitem_text homonym "homonym.meta" as ,_meta %}
-    <e id="{{ morph_id }}" meta="{{ m_meta }}">
+    {% get_subitem_attributes homonym "morph.element" as e_attributes %}
+    <e {{ e_attributes | safe }}>
         {% has_subkey homonym "morph.map" as has_map %}
         {% if has_map %}
        <map {% for key, value in homonym.morph.map.items %} {{ key }} = "{{ value }}" {% endfor %}/>
@@ -20,7 +21,8 @@
        <rev-sort_key>{{ homonym.morph.revsortkey }}</rev-sort_key>
         {% endif %}
        <lg>
-         <l pos="{{ homonym.POS }}">{{ element.lemma }}</l>
+           {% get_item_attributes homonym "l_attrib" as l_attributes %}
+         <l pos="{{ homonym.POS }}" {{ l_attributes | safe }}>{{ element.lemma }}</l>
            {% get_subitem_dict homonym "morph.lg" as lg %}
          {% for key, value in lg.items %}
            {{value | safe}}
@@ -30,12 +32,12 @@
         {% if has_sms2xml %}
          <sources>
              {% for source in homonym.sms2xml.sources %}
-           <book {%for key, value in source.items %} {{ key }}="{{ value }}" {% endfor %}/>
+           <src {%for key, value in source.items %} {{ key }}="{{ value }}" {% endfor %}/>
              {% endfor %}
          </sources>
         {% endif %}
         {% prepare_mg homonym False as mg%}
-        {{ mg }}
+        {{ mg|safe }}
     </e>
     {% endif %}
     {% endfor %}

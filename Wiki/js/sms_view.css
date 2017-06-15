@@ -13,3 +13,45 @@ border-bottom: 0px;
 .etylist{
 	display: none;
 }
+.exampleGroup{
+	padding-left: 45px;
+	padding-top: 30px;
+}
+.exampleSentence{
+	font-style: italic;
+}
+
+.exampleSentenceTranslation{
+	padding-left: 20px;
+	font-size: small;
+}
+.semantics{
+	margin-top: 30px;
+}
+#clickBlock {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.7);
+	z-index: 100;
+}
+
+#inflectionResultsClose{
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+	float: right;
+}
+
+#inflectionResultsDialog{
+	background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    overflow-y: scroll;
+    height: 90%;
+    padding: 20px;
+}

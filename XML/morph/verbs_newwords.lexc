@@ -6,9 +6,10 @@
 LEXICON V_NEWWORDS
 test:test N_MUORR "(eng) /(fin) /(rus) " ;
 !! ADD VERBS BELOW
+
 ceʹppjed:ceʹpp V_VOQLLJED  "(eng) /(fin) /(rus) " ;
 cuäŋŋad:cuäŋŋ V_HEARRAD "(eng) /(fin) /(rus) " ;
-câʹǩǩed:câkk V_SOLLAQTTED "(eng) /(fin) /(rus) " ;
+câʹǩǩed:câ%^1VOWkk V_KAEQTTED "(eng) /(fin) /(rus) " ;
 dõnnõõkkâd:dõnnõõkk V_VIIKKYD "(eng) /(fin) /(myv) тенямс/(rus) " ;
 dõnnõõǥškueʹtted:dõnnõõǥškuätt V_SHKUEAQTTED "" ;
 
@@ -17,6 +18,7 @@ LEXICON VerbRoot
 !! This only contains one verb and will be removed.
 !!
 !späʹssbõõžžâd:späʹssbõõžžâd
+ǩiõttʼtõõttâd:ǩiõttʼtõõtt V_LAUKKOOLLYD ;
 aahnted:aahnât V_AALGXTED ;
 šiõttʼted:šiõttât V_AALGXTED ;
 täävtõõllâd:täävtõõll V_LAUKKOOLLYD ;
@@ -26,7 +28,7 @@ tuõllʼjõõttâd:tuõllʼjõõtt V_LAUKKOOLLYD ;
 tueʹllʼjõõttâd:tueʹllʼjõõtt V_LAUKKOOLLYD ;
 tiuddlõõvvâd:tiuddlõõvv V_LAUKKOOLLYD ;
 naddjõõttâd:naddjõõtt V_LAUKKOOLLYD ;
-kõllstõõllâd:kõllstõõll V_LAUKKOOLLYD ;
+kõʹlstõõllâd:kõʹlstõõll V_LAUKKOOLLYD ;
 kuälktõõllâd:kuälktõõll V_LAUKKOOLLYD ;
 kuâlkktõõllâd:kuâlkktõõll V_LAUKKOOLLYD ;
 ǩiõččtõõllâd:ǩiõččtõõll V_LAUKKOOLLYD ;
@@ -53,7 +55,6 @@ mõttjõõvvâd:mõttjõõvv V_LAUKKOOLLYD ;
 mõttstõõvvâd:mõttstõõvv V_LAUKKOOLLYD ;
 mottjõõvvâd:mottjõõvv V_LAUKKOOLLYD ;
 mottstõõvvâd:mottstõõvv V_LAUKKOOLLYD ;
-läʹǧǧstõõttâd:läʹǧǧstõõtt V_LAUKKOOLLYD ;
 kaigštõõvvâd:kaigštõõvv V_LAUKKOOLLYD ;
 âʹǩǩõõvvâd:âʹǩǩõõvv V_LAUKKOOLLYD ;
 ââʹǩǩõõvvâd:ââʹǩǩõõvv V_LAUKKOOLLYD ;
@@ -69,8 +70,8 @@ påddjõõvvâd:påddjõõvv V_LAUKKOOLLYD ;
 påddjõõttâd:påddjõõtt V_LAUKKOOLLYD ;
 jiântõõvvâd:jiântõõvv V_LAUKKOOLLYD ;
 jâkksmõõvvâd:jâkksmõõvv V_LAUKKOOLLYD ;
-haammstâʹtted:haammstâ%^1VOWtt V_SOLLAQTTED ;
-muõlkkrâʹššed:muõlkkrâ%^1VOWšš V_SOLLAQTTED ;
+haammstâʹtted:haammstâ%^1VOWtt V_KAEQTTED ;
+muõlkkrâʹššed:muõlkkrâ%^1VOWšš V_KAEQTTED ;
 mååjjmâʹsttõõllâd:mååjjmâʹsttõõll V_LAUKKOOLLYD ;
 mååjjmõddâd:mååjjmõ%^1VOWdd V_ROVVYD ;
 
@@ -85,6 +86,51 @@ mååjjmâʹstted:mååjjmâ%^1VOWstt V_CEQPCCED ;
 päʹlǩǩeed:päʹlǩǩ V_TEEQMEED ;
 meäʹrrõõvvâd:meäʹrˈrõõvv V_LAUKKOOLLYD ;
 mieʹrrõõttâd:mieʹrrõõtt V_LAUKKOOLLYD ;
-kättjed:kätt V_KUADHDHDHJED ;
+kättjed:kätt V_KUYDHDHDHJED ;
 tuʹmmeed:tuʹmm V_TEEQMEED ;
+teeveed:teev V_SOLLEED ;
+siõrrâd:siõrr V_SIORRYD ;
+
+kåʹmrdõõllâd:kåʹmrdõõll V_LAUKKOOLLYD ;
+čuõppõõllâd:čuõppõõll V_LAUKKOOLLYD ;
+ǩiččtõõllâd:ǩiččtõõll V_LAUKKOOLLYD ;
+ääʹjtõõllâd:ääʹjtõõll V_LAUKKOOLLYD ;
+!liikktõõllâd:liikktõõll V_LAUKKOOLLYD ;
+võõntõõllâd:võõntõõll V_LAUKKOOLLYD ;
+meäʹrtõõllâd:meäʹrtõõll V_LAUKKOOLLYD ;
+vuäʹđstõõllâd:vuäʹđstõõll V_LAUKKOOLLYD ;
+vaalmštõõllâd:vaalmštõõll V_LAUKKOOLLYD ;
+võnstõõllâd:võnstõõll V_LAUKKOOLLYD ;
+arvvtõõllâd:arvvtõõll V_LAUKKOOLLYD ;
+ooccõõttâd:ooccõõtt V_LAUKKOOLLYD ;
+čåuʹddõõttâd:čåuʹddõõtt V_LAUKKOOLLYD ;
+vuäđđõõttâd:vuäđđõõtt V_LAUKKOOLLYD ;
+võnnlõõttâd:võnnlõõtt V_LAUKKOOLLYD ;
+kaunnõõttâd:kaunnõõtt V_LAUKKOOLLYD ;
+noorrõõttâd:noorrõõtt V_LAUKKOOLLYD ;
+aassõõttâd:aassõõtt V_LAUKKOOLLYD ;
+äänstõõttâd:äänstõõtt V_LAUKKOOLLYD ;
+mättõõttâd:mättõõtt V_LAUKKOOLLYD ;
+väiʹvvõõttâd:väiʹvvõõtt V_LAUKKOOLLYD ;
+liikktõõllâd:liikktõõll V_LAUKKOOLLYD ;
+jäkktõõllâd:jäkktõõll V_LAUKKOOLLYD ;
+ǩiõttʼtõõllâd:ǩiõttʼtõõll V_LAUKKOOLLYD ;
+späʹssbõõššâd:späʹssbõõšš V_LAUKKOOLLYD ;
+noorrõõttâd:noorrõõtt V_LAUKKOOLLYD ;
+meäʹrrõõttâd:meäʹrrõõtt V_LAUKKOOLLYD ;
+šiõttõõttâd:šiõttõõtt V_LAUKKOOLLYD ;
+kaattčõõvvâd:kaattčõõvv V_LAUKKOOLLYD ;
+teâuddjõõvvâd:teâuddjõõvv V_LAUKKOOLLYD ;
+viârtõõvvâd:viârtõõvv V_LAUKKOOLLYD ;
+vuâđđtõõvvâd:vuâđđtõõvv V_LAUKKOOLLYD "" ;
+tuåimmješkueʹtted:tuåimmješkuätt V_SHKUEAQTTED "" ;
+kuâsttješkueʹtted:kuâsttješkuätt V_SHKUEAQTTED "" ;
+ouddneškueʹtted:ouddneškuätt V_SHKUEAQTTED "" ;
+jeällteškueʹtted:jeällteškuätt V_SHKUEAQTTED "" ;
+teâđsteškueʹtted:teâđsteškuätt V_SHKUEAQTTED "" ;
+sämsted:säämast V_JAELSTED "" ;
+čaaǥǥted:čaaǥǥât TV_AALGXTED "" ;
+serddjed:serdd IV_KUYDHDHDHJED "" ;
+suåvted:suåvat TV_SHORRNED "" ;
+čiõlǥted:čiõlǥât TV_AALGXTED "" ;
 

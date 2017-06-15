@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="fin">
+   <e id="ketään_pro" stat="pref">
+      <lg>
+         <l pos="pro">ketään</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">ni ǩeän</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tässä_pro" stat="pref">
+      <lg>
+         <l pos="pro">tässä</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="xxx"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem/>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="adv" stat="pref">täʹst</t>
+            <t t_type="sr" pos="adv">tä´st</t>
+            <t t_type="sr" pos="adv">täˊst</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="tästä_pro" stat="pref">
+      <lg>
+         <l pos="pro">tästä</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="xxx"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem/>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="adv" stat="pref">täʹst</t>
+            <t t_type="sr" pos="adv">tä´st</t>
+            <t t_type="sr" pos="adv">täˊst</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="mitään_pro" stat="pref">
+      <lg>
+         <l pos="pro">mitään</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">ni mâiʹd</t>
+            <t t_type="sr" pos="pro">ni mâi´d</t>
+            <t t_type="sr" pos="pro">ni mâiˊd</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="itse_pro" stat="pref">
+      <lg>
+         <l pos="pro">itse</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">jiõčč</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="mikä_pro" stat="pref">
+      <lg>
+         <l pos="pro">mikä</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="*190"/>
+         <book name="200" BEDLAN_ID="153"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">COGNITION</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">mii</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="me_pro" stat="pref">
+      <lg>
+         <l pos="pro">me</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="*188"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">mij</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="minä_pro" stat="pref">
+      <lg>
+         <l pos="pro">minä</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="*82"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">mon</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="kaikki_pro" stat="pref">
+      <lg>
+         <l pos="pro">kaikki</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+         <book name="200" BEDLAN_ID="*1"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">QUANTITY</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">puk</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="he_pro" stat="pref">
+      <lg>
+         <l pos="pro">he</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="170"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">sij</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="hän_pro" stat="pref">
+      <lg>
+         <l pos="pro">hän</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="70"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">son</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="sinä_pro" stat="pref">
+      <lg>
+         <l pos="pro">sinä</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="*207"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">ton</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="kuka_pro" stat="pref">
+      <lg>
+         <l pos="pro">kuka</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="200" BEDLAN_ID="*194"/>
+         <book name="100"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">ǩii</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="te_pro" stat="pref">
+      <lg>
+         <l pos="pro">te</l>
+      </lg>
+      <sources>
+         <book name="200" BEDLAN_ID="206"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="pro" stat="pref">tij</t>
+         </tg>
+      </mg>
+   </e>
+</r>

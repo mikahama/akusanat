@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?> <r xsi:noNamespaceSchemaLocation="../../../../../gtcore/schemas/fiu-dict-schema.xsd" xml:lang="sms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<?xml version="1.0" encoding="UTF-8"?> <r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd" xml:lang="sms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+<e exclude="fst">
+   <lg>
+     <l pos="V">jie</l>
+     <stg>
+       <st Contlex="V_">jie</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="db" name="sjm"/>
+       <src type="book" name="Vuõʹlǧǧe jååʹtted ooudâs, 2012"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">eivät</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">jie-ǥa</l>
+     <stg>
+       <st Contlex="V_">jie-ǥa</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">eivätkä</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">jielä</l>
+     <stg>
+       <st Contlex="V_">jielä</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">eivät ole</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">jieʹl</l>
+     <stg>
+       <st Contlex="V_">jieʹl</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">älä</t>
+     </tg>
+   </mg>
+</e>
+<e src="t" id="fm_121">
+   <map fin_lemma_id="" stamp="fm_121"/>
+   <rev-sort_key>ejjʹelʹeij</rev-sort_key>
+   <lg>
+     <l pos="V">jieʹleʹjje</l>
+     <stg>
+       <st Contlex="V_">jieʹleʹjje</st>
+     </stg>
+     <inc-audio>
+       <c name="ID_Audio">122</c>
+       <c name="Reader">6</c>
+       <c name="Recording">1</c>
+       <c name="included">yes</c>
+     </inc-audio>
+   </lg>
+     <sources>
+       <book name="fm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="deu">
+       <t pos="V">wären nicht</t>
+       <t pos="V" re="3. Pl">würden nicht sein</t>
+     </tg>
+     <tg xml:lang="eng">
+       <t pos="V">would not be</t>
+       <t pos="V" re="3. Pl">weren't</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="V">eivät olisi</t>
+     </tg>
+     <tg xml:lang="nob">
+       <t pos="V" re="3.person flertall">ville ikke vært</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="V">не были бы</t>
+     </tg>
+   </mg>
+</e>
 <e id="fm_2762">
    <map fin_lemma_id="1419::" stamp="fm_2762:sml_4528"/>
    <rev-sort_key>ji</rev-sort_key>
@@ -495,4 +600,809 @@
      </tg>
    </mg>
 </e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iǥâ</l>
+     <stg>
+       <st Contlex="V_">iǥâ</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">hänen ei pidä</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iǥõl</l>
+     <stg>
+       <st Contlex="V_">iǥõl</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+       <book name="Vuõʹlǧǧe jååʹtted ooudâs, 2012"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">hänen ei pidä</t>
+     </tg>
+   </mg>
+</e>
+<e src="t">
+   <lg>
+     <l pos="V" type="NEG">iʹlla</l>
+     <stg>
+       <st Contlex="V-NEG_">iʹlla</st>
+     </stg>
+     <mini_paradigm exclude="NDS">
+       <analysis ms="V_Ind_Prs_Sg3">
+           <wordform>iʹlla</wordform>
+       </analysis>
+     </mini_paradigm>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="deu">
+       <t pos="V" type="NEG">es gibt nicht</t>
+     </tg>
+     <tg xml:lang="eng">
+       <t pos="V" type="NEG">is not</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="V" type="NEG">ei ole</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="V" type="NEG">нет</t>
+     </tg>
+     <tg xml:lang="sme">
+       <t pos="V" type="NEG">ii leat</t>
+     </tg>
+   </mg>
+</e>
+ <e exclude="fst">
+   <lg>
+     <l pos="V">jeäʹlämma</l>
+     <stg>
+       <st Contlex="V_">jeäʹlämma</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">eivät olleet</t>
+     </tg>
+   </mg>
+</e>
+ <e exclude="fst">
+   <lg>
+     <l pos="V">jeäʹlämmaž</l>
+     <stg>
+       <st Contlex="V_">jeäʹlämmaž</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">eivät olleet</t>
+     </tg>
+   </mg>
+</e>
+
+ <e exclude="fst">
+   <lg>
+     <l pos="V">jeäʹläm</l>
+     <stg>
+       <st Contlex="V_">jeäʹläm</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">eivät olleet</t>
+     </tg>
+   </mg>
+</e>
+
+<e src="sjm;ps">
+   <lg>
+     <l pos="V">iʹllak</l>
+     <stg>
+       <st Contlex="V_">iʹllak</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei ole</t>
+     </tg>
+   </mg>
+</e>
+<e src="sjm;ps">
+   <lg>
+     <l pos="V">iʹllakku</l>
+     <stg>
+       <st Contlex="V_">iʹllakku</st>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei ole</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹlle</l>
+     <stg>
+       <st Contlex="V_">iʹlle</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+       <book name="Vuõʹlǧǧe jååʹtted ooudâs, 2012"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei ole</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹlleäk</l>
+     <stg>
+       <st Contlex="V_">iʹlleäk</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+       <book name="Vuõʹlǧǧe jååʹtted ooudâs, 2012"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei ole</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹlleäkku</l>
+     <stg>
+       <st Contlex="V_">iʹlleäkku</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+       <book name="Vuõʹlǧǧe jååʹtted ooudâs, 2012"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei ole</t>
+     </tg>
+   </mg>
+</e>
+<e src="t" id="fm_5833">
+   <map fin_lemma_id="15887" stamp="fm_5833:sml_4590"/>
+   <rev-sort_key>ammäellʹi</rev-sort_key>
+   <lg>
+     <l pos="V">iʹlleämma</l>
+     <variants>
+       <l_var>iʹlleämmaž</l_var>
+       <l_var>iʹllääm</l_var>
+     </variants>
+     <stg>
+       <st Contlex="V-NEG_">iʹlleämma</st>
+     </stg>
+     <inc-audio>
+       <c name="ID_Audio">5834</c>
+       <c name="Reader">0</c>
+       <c name="Recording">9</c>
+       <c name="included">yes</c>
+     </inc-audio>
+   </lg>
+     <sources>
+       <book name="fm"/>
+       <book name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="deu">
+       <t pos="V" re="3. Sg">war nicht</t>
+     </tg>
+     <tg xml:lang="eng">
+       <t pos="V" re="3.Sg">was not</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="V">ei ollut</t>
+     </tg>
+     <tg xml:lang="nob">
+       <t pos="V">var ikke</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="V">не были</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹlleämma</l>
+     <stg>
+       <st Contlex="V_">iʹlleämˈma</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+       <book name="Vuõʹlǧǧe jååʹtted ooudâs, 2012"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei ollut</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹlleämmaž</l>
+     <stg>
+       <st Contlex="V_">iʹlleämmaž</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei ollut</t>
+     </tg>
+   </mg>
+</e>
+<e src="t" id="fm_6002">
+   <map fin_lemma_id="15886::1426" stamp="fm_6002:sml_4576:sml_4577"/>
+   <rev-sort_key>ejjʹellʹi</rev-sort_key>
+   <lg>
+     <l pos="V">iʹlleʹjje</l>
+     <variants>
+       <l_var>iʹlleʹčče</l_var>
+     </variants>
+     <stg>
+       <st Contlex="V-NEG_">iʹlleʹjje</st>
+     </stg>
+     <inc-audio>
+       <c name="ID_Audio">6003</c>
+       <c name="Reader">0</c>
+       <c name="Recording">9</c>
+       <c name="included">yes</c>
+     </inc-audio>
+   </lg>
+     <sources>
+       <book name="fm"/>
+       <book name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="deu">
+       <t pos="V">wäre nicht</t>
+       <t pos="V" re="3. Sg">würde nicht sein</t>
+     </tg>
+     <tg xml:lang="eng">
+       <t pos="V">would not be</t>
+       <t pos="V" re="3.Sg">weren't</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="V">ei olisi</t>
+     </tg>
+     <tg xml:lang="nob">
+       <t pos="V">ville ikke vært</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="V">не было бы</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹlleʹjje</l>
+     <stg>
+       <st Contlex="V_">iʹlleʹjje</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+       <book name="Vuõʹlǧǧe jååʹtted ooudâs, 2012"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei olisi</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹlleʹčče</l>
+     <stg>
+       <st Contlex="V_">iʹlleʹčče</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei olisi</t>
+     </tg>
+   </mg>
+</e>
+<e src="t" id="sml_4577">
+   <map fin_lemma_id="1426" stamp=":sml_4577"/>
+   <rev-sort_key>ežžʹellʹi</rev-sort_key>
+   <lg>
+     <l pos="V">iʹlleʹžže</l>
+     <variants>
+       <l_var>iʹlleʹčče</l_var>
+     </variants>
+     <stg>
+       <st Contlex="V-NEG_">iʹlleʹžže</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="deu">
+       <t pos="V">wäre nicht</t>
+     </tg>
+     <tg xml:lang="eng">
+       <t pos="V">might not be</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="V">ei liene</t>
+     </tg>
+     <tg xml:lang="nob">
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="V">может не быть</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹllä</l>
+     <stg>
+       <st Contlex="V_">iʹllä</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei ole</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹllääm</l>
+     <stg>
+       <st Contlex="V_">iʹllääm</st>
+     </stg>
+   </lg>
+     <sources>
+       <book name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ei ollut</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹlleʹjje</l>
+     <stg>
+       <st Contlex="ADV_"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="Adv">ei olisi</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹlleʹčče</l>
+     <stg>
+       <st Contlex="ADV_"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="Adv">ei olisi</t>
+     </tg>
+   </mg>
+</e>
+<e exclude="fst">
+   <lg>
+     <l pos="V">iʹlleʹžže</l>
+     <stg>
+       <st Contlex="ADV_"/>
+     </stg>
+   </lg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="Adv">ei olisi</t>
+     </tg>
+   </mg>
+</e>
+ <e exclude="fst">
+   <lg>
+     <l pos="V">jeäʹleämma</l>
+     <stg>
+       <st Contlex="V_">jeäʹleämma</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">eivät olleet</t>
+     </tg>
+   </mg>
+</e>
+ <e src="t" id="fm_4">
+   <map fin_lemma_id="" stamp="fm_4"/>
+   <rev-sort_key>alʹäej</rev-sort_key>
+   <lg>
+     <l pos="V">jeäʹla</l>
+     <stg>
+       <st Contlex="V_">jeäʹla</st>
+     </stg>
+     <inc-audio>
+       <c name="ID_Audio">5</c>
+       <c name="Reader">6</c>
+       <c name="Recording">1</c>
+       <c name="included">yes</c>
+     </inc-audio>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <book name="fm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="deu">
+       <t pos="V" re="3.Pl">sind nicht</t>
+     </tg>
+     <tg xml:lang="eng">
+       <t pos="V" re="3.Pl">are not</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="V">eivät ole</t>
+     </tg>
+     <tg xml:lang="nob">
+       <t pos="V" re="3.person">er ikke</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="V">личное отрицание 3л.мн.ч.</t>
+     </tg>
+   </mg>
+</e>
+ <e exclude="fst">
+   <lg>
+     <l pos="V">jeäʹled</l>
+     <stg>
+       <st Contlex="V_">jeäʹled</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">älkää</t>
+     </tg>
+   </mg>
+</e>
+
+
+ <e exclude="fst">
+   <lg>
+     <l pos="V">jeäʹl</l>
+     <stg>
+       <st Contlex="V_">jeäʹl</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="db" name="sjm"/>
+       <src type="book" name="VJO"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">älä</t>
+     </tg>
+   </mg>
+</e>
+ <e exclude="fst">
+   <map sml_ids="15891:1435"/>
+   <lg>
+     <l pos="V">jeäʹp</l>
+     <stg>
+       <st Contlex="V-NEG_">jeäʹp</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="db" name="sjm"/>
+       <src type="book" name="VJO"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">emme</t>
+     </tg>
+   </mg>
+</e>
+
+ <e exclude="fst">
+   <map sml_ids="15892:1436"/>
+   <lg>
+     <l pos="V">jeäʹp-ǥa</l>
+     <stg>
+       <st Contlex="V-NEG_">jeäʹp-ǥa</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">emmekä</t>
+     </tg>
+   </mg>
+</e>
+
+ <e src="t" id="fm_730">
+   <map fin_lemma_id="1441::15893" stamp="fm_730:sml_5067:sml_5068"/>
+   <rev-sort_key>depʹäej</rev-sort_key>
+   <lg>
+     <l pos="V">jeäʹped</l>
+     <variants>
+       <l_var>jeäʹpped</l_var>
+     </variants>
+     <stg>
+       <st Contlex="V_" inflexId="::::1000">jeäʹped</st>
+     </stg>
+     <inc-audio>
+       <c name="ID_Audio">731</c>
+       <c name="Reader">6</c>
+       <c name="Recording">1</c>
+       <c name="included">yes</c>
+     </inc-audio>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="book" name="fm"/>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="deu">
+       <t pos="V">seid nicht</t>
+     </tg>
+     <tg xml:lang="eng">
+       <t pos="V" re="2. Pl">are not</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="V">ette</t>
+     </tg>
+     <tg xml:lang="nob">
+       <t pos="V">ikke (2.person</t>
+       <t pos="V">flertall)</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="V" re="2л.мн.ч.">не</t>
+     </tg>
+   </mg>
+</e>
+
+ <e exclude="fst">
+   <map sml_ids="15894"/>
+   <lg>
+     <l pos="V">jeäʹped-ǥa</l>
+     <stg>
+       <st Contlex="V-NEG_">jeäʹped-ǥa</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ettekä</t>
+     </tg>
+   </mg>
+</e>
+
+ <e exclude="fst">
+   <lg>
+     <l pos="V">jeäʹpped</l>
+     <stg>
+       <st Contlex="V_">jeäʹpped</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">ette</t>
+     </tg>
+   </mg>
+</e>
+
+ <e exclude="fst">
+   <map sml_ids="29746"/>
+   <lg>
+     <l pos="V">jeäʹl-ǥa</l>
+     <stg>
+       <st Contlex="V-NEG_">jeäʹl-ǥa</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">äläkä</t>
+     </tg>
+   </mg>
+</e>
+
+ <e>
+   <lg>
+     <l pos="V">jiõk</l>
+     <stg>
+       <st Contlex="V_">jiõk</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="db" name="sjm"/>
+       <src type="book" name="VJO"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">et</t>
+     </tg>
+   </mg>
+</e>
+
+ <e>
+   <map sml_ids="1440"/>
+   <lg>
+     <l pos="V">jiõk-ǥa</l>
+     <stg>
+       <st Contlex="V-NEG_">jiõk-ǥa</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">etkä</t>
+     </tg>
+   </mg>
+</e>
+
+ <e src="t" id="fm_114">
+   <map fin_lemma_id="1437" stamp="fm_114:sml_5378"/>
+   <rev-sort_key>mõij</rev-sort_key>
+   <lg>
+     <l pos="V">jiõm</l>
+     <variants>
+       <l_var>jim</l_var>
+     </variants>
+     <stg>
+       <st Contlex="V_" inflexId="::::1000">jiõm</st>
+     </stg>
+     <inc-audio>
+       <c name="ID_Audio">115</c>
+       <c name="Reader">6</c>
+       <c name="Recording">1</c>
+       <c name="included">yes</c>
+     </inc-audio>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="book" name="fm"/>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="deu">
+       <t pos="V" re="1. Sg">bin nicht</t>
+     </tg>
+     <tg xml:lang="eng">
+       <t pos="V" re="1.Sg">am not</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="V">en</t>
+     </tg>
+     <tg xml:lang="nob">
+       <t pos="V">nekteord (1.person</t>
+       <t pos="V">entall)</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="V" re="я не">личное отрицание 1.л.ед.ч</t>
+     </tg>
+   </mg>
+</e>
+
+ <e>
+   <map sml_ids="1438"/>
+   <lg>
+     <l pos="V">jiõm-ǥa</l>
+     <stg>
+       <st Contlex="V-NEG_">jiõm-ǥa</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="corpus" name="AKU"/>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">enkä</t>
+     </tg>
+   </mg>
+</e>
+
+ <e>
+   <lg>
+     <l pos="V">ijǥõl</l>
+     <stg>
+       <st Contlex="V_">ijǥõl</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">hänen ei pidä</t>
+     </tg>
+   </mg>
+</e>
+
+
+ <e>
+   <lg>
+     <l pos="V">jiâla</l>
+     <stg>
+       <st Contlex="V_">jiâla</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="V">eivät ole</t>
+     </tg>
+   </mg>
+</e>
+
+
 </r> 

@@ -32,7 +32,9 @@
 				"semantics" : [
 				{
 					"class":"SPACE", 
-					"value": "MOTION"
+					"value": "MOTION",
+					"mg": "0",
+					"attributes": {}
 				}
 				]
 			}

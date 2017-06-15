@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 {% comment  %}
    Takes lemma list as lemmas and file name as file_name
 {% endcomment %}
-<?xml version="1.0" encoding="UTF-8"?>
 <r xml:lang="sms">
     {% for element in lemmas %}
     {% for homonym in element.homonyms %}
@@ -9,19 +9,21 @@
     {% filename_and_pos_sms homonym.POS file_name as file_pos %}
     {% if homonym_file_name == file_name or file_pos %}
     {% get_item homonym sms2xml_id as e_id %}
-   <e id="{{ e_id }}">
+    {% get_subitem_attributes homonym "morph.element" as e_attributes %}
+    <e {{ e_attributes | safe }}>
       <lg>
           {% get_subitem_dict homonym "sms2xml.lemmas_additional_attributes" as pos_attrs %}
-         <l pos="{{ homonym.POS }}" {%for key, value in pos_attrs.items %} {{ key }}="{{ value }}" {% endfor %}>{{ element.lemma }}</l>
+          {% get_item_attributes homonym "l_attrib" as l_attributes %}
+          <l pos="{{ homonym.POS }}" {{ l_attributes | safe }}>{{ element.lemma }}</l>
       </lg>
          <sources>
              {% get_subitem_dict homonym "sms2xml.sources" as sources %}
              {% for source in source %}
-           <book {%for key, value in source.items %} {{ key }}="{{ value }}" {% endfor %}/>
+           <src {%for key, value in source.items %} {{ key }}="{{ value }}" {% endfor %}/>
              {% endfor %}
          </sources>
     {% prepare_mg homonym True as mg%}
-    {{ mg }}
+    {{ mg|safe }}
    </e>
     {% endif %}
     {% endfor %}

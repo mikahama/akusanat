@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="fin">
+   <e id="Domna_prop" stat="pref">
+      <lg>
+         <l pos="prop">Domna</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Dåʹmnn</t>
+            <t t_type="sr" pos="prop">Då´mnn</t>
+            <t t_type="sr" pos="prop">Dåˊmnn</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Inari_prop" stat="pref">
+      <lg>
+         <l pos="prop">Inari</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="phon"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Aanar</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Englanti_prop" stat="pref">
+      <lg>
+         <l pos="prop">Englanti</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Eŋgglõs</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Suomi_prop" stat="pref">
+      <lg>
+         <l pos="prop">Suomi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Lääʹddjânnam</t>
+            <t t_type="sr" pos="prop">Lää´ddjânnam</t>
+            <t t_type="sr" pos="prop">Lääˊddjânnam</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Marja_prop" stat="pref">
+      <lg>
+         <l pos="prop">Marja</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Mäʹrjj</t>
+            <t t_type="sr" pos="prop">Mä´rjj</t>
+            <t t_type="sr" pos="prop">Mäˊrjj</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Nitsijärvi_prop" stat="pref">
+      <lg>
+         <l pos="prop">Nitsijärvi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="phon"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">TOPONOMY</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Njeʹǯǯjäuʹrr</t>
+            <t t_type="sr" pos="prop">Nje´ǯǯjäu´rr</t>
+            <t t_type="sr" pos="prop">Njeˊǯǯjäuˊrr</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Rovaniemi_prop" stat="pref">
+      <lg>
+         <l pos="prop">Rovaniemi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Ruäʹvnjargg</t>
+            <t t_type="sr" pos="prop">Ruä´vnjargg</t>
+            <t t_type="sr" pos="prop">Ruäˊvnjargg</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Ruotsi_prop" stat="pref">
+      <lg>
+         <l pos="prop">Ruotsi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Ruõcˈc</t>
+            <t t_type="sr" pos="prop">Ruõcc</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Venäjä_prop" stat="pref">
+      <lg>
+         <l pos="prop">Venäjä</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Ruõššjânnam</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Saksa_prop" stat="pref">
+      <lg>
+         <l pos="prop">Saksa</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="dict"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Sakssajânnam</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Norja_prop" stat="pref">
+      <lg>
+         <l pos="prop">Norja</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Taarrjânnam</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Vasko_prop" stat="pref">
+      <lg>
+         <l pos="prop">Vasko</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Väʹsǩǩ</t>
+            <t t_type="sr" pos="prop">Vä´sǩǩ</t>
+            <t t_type="sr" pos="prop">Väˊsǩǩ</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Ivalo_prop" stat="pref">
+      <lg>
+         <l pos="prop">Ivalo</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="phon"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Âʹvvel</t>
+            <t t_type="sr" pos="prop">Â´vvel</t>
+            <t t_type="sr" pos="prop">Âˊvvel</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Annikki_prop" stat="pref">
+      <lg>
+         <l pos="prop">Annikki</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="3"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Äännaž</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="Anni_prop" stat="pref">
+      <lg>
+         <l pos="prop">Anni</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="6"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="HUMAN">PEOPLE</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Äʹnn</t>
+            <t t_type="sr" pos="prop">Ä´nn</t>
+            <t t_type="sr" pos="prop">Äˊnn</t>
+            <t pos="prop" sem-cl="" src="kurss 3-prop" fin-stat="yes">Äännaž</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="1_Sevettijärvi_prop" stat="pref">
+      <lg>
+         <l pos="prop">Sevettijärvi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">SETTLEMENT</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Čeʹvetjäuʹrr</t>
+            <t t_type="sr" pos="prop">Če´vetjäu´rr</t>
+            <t t_type="sr" pos="prop">Čeˊvetjäuˊrr</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="2_Sevettijärvi_prop" stat="pref">
+      <lg>
+         <l pos="prop">Sevettijärvi</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+         <book name="prop"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem type="ENVIR">TOPONOMY</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="prop" stat="pref">Čeʹvetjäuʹrr</t>
+            <t t_type="sr" pos="prop">Če´vetjäu´rr</t>
+            <t t_type="sr" pos="prop">Čeˊvetjäuˊrr</t>
+         </tg>
+      </mg>
+   </e>
+</r>

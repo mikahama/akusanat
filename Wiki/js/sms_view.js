@@ -6,9 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
     	var editor = editors[i];
     	editor.style.display = "none";
     }
+    document.getElementsByTagName("body")[0].appendChild(HTMLtoDOM("<div id='clickBlock' onclick='closeDialog()' style='display: none'><div onclick='stopPropagation(event)' id='inflectionResultsDialog'><h2>Taivutukset</h2><p id='inflectionResultsClose' onclick='closeDialog()'>Sulje</p><div id='inflectionResults'></div></div></div>","div"));
 }, false);
 
-var processors = [getEtymology, getCompg, getSwadesh];
+var processors = [createInflectionButton, getEtymology, getCompg, getSwadesh];
 
 function populateView(){
 	var homonyms = document.getElementsByClassName("homonym");
@@ -32,6 +33,81 @@ function populateView(){
 		}
 	}
 }
+
+function stopPropagation(event) {
+    event.stopPropagation();
+}
+
+function closeDialog() {
+    document.getElementById("clickBlock").style.display = "none";
+}
+
+function  createInflectionButton(json) {
+	var supported_pos = ["N", "A", "V"];
+	var supported_langs = ["sms"];
+    var language = getLanguage().toLowerCase();
+	if(supported_pos.indexOf(json["POS"]) > -1 && supported_langs.indexOf(language) > -1 ){
+		var lemma = getLemma();
+		if("hid" in json){
+			lemma = lemma + "+" + json["hid"];
+		}
+        var html = "<button onclick=\"getInflections('" +lemma+"', '" + json["POS"]+ "', '" + language+"' )\" >Taivuta</button>";
+
+		return [html, placing.TOP];
+	}else{
+		return ["", placing.TOP];
+	}
+}
+
+function getInflections(word, pos, language) {
+	var url = djangoURL + "inflect/?language=" + language + "&lemma=" + encodeURI(word) + "&pos=" + pos;
+	console.log(url);
+    var xss_crawler = new WSAjax (
+        url,   function (data){
+            process_inflections(data)
+})
+}
+
+function process_inflections(data) {
+    var results = data["results"];
+    console.log(data);
+    var table = "<table><tr><th>Taivutus</th><th>Tyyppi</th></tr>";
+    for(var i =0;i<results.length;i++){
+        var line = results[i];
+        table = table + "<tr><td>" + line[0] + "</td><td>" + line[1] + "</td></tr>";
+    }
+    document.getElementById("inflectionResults").innerHTML = table;
+    document.getElementById("clickBlock").style.display = "block";
+
+}
+
+var WSAjax = Class.create ({
+    initialize: function (_url, _callback){
+        this.url = _url ;
+        this.callback = _callback ;
+        this.connect () ;
+    },
+    connect: function (){
+        var script_id = null;
+        var script = document.createElement('script');
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('src', this.url);
+        script.setAttribute('id', 'xss_ajax_script');
+
+        script_id = document.getElementById('xss_ajax_script');
+        if(script_id){
+            document.getElementsByTagName('head')[0].removeChild(script_id);
+        }
+
+        // Insert <script> into DOM
+        document.getElementsByTagName('head')[0].appendChild(script);
+    },
+    process: function (data){
+        this.callback(data) ;
+    }
+
+}) ;
+
 
 function getSwadesh(json){
 	try{
@@ -88,6 +164,7 @@ function lgData(json, lgType, buttonText){
 	if (etymologies == undefined || etymologies.length==0){
 		return [return_string, placing.TOP];
 	}
+	var current_url = document.location.href.substring(0, document.location.href.lastIndexOf(":") + 1);
 	return_string = "<div class='etymology_container'><button class='etybutton' onclick='showEtymology(event)'>Näytä "+ buttonText +"</button><ul class='etylist'>"
 	for (var i = 0; i < etymologies.length; i++) {
 		var etymology = etymologies[i];
@@ -96,21 +173,33 @@ function lgData(json, lgType, buttonText){
 			continue;
 		}
 
-		var html = "<li>" + data + " (" + _(etymology.tagName) + ") <ul>";
+		var html = "<li><a href='"+ current_url + data+"'>" + data + "</a> (" + _(etymology.tagName) + ") <ul>";
 		var attrs = etymology.attributes || [];
 		for (var ii = 0; ii < attrs.length; ii++) {
 			var attribute = attrs[ii];
 			html = html + "<li>" + _(attribute.name) + " - " + _(attribute.value) + "</li>"
 		}
-		html = html + "</ul></li>"
+		html = html + "</ul></li>";
 		return_string = return_string + html;
 	}
 	return_string = return_string + "</ul></div>";
 	if(return_string.contains("<ul class='etylist'></ul>")){
 		//Empty
-		return ["", placing.TOP]
+		return ["", placing.TOP];
 	}
-	return [return_string, placing.TOP]
+	return [return_string, placing.TOP];
+}
+
+function getLanguage() {
+    var ele = document.getElementById("firstHeading");
+   	var lang = ele.textContent.split(":")[0];
+   	return lang;
+}
+
+function getLemma() {
+    var ele = document.getElementById("firstHeading");
+    var lang = ele.textContent.split(":")[1];
+    return lang;
 }
 
 String.prototype.contains = function(it) { return this.indexOf(it) != -1; };
@@ -142,4 +231,4 @@ function showEtymology(event){
 	}
 }
 
-var lokaali = {}
+var lokaali = {};

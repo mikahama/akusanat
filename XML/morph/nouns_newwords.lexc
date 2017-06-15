@@ -2,7 +2,6 @@
 !! added to the xml source files.
 !! ǩiõtt:ǩiõtt N_MUORR "(eng) /(fin) /(rus)" ;
 
-
 LEXICON N_NEWWORDS
 test:test N_MUORR "(eng) /(fin) /(rus)" ;
 !! ADD NOUNS BELOW
@@ -10,54 +9,69 @@ test:test N_MUORR "(eng) /(fin) /(rus)" ;
 !kostyym:kostyym N_PLAAN  "(eng) /(fin) /(rus)" ;
 !projektorr:projekto%^1VOWrr N_TOLL "(eng) /(fin) /(rus)" ;
 !sääʹm-museo:sääʹm-#museo N_ ;
-!sääʹmnarood:sääʹm#narood N_ ;
-kueʹddemveʹrǧǧneǩ:kueʹddemveʹrǧǧnẹ%^1VOWǩ N_KAADHNEKH "(eng) /(fin) /(rus)" ;
-leimmpiiđđlääʹǩǩ:leimmpiiđđlääkk N_CHAAQCC  "(eng) /(fin) /(rus)" ;
-määddšiõttõõllâmlääʹǩǩ:määddšiõttõõllâmlääkk N_CHAAQCC  "(eng) /(fin) /(rus)" ;
-peälštõsveʹrǧǧneǩ:peälštõsveʹrǧǧnẹ%^1VOWǩ N_KAADHNEKH "(eng) /(fin) /(rus)" ;
-põõstaijânnamlääʹǩǩ:põõstaijânnamlääkk N_CHAAQCC  "(eng) /(fin) /(rus)" ;
-riikkveäʹǩǩvuõđlääʹǩǩ:riikkveäʹǩǩvuõđlääkk N_CHAAQCC  "(eng) /(fin) /(rus)" ;
-sääʹmsaaǥǥstõõllâmkåʹdd:sääʹm#saaǥǥstõõllâm#kå%^1VOWdd N_LOAQDD ;
-sääʹmǩiõlkurss:sääʹmǩiõlku%^1VOWrss N_ALGG ;
-tuâjjlažkåʹdd:tuâjjlažkå%^1VOWdd N_LOAQDD "(eng) /(fin) /(rus)" ;
-vuʹvddooudâsviikkâmlääʹǩǩ:vuʹvddooudâsviikkâmlääkk N_CHAAQCC  "(eng) /(fin) /(rus)" ;
+
 
 !! Glossing 
-programmpaʹǩat:programm#paʹǩat N_ "(eng) program packet /(fin) ohjelmistopaketti/(rus)" ;
-kueiʹmm:kuâimm N_MUEQRJJ "" ;
+päʹlǩǩeemriâšldõk:päʹlǩǩeemriâšldõ%^1VOWk N_SAJOS "palkkaratkaisu" ;
+
+
+fonogramm:fonogra%^1VOWmm N_PAPP "" ;
+diftoŋŋ:difto%^1VOWŋŋ N_PAPP "" ;
+variantt:varia%^1VOWntt N_ALGG "" ;
+maaddâr:ma%^1VOWddâr N_LUUBBYL "" ;
+maaddâräi:maaddârä%^1VOWjj N_PEQLLJ "" ;
+tääʹrǩesǩeeʹrjtummuš:tääʹrǩesǩeeʹrjtummuš N_MAINSTUMMUSH "" ;
+vokaal:vokaal N_PLAAN "" ;
+taullõk:taullõ%^1VOWk N_SAJOS "" ;
+vokaalmuuttâstaullõk:vokaalmuuttâstaullõ%^1VOWk N_SAJOS "" ;
+
 
 !! Newer words
 !! Contlex value missing
 
-caarpäʹrnn:caar#pä%^1VOWrnn N_KAQLBB "" ;
-ǩicstõs:ǩicstõ%^1VOWs N_SAJOS "" ;
-čâđđamvuâlaž:čâđđamvuâl N_KUALAZH "" ;
-falaŋŋ:falaŋŋ N_PAPP "" ;
-petaŋkk:petaŋkk N_ALGG "" ;
-ponomarr:ponomarr N_TOLL "" ;
-rastafarr:rastafarr N_TOLL "" ;
-charmm:charmm N_ALGG "" ;
-santarmm:santarmm N_ALGG "" ;
-ekseeʹmm:eksẹẹmm N_TEEQMM "" ;
-teoreeʹmm:teorẹẹmm N_TEEQMM "" ;
-krysanteeʹm:krysantẹẹm N_SYSTEEQM "" ;
+cõõǥǥõs:cõõǥǥõ%^1VOWs N_SAJOS "" ;
+järrnemraukkmõš:järrnemraukkmõ%^1VOWš N_SAJOS "" ;
+koođđâmvuʹvdd:koođđâmvu%^1vowvdd N_JUQVJJ "" ;
+kueʹddemveʹrǧǧneǩ:kueʹddemveʹrǧǧnẹ%^1VOWǩ N_KAADHNEKH "" ;
+kueʹllnääʹllraajõs:kueʹllnääʹllraajõ%^1VOWs N_SAJOS "" ;
+kueʹllvalmštemškoouʹlʼjummuš:kueʹllvalmštemškoouʹlʼjummuš N_MAINSTUMMUSH "" ;
+kuârmtemarvvlõs:kuârmtemarvvlõ%^1VOWs N_SAJOS "" ;
+kââhhmõš:kââhhmõ%^1VOWš N_SAJOS "" ;
+käuʹnnååsktõs:käuʹnnååsktõ%^1VOWs N_SAJOS "" ;
+laskkooumaž:laskk#o%^1VOWumm N_OOUMAZH "" ;
+leiʹǧǧvuänummuš:leiʹǧǧvuänummuš N_MAINSTUMMUSH "" ;
+lopplopp:lopplo%^1VOWpp N_PAPP "" ;
+mättjempuåđõs:mättjempuåđõ%^1VOWs N_SAJOS "" ;
+mättʼtemaaunâspiisar:mättʼtemaaunâspiisar N_AANAR "" ;
+ooccipiârkåʹdd:ooccipiârkå%^1VOWdd N_LOAQDD "" ;
+pieʹʒʒporrmõš:pieʹʒʒporrmõ%^1VOWš N_SAJOS "" ;
+pueʹrrvââjjamplaan:pueʹrrvââjjamplaan N_PLAAN "" ;
+puäʒʒpodd:puäʒʒpo%^1VOWdd N_PAPP "" ;
+pååđkuârmtemarvvlõs:pååđkuârmtemarvvlõ%^1VOWs N_SAJOS "" ;
+pååʹštvuäittmõš:pååʹštvuäittmõ%^1VOWš N_SAJOS "" ;
+suõnnmäätt:suõnn#määtt N_SHOOMM "" ;
+tuâjjtobddmõš:tuâjjtobddmõ%^1VOWš N_SAJOS "" ;
+täällraajjmõš:täällraajjmõ%^1VOWš N_SAJOS "" ;
+valdiavuässõsoođummuš:valdiavuässõsoođummuš N_MAINSTUMMUSH "" ;
+virksmâʹttemâânnmõš:virksmâʹttemâânnmõ%^1VOWš N_SAJOS "" ;
+vueʹsttčiõʹlǧǧõs:vueʹsttčiõʹlǧǧõ%^1VOWs N_SAJOS "" ;
+vueʹǩǩõs:vueʹǩǩõ%^1VOWs N_SAJOS "" ;
+vuâđđräʹtǩǩõs:vuâđđräʹtǩǩõ%^1VOWs N_SAJOS "" ;
+vuäǯǯummuš:vuäǯǯummuš N_MAINSTUMMUSH "" ;
+vuõiggnuʹbbeemvuõlttõs:vuõiggnuʹbbeemvuõlttõ%^1VOWs N_SAJOS "" ;
+vuõiggnuʹbbummuš:vuõiggnuʹbbummuš N_MAINSTUMMUSH "" ;
+vuõssǩeeʹrjtõs:vuõssǩeeʹrjtõ%^1VOWs N_SAJOS "" ;
+võrrkuåškknjõs:võrrkuåškknjõ%^1VOWs N_SAJOS "" ;
+äkkhalltõs:äkkhalltõ%^1VOWs N_SAJOS "" ;
+äʹrbbvuõttšõddmõš:äʹrbbvuõttšõddmõ%^1VOWš N_SAJOS "" ;
+čâustõksaakkčuõiggmõš:čâustõksaakkčuõiggmõ%^1VOWš N_SAJOS "" ;
+čäʹccõsraajjmõš:čäʹccõsraajjmõ%^1VOWš N_SAJOS "" ;
+čõõrmlåʹdd:čõõrmlå%^1VOWdd N_LOAQDD "" ;
+ǩiõllpieʹzzkueiʹmm:ǩiõllpieʹzzkuâimm N_MUEQRJJ "" ;
+
+
+!ǩiõl-lääʹǩǩ:ǩiõl-lääkk N_CHAAQCC "" ;
+Lappijânnam:Lappijânnam PROP_AANAR "" ;
+Ruõccjânnam:Ruõccjânnam PROP_AANAR "" ;
 Tiõrv-kõskkpeiʹvv-vuõlttõs:Tiõrv-kõskkpeiʹvv-#vuõlttõ%^1VOWs N_SAJOS "" ;
-nueʹđđseʹrddemhaʹŋǩǩõs:nueʹđđseʹrddemhaʹŋǩǩõ%^1VOWs N_SAJOS "" ;
-fi-õhttsažtuejj-haʹŋǩǩõs:fi-õhttsažtuejj-haʹŋǩǩõ%^1VOWs N_SAJOS "" ;
 
-čeäʹppvuõđpõrtt:čeäʹppvuõđ#põ%^1VOWrtt N_ALGG "" ;
-pååđteäggtõs:pååđteäggtõ%^1VOWs N_SAJOS "" ;
-päʹlǩǩeemriâšldõk:päʹlǩǩeemriâšldõ%^1VOWk N_SAJOS "palkkaratkaisu" ;
-
-tanss:ta%^1VOWnss N_ALGG "" ;
-puõʹttivuõtt:puõʹttivuõtt N_MUORR "" ;
-aanrõsǩiõll:aanrõs#ǩiõll N_MUORR "" ;
-pueʹrtuejjeemvuõtt:pueʹrtuejjeemvuõtt N_MUORR "" ;
-A-ǩiõll:A-ǩiõll N_MUORR "" ;
-kuurniǩ:kuurniǩ N_AACCIKH ;
-juukkjihuõltuâjjlaž:juukkjihuõltuâjjl N_MEERSAZH ;
-toobdâlm:toobdâlm N_TOOBDYLM ;
-vaalgalleriamainstâttmõš:vaalgalleriamainstâttmõ%^1VOWš N_SAJOS ;
-ǩiõltobddmõš:ǩiõltobddmõ%^1VOWš N_SAJOS ;
-õhttvuõđâânnmõš:õhttvuõđ#âânnmõ%^1VOWš 	N_SAJOS ;
-neʹttvuâsttavälddmõš:neʹttvuâsttavälddmõ%^1VOWš N_SAJOS ;

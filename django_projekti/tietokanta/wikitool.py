@@ -16,6 +16,7 @@ class Wikitool():
         txt = urllib.urlopen(self.sms_edit_url).read()
         js_header = u"var document ={};document['addEventListener']=function(x,y,z){};\n"
         self.js = js_header + txt.decode('utf-8')
+        self.ctx = execjs.compile(self.js)
         self.cookies = {}
 
 
@@ -60,13 +61,14 @@ class Wikitool():
 
     def __homonyms_to_wikisyntax__(self, homonyms,lemma, language):
         #This will be done using the same JS wiki uses!
-        ctx = execjs.compile(self.js)
-        wiki = ctx.call("jsonsToWikiFromDjango", homonyms,lemma, language)
+        wiki = self.ctx.call("jsonsToWikiFromDjango", homonyms,lemma, language)
         return wiki
 
 
 
     def post_lemma(self, lemma, language, lemmaData):
+        if lemmaData is None:
+            print lemma
         homonyms = self.__homonyms_to_wikisyntax__(lemmaData["homonyms"],lemma, language.capitalize())
         postParameters = {"action": "edit", "title": language + ":" + lemma, "text" : homonyms, "recreate": True, "token": self.token, "bot": True}
         success, results = self.post(self.wiki_url + "api.php", postParameters)

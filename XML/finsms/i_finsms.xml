@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xml:lang="fin">
+   <e id="kyllä_i" stat="pref">
+      <lg>
+         <l pos="i">kyllä</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="5"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="SENSE">PERCEPTION</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="i" stat="pref">kâʹl</t>
+            <t t_type="sr" pos="i">kâ´l</t>
+            <t t_type="sr" pos="i">kâˊl</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="terve_i" stat="pref">
+      <lg>
+         <l pos="i">terve</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="1"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">SOCIAL</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="i" stat="pref">tiõrv</t>
+         </tg>
+      </mg>
+   </e>
+   <e id="ole hyvä_i" stat="pref">
+      <lg>
+         <l pos="i">ole hyvä</l>
+      </lg>
+      <sources>
+         <book name="kurss" lesson="2"/>
+      </sources>
+      <mg>
+         <semantics>
+            <sem class="HUMAN">SOCIAL</sem>
+         </semantics>
+         <tg xml:lang="sms">
+            <t pos="i" stat="pref">tiõrvvsa</t>
+         </tg>
+      </mg>
+   </e>
+</r>

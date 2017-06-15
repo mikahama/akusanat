@@ -1,3 +1,4 @@
+#encoding: utf-8
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import RequestContext, loader
@@ -12,8 +13,12 @@ from tietokanta.git_tool import GitTool
 import thread
 import subprocess
 import logging
-
+import io
+import cgi
 import os
+import copy
+import HTMLParser
+import inflector
 
 
 from django.conf import settings
@@ -21,7 +26,8 @@ from django.conf import settings
 
 file_types = {
     "sms" : {"finsms": "sms_finsms.xml", "sms":"sms_sms.xml", "morph": "sms_morph.xml"},
-    "izh" : {".": "izh_morph.xml"}
+    "izh" : {".": "izh_morph.xml"},
+    "testi" : {".": "izh_morph.xml"}
 }
 api_keys =[u"sdfrf4535gdg35ertgfd", u"45454arefg785421!R", u"e3455rtwe54325t"]
 
@@ -37,7 +43,7 @@ def xml_out(request):
         'lemmas': lemmas,
         "file_name" : xml_filename
     })
-    return HttpResponse(template.render(context), content_type="application/json")
+    return HttpResponse(template.render(context), content_type="text/plain; charset=utf-8")
 
 def check_apikey(request):
     api_key = request.POST["api"]
@@ -66,17 +72,31 @@ def pull_git(request):
     pull_from_git(lang)
     return HttpResponse("OK", status=200)
 
+def error_log(request):
+    clear = request.GET.get("clear", "false")
+    BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+    error_file_path = os.path.join(BASE_DIR, 'error.log')
+    if clear == "true":
+        f = open(error_file_path, "w")
+        f.write("")
+        f.close()
+    f = io.open(error_file_path, "r")
+    errors = f.read()
+    return HttpResponse(errors, status=200)
+
 
 def pull_from_git(lang):
     git_tool = GitTool(lang)
     old_files = git_tool.list_files()
     git_tool.pull()
     new_files = git_tool.list_files()
+    print new_files
     for folder in new_files:
         for file in new_files[folder]:
             print file
             f = open(file, 'r')
             xml = f.read()
+            f.close()
             head, tail = os.path.split(file)
             if file not in old_files[folder]:
                 first_time = True
@@ -87,9 +107,21 @@ def pull_from_git(lang):
 
 def rebase_wiki(request):
     language = request.GET.get("language", "sms")
+    clear = request.GET.get("clear", None)
+    auth = request.GET.get("auth", "")
+    if clear is not None and auth == u"okojewof53":
+        mongoilija.clear_language(language)
     mongoilija.push_everything_to_wiki(language)
     process_towiki_queue("", request.GET.get("language", "sms"))
     return HttpResponse("OK", status=200)
+
+def inflect(request):
+    language = request.GET.get("language", "sms")
+    lemma = request.GET.get("lemma", "")
+    pos = request.GET.get("pos", "")
+    results = inflector.return_all_inflections(lemma,pos,language)
+    return HttpResponse("process_inflections(" + json.dumps({"results": results}) + ")",status=200, content_type="application/json")
+
 
 @csrf_exempt
 def delete_lemma(request):
@@ -108,15 +140,19 @@ def update_lemma(request):
     mongoilija.update_lemma(lemma, homonyms["homonyms"], language)
     return HttpResponse("",status=200)
 
+def test_mongo(request):
+    lemma = request.GET.get("lemma",u"domm-muʹzei")
+    data = mongoilija.get_lemma(lemma, "sms")
+    return HttpResponse(str(data),status=200)
+
 def process_towiki_queue(request, language="sms"):
-    queue = WikiUpdateQueue.objects.all()
+    queue = WikiUpdateQueue.objects.filter(language=language)
     username = getattr(settings, "WIKI_USERNAME", None)
     password = getattr(settings, "WIKI_PASSWORD", None)
     wt = Wikitool(username,password, language)
     print wt.login()
     print wt.get_token()
     print wt.token
-
     count = 0
     s_count = 0
     for item in queue:
@@ -154,7 +190,25 @@ def update_system(request):
     return HttpResponse(result, status=200)
 
 def version(request):
-    return HttpResponse("1.0.1 " + getattr(settings, "CURRENT_URL", "null domain"), status=200)
+    return HttpResponse("1.0.2 " + getattr(settings, "CURRENT_URL", "null domain"), status=200)
+
+def rsa_key(request):
+    BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+    key_path = os.path.join(BASE_DIR, 'id_rsa')
+    result = ""
+    if not os.path.isfile(key_path):
+        #generate a new key
+        result = str(subprocess.call("ssh-keygen -t rsa -f " +key_path +" -q -P \"\"" , shell=True, stdout=subprocess.PIPE))
+    f = open(key_path + ".pub", "r")
+    key = f.read()
+    f.close()
+    return HttpResponse(result + "\n\nKey\n\n" + key, status=200)
+
+def test_git(request):
+    git_tool = GitTool("sms")
+    out = git_tool.pull()
+    new_files = git_tool.list_files()
+    return HttpResponse(out, status=200)
 
 @register.assignment_tag
 def get_item(dictionary, key):
@@ -205,12 +259,15 @@ def filename_and_pos_sms(pos, file_name):
     return pos + "_sms2X.xml" == file_name or pos + "_sms2x.xml" == file_name
 
 
-pos_abreviations = {"N": "nouns", "A": "adjectives", "Pr":"adpositions", "Po":"adpositions", "Adv": "adverbs", "CC":"conjunctors", "CS":"conjunctors", "Interj": "interjections", "Pcle": "particles", "Pron":"pronouns", "Num":"quantifiers", "V":"verbs"}
+pos_abreviations = {"n": "nouns", "a": "adjectives", "pr":"adpositions", "po":"adpositions", "adv": "adverbs", "cc":"conjunctors", "cs":"conjunctors", "interj": "interjections", "pcle": "particles", "pron":"pronouns", "num":"quantifiers", "v":"verbs"}
 @register.assignment_tag
 def filename_and_pos_izh(pos, file_name):
     if pos == "Pr" and file_name == "prepositions.xml":
         return True
-    return pos_abreviations[pos] + ".xml" == file_name
+    try:
+        return pos_abreviations[pos.lower()] + ".xml" == file_name
+    except:
+        return False
 
 @register.assignment_tag
 def get_subitem(dictionary, key):
@@ -248,6 +305,36 @@ def get_subitem_dict(dictionary, key):
         return {}
 
 @register.assignment_tag
+def get_subitem_attributes(dictionary, key):
+    keys = key.split(".")
+    first_dict = dictionary.get(keys[0])
+    if first_dict is not None:
+        value = first_dict.get(keys[1])
+        if value is None:
+            return ""
+        else:
+            text = ""
+            for k in value.keys():
+                text = text + k +"=\"" + cgi.escape(value[k]) + "\" "
+            return text
+    else:
+        return ""
+
+@register.assignment_tag
+def get_item_attributes(dictionary, key):
+    if key in dictionary:
+        value = dictionary.get(key)
+        if value is None:
+            return ""
+        else:
+            text = ""
+            for k in value.keys():
+                text = text + k +"=\"" + cgi.escape(value[k]) + "\" "
+            return text
+    else:
+        return ""
+
+@register.assignment_tag
 def get_subitem_text(dictionary, key):
     keys = key.split(".")
     try:
@@ -263,63 +350,99 @@ def get_subitem_text(dictionary, key):
 @register.assignment_tag
 def prepare_mg(homonym, only_fin=False):
     mgs = {}
+    ht_parser = HTMLParser.HTMLParser()
     if "mg_data" in homonym:
         for mg_other in homonym["mg_data"]:
             line = "<" + mg_other["element"]
             for at_key in mg_other["attributes"].keys():
-                line += " " + at_key.replace("xml_lang", "xml:lang") + "=\"" + mg_other["attributes"][at_key] + "\""
-            line += ">" + mg_other["text"] + "</"+ mg_other["element"] + ">"
+                line += " " + at_key.replace("xml_lang", "xml:lang") + "=\"" + cgi.escape(mg_other["attributes"][at_key]) + "\""
+            line += ">" + ht_parser.unescape(mg_other["text"] or "") + "</"+ mg_other["element"] + ">"
             mg_id = mg_other["mg"]
             if mg_id not in mgs:
-                mgs[mg_id] = {"sem":[], "tr":{}, "other": []}
+                mgs[mg_id] = {"sem":[],"sem_atrs":[], "tr":{}, "other": [], "tg_atrs":{}}
             mgs[mg_id]["other"].append(line)
 
-    for sem in homonym["semantics"]:
+    for ind in range(len(homonym["semantics"])):
+        sem = homonym["semantics"][ind]
         if "mg" in sem:
             mg_id = sem["mg"]
         else:
             mg_id = "0"
+        if "attributes" in sem:
+            atrs = sem["attributes"]
+        else:
+            atrs = {}
         if mg_id not in mgs:
-            mgs[mg_id] = {"sem":[], "tr":{}, "other": []}
-        mgs[mg_id]["sem"].append("<sem class=\"" +sem["class"]+"\">" +sem["value"]+"</sem>")
-    for langs in homonym["translations"]:
-        for lang in langs.keys():
-            if only_fin and lang != "fin":
-                continue
-            for trans in langs[lang]:
-                for tr in trans:
-                    if "mg" in tr:
-                        mg_id = tr["mg"]
-                    else:
-                        mg_id = "0"
-                    if mg_id not in mgs:
-                        mgs[mg_id] = {"sem":[], "tr":{},"other": []}
-                    if lang not in mgs[mg_id][tr]:
-                        mgs[mg_id][tr][lang] = []
+            mgs[mg_id] = {"sem":[],"sem_atrs":[], "tr":{}, "other": [],"tg_atrs":{}}
 
-                    xml_line = "<t"
-                    for item in tr.keys():
-                        if item == "word" or item == "mg" or item == "POS":
-                            continue
-                        else:
-                            xml_line = xml_line + " " + item + "=\"" + tr[item] + "\""
-                    mgs[mg_id][tr][lang].append(xml_line + " pos=\"" + tr["POS"] + "\">" + tr["word"] + "</t>")
+        try:
+            mgs[mg_id]["sem_atrs"].append(homonym["semantics_attributes"][ind])
+        except:
+            mgs[mg_id]["sem_atrs"].append({})
+        xml_start = "<sem "
+        for key in atrs.keys():
+            xml_start = xml_start + key + "=\""+ atrs[key] +"\" "
+        mgs[mg_id]["sem"].append(xml_start + "class=\"" +cgi.escape((sem["class"] or ""))+"\">" +(sem["value"] or "")+"</sem>")
+    langs = homonym["translations"]
+    for lang in langs.keys():
+        if only_fin and lang != "fin":
+            continue
+        trans = langs[lang]
+        for tr in trans:
+            if "mg" in tr:
+                mg_id = tr["mg"]
+            else:
+                mg_id = "0"
+            if mg_id not in mgs:
+                mgs[mg_id] = {"sem":[],"sem_atrs":[], "tr":{},"other": [], "tg_atrs":{}}
+            if lang not in mgs[mg_id]["tr"]:
+                mgs[mg_id]["tr"][lang] = []
+            if "re" in tr and tr["re"] == "true":
+                t_tag = "re"
+            else:
+                t_tag = "t"
+            xml_line = "<" + t_tag
+            for item in tr.keys():
+                if item == "word" or item == "mg" or item == "re":
+                    continue
+                elif type(tr[item]) != dict:
+                    xml_line = xml_line + " " + item + "=\"" + tr[item] + "\""
+            mgs[mg_id]["tr"][lang].append(xml_line + " >" + (tr["word"] or "") + "</"+t_tag+">")
+    if "tg_attrs" in homonym:
+        for mg_index in homonym["tg_attrs"].keys():
+            if mg_index not in mgs:
+                mgs[mg_index] = {"sem":[],"sem_atrs":[], "tr":{},"other": [], "tg_atrs":{}}
+            mgs[mg_index]["tg_atrs"] = homonym["tg_attrs"][mg_index]
+
     xml = ""
     for mg_k in mgs.keys():
-        xml += "<mg relId=\"" + mg_k + "\">\n"
+        xml += "<mg relId=\"" + str(mg_k) + "\">\n"
         mg = mgs[mg_k]
         for other in mg["other"]:
             xml += other + "\n"
         if len(mg["sem"]) > 0:
-            xml += "<semantics>\n"
+            satrs = mgs[mg_id]["sem_atrs"][0]
+            sem_atrs = ""
+            for key in satrs:
+                    if key == "class":
+                        continue
+                    sem_atrs = sem_atrs + " " + key + "=\"" + atrs[key] + "\""
+            xml += "<semantics" + sem_atrs + ">\n"
             for sem in mg["sem"]:
                 xml += sem + "\n"
             xml += "</semantics>\n"
-        for lang in mg["tr"].keys():
-            xml += "<tg xml:lang=\"" + lang + "\">"
+        sorted_keys = sorted(copy.copy(mg["tr"].keys()))
+        for lang in sorted_keys:
+            xml_start = "<tg "
+            if lang in mg["tg_atrs"]:
+                for key in mg["tg_atrs"][lang]:
+                    if key == "xml_lang":
+                        continue
+                    xml_start = xml_start + " " + key+"=\""+ mg["tg_atrs"][lang][key] + "\""
+            xml += xml_start + " xml:lang=\"" + lang + "\">"
             for trans in mg["tr"][lang]:
                 xml += trans + "\n"
             xml += "</tg>\n"
         xml += "</mg>\n"
-    return xml
+    return xml.replace("xml_lang", "xml:lang")
 

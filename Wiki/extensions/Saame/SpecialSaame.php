@@ -152,7 +152,11 @@ class SpecialSaame extends SpecialPage {
 		if ($langCode){
 			#Modify only pages of supported languages
 			$configs = parse_ini_file('SaameConfig.ini');
+			$url = $configs["djangoUrl"];
+			$editPage->addScript("<script type='text/javascript' src='". $configs["jsBaseUrl"] . "prototype.js'></script>");
+			$editPage->addScript("<script type='text/javascript' src='". $configs["jsBaseUrl"] . "audio.js'></script>");
 			$editPage->addScript("<script type='text/javascript' src='". $configs["jsBaseUrl"] . "sms_view.js'></script>");
+			$editPage->addScript("<script type='text/javascript'>var djangoURL = \"" . $url . "\";</script>");
 			$editPage->addStyle( $configs["jsBaseUrl"] . "sms_view.css");
 		}
 		
