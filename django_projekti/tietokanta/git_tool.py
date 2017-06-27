@@ -9,14 +9,20 @@ import xml.dom.minidom
 
 class GitTool():
     def __init__(self, lang):
-        self.repo_path = getattr(settings, "GIT_DIR_" + lang.upper(), None)
+        self.repo_path = getattr(settings, "GIT_DIR_" + lang.upper(), "/www/smsxml/xmls/" + lang + "/" + lang + "/")
         print self.repo_path
         print "GIT_DIR_" + lang
         self.current_url = getattr(settings, "CURRENT_URL", None)
         self.git_user = getattr(settings, "GIT_USERNAME", "SmsBot")
         self.easy_git = EasyGit(self.repo_path)
-        self.easy_git.set_user(self.git_user)
+        try:
+            self.easy_git.set_user(self.git_user)
+        except:
+            pass
         self.lang = lang
+
+    def clone(self, remote_url):
+        return self.easy_git.clone(remote_url)
 
     def pull(self):
         try:

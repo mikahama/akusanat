@@ -6,10 +6,23 @@ class EasyGit():
 	def __init__(self, path=None):
 		if path is None:
 			self.repo_path =  os.getcwd()
-		self.repo_path = path
+		else:
+			self.repo_path = path
+		if not os.path.exists(self.repo_path):
+			os.makedirs(self.repo_path)
+
 
 	def pull(self):
 		return self.__run_command__("git pull")
+
+	def clone(self, remote_url):
+		p = subprocess.Popen("git clone " + remote_url, stdout=subprocess.PIPE, shell=True, cwd=self.repo_path)
+
+		(output, err) = p.communicate()
+
+		#This makes the wait possible
+		p.wait()
+		return output
 
 	def set_user(self, user):
 		self.__run_command__("git config user.name " + user)

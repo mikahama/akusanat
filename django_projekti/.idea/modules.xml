@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Wiki/Wiki.iml" filepath="$PROJECT_DIR$/../Wiki/Wiki.iml" />
+      <module fileurl="file://$USER_HOME$/papers/combine_mgs/combine_mgs.iml" filepath="$USER_HOME$/papers/combine_mgs/combine_mgs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/saame.iml" filepath="$PROJECT_DIR$/.idea/saame.iml" />
       <module fileurl="file://$USER_HOME$/Kielipankki-palvelut/servers/sanat/.idea/sanat.iml" filepath="$USER_HOME$/Kielipankki-palvelut/servers/sanat/.idea/sanat.iml" />
     </modules>

@@ -119,11 +119,13 @@ def update_word_in_lemma(lemma, word, identify_homonym_by="POS", language="sms",
         identify_homonym_by = "hid"
     id = word[identify_homonym_by]
     exists = False
-    for homonym in lemma["homonyms"]:
+    for hindex in range(len(lemma["homonyms"])):
+        homonym = lemma["homonyms"][hindex]
         if __identify_homonym__(homonym, identify_homonym_by, id):
             #The homonym already exists -> update
             exists = True
-            was_changed = __merge_dictionaries__(homonym, word, not first_time_sync)
+            lemma["homonyms"][hindex] = word
+            was_changed = True
     if not exists:
         was_changed = True
         lemma["homonyms"].append(word)
@@ -143,7 +145,7 @@ def update_lemma(lemma, homonyms, language="sms"):
 
 def get_all_lemmas(language):
     collection = __get_db_collection__(language)
-    return collection.find().sort("created_at",pymongo.ASCENDING)
+    return collection.find().sort("_id",pymongo.ASCENDING)
 
 def get_lemma(lemma, language):
     data, new = __get_lemma__(lemma, language)

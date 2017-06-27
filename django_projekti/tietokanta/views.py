@@ -19,6 +19,7 @@ import os
 import copy
 import HTMLParser
 import inflector
+from django.views.decorators.clickjacking import xframe_options_exempt
 
 
 from django.conf import settings
@@ -27,13 +28,14 @@ from django.conf import settings
 file_types = {
     "sms" : {"finsms": "sms_finsms.xml", "sms":"sms_sms.xml", "morph": "sms_morph.xml"},
     "izh" : {".": "izh_morph.xml"},
-    "testi" : {".": "izh_morph.xml"}
+    "testi" : {".": "izh_morph.xml"},
+    "mhr" : {".": "izh_morph.xml"}
 }
 api_keys =[u"sdfrf4535gdg35ertgfd", u"45454arefg785421!R", u"e3455rtwe54325t"]
 
 def xml_out(request):
     xml_filename = request.GET["file"]
-    xml_type = request.GET["type"]
+    xml_type = request.GET.get("type", ".")
     language = request.GET.get("language", "sms")
     lemmas = mongoilija.get_all_lemmas(language)
 
@@ -66,6 +68,14 @@ def dump_to_git(request):
     git_tool.dump_and_commit()
     return HttpResponse("OK", status=200)
 
+def clone_git(request):
+    lang = request.GET.get("language", None)
+    remote_url = request.GET.get("url", None)
+    if remote_url is None or lang is None:
+        return HttpResponse("Error, no url or language", status=500)
+    git_tool = GitTool(lang)
+    results = git_tool.clone(remote_url)
+    return HttpResponse(results, status=200)
 
 def pull_git(request):
     lang = request.GET.get("language", "sms")
@@ -115,12 +125,21 @@ def rebase_wiki(request):
     process_towiki_queue("", request.GET.get("language", "sms"))
     return HttpResponse("OK", status=200)
 
+@xframe_options_exempt
 def inflect(request):
     language = request.GET.get("language", "sms")
-    lemma = request.GET.get("lemma", "")
+    lemma = request.GET.get("lemma", u"").replace(u"%2B", u"+")
+    output = request.GET.get("output", "json")
     pos = request.GET.get("pos", "")
     results = inflector.return_all_inflections(lemma,pos,language)
-    return HttpResponse("process_inflections(" + json.dumps({"results": results}) + ")",status=200, content_type="application/json")
+    if output == u"html":
+        table = "<table><tr><th>Taivutus</th><th>Tyyppi</th></tr>"
+        for result in results:
+            table = table + "<tr><td>" + result[0] + "</td><td>" + result[1] + "</td></tr>"
+        table = table + "</table>"
+        return HttpResponse(table ,status=200, content_type="text/html; charset=utf-8")
+    else:
+        return HttpResponse("process_inflections(" + json.dumps({"results": results}) + ")",status=200, content_type="application/json")
 
 
 @csrf_exempt
@@ -255,7 +274,28 @@ def filename_and_pos(pos, file_name):
     return pos + "_finsms.xml" == file_name
 
 @register.assignment_tag
-def filename_and_pos_sms(pos, file_name):
+def filename_and_pos_sms(homonym, file_name):
+    pos = homonym["POS"]
+    if u"ABBR_" in file_name:
+        if "type" in homonym["l_attrib"] and homonym["l_attrib"]["type"] == u"ABBR":
+            return True
+        else:
+            return False
+    if pos == u"N":
+        if "l_attrib" in homonym:
+            if "N_Prop_Toponyms" in file_name:
+                if "sem_type" in homonym["l_attrib"] and homonym["l_attrib"]["sem_type"] == u"Plc":
+                     return True
+                return False
+            if "N_Prop" in file_name:
+                if "type" in homonym["l_attrib"] and homonym["l_attrib"]["type"] == u"Prop":
+                    return True
+                return False
+            if "N_" in file_name:
+                if "type" in homonym["l_attrib"]:
+                    return False
+                else:
+                    return True
     return pos + "_sms2X.xml" == file_name or pos + "_sms2x.xml" == file_name
 
 
@@ -359,8 +399,14 @@ def prepare_mg(homonym, only_fin=False):
             line += ">" + ht_parser.unescape(mg_other["text"] or "") + "</"+ mg_other["element"] + ">"
             mg_id = mg_other["mg"]
             if mg_id not in mgs:
-                mgs[mg_id] = {"sem":[],"sem_atrs":[], "tr":{}, "other": [], "tg_atrs":{}}
+                mgs[mg_id] = {"sem":[],"sem_atrs":{}, "tr":{}, "other": [], "tg_atrs":{}}
             mgs[mg_id]["other"].append(line)
+
+    if "semantics_attributes" in homonym:
+        for mg_i in homonym["semantics_attributes"]:
+            if mg_i not in mgs:
+                mgs[mg_i] = {"sem":[],"sem_atrs":{}, "tr":{}, "other": [],"tg_atrs":{}}
+            mgs[mg_i]["sem_atrs"] = homonym["semantics_attributes"][mg_i]
 
     for ind in range(len(homonym["semantics"])):
         sem = homonym["semantics"][ind]
@@ -373,14 +419,12 @@ def prepare_mg(homonym, only_fin=False):
         else:
             atrs = {}
         if mg_id not in mgs:
-            mgs[mg_id] = {"sem":[],"sem_atrs":[], "tr":{}, "other": [],"tg_atrs":{}}
+            mgs[mg_id] = {"sem":[],"sem_atrs":{}, "tr":{}, "other": [],"tg_atrs":{}}
 
-        try:
-            mgs[mg_id]["sem_atrs"].append(homonym["semantics_attributes"][ind])
-        except:
-            mgs[mg_id]["sem_atrs"].append({})
         xml_start = "<sem "
         for key in atrs.keys():
+            if key == "class":
+                continue
             xml_start = xml_start + key + "=\""+ atrs[key] +"\" "
         mgs[mg_id]["sem"].append(xml_start + "class=\"" +cgi.escape((sem["class"] or ""))+"\">" +(sem["value"] or "")+"</sem>")
     langs = homonym["translations"]
@@ -394,7 +438,7 @@ def prepare_mg(homonym, only_fin=False):
             else:
                 mg_id = "0"
             if mg_id not in mgs:
-                mgs[mg_id] = {"sem":[],"sem_atrs":[], "tr":{},"other": [], "tg_atrs":{}}
+                mgs[mg_id] = {"sem":[],"sem_atrs":{}, "tr":{},"other": [], "tg_atrs":{}}
             if lang not in mgs[mg_id]["tr"]:
                 mgs[mg_id]["tr"][lang] = []
             if "re" in tr and tr["re"] == "true":
@@ -411,7 +455,7 @@ def prepare_mg(homonym, only_fin=False):
     if "tg_attrs" in homonym:
         for mg_index in homonym["tg_attrs"].keys():
             if mg_index not in mgs:
-                mgs[mg_index] = {"sem":[],"sem_atrs":[], "tr":{},"other": [], "tg_atrs":{}}
+                mgs[mg_index] = {"sem":[],"sem_atrs":{}, "tr":{},"other": [], "tg_atrs":{}}
             mgs[mg_index]["tg_atrs"] = homonym["tg_attrs"][mg_index]
 
     xml = ""
@@ -420,17 +464,19 @@ def prepare_mg(homonym, only_fin=False):
         mg = mgs[mg_k]
         for other in mg["other"]:
             xml += other + "\n"
-        if len(mg["sem"]) > 0:
-            satrs = mgs[mg_id]["sem_atrs"][0]
-            sem_atrs = ""
-            for key in satrs:
-                    if key == "class":
-                        continue
-                    sem_atrs = sem_atrs + " " + key + "=\"" + atrs[key] + "\""
-            xml += "<semantics" + sem_atrs + ">\n"
-            for sem in mg["sem"]:
-                xml += sem + "\n"
-            xml += "</semantics>\n"
+        try:
+            satrs = mgs[mg_id]["sem_atrs"]
+        except:
+            satrs = {}
+        sem_atrs = ""
+        for key in satrs:
+                if key == u"class":
+                    continue
+                sem_atrs = sem_atrs + " " + key + "=\"" + satrs[key] + "\""
+        xml += "<semantics" + sem_atrs + ">\n"
+        for sem in mg["sem"]:
+            xml += sem + "\n"
+        xml += "</semantics>\n"
         sorted_keys = sorted(copy.copy(mg["tr"].keys()))
         for lang in sorted_keys:
             xml_start = "<tg "

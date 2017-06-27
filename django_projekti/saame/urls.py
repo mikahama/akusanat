@@ -34,5 +34,6 @@ urlpatterns = [
     url(r'^' + re.escape(prefix)+ r'testMongo/', views.test_mongo, name='test_mongo'),
     url(r'^' + re.escape(prefix)+ r'rsaKey/', views.rsa_key, name='rsa_key'),
     url(r'^' + re.escape(prefix)+ r'testGit/', views.test_git, name='test_git'),
+    url(r'^' + re.escape(prefix)+ r'cloneGit/', views.clone_git, name='clone_git'),
     url(r'^' + re.escape(prefix)+ r'inflect/', views.inflect, name='inflect')
 ]

@@ -4,12 +4,14 @@ wget -O /www/smsxml/sms_xml_wiki_extensions.zip http://mikakalevi.com/downloads/
 wget -O /www/smsxml/sms_xml.zip http://mikakalevi.com/downloads/sms_xml.zip
 echo "backup configuration"
 cp /www/smsxml/saame/settings.py /www/smsxml/settings_backup
+cp /www/smsxml/wiki/extensions/Saame/SaameConfig.ini /www/smsxml/wiki_settings_backup
 echo "unzipping..."
 unzip -o /www/smsxml/sms_xml_wiki_extensions.zip -d /www/smsxml/wiki/
 unzip -o /www/smsxml/sms_xml.zip -d /www/smsxml/
 chmod +x /www/smsxml/update_smsxml.sh
 echo "restoring backup configuration"
 cp /www/smsxml/settings_backup /www/smsxml/saame/settings.py
+cp /www/smsxml/wiki_settings_backup /www/smsxml/wiki/extensions/Saame/SaameConfig.ini
 echo "migrations"
 sh /www/smsxml/migrate.sh
 echo "restarting django"

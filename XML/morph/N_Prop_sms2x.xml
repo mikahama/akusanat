@@ -8,7 +8,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -40,7 +40,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -77,7 +77,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -109,7 +109,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -136,7 +136,7 @@
     </compg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -165,7 +165,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -175,87 +175,87 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Ahti</l>
+     <l pos="N" type="Prop">Ahti</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Aikio</l>
+     <l pos="N" type="Prop">Aikio</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Aila</l>
+     <l pos="N" type="Prop">Aila</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Aletta</l>
+     <l pos="N" type="Prop">Aletta</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Andreas</l>
+     <l pos="N" type="Prop">Andreas</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Anna</l>
+     <l pos="N" type="Prop">Anna</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Anna-Katariina</l>
+     <l pos="N" type="Prop">Anna-Katariina</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Anna-Liisa</l>
+     <l pos="N" type="Prop">Anna-Liisa</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Anna-Maja</l>
+     <l pos="N" type="Prop">Anna-Maja</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Anne</l>
+     <l pos="N" type="Prop">Anne</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Anni-Siiri</l>
+     <l pos="N" type="Prop">Anni-Siiri</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Anniina</l>
+     <l pos="N" type="Prop">Anniina</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Antti</l>
+     <l pos="N" type="Prop">Antti</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Anu</l>
+     <l pos="N" type="Prop">Anu</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Areena</l>
+     <l pos="N" type="Prop">Areena</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Ari</l>
+     <l pos="N" type="Prop">Ari</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Armas</l>
+     <l pos="N" type="Prop">Armas</l>
    </lg>
 </e>
 <e id="gt_Prop_4" meta="08_3181">
@@ -276,7 +276,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3181" quality="1" speaker="1"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -301,22 +301,22 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Asko</l>
+     <l pos="N" type="Prop">Asko</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Aslak</l>
+     <l pos="N" type="Prop">Aslak</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Aune</l>
+     <l pos="N" type="Prop">Aune</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Avaskari</l>
+     <l pos="N" type="Prop">Avaskari</l>
    </lg>
 </e>
 <e id="fm_2673">
@@ -346,7 +346,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -376,7 +376,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -400,7 +400,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -432,7 +432,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -484,32 +484,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Carita</l>
+     <l pos="N" type="Prop">Carita</l>
    </lg>
-</e>
-<e>
-   <map sml_ids="1285"/>
-   <lg>
-     <l pos="N" type="Prop">Celcia</l>
-     <stg>
-       <st Contlex="PROP_">Celcia</st>
-     <mini_paradigm exclude="NDS">
-       <analysis/>
-     </mini_paradigm>
-     </stg>
-   </lg>
-     <sources>
-       <src type="corpus" name="AKU"/>
-     </sources>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="N">Celcius</t>
-     </tg>
-   </mg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Chiara</l>
+     <l pos="N" type="Prop">Chiara</l>
    </lg>
 </e>
 <e id="gt_Prop_7" meta="08_3212">
@@ -577,7 +557,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -608,7 +588,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -618,7 +598,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Domna</l>
+     <l pos="N" type="Prop">Domna</l>
    </lg>
 </e>
 <e>
@@ -638,7 +618,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -670,7 +650,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3121" quality="1" speaker="3"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -763,7 +743,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3150" quality="0" speaker="4"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -791,7 +771,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Eelljaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH">Ẹẹllj</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH">Ẹẹllj</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Eellja</wordform>
@@ -803,7 +783,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -905,7 +885,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -921,7 +901,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Eeva</l>
+     <l pos="N" type="Prop">Eeva</l>
    </lg>
 </e>
 <e id="gt_Prop_11" meta="08_3122">
@@ -948,7 +928,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3122" quality="1" speaker="4"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -996,7 +976,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3124" quality="1" speaker="4"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -1037,7 +1017,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1047,32 +1027,32 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Eija</l>
+     <l pos="N" type="Prop">Eija</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Eila</l>
+     <l pos="N" type="Prop">Eila</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Eino</l>
+     <l pos="N" type="Prop">Eino</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Elias</l>
+     <l pos="N" type="Prop">Elias</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Elina</l>
+     <l pos="N" type="Prop">Elina</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Erkki</l>
+     <l pos="N" type="Prop">Erkki</l>
    </lg>
 </e>
 <e>
@@ -1092,7 +1072,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1119,7 +1099,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1154,7 +1134,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3140" quality="1" speaker="4"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -1199,7 +1179,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1231,7 +1211,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1271,7 +1251,7 @@
    </lg>
      <sources>
 <book name="KKS" page="823:12"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1303,7 +1283,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1328,7 +1308,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1355,7 +1335,7 @@
    </lg>
      <sources>
 <book name="KKS" page="45:1"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1392,7 +1372,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1425,7 +1405,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3131" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -1472,7 +1452,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3135" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -1529,7 +1509,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3142" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -1577,7 +1557,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3142" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -1603,7 +1583,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Feodoroff</l>
+     <l pos="N" type="Prop">Feodoroff</l>
    </lg>
 </e>
 <e id="gt_Prop_18" meta="08_3134">
@@ -1630,7 +1610,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3134" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -1670,7 +1650,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1702,7 +1682,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3132" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -1728,12 +1708,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Fofanoff</l>
+     <l pos="N" type="Prop">Fofanoff</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Fofonoff</l>
+     <l pos="N" type="Prop">Fofonoff</l>
    </lg>
 </e>
 <e>
@@ -1753,7 +1733,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1763,102 +1743,102 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Gauriloff</l>
+     <l pos="N" type="Prop">Gauriloff</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Hakkola</l>
+     <l pos="N" type="Prop">Hakkola</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Haltta</l>
+     <l pos="N" type="Prop">Haltta</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Hanna</l>
+     <l pos="N" type="Prop">Hanna</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Hanna-Maaria</l>
+     <l pos="N" type="Prop">Hanna-Maaria</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Hanna-Maria</l>
+     <l pos="N" type="Prop">Hanna-Maria</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Hannu</l>
+     <l pos="N" type="Prop">Hannu</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Harju</l>
+     <l pos="N" type="Prop">Harju</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Harri</l>
+     <l pos="N" type="Prop">Harri</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Heidi</l>
+     <l pos="N" type="Prop">Heidi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Heikki</l>
+     <l pos="N" type="Prop">Heikki</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Heikkinen</l>
+     <l pos="N" type="Prop">Heikkinen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Heikkuri</l>
+     <l pos="N" type="Prop">Heikkuri</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Heini</l>
+     <l pos="N" type="Prop">Heini</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Helena</l>
+     <l pos="N" type="Prop">Helena</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Henna</l>
+     <l pos="N" type="Prop">Henna</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Henri</l>
+     <l pos="N" type="Prop">Henri</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Hetta</l>
+     <l pos="N" type="Prop">Hetta</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Hilkka</l>
+     <l pos="N" type="Prop">Hilkka</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Huotari</l>
+     <l pos="N" type="Prop">Huotari</l>
    </lg>
 </e>
 <e id="gt_Prop_21" meta="08_3133">
@@ -1885,7 +1865,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3133" quality="3" speaker="5"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -1912,17 +1892,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Hyttinen</l>
+     <l pos="N" type="Prop">Hyttinen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Hyyppä</l>
+     <l pos="N" type="Prop">Hyyppä</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Hänninen</l>
+     <l pos="N" type="Prop">Hänninen</l>
    </lg>
 </e>
 <e>
@@ -1942,7 +1922,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1975,7 +1955,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1992,27 +1972,27 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Ilmari</l>
+     <l pos="N" type="Prop">Ilmari</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Inka</l>
+     <l pos="N" type="Prop">Inka</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Inker-Anni</l>
+     <l pos="N" type="Prop">Inker-Anni</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Interreg</l>
+     <l pos="N" type="Prop">Interreg</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Irja</l>
+     <l pos="N" type="Prop">Irja</l>
    </lg>
 </e>
 <e>
@@ -2032,7 +2012,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2042,7 +2022,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Ismo</l>
+     <l pos="N" type="Prop">Ismo</l>
    </lg>
 </e>
 <e>
@@ -2062,7 +2042,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2082,7 +2062,7 @@
     </compg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2098,11 +2078,11 @@
    <lg>
      <l pos="N">Äännaž</l>
      <stg>
-       <st Contlex="PROP_KUALAZH" NumContlex="1.26">Äänn</st>
+       <st Contlex="PROP_KUYLAZH" NumContlex="1.26">Äänn</st>
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="db" name="sjm"/>
      </sources>
    <mg>
@@ -2141,7 +2121,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -2179,7 +2159,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3141" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2211,7 +2191,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <defNative/>
@@ -2222,37 +2202,37 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jaakko</l>
+     <l pos="N" type="Prop">Jaakko</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jaappan</l>
+     <l pos="N" type="Prop">Jaappan</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Janne</l>
+     <l pos="N" type="Prop">Janne</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jari</l>
+     <l pos="N" type="Prop">Jari</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jarmo</l>
+     <l pos="N" type="Prop">Jarmo</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jarno</l>
+     <l pos="N" type="Prop">Jarno</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jarva</l>
+     <l pos="N" type="Prop">Jarva</l>
    </lg>
 </e>
 <e id="fm_3147">
@@ -2283,7 +2263,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -2299,12 +2279,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jeffremoff</l>
+     <l pos="N" type="Prop">Jeffremoff</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jefremoff</l>
+     <l pos="N" type="Prop">Jefremoff</l>
    </lg>
 </e>
 <e id="gt_Prop_22" meta="08_3139">
@@ -2331,7 +2311,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3139" quality="1" speaker="6"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2380,7 +2360,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3149" quality="1" speaker="6"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2405,12 +2385,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jomppanen</l>
+     <l pos="N" type="Prop">Jomppanen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Joni</l>
+     <l pos="N" type="Prop">Joni</l>
    </lg>
 </e>
 <e>
@@ -2430,7 +2410,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2440,42 +2420,42 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jouko</l>
+     <l pos="N" type="Prop">Jouko</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jouni</l>
+     <l pos="N" type="Prop">Jouni</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jouste</l>
+     <l pos="N" type="Prop">Jouste</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Juha</l>
+     <l pos="N" type="Prop">Juha</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jukka</l>
+     <l pos="N" type="Prop">Jukka</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jussi</l>
+     <l pos="N" type="Prop">Jussi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Juuso</l>
+     <l pos="N" type="Prop">Juuso</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Juutinen</l>
+     <l pos="N" type="Prop">Juutinen</l>
    </lg>
 </e>
 <e id="fm_2674">
@@ -2551,7 +2531,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3194" quality="1" speaker="6"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2578,12 +2558,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Juvva</l>
+     <l pos="N" type="Prop">Juvva</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jyrki</l>
+     <l pos="N" type="Prop">Jyrki</l>
    </lg>
 </e>
 <e id="gt_Prop_25" meta="08_3138">
@@ -2610,7 +2590,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3138" quality="1" speaker="6"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2657,7 +2637,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3137" quality="1" speaker="6"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2704,7 +2684,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3129" quality="1" speaker="6"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2754,7 +2734,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3146" quality="1" speaker="6"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="KKS" page="1041"/>
        <book name="SKS" page="26"/>
      </sources>
@@ -2783,7 +2763,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jääskö</l>
+     <l pos="N" type="Prop">Jääskö</l>
    </lg>
 </e>
 <e id="gt_Prop_29" meta="08_3147">
@@ -2811,7 +2791,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3147" quality="6" speaker="6"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2840,7 +2820,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Jååffaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Jååff</st>
+       <st Contlex="PROP_SEM/FEM_KUYLAZH" inflexId="::::1.26">Jååff</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3128</c>
@@ -2858,7 +2838,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -2896,7 +2876,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3230" quality="1" speaker="6"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2921,7 +2901,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kaartinen</l>
+     <l pos="N" type="Prop">Kaartinen</l>
    </lg>
 </e>
 <e id="gt_Prop_31" meta="08_3157">
@@ -2949,7 +2929,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3157" quality="9" speaker="7"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2976,12 +2956,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kaisa</l>
+     <l pos="N" type="Prop">Kaisa</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kaisja</l>
+     <l pos="N" type="Prop">Kaisja</l>
    </lg>
 </e>
 <e id="gt_Prop_32" meta="08_3154">
@@ -3008,7 +2988,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3154" quality="9" speaker="7"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -3033,32 +3013,32 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kalle</l>
+     <l pos="N" type="Prop">Kalle</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kangasniemi</l>
+     <l pos="N" type="Prop">Kangasniemi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kari</l>
+     <l pos="N" type="Prop">Kari</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Karjalainen</l>
+     <l pos="N" type="Prop">Karjalainen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Katja</l>
+     <l pos="N" type="Prop">Katja</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Katri</l>
+     <l pos="N" type="Prop">Katri</l>
    </lg>
 </e>
 <e id="gt_Prop_33" meta="08_3136">
@@ -3085,7 +3065,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3136" quality="9" speaker="7"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -3115,7 +3095,7 @@
    <lg>
      <l pos="N" type="Prop">Kaʹʒʒemčââlmaž</l>
      <stg>
-       <st Contlex="PROP_KUALAZH">Kaʹʒʒem#čââlm</st>
+       <st Contlex="PROP_KUYLAZH">Kaʹʒʒem#čââlm</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-čââlma</wordform>
@@ -3127,7 +3107,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3137,27 +3117,27 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Keränen</l>
+     <l pos="N" type="Prop">Keränen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kiprianoff</l>
+     <l pos="N" type="Prop">Kiprianoff</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kirsti</l>
+     <l pos="N" type="Prop">Kirsti</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kiviniemi</l>
+     <l pos="N" type="Prop">Kiviniemi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Klemetti</l>
+     <l pos="N" type="Prop">Klemetti</l>
    </lg>
 </e>
 <e id="fm_2675">
@@ -3184,7 +3164,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3228,7 +3208,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3266,7 +3246,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3282,17 +3262,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Koponen</l>
+     <l pos="N" type="Prop">Koponen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Korpimäki</l>
+     <l pos="N" type="Prop">Korpimäki</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Korteniemi</l>
+     <l pos="N" type="Prop">Korteniemi</l>
    </lg>
 </e>
 <e id="fm_3162">
@@ -3319,7 +3299,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3357,7 +3337,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3164" quality="9" speaker="7"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -3407,7 +3387,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3481,7 +3461,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kristiina</l>
+     <l pos="N" type="Prop">Kristiina</l>
    </lg>
 </e>
 <e>
@@ -3501,7 +3481,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3533,7 +3513,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3565,7 +3545,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3575,7 +3555,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kustula</l>
+     <l pos="N" type="Prop">Kustula</l>
    </lg>
 </e>
 <e id="fm_1858">
@@ -3594,7 +3574,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3616,7 +3596,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kyrö</l>
+     <l pos="N" type="Prop">Kyrö</l>
    </lg>
 </e>
 <e id="fm_3155">
@@ -3625,7 +3605,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Käättaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Käätt</st>
+       <st Contlex="PROP_SEM/FEM_KUYLAZH" inflexId="::::1.26">Käätt</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3156</c>
@@ -3643,7 +3623,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3681,7 +3661,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3708,7 +3688,7 @@
     </compg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3726,7 +3706,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Laaʹrkaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::">Laaʹrk</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH" inflexId="::::">Laaʹrk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3169</c>
@@ -3736,7 +3716,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3767,7 +3747,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3777,27 +3757,27 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Laine</l>
+     <l pos="N" type="Prop">Laine</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Lakkala</l>
+     <l pos="N" type="Prop">Lakkala</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Lappalainen</l>
+     <l pos="N" type="Prop">Lappalainen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Laura</l>
+     <l pos="N" type="Prop">Laura</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Leena</l>
+     <l pos="N" type="Prop">Leena</l>
    </lg>
 </e>
 <e id="fm_3169">
@@ -3806,7 +3786,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Leeukaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::">Leeuk</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH" inflexId="::::">Leeuk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3170</c>
@@ -3816,7 +3796,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3832,22 +3812,22 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Lehtinen</l>
+     <l pos="N" type="Prop">Lehtinen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Lehtola</l>
+     <l pos="N" type="Prop">Lehtola</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Leivo</l>
+     <l pos="N" type="Prop">Leivo</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Lesonen</l>
+     <l pos="N" type="Prop">Lesonen</l>
    </lg>
 </e>
 <e id="fm_3170">
@@ -3874,7 +3854,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3893,7 +3873,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Leâukaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH">Leâuk</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH">Leâuk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Leâuka</wordform>
@@ -3905,7 +3885,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3915,7 +3895,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Liisa</l>
+     <l pos="N" type="Prop">Liisa</l>
    </lg>
 </e>
 <e id="gt_Prop_37" meta="08_3172">
@@ -3942,7 +3922,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3172" quality="1" speaker="8"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -3967,22 +3947,22 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Lindberg</l>
+     <l pos="N" type="Prop">Lindberg</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Linkola</l>
+     <l pos="N" type="Prop">Linkola</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Ljetoff</l>
+     <l pos="N" type="Prop">Ljetoff</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Lotvonen</l>
+     <l pos="N" type="Prop">Lotvonen</l>
    </lg>
 </e>
 <e>
@@ -4002,7 +3982,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4013,7 +3993,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Lumisalmi</l>
+     <l pos="N" type="Prop">Lumisalmi</l>
    </lg>
 </e>
 <e id="fm_3172">
@@ -4081,7 +4061,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3229" quality="6" speaker="8"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -4110,7 +4090,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Lääddaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH">Läädd</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH">Läädd</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>=</wordform>
@@ -4122,7 +4102,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4148,7 +4128,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3167" quality="1" speaker="8"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -4188,7 +4168,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4220,7 +4200,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3166" quality="1" speaker="8"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -4260,7 +4240,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4285,7 +4265,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4310,7 +4290,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="SKS" page="58"/>
      </sources>
    <mg>
@@ -4343,7 +4323,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3168" quality="1" speaker="8"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -4383,7 +4363,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4409,7 +4389,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3178" quality="1" speaker="9"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -4502,7 +4482,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3177" quality="1" speaker="9"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -4550,7 +4530,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -4594,7 +4574,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -4617,82 +4597,82 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Magga</l>
+     <l pos="N" type="Prop">Magga</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Magreta</l>
+     <l pos="N" type="Prop">Magreta</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Maija-Liisa</l>
+     <l pos="N" type="Prop">Maija-Liisa</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Maikkula</l>
+     <l pos="N" type="Prop">Maikkula</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Manninen</l>
+     <l pos="N" type="Prop">Manninen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mari</l>
+     <l pos="N" type="Prop">Mari</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Maria</l>
+     <l pos="N" type="Prop">Maria</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Maritta</l>
+     <l pos="N" type="Prop">Maritta</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Marja-Liisa</l>
+     <l pos="N" type="Prop">Marja-Liisa</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Marko</l>
+     <l pos="N" type="Prop">Marko</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Markus</l>
+     <l pos="N" type="Prop">Markus</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Martta</l>
+     <l pos="N" type="Prop">Martta</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Martti</l>
+     <l pos="N" type="Prop">Martti</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Matleena</l>
+     <l pos="N" type="Prop">Matleena</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Matti</l>
+     <l pos="N" type="Prop">Matti</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mauri</l>
+     <l pos="N" type="Prop">Mauri</l>
    </lg>
 </e>
 <e>
@@ -4712,7 +4692,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4737,7 +4717,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4747,12 +4727,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Meeri</l>
+     <l pos="N" type="Prop">Meeri</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Meersažarkiiv</l>
+     <l pos="N" type="Prop">Meersažarkiiv</l>
    </lg>
 </e>
 <e>
@@ -4772,7 +4752,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4805,7 +4785,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3120" quality="5" speaker="9"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -4869,22 +4849,22 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Merja</l>
+     <l pos="N" type="Prop">Merja</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mervi</l>
+     <l pos="N" type="Prop">Mervi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mia</l>
+     <l pos="N" type="Prop">Mia</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Miika</l>
+     <l pos="N" type="Prop">Miika</l>
    </lg>
 </e>
 <e>
@@ -4904,7 +4884,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4930,7 +4910,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3183" quality="1" speaker="9"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -4955,12 +4935,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Miiʹǩǩet</l>
+     <l pos="N" type="Prop">Miiʹǩǩet</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mika</l>
+     <l pos="N" type="Prop">Mika</l>
    </lg>
 </e>
 <e id="gt_Prop_48" meta="08_3187">
@@ -4987,7 +4967,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3187" quality="1" speaker="9"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="SKS" page="77"/>
      </sources>
    <mg>
@@ -5013,22 +4993,22 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Minna</l>
+     <l pos="N" type="Prop">Minna</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mira</l>
+     <l pos="N" type="Prop">Mira</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mirjami</l>
+     <l pos="N" type="Prop">Mirjami</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mirka</l>
+     <l pos="N" type="Prop">Mirka</l>
    </lg>
 </e>
 <e>
@@ -5071,7 +5051,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5081,12 +5061,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Morottaja</l>
+     <l pos="N" type="Prop">Morottaja</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Moshnikoff</l>
+     <l pos="N" type="Prop">Moshnikoff</l>
    </lg>
 </e>
 <e id="gt_Prop_50" meta="08_383">
@@ -5138,17 +5118,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mustonen</l>
+     <l pos="N" type="Prop">Mustonen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mäenpää</l>
+     <l pos="N" type="Prop">Mäenpää</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Mäki</l>
+     <l pos="N" type="Prop">Mäki</l>
    </lg>
 </e>
 <e id="gt_Prop_53" meta="08_3174">
@@ -5176,7 +5156,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3174" quality="1" speaker="9"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -5208,7 +5188,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5240,7 +5220,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3176" quality="6" speaker="9"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -5268,7 +5248,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Määrjaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUALAZH">Määrj</st>
+       <st Contlex="PROP_SEM/FEM_KUYLAZH">Määrj</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Määrja</wordform>
@@ -5280,7 +5260,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5290,7 +5270,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Määttä</l>
+     <l pos="N" type="Prop">Määttä</l>
    </lg>
 </e>
 <e id="fm_3178">
@@ -5317,7 +5297,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -5355,7 +5335,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -5382,7 +5362,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Natalia</l>
+     <l pos="N" type="Prop">Natalia</l>
    </lg>
 </e>
 <e id="gt_Prop_56" meta="08_3180">
@@ -5409,7 +5389,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3180" quality="0" speaker="10"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -5434,17 +5414,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Neeta</l>
+     <l pos="N" type="Prop">Neeta</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Nihkolas</l>
+     <l pos="N" type="Prop">Nihkolas</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Niilo</l>
+     <l pos="N" type="Prop">Niilo</l>
    </lg>
 </e>
 <e id="fm_371">
@@ -5496,22 +5476,22 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Nikolaos</l>
+     <l pos="N" type="Prop">Nikolaos</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Nilla</l>
+     <l pos="N" type="Prop">Nilla</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Nuorgam</l>
+     <l pos="N" type="Prop">Nuorgam</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Nuorteva</l>
+     <l pos="N" type="Prop">Nuorteva</l>
    </lg>
 </e>
 <e>
@@ -5546,7 +5526,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5571,7 +5551,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5581,12 +5561,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Nykänen</l>
+     <l pos="N" type="Prop">Nykänen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Näkkäläjärvi</l>
+     <l pos="N" type="Prop">Näkkäläjärvi</l>
    </lg>
 </e>
 <e id="fm_3105">
@@ -5605,7 +5585,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="KKS" page="1047"/>
      </sources>
    <mg>
@@ -5644,7 +5624,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3186" quality="1" speaker="10"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -5672,7 +5652,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Nääskaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUALAZH">Nääsk</st>
+       <st Contlex="PROP_SEM/FEM_KUYLAZH">Nääsk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Nääska</wordform>
@@ -5684,7 +5664,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5710,7 +5690,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3102" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -5735,22 +5715,22 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Oikkonen-Pistokoski</l>
+     <l pos="N" type="Prop">Oikkonen-Pistokoski</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Oiva</l>
+     <l pos="N" type="Prop">Oiva</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Olga</l>
+     <l pos="N" type="Prop">Olga</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Olli</l>
+     <l pos="N" type="Prop">Olli</l>
    </lg>
 </e>
 <e>
@@ -5770,7 +5750,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5780,7 +5760,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Onni</l>
+     <l pos="N" type="Prop">Onni</l>
    </lg>
 </e>
 <e id="gt_Prop_64" meta="08_3231">
@@ -5807,7 +5787,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3231" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -5836,7 +5816,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Ooudaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::1.26">Ooud</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH" inflexId="::::1.26">Ooud</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3127</c>
@@ -5855,7 +5835,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -5934,7 +5914,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5967,7 +5947,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3105" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="KKS" page="1048"/>
      </sources>
    <mg>
@@ -6018,7 +5998,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -6054,7 +6034,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6087,7 +6067,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3112" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -6135,7 +6115,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3188" quality="9" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="KKS" page="1048"/>
      </sources>
    <mg>
@@ -6176,7 +6156,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6208,7 +6188,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3196" quality="1" speaker="11"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -6234,17 +6214,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Paltto</l>
+     <l pos="N" type="Prop">Paltto</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pauli</l>
+     <l pos="N" type="Prop">Pauli</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pauliina</l>
+     <l pos="N" type="Prop">Pauliina</l>
    </lg>
 </e>
 <e id="gt_Prop_71" meta="08_3198">
@@ -6271,7 +6251,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3198" quality="1" speaker="11"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -6300,42 +6280,42 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pekka</l>
+     <l pos="N" type="Prop">Pekka</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pekkala</l>
+     <l pos="N" type="Prop">Pekkala</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pentti</l>
+     <l pos="N" type="Prop">Pentti</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Per-Oula</l>
+     <l pos="N" type="Prop">Per-Oula</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pertti</l>
+     <l pos="N" type="Prop">Pertti</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Petra</l>
+     <l pos="N" type="Prop">Petra</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Petri</l>
+     <l pos="N" type="Prop">Petri</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Peâtt</l>
+     <l pos="N" type="Prop">Peâtt</l>
    </lg>
 </e>
 <e>
@@ -6355,7 +6335,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6365,17 +6345,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pia</l>
+     <l pos="N" type="Prop">Pia</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pieski</l>
+     <l pos="N" type="Prop">Pieski</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pietarinen</l>
+     <l pos="N" type="Prop">Pietarinen</l>
    </lg>
 </e>
 <e>
@@ -6405,7 +6385,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pigga</l>
+     <l pos="N" type="Prop">Pigga</l>
    </lg>
 </e>
 <e id="gt_Prop_73" meta="08_3235">
@@ -6432,7 +6412,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3235" quality="1" speaker="11"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -6457,17 +6437,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pirinen</l>
+     <l pos="N" type="Prop">Pirinen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pirita</l>
+     <l pos="N" type="Prop">Pirita</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pirkko</l>
+     <l pos="N" type="Prop">Pirkko</l>
    </lg>
 </e>
 <e id="fm_3196">
@@ -6494,7 +6474,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -6524,7 +6504,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="eng">
@@ -6537,12 +6517,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pohjonen</l>
+     <l pos="N" type="Prop">Pohjonen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Porsanger</l>
+     <l pos="N" type="Prop">Porsanger</l>
    </lg>
 </e>
 <e>
@@ -6562,7 +6542,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6588,7 +6568,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3236" quality="1" speaker="11"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -6617,7 +6597,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Prååkkaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::1.26">Prååkk</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH" inflexId="::::1.26">Prååkk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3237</c>
@@ -6635,7 +6615,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -6675,7 +6655,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3234" quality="1" speaker="11"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -6717,7 +6697,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3233" quality="1" speaker="11"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -6757,7 +6737,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6767,27 +6747,27 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Raija</l>
+     <l pos="N" type="Prop">Raija</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Raimo</l>
+     <l pos="N" type="Prop">Raimo</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Rantakeisu</l>
+     <l pos="N" type="Prop">Rantakeisu</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Rantala</l>
+     <l pos="N" type="Prop">Rantala</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Rauni</l>
+     <l pos="N" type="Prop">Rauni</l>
    </lg>
 </e>
 <e id="gt_Prop_77" meta="08_3199">
@@ -6814,7 +6794,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3199" quality="3" speaker="12"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="KKS" page="1050"/>
      </sources>
    <mg>
@@ -6855,7 +6835,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6865,17 +6845,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Ritva</l>
+     <l pos="N" type="Prop">Ritva</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Rosi</l>
+     <l pos="N" type="Prop">Rosi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Rospuutto-joukk</l>
+     <l pos="N" type="Prop">Rospuutto-joukk</l>
    </lg>
 </e>
 <e id="gt_Prop_113" meta="04">
@@ -6888,7 +6868,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -6918,7 +6898,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Ruotsala</l>
+     <l pos="N" type="Prop">Ruotsala</l>
    </lg>
 </e>
 <e>
@@ -6938,7 +6918,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6970,7 +6950,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7001,7 +6981,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7033,7 +7013,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3200" quality="3" speaker="12"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -7064,7 +7044,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <defNative/>
@@ -7097,7 +7077,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3205" quality="1" speaker="13"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -7122,17 +7102,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Saarela</l>
+     <l pos="N" type="Prop">Saarela</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sahara</l>
+     <l pos="N" type="Prop">Sahara</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Saijets</l>
+     <l pos="N" type="Prop">Saijets</l>
    </lg>
 </e>
 <e>
@@ -7143,7 +7123,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7153,17 +7133,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Salla</l>
+     <l pos="N" type="Prop">Salla</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Salmi</l>
+     <l pos="N" type="Prop">Salmi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sammallahti</l>
+     <l pos="N" type="Prop">Sammallahti</l>
    </lg>
 </e>
 <e id="gt_Prop_85" meta="08_3103">
@@ -7190,7 +7170,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3103" quality="1" speaker="13"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -7217,27 +7197,27 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sanila</l>
+     <l pos="N" type="Prop">Sanila</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sanila-Aikio</l>
+     <l pos="N" type="Prop">Sanila-Aikio</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sara</l>
+     <l pos="N" type="Prop">Sara</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sari</l>
+     <l pos="N" type="Prop">Sari</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Satu</l>
+     <l pos="N" type="Prop">Satu</l>
    </lg>
 </e>
 <e id="gt_Prop_86" meta="08_3144">
@@ -7265,7 +7245,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3144" quality="1" speaker="13"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -7290,22 +7270,22 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Seija</l>
+     <l pos="N" type="Prop">Seija</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Semenoff</l>
+     <l pos="N" type="Prop">Semenoff</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Semenoja</l>
+     <l pos="N" type="Prop">Semenoja</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Semma</l>
+     <l pos="N" type="Prop">Semma</l>
    </lg>
 </e>
 <e id="gt_Prop_87" meta="08_3209">
@@ -7332,7 +7312,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3209" quality="1" speaker="13"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -7357,37 +7337,37 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Seppänen</l>
+     <l pos="N" type="Prop">Seppänen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sergei</l>
+     <l pos="N" type="Prop">Sergei</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Seri</l>
+     <l pos="N" type="Prop">Seri</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Servi</l>
+     <l pos="N" type="Prop">Servi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Siiri</l>
+     <l pos="N" type="Prop">Siiri</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Siltala</l>
+     <l pos="N" type="Prop">Siltala</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Simo</l>
+     <l pos="N" type="Prop">Simo</l>
    </lg>
 </e>
 <e>
@@ -7407,7 +7387,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7417,17 +7397,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sipilä</l>
+     <l pos="N" type="Prop">Sipilä</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sirkka</l>
+     <l pos="N" type="Prop">Sirkka</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sivertsen</l>
+     <l pos="N" type="Prop">Sivertsen</l>
    </lg>
 </e>
 <e id="gt_Prop_88" meta="08_3207">
@@ -7479,7 +7459,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sonja</l>
+     <l pos="N" type="Prop">Sonja</l>
    </lg>
 </e>
 <e id="fm_4021">
@@ -7498,7 +7478,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7535,7 +7515,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7545,37 +7525,37 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sujala</l>
+     <l pos="N" type="Prop">Sujala</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Suoninen</l>
+     <l pos="N" type="Prop">Suoninen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Susanna</l>
+     <l pos="N" type="Prop">Susanna</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Suvi</l>
+     <l pos="N" type="Prop">Suvi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Suõmmkar-joukk</l>
+     <l pos="N" type="Prop">Suõmmkar-joukk</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sverloff</l>
+     <l pos="N" type="Prop">Sverloff</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sylvia</l>
+     <l pos="N" type="Prop">Sylvia</l>
    </lg>
 </e>
 <e id="fm_3915">
@@ -7602,7 +7582,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7638,7 +7618,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7669,7 +7649,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7683,7 +7663,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Säämmaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Säämm</st>
+       <st Contlex="PROP_SEM/FEM_KUYLAZH" inflexId="::::1.26">Säämm</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3201</c>
@@ -7701,7 +7681,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7721,7 +7701,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Säävaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::1.26">Sääv</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH" inflexId="::::1.26">Sääv</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3238</c>
@@ -7739,7 +7719,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7761,7 +7741,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <defNative/>
@@ -7794,7 +7774,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7822,7 +7802,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7838,7 +7818,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7889,7 +7869,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Sååffaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Sååff</st>
+       <st Contlex="PROP_SEM/FEM_KUYLAZH" inflexId="::::1.26">Sååff</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3210</c>
@@ -7899,7 +7879,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7919,7 +7899,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Såållaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Sååll</st>
+       <st Contlex="PROP_SEM/FEM_KUYLAZH" inflexId="::::1.26">Sååll</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3204</c>
@@ -7937,7 +7917,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8030,7 +8010,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3213" quality="1" speaker="14"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -8056,37 +8036,37 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Taarna</l>
+     <l pos="N" type="Prop">Taarna</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tanja</l>
+     <l pos="N" type="Prop">Tanja</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tapio</l>
+     <l pos="N" type="Prop">Tapio</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tapiola</l>
+     <l pos="N" type="Prop">Tapiola</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tarja</l>
+     <l pos="N" type="Prop">Tarja</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tauna</l>
+     <l pos="N" type="Prop">Tauna</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tauno</l>
+     <l pos="N" type="Prop">Tauno</l>
    </lg>
 </e>
 <e id="gt_Prop_94" meta="08_3217">
@@ -8113,7 +8093,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3217" quality="1" speaker="14"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -8176,17 +8156,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Terhi</l>
+     <l pos="N" type="Prop">Terhi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tero</l>
+     <l pos="N" type="Prop">Tero</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Teänjokk</l>
+     <l pos="N" type="Prop">Teänjokk</l>
    </lg>
 </e>
 <e id="gt_Prop_95" meta="08_3215">
@@ -8207,7 +8187,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3215" quality="1" speaker="14"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -8248,7 +8228,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8284,7 +8264,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8316,7 +8296,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8341,7 +8321,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8357,7 +8337,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <defNative/>
@@ -8391,7 +8371,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3216" quality="0" speaker="14"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -8416,12 +8396,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Thomas</l>
+     <l pos="N" type="Prop">Thomas</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tiina</l>
+     <l pos="N" type="Prop">Tiina</l>
    </lg>
 </e>
 <e id="gt_Prop_97" meta="08_3219">
@@ -8448,7 +8428,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3219" quality="1" speaker="14"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -8473,27 +8453,27 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Toini</l>
+     <l pos="N" type="Prop">Toini</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Toivainen</l>
+     <l pos="N" type="Prop">Toivainen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tommi</l>
+     <l pos="N" type="Prop">Tommi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Toni</l>
+     <l pos="N" type="Prop">Toni</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Torikka</l>
+     <l pos="N" type="Prop">Torikka</l>
    </lg>
 </e>
 <e id="gt_Prop_98" meta="08_3220">
@@ -8520,7 +8500,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3220" quality="1" speaker="14"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -8568,7 +8548,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3221" quality="1" speaker="14"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -8593,12 +8573,12 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tuomas</l>
+     <l pos="N" type="Prop">Tuomas</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Tuukkanen</l>
+     <l pos="N" type="Prop">Tuukkanen</l>
    </lg>
 </e>
 <e id="gt_Prop_101" meta="08_3214">
@@ -8625,7 +8605,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3214" quality="1" speaker="14"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -8674,7 +8654,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8705,7 +8685,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8715,27 +8695,27 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Ulla</l>
+     <l pos="N" type="Prop">Ulla</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Unesco</l>
+     <l pos="N" type="Prop">Unesco</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Unna</l>
+     <l pos="N" type="Prop">Unna</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Uula</l>
+     <l pos="N" type="Prop">Uula</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Uulla</l>
+     <l pos="N" type="Prop">Uulla</l>
    </lg>
 </e>
 <e id="fm_3222">
@@ -8762,7 +8742,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8804,7 +8784,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8836,7 +8816,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8870,7 +8850,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3153" quality="3" speaker="15"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -8917,7 +8897,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3224" quality="1" speaker="16"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -8952,7 +8932,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8976,7 +8956,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8993,32 +8973,32 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Valjakka</l>
+     <l pos="N" type="Prop">Valjakka</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Valkonen</l>
+     <l pos="N" type="Prop">Valkonen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Valtonen</l>
+     <l pos="N" type="Prop">Valtonen</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Vanhala</l>
+     <l pos="N" type="Prop">Vanhala</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Varpuniemi</l>
+     <l pos="N" type="Prop">Varpuniemi</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Vassi</l>
+     <l pos="N" type="Prop">Vassi</l>
    </lg>
 </e>
 <e id="fm_3225">
@@ -9045,7 +9025,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="KKS" page="1054"/>
      </sources>
    <mg>
@@ -9063,7 +9043,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Veikko</l>
+     <l pos="N" type="Prop">Veikko</l>
    </lg>
 </e>
 <e id="gt_Prop_105" meta="08_3228">
@@ -9084,7 +9064,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3228" quality="1" speaker="16"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -9124,7 +9104,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9137,7 +9117,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Vieʹrmmääkkaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUALAZH">Vieʹrmm#ääkk</st>
+       <st Contlex="PROP_SEM/FEM_KUYLAZH">Vieʹrmm#ääkk</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-ääkka</wordform>
@@ -9149,7 +9129,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9174,7 +9154,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9198,7 +9178,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -9288,7 +9268,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3115" quality="1" speaker="16"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -9313,7 +9293,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Väyrynen</l>
+     <l pos="N" type="Prop">Väyrynen</l>
    </lg>
 </e>
 <e id="gt_Prop_107" meta="08_3116">
@@ -9340,7 +9320,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3116" quality="1" speaker="16"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -9387,7 +9367,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="3" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -9428,7 +9408,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9438,17 +9418,17 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Wesslin</l>
+     <l pos="N" type="Prop">Wesslin</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Wetterstrand</l>
+     <l pos="N" type="Prop">Wetterstrand</l>
    </lg>
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Wihuri</l>
+     <l pos="N" type="Prop">Wihuri</l>
    </lg>
 </e>
 <e id="gt_Prop_109" meta="08_3208">
@@ -9475,7 +9455,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3208" quality="4" speaker="0"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -9516,7 +9496,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9540,7 +9520,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -9566,7 +9546,7 @@
    <lg>
      <l gender="f" pos="N" sem_type="Fem" type="Prop">Äännaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUALAZH" inflexId="::::1.26">Äänn</st>
+       <st Contlex="PROP_SEM/FEM_KUYLAZH" inflexId="::::1.26">Äänn</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3108</c>
@@ -9576,7 +9556,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="3" name="kurss"/>
        <book name="prop"/>
        <src type="db" name="sjm"/>
@@ -9628,7 +9608,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3111" quality="9" speaker="17"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -9676,7 +9656,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="6" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -9723,7 +9703,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3101" quality="9" speaker="17"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -9764,7 +9744,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9796,7 +9776,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -9818,7 +9798,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Åsa</l>
+     <l pos="N" type="Prop">Åsa</l>
    </lg>
 </e>
 <e id="gt_Prop_120" meta="08_3100">
@@ -9846,7 +9826,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3100" quality="9" speaker="17"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -9887,7 +9867,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -9906,7 +9886,7 @@
    <lg>
      <l pos="N" sem_type="Fem" type="Prop">Ååjjaž</l>
      <stg>
-       <st Contlex="PROP_SEM/FEM_KUALAZH">Ååjj</st>
+       <st Contlex="PROP_SEM/FEM_KUYLAZH">Ååjj</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Ååjja</wordform>
@@ -9918,7 +9898,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9932,7 +9912,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Åållaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH">Ååll</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH">Ååll</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>Åålla</wordform>
@@ -9944,7 +9924,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9972,7 +9952,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -10002,7 +9982,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Ååskaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::1.26">Ååsk</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH" inflexId="::::1.26">Ååsk</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3193</c>
@@ -10021,7 +10001,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10053,7 +10033,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3130" quality="9" speaker="17"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -10082,7 +10062,7 @@
    <lg>
      <l pos="N" sem_type="Mal" type="Prop">Ååđaž</l>
      <stg>
-       <st Contlex="PROP_SEM/MAL_KUALAZH" inflexId="::::">Ååđ</st>
+       <st Contlex="PROP_SEM/MAL_KUYLAZH" inflexId="::::">Ååđ</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">3195</c>
@@ -10092,7 +10072,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10130,7 +10110,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10161,7 +10141,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10186,7 +10166,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10218,7 +10198,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10248,7 +10228,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10279,7 +10259,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10303,7 +10283,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10334,7 +10314,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10366,7 +10346,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10397,7 +10377,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10422,7 +10402,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10438,7 +10418,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10455,7 +10435,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10482,7 +10462,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3160" quality="2" speaker="22"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="3" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -10519,7 +10499,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10535,7 +10515,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <defNative/>
@@ -10546,33 +10526,33 @@
 </e>
 <e src="jmr_2015-11-10">
    <lg>
-     <l pos="PROP">Sääʹmarkiiv</l>
+     <l pos="N" type="Prop">Sääʹmarkiiv</l>
      <stg>
        <st Contlex="PROP_JARPLAAN">Sääʹm#arkiiv</st>
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg> 
     <tg xml:lang="fin">
-       <t pos="PROP">Saamelaisarkisto</t>
+       <t pos="N" type="Prop">Saamelaisarkisto</t>
      </tg>
    </mg>
 </e>
 <e src="jmr_2015-11-10">
    <lg>
-     <l pos="PROP">Sääʹmparlamentt</l>
+     <l pos="N" type="Prop">Sääʹmparlamentt</l>
      <stg>
        <st Contlex="PROP_ALGG">Sääʹm#parlame%^1VOWntt</st>
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
-       <t pos="PROP">saamelaisparlamentti</t>
+       <t pos="N" type="Prop">saamelaisparlamentti</t>
      </tg>
    </mg>
 </e>
@@ -10585,7 +10565,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10593,6 +10573,183 @@
      </tg>
    </mg>
 </e>
+<e exclude="fst" order="1">
+   <lg>
+     <l pos="N" type="+Prop">Giellagas-institutt</l>
+   </lg>
+</e>
+  <e>
+   <lg>
+     <l pos="N" type="Prop">ELOKA-haʹŋǩǩõs</l>
+     <stg>
+       <st Contlex="N_SAJOS">ELOKA-haʹŋǩǩõ%^1VOWs</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="AKU"/>
+     </sources>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N">ELOKA-hanke</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="2013"/>
+   <lg>
+     <l pos="N" type="Prop">Evaŋkeliummǩeʹrjj</l>
+     <stg>
+       <st Contlex="N_KHEQRJJ" NumContlex="1.113">Evaŋkeliumm#ǩẹ%^1VOWrjj</st>
+       <st Contlex="N_KHEQRJJ" NumContlex="1.113">Evaŋǧeʹlium#ǩẹ%^1VOWrjj</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N" type="Prop">Raamattu</t>
+       <t pos="N">evankeliumikirja</t>
+     </tg>
+   </mg>
+</e>
+  <e src="jmr_2015-11-10">
+   <lg>
+     <l pos="N" type="Prop">ILO-suåppmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">ILO-#suåppmõ%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="AKU"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N" type="type">ILO-sopimus</t>
+       <t pos="N">YK:n Kansainvälisen työjärjestön laatima itsenäisten maiden alkuperäis- ja heimokansoja koskeva yleissopimus</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Lappijânnam</l>
+      <stg>
+        <st Contlex="PROP_AANAR">Lappijânnam</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Lappi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+   <lg>
+     <l pos="N" type="Prop">Njauddâm-haʹŋǩǩõs</l>
+     <stg>
+       <st Contlex="N_SAJOS">Njauddâm-haʹŋǩǩõ%^1VOWs</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N">Näätämö-hanke</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N" type="Prop">Nuõrttsäämas-radiovuõlttõs</l>
+     <stg>
+       <st Contlex="N_SAJOS">Nuõrttsäämas-#radiovuõlttõ%^1VOWs</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="AKU"/>
+     </sources>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N">Kolttasaamen radiolähetys</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N" type="Prop">Nuõrttsäämas-vuõlttõs</l>
+     <stg>
+       <st Contlex="N_SAJOS">Nuõrttsäämas-vuõlttõ%^1VOWs</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="AKU"/>
+     </sources>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N">Kolttasaamen-lähetys</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Nuõrttsääʹmkulttuurkõõskõs</l>
+      <stg>
+        <st Contlex="N_SAJOS">Nuõrttsääʹmkulttuurkõõskõ%^1VOWs</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">Kolttakulttuurikeskus</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N" type="Prop">Ruõccjânnam</l>
+      <stg>
+        <st Contlex="PROP_AANAR">Ruõccjânnam</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="Prop">Ruotsi</t>
+      </tg>
+    </mg>
+  </e>
+  <e src="jmr_2015-11-10">
+   <lg>
+     <l pos="N" type="Prop">Sääʹmkultturkõõskõs</l>
+     <stg>
+       <st Contlex="N_SAJOS">sääʹm#kulttur#kõõskõ%^1VOWs</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="AKU"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">Saamelaiskultturikeskus</t>
+       <t pos="N">Sajos</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N" type="Prop">Sääʹmpõrtt</l>
+     <stg>
+       <st Contlex="PROP_ALGG">Sääʹm#põ%^1VOWrtt</st>
+     </stg>
+   </lg>
+   <mg>
+     <defNative/>
+     <tg xml:lang="fin">
+       <t pos="N" type="Prop">Saame-talo</t>
+     </tg>
+   </mg>
+</e>
+
 <!--
 <e>
    <lg>
@@ -10603,7 +10760,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">

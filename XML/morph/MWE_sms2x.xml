@@ -73,7 +73,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -90,7 +90,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -106,7 +106,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -123,8 +123,8 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
-       <book name="sjm"/>
+       <src type="db" name="AKU"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="eng">
@@ -144,8 +144,8 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
-       <book name="sjm"/>
+       <src type="db" name="AKU"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="eng">
@@ -165,7 +165,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -182,7 +182,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -199,7 +199,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -216,7 +216,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -233,7 +233,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -250,7 +250,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -267,7 +267,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -284,7 +284,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -301,7 +301,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -318,7 +318,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -335,7 +335,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -353,7 +353,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -369,7 +369,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -386,7 +386,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -403,7 +403,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -420,7 +420,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -437,7 +437,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -454,7 +454,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -471,7 +471,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -488,7 +488,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -505,7 +505,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -521,7 +521,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -538,7 +538,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -556,7 +556,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -573,7 +573,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -590,7 +590,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -607,7 +607,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -624,7 +624,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -641,7 +641,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -658,7 +658,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -675,7 +675,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -692,7 +692,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -709,7 +709,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -727,7 +727,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -744,7 +744,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -761,7 +761,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -778,7 +778,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -795,7 +795,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -812,7 +812,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -829,7 +829,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -846,7 +846,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -863,7 +863,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -880,7 +880,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -897,7 +897,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -914,7 +914,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -931,7 +931,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -948,7 +948,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -965,7 +965,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -982,7 +982,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -999,7 +999,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1016,7 +1016,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1033,7 +1033,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1050,7 +1050,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1067,7 +1067,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1085,7 +1085,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1102,7 +1102,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1119,7 +1119,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1137,7 +1137,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1154,7 +1154,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1171,7 +1171,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1188,7 +1188,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1205,7 +1205,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1222,7 +1222,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1240,7 +1240,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1257,7 +1257,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1274,7 +1274,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1291,7 +1291,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1308,7 +1308,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1326,7 +1326,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1343,7 +1343,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1360,7 +1360,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1377,7 +1377,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1395,7 +1395,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1412,7 +1412,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1429,7 +1429,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1445,7 +1445,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1462,7 +1462,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1479,7 +1479,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1496,7 +1496,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1513,7 +1513,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1530,7 +1530,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1547,7 +1547,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1564,7 +1564,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1581,7 +1581,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1598,7 +1598,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1615,7 +1615,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1632,7 +1632,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1649,7 +1649,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1667,7 +1667,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1683,7 +1683,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1700,7 +1700,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1717,7 +1717,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1734,7 +1734,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1751,7 +1751,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1768,7 +1768,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1786,7 +1786,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1803,7 +1803,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1820,7 +1820,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1837,7 +1837,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1854,7 +1854,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1871,7 +1871,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1888,7 +1888,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1905,7 +1905,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1923,7 +1923,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1940,7 +1940,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1957,7 +1957,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1975,7 +1975,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1992,7 +1992,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2009,7 +2009,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2026,7 +2026,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2043,7 +2043,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2060,7 +2060,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2078,7 +2078,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2096,7 +2096,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2113,7 +2113,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2130,7 +2130,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2147,7 +2147,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2164,7 +2164,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2180,7 +2180,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2197,7 +2197,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2214,7 +2214,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2232,7 +2232,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2249,7 +2249,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2266,7 +2266,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2283,7 +2283,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2301,7 +2301,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2318,7 +2318,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2336,7 +2336,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2353,7 +2353,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2370,7 +2370,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2387,7 +2387,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2405,7 +2405,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2422,7 +2422,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2439,7 +2439,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2456,7 +2456,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2473,7 +2473,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2491,7 +2491,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2508,7 +2508,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2526,7 +2526,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2543,7 +2543,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2560,7 +2560,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2578,7 +2578,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2595,7 +2595,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2612,7 +2612,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2629,7 +2629,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2646,7 +2646,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2663,7 +2663,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2680,7 +2680,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2697,7 +2697,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2714,7 +2714,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2731,7 +2731,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2748,7 +2748,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2765,7 +2765,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2782,7 +2782,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2800,7 +2800,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2817,7 +2817,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2834,7 +2834,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2851,7 +2851,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2868,7 +2868,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2886,7 +2886,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2903,7 +2903,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2920,7 +2920,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2937,7 +2937,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2954,7 +2954,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2971,7 +2971,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2988,7 +2988,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3005,7 +3005,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3022,7 +3022,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3039,7 +3039,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3056,7 +3056,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3074,7 +3074,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3092,7 +3092,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3109,7 +3109,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3126,7 +3126,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3143,7 +3143,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3160,7 +3160,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3178,7 +3178,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3195,7 +3195,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3212,7 +3212,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3229,7 +3229,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3246,7 +3246,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3263,7 +3263,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3280,7 +3280,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3299,7 +3299,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3316,7 +3316,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3333,7 +3333,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3350,7 +3350,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3367,7 +3367,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3384,7 +3384,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3401,7 +3401,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3418,7 +3418,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3435,7 +3435,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3452,7 +3452,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3469,7 +3469,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3486,7 +3486,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3505,7 +3505,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3522,7 +3522,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3539,7 +3539,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3556,7 +3556,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3573,7 +3573,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3591,7 +3591,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3608,7 +3608,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3625,7 +3625,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3642,7 +3642,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3659,7 +3659,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3676,7 +3676,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3693,7 +3693,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3710,7 +3710,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3727,7 +3727,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3744,7 +3744,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3761,7 +3761,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3778,7 +3778,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3795,7 +3795,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3813,7 +3813,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3831,7 +3831,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3848,7 +3848,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3865,7 +3865,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3882,7 +3882,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3899,7 +3899,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3916,7 +3916,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3934,7 +3934,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3952,7 +3952,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3969,7 +3969,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3986,7 +3986,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4003,7 +4003,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4020,7 +4020,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4038,7 +4038,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4055,7 +4055,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4072,7 +4072,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4089,7 +4089,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4107,7 +4107,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4124,7 +4124,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4141,7 +4141,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4159,7 +4159,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4177,7 +4177,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4194,7 +4194,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4211,7 +4211,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4228,7 +4228,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4245,7 +4245,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4262,7 +4262,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4279,7 +4279,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4296,7 +4296,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4313,7 +4313,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4330,7 +4330,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4347,7 +4347,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4364,7 +4364,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4382,7 +4382,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4400,7 +4400,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4417,7 +4417,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4434,7 +4434,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4451,7 +4451,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4468,7 +4468,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4485,7 +4485,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4503,7 +4503,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4521,7 +4521,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4538,7 +4538,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4555,7 +4555,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4572,7 +4572,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4589,7 +4589,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4606,7 +4606,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4623,7 +4623,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4640,7 +4640,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4657,7 +4657,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4675,7 +4675,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4692,7 +4692,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4709,7 +4709,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4726,7 +4726,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4743,7 +4743,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4760,7 +4760,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4777,7 +4777,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4795,7 +4795,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4813,7 +4813,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4830,7 +4830,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4847,7 +4847,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4864,7 +4864,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4881,7 +4881,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4898,7 +4898,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4915,7 +4915,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4932,7 +4932,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4949,7 +4949,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4966,7 +4966,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4983,7 +4983,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5001,7 +5001,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5018,7 +5018,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5035,7 +5035,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5052,7 +5052,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5069,7 +5069,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5086,7 +5086,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5103,7 +5103,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5120,7 +5120,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5137,7 +5137,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5154,7 +5154,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5171,7 +5171,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5188,7 +5188,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5205,7 +5205,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5222,7 +5222,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5239,7 +5239,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5256,7 +5256,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5273,7 +5273,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5290,7 +5290,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5307,7 +5307,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5324,7 +5324,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5341,7 +5341,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5358,7 +5358,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5375,7 +5375,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5392,7 +5392,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5409,7 +5409,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5426,7 +5426,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5445,7 +5445,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5462,7 +5462,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5479,7 +5479,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5496,7 +5496,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5513,7 +5513,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5530,7 +5530,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5547,7 +5547,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5564,7 +5564,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5581,7 +5581,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5598,7 +5598,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5615,7 +5615,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5632,7 +5632,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5649,7 +5649,7 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5666,11 +5666,1535 @@
      </stg>
    </lg>
      <sources>
-       <book name="sjm"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="V">maksaa nettipankissa</t>
      </tg>
    </mg>
-</e> <!-- FROM HERE ON --> </r> 
+</e>
+  <e>
+   <map sml_ids="21829"/>
+   <lg>
+     <l pos="N">nuʹbb peiʹvv</l>
+     <stg>
+       <st Contlex="N_PEIQVV" NumContlex="1.113">nuʹbb #pẹ%^1VOWivv</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">seuraava päivä</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="26991"/>
+   <lg>
+     <l pos="N">nuʹbbnallšem mäinn</l>
+     <stg>
+       <st Contlex="N_AELDD" NumContlex="1.112">nuʹbbnallšem mä%^1VOWinn</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">vaihtoehto</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="3564"/>
+   <lg>
+     <l pos="N">HTML-ååʹblka piijjmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">HTML-ååʹblka piijjmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">HTML-ååʹblka piijjmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">HTML-muotoilu</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">Huâttar Ränn</l>
+     <stg>
+       <st Contlex="N_PESS" NumContlex="1.115">Huâttar Rä%^1VOWnn</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="eng">
+       <t pos="N">wolf</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="N">Huotarin Halli</t>
+       <t pos="N">susi</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="5346"/>
+   <lg>
+     <l pos="N">Jååǥǥar peiʹvv</l>
+     <stg>
+       <st Contlex="N_PEIQVV" NumContlex="1.113">Jååǥǥar #pẹ%^1VOWivv</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">Jyrin päivä</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="23050"/>
+   <lg>
+     <l pos="N" type="Prop">Suõʹnnʼjel kreäppast</l>
+     <stg>
+       <st Contlex="N_KHIOZZYLM" NumContlex="1.2">Suõʹnnʼjel kreäppast</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N" re="Suonikylän, tsaarien antamat">Suonikylän kiinnekirjat</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">Vuâsppååʹd piânnai</l>
+     <stg>
+       <st Contlex="N_PIYNNAI" NumContlex="1.4">Vuâsppååʹd #piânˈn</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">susi</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="1078"/>
+   <lg>
+     <l pos="N">auttmaattlaž teâđai riâššmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">auttmaattlaž teâđai #riâššmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">auttmaattlaž teâđai #riâššmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">ATK</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="11117"/>
+   <lg>
+     <l pos="N">cuåkkai čääʹcc</l>
+     <stg>
+       <st Contlex="N_CHAAQCC" NumContlex="1.113">cuåkkai #čääcc</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">laskuvesi</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="28962"/>
+   <lg>
+     <l pos="N">dohat eeʹǩǩed</l>
+     <stg>
+       <st Contlex="N_" NumContlex="1000">dohat eeʹǩǩed</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">vuosituhat</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="34082"/>
+   <lg>
+     <l pos="N">fabrikklaž täävvai</l>
+     <stg>
+       <st Contlex="N_PRSPRC-VVCC-AI" NumContlex="1.2">fabrikklaž täävvai</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">teollinenmuotoilija</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="19933"/>
+   <lg>
+     <l pos="N">heäppaž âʹlnn vuejjai</l>
+     <stg>
+       <st Contlex="N_PRSPRC-VWCC-AI" NumContlex="1.2">heäppaž âʹlnn vuejja%{ʼØ%}i</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">ratsastaja</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="19934"/>
+   <lg>
+     <l pos="N">heäppaž âʹlnn vuejjmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">heäppaž âʹlnn vuejjmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">heäppaž âʹlnn vuejjmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">ratsastaminen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="15244"/>
+   <lg>
+     <l pos="N">heäppâz ool võʹllʼjummuš</l>
+     <stg>
+       <st Contlex="N_MAINSTUMMUSH">heäppâz ool võʹllʼjummuš</st>
+       <st Contlex="N_SAJOS" status="Err/Orth">heäppâz ool võʹllʼjumuš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">nouseminen hevosen selkään</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">hieʹrvves ooumaž</l>
+     <stg>
+       <st Contlex="N_OOUMAZH" NumContlex="1.4">hieʹrvves #o%^1VOWumm</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <semantics sem_type="Hum">
+     </semantics>
+     <tg xml:lang="fin">
+       <t pos="N">ihminen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="3330"/>
+   <lg>
+     <l pos="N">hõõʹddi piijjmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">hõõʹddi piijjmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">hõõʹddi piijjmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">hinnoittelu</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="29948"/>
+   <lg>
+     <l pos="N">interneeʹtt kääzzkõõzz puʹhtti</l>
+     <stg>
+       <st Contlex="N_PRSPRC-VHYY-I" NumContlex="1.2">interneeʹtt kääzzkõõzz pu%^1VOWhtti</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">internetpalvelun tarjoaja</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="2706"/>
+   <lg>
+     <l pos="N">jaammʼji ruõkkâmsââʹjj</l>
+     <stg>
+       <st Contlex="N_PAAQJJ" NumContlex="1.113">jaammʼji ruõkkâm#sââjj</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">hautausmaa</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">jeeʹresmiõllsaž juurd</l>
+     <stg>
+       <st Contlex="N_JUURD" NumContlex="1.13">jeeʹresmiõllsaž #ju%^1VOWrdd</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">eriävä mielipide</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="977"/>
+   <lg>
+     <l pos="N">jeärmma pâššnem äʹšš</l>
+     <stg>
+       <st Contlex="N_">jeärmma pâššnem #äšš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">asia</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="19186"/>
+   <lg>
+     <l pos="N">jieʹrmi rõttjummuš</l>
+     <stg>
+       <st Contlex="N_MAINSTUMMUSH">jieʹrmi rõttjummuš</st>
+       <st Contlex="N_SAJOS" status="Err/Orth">jieʹrmi rõttjumuš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">pyörryttäminen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="15941"/>
+   <lg>
+     <l pos="N">jiiʹjjesnallšeʹm ååʹbleǩ</l>
+     <stg>
+       <st Contlex="N_AACCIKH" NumContlex="1.2">jiiʹjjesnallšeʹm ååʹbleǩ</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">ominaispiirre</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="27081"/>
+   <lg>
+     <l pos="N">jiântta åårramõõlǥtummuš</l>
+     <stg>
+       <st Contlex="N_MAINSTUMMUSH">jiântta åårramõõlǥtummuš</st>
+       <st Contlex="N_SAJOS" status="Err/Orth">jiântta åårramõõlǥtumuš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">vaitiolovelvollisuus</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="27080"/>
+   <lg>
+     <l pos="N">jiântta åårrmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">jiântta åårrmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">jiântta åårrmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">vaitiolo</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="2976"/>
+   <lg>
+     <l pos="N">jiõglvaž jieʹllem</l>
+     <stg>
+       <st Contlex="N_AANAR" NumContlex="1.2">jiõglvaž jiẹʹllem</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">hengellinen elämä</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="2977"/>
+   <lg>
+     <l pos="N" type="NomAg">jiõglvaž jååʹđteei</l>
+     <stg>
+       <st Contlex="N_PRSPRC-EEI" NumContlex="700">jiõglvaž jååʹđtee</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">hengellinen johtaja</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="5240:3642"/>
+   <lg>
+     <l pos="N">jukkmõž ooumaž</l>
+     <stg>
+       <st Contlex="N_OOUMAZH">jukkmõž #o%^1VOWumm</st>
+       <st Contlex="N_OOUMAZH" status="Err/Orth">jukkmõš #o%^1VOWumm</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <semantics sem_type="Hum">
+     </semantics>
+     <tg xml:lang="fin">
+       <t pos="N">humalainen</t>
+       <t pos="N">juopunut</t>
+     </tg>
+     <xg>
+      <x src="VJO:2012:20">Nâ tõt jukkmõž ooumaž tõʹst šââʹldest vuäđđ.</x>
+      <xt xml:lang="fin">No se juopunut ihminen nukkuu siinä lattialla.</xt>
+    </xg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="29957"/>
+   <lg>
+     <l pos="N">juõkkum programm</l>
+     <stg>
+       <st Contlex="N_PAPP" NumContlex="1.22">juõkkum #progra%^1VOWmm</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">jaettu ohjelma</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="4987"/>
+   <lg>
+     <l pos="N">juõǩǩʼka vuõiggâdvuõtt</l>
+     <stg>
+       <st Contlex="N_MUORR" NumContlex="150">juõǩǩʼka vuõiggâdvuõtt</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">jokamiehenoikeus</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="15794"/>
+   <lg>
+     <l pos="N">juʹriidlaž äʹšš</l>
+     <stg>
+       <st Contlex="N_LOAQDD">juʹriidlaž #ä%^1VOWšš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">oikeusjuttu</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="13642"/>
+   <lg>
+     <l pos="N">jânnamvuâlaž poojâs</l>
+     <stg>
+       <st Contlex="N_VOONYS">jânnamvuâlaž po%^1VOWjjâs</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">metro</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="30053"/>
+   <lg>
+     <l pos="N">jåʹttlõs tieʹttimašinaõhttvuõtt</l>
+     <stg>
+       <st Contlex="N_MUORR" NumContlex="150">jåʹttlõs tieʹttimašinaõhttvuõtt</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">laajakaista</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="13359"/>
+   <lg>
+     <l pos="N">jõnn läʹznpeiʹvv</l>
+     <stg>
+       <st Contlex="N_PEIQVV" NumContlex="1.113">jõnn läʹzn#pẹ%^1VOWivv</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">Marian ilmestyspäivä</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="12431:16584"/>
+   <lg>
+     <l pos="N">jõnn muõtt</l>
+     <stg>
+       <st Contlex="N_MUOTT">jõnn muõtt</st>
+     <mini_paradigm exclude="NDS">
+       <analysis ms="A_Pl_Nom">
+           <wordform>muõtˈti</wordform>
+       </analysis>
+       <analysis ms="A_Sg_Ill">
+           <wordform>muõtˈtja ~ muõtˈtǥa</wordform>
+       </analysis>
+     </mini_paradigm>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">paksu lumi</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="4599"/>
+   <lg>
+     <l pos="N">jõnn sõõrvjeeʹel</l>
+     <stg>
+       <st Contlex="N_JEEQEL" NumContlex="1.2">jõnn sõõrv#jeäkˈkel</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="lat">
+       <t pos="N">Cetraria islandica</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="N">isohirvenjäkälä</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="13041"/>
+   <lg>
+     <l pos="N">jõnn väinn</l>
+     <stg>
+       <st Contlex="N_AELDD" NumContlex="1.112">jõnn vä%^1VOWinn</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">maailmansota</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="6899"/>
+   <lg>
+     <l pos="N">kaupp- da industriiminiʹstter</l>
+     <stg>
+       <st Contlex="N_AANAR" NumContlex="1.22">kaupp- da industriiminiʹstter</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <semantics sem_type="Hum">
+     </semantics>
+     <tg xml:lang="fin">
+       <t pos="N">kauppa- ja teollisuusministeri</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="17722"/>
+   <lg>
+     <l pos="N">kaʹlddjest vuäggai</l>
+     <stg>
+       <st Contlex="N_PRSPRC-VWCCC-AI" NumContlex="1.2">kaʹlddjest vuägˈgai</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">pilkkijä</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="17723"/>
+   <lg>
+     <l pos="N">kaʹlddjest vuäggmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">kaʹlddjest vuäggmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">kaʹlddjest vuäggmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">pilkkiminen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="5243"/>
+   <lg>
+     <l pos="N">kiõli kuâddmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">kiõli kuâddmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">kiõli kuâddmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">juoruaminen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="12501"/>
+   <lg>
+     <l pos="N">klassniiʹǩǩi sååbbar</l>
+     <stg>
+       <st Contlex="N_SOAOABBAR" NumContlex="1.2">klassniiʹǩǩi #så%^1VOWbbar</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">luokkakokous</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">koomâšǩ siiskâž</l>
+     <stg>
+       <st Contlex="N_MUORYZH" NumContlex="1.26">koomâšǩ siisk</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">kitalaki</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="8542"/>
+   <lg>
+     <l pos="N">kooum čuâǥǥas räätktõk</l>
+     <stg>
+       <st Contlex="N_SAJOS" NumContlex="1.22">kooum čuâǥǥas räätktõ%^1VOWk</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">kolmen tien haara</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="11296"/>
+   <lg>
+     <l pos="N">kruupnâs jävv</l>
+     <stg>
+       <st Contlex="N_PESS" NumContlex="1.112">kruupnâs jä%^1VOWvv</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">??jauho</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="9528"/>
+   <lg>
+     <l pos="N">kuddân âânnmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">kuddân âânnmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">kuddân âânnmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">kunnossapito</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">kueiʹtǩeârddsaž žåålablaakk</l>
+     <stg>
+       <st Contlex="N_SAAKK" NumContlex="1.111">kueiʹtǩeârddsaž žåålablaakk</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">kourulautakatto</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="23968"/>
+   <lg>
+     <l pos="N">kueʹsttemnalla piijji</l>
+     <stg>
+       <st Contlex="N_PRSPRC-VVCC-I" NumContlex="1.2">kueʹsttemnalla piijj%{ʼØ%}i</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">taittaja</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="34013"/>
+   <lg>
+     <l pos="N">kueʹsttemnalla piijjmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">kueʹsttemnalla piijjmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">kueʹsttemnalla piijjmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">taittaminen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="28620"/>
+   <lg>
+     <l pos="N">kuultõs tuʹmmjemvuâlaž ääʹššest</l>
+     <stg>
+       <st Contlex="N_" NumContlex="400">kuultõs tuʹmmjemvuâlaž ääʹššest</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">vireilläolokuulutus</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="28620"/>
+   <lg>
+     <l pos="N">kuultõs ǩiõttʼtõõllâmvuâlaž ääʹššest</l>
+     <stg>
+       <st Contlex="N_" NumContlex="400">kuultõs ǩiõttʼtõõllâmvuâlaž ääʹššest</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">vireilläolokuulutus</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="10020:9896"/>
+   <lg>
+     <l pos="N">kuuđad vueʹss</l>
+     <stg>
+       <st Contlex="N_PIEAQSS" NumContlex="1.113">kuuđad vuäss</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">kuudennes</t>
+       <t pos="N">kuudes osa</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="17891"/>
+   <lg>
+     <l pos="N">kuuʹǩǩääiʹj tuâjteʹmesvuõtt</l>
+     <stg>
+       <st Contlex="N_MUORR" NumContlex="150">kuuʹǩǩääiʹj tuâjteʹmesvuõtt</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">pitkäaikaistyöttömyys</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">kuâstlvõs jiõŋŋ</l>
+     <stg>
+       <st Contlex="N_MUORR" NumContlex="1.111">kuâstlvõs jiõŋŋ</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">läpinäkyvä jää</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">kuâstlvõs päiʹǩǩ</l>
+     <stg>
+       <st Contlex="N_PAIQKHKH" NumContlex="1.113">kuâstlvõs #pä%^1VOWikk</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">läpinäkyvä paikka</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">kuâstlvõs šõŋŋ</l>
+     <stg>
+       <st Contlex="N_TOLL" NumContlex="1.111">kuâstlvõs šõ%^1VOWŋŋ</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">kuulas sää</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="8538"/>
+   <lg>
+     <l pos="N">kuälmad vueʹss</l>
+     <stg>
+       <st Contlex="N_PIEAQSS" NumContlex="1.113">kuälmad #vuäss</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">kolmas osa</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">kâuʹrr käʹrrevpieʹcc</l>
+     <stg>
+       <st Contlex="N_PIEAQSS" NumContlex="1.113">kâuʹrr käʹrrev#peäcc</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">kumara mänty</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="9504"/>
+   <lg>
+     <l pos="N">kååʹdd jieʹllikartt-teaʹtter</l>
+     <stg>
+       <st Contlex="N_AANAR" NumContlex="1.2">kååʹdd jieʹllikartt-teaʹtter</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">kunnankino</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="8700"/>
+   <lg>
+     <l pos="N">kõõʒʒivuiʹm riõkkmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">kõõʒʒivuiʹm riõkkmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">kõõʒʒivuiʹm riõkkmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">koparoiminen</t>
+       <t pos="N">pieksäminen koparalla</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="23968"/>
+   <lg>
+     <l pos="N">layout raajji</l>
+     <stg>
+       <st Contlex="N_PRSPRC-VVCC-I" NumContlex="1.2">layout #raajj%{ʼØ%}i</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">taittaja</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="11397"/>
+   <lg>
+     <l pos="N">leeiʹbteʹmes jieʹtt</l>
+     <stg>
+       <st Contlex="N_KUEAQTT" NumContlex="1.113">leeiʹbteʹmes jiätt</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">leipäpula</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="21690"/>
+   <lg>
+     <l pos="N">liisti joortummuš</l>
+     <stg>
+       <st Contlex="N_MAINSTUMMUSH">liisti joortummuš</st>
+       <st Contlex="N_SAJOS" status="Err/Orth">liisti joortumuš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">selaaminen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="21691"/>
+   <lg>
+     <l pos="N">liisti joortõõlli</l>
+     <stg>
+       <st Contlex="N_PRSPRC-VVCC-I">liisti joortõõll%{ʼØ%}i</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">selailija</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="21693"/>
+   <lg>
+     <l pos="N">liisti joortõõllmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">liisti joortõõllmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">liisti joortõõllmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">selailu</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="26656"/>
+   <lg>
+     <l pos="N">likkeemkääzzkõõzzi vuʹvdd</l>
+     <stg>
+       <st Contlex="N_JUQVJJ" NumContlex="1.113">likkeemkääzzkõõzzi #vu%^1VOWvdd</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">urheilupalvelualue</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="11918"/>
+   <lg>
+     <l pos="N">looʹddi šeellmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">looʹddi šeellmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">looʹddi šeellmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">linnustaminen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="34120"/>
+   <lg>
+     <l pos="N">loʹsses täävv</l>
+     <stg>
+       <st Contlex="N_SHOOMM" NumContlex="1.112">loʹsses täävv</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">painollinen tavu</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="23757"/>
+   <lg>
+     <l pos="N">loʹsses šõŋŋ</l>
+     <stg>
+       <st Contlex="N_TOLL" NumContlex="1.111">loʹsses šõ%^1VOWŋŋ</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">painava sää</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">lääʹttes laakk</l>
+     <stg>
+       <st Contlex="N_SAAKK" NumContlex="1.111">lääʹttes laakk</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">tasakatto</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="28958"/>
+   <lg>
+     <l pos="N">lååi eeʹǩǩed</l>
+     <stg>
+       <st Contlex="N_" NumContlex="1000">lååi eeʹǩǩed</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">vuosikymmen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="10157"/>
+   <lg>
+     <l pos="N">lååǥǥad vueʹss</l>
+     <stg>
+       <st Contlex="N_PIEAQSS" NumContlex="1.113">lååǥǥad #vuäss</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">kymmenesosa</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="21690"/>
+   <lg>
+     <l pos="N">lõõsti joortummuš</l>
+     <stg>
+       <st Contlex="N_MAINSTUMMUSH">lõõsti joortummuš</st>
+       <st Contlex="N_SAJOS" status="Err/Orth">lõõsti joortumuš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">selaaminen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="21691"/>
+   <lg>
+     <l pos="N">lõõsti joortõõlli</l>
+     <stg>
+       <st Contlex="N_PRSPRC-VVCC-I">lõõsti joortõõll%{ʼØ%}i</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">selailija</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="21693"/>
+   <lg>
+     <l pos="N">lõõsti joortõõllmõš</l>
+     <stg>
+       <st Contlex="N_SAJOS">lõõsti joortõõllmõ%^1VOWš</st>
+       <st Contlex="N_SAJOS" status="Use/SpellNoSugg">lõõsti joortõõllmu%^1VOWš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">selailu</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="13172"/>
+   <lg>
+     <l pos="N">magneettlaž nääʹpp</l>
+     <stg>
+       <st Contlex="N_SAAQMM" NumContlex="1.113">magneettlaž #nääpp</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">magneettinen napa</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="30098"/>
+   <lg>
+     <l pos="N">mahssi programm</l>
+     <stg>
+       <st Contlex="N_PAPP" NumContlex="1.22">mahssi #progra%^1VOWmm</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">maksullinen julkisohjelma</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N" type="NomAg">mainnâz jååʹđteei</l>
+     <stg>
+       <st Contlex="N_PRSPRC-EEI" NumContlex="700">mainnâz jååʹđtee</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">sadunkertoja</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="7321:21544"/>
+   <lg>
+     <l pos="N">mainnâz jååʹđtummuš</l>
+     <stg>
+       <st Contlex="N_MAINSTUMMUSH">mainnâz jååʹđtummuš</st>
+       <st Contlex="N_SAJOS" status="Err/Orth">mainnâz jååʹđtumuš</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">sadunkertominen</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="8654"/>
+   <lg>
+     <l pos="N" type="NomAg">mašinain ǩeeʹrjteei</l>
+     <stg>
+       <st Contlex="N_PRSPRC-EEI" NumContlex="700">mašinain ǩeeʹrjtee</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">konekirjoittaja</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="30119"/>
+   <lg>
+     <l pos="N">meäʹrteʹmes person</l>
+     <stg>
+       <st Contlex="N_ATOM" NumContlex="1.22">meäʹrteʹmes #pẹrso%^1VOWn</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">epämääräinen muoto [kieliop.]</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="13577"/>
+   <lg>
+     <l pos="N">miârroummui tiõrvâsvuõđhuõll</l>
+     <stg>
+       <st Contlex="N_MUORR" NumContlex="1.111">miârroummui tiõrvâsvuõđhuõll</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">merimiesterveydenhuolto</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="13718"/>
+   <lg>
+     <l pos="N">miõl ǩieʹssem</l>
+     <stg>
+       <st Contlex="N_AANAR" NumContlex="1000">miõl ǩiẹʹssem</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">mielenkiinto</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="23100"/>
+   <lg>
+     <l pos="N">miõllsaž ooumaž</l>
+     <stg>
+       <st Contlex="N_OOUMAZH" NumContlex="1.4">miõllsaž o%^1VOWumm</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <semantics sem_type="Hum">
+     </semantics>
+     <tg xml:lang="fin">
+       <t pos="N">suosikki</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="28446"/>
+   <lg>
+     <l pos="N">mutstõõlli korgg</l>
+     <stg>
+       <st Contlex="N_ALGG" NumContlex="1.111">mutstõõlli ko%^1VOWrgg</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">viitekorko</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="24765"/>
+   <lg>
+     <l pos="N">mââimõs tätt</l>
+     <stg>
+       <st Contlex="N_PESS" NumContlex="1.112">mââimõs tä%^1VOWtt</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="N">testamentti</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <lg>
+     <l pos="N">mädd- da meäʹcctäälministeria</l>
+     <stg>
+       <st Contlex="N_BIOLOGIA" NumContlex="1.4">mädd- da meäʹcctääl#ministeria</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <semantics sem_type="Org">
+     </semantics>
+     <tg xml:lang="fin">
+       <t pos="N">maa- ja metsätalousministeriö</t>
+     </tg>
+   </mg>
+</e>
+  <e>
+   <map sml_ids="13018"/>
+   <lg>
+     <l pos="N">mädd- da meäʹcctäälminiʹstter</l>
+     <stg>
+       <st Contlex="N_AANAR" NumContlex="1.22">mädd- da meäʹcctäälminiʹstter</st>
+     </stg>
+   </lg>
+     <sources>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <semantics sem_type="Hum">
+     </semantics>
+     <tg xml:lang="fin">
+       <t pos="N">maa- ja metsätalousministeri</t>
+     </tg>
+   </mg>
+</e>
+
+<!-- FROM HERE ON -->
+
+</r> 

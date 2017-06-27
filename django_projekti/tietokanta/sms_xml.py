@@ -146,7 +146,7 @@ def __xml_node_to_list__(node):
 def __process_morph_xml__(root, file_name):
     lemmas = []
     for element in root:
-        homonym ={"mg_data":[], "l_attrib": {}, "lexicon":{},"translations": {},"semantics":[], "semantics_attributes":[], "morph":{"lg":{}},"sms2xml":{"sources":[]}, "tg_attrs":{}}
+        homonym ={"mg_data":[], "l_attrib": {}, "lexicon":{},"translations": {},"semantics":[], "semantics_attributes":{}, "morph":{"lg":{}},"sms2xml":{"sources":[]}, "tg_attrs":{}}
         id = element.get("id") or ""
         meta = element.get("meta") or ""
         homonym["morph_id"] = id
@@ -189,7 +189,7 @@ def __process_morph_xml__(root, file_name):
                     use_index = mg_atrs["relId"]
                 for ele in mg:
                     if ele.tag == "semantics":
-                        homonym["semantics_attributes"].append(ele.attrib or {})
+                        homonym["semantics_attributes"][use_index] = ele.attrib or {}
                         for sem in ele:
                             d = {"mg": use_index, "class": sem.get("class"), "value": sem.text or "", "attributes": (sem.attrib or {})}
                             homonym["semantics"].append(d)

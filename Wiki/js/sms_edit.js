@@ -122,6 +122,13 @@ function createFormItem(lemma, pos, semantics, translations, json_data, json){
     form_item = form_item + createXgForm(json);
 	form_item = form_item + morphDictEdit(json, "element");
 	form_item = form_item + morphDictEdit(json, "map");
+	if("hid" in json){
+		if(!("l_attrib" in json)){
+            json["l_attrib"] = {};
+		}
+        json["l_attrib"]["hid"] = json["hid"];
+	}
+    form_item = form_item + morphDictEdit(json, "l_attrib", true);
 	form_item = form_item + sourcesEdit(json);
 	form_item = form_item + arggEditFrom(json);
 	lemma_edit.innerHTML = form_item;
@@ -641,6 +648,16 @@ function updateJsons(){
 		json["morph"]["lg"]["stg"] = stgToXML(homonym);
 		json["morph"]["map"] = morphDictEditToJsonData(homonym, "map");
 		json["morph"]["element"] = morphDictEditToJsonData(homonym, "element");
+		json["l_attrib"] = morphDictEditToJsonData(homonym, "l_attrib");
+		if("hid" in json["l_attrib"]){
+			var l_at = json["l_attrib"];
+			json["hid"] = l_at["hid"];
+            delete l_at["hid"];
+		}else{
+			if("hid" in json){
+				delete json["hid"];
+			}
+		}
 		json["sms2xml"]["sources"] = sourcesToJson(homonym);
         if(!("mg_data" in json)){
             json["mg_data"] = [];
@@ -685,10 +702,16 @@ function addArgument(event) {
     table.appendChild(row);
 }
 
-function morphDictEdit(json, classPrefix){
+function morphDictEdit(json, classPrefix, notUnderMorph){
 	var return_string = "<div class='morphEditor " + classPrefix + "_edit'><b>"+_(classPrefix)+"</b><br><button onclick='addetymologyAttr(event, \"" + classPrefix + "\")'>Lisää attribuutti</button><ul>";
 	try{
-	var dict = json["morph"][classPrefix];
+		var init_dict;
+		if(notUnderMorph){
+            init_dict = json;
+		}else{
+			init_dict = json["morph"];
+		}
+	var dict = init_dict[classPrefix];
 	if(dict != undefined){
 		for( var key in dict){
 			var html = "<li>Nimi: <input class='"+ classPrefix.substring(0,3) +"Attr' value='"+key+"'> Arvo: <input class='"+ classPrefix.substring(0,3) +"Value' value='"+dict[key]+"'><span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>";
@@ -725,7 +748,9 @@ function jsonToWiki(json){
 	var mg_dict = sortTranslationsByMg(json);
 	for(var mg in mg_dict){
 		var trans_dict = mg_dict[mg]["translations"];
-		for (var language in trans_dict){
+		var trans_keys = Object.keys(trans_dict).sort();
+		for (var o = 0; o < trans_keys.length; o++){
+            var language = trans_keys[o];
 			var translations = trans_dict[language];
 			wiki = wiki + "\n<div class=\"trans_language\">\n=== {{ lang:"+language+" }} ===\n";
 			for(var x=0; x < translations.length; x++){
@@ -958,12 +983,12 @@ function contlex_properties(json_list){
         var json = json_list[i];
         try {
             var stg = json["morph"]["lg"]["stg"];
-            var start_i = stg.indexOf("Contlex=");
+            var start_i = stg.indexOf(" Contlex=");
         	while(start_i != -1){
-        		stg = stg.substring(start_i + "Contlex= ".length);
+        		stg = stg.substring(start_i + " Contlex= ".length);
 				var contlex = stg.substring(0, stg.indexOf("\""));
 				wiki = wiki + "\n[[Contlex::" + contlex+ "]]";
-				start_i = stg.indexOf("Contlex=");
+				start_i = stg.indexOf(" Contlex=");
 			}
 
         }
@@ -1090,6 +1115,9 @@ function semantic_properties(json_list) {
             for (var a = 0; a < sem_list.length; a++){
                 var sem_dict = sem_list[a];
                 for (var key in sem_dict){
+                	if(key =="mg"){
+                		continue;
+					}
                     var source = sem_dict[key];
                     wiki = wiki + "\n[[Semantic "+ key+"::" + source + "]]";
                 }
@@ -1412,7 +1440,7 @@ function _(text){
 	}
 }
 
-var lokaali = {"etymology": "Etymologia", "compg": "Johtaminen", "element": "E-elementti", "map": "kartta", "argg": "Argumentti"}
+var lokaali = {"etymology": "Etymologia", "compg": "Johtaminen", "element": "E-elementti", "map": "kartta", "argg": "Argumentti", "l_attrib":"L-elementti"};
 var supported_languages = ["fin", "eng", "rus", "deu", "nob", "sme", "smn", "sjd", "sma", "sju", "sjd", "sje", "smj", "sjt", "sms", "est", "fit", "fkv", "hun", "izh", "kca", "koi", "kpv", "lav", "liv", "mdf", "mhr", "mns", "mrj", "myv", "nio", "olo", "udm", "vep", "vot", "vro", "yrk", "non", "rom", "ron", "som", "swe", "krl", "lud", "fra", "lat"];
 
 var datalist_data = {

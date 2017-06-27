@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?> <r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd" xml:lang="sms">
+  <e>
+    <lg>
+      <l pos="ADV">čåuʹddemnalla</l>
+      <stg>
+        <st Contlex="ADV_">čåuʹddemnalla</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="ADV">ratkaistava</t>
+      </tg>
+    </mg>
+  </e>
 <e id="fm_235">
    <map fin_lemma_id="15077::" stamp="fm_235:sml_16609"/>
    <rev-sort_key>tʹem-</rev-sort_key>
@@ -60,7 +73,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -98,7 +111,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -113,7 +126,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -133,7 +146,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -150,7 +163,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -210,7 +223,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -243,7 +256,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -256,7 +269,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -278,7 +291,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -311,6 +324,10 @@
      <stg>
        <st Contlex="ADV_">arggpeeiʹvi</st>
      </stg>
+     <compg type="Der" drv="N:Suf»Adv">
+      <comp ord="E1" pos="N" ms="">peiʹvv</comp>
+      <comp ord="E2" pos="Suf" ms="Sg.Gen"/>
+    </compg>
    </lg>
      <sources>
        <src type="db" name="sjm"/>
@@ -459,7 +476,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -477,7 +494,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -508,7 +525,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="book" name="KKS" page="627:3.3"/>
      </sources>
    <mg>
@@ -567,7 +584,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -646,7 +663,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -704,7 +721,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -777,7 +794,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -848,7 +865,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -914,7 +931,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -959,7 +976,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1074,7 +1091,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -1122,7 +1139,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1169,7 +1186,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1205,7 +1222,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1250,7 +1267,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1384,7 +1401,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1428,7 +1445,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1461,7 +1478,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1489,7 +1506,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -1548,7 +1565,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1599,7 +1616,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1664,7 +1681,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1708,7 +1725,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="4" name="kurss"/>
      </sources>
    <mg>
@@ -1757,7 +1774,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="eng"> <t/>
@@ -1788,7 +1805,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1841,7 +1858,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2031,7 +2048,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2128,7 +2145,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -2199,7 +2216,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2234,7 +2251,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2252,7 +2269,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2326,7 +2343,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -2363,7 +2380,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -2394,7 +2411,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2497,7 +2514,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2515,7 +2532,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2773,7 +2790,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2797,7 +2814,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -2841,7 +2858,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3052,7 +3069,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3131,7 +3148,7 @@
     </compg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3214,7 +3231,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3256,7 +3273,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3289,7 +3306,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3305,7 +3322,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3321,7 +3338,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3341,7 +3358,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3390,7 +3407,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3528,7 +3545,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        </sources>
    <mg>
      <semantics>
@@ -3570,7 +3587,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3607,7 +3624,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3712,7 +3729,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3749,7 +3766,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3792,7 +3809,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3818,7 +3835,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -3851,7 +3868,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3944,7 +3961,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -3973,7 +3990,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -4010,7 +4027,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4035,7 +4052,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -4086,7 +4103,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4187,7 +4204,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        </sources>
    <mg>
      <tg xml:lang="deu">
@@ -4239,7 +4256,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4324,7 +4341,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4376,7 +4393,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4429,7 +4446,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4581,7 +4598,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4605,7 +4622,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4623,7 +4640,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4647,7 +4664,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
        <src type="db" name="sjm"/>
      </sources>
@@ -4726,7 +4743,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/>
      </sources>
    <mg>
@@ -4773,7 +4790,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -4820,7 +4837,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -4863,7 +4880,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -4897,7 +4914,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4922,7 +4939,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="db" name="sjm"/>
      </sources>
    <mg>
@@ -4974,7 +4991,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -5041,7 +5058,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="eng">
@@ -5076,7 +5093,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book BEDLAN_ID="213" name="200"/>
      </sources>
    <mg>
@@ -5123,7 +5140,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -5158,7 +5175,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -5196,7 +5213,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5225,7 +5242,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -5261,7 +5278,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -5302,7 +5319,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -5337,7 +5354,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5355,7 +5372,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5481,7 +5498,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5514,7 +5531,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -5577,7 +5594,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -5877,7 +5894,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -5913,7 +5930,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5973,7 +5990,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -6111,7 +6128,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -6163,7 +6180,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6199,7 +6216,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6248,7 +6265,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -6322,7 +6339,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -6501,7 +6518,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6702,15 +6719,19 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="Adv">kuitenkaan</t>
        <t pos="Adv">kuitenkin</t>
        <t pos="Adv">silti</t>
-       <t pos="Adv">ainakin</t>
        <t pos="Adv">sittenkin</t>
+     </tg>
+   </mg>
+   <mg>
+     <tg xml:lang="fin">
+       <t pos="Adv">ainakin</t>
      </tg>
    </mg>
 </e>
@@ -6724,7 +6745,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6750,7 +6771,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="5" name="kurss"/>
      </sources>
    <mg>
@@ -6796,7 +6817,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -6826,7 +6847,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6926,7 +6947,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -6974,7 +6995,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7052,7 +7073,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7101,7 +7122,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7187,7 +7208,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7223,7 +7244,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7241,7 +7262,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7260,7 +7281,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7343,7 +7364,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="phon" name="kurss"/>
      </sources>
    <mg> <argg arg2="%&lt;loc&gt;%"/>
@@ -7518,7 +7539,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book BEDLAN_ID="191" name="200"/>
      </sources>
    <mg>
@@ -7607,7 +7628,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7781,7 +7802,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7868,7 +7889,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7951,7 +7972,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="5" name="kurss"/>
        <book BEDLAN_ID="43" name="200"/>
      </sources>
@@ -8034,7 +8055,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8097,7 +8118,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8146,7 +8167,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8253,7 +8274,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8295,7 +8316,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8447,7 +8468,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="book" name="KKS" page="146:7"/>
        <src type="db" name="sjm"/>
      </sources>
@@ -8597,7 +8618,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8663,7 +8684,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -8728,7 +8749,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8778,7 +8799,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -8915,7 +8936,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8931,7 +8952,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8967,7 +8988,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8985,7 +9006,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9004,7 +9025,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9035,7 +9056,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9087,7 +9108,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9105,7 +9126,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9185,7 +9206,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -9263,7 +9284,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -9295,7 +9316,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9326,7 +9347,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9415,7 +9436,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9564,7 +9585,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9588,7 +9609,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9704,7 +9725,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9721,7 +9742,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -9829,7 +9850,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9858,7 +9879,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -9966,7 +9987,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9984,7 +10005,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10024,7 +10045,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10078,7 +10099,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10118,7 +10139,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10247,7 +10268,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -10323,7 +10344,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10379,7 +10400,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -10514,7 +10535,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -10527,7 +10548,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -10549,7 +10570,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10609,7 +10630,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10641,7 +10662,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10674,7 +10695,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -10730,7 +10751,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -10984,7 +11005,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="book" name="KKS" page="244:10"/>
        <book lesson="1" name="kurss"/>
      </sources>
@@ -11187,7 +11208,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -11220,7 +11241,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -11240,7 +11261,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="5" name="kurss"/>
      </sources>
    <mg>
@@ -11290,7 +11311,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -11447,7 +11468,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -11541,7 +11562,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -11622,7 +11643,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -11671,7 +11692,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -11726,7 +11747,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -11784,7 +11805,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -11812,7 +11833,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -11920,7 +11941,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -12026,7 +12047,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -12070,7 +12091,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -12090,7 +12111,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -12109,7 +12130,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -12138,7 +12159,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -12207,7 +12228,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -12225,7 +12246,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -12288,7 +12309,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="eng"> <t/>
@@ -12344,7 +12365,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -12424,7 +12445,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -12459,7 +12480,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -12558,7 +12579,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -12589,7 +12610,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -12642,7 +12663,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -12736,7 +12757,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -12851,7 +12872,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -12914,7 +12935,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -13002,7 +13023,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -13027,7 +13048,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -13135,7 +13156,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="5" name="kurss"/>
        <book BEDLAN_ID="79" name="200"/>
      </sources>
@@ -13187,7 +13208,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="book" name="KKS" page="247:13.2"/>
      </sources>
    <mg>
@@ -13344,7 +13365,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -13404,7 +13425,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -13440,7 +13461,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -13475,7 +13496,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -13505,7 +13526,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="db" name="sjm"/>
      </sources>
    <mg>
@@ -13535,7 +13556,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -13675,7 +13696,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="6" name="kurss"/>
      </sources>
    <mg>
@@ -13719,7 +13740,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -13749,7 +13770,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -13910,7 +13931,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -13943,7 +13964,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -14095,7 +14116,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -14292,7 +14313,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -14305,7 +14326,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -14438,7 +14459,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -14500,7 +14521,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -14637,7 +14658,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="book" name="KKS" page="284:8"/>
      </sources>
    <mg>
@@ -14686,7 +14707,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -14942,7 +14963,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -14957,7 +14978,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -15118,7 +15139,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -15175,7 +15196,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -15296,7 +15317,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -15389,7 +15410,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -15408,7 +15429,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -15538,7 +15559,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -15568,7 +15589,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="book" name="KKS" page="271:2"/>
      </sources>
    <mg>
@@ -15613,7 +15634,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -15655,7 +15676,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -15714,7 +15735,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -15769,7 +15790,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -15822,7 +15843,7 @@
      <sources>
        <book lesson="phon" name="kurss"/>
        <book BEDLAN_ID="48" name="200"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
       </sources>
    <mg>
      <semantics>
@@ -15890,7 +15911,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book BEDLAN_ID="48" name="200"/>
      </sources>
    <mg>
@@ -16007,7 +16028,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -16022,7 +16043,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -16095,7 +16116,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -16115,7 +16136,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -16149,7 +16170,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -16170,7 +16191,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -16189,7 +16210,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -16248,7 +16269,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -16277,7 +16298,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -16307,7 +16328,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -16375,7 +16396,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -16440,7 +16461,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -16550,7 +16571,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="db" name="sjm"/>
      </sources>
    <mg>
@@ -16660,7 +16681,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -16691,7 +16712,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book/>
      </sources>
    <mg>
@@ -16744,7 +16765,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -16993,7 +17014,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -17028,7 +17049,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -17266,7 +17287,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -17307,7 +17328,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -17424,7 +17445,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -17460,7 +17481,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -17505,7 +17526,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -17580,7 +17601,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -17617,7 +17638,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -17654,7 +17675,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="lookkamkerjj"/>
      </sources>
    <mg>
@@ -17684,7 +17705,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -17787,7 +17808,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -17813,7 +17834,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="5" name="kurss"/>
      </sources>
    <mg>
@@ -17878,7 +17899,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -17977,7 +17998,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -18099,7 +18120,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -18173,7 +18194,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -18234,7 +18255,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -18295,7 +18316,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -18490,7 +18511,7 @@
    </lg>
      <sources>
        <book name="Mattu saaʹnid" pg="53"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -18525,7 +18546,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -18549,7 +18570,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -18593,7 +18614,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -18713,7 +18734,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -18747,7 +18768,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -18767,7 +18788,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -18819,7 +18840,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -18932,7 +18953,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -19224,7 +19245,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -19347,7 +19368,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -19363,7 +19384,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -19447,7 +19468,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -19480,7 +19501,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -19509,7 +19530,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -19574,7 +19595,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -19609,7 +19630,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -19627,7 +19648,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -19653,7 +19674,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -19798,7 +19819,7 @@
     </compg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
        <src type="db" name="sjm"/>
      </sources>
@@ -19885,7 +19906,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -20123,7 +20144,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -20159,7 +20180,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -20338,7 +20359,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="6" name="kurss"/>
      </sources>
    <mg>
@@ -20444,7 +20465,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -20479,7 +20500,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -20521,7 +20542,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -20560,28 +20581,6 @@
    </mg>
 </e>
 <e>
-   <map sml_ids="9467"/>
-   <lg>
-     <l pos="Adv">pâjspõõđi</l>
-     <stg>
-       <st Contlex="ADV_">pâjspõõđi</st>
-     </stg>
-   </lg>
-     <sources>
-       <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
-     </sources>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="Adv">alassuin</t>
-       <t pos="Adv">pää alaspäin</t>
-       <t pos="Adv">ylösalaisin</t>
-       <t pos="Adv">kumoon</t>
-       <t pos="Adv">kumossa</t>
-     </tg>
-   </mg>
-</e>
-<e>
    <map sml_ids="29465"/>
    <lg>
      <l pos="Adv">pââibeälla</l>
@@ -20591,7 +20590,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -20610,7 +20609,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -20643,7 +20642,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -20673,12 +20672,17 @@
    </mg>
 </e>
 <e>
-   <map sml_ids="15015"/>
+   <map sml_ids="15015:15423"/>
    <lg>
      <l pos="Adv">pââjasnjiiʹšǩi</l>
      <stg>
        <st Contlex="ADV_">pââjasnjiiʹšǩi</st>
+       <st Contlex="ADV_">pâʹjsnjiiʹšǩi</st>
      </stg>
+     <compg type="Cmp" drv="Adv:N»Adv">
+      <comp ord="E1" pos="Adv" ms="">pââjas</comp>
+      <comp ord="E2" pos="N" ms="Pl.Gen">njeʹšǩǩ</comp>
+    </compg>
    </lg>
      <sources>
        <src type="book" name="KKS" page="302:3.1"/>
@@ -20732,12 +20736,13 @@
    </mg>
 </e>
 <e id="fm_5784">
-   <map fin_lemma_id="" stamp="fm_5784"/>
-   <rev-sort_key>idõõpseʹâp</rev-sort_key>
+   <map fin_lemma_id="9467" stamp="fm_5784"/>
+   <rev-sort_key>iđõõpseʹâp</rev-sort_key>
    <lg>
-     <l pos="Adv">pââjaspõõdi</l>
+     <l pos="Adv">pââjaspõõđi</l>
      <stg>
-       <st Contlex="ADV_" inflexId="::::">pââjaspõõdi</st>
+       <st Contlex="ADV_" inflexId="::::">pââjaspõõđi</st>
+       <st Contlex="ADV_">pâjspõõđi</st>
      </stg>
      <inc-audio>
        <c name="ID_Audio">5785</c>
@@ -20745,10 +20750,15 @@
        <c name="Recording">1</c>
        <c name="included">yes</c>
      </inc-audio>
+     <compg type="Cmp" drv="Adv:N»Adv">
+      <comp ord="E1" pos="Adv" ms="">pââjas</comp>
+      <comp ord="E2" pos="N" ms="Pl.Gen">põtt</comp>
+    </compg>
    </lg>
      <sources>
        <src type="book" name="KKS" page="329:2.2"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
+       <src type="db" name="sjm"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -20762,6 +20772,8 @@
        <t pos="Adv">alassuin</t>
        <t pos="Adv">ylösalaisin</t>
        <t pos="Adv">pää alaspäin</t>
+       <t pos="Adv">kumoon</t>
+       <t pos="Adv">kumossa</t>
      </tg>
      <tg xml:lang="nob">
        <t pos="Adv">opp ned</t>
@@ -20793,7 +20805,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -20863,7 +20875,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -20982,7 +20994,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -21062,23 +21074,6 @@
    </mg>
 </e>
 <e>
-   <map sml_ids="15423"/>
-   <lg>
-     <l pos="Adv">pâʹjsnjiiʹšǩi</l>
-     <stg>
-       <st Contlex="ADV_">pâʹjsnjiiʹšǩi</st>
-     </stg>
-   </lg>
-     <sources>
-       <src type="db" name="sjm"/>
-     </sources>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="Adv">nurinniskoin</t>
-     </tg>
-   </mg>
-</e>
-<e>
    <lg>
      <l pos="Adv">pâʹsttlânji</l>
      <stg>
@@ -21086,7 +21081,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -21128,14 +21123,19 @@
 <e>
    <map sml_ids="4826:1226"/>
    <lg>
-     <l pos="Adv">päälljasjueʹlji</l>
+     <l pos="Adv">päälljasjuõʹlji</l>
      <stg>
-       <st Contlex="ADV_">päälljasjueʹlji</st>
+       <st Contlex="ADV_">päälljas#juõʹlji</st>
+       <st Contlex="ADV_">päälljas#jueʹlji</st>
      </stg>
+     <compg type="Cmp" drv="A:N»Adv">
+      <comp ord="E1" pos="A" ms="">päälljas</comp>
+      <comp ord="E2" pos="N" ms="Pl.Gen">jueʹlǧǧ</comp>
+    </compg>
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -21181,7 +21181,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -21299,7 +21299,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -21332,7 +21332,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -21517,7 +21517,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -21861,7 +21861,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -21942,7 +21942,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="book" name="KKS" page="423:3"/>
      </sources>
    <mg>
@@ -22027,7 +22027,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -22063,7 +22063,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="54"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -22079,7 +22079,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -22196,7 +22196,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -22236,7 +22236,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/>
      </sources>
    <mg>
@@ -22309,7 +22309,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -22344,7 +22344,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -22403,23 +22403,6 @@
    </mg>
 </e>
 <e>
-   <map sml_ids="19683"/>
-   <lg>
-     <l pos="Adv">seeʹst lij miõll mõõnnâd pâʹjjel raai</l>
-     <stg>
-       <st Contlex="ADV_">seeʹst lij miõll mõõnnâd pâʹjjel raai</st>
-     </stg>
-   </lg>
-     <sources>
-       <src type="db" name="sjm"/>
-     </sources>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="Adv">heidän on tarkoitus mennä rajan yli</t>
-     </tg>
-   </mg>
-</e>
-<e>
    <map sml_ids="27997"/>
    <lg>
      <l pos="Adv">seveârna</l>
@@ -22465,7 +22448,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="54"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -22481,7 +22464,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -22512,7 +22495,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -22638,7 +22621,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -22678,7 +22661,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="3" name="kurss"/>
        <src type="db" name="sjm"/>
      </sources>
@@ -22754,7 +22737,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -22812,7 +22795,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="eng">
@@ -22831,7 +22814,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -22851,7 +22834,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -22878,7 +22861,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book BEDLAN_ID="85" name="200"/>
      </sources>
    <mg>
@@ -22980,7 +22963,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -23034,7 +23017,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -23145,7 +23128,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="dict" name="kurss"/>
        <book BEDLAN_ID="48" name="200"/>
      </sources>
@@ -23240,7 +23223,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="db" name="sjm"/>
      </sources>
    <mg>
@@ -23264,7 +23247,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -23326,7 +23309,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="db" name="sjm"/>
        <book lesson="5" name="kurss"/>
        <book BEDLAN_ID="48" name="200"/>
@@ -23427,7 +23410,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -23463,7 +23446,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -23671,7 +23654,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -23840,7 +23823,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -23995,7 +23978,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -24013,7 +23996,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -24093,7 +24076,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -24204,7 +24187,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="eng"> <t/>
@@ -24304,7 +24287,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -24487,7 +24470,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -24566,7 +24549,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -24638,7 +24621,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -24697,7 +24680,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -24761,7 +24744,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -24787,7 +24770,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -24815,7 +24798,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -24895,7 +24878,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -24985,7 +24968,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -25031,7 +25014,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -25077,7 +25060,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -25107,7 +25090,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="4" name="kurss"/>
        <src type="db" name="sjm"/>
      </sources>
@@ -25144,7 +25127,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -25378,7 +25361,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -25476,7 +25459,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -25509,7 +25492,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -25545,7 +25528,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/>
      </sources>
    <mg>
@@ -25586,7 +25569,7 @@
     </compg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="3" name="kurss"/>
      </sources>
    <mg>
@@ -25680,7 +25663,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -25745,7 +25728,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -25805,7 +25788,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -25829,7 +25812,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -25923,7 +25906,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -26018,7 +26001,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -26067,7 +26050,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -26108,7 +26091,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -26126,7 +26109,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -26144,7 +26127,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -26328,7 +26311,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -26356,7 +26339,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -26395,7 +26378,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -26474,7 +26457,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -26532,7 +26515,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -26607,7 +26590,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -26634,7 +26617,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -26651,7 +26634,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -26808,7 +26791,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -26985,7 +26968,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -27047,7 +27030,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -27148,7 +27131,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -27166,7 +27149,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -27184,7 +27167,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -27219,7 +27202,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="db" name="sjm"/>
      </sources>
    <mg>
@@ -27240,7 +27223,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -27260,7 +27243,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -27278,7 +27261,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -27413,7 +27396,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -27646,7 +27629,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -27691,7 +27674,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="dict" name="kurss"/>
        <book lesson="4" name="kurss"/>
      </sources>
@@ -27726,18 +27709,6 @@
      <l pos="Adv">tâʹlleskani</l>
      <stg>
        <st Contlex="ADV_">tâʹlleskani</st>
-     </stg>
-   </lg>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="Adv">hetimmiten</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <lg>
-     <l pos="Adv">tâʹlleskânai</l>
-     <stg>
        <st Contlex="ADV_">tâʹlleskânai</st>
      </stg>
    </lg>
@@ -27828,7 +27799,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -27892,7 +27863,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -27949,7 +27920,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -28089,7 +28060,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -28134,7 +28105,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -28211,7 +28182,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -28283,7 +28254,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -28359,7 +28330,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book BEDLAN_ID="75" name="200"/>
      </sources>
    <mg>
@@ -28433,7 +28404,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book BEDLAN_ID="75" name="200"/>
      </sources>
    <mg>
@@ -28591,7 +28562,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -28623,7 +28594,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -28641,7 +28612,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -28709,7 +28680,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -28736,7 +28707,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -28785,7 +28756,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -28819,7 +28790,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -28852,7 +28823,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -28874,7 +28845,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/>
      </sources>
    <mg>
@@ -28963,7 +28934,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -28979,7 +28950,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -28997,7 +28968,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/>
      </sources>
    <mg>
@@ -29054,23 +29025,6 @@
    </mg>
 </e>
 <e>
-   <map sml_ids="3335"/>
-   <lg>
-     <l pos="Adv">täʹvvrest hâʹdd kõõčči</l>
-     <stg>
-       <st Contlex="ADV_">täʹvvrest hâʹdd kõõčči</st>
-     </stg>
-   </lg>
-     <sources>
-       <src type="db" name="sjm"/>
-     </sources>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="Adv">tavaran hinta halpeni</t>
-     </tg>
-   </mg>
-</e>
-<e>
    <lg>
      <l pos="Adv">tåk</l>
      <stg>
@@ -29102,7 +29056,7 @@
    </mg>
 </e>
 <e id="fm_2335">
-   <map fin_lemma_id="17104::234::17108:27048:" stamp="fm_2335:sml_18172:sml_29214:sml_29215"/>
+   <map fin_lemma_id="17104::234::17108:27048:" stamp="gt_Pcle_3:sml_29183:fm_2335:sml_18172:sml_29214:sml_29215"/>
    <rev-sort_key>ǩlʹååt</rev-sort_key>
    <lg>
      <l pos="Adv">tååʹlǩ</l>
@@ -29140,6 +29094,18 @@
        <t pos="Adv">pelkästään</t>
        <t pos="A">pelkkä</t>
      </tg>
+     <tg xml:lang="nob">
+       <t pos="Adv">kun</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="Adv">только</t>
+     </tg>
+     <tg xml:lang="sjd">
+       <t pos="Adv">толькэ</t>
+     </tg>
+     <tg xml:lang="sme">
+       <t pos="Adv">berre</t>
+     </tg>
    </mg>
 </e>
 <e>
@@ -29150,7 +29116,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -29189,7 +29155,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="dict" name="kurss"/>
        <book BEDLAN_ID="169" name="200"/>
      </sources>
@@ -29248,46 +29214,6 @@
      <tg xml:lang="sme">
        <t pos="Adv">dos</t>
        <t pos="Adv">duos</t>
-     </tg>
-   </mg>
-</e>
-<e id="gt_Pcle_3" meta="04">
-   <map fin_lemma_id="27048::" stamp="gt_Pcle_3:sml_29183"/>
-   <rev-sort_key>ǩlʹåt</rev-sort_key>
-   <lg>
-     <l pos="Adv">tåʹlǩ</l>
-     <variants>
-       <l_syn>pâi</l_syn>
-     </variants>
-     <stg>
-       <st Contlex="ADV_">tåʹlǩ</st>
-     </stg>
-   </lg>
-     <sources>
-       <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
-     </sources>
-   <mg>
-     <tg xml:lang="deu">
-       <t pos="Adv">nur</t>
-     </tg>
-     <tg xml:lang="eng">
-       <t pos="Adv">only</t>
-     </tg>
-     <tg xml:lang="fin">
-       <t pos="Adv">vain</t>
-     </tg>
-     <tg xml:lang="nob">
-       <t pos="Adv">kun</t>
-     </tg>
-     <tg xml:lang="rus">
-       <t pos="Adv">только</t>
-     </tg>
-     <tg xml:lang="sjd">
-       <t pos="Adv">толькэ</t>
-     </tg>
-     <tg xml:lang="sme">
-       <t pos="Adv">berre</t>
      </tg>
    </mg>
 </e>
@@ -29539,7 +29465,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -29623,7 +29549,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -29642,7 +29568,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -29749,28 +29675,11 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="Adv">tuossa</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <map sml_ids="17302"/>
-   <lg>
-     <l pos="Adv">tõʹst lij vuâđđan mii-ne</l>
-     <stg>
-       <st Contlex="ADV_">tõʹst lij vuâđđan mii-ne</st>
-     </stg>
-   </lg>
-     <sources>
-       <src type="db" name="sjm"/>
-     </sources>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="Adv">se perustuu jhonk</t>
      </tg>
    </mg>
 </e>
@@ -29784,7 +29693,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -29884,7 +29793,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -29903,7 +29812,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30033,7 +29942,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -30115,7 +30024,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -30162,7 +30071,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30187,7 +30096,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -30270,7 +30179,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30317,7 +30226,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -30376,7 +30285,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="book" name="KKS" page="733:3.3"/>
      </sources>
    <mg>
@@ -30408,7 +30317,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30426,7 +30335,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30445,7 +30354,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30497,7 +30406,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30531,7 +30440,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30564,7 +30473,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -30602,7 +30511,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="6" name="kurss"/>
      </sources>
    <mg>
@@ -30656,7 +30565,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -30739,7 +30648,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30793,7 +30702,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30817,7 +30726,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -30858,7 +30767,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30879,7 +30788,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30901,7 +30810,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -30924,7 +30833,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31044,7 +30953,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -31097,7 +31006,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31213,7 +31122,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31266,7 +31175,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31284,7 +31193,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31319,7 +31228,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31365,7 +31274,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -31437,7 +31346,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31452,7 +31361,7 @@
      <l pos="Adv">vuâlla</l>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="6" name="kurss"/>
      </sources>
    <mg>
@@ -31568,7 +31477,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31627,7 +31536,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -31666,7 +31575,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -31695,7 +31604,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31732,7 +31641,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -31758,7 +31667,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31783,7 +31692,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -31816,7 +31725,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31833,7 +31742,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31852,7 +31761,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31883,7 +31792,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="4" name="kurss"/>
      </sources>
    <mg>
@@ -31930,7 +31839,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -31963,7 +31872,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -32066,7 +31975,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32135,7 +32044,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32167,7 +32076,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32204,7 +32113,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32398,7 +32307,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32434,7 +32343,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32553,7 +32462,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -32618,7 +32527,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32637,7 +32546,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32656,7 +32565,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32674,7 +32583,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32717,7 +32626,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="5" name="kurss"/>
      </sources>
    <mg>
@@ -32768,7 +32677,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="lookkamkerjj"/>
      </sources>
    <mg>
@@ -32803,7 +32712,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -32819,7 +32728,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -32900,7 +32809,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -33015,25 +32924,6 @@
      <tg xml:lang="fin">
        <t pos="Adv">vaivalla</t>
        <t pos="Adv">vaivalloisesti</t>
-     </tg>
-   </mg>
-</e>
-<e>
-   <map sml_ids="27516"/>
-   <lg>
-     <l pos="Adv">vääras</l>
-     <stg>
-       <st Contlex="ADV_">vääras</st>
-     </stg>
-   </lg>
-     <sources>
-       <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
-     </sources>
-   <mg>
-     <tg xml:lang="fin">
-       <t pos="Adv">varalla</t>
-       <t pos="Adv">varalle</t>
      </tg>
    </mg>
 </e>
@@ -33272,7 +33162,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -33315,7 +33205,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/>
      </sources>
    <mg>
@@ -33409,7 +33299,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -33438,7 +33328,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -33544,7 +33434,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -33591,7 +33481,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="lookkamkerjj"/>
        <src type="db" name="sjm"/>
      </sources>
@@ -33630,7 +33520,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -33648,7 +33538,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -33666,7 +33556,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -33729,7 +33619,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book BEDLAN_ID="108" name="200"/>
      </sources>
    <mg>
@@ -33830,7 +33720,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -33906,7 +33796,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="eng">
@@ -34052,7 +33942,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -34089,7 +33979,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -34195,7 +34085,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -34212,7 +34102,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -34229,7 +34119,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -34248,7 +34138,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -34273,7 +34163,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -34342,7 +34232,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -34383,7 +34273,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -34449,7 +34339,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -34483,7 +34373,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -34505,7 +34395,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -34529,7 +34419,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -34559,7 +34449,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -34650,7 +34540,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -34681,7 +34571,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -34757,7 +34647,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -34821,7 +34711,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -34922,7 +34812,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -34955,7 +34845,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -34968,7 +34858,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -34983,7 +34873,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -35027,7 +34917,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/>
      </sources>
    <mg>
@@ -35064,7 +34954,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -35080,7 +34970,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -35116,7 +35006,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -35139,7 +35029,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -35164,7 +35054,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -35180,7 +35070,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -35196,7 +35086,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -35232,7 +35122,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -35332,7 +35222,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/> <dial name="P"/>
      </sources>
    <mg>
@@ -35382,7 +35272,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -35485,7 +35375,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -35561,7 +35451,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -35600,7 +35490,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -35644,7 +35534,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -35692,7 +35582,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="phon" name="kurss"/>
      </sources>
    <mg>
@@ -35817,7 +35707,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -35854,7 +35744,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="56"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -36077,7 +35967,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -36110,7 +36000,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36126,7 +36016,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -36152,7 +36042,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36169,7 +36059,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36198,7 +36088,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36287,7 +36177,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -36361,7 +36251,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36377,7 +36267,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36393,7 +36283,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36409,7 +36299,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36527,7 +36417,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -36542,7 +36432,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36638,7 +36528,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -36676,7 +36566,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -36710,7 +36600,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -36738,7 +36628,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36759,7 +36649,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36777,7 +36667,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36821,7 +36711,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -36885,6 +36775,10 @@
      <stg>
        <st Contlex="ADV_">õʹhttečõõʹlmi</st>
      </stg>
+     <compg type="Cmp" drv="N:N»Adv">
+      <comp ord="E1" pos="Num" ms="Sg.Ill">õhtt</comp>
+      <comp ord="E2" pos="N" ms="Pl.Gen">čâʹlmm</comp>
+    </compg>
    </lg>
      <sources>
        <src type="db" name="sjm"/>
@@ -36916,7 +36810,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -37019,7 +36913,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37037,7 +36931,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37144,7 +37038,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37163,7 +37057,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37198,7 +37092,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37327,7 +37221,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37349,7 +37243,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37401,7 +37295,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -37441,7 +37335,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37522,7 +37416,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="4" name="kurss"/>
      </sources>
    <mg>
@@ -37616,7 +37510,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -37635,7 +37529,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37672,7 +37566,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37703,7 +37597,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37725,7 +37619,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37801,7 +37695,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -37892,7 +37786,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -37965,7 +37859,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -38029,7 +37923,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -38184,7 +38078,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -38233,7 +38127,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -38317,7 +38211,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -38403,7 +38297,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -38422,7 +38316,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -38440,7 +38334,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -38610,7 +38504,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -38665,7 +38559,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -38681,7 +38575,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -38696,7 +38590,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -38815,7 +38709,7 @@
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="55"/>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -38863,7 +38757,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -38922,7 +38816,7 @@
    </lg>
      <sources>
        <src type="book" name="Mattu saaʹnid" pg="54"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -38938,7 +38832,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -39009,7 +38903,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -39051,7 +38945,7 @@
    </lg>
      <sources>
        <src type="db" name="VJO"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <semantics>
@@ -39123,7 +39017,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -39160,7 +39054,7 @@
     </compg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
      <mg>
        <tg xml:lang="fin">
@@ -39223,7 +39117,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -39252,7 +39146,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -39274,7 +39168,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -39321,7 +39215,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -39362,7 +39256,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -39392,7 +39286,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
    </mg>
@@ -39471,7 +39365,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -39489,7 +39383,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -39507,7 +39401,7 @@
    </lg>
      <sources>
        <src type="db" name="sjm"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -39609,7 +39503,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="db" name="sjm"/>
      </sources>
    <mg>
@@ -39755,7 +39649,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="db" name="sjm"/>
      </sources>
    <mg>
@@ -39773,7 +39667,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <src type="db" name="sjm"/>
      </sources>
    <mg>
@@ -39818,7 +39712,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -40031,7 +39925,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -40153,7 +40047,7 @@
      </inc-audio> <note>inflection by means of Px</note>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
      </sources>
    <mg>
@@ -40197,7 +40091,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -40342,7 +40236,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -40377,7 +40271,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -40399,7 +40293,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="eng">
@@ -40418,7 +40312,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -40434,7 +40328,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -40450,7 +40344,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -40466,7 +40360,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -40507,7 +40401,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -40527,6 +40421,54 @@
      <tg xml:lang="rus">
        <t pos="Adv">нагишом</t>
        <t pos="Adv">догола</t>
+     </tg>
+   </mg>
+</e>
+  <e id="fm_1437">
+   <map fin_lemma_id="547::" stamp="fm_1437:sml_31408"/>
+   <rev-sort_key>ivʹieuvsalâuv</rev-sort_key>
+   <lg>
+     <l pos="Adv">vuâlasvueiʹvi</l>
+     <variants>
+       <l_var>vuâlsvueiʹvi</l_var>
+     </variants>
+     <stg>
+       <st Contlex="ADV_" inflexId="1000">vuâlas#vuẹiʹvi</st>
+     </stg>
+     <inc-audio>
+       <c name="ID_Audio">1438</c>
+       <c name="Reader">16</c>
+       <c name="Recording">1</c>
+       <c name="included">yes</c>
+     </inc-audio>
+     <compg type="Cmp" drv="Adv:N»Adv">
+      <comp ord="E1" pos="Adv" ms="">vuâlas</comp>
+      <comp ord="E2" pos="N" ms="Pl.Gen">vueiʹvv</comp>
+    </compg>
+   </lg>
+     <sources>
+       <src type="db" name="AKU"/>
+       <src type="book" name="fm"/>
+       <src type="db" name="sjm"/>
+     </sources>
+   <mg>
+     <tg xml:lang="deu">
+       <t pos="N">? unten, unten gelegen</t>
+       <t pos="N">niedergeschlagen</t>
+     </tg>
+     <tg xml:lang="eng">
+       <t pos="N">? down, situated downward</t>
+       <t pos="A">depressed</t>
+     </tg>
+     <tg xml:lang="fin">
+       <t pos="Adv">allapäin</t>
+     </tg>
+     <tg xml:lang="nob">
+       <t pos="N">nedtrykt</t>
+       <t pos="N">trist</t>
+     </tg>
+     <tg xml:lang="rus">
+       <t pos="N">? печальный</t>
      </tg>
    </mg>
 </e>

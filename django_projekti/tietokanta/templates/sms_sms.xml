@@ -6,7 +6,7 @@
     {% for element in lemmas %}
     {% for homonym in element.homonyms %}
     {% get_subitem_text homonym "sms2xml.file" as homonym_file_name %}
-    {% filename_and_pos_sms homonym.POS file_name as file_pos %}
+    {% filename_and_pos_sms homonym file_name as file_pos %}
     {% if homonym_file_name == file_name or file_pos %}
     {% get_item homonym sms2xml_id as e_id %}
     {% get_subitem_attributes homonym "morph.element" as e_attributes %}
@@ -14,7 +14,7 @@
       <lg>
           {% get_subitem_dict homonym "sms2xml.lemmas_additional_attributes" as pos_attrs %}
           {% get_item_attributes homonym "l_attrib" as l_attributes %}
-          <l pos="{{ homonym.POS }}" {{ l_attributes | safe }}>{{ element.lemma }}</l>
+          <l pos="{{ homonym.POS }}" {% if homonym.hid %} hid="{{ homonym.hid }}" {% endif %} {{ l_attributes | safe }}>{{ element.lemma }}</l>
       </lg>
          <sources>
              {% get_subitem_dict homonym "sms2xml.sources" as sources %}

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementsByTagName("body")[0].appendChild(HTMLtoDOM("<div id='clickBlock' onclick='closeDialog()' style='display: none'><div onclick='stopPropagation(event)' id='inflectionResultsDialog'><h2>Taivutukset</h2><p id='inflectionResultsClose' onclick='closeDialog()'>Sulje</p><div id='inflectionResults'></div></div></div>","div"));
 }, false);
 
-var processors = [createInflectionButton, getEtymology, getCompg, getSwadesh];
+var processors = [appendPlayer, appendAudioPlayer, createInflectionButton, getEtymology, getCompg, getSwadesh];
 
 function populateView(){
 	var homonyms = document.getElementsByClassName("homonym");
@@ -42,6 +42,76 @@ function closeDialog() {
     document.getElementById("clickBlock").style.display = "none";
 }
 
+function appendPlayer(json) {
+	if("morph" in json){
+		var m = json["morph"];
+		if("lg" in m){
+			var l = m["lg"];
+			if("inc-audio" in l){
+				var audio_xml = l["inc-audio"];
+				var index = audio_xml.indexOf("name=\"ID_Audio\"");
+				var audios = [];
+				while(index != -1){
+					audio_xml = audio_xml.substring(index);
+					var a = audio_xml.indexOf(">");
+					audio_xml = audio_xml.substring(a + 1);
+					a = audio_xml.indexOf("<");
+					var audio_id = audio_xml.substring(0, a);
+					if (audio_id.length == 3){
+						audio_id = "0" + audio_id;
+					}
+					audios.push(audio_id);
+                    index = audio_xml.indexOf("name=\"ID_Audio\"");
+				}
+				var html = "<div class='audioPlayer'>";
+				console.log(audios);
+				for(var i=0; i< audios.length; i++){
+					var audio = audios[i];
+					if(audio in audioDict){
+						html = html + "<audio controls controlsList=\"nodownload\"><source src=\""+ audioDict[audio] +"\" type=\"audio/wav\"></audio>";
+					}
+				}
+				html = html + "</div>";
+				return [html, placing.TOP];
+
+			}
+		}
+	}
+
+	return ["", placing.TOP]
+}
+
+function appendAudioPlayer(json) {
+    if("morph" in json){
+        var m = json["morph"];
+        if("lg" in m){
+            var l = m["lg"];
+            if("audio" in l){
+                var audio_xml = l["audio"];
+                var index = audio_xml.indexOf("href=");
+                var audios = [];
+                while(index != -1){
+                    audio_xml = audio_xml.substring(index + "href=\"".length);
+                    var a = audio_xml.indexOf("\"");
+                    var audio_link = audio_xml.substring(0, a);
+                    audios.push(audio_link);
+                    index = audio_xml.indexOf("href=");
+                }
+                var html = "<div class='audioPlayer'>";
+                for(var i=0; i< audios.length; i++){
+                    var audio = audios[i];
+					html = html + "<audio controls controlsList=\"nodownload\"><source src=\""+ audio +"\" type=\"audio/wav\"></audio>";
+                }
+                html = html + "</div>";
+                return [html, placing.TOP];
+
+            }
+        }
+    }
+
+    return ["", placing.TOP]
+}
+
 function  createInflectionButton(json) {
 	var supported_pos = ["N", "A", "V"];
 	var supported_langs = ["sms"];
@@ -49,9 +119,10 @@ function  createInflectionButton(json) {
 	if(supported_pos.indexOf(json["POS"]) > -1 && supported_langs.indexOf(language) > -1 ){
 		var lemma = getLemma();
 		if("hid" in json){
-			lemma = lemma + "+" + json["hid"];
+			lemma = lemma + "%2B" + json["hid"];
 		}
         var html = "<button onclick=\"getInflections('" +lemma+"', '" + json["POS"]+ "', '" + language+"' )\" >Taivuta</button>";
+        console.log(html);
 
 		return [html, placing.TOP];
 	}else{
@@ -60,26 +131,14 @@ function  createInflectionButton(json) {
 }
 
 function getInflections(word, pos, language) {
-	var url = djangoURL + "inflect/?language=" + language + "&lemma=" + encodeURI(word) + "&pos=" + pos;
+	var url = djangoURL + "inflect/?language=" + language + "&lemma=" + encodeURI(word) + "&pos=" + pos +"&output=html";
 	console.log(url);
-    var xss_crawler = new WSAjax (
-        url,   function (data){
-            process_inflections(data)
-})
-}
-
-function process_inflections(data) {
-    var results = data["results"];
-    console.log(data);
-    var table = "<table><tr><th>Taivutus</th><th>Tyyppi</th></tr>";
-    for(var i =0;i<results.length;i++){
-        var line = results[i];
-        table = table + "<tr><td>" + line[0] + "</td><td>" + line[1] + "</td></tr>";
-    }
-    document.getElementById("inflectionResults").innerHTML = table;
+    document.getElementById("inflectionResults").innerHTML = "<iframe id='inflectionFrame' src=\"" + url + "\"></iframe>";
     document.getElementById("clickBlock").style.display = "block";
 
+
 }
+
 
 var WSAjax = Class.create ({
     initialize: function (_url, _callback){

@@ -23,7 +23,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory369" quality="1" speaker="1"/> <a dialect="muo" href="http://corpus1.mpi.nl/qfs1/media-archive/dobes_data/Kola-Saami/Recordings/Language/KSDP/Skolt/Lexicon/Vocabulary/Media/Aanar_SKO111210_ZMN.wav" speaker="ZMN"/> <a dialect="peä" href="http://corpus1.mpi.nl/qfs1/media-archive/dobes_data/Kola-Saami/Recordings/Language/KSDP/Skolt/Lexicon/Vocabulary/Media/Aanar_SKO111219_KJ_2.wav" speaker="KJ"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="phon" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -68,7 +68,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -132,7 +132,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -179,7 +179,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -311,7 +311,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Aʹrttjäuʹrr</l>
+     <l pos="N" sem_type="Plc" type="Prop">Aʹrttjäuʹrr</l>
    </lg>
 </e>
 <e>
@@ -571,18 +571,13 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
        <t pos="N">Ranska</t>
      </tg>
    </mg>
-</e>
-<e exclude="fst" order="1">
-   <lg>
-     <l pos="N" type="+Prop">Giellagas-institutt</l>
-   </lg>
 </e>
 <e>
    <map sml_ids="2086"/>
@@ -696,7 +691,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory380" quality="1" speaker="5"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -755,7 +750,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1007,7 +1002,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -1227,7 +1222,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Jõnnǩeäʹdǧǧtuõddâr</l>
+     <l pos="N" sem_type="Plc" type="Prop">Jõnnǩeäʹdǧǧtuõddâr</l>
    </lg>
 </e>
 <e>
@@ -1454,7 +1449,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1528,7 +1523,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1553,7 +1548,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -1717,7 +1712,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Koʹlmisjäuʹrr</l>
+     <l pos="N" sem_type="Plc" type="Prop">Koʹlmisjäuʹrr</l>
    </lg>
 </e>
 <e>
@@ -1916,7 +1911,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -2064,7 +2059,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -2174,7 +2169,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Kättjäuʹrr</l>
+     <l pos="N" sem_type="Plc" type="Prop">Kättjäuʹrr</l>
    </lg>
 </e>
 <e>
@@ -2438,7 +2433,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Laukkvuäivaž</l>
      <stg>
-       <st Contlex="PROP_TOP_KUALAZH">Laukkvuäiv</st>
+       <st Contlex="PROP_TOP_KUYLAZH">Laukkvuäiv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuäiva</wordform>
@@ -2538,7 +2533,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -2570,7 +2565,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory371" quality="1" speaker="8"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -2663,7 +2658,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="dict" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -2772,7 +2767,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="KKS" page="186A"/>
        <book name="SKS" page="119"/>
      </sources>
@@ -2987,7 +2982,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3012,7 +3007,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -3039,7 +3034,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Miessijäuʹrr</l>
+     <l pos="N" sem_type="Plc" type="Prop">Miessijäuʹrr</l>
    </lg>
 </e>
 <e id="gt_Prop_50" meta="08_383">
@@ -3488,13 +3483,16 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
      <semantics>
        <sem type="ENVIR">SETTLEMENT</sem>
      </semantics>
+     <tg descr_trans="Ortsbezeichnung" xml:lang="deu">
+       <t pos="N" type="Prop">Neiden</t>
+     </tg>
      <tg xml:lang="eng">
        <t pos="N" type="Prop">Neiden</t>
      </tg>
@@ -3504,28 +3502,11 @@
      <tg xml:lang="nob">
        <t pos="N" type="Prop">Neiden</t>
      </tg>
-     <tg xml:lang="rus">
+     <tg descr_trans="геогр. название" xml:lang="rus">
        <t pos="N" type="Prop">Нейден</t>
      </tg>
      <tg xml:lang="sme">
        <t pos="N" type="Prop">Njávdán</t>
-     </tg>
-   </mg>
-   <mg>
-     <tg xml:lang="deu">
-       <t pos="N" type="Prop">Ortsbezeichnung</t>
-     </tg>
-     <tg xml:lang="eng">
-       <t pos="N" type="Prop">place name</t>
-     </tg>
-     <tg xml:lang="fin">
-       <t pos="N" type="Prop">Näätämö</t>
-     </tg>
-     <tg xml:lang="nob">
-       <t pos="N" type="Prop">Neiden</t>
-     </tg>
-     <tg xml:lang="rus">
-       <t pos="N" type="Prop">геогр. название</t>
      </tg>
    </mg>
 </e>
@@ -3537,17 +3518,9 @@
      <stg>
        <st Contlex="PROP_TOP_KUSS" inflexId="::::1.111">Njauddâm#jo%^1VOWkk</st>
      </stg>
-     <mini_paradigm exclude="NDS">
-       <analysis ms="Sg_Gen">
-           <wordform>-jooǥǥ</wordform>
-       </analysis>
-       <analysis ms="Sg_Ill">
-           <wordform>-joʹǩǩe</wordform>
-       </analysis>
-     </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -3577,14 +3550,6 @@
      <l pos="N" sem_type="Plc" type="Prop">Njauddâmsijdd</l>
      <stg>
        <st Contlex="PROP_TOP_SIJDD">Njauddâm#sijdd</st>
-     <mini_paradigm exclude="NDS">
-       <analysis ms="Sg_Gen">
-           <wordform>-siid</wordform>
-       </analysis>
-       <analysis ms="Sg_Ill">
-           <wordform>-siʹjdde</wordform>
-       </analysis>
-     </mini_paradigm>
      </stg>
    </lg>
    <mg>
@@ -3607,17 +3572,9 @@
        <c name="Recording">1</c>
        <c name="included">yes</c>
      </inc-audio>
-     <mini_paradigm exclude="NDS">
-       <analysis ms="Sg_Gen">
-           <wordform>=</wordform>
-       </analysis>
-       <analysis ms="Sg_Ill">
-           <wordform>Njeällma</wordform>
-       </analysis>
-     </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -3697,15 +3654,9 @@
        <c name="Recording">1</c>
        <c name="included">yes</c>
      </inc-audio>
-     <mini_paradigm exclude="NDS">
-       <analysis ms="N_Pl_Nom">-jääuʹr
-       </analysis>
-       <analysis ms="N_Sg_Ill">-jäurra
-       </analysis>
-     </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="phon" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -3814,7 +3765,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4116,7 +4067,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4309,7 +4260,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -4384,7 +4335,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4394,7 +4345,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Oulu</l>
+     <l pos="N" sem_type="Plc" type="Prop">Oulu</l>
    </lg>
 </e>
 <e>
@@ -4473,7 +4424,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -4536,7 +4487,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4649,7 +4600,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4703,7 +4654,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Petsikkotuõddâr</l>
+     <l pos="N" sem_type="Plc" type="Prop">Petsikkotuõddâr</l>
    </lg>
 </e>
 <e id="gt_Prop_72" meta="04">
@@ -4730,7 +4681,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -4773,7 +4724,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -4926,7 +4877,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5196,7 +5147,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Pulʒʒjäuʹrr</l>
+     <l pos="N" sem_type="Plc" type="Prop">Pulʒʒjäuʹrr</l>
    </lg>
 </e>
 <e>
@@ -5363,7 +5314,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -5470,7 +5421,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5495,7 +5446,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5608,7 +5559,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -5753,7 +5704,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Riuʹǧǧjäuʹrr</l>
+     <l pos="N" sem_type="Plc" type="Prop">Riuʹǧǧjäuʹrr</l>
    </lg>
 </e>
 <e>
@@ -5846,7 +5797,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="dict" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -5962,7 +5913,7 @@
      </etymology>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="KKS" page="459:4"/>
        <book lesson="dict" name="kurss"/>
        <book name="prop"/>
@@ -6001,7 +5952,7 @@
      </inc-audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="dict" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -6409,7 +6360,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6456,7 +6407,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6513,7 +6464,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Spasiteʹlpääutaž</l>
      <stg>
-       <st Contlex="PROP_TOP_KUALAZH">Spasiteʹl#pääut</st>
+       <st Contlex="PROP_TOP_KUYLAZH">Spasiteʹl#pääut</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-pääuta</wordform>
@@ -6569,7 +6520,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6638,7 +6589,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6718,7 +6669,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6743,7 +6694,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -6796,7 +6747,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory3909" quality="1" speaker="13"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -6841,7 +6792,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7044,7 +6995,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7068,7 +7019,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Sääʹmpõrtt</l>
+     <l pos="N" sem_type="Plc" type="Prop">Sääʹmpõrtt</l>
    </lg>
 </e>
 <e>
@@ -7119,7 +7070,7 @@
    </lg>
      <sources>
 <book name="KKS" page="573:3"/>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="deu">
@@ -7149,7 +7100,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="2" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -7480,7 +7431,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7555,7 +7506,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -7610,7 +7561,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book name="prop"/>
      </sources>
    <mg>
@@ -7821,7 +7772,7 @@
 </e>
 <e order="1">
    <lg>
-     <l pos="N" type="+Prop">Uʹccjokk</l>
+     <l pos="N" sem_type="Plc" type="Prop">Uʹccjokk</l>
      <stg>
        <st Contlex="PROP_TOP_KUSS">Uʹcc#jo%^1VOWkk</st>
      </stg>
@@ -8055,7 +8006,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8146,7 +8097,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8515,7 +8466,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Väʹččer</l>
+     <l pos="N" sem_type="Plc" type="Prop">Väʹččer</l>
    </lg>
 </e>
 <e>
@@ -8601,7 +8552,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -8655,7 +8606,7 @@
      </mini_paradigm> <audio> <a dialect="xxx" href="languagememory370" quality="1" speaker="17"/> </audio>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="phon" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -8879,7 +8830,7 @@
 </e>
 <e exclude="fst" order="1">
    <lg>
-     <l pos="N" type="+Prop">Õužžjäuʹrr</l>
+     <l pos="N" sem_type="Plc" type="Prop">Õužžjäuʹrr</l>
    </lg>
 </e>
 <e>
@@ -8931,7 +8882,7 @@
    <lg>
      <l pos="N" sem_type="Plc" type="Prop">Čeäppatvuäivaž</l>
      <stg>
-       <st Contlex="PROP_TOP_KUALAZH">Čeäppatvuäiv</st>
+       <st Contlex="PROP_TOP_KUYLAZH">Čeäppatvuäiv</st>
      <mini_paradigm exclude="NDS">
        <analysis ms="Sg_Gen">
            <wordform>-vuäivva</wordform>
@@ -8966,7 +8917,7 @@
      </mini_paradigm>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
        <book lesson="1" name="kurss"/>
        <book name="prop"/>
      </sources>
@@ -9006,7 +8957,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9130,7 +9081,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9155,7 +9106,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9290,7 +9241,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9460,7 +9411,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9524,7 +9475,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
@@ -9632,7 +9583,7 @@
      </stg>
    </lg>
      <sources>
-       <src type="corpus" name="AKU"/>
+       <src type="db" name="AKU"/>
      </sources>
    <mg>
      <tg xml:lang="fin">
