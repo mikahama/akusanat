@@ -28,8 +28,10 @@ from django.conf import settings
 file_types = {
     "sms" : {"finsms": "sms_finsms.xml", "sms":"sms_sms.xml", "morph": "sms_morph.xml"},
     "izh" : {".": "izh_morph.xml"},
-    "testi" : {".": "izh_morph.xml"},
-    "mhr" : {".": "izh_morph.xml"}
+    "default" : {".": "izh_morph.xml"},
+    "mhr" : {".": "izh_morph.xml"},
+    "olo" : {".": "izh_morph.xml"},
+    "vot" : {".": "izh_morph.xml"}
 }
 api_keys =[u"sdfrf4535gdg35ertgfd", u"45454arefg785421!R", u"e3455rtwe54325t"]
 
@@ -39,7 +41,10 @@ def xml_out(request):
     language = request.GET.get("language", "sms")
     lemmas = mongoilija.get_all_lemmas(language)
 
-    template_file = file_types[language][xml_type]
+    try:
+        template_file = file_types[language][xml_type]
+    except:
+        template_file = file_types["default"]["."]
     template = loader.get_template(template_file)
     context = RequestContext(request, {
         'lemmas': lemmas,
@@ -161,7 +166,8 @@ def update_lemma(request):
 
 def test_mongo(request):
     lemma = request.GET.get("lemma",u"domm-muʹzei")
-    data = mongoilija.get_lemma(lemma, "sms")
+    language = request.GET.get("language",u"sms")
+    data = mongoilija.get_lemma(lemma, language)
     return HttpResponse(str(data),status=200)
 
 def process_towiki_queue(request, language="sms"):
@@ -224,10 +230,11 @@ def rsa_key(request):
     return HttpResponse(result + "\n\nKey\n\n" + key, status=200)
 
 def test_git(request):
-    git_tool = GitTool("sms")
+    language = request.GET["language"]
+    git_tool = GitTool(language)
     out = git_tool.pull()
     new_files = git_tool.list_files()
-    return HttpResponse(out, status=200)
+    return HttpResponse(out + " " + json.dumps(new_files), status=200)
 
 @register.assignment_tag
 def get_item(dictionary, key):

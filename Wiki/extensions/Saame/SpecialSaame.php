@@ -6,7 +6,7 @@ class SpecialSaame extends SpecialPage {
 	}
 
 	public static function getSupportedLanguages(){
-		return array("sms", "izh", "mhr");
+		return array("sms", "izh", "mhr", "vot", "olo", "myv", "mdf", "mrj", "udm", "yrk");
 	}
 
 	public static function httpPost($url, $data){

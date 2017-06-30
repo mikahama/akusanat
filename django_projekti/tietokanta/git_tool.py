@@ -6,6 +6,7 @@ from exceptions import *
 import codecs
 from easy_git import EasyGit
 import xml.dom.minidom
+import subprocess
 
 class GitTool():
     def __init__(self, lang):
@@ -27,8 +28,8 @@ class GitTool():
     def pull(self):
         try:
             return self.easy_git.pull()
-        except:
-            return "pull error"
+        except subprocess.CalledProcessError as e:
+            return e.output
 
     def get_folders(self):
         if self.lang == "sms":

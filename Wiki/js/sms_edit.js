@@ -28,6 +28,15 @@ function getLemma(){
 	return lemma;
 }
 
+function getLanguage(){
+
+    var h = getEle("firstHeading");
+    var lemma = h.textContent.toLowerCase();
+    lemma = lemma.split(":")[0].slice( -3 );
+
+    return lemma;
+}
+
 function createEditForm(){
 	var formContainer = getEle("mw-content-text");
 	var editForm = document.createElement("div");
@@ -917,7 +926,7 @@ function lgToXML(homonym, classPrefix, default_type){
 }
 
 function jsonsToWiki(json_list, language){
-	if(language == undefined){
+	if(language === undefined){
 		language = "Sms";
 	}
 	var wiki ="";
@@ -1065,11 +1074,11 @@ function formatStringForMWProperty(text){
 }
 
 function rhymeProperties(){
-    var vowels = [ "A", "a", "Â", "â", "E", "e", "I", "i", "O", "o", "Õ", "õ", "U", "u", "Å", "å", "Ä", "ä"];
-    var consonants=[ "B", "b", "C", "c", "Č", "č", "D", "d", "Đ", "đ", "F", "f", "G", "g", "Ǧ", "ǧ", "Ǥ", "ǥ", "H", "h", "J", "j", "K", "k", "Ǩ", "ǩ", "L", "l", "M", "m", "N", "n", "Ŋ", "ŋ", "P", "p", "R", "r", "S", "s", "Š", "š", "T", "t", "V", "v", "Z", "z", "Ž", "ž"];
-    var lemma = getLemma();
+    var vowels = [ "A", "a", "Â", "â", "E", "e", "I", "i", "O", "o", "Õ", "õ", "U", "u", "Å", "å", "Ä", "ä", "а", "ӓ", "е", "ё", "и", "і", "ӥ", "о", "ӧ", "у", "ӱ", "ы", "ӹ", "э", "ю", "я"];
+    var consonants=[ "B", "b", "C", "c", "Č", "č", "D", "d", "Đ", "đ", "F", "f", "G", "g", "Ǧ", "ǧ", "Ǥ", "ǥ", "H", "h", "J", "j", "K", "k", "Ǩ", "ǩ", "L", "l", "M", "m", "N", "n", "Ŋ", "ŋ", "P", "p", "R", "r", "S", "s", "Š", "š", "T", "t", "V", "v", "Z", "z", "Ž", "ž", "б", "в", "г", "д", "ж", "ӝ", "з", "ӟ", "й", "к", "л", "м", "н", "ҥ", "ң", "п", "р", "с", "т", "ф", "х", "ц", "ч", "ӵ", "ш", "щ"];
+    var lemma = getLemma().toLowerCase();
     var wiki = "\n[[Assonance::" + rhymeBody(lemma, consonants)  +"]]";
-    wiki = "\n[[AssonanceRev::" + reverse(rhymeBody(lemma, consonants))  +"]]";
+    wiki = wiki + "\n[[AssonanceRev::" + reverse(rhymeBody(lemma, consonants))  +"]]";
     wiki = wiki + "\n[[Consonance::" + rhymeBody(lemma, vowels)  +"]]";
     wiki = wiki + "\n[[ConsonanceRev::" + reverse(rhymeBody(lemma, vowels))  +"]]";
     return wiki;
@@ -1254,9 +1263,6 @@ var calledFromDjango = false;
 
 */
 function jsonsToWikiFromDjango(json_list, lemma, language){
-	if (language == undefined){
-		language = "Sms";
-	}
     calledFromDjango = true;
 	current_lemma = lemma;
 	return jsonsToWiki(json_list, language);
@@ -1264,7 +1270,7 @@ function jsonsToWikiFromDjango(json_list, lemma, language){
 
 function saveModifications(){
 	var jsons = updateJsons();
-	var wikiText = jsonsToWiki(jsons);
+	var wikiText = jsonsToWiki(jsons, getLanguage());
 	var textArea = document.getElementById("wpTextbox1");
 	textArea.value = wikiText;
 	document.getElementsByName("wpSave")[0].click();
@@ -1272,7 +1278,7 @@ function saveModifications(){
 
 function dryRunSave(){
     var jsons = updateJsons();
-    var wikiText = jsonsToWiki(jsons);
+    var wikiText = jsonsToWiki(jsons, getLanguage());
     console.log(wikiText);
 }
 

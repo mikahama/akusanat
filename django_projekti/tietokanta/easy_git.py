@@ -1,5 +1,6 @@
 import os
 import subprocess
+import shutil
 		
 class EasyGit():
 
@@ -16,6 +17,11 @@ class EasyGit():
 		return self.__run_command__("git pull")
 
 	def clone(self, remote_url):
+		self.repo_path = os.path.abspath(os.path.join(self.repo_path, os.pardir))
+		shutil.rmtree(self.repo_path)
+		os.mkdir(self.repo_path)
+		return self.__run_command__("git clone " + remote_url)
+		"""
 		p = subprocess.Popen("git clone " + remote_url, stdout=subprocess.PIPE, shell=True, cwd=self.repo_path)
 
 		(output, err) = p.communicate()
@@ -23,6 +29,7 @@ class EasyGit():
 		#This makes the wait possible
 		p.wait()
 		return output
+		"""
 
 	def set_user(self, user):
 		self.__run_command__("git config user.name " + user)
@@ -38,4 +45,4 @@ class EasyGit():
 		return self.__run_command__("git commit -m \"" + message +"\"")
 
 	def __run_command__(self, command):
-		return subprocess.check_output(command , shell=True, cwd=self.repo_path)
+		return subprocess.check_output(command , shell=True, cwd=self.repo_path, stderr=subprocess.STDOUT)
