@@ -122,6 +122,7 @@ function createFormItem(lemma, pos, semantics, translations, json_data, json){
 	"<span class='edit_json_data' style='display:none;'>"+ json_data +"</span><div class='semantics_edit'><p><b>Semantiikka</b></p><button onclick='addSemantics(event)'>Lisää</button>";
 	var semantics_table = createSemanticsTable(json["semantics"]);
 	form_item = form_item + semantics_table.innerHTML + "</div>";
+	form_item = form_item + editFieldForDictionaryFromJson(json, "semant", "semantics_attributes");
 	form_item = form_item + "<div class='translations_edit'><p><b>Käännökset</b></p><button onclick='addTranslationLanguage(event)'>Lisää kieli</button>"
 	var translation_table = createTranslationsTable(json["translations"]);
 	form_item = form_item + translation_table.innerHTML + "</div>";
@@ -140,6 +141,7 @@ function createFormItem(lemma, pos, semantics, translations, json_data, json){
     form_item = form_item + morphDictEdit(json, "l_attrib", true);
 	form_item = form_item + sourcesEdit(json);
 	form_item = form_item + arggEditFrom(json);
+	form_item = form_item + defNativeForm(json, "defNative");
 	lemma_edit.innerHTML = form_item;
 	return lemma_edit;
 }
@@ -672,16 +674,36 @@ function updateJsons(){
             json["mg_data"] = [];
         }
 		for (var o = 0; o < json["mg_data"].length; o++){
-			if(json["mg_data"][o]["element"] == "xg" || json["mg_data"][o]["element"] == "argg"){
+			if(json["mg_data"][o]["element"] == "xg" || json["mg_data"][o]["element"] == "argg" || json["mg_data"][o]["element"] == "defNative"){
 				json["mg_data"].splice(o, 1);
 				o = -1;
 			}
 		}
-        json["mg_data"] = json["mg_data"].concat(xtgToXML(homonym)).concat(arggToXML(homonym));
+        json["mg_data"] = json["mg_data"].concat(xtgToXML(homonym)).concat(arggToXML(homonym).concat(defNativeToJson(homonym, "defNative")));
+		json["semantics_attributes"] = dictionaryFormEditToJson(homonym, "semant");
 
 		jsons.push(json);
 	}
 	return jsons;
+
+}
+
+function defNativeToJson(homonym, prefix){
+	var output = [];
+	var form = homonym.getElementsByClassName(prefix+"Form")[0].getElementsByTagName("UL")[0];
+	var entries = form.getElementsByTagName("LI");
+	for(var i=0; i< entries.length; i++){
+		var entry = entries[i];
+		var attributes = {};
+		var mg = entry.getElementsByClassName(prefix+"Mg")[0].value;
+		if(mg.length ==0){
+			continue;
+		}
+        var text = entry.getElementsByClassName(prefix+"Text")[0].value;
+		output.push({"attributes":attributes, "mg": mg, "text":text, "element": prefix});
+	}
+	return output;
+
 
 }
 
@@ -753,6 +775,24 @@ function morphDictEditToJsonData(homonym, classPrefix){
 function jsonToWiki(json){
 	var wiki = "<div class=\"homonym\">\n= " + current_lemma +" ({{smsxml:POS_"+ json["POS"] +"}}) =\n\n";
 
+	if("mg_data" in json){
+		var mg_datas = json["mg_data"];
+		var definitions = [];
+		for(var r=0; r < mg_datas.length; r++){
+			var mg_data = mg_datas[r];
+			if (mg_data["element"] == "defNative"){
+				definitions.push(mg_data["text"]);
+			}
+		}
+		if(definitions.length >0){
+			wiki = wiki + "<div class=\"defNatives\">\n\n== Selitykset ==\n";
+			for(var ru=0; ru < definitions.length; ru++){
+				wiki = wiki + "\n* " + definitions[ru];
+			}
+			wiki = wiki + "\n</div>\n";
+		}
+	}
+
 	wiki = wiki + "<div class=\"translations\">\n\n== Käännökset ==\n";
 	var mg_dict = sortTranslationsByMg(json);
 	for(var mg in mg_dict){
@@ -780,10 +820,102 @@ function jsonToWiki(json){
         wiki = wiki + mg_dict[mg]["xg"] + "<hr>\n";
     }
 	wiki = wiki + "\n</div>\n<span style=\"display:none\" class=\"json_data\">"+JSON.stringify(json);
-	wiki = wiki + "\n</span>\n</div>\n----\n\n"
+	wiki = wiki + "\n</span>\n</div>\n----\n\n";
 
 	return wiki;
 
+}
+
+function dictionaryFormEditToJson(homonym, prefix){
+	var dictionary = {};
+	var form = homonym.getElementsByClassName(prefix + "EditForm")[0];
+	var fields = form.getElementsByClassName(prefix +"EditField");
+	for (var i =0; i< fields.length; i++){
+		var field = fields[i];
+		var mg = field.getElementsByClassName(prefix+"Mg")[0].value;
+		if(mg.length ==0){
+			continue;
+		}
+		dictionary[mg] = {};
+		var attrs = field.getElementsByTagName("LI");
+		for(var a =0; a < attrs.length; a++){
+			var attr = attrs[a];
+			var key = attr.getElementsByClassName(prefix+"Key")[0].value;
+            var value = attr.getElementsByClassName(prefix+"Value")[0].value;
+            if(key.length == 0){
+            	continue;
+			}
+			dictionary[mg][key] = value;
+        }
+	}
+	return dictionary;
+}
+
+function editFieldForDictionaryFromJson(json, prefix, key) {
+	var dictionary = {};
+	try{
+		dictionary = json[key];
+	}catch (e){
+
+	}
+	return editFieldForDictionary(dictionary, prefix);
+}
+
+function editFieldForDictionary(dictionary, prefix){
+	var html = "<div class='"+prefix+"EditForm'><p><b>"+ _(prefix) + "</b><p><br><button onclick='addDictionaryEditFieldEvent(event, \""+prefix+"\")'>Lisää</button>";
+	for (var key in dictionary){
+		html = html + newEditFieldForDictionaryRow(key, dictionary[key], prefix);
+	}
+	return html + "</div>";
+}
+
+function newEditFieldForDictionaryRow(mg, data, prefix) {
+	var html = "<div class='"+ prefix + "EditField' > MG: <input class='"+prefix+"Mg' value='"+mg+"'> <span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span> <br><button onclick='addDictionarySubeditEvent(event, \""+ prefix+ "\")'>Lisää arvo</button><ul>";
+	for(var key in data){
+        html = html + newSubfieldForDictionary(key, data[key], prefix);
+	}
+	return html + "</ul></div>";
+}
+
+function newSubfieldForDictionary(key, value, prefix) {
+	var html = "<li>Nimi <input class='"+prefix+"Key' value='"+key+"'> Arvo <input class='"+prefix+"Value' value='"+value+"'> <span class='deleteButton' onclick='deleteEtyAttr(event)'>X</span></li>";
+	return html;
+}
+
+function addDictionaryEditFieldEvent(event, prefix) {
+	var html = newEditFieldForDictionaryRow("", {}, prefix);
+	event.target.parentElement.appendChild(HTMLtoDOM(html, "div"));
+}
+
+function addDictionarySubeditEvent(event, prefix) {
+    var html = newSubfieldForDictionary("", "", prefix);
+    event.target.parentElement.getElementsByTagName("UL")[0].appendChild(HTMLtoDOM(html, "div"));
+}
+
+function defNativeForm(json, prefix){
+	var html = "<div class='"+prefix+"Form'><p><b>"+ _(prefix)+"</b></p><button onclick='addDefNativeFieldEvent(event,\""+prefix+"\")'>Lisää</button><ul>";
+	if("mg_data" in json){
+		var mg_data = json["mg_data"];
+		for(var i =0; i< mg_data.length; i++){
+			var mg = mg_data[i];
+			if(mg["element"]==prefix){
+				html = html + addDefNativeField(mg["mg"], mg["text"], prefix);
+			}
+		}
+	}
+
+	html = html + "</ul></div>";
+	return html;
+}
+
+function addDefNativeFieldEvent(event, prefix){
+    var html = addDefNativeField("", "", prefix);
+    event.target.parentElement.getElementsByTagName("UL")[0].appendChild(HTMLtoDOM(html, "div"));
+}
+
+function addDefNativeField(mg, text, prefix) {
+	var html = "<li>Mg: <input class='"+prefix+"Mg' value='"+mg+"'> Teksti: <input class='"+prefix+"Text' value='"+text+"'><span class='deleteButton' onclick='deleteEtyWord(event)'>X</span></li>";
+	return html;
 }
 
 function sortTranslationsByMg(json){
@@ -900,9 +1032,6 @@ function lgToXML(homonym, classPrefix, default_type){
 		var entry = entries[i];
 		var word = entry.getElementsByClassName(classPrefix.substring(0,3) +"Word")[0].value;
 		var type = entry.getElementsByClassName(classPrefix.substring(0,3) +"Type")[0].value;
-		if(word == ""){
-			continue;
-		}
 		if(type == ""){
 			type = default_type;
 		}
@@ -949,13 +1078,9 @@ function jsonsToWiki(json_list, language){
     wiki = wiki + compg_properties(json_list);
     wiki = wiki + etymology_properties(json_list);
     wiki = wiki + audio_properties(json_list);
-    console.log("audio done");
     wiki = wiki + xg_properties(json_list);
-    console.log("xg done");
     wiki = wiki + argg_properties(json_list);
-    console.log("arrg done");
     wiki = wiki + rhymeProperties();
-    console.log("rhyme done");
     wiki = wiki + "\n[[RevSort::"+ reverse(getLemma()) +"]]";
 	return wiki;
 }
@@ -1446,7 +1571,7 @@ function _(text){
 	}
 }
 
-var lokaali = {"etymology": "Etymologia", "compg": "Johtaminen", "element": "E-elementti", "map": "kartta", "argg": "Argumentti", "l_attrib":"L-elementti"};
+var lokaali = {"etymology": "Etymologia", "compg": "Johtaminen", "element": "E-elementti", "map": "kartta", "argg": "Argumentti", "l_attrib":"L-elementti", "semant": "Semantiikan juurielementti", "defNative": "Omakielinen määritelmä"};
 var supported_languages = ["fin", "eng", "rus", "deu", "nob", "sme", "smn", "sjd", "sma", "sju", "sjd", "sje", "smj", "sjt", "sms", "est", "fit", "fkv", "hun", "izh", "kca", "koi", "kpv", "lav", "liv", "mdf", "mhr", "mns", "mrj", "myv", "nio", "olo", "udm", "vep", "vot", "vro", "yrk", "non", "rom", "ron", "som", "swe", "krl", "lud", "fra", "lat"];
 
 var datalist_data = {

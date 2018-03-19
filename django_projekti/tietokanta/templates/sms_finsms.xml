@@ -20,7 +20,7 @@
                 {% for translation in translations %}
 <e>
     <lg>
-        <l pos="{{ translation.pos }}">{{ translation.word }}</l>
+        <l pos="{{ translation.pos | poscase }}">{{ translation.word }}</l>
         <stg> <st/> </stg>
     </lg>
     <mg>

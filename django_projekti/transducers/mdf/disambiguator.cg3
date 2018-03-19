@@ -1,0 +1,368 @@
+# Divvun & Giellatekno - open source grammars for Sámi and other languages
+# Copyright © 2000-2013 The University of Tromsø 
+# http://giellatekno.uit.no & http://divvun.no
+#
+# This program is free software; you can redistribute and/or modify
+# this file under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version. The GNU General Public License
+# is found at http://www.gnu.org/licenses/gpl.html. It is
+# also available in the file $GTHOME/LICENSE.txt.
+#
+# Other licensing options are available upon request, please contact
+# giellatekno@hum.uit.no or divvun@hum.uit.no
+
+# =============================================================== #
+#    M O K S H A  D I S A M B I G U A T O R               
+# =============================================================== #
+# ================================================================ 
+
+
+
+
+      # =========================================== #
+      #      Short table of contents                #
+      # =========================================== #
+
+      # Delimiters
+      # Tags and sets
+      # Disambiguation rules
+       # One-cohort disambiguation - cycle 0
+       # Local disambiguation - cycles 1 and 2
+       # Cycle 1a: Special cases 
+       # Cycle 1b: Cleaning up after the special cases
+       # Cycle 2: Other local disambiguation 
+       # Mapping of COMP-CS<, CC and CS
+       # More diambiguation
+       # Verb mappings 
+       # Disambiguating nouns
+       # Mainly mapping-rules   
+       # Disambiguating nouns
+  	   # Case disambiguation
+       # Cycle 3: Global disambiguation 
+	   # Cycle 4: Syntactic disambiguation 
+	   # Cycle 5: Post-syntactic morphological disambiguation
+
+
+
+# =============== #
+#!! !!!DELIMITERS 
+# =============== #
+SUBREADINGS = LTR ;
+
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; 
+
+#PARENTHESES = "<$(>" "<$)>" "<$[>" "<$]>" "<${>" "<$}>" "<$«>" "<$»>" ;
+
+# ================== #
+#!! !!!TAGS AND SETS
+# ================== #
+
+
+#!! !!Sets containing lists of tags
+
+SETS
+
+# I define end of clause and beginning of clause in a way so that the file
+# may be read both by the CG-2 and the vislcg formalisms.
+
+LIST BOS = (>>>) (<s>);
+LIST EOS = (<<<) (</s>);
+
+# CG3 doesn´t function without >>> and <<< !
+
+# Tags declared as single-membered LISTs 
+# ======================================
+
+#!! Upper and lower case
+LIST Upper = "<[А-ЯЁ][а-яё]*>"r ;
+LIST Lower = "<[а-яё]+>"r ;
+
+# We can define sets for common tag clusters
+LIST Case = (n sg) (n pl) ; # A set that matches either a Noun Singular or a Noun Plural
+
+
+#!! * Sets for parts of speech
+# ---------------
+
+LIST N = N ;
+LIST A = A ;
+LIST Adv = Adv ;
+LIST V = V ;
+LIST Pron = Pron ;
+
+LIST CS = CS ;
+LIST CCC = CC ;
+SET CC = CCC - ("sihke") ;
+SET CC-CS = CC OR CS ;
+LIST Po = Po ;
+LIST Pr = Pr ;
+LIST Pcle = Pcle ;
+LIST Num = Num ;
+LIST Interj = Interj ;
+LIST ABBR = ABBR ;
+LIST ACR = ACR ;
+
+LIST CLB = CLB ;
+LIST LEFT = LEFT ;
+LIST RIGHT = RIGHT ;
+LIST WEB = WEB ;
+LIST QMARK = """ ; # ADD " FOR SYNTAX COLOURING.
+LIST PPUNCT = PUNCT ;
+SET PUNCT = PPUNCT - QMARK ;
+
+LIST COMMA = "," ;
+LIST ¶ = ¶;
+LIST HYPHEN = "-" ;
+
+#LIST V* = V* ;
+
+#!! * Sets for POS sub-categories
+# ------------------
+
+LIST Pers = Pers ;
+LIST Dem = Dem ;
+LIST Interr = Interr ;
+LIST Indef = Indef ;
+
+LIST Recipr = Recipr ;
+LIST Refl = Refl ;
+LIST Rel = Rel ;
+ 
+#LIST Adp = Adp ;
+
+LIST Coll = Coll ;
+LIST NomAg = NomAg ;
+LIST G3 = G3 ;
+LIST Prop = Prop ;
+
+LIST SCONJ = ScSg1 ScSg2 ScSg3 ScPl1 ScPl2 ScPl3 ;
+LIST OCONJ = OcSg1 OcSg2 OcSg3 OcPl1 OcPl2 OcPl3 ;
+
+#!! * Sets for Semantic tags
+# -------------
+
+LIST Ant = Ant ;
+LIST Ani = Ani Sem/Kin Hum Fem Mal Sur ;
+LIST Fem = Fem ;
+LIST Mal = Mal ;
+
+LIST Obj = Obj ;
+LIST Org = Org ;
+LIST Plc = Plc ;
+
+LIST Sur = Sur ;
+
+LIST Time = Time ;
+LIST Hum = Hum ;
+LIST Date = Date ;
+
+
+#!! * Sets for Morphosyntactic properties
+# --------------------------
+
+LIST Abe = Abe ;
+LIST Abl = Abl ;
+LIST Cau = Cau ;
+LIST Com = Com ;
+LIST Cmpr = Cmpr ;
+LIST Dat = Dat ;
+LIST Ela = Ela ;
+LIST Gen = Gen ;
+LIST Ill = Ill ;
+LIST Ine = Ine ;
+LIST Lat = Lat ;
+LIST Loc = Loc ;
+LIST Nom = Nom ;
+LIST Prl = Prl ;
+LIST Temp = Temp ;
+LIST Tra = Tra ;
+LIST Voc = Voc ;
+
+LIST Sg = Sg ;
+LIST Pl = Pl ;
+
+LIST RCmpnd = RCmpnd ;
+
+LIST Cmpnd = Cmpnd ;
+ 
+LIST SgNomCmp = SgNomCmp ;
+ 
+LIST SgGenCmp = SgGenCmp ;
+
+LIST ShCmp = ShCmp ;
+
+LIST Def = Def ;
+LIST Indef = Indef ;
+
+LIST PxSg1 = PxSg1 ;
+LIST PxSg2 = PxSg2 ;
+LIST PxSg3 = PxSg3 ;
+ 
+LIST PxPl1 = PxPl1 ;
+LIST PxPl2 = PxPl2 ;
+LIST PxPl3 = PxPl3 ;
+
+LIST Comp = Comp ;
+LIST Superl = Superl ;
+
+LIST Attr = Attr ;
+LIST Ord = Ord ;
+
+LIST Qst = Qst ;
+ 
+# The ("ge" Pcle) etc. are used in Apertium
+LIST Foc = Foc ;
+LIST Foc/Гак = Foc/Гак ;
+LIST Clt/Га = Clt/Га ;
+
+
+LIST IV = IV ;
+LIST TV = TV ;
+
+#LIST Der/Pass = Der/PassL Der/PassS ;
+
+LIST Prs = Prs ;
+LIST Prt1 = Prt1;
+LIST Prt2 = Prt2;
+
+
+LIST Cond = Cond ;
+LIST Conj = Conj ;
+LIST Des = Des ;
+LIST Ind = Ind ;
+LIST Opt = Opt ;
+
+LIST Imprt = Imprt ;
+
+LIST ScSg1 = ScSg1 ;
+LIST ScSg2 = ScSg2 ;
+LIST ScSg3 = ScSg3 ;
+ 
+LIST ScPl1 = ScPl1 ;
+LIST ScPl2 = ScPl2 ;
+LIST ScPl3 = ScPl3 ;
+
+LIST OcSg1 = OcSg1 ;
+LIST OcSg2 = OcSg2 ;
+LIST OcSg3 = OcSg3 ;
+ 
+LIST OcPl1 = OcPl1 ;
+LIST OcPl2 = OcPl2 ;
+LIST OcPl3 = OcPl3 ;
+
+LIST Sg1 = Sg1 ;
+LIST Sg2 = Sg2 ;
+LIST Sg3 = Sg3 ;
+
+LIST Pl1 = Pl1 ;
+LIST Pl2 = Pl2 ;
+LIST Pl3 = Pl3 ;
+
+LIST Inf = Inf ;
+LIST ConNeg = ConNeg ;
+LIST Neg = Neg ;
+
+LIST PrfPrc = PrfPrc ;
+LIST VGen = VGen ;
+
+LIST PrsPrc = PrsPrc ;
+ 
+
+LIST Ger = Ger ;
+LIST Sup = Sup ;
+LIST Actio = Actio ;
+
+LIST Der/PassL = Der/PassL ;
+LIST Der/NomAg = Der/NomAg ;
+LIST Actor = NomAg Der/NomAg ;
+LIST VAbess = VAbess ;
+
+#!! * Sets for Derivation
+# ----------
+
+
+LIST Der/ВтОмО = Der/ВтОмО ;
+LIST Der/шка = Der/шка ;
+LIST Der/Онь = Der/Онь ;
+LIST Der/ай = Der/ай ;
+LIST Der/кай = Der/кай ;
+
+LIST Der/MWN = Der/MWN ;
+LIST Der/Dem = Der/Dem ;
+LIST Der/Cop = Der/Cop ;
+
+LIST <vdic> = <vdic> ;
+
+LIST MARTO = "марто" ;
+
+#2013-05-22
+
+# Phrasal groups
+# --------------
+
+LIST VFIN = Prs Prt1 Prt2 Cond Conj Des Imprt Opt ; 
+
+LIST PX = PxSg1 PxSg2 PxSg3 PxPl1 PxPl2 PxPl3 ;
+
+# Sets
+# ====
+
+SET WORD = N | V | A | Pr | Pron | Adv | CC | CS | Interj | Num | ("\?") ;
+
+
+# Noun sets
+
+
+# Adjective sets
+
+# Nominal sets
+
+
+
+########################                  #########################
+########################                  #########################
+                        # disambiguation #
+########################                  #########################
+########################                  #########################
+
+SECTION
+
+
+REMOVE Der/MWN ; # If any other reading is possible.
+
+# If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
+SELECT $$Case IF (1 CC LINK 1C $$Case) ;
+
+#Ваня марто Марят 
+SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 MARTO) (-2 Prop + Sg + Nom + Indef) ;
+
+#Ванят-Марят 
+SELECT Pl IF (0 Prop + Pl + Nom + Indef) (-1 HYPHEN) (-2 Prop + Pl + Nom + Indef) ;
+
+REMOVE IV IF (0 OCONJ) ;
+
+#REMOVE Gen IF (0 Nom OR Gen) ; # argh fix!
+SELECT Gen IF (1 Po) ;
+
+SELECT Interj IF (0 Upper) (1 COMMA) ;
+
+# Select the proper noun reading if the current word can be
+# a proper noun or a noun, and if it is in upper case, 
+# and the previous word is only in lower case
+SELECT Prop IF (0 Prop) (0 Upper) (-1 Lower OR COMMA) ;
+
+# Ваня марто Марят has a correlating conjunction марто
+SELECT CC IF (0 CC) (-1 Ant + Sg + Nom ) (1 Ant + Pl + Nom ) ;
+
+# ванондан веленьконь вельхкска лиенди самолёттнень мельге и сельмотькшнян.
+SELECT CC IF (0 CC) (-* VFIN ) (* VFIN ) ;
+
+
+# Select the postposition марто when it is preceded by genitive definite 
+SELECT Po IF (0 MARTO) (-1 Gen + Def) (1 CLB) ;
+
+# Select postposition when it is preceded by genitive possessum
+# веленьконь вельхкска 
+SELECT Po IF (0 Po) (-1 Gen + PX) ;
+

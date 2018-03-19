@@ -6,6 +6,7 @@ import tietokanta.mongoilija as mongoilija
 from django.template.defaulttags import register
 from exceptions import *
 import json
+from django import template
 from django.views.decorators.csrf import csrf_exempt
 from tietokanta.models import *
 from tietokanta.wikitool import Wikitool
@@ -20,6 +21,8 @@ import copy
 import HTMLParser
 import inflector
 from django.views.decorators.clickjacking import xframe_options_exempt
+from xml.sax.saxutils import escape
+
 
 
 from django.conf import settings
@@ -35,6 +38,16 @@ file_types = {
 }
 api_keys =[u"sdfrf4535gdg35ertgfd", u"45454arefg785421!R", u"e3455rtwe54325t"]
 
+supported_languages = ["sms", "izh", "mhr", "vot", "olo", "myv", "mdf", "mrj", "udm", "yrk", "koi", "kpv"]
+supported_translation_languages = ["fin", "eng", "rus", "deu", "nob", "sme", "smn", "sjd", "sma", "sju", "sjd", "sje", "smj", "sjt", "sms", "est", "fit", "fkv", "hun", "izh", "kca", "koi", "kpv", "lav", "liv", "mdf", "mhr", "mns", "mrj", "myv", "nio", "olo", "udm", "vep", "vot", "vro", "yrk", "non", "rom", "ron", "som", "swe", "krl", "lud", "fra", "lat"]
+
+def download_model(request):
+    model_type = request.GET["type"]
+    language = request.GET["language"]
+    stream = inflector.return_model(language, model_type)
+    response = HttpResponse(stream, content_type='application/octet-stream')
+    return response
+
 def xml_out(request):
     xml_filename = request.GET["file"]
     xml_type = request.GET.get("type", ".")
@@ -48,7 +61,8 @@ def xml_out(request):
     template = loader.get_template(template_file)
     context = RequestContext(request, {
         'lemmas': lemmas,
-        "file_name" : xml_filename
+        "file_name" : xml_filename,
+        "language": language
     })
     return HttpResponse(template.render(context), content_type="text/plain; charset=utf-8")
 
@@ -73,6 +87,76 @@ def dump_to_git(request):
     git_tool.dump_and_commit()
     return HttpResponse("OK", status=200)
 
+def search(request):
+    language = request.GET.get("language", None)
+    word = request.GET.get("word", None)
+    serveText = request.GET.get("serveText", False)
+    if language is None or word is None:
+        return HttpResponse("Error, no word or language", status=500)
+    data = mongoilija.get_lemma(word, language)
+    if data is None:
+        data = {}
+    else:
+        data = {"lemma": data["lemma"], "homonyms": data["homonyms"]}
+    lemmas = inflector.return_lemmas(word,language)
+    lemma_matches = []
+    for lemma in lemmas:
+        if lemma == word:
+            continue
+        l = mongoilija.get_lemma(lemma, language)
+        if l is not None:
+            lemma_matches.append({"lemma": l["lemma"], "homonyms": l["homonyms"]})
+    trans = {}
+    for lan in supported_translation_languages:
+        translations = mongoilija.get_lemmas_by_translation(word, language, lan)
+        if translations.count() >0:
+            trans[lan] = []
+            for translation in translations:
+                trans[lan].append({"lemma": translation["lemma"], "homonyms": translation["homonyms"]})
+    if serveText:
+        content_type = "text/plain"
+    else:
+        content_type = "application/json"
+    resp = HttpResponse(json.dumps({"query":word, "language": language, "exact_match":data, "lemmatized": lemma_matches, "other_languages": trans}),status=200, content_type=content_type)
+    resp['Access-Control-Allow-Origin'] = '*'
+    return resp
+
+def analyse_word(request):
+    language = request.GET.get("language", None)
+    word = request.GET.get("word", None)
+    if language is None or word is None:
+        return HttpResponse("Error, no word or language", status=500)
+    else:
+        result = inflector.return_all_analysis(word, language)
+        resp = HttpResponse(json.dumps({"analysis": result, "query": word, "language": language}),status=200, content_type="application/json")
+        return resp
+
+def generate_form(request):
+    language = request.GET.get("language", None)
+    word = request.GET.get("query", None)
+    if language is None or word is None:
+        return HttpResponse("Error, no word or language", status=500)
+    else:
+        word = word.replace(u" ", u"+")
+        result = inflector.generate_form(word, language)
+        resp = HttpResponse(json.dumps({"analysis": result, "query": word, "language": language}),status=200, content_type="application/json")
+        return resp
+
+def list_languages(request):
+    serveText = request.GET.get("serveText", False)
+    user = request.GET.get("user", "")
+    if serveText:
+        content_type = "text/plain"
+    else:
+        content_type = "application/json"
+    if user == u"uralicApi":
+        append_dict = ["fin"]
+    else:
+        append_dict = []
+    resp = HttpResponse(json.dumps({"languages": supported_languages + append_dict}),status=200, content_type=content_type)
+    resp['Access-Control-Allow-Origin'] = '*'
+    return resp
+
 def clone_git(request):
     lang = request.GET.get("language", None)
     remote_url = request.GET.get("url", None)
@@ -83,7 +167,9 @@ def clone_git(request):
     return HttpResponse(results, status=200)
 
 def pull_git(request):
-    lang = request.GET.get("language", "sms")
+    lang = request.GET.get("language", None)
+    if lang is None:
+        return HttpResponse("Error, no language", status=500)
     pull_from_git(lang)
     return HttpResponse("OK", status=200)
 
@@ -121,13 +207,15 @@ def pull_from_git(lang):
     process_towiki_queue("", lang)
 
 def rebase_wiki(request):
-    language = request.GET.get("language", "sms")
+    language = request.GET.get("language", None)
+    if language is None:
+        return HttpResponse("Error, no language", status=500)
     clear = request.GET.get("clear", None)
     auth = request.GET.get("auth", "")
     if clear is not None and auth == u"okojewof53":
         mongoilija.clear_language(language)
     mongoilija.push_everything_to_wiki(language)
-    process_towiki_queue("", request.GET.get("language", "sms"))
+    process_towiki_queue("", language)
     return HttpResponse("OK", status=200)
 
 @xframe_options_exempt
@@ -147,6 +235,12 @@ def inflect(request):
         return HttpResponse("process_inflections(" + json.dumps({"results": results}) + ")",status=200, content_type="application/json")
 
 
+def lemmatize(request):
+    language = request.GET.get("language", "sms")
+    word_form = request.GET.get("word", u"").replace(u"%2B", u"+")
+    results = inflector.return_lemmas(word_form,language)
+    return HttpResponse(json.dumps({"results": results}),status=200, content_type="application/json")
+
 @csrf_exempt
 def delete_lemma(request):
     check_apikey(request)
@@ -163,6 +257,16 @@ def update_lemma(request):
     homonyms = json.loads(request.POST["homonyms"])
     mongoilija.update_lemma(lemma, homonyms["homonyms"], language)
     return HttpResponse("",status=200)
+
+def list_lemmas(request):
+    language = request.GET.get("language",None)
+    if language is None:
+        return HttpResponse("no language", status=500)
+    data = mongoilija.get_all_lemmas(language)
+    return_text = u""
+    for item in data:
+        return_text = return_text + item["lemma"] + "\n"
+    return HttpResponse(return_text,status=200,content_type="text/plain; charset=utf-8")
 
 def test_mongo(request):
     lemma = request.GET.get("lemma",u"domm-muʹzei")
@@ -284,7 +388,7 @@ def filename_and_pos(pos, file_name):
 def filename_and_pos_sms(homonym, file_name):
     pos = homonym["POS"]
     if u"ABBR_" in file_name:
-        if "type" in homonym["l_attrib"] and homonym["l_attrib"]["type"] == u"ABBR":
+        if "l_attrib" in homonym and "type" in homonym["l_attrib"] and homonym["l_attrib"]["type"] == u"ABBR":
             return True
         else:
             return False
@@ -298,12 +402,36 @@ def filename_and_pos_sms(homonym, file_name):
                 if "type" in homonym["l_attrib"] and homonym["l_attrib"]["type"] == u"Prop":
                     return True
                 return False
+            if "N_Kin" in file_name:
+                if "type" in homonym["l_attrib"]and homonym["l_attrib"]["type"] == u"Kin":
+                    return True
+                else:
+                    return False
             if "N_" in file_name:
+                if "type" in homonym["l_attrib"]:
+                    return True
+                else:
+                    return True
+    if pos == u"V":
+        if "l_attrib" in homonym:
+            if "V_Neg" in file_name:
+                if "type" in homonym["l_attrib"] and homonym["l_attrib"]["type"] == u"Neg":
+                    return True
+                return False
+            if "V_Copula" in file_name:
+                if "type" in homonym["l_attrib"] and homonym["l_attrib"]["type"] == u"Copula":
+                    return True
+                return False
+            if "V_" in file_name:
                 if "type" in homonym["l_attrib"]:
                     return False
                 else:
                     return True
-    return pos + "_sms2X.xml" == file_name or pos + "_sms2x.xml" == file_name
+    if (pos == u"PO" or pos == u"PR") and "Adp_" in file_name:
+        return True
+    if (pos == u"CS" or pos == u"CC") and pos + "_" in file_name:
+        return True
+    return pos.title() + "_" in file_name
 
 
 pos_abreviations = {"n": "nouns", "a": "adjectives", "pr":"adpositions", "po":"adpositions", "adv": "adverbs", "cc":"conjunctors", "cs":"conjunctors", "interj": "interjections", "pcle": "particles", "pron":"pronouns", "num":"quantifiers", "v":"verbs"}
@@ -458,7 +586,7 @@ def prepare_mg(homonym, only_fin=False):
                     continue
                 elif type(tr[item]) != dict:
                     xml_line = xml_line + " " + item + "=\"" + tr[item] + "\""
-            mgs[mg_id]["tr"][lang].append(xml_line + " >" + (tr["word"] or "") + "</"+t_tag+">")
+            mgs[mg_id]["tr"][lang].append(xml_line + " >" + escape(tr["word"] or "") + "</"+t_tag+">")
     if "tg_attrs" in homonym:
         for mg_index in homonym["tg_attrs"].keys():
             if mg_index not in mgs:
@@ -466,11 +594,11 @@ def prepare_mg(homonym, only_fin=False):
             mgs[mg_index]["tg_atrs"] = homonym["tg_attrs"][mg_index]
 
     xml = ""
-    for mg_k in mgs.keys():
+    mgs_keys = copy.copy(mgs.keys())
+    mgs_keys.sort()
+    for mg_k in mgs_keys:
         xml += "<mg relId=\"" + str(mg_k) + "\">\n"
         mg = mgs[mg_k]
-        for other in mg["other"]:
-            xml += other + "\n"
         try:
             satrs = mgs[mg_id]["sem_atrs"]
         except:
@@ -496,6 +624,18 @@ def prepare_mg(homonym, only_fin=False):
             for trans in mg["tr"][lang]:
                 xml += trans + "\n"
             xml += "</tg>\n"
+        for other in mg["other"]:
+            xml += other + "\n"
         xml += "</mg>\n"
     return xml.replace("xml_lang", "xml:lang")
 
+@register.filter(name='xml_lang')
+def xml_lang(value):
+    return value.replace("xml_lang", "xml:lang")
+
+@register.filter(name='poscase')
+def poscase(value):
+    if value == u"CC" or value == u"CS":
+        return value
+    else:
+        return value.title()

@@ -38,12 +38,12 @@ class Wikitool():
 
 
     def login(self):
-        data = {"action" :"login","lgname" : self.username, "lgpassword": self.password, "format":"json" }
+        data = {"action" :"query","meta" : "tokens", "type": "login", "format":"json" }
         success, loginResults = self.post(self.wiki_url + "api.php", data)
         if not success:
             return False
-        if loginResults["login"]["result"] == "NeedToken":
-            confirmationData = {"action":"login","lgname": self.username, "lgpassword": self.password, "lgtoken":loginResults["login"]["token"], "format":"json"}
+        else:
+            confirmationData = {"action":"login","lgname": self.username, "lgpassword": self.password, "lgtoken":loginResults["query"]["tokens"]["logintoken"], "format":"json"}
             success, loginResults = self.post(self.wiki_url + "api.php", confirmationData)
             if not success:
                 return False

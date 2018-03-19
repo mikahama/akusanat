@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<r id="koikpv" xml:lang="koi">
+ <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Evgeni Tsypanov, Giellatekno at UiT, Divvun at the
+ Norwegian Saami Parliament,
+ and members of the language communities. Source code
+ available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref>
+     <sourcenote>
+ THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+ published dictionary. As such it can and
+ will contain unfinished entries, unpublished entries, entries with
+ objectionable translations, etc. If you find any errors or want to add more
+ words, download the file, edit it, and send it back to
+ <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@hum.uit.no</a>.
+ Please also note that the entries are not necessarily sorted,
+ or could be wrongly sorted.
+
+     </sourcenote></lics>
+
+
+  <e>
+    <lg>
+      <l pos="Interj">аня</l>
+      <stg>
+        <st>аня</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="kpv">
+        <t pos="Interj">оз позь</t>
+        <t pos="Interj">эн (челядь сёрниын)</t>
+      </tg>
+      <xg>
+        <x>этӧ, кага, аня.</x>
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Interj">батя</l>
+      <stg>
+        <st>батя</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="kpv">
+        <t pos="Interj">зонмӧ</t>
+        <t pos="Interj">другӧ (сёрнитігӧн тшӧкыда вӧдитчан кыв)</t>
+      </tg>
+      <xg>
+        <x>эх, надя, бӧбӧтін менӧ сё жӧ, батя</x>
+        <src>(Ф.Истомин)</src>
+        <xt/>
+      </xg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Interj">бытшӧм асылӧн.</l>
+      <stg>
+        <st>бытшӧм асылӧн.</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="kpv">
+        <t pos="Interj">бур асыв.</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Interj">волькыт туй</l>
+      <stg>
+        <st>волькыт туй</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="kpv">
+        <t pos="Interj">бур туй</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Interj">кытчӧдз быдӧс</l>
+      <stg>
+        <st>кытчӧдз быдӧс</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="kpv">
+        <t pos="Interj">ӧні кежлӧ ставыс</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Interj">локтан здорово.</l>
+      <stg>
+        <st>локтан здорово.</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="kpv">
+        <t pos="Interj">видзаалӧм вылӧ воча кыв</t>
+        <t pos="Interj">пырысьлы воча кыв</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Interj">нянь-сов тіянлӧ.</l>
+      <stg>
+        <st>нянь-сов тіянлӧ.</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="kpv">
+        <t pos="Interj">нянь-сов тіянлы.</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Interj">тартарӧ тарӧвтчы.</l>
+      <stg>
+        <st>тартарӧ тарӧвтчы.</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="kpv">
+        <t pos="Interj">мун чорту</t>
+        <t pos="Interj">весась татысь.</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Interj">тыр доз тэныт</l>
+      <stg>
+        <st>тыр доз тэныт</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="kpv">
+        <t pos="Interj">мед удайтчас</t>
+        <t pos="Interj">вӧрӧ</t>
+        <t pos="Interj">ва вылӧ мунысьлы кыв</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="Interj">ӧткымын шуӧм здорово тіянлӧ.</l>
+      <stg>
+        <st>ӧткымын шуӧм здорово тіянлӧ.</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="kpv">
+        <t pos="Interj" re="пырысьлӧн, локтысьлӧн кыв">видза оланныд</t>
+      </tg>
+    </mg>
+  </e>
+</r>
+

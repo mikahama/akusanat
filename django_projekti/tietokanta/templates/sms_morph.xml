@@ -22,10 +22,10 @@
         {% endif %}
        <lg>
            {% get_item_attributes homonym "l_attrib" as l_attributes %}
-         <l pos="{{ homonym.POS }}" {% if homonym.hid %} hid="{{ homonym.hid }}" {% endif %} {{ l_attributes | safe }}>{{ element.lemma }}</l>
+         <l pos="{{ homonym.POS | poscase }}" {% if homonym.hid %} hid="{{ homonym.hid }}" {% endif %} {{ l_attributes | safe }}>{{ element.lemma }}</l>
            {% get_subitem_dict homonym "morph.lg" as lg %}
          {% for key, value in lg.items %}
-           {{value | safe}}
+           {{value | xml_lang | safe}}
            {% endfor %}
        </lg>
         {% has_key homonym "sms2xml" as has_sms2xml %}

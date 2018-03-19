@@ -29,7 +29,9 @@ def update_sms_db_from_xml(xml_text, file_type, file_name):
 def __process_sms_xml__(root, file_name):
     lemmas = []
     for element in root:
-        homonym = {"mg_data": [],"l_attrib": {}, "translations": {},"semantics":[],"sms2xml":{"sources":[], "file": file_name}}
+        if element.tag != "e":
+            continue
+        homonym = {"mg_data": [],"l_attrib": {}, "e_attrib":element.attrib, "translations": {},"semantics":[],"sms2xml":{"sources":[], "file": file_name}}
         homonym["sms2xml_id"] = element.get("id")
         l = element.find("lg").find("l")
         lemma = l.text
@@ -146,7 +148,9 @@ def __xml_node_to_list__(node):
 def __process_morph_xml__(root, file_name):
     lemmas = []
     for element in root:
-        homonym ={"mg_data":[], "l_attrib": {}, "lexicon":{},"translations": {},"semantics":[], "semantics_attributes":{}, "morph":{"lg":{}},"sms2xml":{"sources":[]}, "tg_attrs":{}}
+        if element.tag != "e":
+            continue
+        homonym ={"mg_data":[], "l_attrib": {}, "e_attrib":element.attrib, "lexicon":{},"translations": {},"semantics":[], "semantics_attributes":{}, "morph":{"lg":{}},"sms2xml":{"sources":[]}, "tg_attrs":{}}
         id = element.get("id") or ""
         meta = element.get("meta") or ""
         homonym["morph_id"] = id

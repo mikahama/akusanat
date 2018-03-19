@@ -16,6 +16,62 @@ def return_all_inflections(lemma, pos, language="sms"):
     else:
         return []
 
+def return_model(language, model_type):
+    base_dir = os.path.dirname(os.path.dirname(__file__))
+    if model_type == "analyser":
+        filename = os.path.join(base_dir, "transducers/"+language+"/analyser-gt-desc.hfstol")
+    elif model_type == "generator":
+        filename = os.path.join(base_dir, "transducers/"+language+"/generator-dict-gt-norm.hfstol")
+    else:
+        filename = os.path.join(base_dir, "transducers/"+language+"/disambiguator.cg3")
+    return open(filename, "rb")
+
+def return_all_analysis(word_form, language="sms"):
+    if type(word_form) is unicode:
+        word_form = word_form.encode('utf-8')
+    if type(language) is unicode:
+        language = language.encode('utf-8')
+    base_dir = os.path.dirname(os.path.dirname(__file__))
+    filename = os.path.join(base_dir, "transducers/"+language+"/analyser-gt-desc.hfstol")
+    try:
+        input_stream = hfst.HfstInputStream(filename)
+        analyser = input_stream.read()
+    except:
+        return []
+    analysis = analyser.lookup(word_form)
+    return analysis
+
+def generate_form(hfst_query, language="sms"):
+    if type(hfst_query) is unicode:
+        hfst_query = hfst_query.encode('utf-8')
+    if type(language) is unicode:
+        language = language.encode('utf-8')
+    base_dir = os.path.dirname(os.path.dirname(__file__))
+    filename = os.path.join(base_dir, "transducers/"+language+"/generator-dict-gt-norm.hfstol")
+    try:
+        input_stream = hfst.HfstInputStream(filename)
+        analyser = input_stream.read()
+        print hfst_query
+    except:
+        return []
+    analysis = analyser.lookup(hfst_query)
+    return analysis
+
+
+def return_lemmas(word_form, language="sms"):
+    analysis = return_all_analysis(word_form, language)
+    lemmas = []
+    for tupla in analysis:
+        an = tupla[0]
+        if "@" in an:
+            lemma = an.split("@")[0]
+        else:
+            lemma = an
+        if "+" in lemma:
+            lemmas.append(lemma.split("+")[0])
+    lemmas = list(set(lemmas))
+    return lemmas
+
 pos_dict = {"V": {"1st":["+Ind+Prs+", "+Ind+Prt+", "+Pot+", "+Cond+", "+Imprt+"], "2nd": ["Sg", "Pl"], "3rd": ["1","2","3"], "comp": ["ConNeg", "Sg4"]},
                 "N" : {"1st": ["+", "+Der/Dimin+N+"], "2nd": ["Sg", "Pl"], "3rd": ["+Nom", "+Gen", "+Acc", "+Ill", "+Loc", "+Com", "+Abe"], "comp": ["Ess", "Par"]},
                 "A" : {"1st": ["+","+Comp+","+Superl+"], "2nd": ["Sg", "Pl"], "3rd": ["+Nom", "+Gen", "+Acc", "+Ill", "+Loc", "+Com", "+Abe"], "comp": ["Ess", "Par"]}
@@ -138,6 +194,10 @@ def __generator_queries__(lemma, pos):
                     more_trans.append(query_trans[i] + __get_trans__(["Px", num, per]))
         queries.extend(more_queries)
         query_trans.extend(more_trans)
+
+    if pos == "A":
+        queries.append(lemma+ "+A+Attr")
+        query_trans.append("Attribuutti")
 
     return queries, query_trans
 

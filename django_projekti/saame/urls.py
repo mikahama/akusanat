@@ -35,5 +35,12 @@ urlpatterns = [
     url(r'^' + re.escape(prefix)+ r'rsaKey/', views.rsa_key, name='rsa_key'),
     url(r'^' + re.escape(prefix)+ r'testGit/', views.test_git, name='test_git'),
     url(r'^' + re.escape(prefix)+ r'cloneGit/', views.clone_git, name='clone_git'),
-    url(r'^' + re.escape(prefix)+ r'inflect/', views.inflect, name='inflect')
+    url(r'^' + re.escape(prefix)+ r'inflect/', views.inflect, name='inflect'),
+    url(r'^' + re.escape(prefix)+ r'lemmatize/', views.lemmatize, name='lemmatize'),
+    url(r'^' + re.escape(prefix)+ r'analyze/', views.analyse_word, name='analyze'),
+    url(r'^' + re.escape(prefix)+ r'generate/', views.generate_form, name='generate'),
+    url(r'^' + re.escape(prefix)+ r'listLemmas/', views.list_lemmas, name='list_lemmas'),
+    url(r'^' + re.escape(prefix)+ r'listLanguages/', views.list_languages, name='list_languages'),
+    url(r'^' + re.escape(prefix)+ r'search/', views.search, name='search'),
+    url(r'^' + re.escape(prefix)+ r'downloadModel/', views.download_model, name='downloadModel')
 ]

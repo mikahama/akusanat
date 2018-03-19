@@ -4,8 +4,9 @@ import urllib
 #https://victorio.uit.no/langtech/trunk/langs/sms/src/morphology/stems/
 #https://victorio.uit.no/langtech/trunk/ped/sms/src/
 #https://victorio.uit.no/langtech/trunk/ped/sms/finsms/
-url = "https://victorio.uit.no/langtech/trunk/langs/mdf/src/morphology/stems/"
-save_to_dir = "/mdf/"
+#https://victorio.uit.no/langtech/trunk/langs/mdf/src/morphology/stems/
+url = "https://victorio.uit.no/langtech/trunk/words/dicts/koikpv/src/"
+save_to_dir = "/koi/"
 
 response = urllib2.urlopen(url)
 html = response.read()

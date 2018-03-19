@@ -232,8 +232,29 @@ function lgData(json, lgType, buttonText){
 			continue;
 		}
 
-		var html = "<li><a href='"+ current_url + data+"'>" + data + "</a> (" + _(etymology.tagName) + ") <ul>";
-		var attrs = etymology.attributes || [];
+		var link = current_url + data;
+        var attrs = etymology.attributes || [];
+		if (etymology.tagName=="cognate"){
+            for (var iii = 0; iii < attrs.length; iii++) {
+                var attribute = attrs[iii];
+                if(attribute.name == "xml_lang"){
+                    link = document.location.href.substring(0, document.location.href.lastIndexOf("/")+1) + attribute.value + ":" + data;
+                    break;
+				}
+
+            }
+		} else if (etymology.tagName=="etymon"){
+            for (var iii = 0; iii < attrs.length; iii++) {
+                var attribute = attrs[iii];
+                if(attribute.name == "algu_lekseemi_id"){
+                    attribute.value = "<a href='http://kaino.kotus.fi/algu/index.php?t=lekseemi&lekseemi_id=" + attribute.value + "'>" +attribute.value + "</a>";
+                    break;
+                }
+
+            }
+		}
+		var html = "<li><a href='"+ link +"'>" + data + "</a> (" + _(etymology.tagName) + ") <ul>";
+
 		for (var ii = 0; ii < attrs.length; ii++) {
 			var attribute = attrs[ii];
 			html = html + "<li>" + _(attribute.name) + " - " + _(attribute.value) + "</li>"

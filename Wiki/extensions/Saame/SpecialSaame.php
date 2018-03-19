@@ -6,7 +6,7 @@ class SpecialSaame extends SpecialPage {
 	}
 
 	public static function getSupportedLanguages(){
-		return array("sms", "izh", "mhr", "vot", "olo", "myv", "mdf", "mrj", "udm", "yrk");
+		return array("sms", "izh", "mhr", "vot", "olo", "myv", "mdf", "mrj", "udm", "yrk", "koi");
 	}
 
 	public static function httpPost($url, $data){
@@ -82,7 +82,7 @@ class SpecialSaame extends SpecialPage {
 			$editPage->editFormPageTop .= "<script type='text/javascript' src='". $configs["jsBaseUrl"] . "sms_edit.js'></script> <link rel='stylesheet' type='text/css' href='". $configs["jsBaseUrl"] . "sms.css'>";
 		}
 		
-		return $editPage;
+
 	 }
 	public static function startsWith($haystack, $needle) {
      	$length = strlen($needle);
@@ -159,7 +159,6 @@ class SpecialSaame extends SpecialPage {
 			$editPage->addScript("<script type='text/javascript'>var djangoURL = \"" . $url . "\";</script>");
 			$editPage->addStyle( $configs["jsBaseUrl"] . "sms_view.css");
 		}
-		
-		return $editPage;
+
 	 }
 }

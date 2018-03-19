@@ -154,6 +154,10 @@ def get_lemma(lemma, language):
     else:
         return data
 
+def get_lemmas_by_translation(word, language, foreign_language):
+    collection = __get_db_collection__(language)
+    return collection.find({"homonyms.translations."+foreign_language+".word": word})
+
 def store_xml_in_db(xml_data, file_type, file_name, language, first_time_sync=False):
     data = xml_to_db.update_db_from_xml(xml_data, file_type, file_name, language)
     for item in data:
