@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="0">
+         <l pos="Interj">vuoi ihán</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Interj">oi</t>
+            <t pos="Interj">å dæven</t>
+            <xg>
+               <x>Vuoi ihán, don leat čeahppi.</x>
+               <xt>Oi, så flink du er.</xt>
+            </xg>
+            <xg>
+               <x>Vuoi ihán, dáppe lea moivvas.</x>
+               <xt>Å dæven, det er rotete her.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="159">
+         <l pos="Interj">aa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>uttrykk for at en nekter, avviser eller protesterer mot noe</re>
+            <t pos="Interj">nei</t>
+            <xg>
+               <x>Aa, dan in háliit.</x>
+               <xt>Nei, det vil jeg ikke.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="84">
+         <l pos="Interj">bures</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>når man handhilser</re>
+            <t pos="Adv">god dag</t>
+            <xg>
+               <x>Bures!</x>
+               <xt>God dag!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="239">
+         <l pos="Interj">já</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Interj">jasså</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="32">
+         <l pos="Interj">dearvva</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Interj">hei</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="459">
+         <l pos="Interj">gea</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="V">se</t>
+            <xg>
+               <x>Gea, beana skierbmu!</x>
+               <xt>Se, hunden halter!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2371">
+         <l pos="Interj">vuoi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Interj">akk</t>
+            <t pos="Interj">å</t>
+            <xg>
+               <x>Vuoi, go lea váivi.</x>
+               <xt>Å akk, hvor trist det er.</xt>
+            </xg>
+            <xg>
+               <x>Vuoi, man somá go soamis mus maid ballá.</x>
+               <xt>Å, så artig at noen er redd for meg også.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

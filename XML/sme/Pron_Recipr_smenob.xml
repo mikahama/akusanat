@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guoibmáme</l>
+         <lsub>guoibmáme</lsub>
+         <analysis>Pron_Recipr_Du1_Acc</analysis>
+         <analysis>Pron_Recipr_Du1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Du1_Acc/Gen">
+               <wordform>goabbat guoibmáme</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du1_Ill">
+               <wordform>goabbat guoibmáseame</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du1_Loc">
+               <wordform>goabbat guoimmisteame</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du1_Com">
+               <wordform>goabbat guimmiineame</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss to</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Moai dovde goabbat guoibmáme.</x>
+               <xt>Vi to kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guoimmáde</l>
+         <lsub>guoibmáde</lsub>
+         <analysis>Pron_Recipr_Du2_Acc</analysis>
+         <analysis>Pron_Recipr_Du2_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Du2_Acc/Gen">
+               <wordform>goabbat guoimmáde</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du2_Ill">
+               <wordform>goabbat guoibmáseatte</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du2_Loc">
+               <wordform>goabbat guoimmisteatte</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du2_Com">
+               <wordform>goabbat guimmiineatte</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere to</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Doai dovdabeahtti goabbat guoimmáde.</x>
+               <xt>Dere to kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guoimmiska</l>
+         <lsub>guoimmiska</lsub>
+         <analysis>Pron_Recipr_Du3_Acc</analysis>
+         <analysis>Pron_Recipr_Du3_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Du3_Acc/Gen">
+               <wordform>goabbat guoimmiska</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du3_Ill">
+               <wordform>goabbat guoibmáseaskka</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du3_Loc">
+               <wordform>goabbat guoimmisteaskka</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du3_Com">
+               <wordform>goabbat guimmiineaskka</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Soai dovdaba goabbat guoimmiska.</x>
+               <xt>De to kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guoibmámet</l>
+         <lsub>guoibmámet</lsub>
+         <analysis>Pron_Recipr_Pl1_Acc</analysis>
+         <analysis>Pron_Recipr_Pl1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Pl1_Acc/Gen">
+               <wordform>guhtet guoibmámet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl1_Ill">
+               <wordform>guhtet guoibmáseamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl1_Loc">
+               <wordform>guhtet guoimmisteamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl1_Com">
+               <wordform>guhtet guimmiineamet</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Mii dovdat guhtet guoibmámet.</x>
+               <xt>Vi kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guimmiideamet</l>
+         <lsub>guimmiideamet</lsub>
+         <analysis>Pron_Recipr_Pl1_Acc</analysis>
+         <analysis>Pron_Recipr_Pl1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Pl1_Acc/Gen">
+               <wordform>guhtet guimmiideamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl1_Ill">
+               <wordform>guhtet guimmiidasamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl1_Loc">
+               <wordform>guhtet guimmiineamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl1_Com">
+               <wordform>guhtet guimmiideametguin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Mii dovdat guhtet guimmiideamet.</x>
+               <xt>Vi kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guoimmádet</l>
+         <lsub>guoimmádet</lsub>
+         <analysis>Pron_Recipr_Pl2_Acc</analysis>
+         <analysis>Pron_Recipr_Pl2_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Pl2_Acc/Gen">
+               <wordform>guhtet guoimmádet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl2_Ill">
+               <wordform>guhtet guoibmáseattet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl2_Loc">
+               <wordform>guhtet guoimmisteattet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl2_Com">
+               <wordform>guhtet guimmiineattet</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Dii dovdabehtet guhtet guoimmádet.</x>
+               <xt>Dere kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guimmiideattet</l>
+         <lsub>guimmiideattet</lsub>
+         <analysis>Pron_Recipr_Pl2_Acc</analysis>
+         <analysis>Pron_Recipr_Pl2_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Pl2_Acc/Gen">
+               <wordform>guhtet guimmiideattet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl2_Ill">
+               <wordform>guhtet guimmiidasadet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl2_Loc">
+               <wordform>guhtet guimmiineattet</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl2_Com">
+               <wordform>guhtet guimmiideattetguin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Dii dovdabehtet guhtet guimmiideattet.</x>
+               <xt>Dere kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guoimmiset</l>
+         <lsub>guoimmiset</lsub>
+         <analysis>Pron_Recipr_Pl3_Acc</analysis>
+         <analysis>Pron_Recipr_Pl3_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Pl3_Acc/Gen">
+               <wordform>guhtet guoimmiset</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl3_Ill">
+               <wordform>guhtet guoibmáseaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl3_Loc">
+               <wordform>guhtet guoimmisteaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl3_Com">
+               <wordform>guhtet guimmiineaset</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Sii dovdet guhtet guoimmiset.</x>
+               <xt>De kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guimmiideaset</l>
+         <lsub>guimmiideaset</lsub>
+         <analysis>Pron_Recipr_Pl3_Acc</analysis>
+         <analysis>Pron_Recipr_Pl3_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Pl3_Acc/Gen">
+               <wordform>guhtet guimmiideaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl3_Ill">
+               <wordform>guhtet guimmiidasaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl3_Loc">
+               <wordform>guhtet guimmiineaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl3_Com">
+               <wordform>guhtet guimmiideasetguin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Sii dovdet guhtet guimmiideaset.</x>
+               <xt>De kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">nubbi nuppi</l>
+         <lsub>nuppi</lsub>
+         <analysis>Pron_Recipr_Du_Acc</analysis>
+         <analysis>Pron_Recipr_Du_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Du_Acc/Gen">
+               <wordform>nubbi nuppi</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du_Ill">
+               <wordform>nubbi nubbái</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du_Loc">
+               <wordform>nubbi nuppis</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du_Com">
+               <wordform>nubbi nuppiin</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Du_Ess">
+               <wordform>nubbi nubbin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss to</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Moai dovde nubbi nuppi.</x>
+               <xt>Vi to kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">nuppit nuppiid</l>
+         <lsub>nuppiid</lsub>
+         <analysis>Pron_Recipr_Pl_Acc</analysis>
+         <analysis>Pron_Recipr_Pl_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Recipr_Pl_Acc/Gen">
+               <wordform>nuppit nuppiid</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl_Ill">
+               <wordform>nuppit nuppiide</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl_Loc">
+               <wordform>nuppit nuppiin</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl_Com">
+               <wordform>nuppit nuppiiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Recipr_Pl_Ess">
+               <wordform>nuppit nubbin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">hverandre</t>
+            <xg>
+               <x>Sii dovdet nuppit nuppiid.</x>
+               <xt>De kjenner hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guoibmáseame</l>
+         <lsub>guoibmáseame</lsub>
+         <lemma_ref lemmaID="goabbat_guoibmáme_pron_recipr">goabbat guoibmáme</lemma_ref>
+         <analysis>Pron_Recipr_Du1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss to</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Moai muitaletne ságaid goabbat guoibmáseame.</x>
+               <xt>Vi to forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guoimmisteame</l>
+         <lsub>guoimmisteame</lsub>
+         <lemma_ref lemmaID="goabbat_guoibmáme_pron_recipr">goabbat guoibmáme</lemma_ref>
+         <analysis>Pron_Recipr_Du1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss to</re>
+            <t pos="Pron" type="Recipr">hos hverandre</t>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Moai ožžo rávvagiid goabbat guoimmisteame.</x>
+               <xt>Vi to får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guimmiineame</l>
+         <lsub>guimmiineame</lsub>
+         <lemma_ref lemmaID="goabbat_guoibmáme_pron_recipr">goabbat guoibmáme</lemma_ref>
+         <analysis>Pron_Recipr_Du1_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss to</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Moai leaikkastalle goabbat guimmiineame.</x>
+               <xt>Vi to spøker med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guoibmáseatte</l>
+         <lsub>guoibmáseatte</lsub>
+         <lemma_ref lemmaID="goabbat_guoimmáde_pron_recipr">goabbat guoimmáde</lemma_ref>
+         <analysis>Pron_Recipr_Du2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere to</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Doai muitaleahppi ságaid goabbat guoibmáseatte.</x>
+               <xt>Dere to forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guoimmisteatte</l>
+         <lsub>guoimmisteatte</lsub>
+         <lemma_ref lemmaID="goabbat_guoimmáde_pron_recipr">goabbat guoimmáde</lemma_ref>
+         <analysis>Pron_Recipr_Du2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere to</re>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Doai oažžubeahtti rávvagiid goabbat guoimmisteatte.</x>
+               <xt>Dere to får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guimmiineatte</l>
+         <lsub>guimmiineatte</lsub>
+         <lemma_ref lemmaID="goabbat_guoimmáde_pron_recipr">goabbat guoimmáde</lemma_ref>
+         <analysis>Pron_Recipr_Du2_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere to</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Doai leaikkastallabeahtti goabbat guimmiineatte.</x>
+               <xt>Dere to spøker med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guoibmáseaskka</l>
+         <lsub>guoibmáseaskka</lsub>
+         <lemma_ref lemmaID="goabbat_guoimmiska_pron_recipr">goabbat guoimmiska</lemma_ref>
+         <analysis>Pron_Recipr_Du3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Soai muitaleaba ságaid goabbat guoibmáseaskka.</x>
+               <xt>De to forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guoimmisteaskka</l>
+         <lsub>guoimmisteaskka</lsub>
+         <lemma_ref lemmaID="goabbat_guoimmiska_pron_recipr">goabbat guoimmiska</lemma_ref>
+         <analysis>Pron_Recipr_Du3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Pron" type="Recipr">hos hverandre</t>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Soai oažžuba rávvagiid goabbat guoimmisteaskka.</x>
+               <xt>De to får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">goabbat guimmiineaskka</l>
+         <lsub>guimmiineaskka</lsub>
+         <lemma_ref lemmaID="goabbat_guoimmiska_pron_recipr">goabbat guoimmiska</lemma_ref>
+         <analysis>Pron_Recipr_Du3_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Soai leaikkastallaba goabbat guimmiineaskka.</x>
+               <xt>De to spøker med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guoibmáseamet</l>
+         <lsub>guoibmáseamet</lsub>
+         <lemma_ref lemmaID="guhtet_guoibmámet_pron_recipr">guhtet guoibmámet</lemma_ref>
+         <analysis>Pron_Recipr_Pl1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Mii muitalit ságaid guhtet guoibmáseamet.</x>
+               <xt>Vi forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guoimmisteamet</l>
+         <lsub>guoimmisteamet</lsub>
+         <lemma_ref lemmaID="guhtet_guoibmámet_pron_recipr">guhtet guoibmámet</lemma_ref>
+         <analysis>Pron_Recipr_Pl1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Pron" type="Recipr">hos hverandre</t>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Mii oažžut rávvagiid guhtet guoimmisteamet.</x>
+               <xt>Vi får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr" nr="Sg">guhtet guimmiineamet</l>
+         <lsub>guimmiineamet</lsub>
+         <lemma_ref lemmaID="guhtet_guoibmámet_pron_recipr">guhtet guoibmámet</lemma_ref>
+         <analysis>Pron_Recipr_Pl1_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Mii leaikkastallat guhtet guimmiineamet.</x>
+               <xt>Vi skøyer med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guimmiidasamet</l>
+         <lsub>guimmiidasamet</lsub>
+         <lemma_ref lemmaID="guhtet_guimmiideamet_pron_recipr">guhtet guimmiideamet</lemma_ref>
+         <analysis>Pron_Recipr_Pl1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Mii muitalit ságaid guhtet guimmiidasamet.</x>
+               <xt>Vi forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr" nr="Pl">guhtet guimmiineamet</l>
+         <lsub>guimmiineamet</lsub>
+         <lemma_ref lemmaID="guhtet_guimmiideamet_pron_recipr">guhtet guimmiideamet</lemma_ref>
+         <analysis>Pron_Recipr_Pl1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Pron" type="Recipr">hos hverandre</t>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Mii oažžut rávvagiid guhtet guimmiineamet.</x>
+               <xt>Vi får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guimmiideametguin</l>
+         <lsub>guimmiideametguin</lsub>
+         <lemma_ref lemmaID="guhtet_guimmiideamet_pron_recipr">guhtet guimmiideamet</lemma_ref>
+         <analysis>Pron_Recipr_Pl1_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Mii leaikkastallat guhtet guimmiideametguin.</x>
+               <xt>Vi skøyer med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guoibmáseattet</l>
+         <lsub>guoibmáseattet</lsub>
+         <lemma_ref lemmaID="guhtet_guoimmádet_pron_recipr">guhtet guoimmádet</lemma_ref>
+         <analysis>Pron_Recipr_Pl2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Dii muitalehpet ságaid guhtet guoibmáseattet.</x>
+               <xt>Dere forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guoimmisteattet</l>
+         <lsub>guoimmisteattet</lsub>
+         <lemma_ref lemmaID="guhtet_guoimmádet_pron_recipr">guhtet guoimmádet</lemma_ref>
+         <analysis>Pron_Recipr_Pl2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Pron" type="Recipr">hos hverandre</t>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Dii oažžubehtet rávvagiid guhtet guoimmisteattet.</x>
+               <xt>Dere får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr" nr="Sg">guhtet guimmiineattet</l>
+         <lsub>guimmiineattet</lsub>
+         <lemma_ref lemmaID="guhtet_guoimmádet_pron_recipr">guhtet guoimmádet</lemma_ref>
+         <analysis>Pron_Recipr_Pl2_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Dii leaikkastallabehtet guhtet guimmiineattet.</x>
+               <xt>Dere skøyer med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guimmiidasadet</l>
+         <lsub>guimmiidasadet</lsub>
+         <lemma_ref lemmaID="guhtet_guimmiideattet_pron_recipr">guhtet guimmiideattet</lemma_ref>
+         <analysis>Pron_Recipr_Pl2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Dii muitalehpet ságaid guhtet guimmiidasadet.</x>
+               <xt>Dere forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr" nr="Pl">guhtet guimmiineattet</l>
+         <lsub>guimmiineattet</lsub>
+         <lemma_ref lemmaID="guhtet_guimmiideattet_pron_recipr">guhtet guimmiideattet</lemma_ref>
+         <analysis>Pron_Recipr_Pl2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Pron" type="Recipr">hos hverandre</t>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Dii oažžubehtet rávvagiid guhtet guimmiineattet.</x>
+               <xt>Dere får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guimmiideattetguin</l>
+         <lsub>guimmiideattetguin</lsub>
+         <lemma_ref lemmaID="guhtet_guimmiideattet_pron_recipr">guhtet guimmiideattet</lemma_ref>
+         <analysis>Pron_Recipr_Pl2_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Dii leaikkastallabehtet guhtet guimmiideattetguin.</x>
+               <xt>Dere skøyer med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guoibmáseaset</l>
+         <lsub>guoibmáseaset</lsub>
+         <lemma_ref lemmaID="guhtet_guoimmiset_pron_recipr">guhtet guoimmiset</lemma_ref>
+         <analysis>Pron_Recipr_Pl3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Sii muitalit ságaid guhtet guoibmáseaset.</x>
+               <xt>De forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guoimmisteaset</l>
+         <lsub>guoimmisteaset</lsub>
+         <lemma_ref lemmaID="guhtet_guoimmiset_pron_recipr">guhtet guoimmiset</lemma_ref>
+         <analysis>Pron_Recipr_Pl3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">hos hverandre</t>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Sii ožžot rávvagiid guhtet guoimmisteaset.</x>
+               <xt>De får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr" nr="Sg">guhtet guimmiineaset</l>
+         <lsub>guimmiineaset</lsub>
+         <lemma_ref lemmaID="guhtet_guoimmiset_pron_recipr">guhtet guoimmiset</lemma_ref>
+         <analysis>Pron_Recipr_Pl3_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Sii leaikkastallet guhtet guimmiineaset.</x>
+               <xt>De skøyer med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guimmiidasaset</l>
+         <lsub>guimmiidasaset</lsub>
+         <lemma_ref lemmaID="guimmiideaset_pron_recipr">guimmiideaset</lemma_ref>
+         <analysis>Pron_Recipr_Pl3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Sii muitalit ságaid guhtet guimmiidasaset.</x>
+               <xt>De forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr" nr="Pl">guhtet guimmiineaset</l>
+         <lsub>guimmiineaset</lsub>
+         <lemma_ref lemmaID="guimmiideaset_pron_recipr">guimmiideaset</lemma_ref>
+         <analysis>Pron_Recipr_Pl3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">hos hverandre</t>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Sii ožžot rávvagiid guhtet guimmiineaset.</x>
+               <xt>De får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">guhtet guimmiideasetguin</l>
+         <lsub>guimmiideasetguin</lsub>
+         <lemma_ref lemmaID="guimmiideaset_pron_recipr">guimmiideaset</lemma_ref>
+         <analysis>Pron_Recipr_Pl3_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Sii leaikkastallet guhtet guimmiideasetguin.</x>
+               <xt>De skøyer med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">nubbi nubbái</l>
+         <lsub>nubbái</lsub>
+         <lemma_ref lemmaID="nubbi_nuppi_pron_recipr">nubbi nuppi</lemma_ref>
+         <analysis>Pron_Recipr_Du_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Soai muitaleaba ságaid nubbi nubbái.</x>
+               <xt>De to forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">nubbi nuppis</l>
+         <lsub>nuppis</lsub>
+         <lemma_ref lemmaID="nubbi_nuppi_pron_recipr">nubbi nuppi</lemma_ref>
+         <analysis>Pron_Recipr_Du_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Pron" type="Recipr">hos hverandre</t>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Soai oažžuba rávvagiid nubbi nuppis.</x>
+               <xt>De to får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr" nr="Sg">nubbi nuppiin</l>
+         <lsub>nuppiin</lsub>
+         <lemma_ref lemmaID="nubbi_nuppi_pron_recipr">nubbi nuppi</lemma_ref>
+         <analysis>Pron_Recipr_Du_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Soai leaikkastallaba nubbi nuppiin.</x>
+               <xt>De to spøker med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr" nr="Du">nubbi nubbin</l>
+         <lsub>nubbin</lsub>
+         <lemma_ref lemmaID="nubbi_nuppi_pron_recipr">nubbi nuppi</lemma_ref>
+         <analysis>Pron_Recipr_Du_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Pron" type="Recipr">som hverandre</t>
+            <xg>
+               <x>Soai loggiiga sisa nubbi nubbin.</x>
+               <xt>De to logget inn som hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">nuppit nuppiide</l>
+         <lsub>nuppiide</lsub>
+         <lemma_ref lemmaID="nuppit_nuppiid_pron_recipr">nuppit nuppiid</lemma_ref>
+         <analysis>Pron_Recipr_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">til hverandre</t>
+            <xg>
+               <x>Sii muitalit ságaid nuppit nuppiide.</x>
+               <xt>De forteller nytt til hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr" nr="Pl">nuppit nuppiin</l>
+         <lsub>nuppiin</lsub>
+         <lemma_ref lemmaID="nuppit_nuppiid_pron_recipr">nuppit nuppiid</lemma_ref>
+         <analysis>Pron_Recipr_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Pron" type="Recipr">hos hverandre</t>
+            <t pos="Pron" type="Recipr">fra hverandre</t>
+            <xg>
+               <x>Mii oažžut rávvagiid nuppit nuppiin.</x>
+               <xt>Vi får råd fra hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr">nuppit nuppiiguin</l>
+         <lsub>nuppiiguin</lsub>
+         <lemma_ref lemmaID="nuppit_nuppiid_pron_recipr">nuppit nuppiid</lemma_ref>
+         <analysis>Pron_Recipr_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Pron" type="Recipr">med hverandre</t>
+            <xg>
+               <x>Dii leaikkastallabehtet nuppit nuppiiguin.</x>
+               <xt>Dere spøker med hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Recipr" nr="Pl">nubbi nubbin</l>
+         <lsub>nubbin</lsub>
+         <lemma_ref lemmaID="nuppit_nuppiid_pron_recipr">nuppit nuppiid</lemma_ref>
+         <analysis>Pron_Recipr_Pl_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Pron" type="Recipr">som hverandre</t>
+            <xg>
+               <x>Sii loggejedje sisa nubbi nubbin.</x>
+               <xt>De logget inn som hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

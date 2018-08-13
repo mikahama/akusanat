@@ -1,0 +1,5956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="567">
+         <l pos="N" type="Prop" sem_type="Org">Gurutbellodat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Org">Venstre</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Org">Kristtalašálbmotbellodat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Org">Høyre</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="724">
+         <l pos="N" type="Prop" sem_type="Org">Olgešbellodat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Org">Høyre</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1063">
+         <l pos="N" type="Prop" sem_type="Org">Guovddášbellodat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Org">Senterpartiet</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1513">
+         <l pos="N" type="Prop" sem_type="Org">Ovddádusbellodat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Org">Fremskrittspartiet</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="158">
+         <l pos="N" type="Prop" sem_type="Org">PP-bálvalus</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Org">PPB/PPT</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="37">
+         <l pos="N" type="Prop" sem_type="Plc">Ráidná</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Troms">Reinøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1197">
+         <l pos="N" type="Prop" sem_type="Plc">Ráisa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Troms">Nordreisa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Rávalgieddi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Ravelsnes</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Rávdá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordland">Rødøy</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Reahkkejávri</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Finland">Räkkijärvi</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="27">
+         <l pos="N" type="Prop" sem_type="Plc">Reahpen</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Reppen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="9">
+         <l pos="N" type="Prop" sem_type="Plc">Riehpponávži</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Repparfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="94">
+         <l pos="N" type="Prop" sem_type="Plc">Riehppovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Repparfjord</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Juranjohka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Ropselv</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Ruohtogeahči</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Skogende</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4666">
+         <l pos="N" type="Prop" sem_type="Plc">Ruošša</l>
+         <lc>Ruoššas</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Russland</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="9410">
+         <l pos="N" type="Prop" sem_type="Plc">Ruoŧŧa</l>
+         <lc>Ruoŧa, Ruŧŧii</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Sverige</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Sáđgejohka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Sargejok</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="92">
+         <l pos="N" type="Prop" sem_type="Plc">Sállannuorri</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Finnmark">Sørøysund</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="28">
+         <l pos="N" type="Prop" sem_type="Plc">Sáltesávju</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Finnmark">Veidnes</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Hamnnes</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4936">
+         <l pos="N" type="Prop" sem_type="Org">Sámediggeráđđi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Org">Sametingsrådet</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="71785">
+         <l pos="N" type="Prop" sem_type="Org">Sámediggi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Org">Sametinget</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="19">
+         <l pos="N" type="Prop" sem_type="Org">Sámekommišuvdna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Org">Lappekommisjonen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="49219">
+         <l pos="N" type="Prop" sem_type="Plc">Sápmi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Sameland</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="27">
+         <l pos="N" type="Prop" sem_type="Plc">Sárranjárga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Sarnes</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sárravuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Sarnesfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4">
+         <l pos="N" type="Prop" sem_type="Plc">Silvetváhki</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Segelvik</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Sivlu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Forsøl</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Stuoragohppi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Storbukt</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="25">
+         <l pos="N" type="Prop" sem_type="Plc">Suoidneleakši</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Myrlandet</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="15672">
+         <l pos="N" type="Prop" sem_type="Plc">Suopma</l>
+         <lc>Suomas, Supmii</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Finland</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Suorggomohkki</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Reiervik</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="6">
+         <l pos="N" type="Prop" sem_type="Plc">Suovka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Nyborgmoen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="10">
+         <l pos="N" type="Prop" sem_type="Plc">Uvdujohka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Munkelv</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="7">
+         <l pos="N" type="Prop" sem_type="Plc">Várdnasuolu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Vannøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Viestarbađaeana</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Vesterbotten</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="124">
+         <l pos="N" type="Prop" sem_type="Plc">Viestterálas</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordland">Vesterålen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Vuohpošnjárga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Bringneshalvøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Vuokkátdiggi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Omgangstinget</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Vuorkeljohka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Kobbholmvassdraget</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="66">
+         <l pos="N" type="Prop" sem_type="Plc">Vuotnasiida</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Sjøvegan</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="366">
+         <l pos="N" type="Prop" sem_type="Plc">Álaheadju</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Finnmark">Alta</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="10176">
+         <l pos="N" type="Prop" sem_type="Plc">Áltá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Alta</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="431">
+         <l pos="N" type="Prop" sem_type="Plc">Afrihká</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Afrika</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Albánia</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Albania</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="954">
+         <l pos="N" type="Prop" sem_type="Plc">Amerihkká</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Amerika</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="634">
+         <l pos="N" type="Prop" sem_type="Plc">Anárjávri</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Finland">Enaresjøen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="117">
+         <l pos="N" type="Prop" sem_type="Plc">Basevuovdi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Helligskogen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="124">
+         <l pos="N" type="Prop" sem_type="Plc">Báidár</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordland">Beiarn</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="76">
+         <l pos="N" type="Prop" sem_type="Plc">Belgia</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Belgia</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Biŧon</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Sverige">Piteå</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="322">
+         <l pos="N" type="Prop" sem_type="Plc">Bossogohppi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Finnmark">Bossekop</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Dállogilli</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Finland">Korpilompelo</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="799">
+         <l pos="N" type="Prop" sem_type="Plc">Dánmárku</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Danmark</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1416">
+         <l pos="N" type="Prop" sem_type="Plc">Eanodat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Finland">Enontekiö</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="157">
+         <l pos="N" type="Prop" sem_type="Plc">Duortnus</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Finland">Torneå</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="377">
+         <l pos="N" type="Prop" sem_type="Plc">Englánda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">England</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="53">
+         <l pos="N" type="Prop" sem_type="Plc">Gaska-Amerihkká</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Mellom-Amerika</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Giebmegáisi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Sverige">Kebnekaise</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="828">
+         <l pos="N" type="Prop" sem_type="Plc">Giron</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Sverige">Kiruna</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="36">
+         <l pos="N" type="Prop" sem_type="Plc">Greika</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Hellas</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="1044">
+         <l pos="N" type="Prop" sem_type="Plc">Helsset</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Finland">Helsingfors</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="186">
+         <l pos="N" type="Prop" sem_type="Plc">Hollánda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Nederland</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="138">
+         <l pos="N" type="Prop" sem_type="Plc">Irlánda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Irland</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="458">
+         <l pos="N" type="Prop" sem_type="Plc">Islánda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Island</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="126">
+         <l pos="N" type="Prop" sem_type="Plc">Itália</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Italia</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="17">
+         <l pos="N" type="Prop" sem_type="Plc">Jáhpan</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Japan</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="54">
+         <l pos="N" type="Prop" sem_type="Plc">Joganjálbmi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Elvebakken</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Finland">Joensuu</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="16">
+         <l pos="N" type="Prop" sem_type="Plc">Korea</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Korea</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Látvia</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Latvia</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="13">
+         <l pos="N" type="Prop" sem_type="Plc">Lietuva</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Litauen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="263">
+         <l pos="N" type="Prop" sem_type="Plc">London</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">London</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="56">
+         <l pos="N" type="Prop" sem_type="Plc">Lulli-Amerihkká</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Sør-Amerika</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="50">
+         <l pos="N" type="Prop" sem_type="Plc">Ránská</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Frankrike</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Románia</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Romania</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="89">
+         <l pos="N" type="Prop" sem_type="Plc">Sibirjá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Russland">Sibir</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="74">
+         <l pos="N" type="Prop" sem_type="Plc">Skandinávia</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Skandinavia</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="650">
+         <l pos="N" type="Prop" sem_type="Plc">Soađegilli</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Finland">Sodankylä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="150">
+         <l pos="N" type="Prop" sem_type="Plc">Sovjetlihttu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Sovjetunionen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="801">
+         <l pos="N" type="Prop" sem_type="Plc">Suoločielgi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Finland">Saariselkä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4">
+         <l pos="N" type="Prop" sem_type="Plc">Suomaluokta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Finskebukta</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="218">
+         <l pos="N" type="Prop" sem_type="Plc">Váhčir</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Sverige">Gällivare</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="98">
+         <l pos="N" type="Prop" sem_type="Plc">Ålánda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Åland</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Allavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Postdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Badje-Riebevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Skånland">Øvre Revdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Basevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Alta">Lille Kjerringvik</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="13">
+         <l pos="N" type="Prop" sem_type="Plc">Beahkkirvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Bekkarfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Beassevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Båtsfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Beatnatvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Narvik">Hunddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Biesavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Vardø">Persfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Bievllavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Bølefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="6">
+         <l pos="N" type="Prop" sem_type="Plc">Biežavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Krokdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="525">
+         <l pos="N" type="Prop" sem_type="Plc">Billávuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Porsanger">Indre Billefjord</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Birranvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Olderdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Boatkavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Botkadalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Boazolanvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Reindalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Boazovuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Reinfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="10">
+         <l pos="N" type="Prop" sem_type="Plc">Boazovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Reinfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Alta">Lille Bekkarfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Boazovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Reindalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tranøy">Reindalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Bohtalvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Flaskefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Bollovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Pollen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Bollovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Kvalfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Borjjasvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Skånland">Segeldalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Bossovuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Alta">Store Kvalfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Bossovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Alta">Store Kvalfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Buntavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Buntadalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Buolavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Hompavikdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="174">
+         <l pos="N" type="Prop" sem_type="Plc">Buvrovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Burfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="387">
+         <l pos="N" type="Prop" sem_type="Plc">Báhccavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Balsfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Arnnesbukta</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Karkefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Báhkavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Bakfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="43">
+         <l pos="N" type="Prop" sem_type="Plc">Báhčaveaivuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Bøkfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Elvenesfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Bálggesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Veidalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Bárdevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Vagnfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Bártnatvuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Loppa" comment="CORRECT_ME">Tverrfjorddalen, s</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Bártnavuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Simavikdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Báttárvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Badderfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Caganvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Gamvik">Store Skogfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Civzzavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Sør-Varanger">Lille Jarfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Cohkolatvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Rotsunddalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Trongdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Cuokcavuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Fjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="32">
+         <l pos="N" type="Prop" sem_type="Plc">Cuokcavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Nuvsfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="256">
+         <l pos="N" type="Prop" sem_type="Plc">Deanuvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Berlevåg">Tanafjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Didnovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Stordalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Dihkkevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Lusedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Diksovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Duksfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Ditnuidvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Flintdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Divrevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Bjørnskardalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Doaresvuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Tverrfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Doaresvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Tverrfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Tverrfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Doaresvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tranøy">Tverrdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Doaresdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Tverrdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Dohpparvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Finndalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Dollevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Brennelvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="82">
+         <l pos="N" type="Prop" sem_type="Plc">Donjevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Gamvik">Mehamnfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Dorskevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Olderfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Duikkášvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Kvænangen">Lille Altafjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Duolljevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Skinskardet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Duopmásvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Tomasdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="39">
+         <l pos="N" type="Prop" sem_type="Plc">Duorppalvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Øyfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Dáibáravuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Mårøyfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="13">
+         <l pos="N" type="Prop" sem_type="Plc">Dáigevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Gamvik">Tyfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="5">
+         <l pos="N" type="Prop" sem_type="Plc">Dálvvesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Olderdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="5">
+         <l pos="N" type="Prop" sem_type="Plc">Dápmotvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Vasskardet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Dážavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Nordmannvikdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Dášvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Nordmannsvikdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Earnjoasvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Erdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Eavrovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Øradalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Fastovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Fastdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Tytebærdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="42">
+         <l pos="N" type="Prop" sem_type="Plc">Fielvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Korsfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Fálesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Kvalvikdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Fállevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Kvalfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Fávrresvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Favresdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Gahpervággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tranøy">Kaperdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gahpirvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Kipparfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Galbárvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Eliasdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="9">
+         <l pos="N" type="Prop" sem_type="Plc">Garžavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Liveltskardet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gaska-Dorskavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Mellafjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gaskabeaivággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Narvik">Middagskardet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Gaskavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Mellomdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Skognesdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gaskkasvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Strømskardet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Geaccevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Smalfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Geaccevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Smalfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Geaidnovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Iselvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Geaippilvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Kippeldalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Geairavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Gæiradalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Gealovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Målselv">Kjervelvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="48">
+         <l pos="N" type="Prop" sem_type="Plc">Gearvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Bekkarfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Geassevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Sommarbuktdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Geavlavuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Alta">Lille Kvalfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Geavlavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Alta">Lille Kvalfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Geazzevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Evapollen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Geađgevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Skånland">Tverrdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Geinnotvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Karlsøy">Vestbotndalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Giepmestatvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sørreisa">Langdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gierdduidvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Eidsnesdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gievdanvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Steindalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gievdnevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Kjeledalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Tverrelvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gihccevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Kidalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Gihpovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Kifjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="49">
+         <l pos="N" type="Prop" sem_type="Plc">Gilevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Kjøllefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gistovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Gamvik">Kistedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Givssatvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Kjusakdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Giđđavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Gammelhjemsdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Goahteluovttvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Gambuktdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Goalsevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Kvalvikdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Goavkejohvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Kokelvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Goddevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Villreindalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Goddevik</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gohppalvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Kobbefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="10">
+         <l pos="N" type="Prop" sem_type="Plc">Gorbovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Porsanger">Ytre Billefjord</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="4">
+         <l pos="N" type="Prop" sem_type="Plc">Govdavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Skreifjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="5">
+         <l pos="N" type="Prop" sem_type="Plc">Govdavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Breidalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Bjørnelvdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Breiddalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Breiddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Goškesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tana">Lille-Molvik</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="38">
+         <l pos="N" type="Prop" sem_type="Plc">Guhkesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Langdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Langdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Guhtovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Gratangen">Dudalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Guhturvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Påveskardet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gulpevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Golpedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gumpevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sørreisa">Gumpedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Guolbanvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Bergsdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Storfjord">Indre Berg</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Guolmmesvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Gamvik">Litle Skogfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Guvgesloapmevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Kvitlidalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Guvggosvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Markenesdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="7">
+         <l pos="N" type="Prop" sem_type="Plc">Gáhpevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Kamøyfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="6">
+         <l pos="N" type="Prop" sem_type="Plc">Gáhppovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Kobbefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gáhttovuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Kattfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gáibbivággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Målselv">Reiersdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="4187">
+         <l pos="N" type="Prop" sem_type="Plc">Gáivuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Troms">Kåfjord</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Kåfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gálbbosvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Kjerringdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gálbirvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Kalvedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gálggovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Alta">Store Kjerringvik</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gáltovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Galtefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gálttavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Galtefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gálttavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Galtdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="17">
+         <l pos="N" type="Prop" sem_type="Plc">Gámavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Komagfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gánesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Kanasdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="34">
+         <l pos="N" type="Prop" sem_type="Plc">Gáranasvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Ramfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gárdelvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Gaddelvågen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gárgolašvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Skarddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gárjelvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Russedalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Koppangsdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Stortinddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Gávkevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Kåfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gávkevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Kåfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Heallovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tranøy">Helledalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Heargevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Norddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Heastavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Skarddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Heasttalvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Ersdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Henddovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Hentodalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Hárvvesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Narvik">Bukkedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="38">
+         <l pos="N" type="Prop" sem_type="Plc">Idjavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Ifjord</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Ifjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Iibmavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Husfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Iisavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Isdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="6">
+         <l pos="N" type="Prop" sem_type="Plc">Irevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Tufjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="16">
+         <l pos="N" type="Prop" sem_type="Plc">Irgavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Friarfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Iŋggávággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Ingadalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Jiehkervuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Jøkelfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Jiekŋavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Målselv">Iselvdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Fornesdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Johkalvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Elvedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Johkavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Niperdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Jorbavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Skånland">Runddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Junttevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Elvbuktdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Juomvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Elsnesdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="312">
+         <l pos="N" type="Prop" sem_type="Plc">Juovlavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tana">Austertana</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Tana">Store Leirpollen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Juvošvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Josdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="239">
+         <l pos="N" type="Prop" sem_type="Plc">Jáhkovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Revsbotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Lavttevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Brennelvfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Vesterbotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="73">
+         <l pos="N" type="Prop" sem_type="Plc">Leaibevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Olderfjord</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Olderfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Olderfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Leakševággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Søkkmyrdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="10">
+         <l pos="N" type="Prop" sem_type="Plc">Leavdnjavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Vesterbotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Leađđovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Målselv">Langdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Liidditvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lenvik">Lysbotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Loabákvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lavangen">Lavangen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Loddevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Fuglelvdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Litlelvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Luhppovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Luppodalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="135">
+         <l pos="N" type="Prop" sem_type="Plc">Lágesvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Laksefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="92">
+         <l pos="N" type="Prop" sem_type="Plc">Lákkovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Langfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Gamvik">Langfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="7">
+         <l pos="N" type="Prop" sem_type="Plc">Lánavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Landersfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Lávvordatvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Gammelværdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="4">
+         <l pos="N" type="Prop" sem_type="Plc">Lávvárvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Vester-Lafjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Meahcevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Målselv">Sivertskaret</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Meahkovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Sørfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Miennavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Berlevåg">Risfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Moalkevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Krokfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Semskefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="236">
+         <l pos="N" type="Prop" sem_type="Plc">Moskavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Ullsfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Sørfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Moskkuvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Moskodalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Moskovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Måskodalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Muohtavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Snødalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="36">
+         <l pos="N" type="Prop" sem_type="Plc">Muorralvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Snefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="21">
+         <l pos="N" type="Prop" sem_type="Plc">Muotkevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Eidvågen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Hammerfest">Lille Skreifjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Muottavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Bjørndalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Máhkilvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Gamvik">Magkeilfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Máldovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tana">Vesterbukta</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Málesvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Sagfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Márjjavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tana">Mariadalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Márttavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Mortensdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Máttavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Sørfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Máttavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Narvik">Tverrdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Nammavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Namdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Neaskinvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Kobbvågen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Nieidavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Krekendalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="15">
+         <l pos="N" type="Prop" sem_type="Plc">Njižževuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Hønsebyfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Njuollaborvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tranøy">Steindalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Njuorjjogohvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Kobbebuktdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Njávdánvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Neidenfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Kjøfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Noammervággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Nomedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Nuortavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Nordfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Náhkkevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Nakkedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="55">
+         <l pos="N" type="Prop" sem_type="Plc">Náivuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Neverfjord</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="305">
+         <l pos="N" type="Prop" sem_type="Plc">Návuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Kvænangen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Oaggovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Strupen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1158">
+         <l pos="N" type="Prop" sem_type="Plc">Olmmáivággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Manndalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="442">
+         <l pos="N" type="Prop" sem_type="Plc">Omasvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Storfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Orjježiidvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Sørfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gáivuonorrit</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Kåfjordbergan</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="215">
+         <l pos="N" type="Prop" sem_type="Plc">Porsáŋgguvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Porsangerfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="41">
+         <l pos="N" type="Prop" sem_type="Plc">Reaisavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Bugøyfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="14">
+         <l pos="N" type="Prop" sem_type="Plc">Reakčavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Tana">Litle Leirpollen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="69">
+         <l pos="N" type="Prop" sem_type="Plc">Reaššvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Rafsbotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Riebevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Skånland">Revdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="23">
+         <l pos="N" type="Prop" sem_type="Plc">Riehpovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Repparfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Riehppevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Reppidalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Rievdnavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Stordalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Kalvebakkdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Riikovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lavangen">Grasdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Rissevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Risfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Rivdnjevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Straumen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Rivgovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Jomfrudalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="6">
+         <l pos="N" type="Prop" sem_type="Plc">Roabavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Skånland">Grovfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Rohtovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tana">Kratdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Rokkilvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Røyeldalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="7">
+         <l pos="N" type="Prop" sem_type="Plc">Romssavággi</l>
+         <l_ref>Sálašvággi_prop</l_ref>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Tromsdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Rostavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Hamnefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Ruksesvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Holmengråfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Ruksesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Rauddalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Rødbergdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Ruohkkevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Krokdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Ruossavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Korsfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="20">
+         <l pos="N" type="Prop" sem_type="Plc">Ruovdevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Jarfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Ruoššavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Nord-Leirvågen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Ruoššavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Russedalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Russelvdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Russelvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Ruššovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Skånland">Trangdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Ráhpesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Rappdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Ráhttonasvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Brattnesdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="190">
+         <l pos="N" type="Prop" sem_type="Plc">Ráisavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Sørreisa</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Reisafjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Rássevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Grasdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Grasdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="51">
+         <l pos="N" type="Prop" sem_type="Plc">Ráttovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tana">Smalfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Rávjavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Gamvik">Rafjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sadjinvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Heindalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sahávággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Sagdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Salvvasvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Salvasskardet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sapmavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Kildalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Samueldalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="35">
+         <l pos="N" type="Prop" sem_type="Plc">Sarvvesvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Kolvik</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Berlevåg">Vesterbotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sarvvesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Reindalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Seahkkavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Kullfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sevdnjosvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Fosselvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Sieiddevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Myrfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sieiddevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Krokelvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="16">
+         <l pos="N" type="Prop" sem_type="Plc">Sieidevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Gamvik">Finnkongkeila</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="4">
+         <l pos="N" type="Prop" sem_type="Plc">Siellakvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Salangen">Salangen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Siidavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Straumfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Siivvarvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Sivertdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Simmaidvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Finnvikdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Simmáviihvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Ytredalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sirddavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Sildadalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sittarvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Skarvbergvika</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Skerttetvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Skjerdingdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Skiessvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Lille-Porsangen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Skiipavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Skipsfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Skulvavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Skulvadalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Skuohtavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Vesterpollen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Skuonasvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Trolldalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Skáhpevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Skavelvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Skáravuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Gamvik">Skarfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="68">
+         <l pos="N" type="Prop" sem_type="Plc">Skárfvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Skardalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Skávlevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Måsedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="101">
+         <l pos="N" type="Prop" sem_type="Plc">Smiervuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Smørfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Smálkovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Smalakdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="15">
+         <l pos="N" type="Prop" sem_type="Plc">Soggovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Østerbotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sotnabeaivággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Søndagsdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Stohkkavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Tømmervika</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Stohpovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lenvik">Stønesbotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="30">
+         <l pos="N" type="Prop" sem_type="Plc">Strommavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Berlevåg">Kongsfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Strovmmavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Straumdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Stránddavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Strandbukta</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Stránddavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Stranddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Stuorajárvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Bjørndalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Storevatndalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="64">
+         <l pos="N" type="Prop" sem_type="Plc">Stuoravuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Gyfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Jøfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Langfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Stuoravággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Stordalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Trolldalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="107">
+         <l pos="N" type="Prop" sem_type="Plc">Stuorravuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Storfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Stuorvihvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Storvikdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Stállovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Elvevolldalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Kjempedalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Trolldalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Suivvevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Kobbryggdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Suoidnevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Sennedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Suollatvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Bentsjorda</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Bentsjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Suorrevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Karlsøy">Instebotndalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Suvdovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Sørfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Sáitevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Meltefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="150">
+         <l pos="N" type="Prop" sem_type="Plc">Sálašvággi</l>
+         <l_ref>Romssavággi_prop</l_ref>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Tromsdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sáltevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Saltdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sámevuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Loppa">Nordre Tverrfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Sámevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Loppa">Nordre Tverrfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Sáttovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Kinnar-Sandfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Båtsfjord">Makkaur-Sandfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Sandøyfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Uffirvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Ofjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Uhcavuonašvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Svartdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="4">
+         <l pos="N" type="Prop" sem_type="Plc">Uhcavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Langfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Ulddašvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Botnelvdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Ulvsvågdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Ullovuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Ullsfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="34">
+         <l pos="N" type="Prop" sem_type="Plc">Ullovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Ullsfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="14">
+         <l pos="N" type="Prop" sem_type="Plc">Uvduvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Munkefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Veahčervuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Vesterbotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Veaiggosvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvalsund">Fægfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Veaikevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Bardu">Kopparskardet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Vehávággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Litlelvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Vieksevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Kvænangen">Indre Vikselvdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Viektavuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Bårdfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="4">
+         <l pos="N" type="Prop" sem_type="Plc">Viektavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Bårdfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Vieravuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nesseby">Veidnesfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Vuoiddasvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Gamvik">Ivarsfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Vuoivuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Pollen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Vuojatluohvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Hallarvikdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Vuoksavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Oksefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Vuolevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Tepphaugdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Vuorkelvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Kobbholmfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="14">
+         <l pos="N" type="Prop" sem_type="Plc">Vuotkevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Lillefjord</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" vmax="2">Vuođđavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Berlevåg">Gulgofjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Vuoŧkevuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Lillefjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Vuoŧkevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Lillefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="40">
+         <l pos="N" type="Prop" sem_type="Plc">Vuošvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Lyngsdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Furuflaten</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Váltovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Småstrauman</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="3">
+         <l pos="N" type="Prop" sem_type="Plc">Váttavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Vannfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="13">
+         <l pos="N" type="Prop" sem_type="Plc">Áhkárvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hammerfest">Akkarfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Áhkárvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Alta">Kjerringdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="5">
+         <l pos="N" type="Prop" sem_type="Plc">Áhkávággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Kjerringdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Áitevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Alta">Lille Kufjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="12">
+         <l pos="N" type="Prop" sem_type="Plc">Ákŋovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Hasfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="151">
+         <l pos="N" type="Prop" sem_type="Plc">Ákšovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Øksfjord</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Loppa">Øksfjorden</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordreisa">Oksfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Áravággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Narvik">Vassdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Árresvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Eiterfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Árresvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Sørstraumdalen</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kvænangen">Arisdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="16">
+         <l pos="N" type="Prop" sem_type="Plc">Áttánvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Adamsfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Ávčavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lenvik">Nord-Heggedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Čalmmasvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lebesby">Finnkjerkvika</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Čeađevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Skognesdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Čielgevuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Ryggefjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Čievččasvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Målselv">Isdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Čižževuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Spurvfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Čoahkenvuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Oterfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Čoarddavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Finnskaret</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Čoađgevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Narvik">Tjårdadalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Šortavággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase" sem_type="Plc" reg="Hammerfest" comment="CORRECT_ME">Vassvikdalen, s</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Čunovággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Målselv">Altevasskardet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="13">
+         <l pos="N" type="Prop" sem_type="Plc">Čuollovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tana">Tarmfjorden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Čuolovuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Holmfjord</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Čuonjávággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Sennedalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Čuovgavuotna</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Måsøy">Selvika</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="25">
+         <l pos="N" type="Prop" sem_type="Plc">Čáhcevággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Vassdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1">
+         <l pos="N" type="Prop" sem_type="Plc">Čáhppesvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lenvik">Svartdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="4550">
+         <l pos="N" type="Prop" sem_type="Plc">Anár</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Enare</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Bartagieddi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Perteng</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="111">
+         <l pos="N" type="Prop" sem_type="Plc">Beahcán</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Petsamo</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="274">
+         <l pos="N" type="Prop" sem_type="Plc">Budejju</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Bodø</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="KAL">
+      <lg freq="75">
+         <l pos="N" type="Prop" sem_type="Plc">Buolbmátjávri</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Polmakvatn</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1073">
+         <l pos="N" type="Prop" sem_type="Plc">Buolbmát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tana">Polmak</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="47">
+         <l pos="N" type="Prop" sem_type="Plc">Davvimearra</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Nordsjøen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="583">
+         <l pos="N" type="Prop" sem_type="Plc">Duiska</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Tyskland</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="340">
+         <l pos="N" type="Prop" sem_type="Plc">Dálošvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Olderdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="79">
+         <l pos="N" type="Prop" sem_type="Plc">Estteeana</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Estland</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="32221">
+         <l pos="N" type="Prop" sem_type="Plc">Finnmárku</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Finnmark</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="13">
+         <l pos="N" type="Prop" sem_type="Plc">Gaska-Nuorti</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Midtøsten</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="16">
+         <l pos="N" type="Prop" sem_type="Plc">Gaskamearra</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Middelhavet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="10">
+         <l pos="N" type="Prop" sem_type="Plc">Giemajohka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Kemijoki</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="44">
+         <l pos="N" type="Prop" sem_type="Plc">Giemajávri</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Kemijärvi</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="712">
+         <l pos="N" type="Prop" sem_type="Plc">Guoládat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Kola</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="232">
+         <l pos="N" type="Prop" sem_type="Plc">Guoládatnjárga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Kolahalvøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="23">
+         <l pos="N" type="Prop" sem_type="Plc">Gáivuonvággi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Kåfjorddalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Gáldu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Kjeldebotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="5">
+         <l pos="N" type="Prop" sem_type="Plc">Háhpárándi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Sverige">Haparanda</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="2559">
+         <l pos="N" type="Prop" sem_type="Plc">Hámmárfeasta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Hammerfest</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="123">
+         <l pos="N" type="Prop" sem_type="Plc">Hápmir</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Hamarøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="14">
+         <l pos="N" type="Prop" sem_type="Plc">Iinnasuolu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Andøy">Hinnøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="1130">
+         <l pos="N" type="Prop" sem_type="Plc">Lujávri</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Russland">Lovosero</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="25">
+         <l pos="N" type="Prop" sem_type="Plc">Lávkgieddi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Løkvoll</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="8">
+         <l pos="N" type="Prop" sem_type="Plc">Mearrabađaluokta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Bottenviken</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="33">
+         <l pos="N" type="Prop" sem_type="Plc">Miessegieddi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Holmenes</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="30">
+         <l pos="N" type="Prop" sem_type="Plc">Nuortamearra</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Østersjøen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="68">
+         <l pos="N" type="Prop" sem_type="Plc">Nuortariika</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Østerrike</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="7">
+         <l pos="N" type="Prop" sem_type="Plc">Roandin</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Trondheim</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="128">
+         <l pos="N" type="Prop" sem_type="Plc">Roavenjárga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Rovaniemi</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="16280">
+         <l pos="N" type="Prop" sem_type="Plc">Romsa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Tromsø</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Troms</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="2">
+         <l pos="N" type="Prop" sem_type="Plc">Ruksesmearra</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Rødehavet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="652">
+         <l pos="N" type="Prop" sem_type="Plc">Ruonáeana</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Grønland</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="358">
+         <l pos="N" type="Prop" sem_type="Plc">Ubmi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" country="Sverige">Umeå</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="37">
+         <l pos="N" type="Prop" sem_type="Plc">Vilgesmearra</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Kvitsjøen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="337">
+         <l pos="N" type="Prop" sem_type="Plc">Vuohčču</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Vuotso</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="34">
+         <l pos="N" type="Prop" sem_type="Plc">Vuorjánjohka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">Grense Jakobselv</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="41">
+         <l pos="N" type="Prop" sem_type="Plc">Ábeskovvu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Abisko</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="20">
+         <l pos="N" type="Prop" sem_type="Plc">Áhkkil</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Akkala</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4">
+         <l pos="N" type="Prop" sem_type="Plc">Áibanášši</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kåfjord">Langnes</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="947">
+         <l pos="N" type="Prop" sem_type="Plc">Áilu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Helgøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="KAL">
+      <lg freq="39">
+         <l pos="N" type="Prop" sem_type="Plc">Álletnjárga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Alliknjarg</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="170">
+         <l pos="N" type="Prop" sem_type="Plc">Álddesjávri</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Altevatnet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="0">
+         <l pos="N" type="Prop" sem_type="Plc">Šveica</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Sveits</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="5">
+         <l pos="N" type="Prop" sem_type="Plc">Čáhppesmearra</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc">Svartehavet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="63">
+         <l pos="N" type="Prop" sem_type="Plc">Sállir</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Kvaløya</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="396">
+         <l pos="N" type="Prop" sem_type="Plc">Sážžá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tranø">Senja</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="36420">
+         <l pos="N" type="Prop" sem_type="Plc">Guovdageaidnu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Kautokeino">Kautokeino</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="34516">
+         <l pos="N" type="Prop" sem_type="Plc">Kárášjohka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Karasjok">Karasjok</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="5359">
+         <l pos="N" type="Prop" sem_type="Plc">Porsáŋgu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Porsanger</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="203">
+         <l pos="N" type="Prop" sem_type="Plc">Skuvvanvárri</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Skoganvarre</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="519">
+         <l pos="N" type="Prop" sem_type="Plc">Sállan</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Hasvik">Sørøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="14976">
+         <l pos="N" type="Prop" sem_type="Plc">Deatnu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tana">Tana</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="1990">
+         <l pos="N" type="Prop" sem_type="Plc">Čáhcesuolu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Vadsø">Vadsø</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS,SA">
+      <lg freq="1611">
+         <l pos="N" type="Prop" sem_type="Plc">Girkonjárga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Kirkenes</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="85">
+         <l pos="N" type="Prop" sem_type="Plc">Báhpajávri</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Prestevatnet</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Prestvannet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="37">
+         <l pos="N" type="Prop" sem_type="Plc">Ittunjárga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Lyngenhalvøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="286">
+         <l pos="N" type="Prop" sem_type="Plc">Máhkarávju</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Nordkapp">Magerøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="10">
+         <l pos="N" type="Prop" sem_type="Plc">Romssasuolu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Tromsøya</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="32">
+         <l pos="N" type="Prop" sem_type="Plc">Sálašoaivi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Tromsø">Tromsdalstinden</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="386">
+         <l pos="N" type="Prop" sem_type="Plc">Bissojohka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Børselv</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Porsanger">Børselva</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="7">
+         <l pos="N" type="Prop" sem_type="Plc">Gárgán</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Balsfjord">Nordkjosbotn</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="186">
+         <l pos="N" type="Prop" sem_type="Plc">Ruŋgu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lavangen">Spansdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="nou94">
+      <lg freq="25">
+         <l pos="N" type="Prop" sem_type="Plc">Báhčaveaileahki</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Sør-Varanger">Pasvikdalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="70">
+         <l pos="N" type="Prop" sem_type="Plc">Dieváidvuovdi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Målselv">Dividalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="649">
+         <l pos="N" type="Prop" sem_type="Plc">Ivgu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Lyngen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="SK">
+      <lg freq="4">
+         <l pos="N" type="Prop" sem_type="Plc">Ivguvuovdi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Storfjord">Skibotndalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="PS">
+      <lg freq="46">
+         <l pos="N" type="Prop" sem_type="Plc">Ivgumuotki</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop" sem_type="Plc" reg="Lyngen">Lyngseidet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="10">
+         <l pos="N" type="Prop">Morgenbladet</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Morgenbladet</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="16">
+         <l pos="N" type="Prop">Finnmarksposten</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Finnmarksposten</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="13">
+         <l pos="N" type="Prop">Finnmárkkuhálla</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Finnmarkshallen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="3">
+         <l pos="N" type="Prop">Finnmárkkukantuvra</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Finnmarkskontoret</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="1">
+         <l pos="N" type="Prop">Finnmárkkuguorahallamat</l>
+         <lsub>Finnmárkku-guorahallan</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Finnmarksundersøkelsene</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="59">
+         <l pos="N" type="Prop">Finnmárkkuklinihkka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Finnmarksklinikken</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="1">
+         <l pos="N" type="Prop">Finnmárkkustatistihkka</l>
+         <lsub>Finnmárkku-statistihkka</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Finnmarksstatistikken</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="5">
+         <l pos="N" type="Prop">Nordlánddadutkan</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Nordlandsforskning</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="532">
+         <l pos="N" type="Prop">Finnmárkokommišuvdna</l>
+         <lsub>Finnmárkkukommišuvdna</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Finnmarkskommisjonen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="2116">
+         <l pos="N" type="Prop">Finnmárkkuopmodat</l>
+         <lsub>Finnmárkku-opmodat</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Finnmarkseiendommen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="1">
+         <l pos="N" type="Prop">Finnmárkkulasáhus</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Finnmarkstillegget</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="7">
+         <l pos="N" type="Prop">Nordlysfestivála</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Nordlysfestivalen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="9">
+         <l pos="N" type="Prop">Finnmárkkukonferánsa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Finnmarkskonferansen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="0">
+         <l pos="N" type="Prop">Nordlánddaruovdemáđidja</l>
+         <lsub>Norlándda ruovdemáđiidja</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Nordlandsbanen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="0">
+         <l pos="N" type="Prop">Nordlánddaruovdeluodda</l>
+         <lsub>Nordlándda ruovdeluodda</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Nordlandsbanen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="0">
+         <l pos="N" type="Prop">Nordlánddaruovdemáđii</l>
+         <lsub>Norlándda ruovdemáđii</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Nordlandsbanen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="27">
+         <l pos="N" type="Prop">Nordlandsbanen</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Nordlandsbanen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="0">
+         <l pos="N" type="Prop">Nordlánddageainnus</l>
+         <lsub>Nordlándageainnus</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Nordlandsbanen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="1">
+         <l pos="N" type="Prop">Gáiddus-Nuorti</l>
+         <lsub>Gáiddus-Nuorta</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" alt_str="det fjerne Østen">det fjerne østen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="177">
+         <l pos="N" type="Prop">Eurohpáráđđi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">europaråd</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="155">
+         <l pos="N" type="Prop">Ruhtadandepartemeanta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">finansdepartement</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="5">
+         <l pos="N" type="Prop">Sosiáladepartemeanta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">sosialdepartement</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="107">
+         <l pos="N" type="Prop">Opplánda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">oppland</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="312">
+         <l pos="N" type="Prop">Luondduhálddašandirektoráhtta</l>
+         <lsub>Luondduhálddahandirektoráhtta</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Direktoratet for naturforvaltning</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="86">
+         <l pos="N" type="Prop">Riikkaarkivára</l>
+         <lsub>Riikaarkivára</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">riksarkivar</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="107">
+         <l pos="N" type="Prop">Suodjalusdepartemeanta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">forsvarsdepartement</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="229">
+         <l pos="N" type="Prop">Ájluokta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Drag</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="3174">
+         <l pos="N" type="Prop">Nordlánda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">nordland</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="74">
+         <l pos="N" type="Prop">Siskkit</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">indre</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="165">
+         <l pos="N" type="Prop">Davvenjárga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Nordkapp</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="5">
+         <l pos="N" type="Prop">Børsa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">børs</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="0">
+         <l pos="N" type="Prop">Romssaguorahallamat</l>
+         <lsub>Romssa-guorahallan</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Tromsøundersøkelsene</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="63">
+         <l pos="N" type="Prop">Sámikopiija</l>
+         <lsub>Sámekopiija</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Sámikopiija</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="0">
+         <l pos="N" type="Prop">Boazodoalloođđasat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">Reindriftsnytt</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="955">
+         <l pos="N" type="Prop">Birasgáhttendepartemeanta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">miljøverndepartement</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="651">
+         <l pos="N" type="Prop">Loabát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Lavangen</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="218">
+         <l pos="N" type="Prop">Guolástusdepartemeanta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">fiskeridepartement</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="11">
+         <l pos="N" type="Prop">Aetáhtta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Aetat</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Sahka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+           <t pos="N">Sahka</t>
+	   <t t_type="expl">navn på dialogprogram i læringsprogrammet Oahpa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Vasta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+           <t pos="N">Vasta</t>
+	   <t t_type="expl">navn på spørsmål-svar-program i læringsprogrammet Oahpa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Morfa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+           <t pos="N">Morfa</t>
+	   <t t_type="expl">navn på program for ordbøying i læringsprogrammet Oahpa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Numra</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+           <t pos="N">Numra</t>
+	   <t t_type="expl">navn på program for å lære tallord i læringsprogrammet Oahpa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Oahpa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+           <t pos="N">Oahpa</t>
+	   <t t_type="expl">program for å lære nordsamisk</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="1">
+         <l pos="N" type="Prop">AGM-ovddideapmi</l>
+         <lsub>AGM-ovdáneapmi</lsub>
+         <lsub>AGM-ovdánahttin</lsub>
+         <lsub>ABM-ovdánahttin</lsub>
+         <lsub>ABM-ovddideapmi</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N" type="Prop">ABM-utvikling</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="22">
+         <l pos="N" type="Prop">Geaidnodirektoráhtta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">vegdirektorat</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Stáhtavuovdi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Statskog</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Olgoriikkadepartemeanta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Utenriksdepartementet</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Sámiráđđi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Samerådet</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Gilbbesjávri</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Kilpisjärvi</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Báttár</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Badderen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Eurohpáluodda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Europaveg</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Frostadiggeláhka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Frostatingslov</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Guladiggeláhka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Gulatingslova</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Nordkáhppašleađđu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Nordkapp-platået</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Albania</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Albania</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Nederlánda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Nederland</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Latvia</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Latvia</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Romania</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Romania</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N" type="Prop">Sveica</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">Sveits</t>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

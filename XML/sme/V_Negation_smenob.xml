@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="313981">
+         <l context="mun" pos="V">ii</l>
+         <analysis>IV_Neg_Ind_Sg3</analysis>
+         <mini_paradigm>
+            <analysis ms="IV_Neg_Ind_Sg1">
+               <wordform>in</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Sg2">
+               <wordform>it</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Sg3">
+               <wordform>ii</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Du1">
+               <wordform>ean</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Du2">
+               <wordform>eahppi</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Du3">
+               <wordform>eaba</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Pl1">
+               <wordform>eat</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Pl2">
+               <wordform>ehpet</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Pl3">
+               <wordform>eai</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>3. person entall</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Eadni ii boađe gávpogii odne.</x>
+               <xt>Mor kommer ikke til byen i dag.</xt>
+            </xg>
+            <xg>
+               <x>Eadni ii boahtán ikte.</x>
+               <xt>Mor kom ikke i går.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">in</l>
+         <lemma_ref lemmaID="ii_v">ii</lemma_ref>
+         <analysis>IV_Neg_Ind_Sg1</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om meg selv</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>In boađe gávpogii odne.</x>
+               <xt>Jeg kommer ikke til byen i dag.</xt>
+            </xg>
+            <xg>
+               <x>In boahtán ikte.</x>
+               <xt>Jeg kom ikke i går.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">it</l>
+         <lemma_ref lemmaID="ii_v">ii</lemma_ref>
+         <analysis>IV_Neg_Ind_Sg2</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om deg</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>It go boađe gávpogii odne?</x>
+               <xt>Kommer du ikke til byen i dag?</xt>
+            </xg>
+            <xg>
+               <x>It go boahtán ikte?</x>
+               <xt>Kom du ikke i går?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">ean</l>
+         <lemma_ref lemmaID="ii_v">ii</lemma_ref>
+         <analysis>IV_Neg_Ind_Du1</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss to</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Ean boađe gávpogii odne.</x>
+               <xt>Vi to kommer ikke til byen i dag.</xt>
+            </xg>
+            <xg>
+               <x>Ean boahtán ikte.</x>
+               <xt>Vi to kom ikke i går.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">eahppi</l>
+         <lemma_ref lemmaID="ii_v">ii</lemma_ref>
+         <analysis>IV_Neg_Ind_Du2</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere to</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Eahppi go boađe gávpogii odne?</x>
+               <xt>Kommer dere to ikke til byen i dag?</xt>
+            </xg>
+            <xg>
+               <x>Eahppi go boahtán ikte?</x>
+               <xt>Kom dere to ikke i går?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">eaba</l>
+         <lemma_ref lemmaID="ii_v">ii</lemma_ref>
+         <analysis>IV_Neg_Ind_Du3</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Ánne-guovttos Ánddiin eaba boađe gávpogii odne.</x>
+               <xt>Ánne og Ánde kommer ikke til byen i dag.</xt>
+            </xg>
+            <xg>
+               <x>Eaba boahtán iktege.</x>
+               <xt>De to kom ikke i går heller.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">eat</l>
+         <lemma_ref lemmaID="ii_v">ii</lemma_ref>
+         <analysis>IV_Neg_Ind_Pl1</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Eat boađe gávpogii odne.</x>
+               <xt>Vi kommer ikke til byen i dag.</xt>
+            </xg>
+            <xg>
+               <x>Eat boahtán ikte.</x>
+               <xt>Vi kom ikke i går.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">ehpet</l>
+         <lemma_ref lemmaID="ii_v">ii</lemma_ref>
+         <analysis>IV_Neg_Ind_Pl2</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Ehpet go boađe gávpogii odne?</x>
+               <xt>Kommer dere ikke til byen i dag?</xt>
+            </xg>
+            <xg>
+               <x>Ehpet go boahtán ikte?</x>
+               <xt>Kom dere ikke i går?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">eai</l>
+         <lemma_ref lemmaID="ii_v">ii</lemma_ref>
+         <analysis>IV_Neg_Ind_Pl3</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Nieiddat eai boađe gávpogii odne.</x>
+               <xt>Jentene kommer ikke til byen i dag.</xt>
+            </xg>
+            <xg>
+               <x>Nieiddat eai boahtán iktege.</x>
+               <xt>Jentene kom ikke i går heller.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">iige</l>
+         <analysis>IV_Neg_Ind_Sg3_Foc/ge</analysis>
+         <mini_paradigm>
+            <analysis ms="IV_Neg_Ind_Sg1_Foc/ge">
+               <wordform>inge</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Sg2_Foc/ge">
+               <wordform>itge</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Sg3_Foc/ge">
+               <wordform>iige</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Du1_Foc/ge">
+               <wordform>eange</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Du2_Foc/ge">
+               <wordform>eahppige</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Du3_Foc/ge">
+               <wordform>eabage</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Pl1_Foc/ge">
+               <wordform>eatge</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Pl2_Foc/ge">
+               <wordform>ehpetge</wordform>
+            </analysis>
+            <analysis ms="IV_Neg_Ind_Pl3_Foc/ge">
+               <wordform>eaige</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>3. person entall</re>
+            <t pos="Adv">og (heller) ikke</t>
+            <xg>
+               <x>Ovddasvástádus addo fitnodagaide, iige olbmuide.</x>
+               <xt>Ansvaret gis til bedrifter og ikke til personer.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">inge</l>
+         <lemma_ref lemmaID="iige_v">iige</lemma_ref>
+         <analysis>IV_Neg_Ind_Sg1_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om meg selv</re>
+            <t pos="Adv">og (heller) ikke</t>
+            <xg>
+               <x>Mun in máhte njuiket, inge gilvvu viehkat.</x>
+               <xt>Jeg kan verken hoppe eller løpe om kapp.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">itge</l>
+         <lemma_ref lemmaID="iige_v">iige</lemma_ref>
+         <analysis>IV_Neg_Ind_Sg2_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om deg</re>
+            <t pos="Adv">og (heller) ikke</t>
+            <xg>
+               <x>Don leat hui ceaggái, itge vuollán nu jođánit.</x>
+               <xt>Du er veldig sta og gir ikke opp så lett.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">eange</l>
+         <lemma_ref lemmaID="iige_v">iige</lemma_ref>
+         <analysis>IV_Neg_Ind_Du1_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss to</re>
+            <t pos="Adv">og (heller) ikke</t>
+            <xg>
+               <x>Moai ozaime ija miehtá, eange gávdnan maidege.</x>
+               <xt>Vi to lette hele natta, og fant heller ingenting.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">eahppige</l>
+         <lemma_ref lemmaID="iige_v">iige</lemma_ref>
+         <analysis>IV_Neg_Ind_Du2_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere to</re>
+            <t pos="Adv">og (heller) ikke</t>
+            <xg>
+               <x>Dás eahppi oaččo rigeret, eahppige huikit.</x>
+               <xt>Her kan dere to verken bråke eller rope.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">eabage</l>
+         <lemma_ref lemmaID="iige_v">iige</lemma_ref>
+         <analysis>IV_Neg_Ind_Du3_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Adv">og (heller) ikke</t>
+            <xg>
+               <x>Soai láhpiiga bálgá eabage šat diehtán gosa galgaba mannat.</x>
+               <xt>De to mistet stien og visste ikke lenger hvor de skulle gå.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">eatge</l>
+         <lemma_ref lemmaID="iige_v">iige</lemma_ref>
+         <analysis>IV_Neg_Ind_Pl1_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om oss</re>
+            <t pos="Adv">og (heller) ikke</t>
+            <xg>
+               <x>Mii eat máhte lohkat eatge čállit.</x>
+               <xt>Vi kan verken lese eller skrive.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">ehpetge</l>
+         <lemma_ref lemmaID="iige_v">iige</lemma_ref>
+         <analysis>IV_Neg_Ind_Pl2_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dere</re>
+            <t pos="Adv">og (heller) ikke</t>
+            <xg>
+               <x>Mun čuorvvun din, ehpetge dii vástit.</x>
+               <xt>Jeg roper på dere og dere svarer ikke.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">eaige</l>
+         <lemma_ref lemmaID="iige_v">iige</lemma_ref>
+         <analysis>IV_Neg_Ind_Pl3_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem</re>
+            <t pos="Adv">og (heller) ikke</t>
+            <xg>
+               <x>Sii eai máhte suomagiela, eaige eŋgelasgiela.</x>
+               <xt>De kan verken finsk eller engelsk.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">allos</l>
+         <analysis>Neg_Imprt_Sg3</analysis>
+         <mini_paradigm>
+            <analysis ms="Neg_Imprt_Sg1">
+               <wordform>allon</wordform>
+            </analysis>
+            <analysis ms="Neg_Imprt_Sg2">
+               <wordform>ale</wordform>
+            </analysis>
+            <analysis ms="Neg_Imprt_Sg3">
+               <wordform>allos</wordform>
+            </analysis>
+            <analysis ms="Neg_Imprt_Du1">
+               <wordform>allu</wordform>
+            </analysis>
+            <analysis ms="Neg_Imprt_Du2">
+               <wordform>alli</wordform>
+            </analysis>
+            <analysis ms="Neg_Imprt_Du3">
+               <wordform>alloska</wordform>
+            </analysis>
+            <analysis ms="Neg_Imprt_Pl1">
+               <wordform>allot</wordform>
+            </analysis>
+            <analysis ms="Neg_Imprt_Pl2">
+               <wordform>allet</wordform>
+            </analysis>
+            <analysis ms="Neg_Imprt_Pl3">
+               <wordform>alloset</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>3. person entall</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Jus guhtege dan ii dovdda, de allos dovdda!</x>
+               <xt>Hvis noen ikke kjenner det, så får det være det samme!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">allon</l>
+         <lemma_ref lemmaID="allos_v">allos</lemma_ref>
+         <analysis>Neg_Imprt_Sg1</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>til meg selv</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Mun jurdilin: Allon eisege mun dieinna lágiin badjelgeahča nuppi
+          olbmo!</x>
+               <xt>Jeg tenkte: Jeg må slett ikke overse et annet menneske på den
+          måten!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">ale</l>
+         <lemma_ref lemmaID="allos_v">allos</lemma_ref>
+         <analysis>Neg_Imprt_Sg2</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>til deg</re>
+            <t pos="Adv">ikke</t>
+            <xg re="til en person">
+               <x>Ale boađe deike!</x>
+               <xt>Ikke kom hit!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">allu</l>
+         <lemma_ref lemmaID="allos_v">allos</lemma_ref>
+         <analysis>Neg_Imprt_Du1</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>til oss to</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Allu šat riidal!</x>
+               <xt>La oss to ikke krangle mer!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">alli</l>
+         <lemma_ref lemmaID="allos_v">allos</lemma_ref>
+         <analysis>Neg_Imprt_Du2</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>til dere to</re>
+            <t pos="Adv">ikke</t>
+            <xg re="til to personer">
+               <x>Alli boađe deike!</x>
+               <xt>Ikke kom hit!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">alloska</l>
+         <lemma_ref lemmaID="allos_v">allos</lemma_ref>
+         <analysis>Neg_Imprt_Du3</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om dem to</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Alloska mus jeara!</x>
+               <xt>De to skal ikke spørre meg!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">allot</l>
+         <lemma_ref lemmaID="allos_v">allos</lemma_ref>
+         <analysis>Neg_Imprt_Pl1</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>til oss</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Allot šat dubme guhtet guimmiideamet!</x>
+               <xt>La oss ikke lenger dømme hverandre!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">allet</l>
+         <lemma_ref lemmaID="allos_v">allos</lemma_ref>
+         <analysis>Neg_Imprt_Pl2</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>til dere</re>
+            <t pos="Adv">ikke</t>
+            <xg re="til flere enn to personer">
+               <x>Allet boađe deike!</x>
+               <xt>Ikke kom hit!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="V">alloset</l>
+         <lemma_ref lemmaID="allos_v">allos</lemma_ref>
+         <analysis>Neg_Imprt_Pl3</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="Adv">ikke</t>
+            <xg>
+               <x>Alloset boađe mus bearrat dan vealggi!</x>
+               <xt>De skal ikke komme og kreve gjelda betalt av meg!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

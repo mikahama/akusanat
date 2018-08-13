@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muokkaa hakunäkymää</title>
+    <script src="../searchProviders/?refresh"></script>
+    <script src="{{wikiurl}}/jquery.js"></script>
+    <script src="{{wikiurl}}/search_edit.js"></script>
+    <script>
+        var username = "{{user}}";
+    </script>
+    <link rel="stylesheet" type="text/css" href="{{wikiurl}}/search_edit.css">
+</head>
+<body>
+{% csrf_token %}
+<div id="loginDiv">
+    <input id="userName" placeholder="Käyttäjätunnus">
+    <input id="password" placeholder="Salasana" type="password">
+    <button id="loginButton" onclick="loginAction()">Kirjaudu sisään</button>
+</div>
+    <div id="mainDiv">
+        <h1>Muokkaa hakunäkymää</h1>
+        <div id="dataContainer"></div>
+        <button id="addItemButton" onclick="addItem('','',[])">Lisää hakuryhmä</button>
+        <button id="saveButton" onclick="save()">💾 Tallenna</button>
+    </div>
+    <p>Ohjeet URL-kenttää varten: Syötä URL joko absoluuttisessa tai relatiivisessa muodossa. QUERY-merkkijono korvataan käyttäjän syöttämällä hakusanalla.</p>
+</body>
+</html>

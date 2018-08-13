@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="337096">
+         <l nr="Sg" pos="Pron" type="Dem">dat</l>
+         <analysis>Pron_Dem_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Sg_Nom">
+               <wordform>dat</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Acc/Gen">
+               <wordform>dan</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Ill">
+               <wordform>dasa</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Loc">
+               <wordform>das</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Com">
+               <wordform>dainna</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>danin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Nom">
+               <wordform>dat viessu</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Acc/Gen">
+               <wordform>dan viesu</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Gen">
+               <wordform>dan viesus</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Com">
+               <wordform>dainna viesuin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>danin viessun</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">den</t>
+            <t pos="Pron" type="Pers">det</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">han</t>
+            <t pos="Pron" type="Pers">hun</t>
+            <xg>
+               <x>Elle ii čále, dat baicca lohká.</x>
+               <xt>Elle skriver ikke, hun leser heller.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="189674">
+         <l nr="Sg" pos="Pron" type="Dem">dát</l>
+         <analysis>Pron_Dem_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Sg_Acc/Gen">
+               <wordform>dán</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Ill">
+               <wordform>dása</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Loc">
+               <wordform>dás</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Com">
+               <wordform>dáinna</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>dánin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">dette</t>
+            <t pos="Pron" type="Pers">denne</t>
+            <xg>
+               <x>Leago dát duođasge Sámi Radio oaivil?</x>
+               <xt>Er dette virkelig Sameradioens mening?</xt>
+            </xg>
+            <xg>
+               <x>Dás ii boađe jierpmálaš čoavddus.</x>
+               <xt>Av dette kommer det ikke noen fornuftig løsning.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">dette</t>
+            <t pos="Det" type="Dem">denne</t>
+            <xg>
+               <x>Dovddat go dán bártni?</x>
+               <xt>Kjenner du denne gutten?</xt>
+            </xg>
+            <xg>
+               <x>Gal dása gávdno hirbmat buorre čoavddus.</x>
+               <xt>Til dette finnes det nok en veldig bra løsning.</xt>
+            </xg>
+            <xg>
+               <x>Dušše dáinna mašiinnain lea vejolaš oažžut dan rievttes bohtosa.</x>
+               <xt>Bare med denne maskinen er det mulig å få det riktige resultatet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="10043">
+         <l nr="Sg" pos="Pron" type="Dem">diet</l>
+         <analysis>Pron_Dem_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Sg_Acc/Gen">
+               <wordform>dien</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Ill">
+               <wordform>diesa</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Loc">
+               <wordform>dies</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Com">
+               <wordform>dieinna</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>dienin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>nærmere deg enn meg eller som nettopp er nevnt</re>
+            <t pos="Pron" type="Pers">den</t>
+            <xg>
+               <x>Mii diet lea?</x>
+               <xt>Hva er det der?</xt>
+            </xg>
+            <xg>
+               <x>Sii eai gal leat dien birra jurddašan nu olu.</x>
+               <xt>De har nok ikke tenkt så mye på det (som vi nettopp snakket om).</xt>
+            </xg>
+            <xg>
+               <x>Eai sii nu beare olu ruđa gal jurddaš diesa geavahit.</x>
+               <xt>De tenker ikke på å bruke så mye penger på det (vi nettopp nevnte).</xt>
+            </xg>
+            <xg>
+               <x>Ja dies mun fuobmájin ge ođđa ealáhusa.</x>
+               <xt>Og av det oppdaget jeg da også en ny næring.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>nærmere deg enn meg eller som nettopp er nevnt</re>
+            <t pos="Det" type="Dem">den</t>
+            <xg>
+               <x>Lea lunddolaš ahte diet čoahkkin dollo Álttás.</x>
+               <xt>Det er naturlig at det møtet holdes i Alta.</xt>
+            </xg>
+            <xg>
+               <x>Vuosttažettiin danin go dieinna vugiin ii sáhte nuvttá riŋget.</x>
+               <xt>Først og fremst fordi det på den måten ikke er mulig å ringe gratis.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1597">
+         <l nr="Sg" pos="Pron" type="Dem">duot</l>
+         <analysis>Pron_Dem_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Sg_Acc/Gen">
+               <wordform>duon</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Ill">
+               <wordform>duosa</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Loc">
+               <wordform>duos</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Com">
+               <wordform>duoinna</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>duonin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">det der borte</t>
+            <xg>
+               <x>Mii duot lea?</x>
+               <xt>Hva er det der?</xt>
+            </xg>
+            <xg>
+               <x>Don galggat duosa oahpahit sámegiela!</x>
+               <xt>Du skal lære samisk til hun der!</xt>
+            </xg>
+            <xg>
+               <x>Muhto ii orron ávki duos iige dies.</x>
+               <xt>Men det virka ikke å være nytte av hverken det ene eller det andre.</xt>
+            </xg>
+            <xg>
+               <x>Sii dávjá jerret mus mii oaivvilduvvo duoinna ja dáinna.</x>
+               <xt>De spør meg ofte om hva som menes med det ene og det andre.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">det der</t>
+            <xg>
+               <x>Movt bat duot geafes čivga sáhtii du beastit?</x>
+               <xt>Og hvordan kunne den fattige ungen der redde deg?</xt>
+            </xg>
+            <xg>
+               <x>Mun láhppen gal dan duon dievá alde.</x>
+               <xt>Jeg mistet nok den på haugen der borte.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="393">
+         <l nr="Sg" pos="Pron" type="Dem">dot</l>
+         <analysis>Pron_Dem_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Sg_Acc/Gen">
+               <wordform>don</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Ill">
+               <wordform>dosa</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Loc">
+               <wordform>dos</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Com">
+               <wordform>doinna</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>donin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">det lengst borte</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">det lengst borte</t>
+            <xg>
+               <x>Ja dan dáfus eai dárbbaš ballat maid duot dahje dot riikabellodat dadjá jus sii oaivvildit nuo dahje
+               ná.</x>
+               <xt>Og i den forbindelse trenger de ikke å være redd for hva det ene eller det andre landsdekkende
+               partiet sier hvis de mener slik eller slik.</xt>
+            </xg>
+            <xg>
+               <x>Vuosttaš lea oažžut nannejuvvot daid oktasaš vuoigatvuođaid mat sámiin lea don doložis juo leamaš.</x>
+               <xt>Det første er å få styrket de felles rettighetene som samene har hatt siden for veldig lenge siden.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="337096">
+         <l nr="Pl" pos="Pron" type="Dem">dat</l>
+         <analysis>Pron_Dem_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Pl_Nom">
+               <wordform>dat</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Acc/Gen">
+               <wordform>daid</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Ill">
+               <wordform>daidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Loc">
+               <wordform>dain</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Com">
+               <wordform>daiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>danin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Nom">
+               <wordform>dat viesut</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Acc/Gen">
+               <wordform>daid viesuid</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Ill">
+               <wordform>daidda viesuide</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Loc">
+               <wordform>dain viesuin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Com">
+               <wordform>daiguin viesuiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>danin viessun</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">de</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">de</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="189674">
+         <l nr="Pl" pos="Pron" type="Dem">dát</l>
+         <analysis>Pron_Dem_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Pl_Acc/Gen">
+               <wordform>dáid</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Ill">
+               <wordform>dáidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Loc">
+               <wordform>dáin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Com">
+               <wordform>dáiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>dánin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">disse</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">disse</t>
+            <xg>
+               <x>Gosa dolvot dát dáhpáhusat?</x>
+               <xt>Hvor fører disse hendingene?</xt>
+            </xg>
+            <xg>
+               <x>Ruoŧa ja Suoma beale olbmot maid servet dáidda doaluide.</x>
+               <xt>Folk på svensk og finsk side blir også med på dette arrangementet.</xt>
+            </xg>
+            <xg>
+               <x>Okta dáin joavkkuin čiekčá goalmmát divišuvnnas.</x>
+               <xt>Et av disse lagene spiller i tredje divisjon.</xt>
+            </xg>
+            <xg>
+               <x>Dušše dáiguin mašiinnaiguin lea vejolaš oažžut dan rievttes bohtosa.</x>
+               <xt>Bare med disse maskinene er det mulig å få det riktige resultatet.</xt>
+            </xg>
+            <xg>
+               <x>Eadni ii leat midjiide jienádan goassige ovdal dáid jurdagiid.</x>
+               <xt>Mor har aldri før nevnt disse tankene til oss.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="10043">
+         <l nr="Pl" pos="Pron" type="Dem">diet</l>
+         <analysis>Pron_Dem_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Pl_Acc/Gen">
+               <wordform>dieid</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Ill">
+               <wordform>dieidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Loc">
+               <wordform>diein</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Com">
+               <wordform>dieiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>dienin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>nærmere meg enn deg eller som nettopp er nevnt</re>
+            <t pos="Pron" type="Pers">de</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>nærmere meg enn deg eller som nettopp er nevnt</re>
+            <t pos="Det" type="Dem">de</t>
+            <xg>
+               <x>Gal mun dál oainnán man duođat diet sánit leat maid vuoras olbmot lávejit lohkat.</x>
+               <xt>Nå ser jeg hvor sanne de ordene er som gamle folk pleier å si.</xt>
+            </xg>
+            <xg>
+               <x>Mun muittán bures go ledjen nuorra dieid beakkán 70 jagiin.</x>
+               <xt>Jeg husker godt da jeg var ung i de berømte 70-årene.</xt>
+            </xg>
+            <xg>
+               <x>Nu sii manne dieidda báikkiide ja maŋŋel vel ollu eará báikkiide.</x>
+               <xt>Slik dro de til de stedene og seinere også til mange andre steder.</xt>
+            </xg>
+            <xg>
+               <x>Lea nu guhkes áigi go diekkár lágideapmi lei diein guovlluin.</x>
+               <xt>Det er så lang tid siden det var et slikt arrangement i de områdene.</xt>
+            </xg>
+            <xg>
+               <x>Sii geat dieiguin sáddagiiguin barget, eai leat bálkáhuvvon bargit.</x>
+               <xt>De som arbeider med disse sendingene, er ikke ansatte som er lønnet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1597">
+         <l nr="Pl" pos="Pron" type="Dem">duot</l>
+         <analysis>Pron_Dem_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Pl_Acc/Gen">
+               <wordform>duoid</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Ill">
+               <wordform>duoidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Loc">
+               <wordform>duoin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Com">
+               <wordform>duoiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>duonin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">de der borte</t>
+            <xg>
+               <x>Geat bat duot leaba? jearai eadni.</x>
+               <xt>Hvem er så de to der? spurte mor.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">de der</t>
+            <xg>
+               <x>Čuovuimet duoid áibmadas lottiid girddašeami.</x>
+               <xt>Vi fulgte flygingen til de kolossale fuglene der borte.</xt>
+            </xg>
+            <xg>
+               <x>In beroš duoin hearráin.</x>
+               <xt>Jeg bryr meg ikke om de der herrene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="393">
+         <l nr="Pl" pos="Pron" type="Dem">dot</l>
+         <analysis>Pron_Dem_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Pl_Acc/Gen">
+               <wordform>doid</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Ill">
+               <wordform>doidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Loc">
+               <wordform>doin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Com">
+               <wordform>doiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>donin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">de lengst borte</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">de lengst borte</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="19773">
+         <l nr="Sg" pos="Pron" type="Dem">dakkár</l>
+         <analysis>Pron_Dem_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Sg_Acc/Gen">
+               <wordform>dakkára</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Ill">
+               <wordform>dakkárii</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Loc">
+               <wordform>dakkáris</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Com">
+               <wordform>dakkáriin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>dakkárin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">slik</t>
+            <xg>
+               <x>Jođiheaddji diehtá ahte dakkár evttohus baldá olu olbmuid.</x>
+               <xt>Lederen vet at et slikt forslag skremmer mye folk.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Dem">dakkárat</l>
+         <analysis>Pron_Dem_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Pl_Acc/Gen">
+               <wordform>dakkáriid</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Ill">
+               <wordform>dakkáriidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Loc">
+               <wordform>dakkáriin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Com">
+               <wordform>dakkáriiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>dakkárin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">slike</t>
+            <xg>
+               <x>Das leat dološ sárgumat vuođđun, ovdamearkka dihte dakkárat go meavrresgáris ledje.</x>
+               <xt>Den har gamle tegninger som grunnlag, for eksempel slike som var på runebomma.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="14205">
+         <l nr="Sg" pos="Pron" type="Dem">dákkár</l>
+         <analysis>Pron_Dem_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Sg_Acc/Gen">
+               <wordform>dákkára</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Ill">
+               <wordform>dákkárii</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Loc">
+               <wordform>dákkáris</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Com">
+               <wordform>dákkáriin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>dákkárin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">sånn her</t>
+            <xg>
+               <x>Biret lea dákkár.</x>
+               <xt>Biret er sånn.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Dem">dákkárat</l>
+         <analysis>Pron_Dem_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Pl_Acc/Gen">
+               <wordform>dákkáriid</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Ill">
+               <wordform>dákkáriidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Loc">
+               <wordform>dakkáriin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Com">
+               <wordform>dákkáriiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>dákkárin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="Pron" type="Dem">sånn her</t>
+            <xg>
+               <x>Dál lea Biret maid hirpmahuvvan ahte dákkárat sáhttet dáhpáhuvvat.</x>
+               <xt>Nå er Biret også forskrekket over at slikt kan skje.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2833">
+         <l nr="Sg" pos="Pron" type="Dem">diekkár</l>
+         <analysis>Pron_Dem_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Sg_Acc/Gen">
+               <wordform>diekkára</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Ill">
+               <wordform>diekkárii</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Loc">
+               <wordform>diekkáris</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Sg_Com">
+               <wordform>diekkáriin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>diekkárin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">slik en</t>
+            <t pos="Pron" type="Dem">slikt</t>
+            <xg>
+               <x>Son dánssui sallalaga nuorra bártniin, ja diekkár gal váibmui čuohcá.</x>
+               <xt>Hun danset i armene til en ung gutt, og slikt rammer hjertet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Dem">diekkárat</l>
+         <analysis>Pron_Dem_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Dem_Pl_Acc/Gen">
+               <wordform>diekkáriid</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Ill">
+               <wordform>diekkáriidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Loc">
+               <wordform>diekkáriin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Pl_Com">
+               <wordform>diekkáriiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Dem_Ess">
+               <wordform>diekkárin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">slike som det</t>
+            <xg>
+               <x>Stuorra meahcceeallit leat bierdna ja sarvá, ja smávva meahcceeallit leat rievssahat ja diekkárat.</x>
+               <xt>Storvilt er bjørn og elg, og småvilt er ryper og slike som det.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dasa</l>
+         <lemma_ref lemmaID="dát_sg_pron_dem">dat</lemma_ref>
+         <analysis>Pron_Dem_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til den</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">til den</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">das</l>
+         <lemma_ref lemmaID="dát_sg_pron_dem">dat</lemma_ref>
+         <analysis>Pron_Dem_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">av den</t>
+            <t pos="Pron" type="Pers">i den</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">av den</t>
+            <t pos="Det" type="Dem">i den</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dainna</l>
+         <lemma_ref lemmaID="dat_sg_pron_dem">dat</lemma_ref>
+         <analysis>Pron_Dem_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med det</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">med det</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dása</l>
+         <lemma_ref lemmaID="dát_sg_pron_dem">dát</lemma_ref>
+         <analysis>Pron_Dem_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til denne</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">til denne</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dás</l>
+         <lemma_ref lemmaID="dát_sg_pron_dem">dát</lemma_ref>
+         <analysis>Pron_Dem_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">av denne</t>
+            <t pos="Pron" type="Pers">i denne</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">av denne</t>
+            <t pos="Det" type="Dem">i denne</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dáinna</l>
+         <lemma_ref lemmaID="dat_sg_pron_dem">dát</lemma_ref>
+         <analysis>Pron_Dem_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med denne</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">med denne</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">diesa</l>
+         <lemma_ref lemmaID="dát_sg_pron_dem">diet</lemma_ref>
+         <analysis>Pron_Dem_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til den der</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">til den der</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dies</l>
+         <lemma_ref lemmaID="dát_sg_pron_dem">diet</lemma_ref>
+         <analysis>Pron_Dem_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">av den der</t>
+            <t pos="Pron" type="Pers">i den der</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">av den der</t>
+            <t pos="Det" type="Dem">i den der</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dieinna</l>
+         <lemma_ref lemmaID="dat_sg_pron_dem">diet</lemma_ref>
+         <analysis>Pron_Dem_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med den der</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">med den der</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">duosa</l>
+         <lemma_ref lemmaID="dát_sg_pron_dem">duot</lemma_ref>
+         <analysis>Pron_Dem_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til den der borte</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">til den der borte</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">duos</l>
+         <lemma_ref lemmaID="dát_sg_pron_dem">duot</lemma_ref>
+         <analysis>Pron_Dem_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">av den der borte</t>
+            <t pos="Pron" type="Pers">i den der borte</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">av den der borte</t>
+            <t pos="Det" type="Dem">i den der borte</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">duoinna</l>
+         <lemma_ref lemmaID="dat_sg_pron_dem">duot</lemma_ref>
+         <analysis>Pron_Dem_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med den der borte</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">med den der borte</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">daid</l>
+         <lemma_ref lemmaID="dat_pl_pron_dem">dat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Gen</analysis>
+         <analysis>Pron_Dem_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">de</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">deres</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">de</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">daidda</l>
+         <lemma_ref lemmaID="dat_pl_pron_dem">dat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til dem</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">til de</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dain</l>
+         <lemma_ref lemmaID="dat_pl_pron_dem">dat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">i dem</t>
+            <t pos="Pron" type="Pers">av dem</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">i de</t>
+            <t pos="Det" type="Dem">av de</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">daiguin</l>
+         <lemma_ref lemmaID="dat_pl_pron_dem">dat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med dem</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">med de</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dáid</l>
+         <lemma_ref lemmaID="dát_pl_pron_dem">dát</lemma_ref>
+         <analysis>Pron_Dem_Pl_Gen</analysis>
+         <analysis>Pron_Dem_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">disse</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">disses</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dáidda</l>
+         <lemma_ref lemmaID="dát_pl_pron_dem">dát</lemma_ref>
+         <analysis>Pron_Dem_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">til disse</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dáin</l>
+         <lemma_ref lemmaID="dát_pl_pron_dem">dát</lemma_ref>
+         <analysis>Pron_Dem_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">i disse</t>
+            <t pos="Det" type="Dem">av disse</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dáiguin</l>
+         <lemma_ref lemmaID="dát_pl_pron_dem">dát</lemma_ref>
+         <analysis>Pron_Dem_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det" type="Dem">med disse</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dieid</l>
+         <lemma_ref lemmaID="diet_pl_pron_dem">diet</lemma_ref>
+         <analysis>Pron_Dem_Pl_Gen</analysis>
+         <analysis>Pron_Dem_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>som er nærmere deg eller som nettopp er nevnt</re>
+            <t pos="Det" type="Dem">de</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dieidda</l>
+         <lemma_ref lemmaID="diet_pl_pron_dem">diet</lemma_ref>
+         <analysis>Pron_Dem_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>som er nærmere deg eller som nettopp er nevnt</re>
+            <t pos="Pron" type="Dem">til dem</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">diein</l>
+         <lemma_ref lemmaID="diet_pl_pron_dem">diet</lemma_ref>
+         <analysis>Pron_Dem_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>som er nærmere deg eller som nettopp er nevnt</re>
+            <t pos="Pron" type="Dem">i dem</t>
+            <t pos="Pron" type="Dem">av dem</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dieiguin</l>
+         <lemma_ref lemmaID="diet_pl_pron_dem">diet</lemma_ref>
+         <analysis>Pron_Dem_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>som er nærmere deg eller som nettopp er nevnt</re>
+            <t pos="Pron" type="Dem">med dem</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">duoid</l>
+         <lemma_ref lemmaID="duot_pl_pron_dem">duot</lemma_ref>
+         <analysis>Pron_Dem_Pl_Gen</analysis>
+         <analysis>Pron_Dem_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">de der borte</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">de der borte sine</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">duoidda</l>
+         <lemma_ref lemmaID="duot_pl_pron_dem">duot</lemma_ref>
+         <analysis>Pron_Dem_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">til dem der borte</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">duoin</l>
+         <lemma_ref lemmaID="duot_pl_pron_dem">duot</lemma_ref>
+         <analysis>Pron_Dem_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">i dem</t>
+            <t pos="Pron" type="Dem">av dem</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">duoiguin</l>
+         <lemma_ref lemmaID="duot_pl_pron_dem">duot</lemma_ref>
+         <analysis>Pron_Dem_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">med dem der borte</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">doid</l>
+         <lemma_ref lemmaID="dot_pl_pron_dem">dot</lemma_ref>
+         <analysis>Pron_Dem_Pl_Gen</analysis>
+         <analysis>Pron_Dem_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">de lengst borte</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">de lengst borte sine</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">doidda</l>
+         <lemma_ref lemmaID="dot_pl_pron_dem">dot</lemma_ref>
+         <analysis>Pron_Dem_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">til dem lengst borte</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">doin</l>
+         <lemma_ref lemmaID="dot_pl_pron_dem">dot</lemma_ref>
+         <analysis>Pron_Dem_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">i dem lengst borte</t>
+            <t pos="Pron" type="Dem">av dem lengst borte</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">doiguin</l>
+         <lemma_ref lemmaID="dot_pl_pron_dem">dot</lemma_ref>
+         <analysis>Pron_Dem_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">med dem lengst borte</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dakkára</l>
+         <lemma_ref lemmaID="dakkár_sg_pron_dem">dakkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Gen</analysis>
+         <analysis>Pron_Dem_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">slik</t>
+            <xg>
+               <x>Mis leat 500 dakkára.</x>
+               <xt>Vi har 500 slike.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dakkárii</l>
+         <lemma_ref lemmaID="dakkár_sg_pron_dem">dakkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">til slikt</t>
+            <xg>
+               <x>Ale vuovdde biilla dakkárii gii ii mávsse.</x>
+               <xt>Ikke selg bilen til en slik som ikke betaler.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dakkáris</l>
+         <lemma_ref lemmaID="dakkár_sg_pron_dem">dakkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">i slikt</t>
+            <t pos="Pron" type="Dem">av slikt</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">slik (har)</t>
+            <xg>
+               <x>Mus lea seammá vuoigatvuohta oaggut go dakkáris gii oastá lobi.</x>
+               <xt>Jeg har samme rett til å fiske som en slik har som kjøper fiskekort.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Sg" pos="Pron" type="Dem">dakkáriin</l>
+         <lemma_ref lemmaID="dakkár_sg_pron_dem">dakkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">med slikt</t>
+            <xg>
+               <x>In mun sáhte ovttasbargat dakkáriin.</x>
+               <xt>Jeg kan ikke samarbeide med en slik en.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dakkárin</l>
+         <lemma_ref lemmaID="dakkár_sg_pron_dem">dakkár</lemma_ref>
+         <analysis>Pron_Dem_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">som slikt</t>
+            <xg>
+               <x>Dasa lassin ráhkada son riskkuid ja boaluid juste dakkárin go kundarat háliidit.</x>
+               <xt>I tillegg så lager hun søljer og knapper akkurat slik som kundene ønsker.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dákkára</l>
+         <lemma_ref lemmaID="dákkár_sg_pron_dem">dákkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Gen</analysis>
+         <analysis>Pron_Dem_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">sånn her</t>
+            <xg>
+               <x>In leat oaidnán dákkára ovdal.</x>
+               <xt>Jeg har ikke sett en sånn her før.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dákkárii</l>
+         <lemma_ref lemmaID="dákkár_sg_pron_dem">dákkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">til en sånn her</t>
+            <xg>
+               <x>Dát ii leat rivttes báiki dákkárii.</x>
+               <xt>Dette er ikke riktig sted for en sånn her.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dákkáris</l>
+         <lemma_ref lemmaID="dákkár_sg_pron_dem">dákkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">i en sånn her</t>
+            <t pos="Pron" type="Dem">av en sånn her</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">en sånn her (har)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Sg" pos="Pron" type="Dem">dákkáriin</l>
+         <lemma_ref lemmaID="dákkár_sg_pron_dem">dákkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">med en sånn her</t>
+            <xg>
+               <x>In mun sáhte ovttasbargat dákkáriin.</x>
+               <xt>Jeg kan ikke samarbeide med en sånn her en.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dákkárin</l>
+         <lemma_ref lemmaID="dákkár_sg_pron_dem">dákkár</lemma_ref>
+         <analysis>Pron_Dem_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">som sånn her</t>
+            <xg>
+               <x>Go eiseválddit álgoálggus leat láhčán dilálašvuođaid dákkárin, de sii fertejit sin iežaset giitit go
+               dál lea dilli šaddan váttisin.</x>
+               <xt>Når myndighetene fra begynnelsen har lagt opp situasjonen sånn her, så må de takke seg selv for at
+               situasjonen nå er blitt vanskelig.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">diekkára</l>
+         <lemma_ref lemmaID="diekkár_sg_pron_dem">diekkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Gen</analysis>
+         <analysis>Pron_Dem_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">en slik en</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">diekkárii</l>
+         <lemma_ref lemmaID="diekkár_sg_pron_dem">diekkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">til en slik en</t>
+            <xg>
+               <x>Diekkárii ii gánnát geavahit ruđaid.</x>
+               <xt>På en slik en lønner det seg ikke å bruke penger.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">diekkáris</l>
+         <lemma_ref lemmaID="diekkár_sg_pron_dem">diekkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">i en slik en</t>
+            <t pos="Pron" type="Dem">av en slik en</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">en slik en (har)</t>
+            <xg>
+               <x>Ja diekkáris lea ná stuorra viessu!</x>
+               <xt>Og en slik en har så stort hus!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Sg" pos="Pron" type="Dem">diekkáriin</l>
+         <lemma_ref lemmaID="diekkár_sg_pron_dem">diekkár</lemma_ref>
+         <analysis>Pron_Dem_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">med en slik en</t>
+            <xg>
+               <x>In mun sáhte ovttasbargat diekkáriin.</x>
+               <xt>Jeg kan ikke samarbeide med en slik en.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">diekkárin</l>
+         <lemma_ref lemmaID="diekkár_sg_pron_dem">diekkár</lemma_ref>
+         <analysis>Pron_Dem_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">som slikt</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dakkáriid</l>
+         <lemma_ref lemmaID="dakkárat_pl_pron_dem">dakkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Gen</analysis>
+         <analysis>Pron_Dem_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">slike</t>
+            <xg>
+               <x>Jođiheaddji muitala iežas duogáža leat hui stuora ávkin go dakkáriid bargá.</x>
+               <xt>Lederen forteller at hans bakgrunn er til stor nytte når han gjør slikt.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dakkáriidda</l>
+         <lemma_ref lemmaID="dakkárat_pl_pron_dem">dakkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">til slike</t>
+            <xg>
+               <x>Dat oainnat eai liiko dakkáriidda geat ieža eai máhte buot.</x>
+               <xt>De liker nemlig ikke slike som ikke kan alt.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Dem">dakkáriin</l>
+         <lemma_ref lemmaID="dakkárat_pl_pron_dem">dakkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">i slike</t>
+            <t pos="Pron" type="Dem">av slike</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">slike (har)</t>
+            <xg>
+               <x>Mus lea seammá vuoigatvuohta oaggut go dakkáriin geat ostet lobi.</x>
+               <xt>Jeg har samme rett til å fiske som slike har som kjøper fiskekort.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dakkáriiguin</l>
+         <lemma_ref lemmaID="dakkárat_pl_pron_dem">dakkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">med slike</t>
+            <xg>
+               <x>In mun sáhte ovttasbargat dakkáriiguin.</x>
+               <xt>Jeg kan ikke samarbeide med slike.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dákkáriid</l>
+         <lemma_ref lemmaID="dákkárat_pl_pron_dem">dákkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Gen</analysis>
+         <analysis>Pron_Dem_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">sånne her</t>
+            <xg>
+               <x>Iibat dákkáriid sáhtášii dikšut Dikki siskkobealde?</x>
+               <xt>Kunne man ikke behandle sånt innenfor Tinget?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dákkáriidda</l>
+         <lemma_ref lemmaID="dákkárat_pl_pron_dem">dákkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">til sånne her</t>
+            <xg>
+               <x>Dát ii leat rievttes searvi dákkáriidda.</x>
+               <xt>Dette er ikke riktig forening for sånne her.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Dem">dákkáriin</l>
+         <lemma_ref lemmaID="dákkárat_pl_pron_dem">dákkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">i sånne her</t>
+            <t pos="Pron" type="Dem">av sånne her</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">sånne her (har)</t>
+            <xg>
+               <x>Mus lea seammá vuoigatvuohta oaggut go dákkáriin geat ostet lobi.</x>
+               <xt>Jeg har samme rett til å fiske som sånne her har som kjøper fiskekort.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">dákkáriiguin</l>
+         <lemma_ref lemmaID="dákkárat_pl_pron_dem">dákkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">med sånne her</t>
+            <xg>
+               <x>In mun sáhte ovttasbargat dákkáriiguin.</x>
+               <xt>Jeg kan ikke samarbeide med sånne her.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">diekkáriid</l>
+         <lemma_ref lemmaID="diekkárat_pl_pron_dem">diekkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Gen</analysis>
+         <analysis>Pron_Dem_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">slike</t>
+            <xg>
+               <x>Boanda máksá hui ollu investerendivvagiid ja diekkáriid stáhtii.</x>
+               <xt>Bonden betaler veldig mye investeringsgebyrer og slike til staten.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">diekkáriidda</l>
+         <lemma_ref lemmaID="diekkárat_pl_pron_dem">diekkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">til slike</t>
+            <xg>
+               <x>Ale vuovdde biilla diekkáriidda geat eai mávsse.</x>
+               <xt>Ikke selg bilen til slike som ikke betaler.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Dem">diekkáriin</l>
+         <lemma_ref lemmaID="diekkárat_pl_pron_dem">diekkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">i slike</t>
+            <t pos="Pron" type="Dem">av slike</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">slike (har)</t>
+            <xg>
+               <x>Mus lea seammá vuoigatvuohta oaggut go diekkáriin geat ostet lobi.</x>
+               <xt>Jeg har samme rett til å fiske som slike har som kjøper fiskekort.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Dem">diekkáriiguin</l>
+         <lemma_ref lemmaID="diekkárat_pl_pron_dem">diekkárat</lemma_ref>
+         <analysis>Pron_Dem_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Dem">med slike</t>
+            <xg>
+               <x>In mun sáhte ovttasbargat diekkáriiguin.</x>
+               <xt>Jeg kan ikke samarbeide med slike.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

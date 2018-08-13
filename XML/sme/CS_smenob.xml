@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="20868">
+         <l pos="CS">vai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">for at</t>
+            <t pos="phrase">for å</t>
+            <xg>
+               <x>Ferten árrat nohkkat vai veaddján iđđes.</x>
+               <xt>Jeg må legge meg tidlig slik at jeg klarer å stå opp om morgenen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="285823">
+         <l pos="CS">ahte</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">at</t>
+            <xg>
+               <x>Lea hui mávssolaš ahte sin dárbbut váldojit vuhtii.</x>
+               <xt>Det er svært viktig at deres behov blir ivaretatt.</xt>
+            </xg>
+            <xg>
+               <x>Heaika lei bávččagahttán čippi, nu ahte skierpmui máŋga beaivve.</x>
+               <xt>Heaika hadde slått kneet sitt slik at han haltet i flere dager.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="CS">de</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">så</t>
+            <xg>
+               <x>Go bárdni bođii dállui, de son lei áibbas galmmas.</x>
+               <xt>Da sønnen kom til gards, var han helt kald.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">ja</t>
+            <xg>
+               <x>Jugatgo káfe? De jugan.</x>
+               <xt>Drikker du kaffe? Ja, takk.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="43565">
+         <l pos="CS">jus</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">hvis</t>
+            <xg>
+               <x>Jus ihttin lea buolaš, de eat vuolgge čuoigat.</x>
+               <xt>Hvis det er kaldt i morgen, går vi ikke på ski.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="13170">
+         <l pos="CS">nugo</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">slik som</t>
+            <t pos="CS">som</t>
+            <xg>
+               <x>Daga nugo mun.</x>
+               <xt>Gjør som jeg.</xt>
+            </xg>
+            <xg>
+               <x>Nugo?</x>
+               <xt>Sier du det?</xt>
+            </xg>
+            <xg>
+               <x>Dán áigásaš ođasmuitaleaddjit eai máhte ságaidge muitalit nugo dolin lávejedje.</x>
+               <xt>Dagens nyhetsformidlere kan ikke fortelle nyheter engang slik som de pleide å gjøre i gamle
+               dager.</xt>
+            </xg>
+            <xg>
+               <x>Jieŋa alde ledje maid smávva suohtastallamat, nugo gámabálkesteapmi.</x>
+               <xt>På isen var det også små underholdningsinnslag, slik som skallekasting.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="378">
+         <l pos="CS">dugo</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">akkurat som</t>
+            <t pos="CS">liksom</t>
+            <xg>
+               <x>Don borat dugo spiidni.</x>
+               <xt>Du spiser som en gris.</xt>
+            </xg>
+            <xg>
+               <x>Mii lea jorbbas dugo spábba ja guhkki dugo girkoseaidni?</x>
+               <xt>Hva er rund som en ball og lang som en kirkevegg?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="10490">
+         <l pos="CS">dego</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">akkurat som</t>
+            <t pos="CS">liksom</t>
+            <xg>
+               <x>Don borat dego spiidni.</x>
+               <xt>Du spiser som en gris.</xt>
+            </xg>
+            <xg>
+               <x>Mii lea jorbbas dego spábba ja guhkki dego girkoseaidni?</x>
+               <xt>Hva er rund som en ball og lang som en kirkevegg?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="10903">
+         <l pos="CS">jos</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">dersom</t>
+            <t pos="CS">hvis</t>
+            <xg>
+               <x>Jos ihttin lea buolaš, de eat vuolgge čuoigat.</x>
+               <xt>Hvis det er kaldt i morgen, går vi ikke på ski.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3829">
+         <l pos="CS">vaikke</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">om så</t>
+            <t pos="phrase">selv om</t>
+            <xg>
+               <x>Don gal borat vaikke man ollu.</x>
+               <xt>Du spiser om så hvor mye.</xt>
+            </xg>
+            <xg>
+               <x>Mun veahkehan du, vaikke it dárbbaš ge veahki.</x>
+               <xt>Jeg hjelper deg, selv om du ikke trenger hjelp.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="16105">
+         <l pos="CS">vaikko</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">om så</t>
+            <t pos="phrase">selv om</t>
+            <xg>
+               <x>Don gal borat vaikko man ollu.</x>
+               <xt>Du spiser om så hvor mye.</xt>
+            </xg>
+            <xg>
+               <x>Mun veahkehan du, vaikko it dárbbaš ge veahki.</x>
+               <xt>Jeg hjelper deg, selv om du ikke trenger hjelp.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e src="other">
+      <lg freq="600">
+         <l pos="CS">váikko</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">om så</t>
+            <t pos="phrase">selv om</t>
+            <xg>
+               <x>Don gal borat váikko man ollu.</x>
+               <xt>Du spiser om så hvor mye.</xt>
+            </xg>
+            <xg>
+               <x>Mun veahkehan du, váikko it dárbbaš ge veahki.</x>
+               <xt>Jeg hjelper deg, selv om du ikke trenger hjelp.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="238122">
+         <l pos="CS">go</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">når</t>
+            <xg>
+               <x>Maid dál ges galgá dahkat, go ii leat hivssetbábir?</x>
+               <xt>Hva skal man så gjøre, når det ikke er dopapir?</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">enn</t>
+            <xg>
+               <x>Ánte lea gievrrat go Elle.</x>
+               <xt>Ánte er sterkere enn Elle.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">som</t>
+            <xg>
+               <x>Sidjiide lea sámegiella amas giella, maid fertejit oahppagoahtit seammá láhkai go eará amas
+               gielaid.</x>
+               <xt>For dem er samisk et fremmedspråk, som de må begynne å lære på samme måte som andre
+               fremmedspråk.</xt>
+            </xg>
+            <xg>
+               <x>Váldde dakkára go áiggut.</x>
+               <xt>Ta en slik som du vil ha.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3471">
+         <l pos="CS">ovdalgo</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">før</t>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

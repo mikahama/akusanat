@@ -1,0 +1,21 @@
+#mikasSearchField{
+    font-size: xx-large;
+    margin-right: 10px;
+}
+#mikasSearchButton{
+    font-size: xx-large;
+}
+#mikasSearch {
+    text-align: center;
+}
+
+#mikasSearchOptions{
+    margin-top: 10px;
+}
+#mikasSearchRadioButtons{
+    font-weight: bold;
+}
+
+#mikasSearchTabs{
+    margin-top: 10px;
+}

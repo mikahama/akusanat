@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="50">
+         <l pos="Pcle">hás</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">få se</t>
+            <t pos="phrase">kom an</t>
+            <xg>
+               <x>Hás it njuike fárrui!</x>
+               <xt>Få se om du blir med!</xt>
+            </xg>
+            <xg>
+               <x>Hás moai vulge duohko.</x>
+               <xt>Kom an så drar vi dit.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="320">
+         <l pos="Pcle">amma</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">vel</t>
+            <t pos="phrase">ikke sant</t>
+            <xg>
+               <x>Moai vulge ihttin gávpogii, amma nu?</x>
+               <xt>Vi to drar til byen i morgen, ikke sant?</xt>
+            </xg>
+            <xg>
+               <x>Amma sus lea ášši go sihtan mu deike boahtit.</x>
+               <xt>Han har vel noe han vil snakke om når han har bedt meg komme hit.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="9975">
+         <l pos="Pcle">han</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">vel</t>
+            <t pos="Adv">jo</t>
+            <xg>
+               <x>Nu han lea.</x>
+               <xt>Slik er det jo.</xt>
+            </xg>
+            <xg>
+               <x>Finnmárku han ii lean vearromatrikulerejuvvon.</x>
+               <xt>Finnmark var jo ikke skattematrikulert.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="903">
+         <l pos="Pcle">gis</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">også</t>
+            <t pos="Adv">sannelig</t>
+            <xg>
+               <x>de son gis</x>
+               <xt>også han</xt>
+            </xg>
+            <xg>
+               <x>Kárášjogas oahppit fitne maiddái duoddaris, Oslos gis besse fitnat erenoamáš turistabáikkiin.</x>
+               <xt>I Karasjok var elevene også på vidda, i Oslo fikk de igjen besøke spesielle turiststeder.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1924">
+         <l pos="Pcle">bat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">å javel</t>
+            <xg>
+               <x>Nu bat dat lea?</x>
+               <xt>Å, er det slik det er?</xt>
+            </xg>
+            <xg>
+               <x>Gii bat dan ii háliidivčče!</x>
+               <xt>Hvem ville vel ikke ønsket seg det!</xt>
+            </xg>
+            <xg>
+               <x>Gos bat Biret lea?</x>
+               <xt>Hvor er så Biret?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="463">
+         <l pos="Pcle">ba</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">nå</t>
+            <t pos="Adv">da</t>
+            <xg>
+               <x>Mo ba dan galgá dahkat?</x>
+               <xt>Hvordan skal man gjøre det da?</xt>
+            </xg>
+            <xg>
+               <x>Ii ge gillen suinna ba hállat ge šat.</x>
+               <xt>Og da giddet han ikke engang å snakke mer med henne.</xt>
+            </xg>
+            <xg>
+               <x>"Vuoi stáhkkár Niillas, leatgo ba oađđitge sáhttán?" jearrá son.</x>
+               <xt>"Voi, stakkar Niillas, har du kunnet sove i det hele tatt?" spør han.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="260">
+         <l pos="Pcle">almma</l>
+         <lc>amma</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">vel</t>
+            <t pos="Adv">ikke sant</t>
+            <xg>
+               <x>Almma muittát dan?</x>
+               <xt>Du husker vel det?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="923">
+         <l pos="Pcle">aitto</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">mon tro</t>
+            <xg>
+               <x>Mo dal aitto geavvá?</x>
+               <xt>Hvordan går det, mon tro?</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">nettopp</t>
+            <xg>
+               <x>Lean aitto doaibmagoahtán hárjeheaddjin, ja in leat vuos nu čeahppi.</x>
+               <xt>Jeg har akkurat begynt å fungere som trener, og er ikke så flink enda.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="35468">
+         <l pos="Pcle">ge</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">heller</t>
+            <t pos="Adv">engang</t>
+            <xg>
+               <x>In nagodan gozihit smávva beaivválaš áššiid ge.</x>
+               <xt>Jeg klarte ikke å ta meg av de små daglige tingene engang.</xt>
+            </xg>
+            <xg>
+               <x>Ii ge leat duohta.</x>
+               <xt>Det er heller ikke sant.</xt>
+            </xg>
+            <xg>
+               <x>Eat soaitte oba oažžut ge áirasa Sámediggái.</x>
+               <xt>Vi får kanskje ikke engang en representant til sametinget.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">også</t>
+            <xg>
+               <x>Danin lea ge mu mielas nu ártet.</x>
+               <xt>Derfor synes jeg også at det er så rart.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="19349">
+         <l pos="Pcle">go</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>i spørsmål</re>
+            <t type="grammar"
+               href="http://oahpa.no/sme/gramm/syntaks.nob.html#go-spørsmål">spørrepartikkel</t>
+            <xg>
+               <x>Boađát go deike?</x>
+               <xt>Kommer du hit?</xt>
+            </xg>
+            <xg>
+               <x>Dat dušše bođii jearrat áiggun go dánset.</x>
+               <xt>Hun bare kom og spurte om jeg ville danse.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="6003">
+         <l pos="Pcle">goit</l>
+         <lc>goittot</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">i alle fall</t>
+            <xg>
+               <x>Máret goit boahtá.</x>
+               <xt>Marit kommer i alle fall.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pcle">goitge</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">likevel</t>
+            <xg>
+               <x>Vaikko liikojit biergogáhkuide, de goitge daidda dolket.</x>
+               <xt>Selv om de liker kjøttkaker, så blir de likevel lei av dem.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2379">
+         <l pos="Pcle">nai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">også</t>
+            <xg>
+               <x>Máret nai boahtá.</x>
+               <xt>Marit kommer også.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3490">
+         <l pos="Pcle">na</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">nå</t>
+            <xg>
+               <x>Almmuhuvvo go girji sámegillii, na dan ii dieđe oktage.</x>
+               <xt>Publiseres boka på samisk, nei, det vet ingen.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">slik</t>
+            <xg>
+               <x>Muhto eat doaivvo guhká gal vejolažžan na dahkat, leaš go šat vejolaš obanassiige.</x>
+               <xt>Men vi trur ikke at det er mulig å gjøre det slik lenge, om det er mulig i det hele tatt
+               lenger.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">ja</t>
+            <t pos="Adv">jo</t>
+            <xg>
+               <x>Jus dus nai lea muhtun geasa áiggut skeaŋkka oastit, na de heive hui bures odne oastit girjji ja
+               ruvssu.</x>
+               <xt>Hvis du også har noen som du vil kjøpe gave til, ja så passer det i dag godt å kjøpe en bok og en
+               rose.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="5293">
+         <l pos="Pcle">ges</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">i sin tur</t>
+            <xg>
+               <x>Go biktasiid lea bassan ja goikadan, ferte ges máhccut daid.</x>
+               <xt>Når man har vaska og tørka klær, så må man også brette dem.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="76">
+         <l pos="Pcle">ammahal</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">antakelig</t>
+            <xg>
+               <x>Son leaikkastallá vel ahte ammahal Norgga stáda ii oba dovdda ge dála márkaniid.</x>
+               <xt>Han spøker attpåtil med at antakeligvis kjenner ikke den norske stat dagens markeder.</xt>
+            </xg>
+            <xg>
+               <x>Ammahal dál rohkkáha mu?</x>
+               <xt>Antakeligvis farer han på meg nå?</xt>
+            </xg>
+            <xg>
+               <x>Ammahal sii galget diehtit gos leat ovddeš johtolagat.</x>
+               <xt>De skal antakeligvis vite hvor de tidligere flytteveiene går.</xt>
+            </xg>
+            <xg>
+               <x>Ammahal dál doaibmá go measta buohkat stivrras leat eret seamma báikkis.</x>
+               <xt>Nå skal det antakelig fungere siden nesten alle i styret er fra samme sted.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="62">
+         <l pos="Pcle">ban</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">da</t>
+            <xg>
+               <x>Maid don boagustat? jearai Elle. Ii leat ban dáiga, vástidii Máret.</x>
+               <xt>Hva ler du av? spurte Elle. Det er da ikke noe viktig, svarte Máret.</xt>
+            </xg>
+            <xg>
+               <x>Maid ban dainna áiggut?</x>
+               <xt>Hva skal da du med den?</xt>
+            </xg>
+            <xg>
+               <x>Mo ban oainnát erohusa?</x>
+               <xt>Hvordan ser du da forskjellen?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="896">
+         <l pos="Pcle">hal</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">da</t>
+            <xg>
+               <x>Máhtte logai ahte ii hal son goit dan oaivvildan.</x>
+               <xt>Máhtte sa at det var da ikke det han mente.</xt>
+            </xg>
+            <xg>
+               <x>Ii hal dohko goit vuolgge?</x>
+               <xt>Han drar da ikke dit?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

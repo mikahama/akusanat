@@ -1,0 +1,46 @@
+body{
+    font-family: sans-serif;
+}
+.provider{
+    border-style: dotted;
+    border-width: 1px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.subproviders{
+    padding: 10px;
+    margin-left: 30px;
+    border-style: dashed;
+    border-width: 1px;
+}
+.subprovider{
+    margin-bottom: 20px;
+}
+.providerInfo{
+    margin-bottom: 10px;
+
+}
+.providerID, .providerName, .deleteProviderButton{
+    font-size: large;
+    margin-right: 10px;
+}
+.subproviderUrl{
+    width: 300px;
+    color: blue;
+    text-decoration: underline;
+}
+#addItemButton{
+    font-size: large;
+    margin-top: 10px;
+}
+
+#saveButton{
+    display: block;
+    font-size: x-large;
+    margin-top: 30px;
+}
+#userName, #password, #loginButton{
+    display: block;
+    margin: 20px;
+    font-size: xx-large;
+}

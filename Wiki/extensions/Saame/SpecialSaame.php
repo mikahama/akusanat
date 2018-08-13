@@ -6,8 +6,10 @@ class SpecialSaame extends SpecialPage {
 	}
 
 	public static function getSupportedLanguages(){
-		return array("sms", "izh", "mhr", "vot", "olo", "myv", "mdf", "mrj", "udm", "yrk", "koi");
+		return array("sms", "izh", "mhr", "vot", "olo", "myv", "mdf", "mrj", "udm", "yrk", "koi", "kpv");
 	}
+
+
 
 	public static function httpPost($url, $data){
 	    $curl = curl_init($url);
@@ -70,7 +72,9 @@ class SpecialSaame extends SpecialPage {
 
 		# Do stuff
 		# ...
-		$wikitext = 'This provides editing for skolt sami';
+        $configs = parse_ini_file('SaameConfig.ini');
+        $url = $configs["djangoUrl"];
+		$wikitext = 'This provides editing for skolt sami <br> [' . $url . "editSearch/ Edit search on home page]";
 		$output->addWikiText( $wikitext );
 	}
 	public static function onAlternateEdit( $editPage ) {
@@ -158,7 +162,12 @@ class SpecialSaame extends SpecialPage {
 			$editPage->addScript("<script type='text/javascript' src='". $configs["jsBaseUrl"] . "sms_view.js'></script>");
 			$editPage->addScript("<script type='text/javascript'>var djangoURL = \"" . $url . "\";</script>");
 			$editPage->addStyle( $configs["jsBaseUrl"] . "sms_view.css");
-		}
+		}else{
+            $configs = parse_ini_file('SaameConfig.ini');
+            $editPage->addScript("<script type='text/javascript' src='". $configs["djangoUrl"] . "searchProviders/?refresh'></script>");
+            $editPage->addScript("<script type='text/javascript' src='". $configs["jsBaseUrl"] . "search.js'></script>");
+            $editPage->addStyle( $configs["jsBaseUrl"] . "search.css");
+        }
 
 	 }
 }

@@ -1,0 +1,20 @@
+!! This is where new words are added as lexc entries before they are 
+!! added to the xml source files.
+!! ǩiõtt:ǩiõtt N_MUORR "(eng) /(fin) /(rus)" ;
+
+LEXICON N_NEWWORDS
+test:test N_MUORR "(eng) /(fin) /(rus)" ;!
+!! ADD NOUNS BELOW
+!! Glossing 2015-12-02
+!kostyym:kostyym N_PLAAN  "(eng) /(fin) /(rus)" ;
+!projektorr:projekto%^1VOWrr N_TOLL "(eng) /(fin) /(rus)" ;
+algg:a%^1VOWlgg N_ALGG ;
+
+!! Glossing 
+
+
+
+
+!! Newer words
+!! Contlex value missing
+

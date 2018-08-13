@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="880">
+         <l pos="Pron" type="Indef" nr="Pl">goappašat</l>
+         <lsub>goappešat</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">begge</t>
+            <xg>
+               <x>Goappašat dievddut dárbbašeigga doavtterdivššu.</x>
+               <xt>Begge mennene trengte legebehandling.</xt>
+            </xg>
+            <xg>
+               <x>Iskkadeapmi galgá čuvget goappašiid beliid.</x>
+               <xt>Undersøkelsen skal belyse begge sidene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3677">
+         <l pos="Pron" type="Indef" nr="Pl" vmax="4">ollugat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">mange mennesker</t>
+            <xg>
+               <x>Ollugat leat fárren gielddas.</x>
+               <xt>Mange mennesker har flyttet fra kommunen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="632">
+         <l pos="Pron" type="Indef" nr="Pl">eambbosat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">flere</t>
+            <xg>
+               <x>Mii sávvat ahte bohtet vel eambbosat boahtte jagi, lohká festiválajođiheaddji.</x>
+               <xt>Vi håper at det kommer enda flere neste år, sier festivallederen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pg="no" pos="Pron" type="Indef">veahá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="A">litt</t>
+            <xg>
+               <x>Vuoidalin veahá juolgesuorpmaid nai, go lávejit nu bivastuvvat.</x>
+               <xt>Jeg smurte litt på tærne også, fordi de pleier å bli så svette.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1513">
+         <l pos="Pron" type="Indef">veaháš</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="A">litt</t>
+            <xg>
+               <x>De lea ge buorre veaháš bosihit, ja lohkalit aviissa.</x>
+               <xt>Og så er det godt å puste ut litt, og lese litt i avisa.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="8386">
+         <l pg="no" pos="Pron" type="Indef">iešguhtet</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="phrase">hver sin</t>
+            <t pos="Pron">hver</t>
+            <xg>
+               <x>Iešguhtet válddii doppe biillas.</x>
+               <xt>Der tok hver og en sin bil.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="15445">
+         <l pos="Pron" type="Indef" nr="Pl">buohkat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">alle sammen</t>
+            <xg>
+               <x>Čoahkkin lea rabas buohkaide - bures boahtin!</x>
+               <xt>Møtet er åpent for alle - velkommen!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="69595">
+         <l pos="Pron" type="Indef">eará</l>
+         <lc>earát</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">annen</t>
+            <t pos="Pron">andre</t>
+            <xg>
+               <x>Dákkár viiddis máhttu ii leat nu gallásis earáin.</x>
+               <xt>En slik bred kunnskap er det ikke mange andre som har.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1075">
+         <l pos="Pron" type="Indef" nr="Pl">goappašagat</l>
+         <lsub>goappešagat</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">begge</t>
+            <t pos="phrase">hver av to</t>
+            <xg>
+               <x>Soai leaba goappašagat vázzán dáiddaallaskuvlla.</x>
+               <xt>De har begge gått på kunsthøgskole.</xt>
+            </xg>
+            <xg>
+               <x>Goappašagat dárbbašeigga doavtterdivššu.</x>
+               <xt>Begge trengte legebehandling.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1012">
+         <l pos="Pron" type="Indef" nr="Pl">guktot</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">begge</t>
+            <xg>
+               <x>Moai letne guktot fitnan Helssegis.</x>
+               <xt>Vi har begge vært en tur i Helsinki.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1074">
+         <l pos="Pron" type="Indef">iežá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det">annen</t>
+            <t pos="Det">annet</t>
+            <xg>
+               <x>In sáhte iežáid váldit mielde dohko.</x>
+               <xt>Jeg kan ikke ta andre med dit.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="7250">
+         <l pos="Pron" type="Indef">juoga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">noe</t>
+            <xg>
+               <x>Ođđa nominašuvnna sáhttá gáibidit jus lea juoga dahkkon formálalaččat boastut.</x>
+               <xt>Ny nominasjon kan man kreve hvis det er gjort noe formelt feil.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2208">
+         <l pos="Pron" type="Indef">juohkehaš</l>
+         <lc>-haččat, -hažžii</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hver</t>
+            <t pos="Pron">enhver</t>
+            <xg>
+               <x>Dain ledje fas juohkehaččas sierra nuohttunbáikkit ja fierbmunbáikkit.</x>
+               <xt>Av dem så hadde hver enkelt egne notsteder og garnsteder.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="930">
+         <l pos="Pron" type="Indef" nr="Pl">moanat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>ca 4-10 stk</re>
+            <t pos="Pron">flere</t>
+            <xg>
+               <x>Mun lean moanaid juo bovden.</x>
+               <xt>Jeg har allerede invitert nokså mange.</xt>
+            </xg>
+            <xg>
+               <x>Mun lean moanaid olbmuid juo bovden.</x>
+               <xt>Jeg har allerede invitert nokså mange mennesker.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="15809">
+         <l pos="Pron" type="Indef">muhtin</l>
+         <lc>muhtimat</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det">en</t>
+            <t pos="Pron">noen</t>
+            <xg>
+               <x>De oahpaheaddji fuomáša muhtima gii viegada klássalanjas, muhto ii oainne gii dat lea.</x>
+               <xt>Så oppdager læreren noen som springer rundt i klasserommet, men hun ser ikke hvem det er.</xt>
+            </xg>
+            <xg>
+               <x>Máŋga sápmelačča bohte ruovttoluotta Norgii, muhtimat fas ásaiduvve Alaskai.</x>
+               <xt>Mange samer kom tilbake til Norge, andre igjen slo seg ned i Alaska.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="15919">
+         <l pos="Pron" type="Indef">muhtun</l>
+         <lc>muhtumat</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Det">en</t>
+            <t pos="Pron">noen</t>
+            <xg>
+               <x>De oahpaheaddji fuomáša muhtuma gii viegada klássalanjas, muhto ii oainne gii dat lea.</x>
+               <xt>Så oppdager læreren noen som springer rundt i klasserommet, men hun ser ikke hvem det er.</xt>
+            </xg>
+            <xg>
+               <x>Máŋga sápmelačča bohte ruovttoluotta Norgii, muhtumat fas ásaiduvve Alaskai.</x>
+               <xt>Mange samer kom tilbake til Norge, andre igjen slo seg ned i Alaska.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="20094">
+         <l pos="Pron" type="Indef">nubbi</l>
+         <lc>nuppit</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">annen</t>
+            <xg>
+               <x>Ja de ii leat lohpi nuppiid borrat.</x>
+               <xt>Og så er det ikke lov å spise de andre.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">ene</t>
+            <xg>
+               <x>Nubbi lea stuoris, nubbi fas unni.</x>
+               <xt>Den ene er stor, den andre er liten.</xt>
+            </xg>
+            <xg>
+               <x>Ja nubbi dáhpáhus leai seammá áiggiid.</x>
+               <xt>Og den andre hendelsen skjedde omtrent til samme tid.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef">goabbáge</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">begge</t>
+            <t pos="phrase">hver av de to</t>
+            <xg>
+               <x>Mun in eahpit ahte ledje 2000 olbmo goappáge konsearttas.</x>
+               <xt>Jeg tviler ikke på at det var 2000 mennesker på hver av de to konsertene.</xt>
+            </xg>
+            <xg>
+               <x>Goappá don válddát? In goappáge!</x>
+               <xt>Hvilken av de to tar du? Ingen av de to!</xt>
+            </xg>
+            <xg>
+               <x>Ii lean šat doarrunvuoibmi goappásge.</x>
+               <xt>Ingen av de to hadde lenger krefter til å slåss.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2571">
+         <l pos="Pron" type="Indef">olus</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">mange personer</t>
+            <xg>
+               <x>Ii dás goit leat fylkkagielddas mihkkege váttisvuođaid, olus lohket.</x>
+               <xt>Det er ihvertfall ikke noen problemer med fylkeskommunen her, sier mange.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef">soamis</l>
+         <lc>soapmásat, soames (olmmoš)</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">noen</t>
+            <t pos="phrase">en eller annen</t>
+            <xg>
+               <x>Muhto soapmásiin ledje áibbas eará beroštumit.</x>
+               <xt>Men noen hadde helt andre interesser.</xt>
+            </xg>
+            <xg>
+               <x>Lei buorre dálki ja soames guolli nai.</x>
+               <xt>Det var fint vær, og det ble noen fisk også.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3199">
+         <l pos="Pron" type="Indef">soames</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">noen</t>
+            <t pos="phrase">en eller annen</t>
+            <xg>
+               <x>Muhto soapmásiin ledje áibbas eará beroštumit.</x>
+               <xt>Men noen hadde helt andre interesser.</xt>
+            </xg>
+            <xg>
+               <x>Lei buorre dálki ja soames guolli nai.</x>
+               <xt>Det var fint vær, og det ble noen fisk også.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" vmax="2">mihkkege</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">noe</t>
+            <xg>
+               <x>Imaštallen gal veaháš manne eadni ii jienát maidege.</x>
+               <xt>Jeg forundret meg litt om hvorfor mor ikke sa noe.</xt>
+            </xg>
+            <xg>
+               <x>Mus ii leat mihkkege eará maid sáhtán geavahit.</x>
+               <xt>Jeg har ikke noe annet som jeg kan bruke.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="12496">
+         <l pos="Pron" type="Indef">mihkke</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">noe</t>
+            <xg>
+               <x>Mis ii leat šat mihkke dadjamušaid dasa.</x>
+               <xt>Vi har ikke lenger noe vi skulle ha sagt til det.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef">guhtege</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hver</t>
+            <xg>
+               <x>Sii mihtidit man ollu badjelis áhpedási guhtege jávri lea.</x>
+               <xt>De måler hvor mye hvert vann er over havnivå.</xt>
+            </xg>
+            <xg>
+               <x>Golbma bargojoavkku leat bargame ođđa orohatjuohkimiin, okta guđege boazoguovllus.</x>
+               <xt>Tre arbeidsgrupper arbeider med den nye reinbeiteinndelinga, en for hvert beiteområde.</xt>
+            </xg>
+            <xg>
+               <x>Gáffádaga eaiggát attii nuvttá gáhkkobihtá guhtiige.</x>
+               <xt>Kaféens eier ga et gratis kakestykke til hver enkelt.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef">iešguhtege</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">hver for seg</t>
+            <xg>
+               <x>Dál leat biddjon iešguđetge ruskkaide kontainerat.</x>
+               <xt>Nå er det plassert containere for hvert slags søppel.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef">giige</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">ingen</t>
+            <xg>
+               <x>Ii min eallindilli buorrán jus giige ii viša maidege bargat.</x>
+               <xt>Vår livssituasjon blir ikke bedre hvis ingen gidder å arbeide noe.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="89">
+         <l pos="Pron" type="Indef">juogamii</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">noe</t>
+            <t pos="phrase">ett eller annet</t>
+            <xg>
+               <x>Muhto juogaman dihte nu ii leat.</x>
+               <xt>Men på grunn av ett eller annet er det ikke slik.</xt>
+            </xg>
+            <xg>
+               <x>Gal juogamasa lea aŋkke ávkin.</x>
+               <xt>Det er sikkert nyttig for ett eller annet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="73">
+         <l pos="Pron" type="Indef">goabbánai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">begge to</t>
+            <xg>
+               <x>Máhtte ja Biera goabbánai bážiiga moala.</x>
+               <xt>Máhtte og Biera skjøt mål begge to.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="35">
+         <l pos="Pron" type="Indef">juobbá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">den ene</t>
+            <xg>
+               <x>Juobbá munnos oažžu gal friddja.</x>
+               <xt>Den ene av oss to får ihvertfall fri.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="7">
+         <l pos="Pron" type="Indef">dábbá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">den andre</t>
+            <xg>
+               <x>duobbá dábbá</x>
+               <xt>den ene etter den andre</xt>
+            </xg>
+            <xg>
+               <x>Áinnas vel reškkii go uhcastáloš ain čorpmahalai duoppá dáppá niidii.</x>
+               <xt>Helst flirte han da den ene etter den andre jenta slo lillestalloen med knyttnevene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="17">
+         <l pg="no" pos="Pron" type="Indef">miinai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">hver enkelt</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3">
+         <l pos="Pron" type="Indef">juobbágoabbá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">den ene av de to</t>
+            <xg>
+               <x>Verddestallama vuođđojurdda lea lonuhangávpi, mas juobbágoabbá lea álo velggolaš nubbái.</x>
+               <xt>Verddesystemets prinsipp er byttehandel hvor den ene alltid er skyldig til den andre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="28">
+         <l pos="Pron" type="Indef">guhtenai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">hver enkelt</t>
+            <xg>
+               <x>Bivdit eai beasa báhčit eanet go guokte lotti guhtenai.</x>
+               <xt>Jegerne får ikke skyte mer enn to fugler hver.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4">
+         <l pos="Pron" type="Indef">duobbá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">den ene</t>
+            <xg>
+               <x>duobbá dábbá</x>
+               <xt>den ene etter den andre</xt>
+            </xg>
+            <xg>
+               <x>Áinnas vel reškkii go uhcastáloš ain čorpmahalai duoppá dáppá niidii.</x>
+               <xt>Helst flirte han da den ene etter den andre jenta slo lillestalloen med knyttnevene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="5134">
+         <l pos="Pron" type="Indef">unnán</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="A">få</t>
+            <xg>
+               <x>Muhtun skuvllain leat unnán oahppit.</x>
+               <xt>I noen skoler er det få elever.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">mii nu</l>
+         <analysis>Pron_Indef_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Indef_Sg_Acc">
+               <wordform>maid nu</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Gen">
+               <wordform>man nu</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Ill">
+               <wordform>masa nu</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Loc">
+               <wordform>mas nu</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Com">
+               <wordform>mainna nu</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Ess">
+               <wordform>manin nu</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">noe</t>
+            <xg>
+               <x>Ii oktage leat heakkaheađis, muhto mii nu dáidá leat dáhpáhuvvan.</x>
+               <xt>Ingen er i livsfare, men noe har trolig skjedd.</xt>
+            </xg>
+            <xg>
+               <x>Láđus gullui mii nu skoahpamin.</x>
+               <xt>Fra låven hørtes noe som raslet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">maid nu</l>
+         <lemma_ref lemmaID="mii nu_pron_indef">mii nu</lemma_ref>
+         <analysis>Pron_Indef_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">noe</t>
+            <xg>
+               <x>Leat vuohttán maid nu Jorbaváris, jáhkkit ahte lea guovža.</x>
+               <xt>Vi har sett spor etter noe i Jorbavárri, vi tror det er en bjørn.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">man nu</l>
+         <lemma_ref lemmaID="mii nu_pron_indef">mii nu</lemma_ref>
+         <analysis>Pron_Indef_Sg_Gen</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">noe</t>
+            <xg>
+               <x>Muhtin logaldalli boahtá muitalit man nu miellagiddevaš fáttá birra.</x>
+               <xt>En foreleser kommer for å fortelle om et eller annet interessant tema.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">masa nu</l>
+         <lemma_ref lemmaID="mii nu_pron_indef">mii nu</lemma_ref>
+         <analysis>Pron_Indef_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">til noe</t>
+            <xg>
+               <x>Ruhtaskeaŋkka gal háliidan geavahit masa nu earái, nu go mátkkošteapmái.</x>
+               <xt>Pengegaven ønsker jeg å bruke på noe annet, slik som reising.</xt>
+            </xg>
+            <xg>
+               <x>Lea buorre ahte juoba masa nu orun dohkkemin.</x>
+               <xt>Det er bra at jeg i det minste ser ut til å kunne brukes til noe.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">mas nu</l>
+         <lemma_ref lemmaID="mii nu_pron_indef">mii nu</lemma_ref>
+         <analysis>Pron_Indef_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">av noe</t>
+            <xg>
+               <x>Dát veahkkeneavvu lea mas nu ráhkaduvvon, muhto mun in dieđe mii dat lea.</x>
+               <xt>Dette hjelpemiddelet er laget av noe. men jeg vet ikke hva det er.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">mainna nu</l>
+         <lemma_ref lemmaID="mii nu_pron_indef">mii nu</lemma_ref>
+         <analysis>Pron_Indef_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">med noe</t>
+            <xg>
+               <x>Mainna nu Elle dáidá gal leat boahtán.</x>
+               <xt>Med noe har Elle vel kommet med.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">manin nu</l>
+         <lemma_ref lemmaID="mii nu_pron_indef">mii nu</lemma_ref>
+         <analysis>Pron_Indef_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">som noe</t>
+            <xg>
+               <x>Manin nu dat áigu šaddat, go geargá skuvllas.</x>
+               <xt>Noe skal han bli, når han blir ferdig med skolen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">vaikko mii</l>
+         <analysis>Pron_Indef_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Indef_Sg_Acc">
+               <wordform>vaikko maid</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Gen">
+               <wordform>vaikko man</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Ill">
+               <wordform>vaikko masa</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Loc">
+               <wordform>vaikko mas</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Com">
+               <wordform>vaikko mainna</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Ess">
+               <wordform>vaikko manin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">om så hva</t>
+            <xg>
+               <x>Mus lea vaikko mii dás.</x>
+               <xt>Jeg har hva som helst her.</xt>
+            </xg>
+            <xg>
+               <x>Somámus mánnávuođamuitu lea reahkaburgin go doppe lei vaikko mii gávdnamis, sihke njálgát ja
+               biktasat.</x>
+               <xt>Det morsomste barndomsminnet var å rote i sleden fordi der var om så hva å finne, både godteri og
+               klær.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">vaikko maid</l>
+         <lemma_ref lemmaID="vaikko mii_pron_indef">vaikko mii</lemma_ref>
+         <analysis>Pron_Indef_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">om så hva</t>
+            <xg>
+               <x>Rieban doalvu vaikko maid bidjui, dadjá Eriksen.</x>
+               <xt>Reven fører hva som helst til hiet, sier Eriksen.</xt>
+            </xg>
+            <xg>
+               <x>Luosas han sáhttá vaikko maid ráhkadit.</x>
+               <xt>Av laksen kan man jo lage hva som helst.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">vaikko man</l>
+         <lemma_ref lemmaID="vaikko mii_pron_indef">vaikko mii</lemma_ref>
+         <analysis>Pron_Indef_Sg_Gen</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">om så hvor</t>
+            <xg>
+               <x>Áddjá han lea vaikko man boaris juo, muhto dat ii gal hehtte su buori barggu bargamis.</x>
+               <xt>Bestefar er jo om så hvor gammel allerede, men det hindrer ham ikke fra å gjøre en god jobb.</xt>
+            </xg>
+            <xg>
+               <x>Mun oidnen vaikko man ollu olbmuid gávpogis.</x>
+               <xt>Jeg så om så hvor mye folk i byen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">vaikko masa</l>
+         <lemma_ref lemmaID="vaikko mii_pron_indef">vaikko mii</lemma_ref>
+         <analysis>Pron_Indef_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">til hva som helst</t>
+            <xg>
+               <x>Dál fertet leat gearggus vaikko masa.</x>
+               <xt>Nå må du være klar for hva som helst.</xt>
+            </xg>
+            <xg>
+               <x>Dán leavgga sáhttá vaikko masa geavahit.</x>
+               <xt>Dette flagget kan brukes til hva som helst.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">vaikko mas</l>
+         <lemma_ref lemmaID="vaikko mii_pron_indef">vaikko mii</lemma_ref>
+         <analysis>Pron_Indef_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">om så hvor</t>
+            <xg>
+               <x>Vaikko mas leaččat leamaš mielde, de fertet almmatge dán geahččaleami čađahit.</x>
+               <xt>Om så hva du har vært med på, må du likevel gjennomføre denne prøven.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">vaikko mainna</l>
+         <lemma_ref lemmaID="vaikko mii_pron_indef">vaikko mii</lemma_ref>
+         <analysis>Pron_Indef_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">om så med hvilken</t>
+            <xg>
+               <x>Don fertet mátkkoštit lulás vaikko mainna.</x>
+               <xt>Du må reise sørover om så med hva.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">vaikko manin</l>
+         <lemma_ref lemmaID="vaikko mii_pron_indef">vaikko mii</lemma_ref>
+         <analysis>Pron_Indef_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">om så hvordan</t>
+            <xg>
+               <x>Gal mu nai gohčodedje vaikko manin skuvllas.</x>
+               <xt>Også meg kalte de nok for hva som helst på skolen.</xt>
+            </xg>
+            <xg>
+               <x>Golggotmánu 31. beaivvi sáhttet sihke mánát ja ollesolbmot gárvodit vaikko manin ja vázzit dáluin ja
+               jearrat njálgáid dahje gáhkuid.</x>
+               <xt>31. oktober kan både barn og voksne kle seg om så hvordan og gå fra hus til hus og spørre etter
+               goderi eller kaker.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">gii nu</l>
+         <analysis>Pron_Indef_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Indef_Sg_Acc/Gen">
+               <wordform>gean nu</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Ill">
+               <wordform>geasa nu</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Loc">
+               <wordform>geas nu</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Sg_Com">
+               <wordform>geainna nu</wordform>
+            </analysis>
+            <analysis ms="Pron_Indef_Ess">
+               <wordform>geanin nu</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">noen</t>
+            <xg>
+               <x>Jus guoli áiggošedje bivddestit, de sii fertejit oastit jándorkoartta seamma go gii nu eará golgolaš
+               guovllus.</x>
+               <xt>Hvis de ønsker å fiske fisk, må de kjøpe døgnkort slik som alle andre omstreifere i området.</xt>
+            </xg>
+            <xg>
+               <x>Láđus gullui gii nu skoahpamin. Lei go son dat Elle?</x>
+               <xt>Fra låven hørtes noen som raslet. Tro om det var Elle?</xt>
+            </xg>
+            <xg>
+               <x>Gii nu lea váidán lobihis biilavuodjima politiijaide.</x>
+               <xt>Noen har anmeldt den ulovlige bilkjøringen til politiet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">gean nu</l>
+         <lemma_ref lemmaID="gii nu_pron_indef">gii nu</lemma_ref>
+         <analysis>Pron_Indef_Sg_Acc</analysis>
+         <analysis>Pron_Indef_Sg_Gen</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">noen</t>
+            <xg>
+               <x>Gili olbmot dárbbašit gean nu gii sáhtášii jođánit čoavdit dán ášši.</x>
+               <xt>Bygdefolket trenger noen som fort kan løse denne saken.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">geasa nu</l>
+         <lemma_ref lemmaID="gii nu_pron_indef">gii nu</lemma_ref>
+         <analysis>Pron_Indef_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">til noen</t>
+            <xg>
+               <x>Viimmat son ge lei geasa nu ávkin.</x>
+               <xt>Endelig var Elle til nytte for noen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">geas nu</l>
+         <lemma_ref lemmaID="gii nu_pron_indef">gii nu</lemma_ref>
+         <analysis>Pron_Indef_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">av noen</t>
+            <xg>
+               <x>Livččii jallodat gáddit ahte mus dahje geas nu earás livčče miella dan bargat.</x>
+               <xt>Det hadde vært dumt å tro at jeg eller noen andre har lyst til å gjøre det.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">geainna nu</l>
+         <lemma_ref lemmaID="gii nu_pron_indef">gii nu</lemma_ref>
+         <analysis>Pron_Indef_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">med noen</t>
+            <xg>
+               <x>Jus ovttasge lea dárbu geainna nu háleštit dáhpáhusa birra, de lea mis doppe olmmoš geainna sáhttá
+               váldit oktavuođa</x>
+               <xt>Hvis noen har behov for å prate med noen om hendelsen, så har vi folk der som man kan ta kontakt
+               med.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Indef" pg="no">geanin nu</l>
+         <lemma_ref lemmaID="gii nu_pron_indef">gii nu</lemma_ref>
+         <analysis>Pron_Indef_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Indef">som noen</t>
+            <xg>
+               <x>Geanin nu dat logai dan olbmo, muhto in muitte šat geanin.</x>
+               <xt>Hun sa hvem han var, men jeg husker ikke lenger hvem.</xt>
+            </xg>
+            <xg>
+               <x>Háliidan leat geanin nu.</x>
+               <xt>Jeg vil være en eller annen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1532">
+         <l pg="no" pos="Pron" type="Indef">goabbat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">hver av to</t>
+            <xg>
+               <x>Sii doalahit dálá organiserema mas lea okta rektor goabbatge skuvllas.</x>
+               <xt>De fortsetter dagens organisering med en rektor på hver av de to skolene.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">hver sin</t>
+            <xg>
+               <x>Dán áššis orrot hálddahus ja stivra goabbat oaivilis.</x>
+               <xt>I denne saken virker administrasjonen og styret å ha hver sin mening.</xt>
+            </xg>
+            <xg>
+               <x>De leigga oastán goabbat bohttala cola.</x>
+               <xt>Så hadde de to kjøpt hver sin flaske cola.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="604">
+         <l pg="no" pos="Pron" type="Indef">guhtet</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">enhver</t>
+            <xg>
+               <x>- Mat leat dát? jerre guhtet guoimmisteaset.</x>
+               <xt>- Hva er dette? spurte de hverandre.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">hver sin</t>
+            <xg>
+               <x>De manne sii guhtet guovlluidasaset.</x>
+               <xt>Så gikk de hver sin veg.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pg="no" pos="Pron" type="Indef">ihkinassii</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">som helst</t>
+            <xg>
+               <x>mii ihkinassii</x>
+               <xt>hva som helst</xt>
+            </xg>
+            <xg>
+               <x>gos ihkinassii</x>
+               <xt>hvor som helst</xt>
+            </xg>
+            <xg>
+               <x>Norggas lei buot sámi mánáin vuoigatvuohta oažžut oahpahusa sámegielas vuođđoskuvllas gos ihkinassii
+               orro.</x>
+               <xt>I Norge hadde alle samiske barn rett til å få undervisning i samisk i grunnskolen uansett hvor de
+               bodde.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="37729">
+         <l pg="no" pos="Pron" type="Indef">buot</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="A">all</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1310">
+         <l pg="no" pos="Pron" type="Indef">eanas</l>
+         <lc>eatnasat</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">størsteparten</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">de fleste</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="365">
+         <l pg="no" pos="Pron" type="Indef">eatnat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">mye</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pg="no" pos="Pron" type="Indef">gallát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">hvilken</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="141">
+         <l pg="no" pos="Pron" type="Indef">gallis</l>
+         <lc>gallásat</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">noen</t>
+            <t pos="Pron">mange</t>
+            <t pos="phrase">hvor mange</t>
+            <xg>
+               <x>Gallis leat?</x>
+               <xt>Hvor mange mennesker er det?</xt>
+            </xg>
+            <xg>
+               <x>Eai leat gallis.</x>
+               <xt>Det er ikke mange mennesker.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="17044">
+         <l pg="no" pos="Pron" type="Indef">juohke</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hver</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="16142">
+         <l pg="no" pos="Pron" type="Indef">seammá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">samme</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="981">
+         <l pg="no" pos="Pron" type="Indef">goappaš</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">begge to</t>
+            <xg>
+               <x>Árvolassáneapmi lei jagis 1997 sullii seamma dásis goappaš riikkain.</x>
+               <xt>Verdistigningen var i 1997 omtrent på samme nivå i begge landa.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

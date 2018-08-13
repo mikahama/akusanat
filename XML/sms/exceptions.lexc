@@ -1,0 +1,415 @@
+!! Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+!! else. This file contains all enumerated word forms that cannot reasonably be
+!! created from lexical data by regular inflection. Usually there should be next
+!! to none exceptions, it's always better to have a paradigm that covers only
+!! one or few words than an exception since these will not work nicely with e.g.
+!! compounding scheme or possibly many end applications.
+
+LEXICON EXCEPTIONS
+
+!! IRREGULAR ADJECTIVES
+jõnn+A+Comp+Attr:šuur»ab # ;
+jõnn+A+Superl+Attr:šuur»mõs # ;
+jõnn+A+Comp:šuur»ab NMN_AANAR ;
+jõnn+A+Superl:šuur»mõs NMN_SAJOS ;
+
+kuʹǩǩ+A+Attr:kuʹǩes # ;
+
+
+!! IRREGULAR DETERMINERS
+nåkkam+Det+Attr:nåkam # ;
+tõt+Det+Dem+Sg+Com:tõiʹnn # ;
+tät+Det+Dem+Sg+Com:täiʹnn	# ;
+tut+Det+Dem+Sg+Com:tuiʹnn	# ;
+tõt+Det+Dem+Pl+Loc:tõiʹnn # ;
+tät+Det+Dem+Pl+Loc:täiʹnn	# ;
+tut+Det+Dem+Pl+Loc:tuiʹnn	# ;
+
+mii+Pron+Interr+Sg+Com:mâiʹnn       # ;
+ǩii+Pron+Interr+Sg+Com:ǩeäiʹnn       # ;
+mii+Pron+Rel+Sg+Com:mâiʹnn       # ;
+ǩii+Pron+Rel+Sg+Com:ǩeäiʹnn       # ;
+
+mii+Pron+Interr+Pl+Loc:mâiʹnn       # ;
+ǩii+Pron+Interr+Pl+Loc:ǩeäiʹnn       # ;
+mii+Pron+Rel+Pl+Loc:mâiʹnn       # ;
+ǩii+Pron+Rel+Pl+Loc:ǩeäiʹnn       # ;
+
+!! IRREGULAR NOUNS
+jeeʹel+N+Sg+Nom:jeeʹel K ;
+jeeʹel+N:jeeʹel R ;
+
+
+!! Some verbs have variant forms:
+!!€gt-norm: variant forms
+!!€ leämmaž:     leeʹd+V+PrfPrc
+!!€ leämma:      leeʹd+V+PrfPrc
+
+leeʹd+V+PrfPrc:leämˈmaž K ; ! check this 2016-05-05
+leeʹd+V+PrfPrc:leämˈmaš K ;
+leeʹd+V+PrfPrc:leämˈma K ;
+
+leeʹd:l V_LEEQD ;
+
+!! The verb of negation
+ij: V-NEG_IJ ;
+iʹlla+V+Neg+Ind+Prs+Sg3:iʹllak K ;
+iʹlla+V+Neg+Ind+Prs+Sg3:iʹlla K ;
+iʹlla+V+Neg+Ind+Prs+Sg3:iʹlleäkˈku K ;
+iʹlla+V+Neg+Ind+Prt+Sg3:iʹlleäm K ;
+iʹlla+V+Neg+Ind+Prt+Sg3:iʹlleämˈma K ;
+iʹlla+V+Neg+Ind+Prt+Pl3:jeäʹlääm K ;
+iʹlla+V+Neg+Cond+Sg3:iʹlleʹjje K ;
+iʹlla+V+Neg+Pot+Sg3:iʹlleʹžže K ;
+
+
+!! PREFIXES for nouns
+ceägg+Prefix+CmpNP/Pref:ceägg Rreal ;
+eiʹdde+Prefix+CmpNP/Pref:eiʹdde Rreal ;
+frijj+Prefix+CmpNP/Pref:frijj Rreal ;
+juõllsuõrmm+Prefix+CmpNP/Pref:juõllsuõrmm Rreal ;
+juõllčâʹlmm+Prefix+CmpNP/Pref:juõllčâʹlmm Rreal ;
+juʹll+Prefix+CmpNP/Pref:juʹll Rreal ;
+jâkk+Prefix+CmpNP/Pref:jâkk Rreal ;
+jåårǥ+Prefix+CmpNP/Pref:jåårǥ Rreal ;
+kaʹllj+Prefix+CmpNP/Pref:kaʹllj Rreal ;
+kruʹŋǩǩ+Prefix+CmpNP/Pref:kruʹŋǩǩ Rreal ;
+kudd+Prefix+CmpNP/Pref:kudd Rreal ;
+kuäʹstt+Prefix+CmpNP/Pref:kuäʹstt Rreal ;
+! CHECKME
+kâuʹrr+Prefix+CmpNP/Pref:kâuʹrr Rreal ;
+!
+kääv+Prefix+CmpNP/Pref:kääv Rreal ;
+käʹrŋŋ+Prefix+CmpNP/Pref:käʹrŋŋ Rreal ;
+kååʹmeǩ+Prefix+CmpNP/Pref:kååʹmeǩ Rreal ;
+kåʹšǩǩ+Prefix+CmpNP/Pref:kåʹšǩǩ Rreal ;
+kõõskraajjâm+Prefix+CmpNP/Pref:kõõskraajjâm Rreal ;
+leiʹǧǧ+Prefix+CmpNP/Pref:leiʹǧǧ Rreal ;
+lääsk+Prefix+CmpNP/Pref:lääsk Rreal ;
+mieʹtt+Prefix+CmpNP/Pref:mieʹtt Rreal ;
+mââi+Prefix+CmpNP/Pref:mââi Rreal ;
+mååsk+Prefix+CmpNP/Pref:mååsk Rreal ;
+njeʹǩǩ+Prefix+CmpNP/Pref:njeʹǩǩ Rreal ;
+njäʹbll+Prefix+CmpNP/Pref:njäʹbll Rreal ;
+ooud+Prefix+CmpNP/Pref:ooud Rreal ;
+oudd+Prefix+CmpNP/Pref:oudd Rreal ;
+pann+Prefix+CmpNP/Pref:pann Rreal ;
+peʹlbb+Prefix+CmpNP/Pref:peʹlbb Rreal ;
+puäst+Prefix+CmpNP/Pref:puäst Rreal ;
+pââi+Prefix+CmpNP/Pref:pââi Rreal ;
+pâʹsttlõspääʹnn+Prefix+CmpNP/Pref:pâʹsttlõspääʹnn Rreal ;
+pååđ+Prefix+CmpNP/Pref:pååđ Rreal ;
+påʹnnj+Prefix+CmpNP/Pref:påʹnnj Rreal ;
+sitt+Prefix+CmpNP/Pref:sitt Rreal ;
+skuʹrčč+Prefix+CmpNP/Pref:skuʹrčč Rreal ;
+sååʹtt+Prefix+CmpNP/Pref:sååʹtt Rreal ;
+sǩeʹlŋŋ+Prefix+CmpNP/Pref:sǩeʹlŋŋ Rreal ;
+tueʹles+Prefix+CmpNP/Pref:tueʹles Rreal ;
+tueʹǧǧ+Prefix+CmpNP/Pref:tueʹǧǧ Rreal ;
+tuäʹres+Prefix+CmpNP/Pref:tuäʹres Rreal ;
+tâârǥ+Prefix+CmpNP/Pref:tâârǥ Rreal ;
+tåʹrǩǩ+Prefix+CmpNP/Pref:tåʹrǩǩ Rreal ;
+tõõrǥ+Prefix+CmpNP/Pref:tõõrǥ Rreal ;
+veʹll+Prefix+CmpNP/Pref:veʹll Rreal ;
+veʹnn+Prefix+CmpNP/Pref:veʹnn Rreal ;
+vieʹmm+Prefix+CmpNP/Pref:vieʹmm Rreal ;
+vueʹstt+Prefix+CmpNP/Pref:vueʹstt Rreal ;
+vuäʹljs+Prefix+CmpNP/Pref:vuäʹljs Rreal ;
+vuäʹls+Prefix+CmpNP/Pref:vuäʹls Rreal ;
+vällj+Prefix+CmpNP/Pref:vällj Rreal ;
+âiʹdde+Prefix+CmpNP/Pref:âiʹdde Rreal ;
+ââʹjjpeiʹvv+Prefix+CmpNP/Pref:ââʹjjpeiʹvv Rreal ;
+ääv+Prefix+CmpNP/Pref:ääv Rreal ;
+äävainjäʹlmm+Prefix+CmpNP/Pref:äävainjäʹlmm Rreal ;
+äävnjäʹlmm+Prefix+CmpNP/Pref:äävnjäʹlmm Rreal ;
+ålgg+Prefix+CmpNP/Pref:ålgg Rreal ;
+åʹdnnjčâʹlmm+Prefix+CmpNP/Pref:åʹdnnjčâʹlmm Rreal ;
+õõldâs+Prefix+CmpNP/Pref:õõldâs Rreal ;
+čiʹǯs+Prefix+CmpNP/Pref:čiʹǯs Rreal ;
+čiʹǯǯ+Prefix+CmpNP/Pref:čiʹǯǯ Rreal ;
+čokk+Prefix+CmpNP/Pref:čokk Rreal ;
+čuõʹvves+Prefix+CmpNP/Pref:čuõʹvves Rreal ;
+šäʹǩǩ+Prefix+CmpNP/Pref:šäʹǩǩ Rreal ;
+
+
+!! Spelling errors
+puõʹtti+Err/Orth:puõtti  N_PRSPRC-VWCC-I ;
+
+!! Foreign words
+että+Err/Lex+OLang/FIN:että CS_ ;
+mutta+Err/Lex+OLang/FIN:mutta CS_ ;
+
+
+!! FROM FORMER .lexc CONTENT
+
+
+!! !!!Skolt Saami adjectives
+
+!! OUR LONG-TERM GOAL IS NOT TO ADD STEMS MANUALLY TO THIS FILE
+!! Instead we want to update the dictionary sms2X/src/a_sms2X.xml, 
+!! from where the present lexc files will be regularly updated by 
+!! exporting (we need a script for this).
+
+
+!! !!!Skolt Saami adpositions
+
+
+LEXICON Adposition
+räjja PO_ ;
+mieʹldd PO_ ;
+diõtt PO_ ;
+årra PO_ ;
+
+
+!! !!!Skolt Saami adverbs
+
+!LEXICON Adverb
+!! The lexicon ''@LEXNAME@'' contains adverbs.
+!! They are taken from [http://www.uta.fi/~km56049/same/skolt/koltansaame.html]
+
+
+!! !!!Skolt Saami Conjunctions 
+
+
+LEXICON Conjunction  
+!! The lexicon ''@LEXNAME@'' lists the conjunction
+leašša CC_ "but / mutta, vaan" ; ! WHAT IS THIS 2017-05-01
+
+
+
+!! !!!Skolt Saami Interjections 
+
+
+LEXICON ij         
+!! The lexicon ''@LEXNAME@'' gives the tag __+Interj__
++Interj: # ;           
+
+
+LEXICON Interjection   
+!! The lexicon ''@LEXNAME@'' lists the interjections
+ai ij ;            !!= * @CODE@
+beâddaa ij "voi kauhistus" ;
+nä ij "no" ;
+no ij "no" ;
+nu ij "no" ;
+ne ij "no" ;
+näʹde ij "no sitten" ;
+oi ij "oi" ;
+tiõrv ij "hei" ;
+vot ij "no niin" ;
+vuõi ij "voi" ;
+vui ij "voi" ;
+voi ij "voi" ;
+oi ij "voi" ;
+
+
+
+
+
+!! !!!Skolt Saami Particles
+
+
+LEXICON Particle 
+!! !!List of particles in the lexicon @LEXNAME@
+
+ges PCLE_ ; !!= @CODE@
+
+!! !!unclear whether these are really particles
+joo PCLE_ ; !!from a song
+
+
+!! !!!Propernoun lexicon, Skolt Sámi specific names 
+
+
+LEXICON ProperNoun
+!! The lexicon ''@LEXNAME@'' lists the proper nouns
+
+
+!! !!First part of complex names WHERE DO THESE COMe FROM?? 2015-09-01
+
+!Uʹcc FirstTag ;
+!Joohan FirstTag ;
+!Jõnn FirstTag ;
+
+
+!! !!Ordinary person names
+
+Oʹlssi PROP_ ;
+Onsim PROP_ ;
+
+!! !!Ordinary place names
+
+
+
+!! !!Ordinary misc names
+
+Interreg PROP_ ;
+
+!! !!!Subjunctions
+
+LEXICON Subjunction 
+!! The lexicon ''@LEXNAME@'' lists the subjunctions
+go CS_ ;  !!= * So far it contains only @CODE@
+håʹt% mâka CS_ "if / jos" ;
+ko% mâka CS_ "if / jos" ;
+
+
+
+!! !!!Verb roots
+
+!! Here are the verb types so far:
+
+!! *   5 JURDDED
+!! *  38 KALMMED
+!! *   3 KAMRDED
+!! *   1 LAADDAD
+!! *   1 LEED
+!! *  23 MAINSTED
+!! *   4 SEDGGJED
+!! *   8 V_SILTTEED
+!! *   5 V_SOLLEED
+!! *  18 V_TEEʹMEED
+!! *  53 TEEVVAD
+!! *  25 TIETTED
+!! *  82 VIQQAD
+!! *   7 VOLLJED
+!! *   4 VOOIDAD
+!! *   1 VUEJTED
+
+
+
+
+!! !!!TEST WORDS BEYOND THIS POINT
+!! DO NOT ADD TRANSLATIONS
+!! DO NOT ADD NOTES
+
+
+!!
+jiõccad:jiõccad PRON-REFL-SG2_ ;
+jiõččinad:jiõččinad PRON-REFL-SG2_ ;
+luuzzad:luuzzad PRON-SPAT-SG2_ ;
+ouddsad:ouddsad PRON_ ;
+pirrsad:pirrsad PRON-SPAT-SG2_ ;
+vuâllsad:vuâllsad PRON-SPAT-SG2_ ;
+årrsad:årrsad PRON-SPAT-SG2_ ;
+jieʹččen:jieʹččen PRON-REFL-PL1_ ;
+jiijjad:jiijjad PRON-REFL-SG2_ ;
+jiijjan:jiijjan PRON-REFL-SG1_ ;
+jiijjeed:jiijjeed PRON-REFL-PL2_ ;
+jiijjâd:jiijjâd PRON-REFL-PL2_ ;
+jiijjâs:jiijjâs PRON-REFL_ ;
+jiijjâsnalla:jiijjâsnalla PRON_ ;
+jiijjâz:jiijjâz PRON-REFL-PL3_ ;
+jiijjâs:jiijjâs PRON-REFL_ ;
+jiiččan:jiiččan PRON-REFL-SG1_ ;
+jiiʹjjed:jiiʹjjed PRON-REFL-PL2_ ;
+jiiʹjjes:jiiʹjjes PRON-REFL_ ;
+kååʹtt:kååʹtt PRON_ ;
+mii:mii PRON_ ;
+mii-ne:mii-ne PRON_ ;
+mij:mij PRON_ ;
+âlnnan:âlnnan PRON-SPAT-SG1_ ;
+ǩeäʹst-ne:ǩeäʹst-ne PRON_ ;
+ǩeäʹst:ǩeäʹst PRON_ ;
+koozz-ne:koozz-ne PRON_ ;
+koozzaǥ:koozzaǥ PRON_ ;
+koozzaǥ-a:koozzaǥ-a PRON_ ;
+!jijstad:jijstad PRON-REFL-SG2-LOC_ ;
+koozz:koozz PRON_ ;
+kooǥǥ:kooǥǥ PRON_ ;
+kooǥǥ-aa:kooǥǥ-aa PRON_ ;
+koʹst:koʹst PRON_ ;
+koʹst-ne:koʹst-ne PRON_ ;
+koʹstaǥ:koʹstaǥ PRON_ ;
+kuäʹss-ne:kuäʹss-ne PRON_ ;
+kuäʹssaǥ:kuäʹssaǥ PRON_ ;
+kååʹtt-a:kååʹtt-a PRON_ ;
+kååʹtt-ne:kååʹtt-ne PRON_ ;
+mâiʹd:mâiʹd PRON_ ;
+mâiʹd-ne:mâiʹd-ne PRON_ ;
+mäʹhtt-ne:mäʹhtt-ne PRON_ ;
+mäʹhtt-šât:mäʹhtt-šât PRON_ ;
+mäʹhttaǥ:mäʹhttaǥ PRON_ ;
+måtam:måtam PRON_ ;
+jiijjâd:jiijjâd PRON-REFL-PL2_ ;
+jiiččad:jiiččad PRON-REFL-SG2_ ;
+lonnad:lonnad PRON-SPAT-SG2_ ;
+luuʹnned:luuʹnned PRON-SPAT-PL2_ ;
+luʹnned:luʹnned PRON-SPAT-PL2_ ;
+meâldad:meâldd PRON-SPAT-SG2_ ;
+mieʹlded:mieʹlded PRON-SPAT-PL2_ ;
+miõlstad:miõlstad PRON_ ;
+oolad:oolad PRON-SPAT-SG2_ ;
+oolâd:oolâd PRON-SPAT-PL2_ ;
+ââʹlned:ââʹlned PRON_ ;
+jiõcceed:jiõcceed PRON-REFL-PL2_ ;
+jiõččineed:jiõččineed PRON-REFL-PL2_ ;
+jiõččineed:jiõččieed PRON-REFL-PL2_ ;
+pirrseed:pirrseed PRON-SPAT-PL2_ ;
+årrseed:årrseed PRON-SPAT-PL2_ ;
+jiõcceen:jiõcceen PRON-REFL-PL1_ ;
+jiõččineen:jiõččineen PRON-REFL-PL1_ ;
+pirrseen:pirrseen PRON-SPAT-PL1_ ;
+årrseen:årrseen PRON-SPAT-PL1_ ;
+jiõcceez:jiõcceez PRON-REFL-PL3_ ;
+jiõččineez:jiõččineez PRON-REFL-PL3_ ;
+pirrseez:pirrseez PRON-SPAT-PL3_ ;
+årrseez:årrseez PRON-SPAT-PL3_ ;
+âʹlnnen:âʹlnnen PRON-SPAT-PL1_ ;
+jiõcces:jiõcces PRON-REFL_ ;
+jiõččines:jiõččines PRON-REFL_ ;
+ouddses:ouddses PRON_ ;
+pirrses:pirrses PRON_ ;
+årrses:årrses PRON_ ;
+oolâm:oolâm PRON-SPAT-PL1_ ;
+jiijjân:jiijjân PRON-REFL-PL1_ ;
+luuʹnnen:luuʹnnen PRON-SPAT-PL1_ ;
+luʹnnen:luʹnnen PRON-SPAT-PL1_ ;
+mieʹlden:mieʹlden PRON-SPAT-PL1_ ;
+jiijjâz:jiijjâz PRON-REFL-PL3_ ;
+luuʹnnez:luuʹnnez PRON-SPAT-PL3_ ;
+luʹnnez:luʹnnez PRON-SPAT-PL3_ ;
+mieʹldez:mieʹldez PRON-SPAT-PL3_ ;
+oolâz:oolâz PRON-SPAT-PL3_ ;
+luuzzâd:luuzzâd PRON-SPAT-PL2_ ;
+luuzzân:luuzzân PRON-SPAT-PL1_ ;
+luuzzâs:luuzzâs PRON_ ;
+luuzzâz:luuzzâz PRON-SPAT-PL3_ ;
+jijstan:jijstan PRON-REFL-SG1-LOC_ ;
+jijsteed:jijsteed PRON-REFL-PL2-LOC_ ;
+jijsteen:jijsteen PRON-REFL-PL1-LOC_ ;
+jijsteez:jijsteez PRON-REFL-PL3-LOC_ ;
+jijstes:jijstes PRON-REFL-SG3-LOC_ ;
+jiiʹjjez:jiiʹjjez PRON-REFL-PL3_ ;
+jiiʹjjes:jiiʹjjes PRON-REFL-SG3_ ;
+jiõccan:jiõccan PRON-REFL-SG1_ ;
+jiõjjad:jiõjjad PRON-REFL-SG2_ ;
+jiõčč:jiõčč PRON_ ;
+jiõččaidldees:jiõččaidldees PRON_ ;
+jiõččaildes:jiõččaildes PRON_ ;
+jiõččan:jiõččan PRON_ ;
+jiõčča|n:jiõčča|n PRON_ ;
+jiõččinan:jiõččinan PRON_ ;
+jiõččân:jiõččân PRON_ ;
+jičin|an:jičin|an PRON_ ;
+
+!! !!!Skolt Saami Numerals
+
+!!
+!! Lexicon ''@LEXNAME@'' contains ''okta'' only.
+!! CODED BY JACK
+kuttlå-:kuttlå- NUM_ ;
+kuttlåk-:kuttlåk- NUM_ ;
+kuälmadlåkka:kuälmadlåkka NUM_ ;
+kuõʹhtt:kuõʹhtt NUM_ ;
+nelljlo:nelljlo NUM_ ;
+nenjnâmlååǥǥad:nenjnâmlååǥǥad NUM_ ;
+vitumblo:vitumblo NUM_ ;
+
+
+
+!!! THESE ARE WORDS THAT HAVE NOT BEEN TRANSLATED
+!! BUT have most of their Contlex values THIS has a separate DB DON'T TRANSLATE
+
+!vesttmen:vesttmen V_ ;
+!aahni:aahni A_ ;

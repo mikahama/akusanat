@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e src="fad">
+      <lg freq="2">
+         <l pos="N" nr="Pl">bellodatduorggat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">partipisk</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="0">
+         <l pos="N" nr="Pl">dutkansearat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">forskningsinnsats</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="43">
+         <l pos="N" nr="Pl">valáštallandoalut</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">idrettsarrangement</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="10">
+         <l pos="N" nr="Pl">musihkkariemut</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">festspill</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="17">
+         <l pos="N" nr="Pl">seaŋgagávnnit</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">sengetøy</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="5">
+         <l pos="N" nr="Pl">konfirmašundoalut</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>konfirmasjonsselskap</re>
+            <t pos="N">konfirmasjon</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="4">
+         <l pos="N" nr="Pl">dutkkalmasat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">etterforskning</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="27">
+         <l pos="N" nr="Pl">čoakkálmasat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>religiøst møte</re>
+            <t pos="N">møte</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="76">
+         <l pos="N" nr="Pl">čoakkalmasat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>religiøst møte</re>
+            <t pos="N">møte</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="46">
+         <l pos="N" nr="Pl">čállinmearkkat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">tegnsett</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="15">
+         <l pos="N" nr="Pl">mátkkoštangolut</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">reiseutgift</t>
+         </tg>
+      </mg>
+   </e>
+   <e src="fad">
+      <lg freq="60">
+         <l pos="N" nr="Pl">jáffut</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>mel</re>
+            <t pos="N">melsekk</t>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

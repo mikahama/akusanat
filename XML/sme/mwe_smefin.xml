@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual"
+"../../scripts/gt_dictionary.dtd">
+<r id="smefin" xml:lang="sme">
+   <lics xml:space="preserve">
+      <lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic>
+      <ref>Work by Giellatekno at UiT, Kotus in Helsinki,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref>
+      <sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:giellatekno@hum.uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote>
+   </lics>
+   <e>
+      <lg>
+         <l pos="mwe">amma nu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">eikö niin</t>
+            <t pos="mwe">jooko</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">atnit váivin</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">pitää ikävänä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">attášitgo</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">antaisitko</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">badjel rájáid</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">yli rajojen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">bures boahtin</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">tervetuloa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">dakko gokko</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">siitä mistä</t>
+            <t pos="mwe">siinä missä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">dallege</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">silloinkin</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">dallehan</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">silloinhan</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">dallenai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">silloinkin</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">dan botta go</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">sillä aikaa kun</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">dan sivas</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">siitä syystä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">dan vuoro</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">sillä kertaa</t>
+            <t pos="mwe">sillä erää</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">danin go</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">siksi että</t>
+            <t pos="mwe">siksi koska</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">dieinna lágiin</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">sillä tavalla</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">duollet dálle</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">silloin tällöin</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">duođaige</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">todellakaan</t>
+            <t pos="mwe">tosiaankaan</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">duođe eambbo</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">sen enempää</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">earet eará</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">muun muassa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">earáge</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">muutakin</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">galli áigge</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">monenko aikaan</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">goaseai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">lähes</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">gosabat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">mihinkä</t>
+            <t pos="mwe">minnekä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">guhkkin eret</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">kaukana siitä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">guovtte beale</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">kahta puolta</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">ieš alddes</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">itse asiassa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">iežas čierastan</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">itsensä laskeneen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">juohke báikkis</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">joka paikassa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">juohke okta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">jokainen</t>
+            <t pos="mwe">jokaikinen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">leage buorre</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">ole hyvä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">leat fuolas</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">olla huolissaan</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">leat ilus</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">olla iloinen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">leat oidnosis</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">olla näkyvissä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">lihkku lehkos</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">onneksi olkoon</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">man láhkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">millä lailla</t>
+            <t pos="mwe">tavalla</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">mii eará</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">mitä muuta</t>
+            <t pos="mwe">mikä muu</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">nu gohčoduvvon</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">niin sanottu</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">nuge</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">niinkään</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">nuppe beliid</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">toisinpäin</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">nuppe jagi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">seuraavana vuonna</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">olbmo láhkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">kunnolla</t>
+            <t pos="mwe">ihmisiksi</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">olles fártta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">täyttä vauhtia</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">ollu giitu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">paljon kiitoksia</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">ollugo</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">paljonko</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">oppalaš govva</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">kokonaiskuva</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">otná beaivve</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">tämän päivän</t>
+            <t pos="mwe">tänä päivänä</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">ovddežiid ektui</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">entisiin verrattuna</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">ovtta eahket</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">eräänä iltana</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">ovtta láhkai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">eräällä tavalla</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">ovttain báikkiin</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">samoissa paikoissa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">vulos guvlui</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">alaspäin</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">vuorddemat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">odotahan</t>
+            <t pos="mwe">odotapas</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">vuorddesmat</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">odotapas</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">vuos dál</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">ensin nyt</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">váldit oasi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">ottaa osaa</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">áibbas bures</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">aivan hyvin</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">áigá dassái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">aikoja sitten</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="mwe">čađa áiggiid</l>
+      </lg>
+      <mg>
+         <tg xml:lang="fin">
+            <t pos="mwe">kautta aikojen</t>
+            <t pos="mwe">läpi aikojen</t>
+            <t pos="mwe">halki aikojen</t>
+         </tg>
+      </mg>
+   </e>
+</r>

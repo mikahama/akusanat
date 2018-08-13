@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="286351">
+         <l pos="Pron" type="Rel">mii</l>
+         <analysis>Pron_Rel_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Rel_Sg_Acc">
+               <wordform>maid</wordform>
+               <wordform>man</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Gen">
+               <wordform>man</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Ill">
+               <wordform>masa</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Loc">
+               <wordform>mas</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Com">
+               <wordform>mainna</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Ess">
+               <wordform>manin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hva</t>
+            <xg>
+               <x>Mii bat doppe lea?</x>
+               <xt>Hva er så der?</xt>
+            </xg>
+            <xg>
+               <x>Dat mii dáhpáhuvvá, dat dáhpáhuvvá.</x>
+               <xt>Det som skjer, det skjer.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="92730">
+         <l pos="Pron" type="Rel">gii</l>
+         <analysis>Pron_Rel_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Rel_Sg_Acc/Gen">
+               <wordform>gean</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Ill">
+               <wordform>geasa</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Loc">
+               <wordform>geas</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Com">
+               <wordform>geainna</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Ess">
+               <wordform>geanin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hvem</t>
+            <xg>
+               <x>Gii bat don leat?</x>
+               <xt>Hvem er så du?</xt>
+            </xg>
+            <xg>
+               <x>Dološ áigge lei muhtin geafes olmmái gii dávjá finadii báhpa luhtte ánuheame.</x>
+               <xt>I gamle dager var det en fattig mann som ofte var innom og tigget hos presten.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">mat</l>
+         <analysis>Pron_Rel_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Rel_Pl_Acc/Gen">
+               <wordform>maid</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Ill">
+               <wordform>maidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Loc">
+               <wordform>main</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Com">
+               <wordform>maiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Ess">
+               <wordform>manin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hva</t>
+            <xg>
+               <x>Mat leat asteroiidat?</x>
+               <xt>Hva er asteroider?</xt>
+            </xg>
+            <xg>
+               <x>Ohcamat mat bohtet dan áigemeari maŋŋel, eai meannuduvvo.</x>
+               <xt>Søknader som kommer etter den tidsfristen, behandles ikke.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">geat</l>
+         <analysis>Pron_Rel_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Rel_Pl_Acc/Gen">
+               <wordform>geaid</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Ill">
+               <wordform>geaidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Loc">
+               <wordform>geain</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Com">
+               <wordform>geaiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Ess">
+               <wordform>geanin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hvem</t>
+            <xg>
+               <x>Geat leat váldoneavttárat filmmas?</x>
+               <xt>Hvem er hovedrolleinnehaverne i filmen?</xt>
+            </xg>
+            <xg>
+               <x>Áššu humadii máŋgasiin geat eai lean duhtavaččat.</x>
+               <xt>Áššu snakket med mange som ikke var fornøyde.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2077">
+         <l pos="Pron" type="Rel">goabbá</l>
+         <analysis>Pron_Rel_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Rel_Sg_Acc/Gen">
+               <wordform>goappá</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Ill">
+               <wordform>goabbái</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Loc">
+               <wordform>goappás</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Com">
+               <wordform>goappáin</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Ess">
+               <wordform>goabbán</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hvilken av de to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">goappát</l>
+         <analysis>Pron_Rel_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Rel_Pl_Acc/Gen">
+               <wordform>goappáid</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Ill">
+               <wordform>goappáide</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Loc">
+               <wordform>goappáin</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Com">
+               <wordform>goappáiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Ess">
+               <wordform>goabbán</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flertallsord</re>
+            <t pos="Pron">hvilken av de to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="11080">
+         <l pos="Pron" type="Rel">guhte</l>
+         <analysis>Pron_Rel_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Rel_Sg_Acc/Gen">
+               <wordform>guđe</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Ill">
+               <wordform>guhtii</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Loc">
+               <wordform>guđes</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Sg_Com">
+               <wordform>guđiin</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Ess">
+               <wordform>guhten</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>innenfor en avgrenset gruppe</re>
+            <t pos="Pron">hvem</t>
+            <t pos="Pron">hvilken</t>
+            <xg>
+               <x>Guhte lea dán bargan?</x>
+               <xt>Hvem har gjort dette?</xt>
+            </xg>
+            <xg>
+               <x>Guhte seahkka lea losimus?</x>
+               <xt>Hvilken sekk er tyngst?</xt>
+            </xg>
+            <xg>
+               <x>Elle muitalii maid guhte válddii.</x>
+               <xt>Elle fortalte hva hver enkelt tok.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">den som</t>
+            <xg>
+               <x>Kandidáhtta guhte buohccá skuvlaeksámena áigge, ferte dieđihit dan eksámenlanja váldofáktii.</x>
+               <xt>En kandidat som blir syk under skoleeksamen, må underrette hovedvakt i eksamenslokalet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">guđet</l>
+         <analysis>Pron_Rel_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Rel_Pl_Acc/Gen">
+               <wordform>guđiid</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Ill">
+               <wordform>guđiide</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Loc">
+               <wordform>guđiin</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Pl_Com">
+               <wordform>guđiiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Rel_Ess">
+               <wordform>guhten</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere innenfor en avgrenset gruppe</re>
+            <t pos="Pron">hvem</t>
+            <t pos="Pron">hvilke</t>
+            <xg>
+               <x>Guđet leat dán bargan?</x>
+               <xt>Hvem har gjort dette?</xt>
+            </xg>
+            <xg>
+               <x>Guđet fáhcat leat du?</x>
+               <xt>Hvilke votter er dine?</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">de som</t>
+            <xg>
+               <x>Kurssat leat sin várás guđet máhttet veaháš sámegiela ovddežis.</x>
+               <xt>Kursene er ment for dem som kan litt samisk fra før.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Pron" type="Rel">guhtemuš</l>
+         <analysis>Pron_Interr_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Interr_Sg_Nom">
+               <wordform>guhtemuš</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Acc/Gen">
+               <wordform>guđemučča</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Ill">
+               <wordform>guđemužžii</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Loc">
+               <wordform>guđemuččas</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Com">
+               <wordform>guđemuččain</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Ess">
+               <wordform>guđemužžan</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>innenfor en avgrenset gruppe</re>
+            <t pos="Pron">hvem</t>
+            <t pos="Pron">hvilken</t>
+            <xg>
+               <x>Guhtemuš lea dán bargan?</x>
+               <xt>Hvem har gjort dette?</xt>
+            </xg>
+            <xg>
+               <x>Guđemužžii áiggut riŋget?</x>
+               <xt>Til hvem vil du ringe?</xt>
+            </xg>
+            <xg>
+               <x>Guđemuš viesuin orrot olbmot?</x>
+               <xt>I hvilket av husene bor det folk?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Pron" type="Rel">guđemuš</l>
+         <analysis>Pron_Interr_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Interr_Sg_Nom">
+               <wordform>guhtemuš</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Acc/Gen">
+               <wordform>guđemučča</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Ill">
+               <wordform>guđemužžii</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Loc">
+               <wordform>guđemuččas</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Com">
+               <wordform>guđemuččain</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Ess">
+               <wordform>guđemužžan</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>innenfor en avgrenset gruppe</re>
+            <t pos="Pron">hvem</t>
+            <t pos="Pron">hvilken</t>
+            <xg>
+               <x>Guđemuš lea dán bargan?</x>
+               <xt>Hvem har gjort dette?</xt>
+            </xg>
+            <xg>
+               <x>Guđemužžii áiggut riŋget?</x>
+               <xt>Til hvem vil du ringe?</xt>
+            </xg>
+            <xg>
+               <x>Guđemuš viesuin orrot olbmot?</x>
+               <xt>I hvilket av husene bor det folk?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">guđemuččat</l>
+         <analysis>Pron_Interr_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Interr_Pl_Acc/Gen">
+               <wordform>guđemuččaid</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Pl_Ill">
+               <wordform>guđemuččaide</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Pl_Loc">
+               <wordform>guđemuččain</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Pl_Com">
+               <wordform>guđemuččaiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Ess">
+               <wordform>guđemužžan</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere innenfor en avgrenset gruppe</re>
+            <t pos="Pron">hvem</t>
+            <t pos="Pron">hvilke</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="19677">
+         <l nr="Sg" pos="Pron" type="Interr">makkár</l>
+         <analysis>Pron_Interr_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Interr_Sg_Acc/Gen">
+               <wordform>makkára</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Ill">
+               <wordform>makkárii</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Loc">
+               <wordform>makkáris</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Sg_Com">
+               <wordform>makkáriin</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Ess">
+               <wordform>makkárin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hva slags</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Interr">makkárat</l>
+         <analysis>Pron_Interr_Pl_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Interr_Pl_Acc/Gen">
+               <wordform>makkáriid</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Pl_Ill">
+               <wordform>makkáriidda</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Pl_Loc">
+               <wordform>makkáriin</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Pl_Com">
+               <wordform>makkáriiguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Interr_Ess">
+               <wordform>makkárin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hva slags</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Sg" pos="Pron" type="Rel">maid</l>
+         <lemma_ref lemmaID="mii_pron_rel">mii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hva</t>
+            <xg>
+               <x>Maid dagat dáppe?</x>
+               <xt>Hva gjør du her?</xt>
+            </xg>
+            <xg>
+               <x>Máret jurddašii báŋkoloana birra maid galggai máksit odne.</x>
+               <xt>Máret tenkte på banklånet som hun skulle betale idag.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">man</l>
+         <lemma_ref lemmaID="mii_pron_rel">mii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Gen</analysis>
+         <analysis>Pron_Rel_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hva</t>
+            <xg>
+               <x>Man birra čállibehtet?</x>
+               <xt>Hva skriver dere om?</xt>
+            </xg>
+            <xg>
+               <x>Buoskavári guoras lea várri man namma lea Ráhpesvárri.</x>
+               <xt>Ved siden av Buoskavárri er det et fjell som heter Ráhpesvárri.</xt>
+            </xg>
+            <xg>
+               <x>Vižžen mutuvrra, man Niillas lei divvon.</x>
+               <xt>Jeg hentet den motoren som Niillas hadde reparert.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">masa</l>
+         <lemma_ref lemmaID="mii_pron_rel">mii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">til hva</t>
+            <xg>
+               <x>Masa don áiggut dien geavahit?</x>
+               <xt>Hva skal du bruke den til?</xt>
+            </xg>
+            <xg>
+               <x>Joavku čuojaha musihka masa guovdageaidnulaččat liikojit.</x>
+               <xt>Gruppa spiller musikk som folk i Kautokeino liker.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">mas</l>
+         <lemma_ref lemmaID="mii_pron_rel">mii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hvor</t>
+            <xg>
+               <x>Mas leat eanemus vitamiinnat?</x>
+               <xt>Hva har mest vitaminer?</xt>
+            </xg>
+            <xg>
+               <x>Jurdda lea ásahit čállingotti mas leat olles 8 virggi.</x>
+               <xt>Tanken er å etablere et sekretariat som har hele 8 stillinger.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">mainna</l>
+         <lemma_ref lemmaID="mii_pron_rel">mii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">med hva</t>
+            <xg>
+               <x>Mainna lágiin leat vieksát ja gotkkat ovttaláganat?</x>
+               <xt>På hvilken måte er veps og maur likedanne?</xt>
+            </xg>
+            <xg>
+               <x>Dat lea stuora biila mainna lea hui buorre vuodjit.</x>
+               <xt>Det er en stor bil som er god å kjøre med.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">manin</l>
+         <lemma_ref lemmaID="mii_pron_rel">mii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">som hva</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">gean</l>
+         <lemma_ref lemmaID="gii_pron_rel">gii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Gen</analysis>
+         <analysis>Pron_Rel_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hvem</t>
+            <t pos="Pron">hvem sin</t>
+            <xg>
+               <x>Gean ovddasvástádus dat lea?</x>
+               <xt>Hvem sitt ansvar er det?</xt>
+            </xg>
+            <xg>
+               <x>Gean don oidnet?</x>
+               <xt>Hvem så du?</xt>
+            </xg>
+            <xg>
+               <x>Min spábbačiekčit leat lohkan gean sii háliidit hárjeheaddjin.</x>
+               <xt>Våre fotballspillere har sagt hvem de ønsker som trener.</xt>
+            </xg>
+            <xg>
+               <x>Gii diehtá gean miessi dat lea?</x>
+               <xt>Hvem vet hvem sin reinkalv det er?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">geasa</l>
+         <lemma_ref lemmaID="gii_pron_rel">gii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">til hvem</t>
+            <xg>
+               <x>Geasa dat lea ávkin?</x>
+               <xt>For hvem er det nyttig?</xt>
+            </xg>
+            <xg>
+               <x>Dábálaš olbmui lea váttis diehtit geasa galgá jáhkkit dán áššis.</x>
+               <xt>For vanlige folk er det vanskelig å vite hvem man skal tro på i denne saken.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">geas</l>
+         <lemma_ref lemmaID="gii_pron_rel">gii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hvem (har)</t>
+            <xg>
+               <x>Geas lea nu ollu ruhta?</x>
+               <xt>Hvem har så mye penger?</xt>
+            </xg>
+            <xg>
+               <x>Virgái ohcat olbmo geas lea alit ekonomiija- ja hálddašanoahppu.</x>
+               <xt>Til stillingen søker vi en person som har høyere utdanning i økonomi og administrasjon.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">geainna</l>
+         <lemma_ref lemmaID="gii_pron_rel">gii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">med hvem</t>
+            <xg>
+               <x>Geainna bat mun dál human?</x>
+               <xt>Hvem snakker jeg så med nå?</xt>
+            </xg>
+            <xg>
+               <x>Son lei gonagasnieida geainna ii oktage birgen.</x>
+               <xt>Hun var kongsdatteren som ingen kunne berges med.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">geanin</l>
+         <lemma_ref lemmaID="gii_pron_rel">gii</lemma_ref>
+         <analysis>Pron_Rel_Sg_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">som hvem</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Rel">maid</l>
+         <lemma_ref lemmaID="mat_pron_rel">mat</lemma_ref>
+         <analysis>Pron_Rel_Pl_Gen</analysis>
+         <analysis>Pron_Rel_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hva</t>
+            <xg>
+               <x>Dás beasat lohkat muhtin áššiid maid birra Áššu lea čállán mannan jagi.</x>
+               <xt>Her får du lese om noen saker som Áššu har skrevet om det siste året.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">maidda</l>
+         <lemma_ref lemmaID="mat_pron_rel">mat</lemma_ref>
+         <analysis>Pron_Rel_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">til hva</t>
+            <xg>
+               <x>Buot dát ledje atnudávvirat, maidda beaivválaččat lei dárbu.</x>
+               <xt>Alt dette var bruksgjenstander som det var bruk for til hverdags.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">main</l>
+         <lemma_ref lemmaID="mat_pron_rel">mat</lemma_ref>
+         <analysis>Pron_Rel_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">av hva</t>
+            <xg>
+               <x>Buohkat leat ieža oastán ávdnasiid main gorrot buvssaid.</x>
+               <xt>Alle har selv kjøpt materialer som de syr bukser av.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">maiguin</l>
+         <lemma_ref lemmaID="mat_pron_rel">mat</lemma_ref>
+         <analysis>Pron_Rel_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">med hva</t>
+            <xg>
+               <x>Dathan leat áššit maiguin Sámediggi bargá.</x>
+               <xt>Det er saker som Sametinget arbeider med.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">geaid</l>
+         <lemma_ref lemmaID="geat_pron_rel">geat</lemma_ref>
+         <analysis>Pron_Rel_Pl_Gen</analysis>
+         <analysis>Pron_Rel_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hvem sin</t>
+            <t pos="Pron">hvem</t>
+            <xg>
+               <x>Geaid Ráissa hárjeheaddji háliida jovkui?</x>
+               <xt>Hvem vil Reisas trener ha på laget?</xt>
+            </xg>
+            <xg>
+               <x>Geaid sárgumat leat čájáhusas?</x>
+               <xt>Hvem har tegninger på utstillinga?</xt>
+            </xg>
+            <xg>
+               <x>Doppe leat vihtta čiekči geaid Ráisa háliida iežaset jovkui.</x>
+               <xt>Der er det fem fotballspillere som Reisa vil på laget.</xt>
+            </xg>
+            <xg>
+               <x>Vuolábealde oainnát sin namaid geaid sárgumat leat čájáhusas.</x>
+               <xt>Nedenfor ser du navnene til dem som har tegninger på utstillinga.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">geaidda</l>
+         <lemma_ref lemmaID="geat_pron_rel">geat</lemma_ref>
+         <analysis>Pron_Rel_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">til hvem</t>
+            <xg>
+               <x>Geaidda bohccot gulle?</x>
+               <xt>Til hvem tilhørte reinen?</xt>
+            </xg>
+            <xg>
+               <x>Dađi bahábut ii lean vejolaš duođaštit, geaidda bohccot gulle.</x>
+               <xt>Dessverre var det ikke mulig å bevise hvem reinen tilhørte.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">geain</l>
+         <lemma_ref lemmaID="geat_pron_rel">geat</lemma_ref>
+         <analysis>Pron_Rel_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hvem (har)</t>
+            <xg>
+               <x>Geain lea dakkár oahppu?</x>
+               <xt>Hvem har slik utdanning?</xt>
+            </xg>
+            <xg>
+               <x>Doppe leat olbmot geain lea oahppu ja guhkes bargovásáhus.</x>
+               <xt>Der er det folk som har utdanning og lang arbeidsansiennitet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">geaiguin</l>
+         <lemma_ref lemmaID="geat_pron_rel">geat</lemma_ref>
+         <analysis>Pron_Rel_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">med hvem</t>
+            <xg>
+               <x>Geaiguin dii lehpet hárjehallan?</x>
+               <xt>Hvem har dere trent med?</xt>
+            </xg>
+            <xg>
+               <x>Šaddá hui somá čiekčat sin vuostá geaiguin mii leat fárrolaga hárjehallan.</x>
+               <xt>Det blir veldig morsomt å spille fotball mot dem som vi har trent i lag med.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">goappá</l>
+         <lemma_ref lemmaID="goabbá_pron_rel">goabbá</lemma_ref>
+         <analysis>Pron_Rel_Sg_Gen</analysis>
+         <analysis>Pron_Rel_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hvilken av de to</t>
+            <t pos="Pron">hvilken av de to sin</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">goabbái</l>
+         <lemma_ref lemmaID="goabbá_pron_rel">goabbá</lemma_ref>
+         <analysis>Pron_Rel_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">til hvilken av de to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">goappás</l>
+         <lemma_ref lemmaID="goabbá_pron_rel">goabbá</lemma_ref>
+         <analysis>Pron_Rel_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hvilken av de to (har)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Sg" pos="Pron" type="Rel">goappáin</l>
+         <lemma_ref lemmaID="goabbá_pron_rel">goabbá</lemma_ref>
+         <analysis>Pron_Rel_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">med hvilken av de to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">goabbán</l>
+         <lemma_ref lemmaID="goabbá_pron_rel">goabbá</lemma_ref>
+         <analysis>Pron_Rel_Sg_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">som hvilken av de to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">goappáid</l>
+         <lemma_ref lemmaID="goappát_pron_rel">goappát</lemma_ref>
+         <analysis>Pron_Rel_Pl_Gen</analysis>
+         <analysis>Pron_Rel_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hvilken av de to sin</t>
+            <t pos="Pron">hvilken av de to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">goappáide</l>
+         <lemma_ref lemmaID="goappát_pron_rel">goappát</lemma_ref>
+         <analysis>Pron_Rel_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">til hvilken av de to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Rel">goappáin</l>
+         <lemma_ref lemmaID="goappát_pron_rel">goappát</lemma_ref>
+         <analysis>Pron_Rel_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hvilken av de to (har)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">goappáiguin</l>
+         <lemma_ref lemmaID="goappát_pron_rel">goappát</lemma_ref>
+         <analysis>Pron_Rel_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">med hvilken av de to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">guđe</l>
+         <lemma_ref lemmaID="guhte_pron_rel">guhte</lemma_ref>
+         <analysis>Pron_Rel_Sg_Gen</analysis>
+         <analysis>Pron_Rel_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hvem</t>
+            <t pos="Pron">hvem sin</t>
+            <t pos="Pron">hvilken</t>
+            <xg>
+               <x>Guđe riikkas don leat eret?</x>
+               <xt>Hvilket land kommer du fra?</xt>
+            </xg>
+            <xg>
+               <x>In leat mearridan guđe presideantaevttohasa jienastan.</x>
+               <xt>Jeg har ikke bestemt meg for hvilken presidentkandidat jeg skal stemme på.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">guhtii</l>
+         <lemma_ref lemmaID="guhte_pron_rel">guhte</lemma_ref>
+         <analysis>Pron_Rel_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">til hvem</t>
+            <xg>
+               <x>Guhtiige galgá 50 ruvdno bálkán.</x>
+               <xt>Hver skal ha 50 kroner i lønn.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">guđes</l>
+         <lemma_ref lemmaID="guhte_pron_rel">guhte</lemma_ref>
+         <analysis>Pron_Rel_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hvem (har)</t>
+            <xg>
+               <x>Mii fertet geavahit daid čanastagaid mat guđesge leat.</x>
+               <xt>Vi må bruke de forbindelsene som hver enkelt har.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Sg" pos="Pron" type="Rel">guđiin</l>
+         <lemma_ref lemmaID="guhte_pron_rel">guhte</lemma_ref>
+         <analysis>Pron_Rel_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">med hvem</t>
+            <xg>
+               <x>Guđiin biillain don bohtet?</x>
+               <xt>Med hvilken bil kom du?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">guhten</l>
+         <lemma_ref lemmaID="guhte_pron_rel">guhte</lemma_ref>
+         <analysis>Pron_Rel_Sg_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">som hvem</t>
+            <xg>
+               <x>Guhten filbmanástin don háliidivččet šaddat?</x>
+               <xt>Hvilken filmstjerne hadde du hatt lyst til å bli?</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">som</t>
+            <xg>
+               <x>Dat filbmanásti, guhten don háliidivččet šaddat, lea biddjon giddagassii.</x>
+               <xt>Den filmstjerna som du har lyst til å bli, er satt i fengsel.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">guđiid</l>
+         <lemma_ref lemmaID="guđet_pron_rel">guđet</lemma_ref>
+         <analysis>Pron_Rel_Pl_Gen</analysis>
+         <analysis>Pron_Rel_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hvem sin</t>
+            <t pos="Pron">hvem</t>
+            <xg>
+               <x>Guđiid biktasiid mun galggan bassat?</x>
+               <xt>Hvilke klær skal jeg vaske?</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">som</t>
+            <xg>
+               <x>Daid biktasiid, guđiid mun lean aiddo bassan, ferte fas bassat.</x>
+               <xt>De klærne, som jeg nettopp har vasket, må vaskes igjen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">guđiide</l>
+         <lemma_ref lemmaID="guđet_pron_rel">guđet</lemma_ref>
+         <analysis>Pron_Rel_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">til hvem</t>
+            <xg>
+               <x>Guđiide viesuide leat don dolvon juovlaskeaŋkkaid?</x>
+               <xt>Til hvilke hus har du levert julegaver?</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">som</t>
+            <xg>
+               <x>Daidda viesuide, guđiide don dolvot juovlaskeaŋkkaid, leat jo boahtán juovlaguossit.</x>
+               <xt>Til de husene, som du leverte julegaver, er det allerede kommet julebesøk.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Rel">guđiin</l>
+         <lemma_ref lemmaID="guđet_pron_rel">guđet</lemma_ref>
+         <analysis>Pron_Rel_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hvem (har)</t>
+            <xg>
+               <x>Guđiin viesuin leat biilavisttit?</x>
+               <xt>Hvilke hus har garasjer?</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">som</t>
+            <xg>
+               <x>Dat viesut, guđiin leat biilavisttit, leat divrasat.</x>
+               <xt>De husene, som har garasjer, er dyre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Rel">guđiiguin</l>
+         <lemma_ref lemmaID="guđet_pron_rel">guđet</lemma_ref>
+         <analysis>Pron_Rel_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">med hvem</t>
+            <xg>
+               <x>Guđiiguin mašiinnaiguin lea álkimus goarrut?</x>
+               <xt>Med hvilke maskiner er det lettest å sy?</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CS">som</t>
+            <xg>
+               <x>Daiguin mašiinnaiguin, guđiiguin lea álkimus goarrut, leat álo olbmot goarrume.</x>
+               <xt>Med de maskinene, som det er lettest å sy med, er det alltid noen som syr.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Interr">makkára</l>
+         <lemma_ref lemmaID="makkár_sg_pron_interr">makkár</lemma_ref>
+         <analysis>Pron_Interr_Sg_Gen</analysis>
+         <analysis>Pron_Interr_Sg_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">hva slags</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Interr">makkárii</l>
+         <lemma_ref lemmaID="makkár_sg_pron_interr">makkár</lemma_ref>
+         <analysis>Pron_Interr_Sg_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">til hva slags</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Interr">makkáris</l>
+         <lemma_ref lemmaID="makkár_sg_pron_interr">makkár</lemma_ref>
+         <analysis>Pron_Interr_Sg_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">i/av hva slags</t>
+            <t pos="Pron">hva slags (har)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Sg" pos="Pron" type="Interr">makkáriin</l>
+         <lemma_ref lemmaID="makkár_sg_pron_interr">makkár</lemma_ref>
+         <analysis>Pron_Interr_Sg_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">med hva slags</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Interr">makkárin</l>
+         <lemma_ref lemmaID="makkár_sg_pron_interr">makkár</lemma_ref>
+         <analysis>Pron_Interr_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">som hva slags</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Interr">makkáriid</l>
+         <lemma_ref lemmaID="makkárat_pl_pron_interr">makkárat</lemma_ref>
+         <analysis>Pron_Interr_Pl_Gen</analysis>
+         <analysis>Pron_Interr_Pl_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">hva slags</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Interr">makkáriidda</l>
+         <lemma_ref lemmaID="makkárat_pl_pron_interr">makkárat</lemma_ref>
+         <analysis>Pron_Interr_Pl_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">til hva slags</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l nr="Pl" pos="Pron" type="Interr">makkáriin</l>
+         <lemma_ref lemmaID="makkárat_pl_pron_interr">makkárat</lemma_ref>
+         <analysis>Pron_Interr_Pl_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">i/av hva slags</t>
+            <t pos="Pron">hva slags (har)</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Interr">makkáriiguin</l>
+         <lemma_ref lemmaID="makkárat_pl_pron_interr">makkárat</lemma_ref>
+         <analysis>Pron_Interr_Pl_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>flertall</re>
+            <t pos="Pron">med hva slags</t>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg>
+         <l pos="CC">earret</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CC">unntatt</t>
+            <xg>
+               <x>Buohkat bohte earret Niillas.</x>
+               <xt>Alle kom unntatt Niillas.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="CC">sihke</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CC">både</t>
+            <xg>
+               <x>Dat lea sihke buorre ja heittot.</x>
+               <xt>Det er både bra og dårlig.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="25">
+         <l pos="CC">dahege</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CC">eller</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="CC">aht</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+	   <t pos="CC" re="mellom identiske komparativformer">og</t>
+	   <xg>
+	     <x>eanet aht eanet</x>
+	     <xt>mer og mer</xt>
+	   </xg>
+	   <xg>
+	     <x>Ruhta šadda deaŧalaččat aht' deaŧalaččat.</x>
+	     <xt>Penger blir viktigere og viktigere.</xt>
+	   </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="132">
+         <l pos="CC">dahe</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CC">eller</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="414">
+         <l pos="CC">dahjege</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CC">eller</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="51195">
+         <l pos="CC">dahje</l>
+         <l_ref>vai_cc</l_ref>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CC">eller</t>
+            <xg>
+               <x>Buohkat ledje gávdnan biktasiid dahje eará dávviriid maid háliidedje oastit.</x>
+               <xt>Alle hadde funnet klær eller andre ting som de ville kjøpe.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="161">
+         <l pos="CC">dehege</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CC">eller</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3448">
+         <l pos="CC">dehe</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CC">eller</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="878493">
+         <l pos="CC">ja</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CC">og</t>
+            <xg>
+               <x>Dat lea sihke buorre ja heittot.</x>
+               <xt>Det er både bra og dårlig.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="92739">
+         <l pos="CC">muhto</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="CC">men</t>
+            <xg>
+               <x>Mun sáhtán áinnas veahkehit du, muhto odne in astta.</x>
+               <xt>Jeg kan godt hjelpe deg, men i dag har jeg ikke tid.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3641">
+         <l pos="CC">vai</l>
+         <l_ref>dahje_cc</l_ref>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>i spørsmål om to alternativer</re>
+            <t pos="CC">eller</t>
+            <xg>
+               <x>Leat go don dat guhte galgá boahtit, vai galgat go mii vuordit muhtun eará?</x>
+               <xt>Er du den som skal komme, eller skal vi vente på en annen?</xt>
+            </xg>
+            <xg>
+               <x>Siđat go gáfe vai deaja?</x>
+               <xt>Vil du ha kaffe eller te?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

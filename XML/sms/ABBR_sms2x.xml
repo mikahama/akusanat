@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd" xml:lang="sms">
+<e src="jmr_2015-11-10"><lg><l pos="N" type="ABBR">JTP-kõõskõs</l><variants><l_longForm>jieʹllemvueʹǩǩ-, trafikk- da pirrõskõõskõs</l_longForm></variants><stg><st Contlex="N_SAJOS">JTP-#kõõskõs</st></stg></lg><mg><tg xml:lang="fin"><t pos="N" type="ABBR">ELY-keskus</t><t pos="N">elinkeino-, liikenne- ja ympäristökeskus</t></tg></mg></e>
+  <e>
+    <lg>
+      <l pos="N" type="ABBR">ILO</l>
+      <variants>
+        <l_longForm></l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">ILO</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">ILO</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N" type="ABBR">NRK</l>
+      <variants>
+        <l_longForm></l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">NRK</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">NR</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l pos="N" type="ABBR">FD</l>
+      <variants>
+        <l_longForm></l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">FD</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">FT</t>
+        <t pos="N">filosofian tohtori</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">add.</l>
+      <variants>
+        <l_longForm>addrõs</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">add</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">os.</t>
+        <t pos="N">1) osoite; 2) osasto</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="Err/Orth" pos="N" type="ABBR">addr.</l>
+      <variants>
+        <l_longForm>addrõs</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">addr</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">os.</t>
+        <t pos="N">osoite</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">c</l>
+      <variants>
+<l_syn>snt</l_syn>
+        <l_longForm>seʹntt</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">c</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" re="euron sadasosan lyhenne">snt</t>
+        <t pos="N" re="euron sadasosan lyhenne">c</t>
+        <t pos="N">sentti</t>
+        <t pos="N">senttiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">cl</l>
+      <variants>
+        <l_syn>sl</l_syn>
+	<l_longForm>seʹnttlettar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">cl</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">cl</t>
+        <t pos="N">senttilitra</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">cm</l>
+      <variants>
+        <l_syn>sm</l_syn>
+<l_longForm>seʹnttmettar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">cm</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">cm</t>
+        <t pos="N">senttimetri</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">dl</l>
+      <variants>
+        <l_longForm>desilettar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">dl</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">dl</t>
+        <t pos="N">desilitra</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">e</l>
+      <variants>
+        <l_longForm>euʹrr</l_longForm>
+        <l_longForm>eeʹǩǩ</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">e</st>
+      </stg>
+    </lg>
+    <mg>
+<defNative>miârkk €, teäʹǧǧtoobdldõk EUR</defNative>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">e</t>
+        <t pos="N">euro</t>
+        <t pos="N">euroa</t>
+      </tg>
+    </mg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">v</t>
+        <t pos="N">vuosi</t>
+        <t pos="N">vuotta</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="Adv" type="ABBR">e.</l>
+      <variants>
+        <l_longForm>eeʹjj</l_longForm>
+	<l_longForm>eeʹjjest</l_longForm>
+        <l_longForm>eeʹjjin</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-ADV_">e</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="Adv">v.</t>
+        <t pos="Adv">vuonna</t>
+        <t pos="Adv">vuosina</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">g</l>
+      <variants>
+        <l_longForm>gramm</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">g</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">g</t>
+        <t pos="N">gramma</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">h</l>
+      <variants>
+        <l_longForm>čiâss</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">h</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">h</t>
+        <t pos="N">tunti</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" hid="Hom2" pos="A" type="ABBR">j.</l>
+      <variants>
+        <l_longForm>jäämmam</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-A_">j</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="A" type="ABBR">k.</t>
+        <t pos="A">kuollut</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" hid="Hom1" pos="V" type="ABBR">j.</l>
+      <variants>
+        <l_longForm>jaaʹmi</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-V-IV-IND-PRT-SG3_">j</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="V">k.</t>
+        <t pos="V">kuoli</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="Adv" type="ABBR">j.s.</l>
+      <variants>
+        <l_longForm>jiijjâs sooǥǥ</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-ADV_">j.s</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="Adv" type="ABBR">o.s.</t>
+        <t pos="Adv">omaa sukua</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">kkp</l>
+      <variants>
+        <l_longForm>kaaʹffkopp</l_longForm>
+        <l_longForm>kååʹffkopp</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">kkp</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">kkp</t>
+        <t pos="N">kahvikuppi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">l</l>
+      <variants>
+        <l_longForm>lettar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">l</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">l</t>
+        <t pos="N">litra</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">lkm.</l>
+      <variants>
+        <l_longForm>lååkkmieʹrr</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">lkm</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">lkm.</t>
+        <t pos="N">lukumäärä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">m</l>
+      <variants>
+        <l_longForm>mettar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">m</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">m</t>
+        <t pos="N">metri</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">mc</l>
+      <variants>
+        <l_longForm>mättjemcieʹǩǩes</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">mc</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">op</t>
+        <t pos="N">opintopiste</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">mg</l>
+      <variants>
+        <l_longForm>millgramm</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">mg</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">mg</t>
+        <t pos="N">milligramma</t>
+        <t pos="N">milligrammaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="Num" type="ABBR">milj.</l>
+      <variants>
+        <l_longForm>miljoon</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-NUM_">milj</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="Num">milj.</t>
+        <t pos="Num">miljoona</t>
+        <t pos="Num">miljoonaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">min</l>
+      <variants>
+        <l_longForm>minutt</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">min</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">min</t>
+        <t pos="N">minuutti</t>
+        <t pos="N">minuuttia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">mk</l>
+      <variants>
+<l_var>mǩ</l_var>
+        <l_longForm>mäʹrǩǩ</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">mk</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">mk</t>
+        <t pos="N">markka</t>
+        <t pos="N">markkaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">ml</l>
+      <variants>
+        <l_longForm>mill-lettar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">ml</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" type="ABBR">ml</t>
+        <t pos="N">millilitra</t>
+        <t pos="N">millilitraa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">mm</l>
+      <variants>
+        <l_longForm>millmettar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">mm</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">mm</t>
+        <t pos="N">millimetri</t>
+        <t pos="N">millimetriä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">mn</l>
+      <variants>
+        <l_longForm>mättjemneäʹttel</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">mn</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">ov</t>
+        <t pos="N">opintoviikko</t>
+        <t pos="N">opintoviikkoa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">mp</l>
+      <variants>
+        <l_longForm>määnpââʹjj</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">mp</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">kk</t>
+        <t pos="N">kuukausi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="Num" type="ABBR">mrd.</l>
+      <variants>
+        <l_longForm>miljardd</l_longForm>
+        <l_longForm>miljaard</l_longForm>
+        <l_longForm>miljaʹrdde</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-NUM_">mrd</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="Num">mrd.</t>
+        <t pos="Num">miljardi</t>
+        <t pos="Num">miljardia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">ms</l>
+      <variants>
+        <l_longForm>millsekuntt</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">ms</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">ms</t>
+        <t pos="N">millisekunti</t>
+        <t pos="N">millisekuntia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">m²</l>
+      <variants>
+        <l_longForm/>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">m²</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">m²</t>
+        <t pos="N">neliömetri</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">m³</l>
+      <variants>
+        <l_longForm/>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">m³</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">m³</t>
+        <t pos="N">kuutiometri</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">mǩ</l>
+      <variants>
+<l_var>mk</l_var>
+        <l_longForm>mäʹrǩǩ</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">mǩ</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">mk</t>
+        <t pos="N">markka</t>
+        <t pos="N">markkaa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">nr</l>
+      <variants>
+        <l_longForm>nââmar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">nr</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">nro</t>
+        <t pos="N">n:o</t>
+        <t pos="N">numero</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">nt</l>
+      <variants>
+        <l_longForm>neäʹttel</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">nt</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">vk</t>
+        <t pos="N">viikko</t>
+        <t pos="N">viikkoa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">nõmm-m.</l>
+      <variants>
+        <l_longForm>nõmm-miârkk</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">nõmm-m</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">nimim.</t>
+        <t pos="N">nimimerkki</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" hid="Hom1" pos="Adv" type="ABBR">ouddm.</l>
+      <variants>
+        <l_longForm>ouddmiârkkân</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-ADV_">ouddm</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="Adv" type="ABBR">esim.</t>
+        <t pos="Adv">esimerkiksi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" hid="Hom2" pos="N" type="ABBR">ouddm.</l>
+      <variants>
+        <l_longForm>ouddmiârkk</l_longForm>
+        <l_longForm>ouddmiârk</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">ouddm</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">esim.</t>
+        <t pos="N">esimerkki</t>
+        <t pos="N">esimerkkejä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">prk</l>
+      <variants>
+        <l_longForm>purkk</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">prk</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">prk</t>
+        <t pos="N">purkki</t>
+        <t pos="N">purkkia</t>
+        <t pos="N">tlk</t>
+        <t pos="N">tölkki</t>
+        <t pos="N">tölkkiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">prof.</l>
+      <variants>
+        <l_longForm>professorr</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">prof</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">prof.</t>
+        <t pos="N">professori</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">ptl</l>
+      <variants>
+        <l_longForm>poottâl</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">ptl</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">pl</t>
+        <t pos="N">plo</t>
+        <t pos="N">pullo</t>
+        <t pos="N">pulloa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">pv</l>
+      <variants>
+        <l_longForm>peiʹvv</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">pv</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">pv</t>
+        <t pos="N">päivä</t>
+        <t pos="N">päivää</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">pvm.</l>
+      <variants>
+        <l_longForm>peiʹvvmieʹrr</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">pvm</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">pvm.</t>
+        <t pos="N">päivämäärä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">rek.nr</l>
+      <variants>
+        <l_longForm>rekistternââmar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">rek.nr</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">rek.nro</t>
+        <t pos="N">rekisterinumero</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">rõ</l>
+      <variants>
+        <l_longForm>rekisttrõsttum õhttõs</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">rõ</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">ry</t>
+        <t pos="N">rekisteröity yhdistys</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">s</l>
+      <variants>
+        <l_longForm>sekuntt</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">s</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">s</t>
+        <t pos="N">sekunti</t>
+        <t pos="N">sekuntia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" hid="Hom2" pos="Adv" type="ABBR">s.</l>
+      <variants>
+        <l_longForm>seeiʹdin</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-ADV_">s</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="Adv" type="ABBR">s.</t>
+        <t pos="Adv">sivulla</t>
+        <t pos="Adv">sivuilla</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" hid="Hom1" pos="N" type="ABBR">s.</l>
+      <variants>
+        <l_longForm>seiʹdd</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">s</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">s.</t>
+        <t pos="N">sivu</t>
+        <t pos="N">sivut</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">sj.</l>
+      <variants>
+<l_syn>st.</l_syn>
+        <l_longForm>saaǥǥjååʹđteei</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">sj</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">pj.</t>
+        <t pos="N">puh.joht.</t>
+        <t pos="N">puheenjohtaja</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">skk</l>
+      <variants>
+        <l_longForm>siâkk</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">skk</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">ps</t>
+        <t pos="N">pss</t>
+        <t pos="N">pussi</t>
+        <t pos="N">pussia</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">sl</l>
+      <variants>
+	<l_syn>cl</l_syn>
+        <l_longForm>seʹnttlettar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">sl</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">cl</t>
+        <t pos="N">senttilitra</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">sm</l>
+      <variants>
+        <l_syn>cm</l_syn>
+<l_longForm>seʹnttmettar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">sm</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">cm</t>
+        <t pos="N">senttimetri</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">snt</l>
+      <variants>
+<l_syn>c</l_syn>
+        <l_longForm>seʹntt</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">snt</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N" re="euron sadasosan lyhenne">snt</t>
+        <t pos="N" re="euron sadasosan lyhenne">c</t>
+        <t pos="N">sentti</t>
+        <t pos="N">senttiä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">st.</l>
+      <variants>
+<l_syn>sj.</l_syn>
+        <l_longForm>saaǥǥtuõʹllʼjeei</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">st</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">pj.</t>
+        <t pos="N">puh.joht.</t>
+        <t pos="N">puheenjohtaja</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">stk</l>
+      <variants>
+        <l_longForm>ståkkan</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">stk</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">jl</t>
+        <t pos="N">juomalasi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">stk.</l>
+      <variants>
+        <l_longForm>sutkk</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">stk</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">vrk</t>
+        <t pos="N">vuorokausi</t>
+        <t pos="N">vuorokautta</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" hid="Hom2" pos="Adv" type="ABBR">t.</l>
+      <variants>
+        <l_longForm>tiõrvʼvuõđin</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-ADV_">t</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="Adv" type="ABBR">t.</t>
+        <t pos="Adv" type="ABBR">tv.</t>
+        <t pos="Adv">terveisin</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" hid="Hom1" pos="V" type="ABBR">t.</l>
+      <variants>
+        <l_longForm>tuäivat</l_longForm>
+        <l_longForm>tuäivte</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-V-TV-IND-PRS-3_">t</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="V">t.</t>
+        <t pos="V">tv.</t>
+        <t pos="V">toivottaa</t>
+        <t pos="V">toivottavat</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">teʹl.</l>
+      <variants>
+        <l_longForm>teʹlfon</l_longForm>
+        <l_longForm>teʹlfon-nââmar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">teʹl</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">puh.</t>
+        <t pos="N">p.</t>
+        <t pos="N">puhelin</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">tmn</l>
+      <variants>
+        <l_longForm>tuåimmnõmm</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">tmn</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">tmi</t>
+        <t pos="N">toiminimi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">vp</l>
+      <variants>
+        <l_longForm>veärrpâʹsttem</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">vp</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">rkl</t>
+        <t pos="N">ruokalusikallinen</t>
+        <t pos="N">ruokalusikallista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">vs.</l>
+      <variants>
+        <l_longForm>veeʹrjsâjjsaž</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">vs</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">vs.</t>
+        <t pos="N">viransijainen</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">vsj.</l>
+      <variants>
+<l_syn>vst.</l_syn>
+        <l_longForm>vääʹrrsaaǥǥjååʹđteei</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">vsj</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">vpj.</t>
+        <t pos="N">varapuheenjohtaja</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">vst.</l>
+      <variants>
+<l_syn>vsj.</l_syn>
+        <l_longForm>vääʹrrsaaǥǥtuõʹllʼjeei</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">vst</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">vpj.</t>
+        <t pos="N">varapuheenjohtaja</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" hid="Hom1" pos="A" type="ABBR">ânn.</l>
+      <variants>
+        <l_longForm>ânnʼjõž</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-A_">ânn</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="A" type="ABBR">nyk.</t>
+        <t pos="A">nykyinen</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" hid="Hom2" pos="Adv" type="ABBR">ânn.</l>
+      <variants>
+        <l_longForm>ânnʼjõžääiʹj</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-ADV_">ânn</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="Adv" type="ABBR">nyk.</t>
+        <t pos="Adv">nykyään</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">äv.</l>
+      <variants>
+        <l_longForm>ääʹššvuäzzlaž</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-N_">äv</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">ao.</t>
+        <t pos="N">asianomainen</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="Adv" type="ABBR">õhtts.</l>
+      <variants>
+        <l_longForm>õhttsiʹžže</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-ADV_">õhtts</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="Adv" type="ABBR">yht.</t>
+        <t pos="Adv">yhteensä</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">čk</l>
+      <variants>
+        <l_longForm>čeekopp</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">čk</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">tk</t>
+        <t pos="N">teekuppi</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">čp</l>
+      <variants>
+        <l_longForm>čeepâʹsttem</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">čp</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">tl</t>
+        <t pos="N">teelusikallinen</t>
+        <t pos="N">teelusikallista</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">čǩ</l>
+      <variants>
+        <l_longForm>čuʹǩǩ</l_longForm>
+        <l_longForm>čuʹǩǩed</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">čǩ</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">ltk</t>
+        <t pos="N">laatikko</t>
+        <t pos="N">laatikkoa</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="A" type="ABBR">š.</l>
+      <variants>
+        <l_longForm>šõddâm</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-DOT-A_">š</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="A" type="ABBR">s.</t>
+        <t pos="A">syntynyt</t>
+      </tg>
+    </mg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="Adv" type="ABBR">s.</t>
+        <t pos="Adv">syntyään</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">ǩg</l>
+      <variants>
+	<l_var>kg</l_var>
+        <l_longForm>ǩilo</l_longForm>
+        <l_longForm>ǩilogramm</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">ǩg</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">kg</t>
+        <t pos="N">kilo</t>
+        <t pos="N">kilogramma</t>
+      </tg>
+    </mg>
+  </e>
+  <e>
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">ǩm</l>
+      <variants>
+<l_var>km</l_var>
+        <l_longForm>ǩilomettar</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">ǩm</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">km</t>
+        <t pos="N">kilometri</t>
+      </tg>
+    </mg>
+  </e>
+  <e exclude="fst">
+    <lg>
+      <l status="recommendation" pos="N" type="ABBR">⁰</l>
+      <variants>
+        <l_longForm>graadd</l_longForm>
+      </variants>
+      <stg>
+        <st Contlex="AB-NO-DOT-N_">⁰</st>
+      </stg>
+    </lg>
+    <mg>
+      <tg xml:lang="fin">
+        <t pos="N">⁰</t>
+        <t pos="N">aste</t>
+      </tg>
+    </mg>
+  </e>
+</r>

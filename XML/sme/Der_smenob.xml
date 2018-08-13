@@ -1,0 +1,543 @@
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg>
+         <l pos="V">Der/InchL</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">begynne å X</t> <!--  borragoahtit muitališgoahtit -->
+            <morph_expl>ordavledning: –goahtit (inkoativ)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">Der/laakan</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">noe liknende</t>
+            <morph_expl>ordavledning: –lágan (fra substantiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Der/Dimin</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">liten X (diminutiv)</t>  <!-- skuvllaš -->
+            <morph_expl>ordavledning: –š</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/PassL</l> <!-- geavahuvvogoahtá -->
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+ <!--           <t t_type="expl">passivform av verbet</t>   muitaluvvot borrojuvvot -->
+            <t t_type="grammar" href="http://oahpa.no/sme/gramm/verb.nob.html">passivform av verbet</t>
+            <morph_expl>ordavledning: –uvvot</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/PassS</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">passivform av verbet</t>   <!-- borrot -->
+            <morph_expl>ordavledning: –ot</morph_expl>
+         </tg>
+      </mg>
+   </e>
+
+   <e>
+      <lg>
+         <l pos="A">Der/A</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">nærmere eller nærmerst X</t>
+            <morph_expl>ordavledning: adjektiv av substantiv</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Adv">Der/AAdv</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">adverb</t>
+            <morph_expl>ordavledning:  -t (fra adjektiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">Der/Car</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">uten X</t>
+            <morph_expl>ordavledning: -heapmi, -his (karitiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/Caus</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">få noen til å X</t>
+            <morph_expl>ordavledning: -hit (kausativ)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Der/NomAct</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">handlingen X</t>
+            <morph_expl>ordavledning: -n eller -eapmi (handlingsnomen)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Der/NomAg</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">den som X</t>
+            <morph_expl>ordavledning: -i, -u eller -eaddji (handlernomen)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/adda</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">X skjer flere ganger</t>
+            <morph_expl>ordavledning: -addat</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/alla</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">X skjer flere ganger</t>
+            <morph_expl>ordavledning: -allat</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/d</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">over en periode, eller refleksiv</t>
+            <morph_expl>ordavledning: -dit</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Der/eamoš</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">det å gjøre X</t>
+            <morph_expl>ordavledning: -eamoš (fra verb)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/easti</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">å X litt eller plutselig</t>
+            <morph_expl>ordavledning: -eastit (diminutiv/subitiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">Der/geahtes</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">uten X</t>
+            <morph_expl>ordavledning: -keahtes eller -geahtes</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/h</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">få til å X</t>
+            <morph_expl>ordavledning: -hit</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/halla</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">være så uheldig å bli</t>
+            <morph_expl>ordavledning: -hallat (passiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Der/hat</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">stedet hvor X skjer</t>
+            <morph_expl>ordavledning: -hat</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/huhtti</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">å bli preget av X</t>
+            <morph_expl>ordavledning: -huhttit (fra substantiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/huvva</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">å bli X</t>
+            <morph_expl>ordavledning: -uvvat</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/l</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">X skjer fort</t>
+            <morph_expl>ordavledning: -lit</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">Der/laagasj</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">liknende av</t>
+            <morph_expl>ordavledning: –lágaš (adjektiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">Der/las</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">som gjør mye X</t>
+            <morph_expl>ordavledning: -las</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">Der/lasj</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">liknende av eller som tilhører X</t>
+            <morph_expl>ordavledning: -laš (adjektiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+    <e>
+      <lg>
+         <l pos="A">Der/meahttun</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">motsetning til X</t>
+            <morph_expl>ordavledning: -meahttun</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Der/muš</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">det å gjøre X</t>
+            <morph_expl>ordavledning: -muš (til substantiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="A">Der/sasj</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">en viss mengde</t>
+            <morph_expl>ordavledning: -saš</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/st</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">å X litt</t>
+            <morph_expl>ordavledning: -stit (diminutiv/subitiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/stuvva</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">å komme i en situasjon av, eller å ville X</t>
+            <morph_expl>ordavledning: -stuvvat</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Der/supmi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">hendelsen X</t>
+            <morph_expl>ordavledning: -šupmi (handlingsnomen)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Adv">Der/t</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">XXXX</t>
+            <morph_expl>ordavledning: xxxx</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Der/upmi</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">hendelsen X</t>
+            <morph_expl>ordavledning: -upmi (handlingsnomen)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Adv">Der/veara</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">XXXX</t>
+            <morph_expl>ordavledning: xxxx</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/viđi</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">XXXX</t>
+            <morph_expl>ordavledning: xxxx</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="V">Der/viđá</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">XXXX</t>
+            <morph_expl>ordavledning: xxxx</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Der/vuota</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">-het</t>
+            <morph_expl>ordavledning: -vuohta (substantiv)</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Der/ár</l>
+
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">om en person</t>
+            <morph_expl>ordavledning: -ár</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">VAbess</l> <!-- dieđekeahttá -->
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">uten å X</t>
+            <morph_expl>verbabessiv</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">VGen</l> <!-- viega -->
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">måten å gjøre noe på</t>
+            <morph_expl>verbagenitiv</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Ger</l> <!-- viegadettiin -->
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">mens man X</t>
+            <morph_expl>gerundium</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Comp</l> <!-- čeahpit -->
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">mer X</t>
+            <morph_expl>komparativ -t</morph_expl>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Superl</l> <!-- čeahpimus -->
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t t_type="expl">mest X</t>
+            <morph_expl>superlativ -mus</morph_expl>
+         </tg>
+      </mg>
+   </e>
+
+</r>

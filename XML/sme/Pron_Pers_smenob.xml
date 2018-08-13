@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">mon</l>
+         <analysis>Pron_Pers_Sg1_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Pers_Sg1_Nom">
+               <wordform>mun</wordform>
+               <wordform>mon</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg1_Acc/Gen">
+               <wordform>mu</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg1_Ill">
+               <wordform>munnje</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg1_Loc">
+               <wordform>mus</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg1_Com">
+               <wordform>muinna</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg1_Ess">
+               <wordform>munin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">jeg</t>
+            <xg>
+               <x>mon lean</x>
+               <xt>jeg er</xt>
+            </xg>
+            <xg>
+               <x>Mus lea beana.</x>
+               <xt>Jeg har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="185625">
+         <l pos="Pron" type="Pers">mun</l>
+         <analysis>Pron_Pers_Sg1_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Pers_Sg1_Nom">
+               <wordform>mun</wordform>
+               <wordform>mon</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg1_Acc/Gen">
+               <wordform>mu</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg1_Ill">
+               <wordform>munnje</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg1_Loc">
+               <wordform>mus</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg1_Com">
+               <wordform>muinna</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg1_Ess">
+               <wordform>munin</wordform>
+            </analysis>
+         </mini_paradigm>
+         <lc>mu, munnje, mus, muinna</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">jeg</t>
+            <xg>
+               <x>mun lean</x>
+               <xt>jeg er</xt>
+            </xg>
+            <xg>
+               <x>Mus lea beana.</x>
+               <xt>Jeg har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="53165">
+         <l pos="Pron" type="Pers">don</l>
+         <analysis>Pron_Pers_Sg2_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Pers_Sg2_Nom">
+               <wordform>don</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg2_Acc/Gen">
+               <wordform>du</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg2_Ill">
+               <wordform>dutnje</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg2_Loc">
+               <wordform>dus</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg2_Com">
+               <wordform>duinna</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg2_Ess">
+               <wordform>dunin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">du</t>
+            <xg>
+               <x>Dus lea gusto stuora beana.</x>
+               <xt>Du har sannelig en stor hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="254157">
+         <l pos="Pron" type="Pers">son</l>
+         <analysis>Pron_Pers_Sg3_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Pers_Sg3_Nom">
+               <wordform>son</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg3_Acc/Gen">
+               <wordform>su</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg3_Ill">
+               <wordform>sutnje</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg3_Loc">
+               <wordform>sus</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg3_Com">
+               <wordform>suinna</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Sg3_Ess">
+               <wordform>sunin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">han</t>
+            <t pos="Pron" type="Pers">hun</t>
+            <xg>
+               <x>Son liiko stoahkat.</x>
+               <xt>Han liker å leke.</xt>
+            </xg>
+            <xg>
+               <x>Sus lea ođđa beaivvegirji.</x>
+               <xt>Hun har ei ny dagbok.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">moai</l>
+         <analysis>Pron_Pers_Du1_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Pers_Du1_Nom">
+               <wordform>moai</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du1_Acc/Gen">
+               <wordform>munno</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du1_Ill">
+               <wordform>munnuide</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du1_Loc">
+               <wordform>munnos</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du1_Com">
+               <wordform>munnuin</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du1_Ess">
+               <wordform>munnon</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">vi to</t>
+            <xg>
+               <x>moai letne</x>
+               <xt>vi to er</xt>
+            </xg>
+            <xg>
+               <x>Munnos lea beana.</x>
+               <xt>Vi to har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">doai</l>
+         <analysis>Pron_Pers_Du2_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Pers_Du2_Nom">
+               <wordform>doai</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du2_Acc/Gen">
+               <wordform>dudno</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du2_Ill">
+               <wordform>dudnuide</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du2_Loc">
+               <wordform>dudnos</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du2_Com">
+               <wordform>dudnuin</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du2_Ess">
+               <wordform>dudnon</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">dere to</t>
+            <xg>
+               <x>doai leahppi</x>
+               <xt>dere to er</xt>
+            </xg>
+            <xg>
+               <x>Dudnos lea beana.</x>
+               <xt>Dere to har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">soai</l>
+         <analysis>Pron_Pers_Du3_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Pers_Du3_Nom">
+               <wordform>soai</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du3_Acc/Gen">
+               <wordform>sudno</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du3_Ill">
+               <wordform>sudnuide</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du3_Loc">
+               <wordform>sudnos</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du3_Com">
+               <wordform>sudnuin</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Du3_Ess">
+               <wordform>sudnon</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">de to</t>
+            <xg>
+               <x>soai leaba</x>
+               <xt>de to er</xt>
+            </xg>
+            <xg>
+               <x>Sudnos lea beana.</x>
+               <xt>De to har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="286351">
+         <l pos="Pron" type="Pers">mii</l>
+         <analysis>Pron_Pers_Pl1_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Pers_Pl1_Nom">
+               <wordform>mii</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl1_Acc/Gen">
+               <wordform>min</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl1_Ill">
+               <wordform>midjiide</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl1_Loc">
+               <wordform>mis</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl1_Com">
+               <wordform>minguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl1_Ess">
+               <wordform>minin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">vi</t>
+            <xg>
+               <x>mii leat</x>
+               <xt>vi er</xt>
+            </xg>
+            <xg>
+               <x>Mis lea beana.</x>
+               <xt>Vi har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dii</l>
+         <analysis>Pron_Pers_Pl2_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Pers_Pl2_Nom">
+               <wordform>dii</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl2_Acc/Gen">
+               <wordform>din</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl2_Ill">
+               <wordform>didjiide</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl2_Loc">
+               <wordform>dis</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl2_Com">
+               <wordform>dinguin</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl2_Ess">
+               <wordform>dinin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">dere</t>
+            <xg>
+               <x>dii lehpet</x>
+               <xt>dere er</xt>
+            </xg>
+            <xg>
+               <x>Dis lea beana.</x>
+               <xt>Dere har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sii</l>
+         <analysis>Pron_Pers_Pl3_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Pers_Pl3_Nom">
+               <wordform>sii</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl3_Acc/Gen">
+               <wordform>sin</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl3_Ill">
+               <wordform>sidjiide</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl3_Loc">
+               <wordform>sis</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl3_Com">
+               <wordform>singuin</wordform>
+            </analysis>
+            <analysis ms="Pron_Pers_Pl3_Ess">
+               <wordform>sinin</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">de</t>
+            <xg>
+               <x>sii leat</x>
+               <xt>de er</xt>
+            </xg>
+            <xg>
+               <x>Sis lea beana.</x>
+               <xt>De har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">mu</l>
+         <lemma_ref lemmaID="mun_pron_pers">mun</lemma_ref>
+         <analysis>Pron_Pers_Sg1_Gen</analysis>
+         <analysis>Pron_Pers_Sg1_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">meg</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">min</t>
+            <t pos="Pron" type="Poss">mine</t>
+            <xg>
+               <x>Dát lea mu girji.</x>
+               <xt>Dette er min bok.</xt>
+            </xg>
+            <xg>
+               <x>Dát leat mu girjjit.</x>
+               <xt>Dette er mine bøker.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">munnje</l>
+         <lemma_ref lemmaID="mun_pron_pers">mun</lemma_ref>
+         <analysis>Pron_Pers_Sg1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til meg</t>
+            <xg>
+               <x>Muital munnje!</x>
+               <xt>Fortell til meg!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">mus</l>
+         <lemma_ref lemmaID="mun_pron_pers">mun</lemma_ref>
+         <analysis>Pron_Pers_Sg1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">jeg (har noe)</t>
+            <xg>
+               <x>Mus lea beana.</x>
+               <xt>Jeg har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">muinna</l>
+         <lemma_ref lemmaID="mun_pron_pers">mun</lemma_ref>
+         <analysis>Pron_Pers_Sg1_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med meg</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">munin</l>
+         <lemma_ref lemmaID="mun_pron_pers">mun</lemma_ref>
+         <analysis>Pron_Pers_Sg1_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">som meg</t>
+            <xg>
+               <x>Don sáhtát logget dihtorii munin.</x>
+               <xt>Du kan logge deg inn på datamasinen som meg.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">du</l>
+         <lemma_ref lemmaID="don_pron_pers">don</lemma_ref>
+         <analysis>Pron_Pers_Sg2_Gen</analysis>
+         <analysis>Pron_Pers_Sg2_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">deg</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">din</t>
+            <t pos="Pron" type="Poss">dine</t>
+            <xg>
+               <x>Dát lea du girji.</x>
+               <xt>Dette er din bok.</xt>
+            </xg>
+            <xg>
+               <x>Dát leat du girjjit.</x>
+               <xt>Dette er dine bøker.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dutnje</l>
+         <lemma_ref lemmaID="don_pron_pers">don</lemma_ref>
+         <analysis>Pron_Pers_Sg2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til deg</t>
+            <xg>
+               <x>Muitalan dutnje.</x>
+               <xt>Jeg forteller til deg.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dus</l>
+         <lemma_ref lemmaID="don_pron_pers">don</lemma_ref>
+         <analysis>Pron_Pers_Sg2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">du (har noe)</t>
+            <xg>
+               <x>Dus lea beana.</x>
+               <xt>Du har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">duinna</l>
+         <lemma_ref lemmaID="don_pron_pers">don</lemma_ref>
+         <analysis>Pron_Pers_Sg2_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med deg</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dunin</l>
+         <lemma_ref lemmaID="don_pron_pers">don</lemma_ref>
+         <analysis>Pron_Pers_Sg2_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">som deg</t>
+            <xg>
+               <x>Sáhtángo logget dihtorii dunin.</x>
+               <xt>Kan jeg logge meg inn på datamasinen som deg?</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">su</l>
+         <lemma_ref lemmaID="son_pron_pers">son</lemma_ref>
+         <analysis>Pron_Pers_Sg3_Gen</analysis>
+         <analysis>Pron_Pers_Sg3_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">ham</t>
+            <t pos="Pron" type="Pers">henne</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">hans</t>
+            <t pos="Pron" type="Poss">hennes</t>
+            <xg>
+               <x>Dát lea su girji.</x>
+               <xt>Dette er hennes bok.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sutnje</l>
+         <lemma_ref lemmaID="son_pron_pers">son</lemma_ref>
+         <analysis>Pron_Pers_Sg3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til han</t>
+            <t pos="Pron" type="Pers">til henne</t>
+            <xg>
+               <x>Muital sutnje!</x>
+               <xt>Fortell til henne!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sus</l>
+         <lemma_ref lemmaID="son_pron_pers">son</lemma_ref>
+         <analysis>Pron_Pers_Sg3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">han (har noe)</t>
+            <t pos="Pron" type="Pers">hun (har noe)</t>
+            <xg>
+               <x>Sus lea beana.</x>
+               <xt>Hun har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">suinna</l>
+         <lemma_ref lemmaID="son_pron_pers">son</lemma_ref>
+         <analysis>Pron_Pers_Sg3_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med henne</t>
+            <t pos="Pron" type="Pers">med han</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sunin</l>
+         <lemma_ref lemmaID="son_pron_pers">son</lemma_ref>
+         <analysis>Pron_Pers_Sg3_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">som han</t>
+            <t pos="Pron" type="Pers">som henne</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">munno</l>
+         <lemma_ref lemmaID="moai_pron_pers">moai</lemma_ref>
+         <analysis>Pron_Pers_Du1_Gen</analysis>
+         <analysis>Pron_Pers_Du1_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">oss to</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Poss">vår</t>
+            <t pos="Pron" type="Poss">våre</t>
+            <xg>
+               <x>Dát lea munno girji.</x>
+               <xt>Dette er vår bok.</xt>
+            </xg>
+            <xg>
+               <x>Dát leat munno girjjit.</x>
+               <xt>Dette er våre bøker.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">munnuide</l>
+         <lemma_ref lemmaID="moai_pron_pers">moai</lemma_ref>
+         <analysis>Pron_Pers_Du1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til oss to</t>
+            <xg>
+               <x>Muital munnuide!</x>
+               <xt>Fortell til oss to!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">munnos</l>
+         <lemma_ref lemmaID="moai_pron_pers">moai</lemma_ref>
+         <analysis>Pron_Pers_Du1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">vi to (har noe)</t>
+            <xg>
+               <x>Munnos lea beana.</x>
+               <xt>Vi to har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">munnuin</l>
+         <lemma_ref lemmaID="moai_pron_pers">moai</lemma_ref>
+         <analysis>Pron_Pers_Du1_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med oss to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">munnon</l>
+         <lemma_ref lemmaID="moai_pron_pers">moai</lemma_ref>
+         <analysis>Pron_Pers_Du1_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">som oss to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dudno</l>
+         <lemma_ref lemmaID="doai_pron_pers">doai</lemma_ref>
+         <analysis>Pron_Pers_Du2_Gen</analysis>
+         <analysis>Pron_Pers_Du2_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">dere to</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Poss">deres</t>
+            <xg>
+               <x>Dát lea dudno girji.</x>
+               <xt>Dette er deres bok.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dudnuide</l>
+         <lemma_ref lemmaID="doai_pron_pers">doai</lemma_ref>
+         <analysis>Pron_Pers_Du2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til dere to</t>
+            <xg>
+               <x>Muitalan dudnuide.</x>
+               <xt>Jeg forteller til dere to.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dudnos</l>
+         <lemma_ref lemmaID="doai_pron_pers">doai</lemma_ref>
+         <analysis>Pron_Pers_Du2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">dere to (har noe)</t>
+            <xg>
+               <x>Dudnos lea beana.</x>
+               <xt>Dere to har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dudnuin</l>
+         <lemma_ref lemmaID="doai_pron_pers">doai</lemma_ref>
+         <analysis>Pron_Pers_Du2_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med dere to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dudnon</l>
+         <lemma_ref lemmaID="doai_pron_pers">doai</lemma_ref>
+         <analysis>Pron_Pers_Du2_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">som dere to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sudno</l>
+         <lemma_ref lemmaID="soai_pron_pers">soai</lemma_ref>
+         <analysis>Pron_Pers_Du3_Gen</analysis>
+         <analysis>Pron_Pers_Du3_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">de to</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Poss">deres</t>
+            <xg>
+               <x>Dát lea sudno girji.</x>
+               <xt>Dette er deres bok.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sudnuide</l>
+         <lemma_ref lemmaID="soai_pron_pers">soai</lemma_ref>
+         <analysis>Pron_Pers_Du3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til de to</t>
+            <xg>
+               <x>Muital sudnuide!</x>
+               <xt>Fortell til de to!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sudnos</l>
+         <lemma_ref lemmaID="soai_pron_pers">soai</lemma_ref>
+         <analysis>Pron_Pers_Du3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">de to (har noe)</t>
+            <xg>
+               <x>Sudnos lea beana.</x>
+               <xt>De to har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sudnuin</l>
+         <lemma_ref lemmaID="soai_pron_pers">soai</lemma_ref>
+         <analysis>Pron_Pers_Du3_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med de to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sudnon</l>
+         <lemma_ref lemmaID="soai_pron_pers">soai</lemma_ref>
+         <analysis>Pron_Pers_Du3_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">som de to</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">min</l>
+         <lemma_ref lemmaID="mii_pron_pers">mii</lemma_ref>
+         <analysis>Pron_Pers_Pl1_Gen</analysis>
+         <analysis>Pron_Pers_Pl1_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">oss</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">vår</t>
+            <t pos="Pron" type="Poss">våre</t>
+            <xg>
+               <x>Dát lea min girji.</x>
+               <xt>Dette er vår bok.</xt>
+            </xg>
+            <xg>
+               <x>Dát leat min girjjit.</x>
+               <xt>Dette er våre bøker.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">midjiide</l>
+         <lemma_ref lemmaID="mii_pron_pers">mii</lemma_ref>
+         <analysis>Pron_Pers_Pl1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til oss</t>
+            <xg>
+               <x>Muital midjiide!</x>
+               <xt>Fortell til oss!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">mis</l>
+         <lemma_ref lemmaID="mii_pron_pers">mii</lemma_ref>
+         <analysis>Pron_Pers_Pl1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">vi (har noe)</t>
+            <xg>
+               <x>Mis lea beana.</x>
+               <xt>Vi har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">minguin</l>
+         <lemma_ref lemmaID="mii_pron_pers">mii</lemma_ref>
+         <analysis>Pron_Pers_Pl1_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med oss</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">minin</l>
+         <lemma_ref lemmaID="mii_pron_pers">mii</lemma_ref>
+         <analysis>Pron_Pers_Pl1_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">som oss</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">din</l>
+         <lemma_ref lemmaID="dii_pron_pers">dii</lemma_ref>
+         <analysis>Pron_Pers_Pl2_Gen</analysis>
+         <analysis>Pron_Pers_Pl2_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">dere</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">deres</t>
+            <xg>
+               <x>Dát lea din girji.</x>
+               <xt>Dette er deres bok.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">didjiide</l>
+         <lemma_ref lemmaID="dii_pron_pers">dii</lemma_ref>
+         <analysis>Pron_Pers_Pl2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til dere</t>
+            <xg>
+               <x>Muitalan didjiide.</x>
+               <xt>Jeg forteller til dere.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dis</l>
+         <lemma_ref lemmaID="dii_pron_pers">dii</lemma_ref>
+         <analysis>Pron_Pers_Pl2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">dere (har noe)</t>
+            <xg>
+               <x>Dis lea beana.</x>
+               <xt>Dere har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dinguin</l>
+         <lemma_ref lemmaID="dii_pron_pers">dii</lemma_ref>
+         <analysis>Pron_Pers_Pl2_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med dere</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">dinin</l>
+         <lemma_ref lemmaID="dii_pron_pers">dii</lemma_ref>
+         <analysis>Pron_Pers_Pl2_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">som dere</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sin</l>
+         <lemma_ref lemmaID="sii_pron_pers">sii</lemma_ref>
+         <analysis>Pron_Pers_Pl3_Gen</analysis>
+         <analysis>Pron_Pers_Pl3_Acc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">dem</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">deres</t>
+            <xg>
+               <x>Dát lea sin girji.</x>
+               <xt>Dette er deres bok.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sidjiide</l>
+         <lemma_ref lemmaID="sii_pron_pers">sii</lemma_ref>
+         <analysis>Pron_Pers_Pl3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">til dem</t>
+            <xg>
+               <x>Muital sidjiide!</x>
+               <xt>Fortell til dem!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sis</l>
+         <lemma_ref lemmaID="sii_pron_pers">sii</lemma_ref>
+         <analysis>Pron_Pers_Pl3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">de (har noe)</t>
+            <xg>
+               <x>Sis lea beana.</x>
+               <xt>De har en hund.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">singuin</l>
+         <lemma_ref lemmaID="sii_pron_pers">sii</lemma_ref>
+         <analysis>Pron_Pers_Pl3_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">med dem</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Pers">sinin</l>
+         <lemma_ref lemmaID="sii_pron_pers">sii</lemma_ref>
+         <analysis>Pron_Pers_Pl3_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Pers">som dem</t>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

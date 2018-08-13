@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="0">
+         <l pg="no" pos="Num">beal</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om klokka</re>
+            <t pos="Num">halv</t>
+            <xg>
+               <x>Diibmu lea beal okta.</x>
+               <xt>Klokken er halv ett.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="8552">
+         <l context="gápmagat" pos="Num" vmax="3">miljovdna</l>
+         <lsub>miljun</lsub>
+         <lsub>millijuvdna</lsub>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">million</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="670">
+         <l pos="Num">beannot</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">halvannen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="499">
+         <l pos="Num">moaddelogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">20-30</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="358">
+         <l pos="Num">máŋgalogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">40-90</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="39">
+         <l pos="Num">moaddenuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">12-13</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="72">
+         <l pos="Num">moaddečuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">200-300</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="86">
+         <l pos="Num">máŋgačuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">400-900</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="23">
+         <l pos="Num">čuođiduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">hundretusen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="28">
+         <l pos="Num">máŋgaduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">mange tusen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="13">
+         <l pos="Num">guokteduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">2000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="Num">máŋgačuođiduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">mange hundretusen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2">
+         <l pos="Num">oktanuppelotčuohti</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">1100</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2">
+         <l pos="Num">máŋganuppelohkáiduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">14-19000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="14">
+         <l pos="Num">máŋganuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">14-19</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="14">
+         <l pos="Num">moaddeduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">2-3000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="616">
+         <l context="gápmagat" pos="Num">miljárda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">milliard</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1857">
+         <l context="gápmagat" pos="Num">galle</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">hvor mange</t>
+            <xg>
+               <x>Galle máná dus leat?</x>
+               <xt>Hvor mange barn har du?</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">så mange</t>
+            <xg>
+               <x>Gilážis eai oro nu galle olbmo.</x>
+               <xt>I grenda bor det ikke så mange mennesker.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">nok</t>
+            <xg>
+               <x>Ja ii ge das galle - rámbuvrris lea maid erenoamáš fálaldat buot kundariidda.</x>
+               <xt>Og ikke nok med det - i butikken er det også et spesielt tilbud til alle kundene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3656">
+         <l context="gápmagat" pos="Num">logi</l>
+         <lc>logit</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">10</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="18246">
+         <l context="gápmagat" pos="Num">máŋga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron">mange</t>
+            <xg>
+               <x>Doppe ledje máŋga ealgga.</x>
+               <xt>Der var det mange elger.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="7343">
+         <l context="gápmagat" pos="Num">moadde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">et par</t>
+            <t pos="phrase">noen få</t>
+            <xg>
+               <x>Bivden su vuordit moadde beaivvi.</x>
+               <xt>Jeg ba henne vente et par dager.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="6859">
+         <l context="gápmagat" pos="Num">njeallje</l>
+         <lc>njealji, njeljiin</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">4</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="160">
+         <l context="gápmagat" pos="Num">nuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">elleve</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">tolv-tretten</t>
+            <xg>
+               <x>Álttás ledje nuppelohkái sisagaikuma mannan vahkkoloahpa.</x>
+               <xt>I Alta var det tolv-tretten innbrudd sist helg.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="33432">
+         <l context="gápmagat" pos="Num">okta</l>
+         <lc>ovtta</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">1</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1243">
+         <l context="gápmagat" pos="Num">ovcci</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">9</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="5057">
+         <l context="gápmagat" pos="Num">vihtta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">5</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="18">
+         <l context="gápmagat" pos="Num">ovccilogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">90</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2220">
+         <l context="gápmagat" pos="Num">čieža</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">7</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="24798">
+         <l context="gápmagat" pos="Num">guokte</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">2</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="14782">
+         <l context="gápmagat" pos="Num">golbma</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">3</t>
+            <xg>
+               <x>Muhto dál leat juo vássán golbma beaivvi dan rájes go dát dáhpáhuvai.</x>
+               <xt>Men det har allerede gått tre dager siden det skjedde.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3238">
+         <l context="gápmagat" pos="Num">guhtta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">6</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1959">
+         <l context="gápmagat" pos="Num">gávcci</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">8</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="153">
+         <l pos="Num">oktanuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">11</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="206">
+         <l pos="Num">guoktenuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">12</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="28">
+         <l pos="Num">golbmanuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">13</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="30">
+         <l pos="Num">njealljenuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">14</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="75">
+         <l pos="Num">vihttanuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">15</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="18">
+         <l pos="Num">guhttanuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">16</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="17">
+         <l pos="Num">čiežanuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">17</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="25">
+         <l pos="Num">gávccinuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">18</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3">
+         <l pos="Num">ovccinuppelohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">19</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="322">
+         <l pos="Num">guoktelogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">20</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="12">
+         <l pos="Num">guoktelogiokta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">21</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="11">
+         <l pos="Num">guoktelogiguokte</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">22</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2">
+         <l pos="Num">guoktelogigolbma</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">23</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="Num">guokteloginjeallje</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">24</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="8">
+         <l pos="Num">guoktelogivihtta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">25</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="5">
+         <l pos="Num">guoktelogiguhtta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">26</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="Num">guoktelogičieža</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">27</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4">
+         <l pos="Num">guoktelogigávcci</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">28</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="Num">guoktelogiovcci</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">29</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="177">
+         <l pos="Num">golbmalogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">30</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="Num">golbmalogiokta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">31</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2">
+         <l pos="Num">golbmalogiguokte</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">32</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Num">golbmalogigolbma</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">33</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Num">golbmaloginjeallje</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">34</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="Num">golbmalogivihtta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">35</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Num">golbmalogiguhtta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">36</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="7">
+         <l pos="Num">golbmalogičieža</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">37</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3">
+         <l pos="Num">golbmalogigávcci</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">38</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4">
+         <l pos="Num">golbmalogiovcci</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">39</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="100">
+         <l pos="Num">njealljelogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">40</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="145">
+         <l pos="Num">vihttalogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">50</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="40">
+         <l pos="Num">guhttalogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">60</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="28">
+         <l pos="Num">čiežalogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">70</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="14">
+         <l pos="Num">gávccilogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">80</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="181">
+         <l pos="Num">čuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">100</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="30">
+         <l pos="Num">guoktečuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">200</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="34">
+         <l pos="Num">golbmačuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">300</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="21">
+         <l pos="Num">njeallječuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">400</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="9">
+         <l pos="Num">vihttačuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">500</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="6">
+         <l pos="Num">guhttačuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">600</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="9">
+         <l pos="Num">čiežačuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">700</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="5">
+         <l pos="Num">gávccičuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">800</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3">
+         <l pos="Num">ovccičuođi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">900</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2195">
+         <l pos="Num">duhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">1000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="16">
+         <l pos="Num">golbmaduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">3000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="9">
+         <l pos="Num">njealljeduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">4000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="11">
+         <l pos="Num">vihttaduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">5000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="6">
+         <l pos="Num">guhttaduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">6000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2">
+         <l pos="Num">čiežaduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">7000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4">
+         <l pos="Num">gávcciduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">8000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="Num">ovcciduhát</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">9000</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Num" pg="no">oktage</l>
+         <analysis>okta_Num_Sg_Nom_Foc/ge</analysis>
+         <mini_paradigm>
+            <analysis ms="okta_Num_Sg_Acc/Gen_Foc/ge">
+               <wordform>ovttage</wordform>
+            </analysis>
+            <analysis ms="okta_Num_Sg_Ill_Foc/ge">
+               <wordform>oktiige</wordform>
+            </analysis>
+            <analysis ms="okta_Num_Sg_Loc_Foc/ge">
+               <wordform>ovttasge</wordform>
+            </analysis>
+            <analysis ms="okta_Num_Sg_Com_Foc">
+               <wordform>ovttainge</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">en eneste</t>
+            <xg>
+               <x>Dáin maŋimuš jagiin ii gávdnon oktage govva.</x>
+               <xt>Fra de siste årene fantes ikke et eneste bilde.</xt>
+            </xg>
+            <xg>
+               <x>Jáhkán iežan áddet buorebut go oktage eará sudno jurdagiid.</x>
+               <xt>Jeg tror at jeg selv forstår deres tanker bedre enn noen annen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Num" pg="no">ovttage</l>
+         <lemma_ref lemmaID="oktage_num">oktage</lemma_ref>
+         <analysis>okta_Num_Sg_Acc_Foc/ge</analysis>
+         <analysis>okta_Num_Sg_Gen_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">en eneste</t>
+            <xg>
+               <x>Elle ii dovdda ovttage ođđa skuvllas.</x>
+               <xt>Elle kjenner ingen på den nye skolen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Num" pg="no">oktiige</l>
+         <lemma_ref lemmaID="oktage_num">oktage</lemma_ref>
+         <analysis>okta_Num_Sg_Ill_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">til en eneste</t>
+            <xg>
+               <x>Mii eat atte du persovdnadieđuid oktiige.</x>
+               <xt>Vi gir ikke dine personopplysninger til noen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Num" pg="no">ovttasge</l>
+         <lemma_ref lemmaID="oktage_num">oktage</lemma_ref>
+         <analysis>okta_Num_Sg_Loc_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">i en eneste</t>
+            <t pos="Num">hos en eneste</t>
+            <xg>
+               <x>Leat go ovttasge gámasuoinnit vuovdit?</x>
+               <xt>Har noen sennagress til salgs?</xt>
+            </xg>
+            <xg>
+               <x>Lei nu fiinnis go eai ovttasge lean seammalágan gárvvut.</x>
+               <xt>Det var så fint at ingen hadde likedanne klær.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">fra en eneste</t>
+            <xg>
+               <x>Ođđa hálddašeapmi ii galgga gal ovttasge rivvet vuoigatvuođaid.</x>
+               <xt>Den nye forvaltningen skal ikke ta rettigheter fra noen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Num" pg="no">ovttainge</l>
+         <lemma_ref lemmaID="oktage_num">oktage</lemma_ref>
+         <analysis>okta_Num_Sg_Com_Foc/ge</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Num">med en eneste</t>
+            <xg>
+               <x>Mis ii leat leamaš šiehtadus ovttainge njuovahagain.</x>
+               <xt>Vi har ikke hatt avtaler med noen slakteri.</xt>
+            </xg>
+            <xg>
+               <x>Sii eai leat hupman ovttainge heahteveahki birra.</x>
+               <xt>De har ikke snakket med noen om krisehjelp.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

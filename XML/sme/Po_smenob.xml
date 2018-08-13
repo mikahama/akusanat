@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="4956">
+         <l pos="Po">hárrái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">vedrørende</t>
+            <t pos="Pr">angående</t>
+            <xg>
+               <x>dan hárrái</x>
+               <xt>vedrørende det</xt>
+            </xg>
+            <xg>
+               <x>Min bellodagas lea čielga politihkalaš oaidnu sámi rivttiid hárrái.</x>
+               <xt>Vårt parti har et klart politisk syn vedrørende samiske rettigheter.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="20631">
+         <l pos="Po">ektui</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">i forhold til</t>
+            <xg>
+               <x>dan ektui</x>
+               <xt>i forhold til det</xt>
+            </xg>
+            <xg>
+               <x>Vuosttaš logi minuhta lei buorre áigodat Nordlysa ektui.</x>
+               <xt>De første ti minuttene var en god periode sett fra Nordlys sitt synspunkt.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="phrase">sammenlignet med</t>
+            <xg>
+               <x>Dat golut leat govttolaččat veahki ektui.</x>
+               <xt>Kostnadene er gunstige sammenlignet med nytten.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="Po">badjelis</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="pr">ovenfor</t>
+            <xg>
+               <x>Doppe leat sarritdakŋasat vuovderáji badjelis.</x>
+               <xt>Der er det blåbærlyng ovenfor skogsgrensen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3564">
+         <l pos="Po">olis</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">i henhold til</t>
+            <t pos="phrase">i samsvar med</t>
+            <xg>
+               <x>dan olis</x>
+               <xt>i henhold til det</xt>
+            </xg>
+            <xg>
+               <x>Boazologu mearrádusat mat leat dahkkon 1978-lága olis, gustojit dassážii go ođđa boazologu mearrádusat dahkkojit.</x>
+               <xt>Vedtak om reintall som er gjort i tråd med 1978-loven, vil gjelde inntil det foreligger nye vedtak om reintall.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="8581">
+         <l pos="Po">dáfus</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">med hensyn til</t>
+            <xg>
+               <x>dan dáfus</x>
+               <xt>med hensyn til det</xt>
+            </xg>
+            <xg>
+               <x>Nu lea maid lobihis áiddiid dáfus.</x>
+               <xt>Slik er det også når det gjelder ulovlige gjerder.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="phrase">på en måte</t>
+            <xg>
+               <x>Sámegiella lea máŋgga dáfus ártegis giella.</x>
+               <xt>Samisk er på mange måter et merkelig språk.</xt>
+            </xg>
+            <xg>
+               <x>Dan dáfus leage Snehvithuksen dehálaš Finnmárkui.</x>
+               <xt>På den måten er også Snehvitutbyggingen viktig for Finnmark.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2463">
+         <l pos="Po">vuollai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>bevegelse til</re>
+            <t pos="Pr">under</t>
+            <t pos="phrase">inn under</t>
+            <xg>
+               <x>Mánná čáŋai seaŋgga vuollai.</x>
+               <xt>Barnet krøp inn under senga.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om tid</re>
+            <t pos="Pr">mot</t>
+            <xg>
+               <x>Heaika vulggii mátkái ija vuollai.</x>
+               <xt>Heaika dro ut på reise mot natta.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>overført stedsbetydning</re>
+            <t pos="Pr">under</t>
+            <t pos="Pr">i</t>
+            <xg>
+               <x>Norga šattai Dánmárkku vuollai.</x>
+               <xt>Norge kom under Danmark.</xt>
+            </xg>
+            <xg>
+               <x>Son lea šaddan vealggi vuollai.</x>
+               <xt>Han har satt seg i gjeld.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="Po">geaže</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>langs en strekning</re>
+            <t pos="Pr">på</t>
+            <t pos="Pr">over</t>
+            <xg>
+               <x>Dat johte dán geaže.</x>
+               <xt>De flyttet forbi denne enden.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="365">
+         <l pos="Po">dievva</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om mål</re>
+            <t pos="phrase">full av</t>
+            <xg>
+               <x>Mus leat sala dievva lieđit.</x>
+               <xt>Jeg har favnen min full av blomster.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="75">
+         <l pos="Po">badjin</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om sted</re>
+            <t pos="phrase">oppe på</t>
+            <xg>
+               <x>Biret orru joga badjin.</x>
+               <xt>Biret bor i den øvre delen av dalen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="7">
+         <l pos="Po">viiddu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om mål</re>
+            <t pos="A">bred</t>
+            <t pos="A">vid</t>
+            <xg>
+               <x>Gieddi lea dušše logi mihtu viiddu.</x>
+               <xt>Enga har bare en størrelse på ti mål.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">viđe</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om tid</re>
+            <t pos="Adv">straks</t>
+            <t pos="Adv">umiddelbart</t>
+            <xg>
+               <x>Buolašin ferte ruvjet njuovvan viđe.</x>
+               <xt>I frostvær må man partere alt mens man holder på å slakte.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="388">
+         <l pos="Po">viđa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om tid</re>
+            <t pos="Adv">straks</t>
+            <t pos="Adv">umiddelbart</t>
+            <xg>
+               <x>Buolašin ferte ruvjet njuovvan viđa.</x>
+               <xt>I frostvær må man partere alt mens man holder på å slakte.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">seagis</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">blant</t>
+            <xg>
+               <x>Olbmuid seagis lea muhtumin lossat leat.</x>
+               <xt>Blant folk er det noen ganger tungt å være.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="10">
+         <l pos="Po">rájiin</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om sted</re>
+            <t pos="phrase">så langt som i</t>
+            <xg>
+               <x>Mii leimmet jo Gárasavvona rájiin.</x>
+               <xt>Vi var allerede så langt som i Karesuando.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="11">
+         <l pos="Po">oskálii</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">i tillit til</t>
+            <xg>
+               <x>Du oskálii guođán gálvvuid Elle lusa.</x>
+               <xt>I tillit til deg levner jeg varene hos Elle.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">ollodahkii</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om tid</re>
+            <t pos="phrase">i løpet av</t>
+            <xg>
+               <x>Áiggi ollodahkii lea olu čáhci golgan merrii.</x>
+               <xt>I tidens løp har det rent mye vann i havet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2">
+         <l pos="Po">olggul</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">utenpå</t>
+            <t pos="Pr">utenfra</t>
+            <xg>
+               <x>Cokka beaskka gávtti olggul!</x>
+               <xt>Ta pesken utpå kofta!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="33">
+         <l pos="Po">oaivái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">på ... navn</t>
+            <xg>
+               <x>Válden vealggi vielljan oaivái.</x>
+               <xt>Jeg tok kreditt på min brors navn.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1285">
+         <l pos="Po">nammii</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om hensikten</re>
+            <t pos="phrase">med tanke på</t>
+            <t pos="phrase">i den hensikt å</t>
+            <xg>
+               <x>Juohke olbmo nammii galgá leat stuollu.</x>
+               <xt>Det skal være en stol til hver enkelt.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="17608">
+         <l pos="Po">mielas</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">etter oppfatning</t>
+            <xg>
+               <x>Mu mielas lea somá skuvlla vázzit.</x>
+               <xt>Jeg synes det er morsomt å gå på skolen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2530">
+         <l pos="Po">láhkai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">måte</t>
+            <xg>
+               <x>Dán láhkai sáhttá mannat.</x>
+               <xt>Slik kan det gå.</xt>
+            </xg>
+            <xg>
+               <x>Bárdni lei áhčis láhkai.</x>
+               <xt>Gutten var lik sin far.</xt>
+            </xg>
+            <xg>
+               <x>Mun lea láhčán seaŋgga oađđin láhkai.</x>
+               <xt>Jeg har redd opp sengen ferdig til å sove i.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">guotkku</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om mengde, hurtighet eller langvarighet</re>
+            <t pos="phrase">jevnt i</t>
+            <xg>
+               <x>Biera ii leat Máhte guotkku.</x>
+               <xt>Biera kan ikke måle seg med Máhtte.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="31">
+         <l pos="Po">gulu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">i påhør av</t>
+            <xg>
+               <x>Ale muital dan mánáid gulu.</x>
+               <xt>Ikke fortell det mens ungene hører på.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="9">
+         <l pos="Po">goris</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">angående</t>
+            <t pos="phrase">med hensyn til</t>
+            <xg>
+               <x>Ođđa láhka lea dán goris geahnoheabbo go boares láhka.</x>
+               <xt>Den nye loven er angående dette svakere enn den gamle loven.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">gorrái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">angående</t>
+            <t pos="phrase">med hensyn til</t>
+            <xg>
+               <x>Oahpahusa gorrái lea mis hui buorre dilli juste dál.</x>
+               <xt>Med hensyn til undervisningen har vi en god situasjon for øyeblikket.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">gievrru</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om mål</re>
+            <t pos="phrase">i styrke av</t>
+            <xg>
+               <x>Moai letne ovtta gievrru.</x>
+               <xt>Vi to er like sterke.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="200">
+         <l pos="Po">gieđas</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">under kontroll av</t>
+            <xg>
+               <x>Olles fitnodat lea dál du gieđas.</x>
+               <xt>Hele bedriften er nå under kontroll av deg.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="18">
+         <l pos="Po">dássá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om sted i overført betydning</re>
+            <t pos="phrase">jevnhøy med</t>
+            <xg>
+               <x>Mun devden gári ravddaid dássá.</x>
+               <xt>Jeg fylte karet helt opp til kanten.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">bottain</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">innenfor mulighetens grenser</t>
+            <xg>
+               <x>Dat ii leat mu bottain.</x>
+               <xt>Det ligger ikke innenfor mine grenser.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1">
+         <l pos="Po">belos</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om sted</re>
+            <t pos="phrase">nærmere mot ... siden</t>
+            <xg>
+               <x>Dakko galgá vuodjit Norgga belos.</x>
+               <xt>Der må man kjøre nærmere den norske siden.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="38">
+         <l pos="Po">bearrái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om sted i overført betydning</re>
+            <t pos="Pr">etter</t>
+            <xg>
+               <x>Mun galggan geahččat dán viesu bearrái.</x>
+               <xt>Jeg skal se etter dette huset.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3618">
+         <l pos="Po">bealis</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">på vegne av noen</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1182">
+         <l pos="Po">sajis</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">istedenfor</t>
+            <xg>
+               <x>Galggašii geavahit daid riggodagaid mat mis leat, dan sajis go viežžat importaguliid
+               Lulli-Amerihkás.</x>
+               <xt>Vi bør høste av de ressurser som vi har, istedenfor å importere fisk fra Sør-Amerika.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="284">
+         <l pos="Po">ovddabeallai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>bevegelse til</re>
+            <t pos="Pr">foran</t>
+            <xg>
+               <x>Ale fal nahket gieđa stáidnára njálmmi ovddabeallai!</x>
+               <xt>Ikke stikk hånda rett foran en steinbitsnute!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="632">
+         <l pos="Po">ovddabealde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">foran</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="11">
+         <l pos="Po">maŋil</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>ved bevegelse</re>
+            <t pos="Pr">bak</t>
+            <xg>
+               <x>Ánte bođii vácci ja Biera su maŋil.</x>
+               <xt>Ánte kom gående og Biera kom bak ham.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">duoge</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">bak</t>
+            <xg>
+               <x>Ánne bođii viesu duoge.</x>
+               <xt>Ánne kom på baksiden av huset.</xt>
+            </xg>
+            <xg>
+               <x>Lásse njágai sealggeduoge.</x>
+               <xt>Lásse smøg seg forbi bak ryggen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="768">
+         <l pos="Po">beal</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">siden av</t>
+            <xg>
+               <x>Nuppi beal joga lea min gieddi.</x>
+               <xt>På andre siden av elva ligger engen vår.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="113">
+         <l pos="Po">duohkin</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">bak</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2811">
+         <l pos="Po">duohken</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">bak</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3274">
+         <l pos="Po">siskkobealde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">innafor</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">beallái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">til den siden</t>
+            <xg>
+               <x>Dan maŋŋá son fárrii ovttas bearrašiinnis rájá nuppe beallái.</x>
+               <xt>Etter det flyttet hun sammen med familien sin til andre siden av grensen.</xt>
+            </xg>
+            <xg>
+               <x>Doivon duođai ahte dát ášši állana min beallái.</x>
+               <xt>Jeg håpet virkelig at denne saken går i vår favør.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="926">
+         <l pos="Po">beallai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">til den siden</t>
+            <xg>
+               <x>Dan maŋŋá son fárrii ovttas bearrašiinnis rájá nuppe beallai.</x>
+               <xt>Etter det flyttet hun sammen med familien sin til andre siden av grensen.</xt>
+            </xg>
+            <xg>
+               <x>Doivon duođai ahte dát ášši állana min beallai.</x>
+               <xt>Jeg håpet virkelig at denne saken går i vår favør.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="121">
+         <l pos="Po">veardde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">så mye som</t>
+            <xg>
+               <x>dan veardde</x>
+               <xt>så pass mye</xt>
+            </xg>
+            <xg>
+               <x>Dán sátnegirjjis leat guđđon eret muhtun veardde hárvenaš suopmansánit, mat leat leamaš fárus SKES
+               materiálas.</x>
+               <xt>I denne ordboka er det fjerna en del sjeldne dialektord som har vært med i SKES-materialet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="62">
+         <l pos="Po">bále</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">fremdeles</t>
+            <xg>
+               <x>Lea dehálaš čohkket boazodoallotearpmaid, dan bále go ain gávdnojit boazosámit geat máhttet dáid.</x>
+               <xt>Det er viktig å samle reindriftstermer mens det fremdeles fins reindriftssamer som kan dem.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="167">
+         <l pos="Po">vuolábealde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">nedenfor</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="377">
+         <l pos="Po">bajábealde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">over</t>
+            <t pos="Pr">ovenfor</t>
+            <xg>
+               <x>Min viessu lea luotta bajábealde.</x>
+               <xt>Huset vårt står ovenfor veien.</xt>
+            </xg>
+            <xg>
+               <x>Dássážii lea leamaš hui unnán luossabivdu bajábealde goržži.</x>
+               <xt>Til nå har det vært svært lite laksefiske ovenfor fossen.</xt>
+            </xg>
+            <xg>
+               <x>Dasto sáhttet sápmelaččain leat leamen sierra vuoigatvuođat bajábealde namuhuvvon prinsihpaid
+               vuođul.</x>
+               <xt>Dermed kan samene ha separate rettigheter på grunnlag av prinsippene som er nevnt ovenfor.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="10554">
+         <l pos="Po">gaskkas</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">mellom</t>
+            <xg>
+               <x>Guhtura ja Avvila gaskkas leat 30 guoikasaji.</x>
+               <xt>Det er 30 fossestryk mellom Guhtur og Ivalo.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="5122">
+         <l pos="Po">ala</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">på</t>
+            <t pos="Pr">oppå</t>
+            <xg>
+               <x>Bija dan beavddi ala!</x>
+               <xt>Sett den på bordet!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1006">
+         <l pos="Po">nala</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">på</t>
+            <t pos="Pr">oppå</t>
+            <xg>
+               <x>Bija dan beavddi nala!</x>
+               <xt>Sett den på bordet!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="18989">
+         <l pos="Po">bokte</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">via</t>
+            <t pos="Pr">med</t>
+            <xg>
+               <x>EU-doarjja Interreg bokte sáhttá mannat dakkár prošeavttaide.</x>
+               <xt>EU-støtte via Interreg kan gå til slike prosjekter.</xt>
+            </xg>
+            <xg>
+               <x>Dakko bokte lea sestojuvvon ollu ruhta.</x>
+               <xt>Med dette er det spart mye penger.</xt>
+            </xg>
+            <xg>
+               <x>Finnmárkkus leat ássan dušše sápmelaččat, geat giela ja kultuvrra bokte ovddastit čearddalaš unnitlogu
+               Norggas.</x>
+               <xt>I Finnmark har det bodd bare samer, som med språk og kultur danner et nasjonalt mindretall i
+               Norge.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="6010">
+         <l pos="Po">dihtii</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">for</t>
+            <xg>
+               <x>Olbmot šaddet dál vuodjit olles beaivvi viežžan dihtii bensiinna.</x>
+               <xt>Folk blir nå å kjøre hele dagen for å hente bensin.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">på grunn av</t>
+            <xg>
+               <x>Dien mearrádusa dihtii ánssáša ovdagoddi rámi.</x>
+               <xt>På grunn av det vedtaket fortjener formannskapet ros.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="15890">
+         <l pos="Po">dihte</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">for</t>
+            <xg>
+               <x>Mun dál boađán du lusa čállin dihte dan reivve.</x>
+               <xt>Jeg kommer her til deg for å skrive det brevet.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">på grunn av</t>
+            <xg>
+               <x>Dan dihte fertejit ráhkadit oktasaš listtu Sámediggeválgii.</x>
+               <xt>På grunn av dette må de lage en felles liste til Sametingsvalget.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="10355">
+         <l pos="Po">rádjai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">til</t>
+            <xg>
+               <x>Nu leat 40 buolvva Dávveda rájes Babylonia fáŋgavuođa rádjai.</x>
+               <xt>Det er 40 slektsledd fra David til Babylons fangenskap.</xt>
+            </xg>
+            <xg>
+               <x>Prošeaktaruhtadeapmi bistá 2001 rádjai, ja dan maŋŋá doaivumis rievdaduvvo bissovažžan.</x>
+               <xt>Prosjektfinansieringa varer til 2001, og deretter endres det forhåpentligvis til å bli fast
+               finansiering.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">rádjái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">til</t>
+            <xg>
+               <x>Nu leat 40 buolvva Dávveda rájes Babylonia fáŋgavuođa rádjái.</x>
+               <xt>Det er 40 slektsledd fra David til Babylons fangenskap.</xt>
+            </xg>
+            <xg>
+               <x>Prošeaktaruhtadeapmi bistá 2001 rádjái, ja dan maŋŋá doaivumis rievdaduvvo bissovažžan.</x>
+               <xt>Prosjektfinansieringa varer til 2001, og deretter endres det forhåpentligvis til å bli fast
+               finansiering.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="17752">
+         <l pos="Po">rájes</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">fra</t>
+            <xg>
+               <x>Nu leat 40 buolvva Dávveda rájes Babylonia fáŋgavuođa rádjái.</x>
+               <xt>Det er 40 slektsledd fra David til Babylons fangenskap.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2106">
+         <l pos="Po">sisa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">inn i</t>
+            <xg>
+               <x>Son bidjalii reivve girjji sisa.</x>
+               <xt>Hun stakk brevet inn i boka.</xt>
+            </xg>
+            <xg>
+               <x>Plána sisa galget guovllu golbma álgoálbmoga.</x>
+               <xt>Inn i planen skal områdets tre urfolk.</xt>
+            </xg>
+            <xg>
+               <x>Mielki suvrrui spánnja sisa.</x>
+               <xt>Melka ble sur i spannet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="15369">
+         <l pos="Po">vuođul</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">på grunnlag av</t>
+            <xg>
+               <x>Dán materiála vuođul lea váttis mearridit.</x>
+               <xt>Det er vanskelig å gjøre vedtak på grunnlag av dette materialet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="5519">
+         <l pos="Po">alde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">på</t>
+            <xg>
+               <x>Lunttat ledje stoahkame skohteriin eanu alde.</x>
+               <xt>Guttene holdt på å leke med skuter på elva.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1098">
+         <l pos="Po">nalde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">på</t>
+            <xg>
+               <x>Lunttat ledje stoahkame skohteriin eanu nalde.</x>
+               <xt>Guttene holdt på å leke med skuter på elva.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="13">
+         <l pos="Po">báldda</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">ved siden av</t>
+            <xg>
+               <x>Máze skuvlla báldda golggai ája.</x>
+               <xt>Ved siden av Máze skole rant en bekk.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="416">
+         <l pos="Po">bálddas</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">ved siden av</t>
+            <xg>
+               <x>Mánná oađđá eatni bálddas.</x>
+               <xt>Barnet sover ved siden av mora.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="208">
+         <l pos="Po">báldii</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">ved siden av</t>
+            <xg>
+               <x>Vellet mu báldii!</x>
+               <xt>Legg deg ned ved siden av meg!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="54294">
+         <l pos="Po">birra</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">om</t>
+            <xg>
+               <x>Mii dárbbašit dieđuid geavaheddjiid giela ja kultuvrra birra.</x>
+               <xt>Vi trenger informasjon om brukernes språk og kultur.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">rundt</t>
+            <xg>
+               <x>Sus lei vierru čuoigat birra ealu.</x>
+               <xt>Han hadde som vane å gå på ski rundt flokken.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="501">
+         <l pos="Po">buohta</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">overfor</t>
+            <xg>
+               <x>Stuora luottaid buohta leat unna luottažat.</x>
+               <xt>Overfor de store sporene var det små spor.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2795">
+         <l pos="Po">čađa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">gjennom</t>
+            <xg>
+               <x>Vázzen gili čađa.</x>
+               <xt>Jeg gikk gjennom bygda.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="436">
+         <l pos="Po">fárrui</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">med</t>
+            <xg>
+               <x>Vuolgge min fárrui!</x>
+               <xt>Bli med oss!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="572">
+         <l pos="Po">fárus</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">med</t>
+            <xg>
+               <x>Eadni lea min fárus.</x>
+               <xt>Mor er med oss.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="5217">
+         <l pos="Po">gaskka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">mellom</t>
+            <xg>
+               <x>Jođán ollu Álaheaju ja Romssa gaskka.</x>
+               <xt>Jeg reiser mye mellom Alta og Tromsø.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1128">
+         <l pos="Po">geahčen</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">hos</t>
+            <xg>
+               <x>Son lea min geahčen fitnan juohke geasi.</x>
+               <xt>Hun har vært innom hos oss hver sommer.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om tid</re>
+            <t pos="Adv">om</t>
+            <xg>
+               <x>Guđa mánu geahčen oažžu dollet Olmmáivággái.</x>
+               <xt>Om seks måneder får hun reise til Manndalen.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">ende</t>
+            <xg>
+               <x>Álggu geahčen juovlamánu ráhkkanišgohte mánát juovllaide.</x>
+               <xt>I begynnelsen av desember begynte barna å forberede seg til jul.</xt>
+            </xg>
+            <xg>
+               <x>Skohter suoláduvvui nuppe geahčen márkangili.</x>
+               <xt>Skuteren ble stjålet i andre enden av bygda.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="128">
+         <l pos="Po">geahčai</l>
+         <lc>geahčen</lc>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">hos</t>
+            <xg>
+               <x>Boađe min geahčai!</x>
+               <xt>Kom hjem til oss!</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">til enden</t>
+            <xg>
+               <x>Son čievččasta čižžedoalana nuppi geahčái viesu.</x>
+               <xt>Hun sparker BHen til andre enden av huset.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="682">
+         <l pos="Po">guoras</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">ved siden av</t>
+            <xg>
+               <x>Mánná čohkká eatni guoras.</x>
+               <xt>Barnet sitter ved siden av mor.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">guovdelas</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">midt på</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1111">
+         <l pos="Po">lahka</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">nær</t>
+            <t pos="phrase">i nærheten av</t>
+            <xg>
+               <x>In beassan lahka ge uvssa.</x>
+               <xt>Jeg kom meg ikke i nærheten av døra engang.</xt>
+            </xg>
+            <xg>
+               <x>Mii máksit lahka 10 ruvnno bensinlittaris.</x>
+               <xt>Vi betaler i nærheten av 10 kroner for literen for bensin.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2931">
+         <l pos="Po">luhtte</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">hos</t>
+            <xg>
+               <x>Dat lea mu luhtte.</x>
+               <xt>Hun er hos meg.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3877">
+         <l pos="Po">lusa</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">til</t>
+            <xg>
+               <x>Son manai áhči lusa.</x>
+               <xt>Han gikk til far.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="991">
+         <l pos="Po">maŋis</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+	         <re>om noe som er i bevegelse</re>
+            <t pos="Pr">bak</t>
+            <xg>
+               <x>Olbmot manne nubbi nuppi maŋis.</x>
+               <xt>Folk gikk den ene bak den andre.</xt>
+            </xg>
+            <xg>
+               <x>Ánte bođii viega ja Biera bođii maŋis.</x>
+               <xt>Ánte kom springende med Biera etter seg.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">etter</t>
+            <xg>
+               <x>In gille čorget earáid maŋis.</x>
+               <xt>Jeg orker ikke å rydde etter andre.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="212">
+         <l pos="Po">maŋŋái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+	        <re>om noe som kommer i bevegelse</re>
+            <t pos="Pr">etter</t>
+            <xg>
+               <x>Áhkku viehkalii mánáid maŋŋái.</x>
+               <xt>Bestemor sprang av gårde etter barna.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2754">
+         <l pos="Po">maŋŋá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">etter</t>
+            <xg>
+               <x>Háliidan diehtit movt sudnuin manai dáhpáhusa maŋŋá.</x>
+               <xt>Jeg vil vite hvordan det gikk med dem i tiden etter hendelsen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2387">
+         <l pos="Po">maŋŋel</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">etter</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">maŋŋil</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">etter</t>
+            <xg>
+               <x>2. máilmmisoađi maŋŋil biliduvvui stuorra oassi Finnmárkku viesuin.</x>
+               <xt>Etter 2. verdenskrig ble storparten av husa i Finnmark ødelagt.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="203">
+         <l pos="Po">meattá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">forbi</t>
+            <xg>
+               <x>Oahpaheaddji vujii min viesu meattá.</x>
+               <xt>Læreren kjørte forbi huset vårt.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="40336">
+         <l pos="Po">mielde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">med</t>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">langs</t>
+            <xg>
+               <x>geainnu mielde</x>
+               <xt>langs veien</xt>
+            </xg>
+            <xg>
+               <x>Son vuolgá mu mielde Supmii.</x>
+               <xt>Hun blir med meg til Finland.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">ifølge</t>
+            <xg>
+               <x>Buohkat geat leat čálihan iežaset jienastuslohkui leat dien čilgehusa mielde sámit.</x>
+               <xt>Alle som har meldt seg inn i manntallet er samer ifølge den definisjonen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="8">
+         <l pos="Po">njeaigga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">mot</t>
+            <xg>
+               <x>dan njeaigga</x>
+               <xt>mot den</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="11251">
+         <l pos="Po">ovddas</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">for</t>
+            <xg>
+               <x>Giitu dan ovddas!</x>
+               <xt>Takk for den!</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">foran</t>
+            <t pos="phrase">i veien</t>
+            <xg>
+               <x>Don leat mu ovddas.</x>
+               <xt>Du er i vegen for meg.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="1389">
+         <l pos="Po">rastá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">over</t>
+            <xg>
+               <x>Váccán geainnu rastá.</x>
+               <xt>Jeg går over veien.</xt>
+            </xg>
+         </tg>
+      </mg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">tvers av</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="3106">
+         <l pos="Po">siste</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">inne i</t>
+            <xg>
+               <x>Girjji siste gávdnui reive.</x>
+               <xt>Et brev ble funnet inne i boka.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="8961">
+         <l pos="Po">várás</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">for</t>
+            <t pos="phrase">av hensyn til</t>
+            <xg>
+               <x>Joatkkaskuvlla várás eai báljo gávdno oahppogirjjit sámegillii.</x>
+               <xt>Det finnes nesten ikke lærebøker på samisk for den videregående skolen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2732">
+         <l pos="Po">vuolde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">under</t>
+            <xg>
+               <x>Dat lea beavddi vuolde.</x>
+               <xt>Den ligger under bordet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">vuollái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">under</t>
+            <xg>
+               <x>Bija dan beavddi vuollái.</x>
+               <xt>Legg den under bordet.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="8278">
+         <l pos="Po">vuostá</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">mot</t>
+            <xg>
+               <x>Son ceggii sabehiid seainni vuostá.</x>
+               <xt>Han stilte skiene mot veggen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="8886">
+         <l pos="Po">geažil</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">på grunn av</t>
+            <xg>
+               <x>dan geažil</x>
+               <xt>på grunn av det</xt>
+            </xg>
+            <xg>
+               <x>Ruhtadili geažil dat ii leat vel ollašuvvan.</x>
+               <xt>På grunn av økonomien er dette ikke blitt gjennomført enda.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="39">
+         <l pos="Po">gullut</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Adv">påhør</t>
+            <xg>
+               <x>Son dajai dan mu gullut.</x>
+               <xt>Hun sa det i mitt påhør.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="5488">
+         <l pos="Po">haga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">uten</t>
+            <xg>
+               <x>Ale vuolgge ruđa haga!</x>
+               <xt>Ikke dra uten penger!</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="179">
+         <l pos="Po">ovddal</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">før</t>
+            <t pos="phrase">i møte</t>
+            <xg>
+               <x>Son bođii mu ovddal.</x>
+               <xt>Hun kom meg i møte.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2355">
+         <l pos="Po">badjel</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">over</t>
+            <xg>
+               <x>Rohttejin ránu oaivvi badjel vai oaččun nahkáriid.</x>
+               <xt>Jeg dro pleddet over hodet for å få sove.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="411">
+         <l pos="Po">duohkái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">bak</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="232">
+         <l pos="Po">duohkai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">bak</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="928">
+         <l pos="Po">gaskii</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">mellom</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="2242">
+         <l pos="Po">ovdii</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">foran</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">olggobeallái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">utenfor</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="106">
+         <l pos="Po">bajábeallai</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">over</t>
+            <t pos="Adv">ovenfor</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4248">
+         <l pos="Po">guvlui</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">i retning av</t>
+            <xg>
+               <x>Liikká orru mannamin dan guvlui.</x>
+               <xt>Det virker likevel å gå i den retningen.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="140">
+         <l pos="Po">meaddel</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">forbi</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="29">
+         <l pos="Po">meaddil</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">forbi</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">bajábeallái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>bevegelse til</re>
+            <t pos="Pr">over</t>
+            <xg>
+               <x>Ánne heŋgii čuovgga seaidnái seaŋgga bajábeallái.</x>
+               <xt>Ánne hengte opp en lampe på veggen over senga.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="428">
+         <l pos="Po">davábealde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">på nordsiden</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">davábeallái</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">til nordsiden</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="8">
+         <l pos="Po">duogi</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">bak</t>
+            <xg>
+               <x>Bussá liiko go Ánne njávká su beljiid duogi.</x>
+               <xt>Katten liker når Ánne stryker den bak ørene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="352">
+         <l pos="Po">duogábealde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">på baksiden</t>
+            <xg>
+               <x>Ánte duogábealde ledje muhtun nieiddat.</x>
+               <xt>Bak Ánte var det noen jenter.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="202">
+         <l pos="Po">geažes</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pr">om</t>
+            <xg>
+               <x>Eadni galgá viežžat mu vahku geažes duottarstobus.</x>
+               <xt>Mor skal hente meg om en uke på fjellstua.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="116">
+         <l pos="Po">lulábealde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">på sørsiden</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="419">
+         <l pos="Po">njeaiga</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">rett på</t>
+            <t pos="phrase">rett mot</t>
+            <xg>
+               <x>Dávjá lea buoret vuodjit ealli njeaiga go stivret luottas eret.</x>
+               <xt>Ofte er det bedre å kjøre rett på et dyr enn å styre i grøfta.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="148">
+         <l pos="Po">nuorttabealde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="phrase">på østsiden</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="95">
+         <l pos="Po">alu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re x="fad">tallmessig</re>
+            <t pos="A">høy</t>
+            <xg>
+               <x>Duot soahki lea golbma mehtera alu.</x>
+               <xt>Den der bjørka er tre meter høy.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Po">galju</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om mål</re>
+            <t pos="A">vid</t>
+            <xg>
+               <x>Duot soajit leat ovtta galju.</x>
+               <xt>De ermene der er like vide.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="10">
+         <l pos="Po">gasu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om runde ting</re>
+            <t pos="A">tykk</t>
+            <xg>
+               <x>Dimbarat leat olbmo gasu.</x>
+               <xt>Tømrene er tykke som en person.</xt>
+            </xg>
+            <xg>
+               <x>Dimbarat leat olbmo gasu.</x>
+               <xt>Tømmerstokkene er tykke som et menneske.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="27">
+         <l pos="Po">čieŋu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om mål</re>
+            <t pos="A">dyp</t>
+            <xg>
+               <x>Fielbmá lea njeallje mehter čieŋu.</x>
+               <xt>Den lille, stille elva er fire meter dyp.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="12">
+         <l pos="Po">losu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om mål</re>
+            <t pos="A">tung</t>
+            <xg>
+               <x>Moai letne ovtta losu.</x>
+               <xt>Vi to er like tunge.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="80">
+         <l pos="Po">govddu</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om mål</re>
+            <t pos="A">bred</t>
+            <xg>
+               <x>Latnja lea njeallje mehtera govddu.</x>
+               <xt>Rommet er fire meter bredt.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="339">
+         <l pos="Po">guhku</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om mål</re>
+            <t pos="A">lang</t>
+            <xg>
+               <x>Čálus lea 4 siiddu guhku.</x>
+               <xt>Skrivet er 4 sider langt.</xt>
+            </xg>
+            <xg>
+               <x>Mii leat huksen 90 km guhkkosaš boazoáiddi.</x>
+               <xt>Vi har bygd et 90 km langt reinsperregjerde.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="81">
+         <l pos="Po">stuoru</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om mål</re>
+            <t pos="A">stor</t>
+            <xg>
+               <x>Skuvllat leat ovtta stuoru.</x>
+               <xt>Skolene er like store.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="4017">
+         <l pos="Po">bealde</l>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="N">side</t>
+            <xg>
+               <x>Vázzu dán bealde šaldi.</x>
+               <xt>La oss gå på denne sida av brua.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

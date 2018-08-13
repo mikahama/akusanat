@@ -5,7 +5,7 @@ from django.template import RequestContext, loader
 import tietokanta.mongoilija as mongoilija
 from django.template.defaulttags import register
 from exceptions import *
-import json
+import json, urllib
 from django import template
 from django.views.decorators.csrf import csrf_exempt
 from tietokanta.models import *
@@ -20,6 +20,7 @@ import os
 import copy
 import HTMLParser
 import inflector
+import codecs
 from django.views.decorators.clickjacking import xframe_options_exempt
 from xml.sax.saxutils import escape
 
@@ -34,7 +35,8 @@ file_types = {
     "default" : {".": "izh_morph.xml"},
     "mhr" : {".": "izh_morph.xml"},
     "olo" : {".": "izh_morph.xml"},
-    "vot" : {".": "izh_morph.xml"}
+    "vot" : {".": "izh_morph.xml"},
+    "kpv" : {".": "izh_morph.xml"}
 }
 api_keys =[u"sdfrf4535gdg35ertgfd", u"45454arefg785421!R", u"e3455rtwe54325t"]
 
@@ -47,6 +49,50 @@ def download_model(request):
     stream = inflector.return_model(language, model_type)
     response = HttpResponse(stream, content_type='application/octet-stream')
     return response
+
+def searchProviders(request):
+    BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+    file_path = os.path.join(BASE_DIR, 'search_providers.js')
+    try:
+        d = codecs.open(file_path, "r", encoding="utf-8")
+        text = d.read()
+    except:
+        sms_edit_url = getattr(settings, "WIKI_JS_URL", None).replace("sms_edit.js", "search_providers.js")
+        text = urllib.urlopen(sms_edit_url).read()
+    return  HttpResponse(text, content_type='application/javascript')
+
+def saveSearch(request):
+    u = request.session.get("user", None)
+    if u is None:
+        return HttpResponse("login first", status=401)
+    data = request.POST["data"]
+    BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+    file_path = os.path.join(BASE_DIR, 'search_providers.js')
+    output = codecs.open(file_path, "w", encoding="utf-8")
+    output.write("//modified last by "+u+"\n\nvar search_providers = " + data + ";")
+    output.close()
+    return HttpResponse("ok", status=200)
+
+def editSearch(request):
+    template = loader.get_template("search_edit.html")
+    context = RequestContext(request, {
+        'wikiurl': getattr(settings, "WIKI_JS_URL", "/").rsplit("/",1)[0],
+        "user": request.session.get('user', "")
+    })
+    return HttpResponse(template.render(context), content_type="text/html; charset=utf-8")
+
+def login(request):
+    username = request.POST["username"]
+    password = request.POST["password"]
+    wt = Wikitool(username, password)
+    success = wt.login()
+    if success:
+        request.session['user'] = username
+        status = 200
+    else:
+        status = 401
+    resp = HttpResponse(json.dumps({"success": success}),status=status, content_type="application/json")
+    return resp
 
 def xml_out(request):
     xml_filename = request.GET["file"]

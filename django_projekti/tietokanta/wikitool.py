@@ -45,6 +45,9 @@ class Wikitool():
         else:
             confirmationData = {"action":"login","lgname": self.username, "lgpassword": self.password, "lgtoken":loginResults["query"]["tokens"]["logintoken"], "format":"json"}
             success, loginResults = self.post(self.wiki_url + "api.php", confirmationData)
+            fail = loginResults["login"]["result"]
+            if fail == u"Failed":
+                return False
             if not success:
                 return False
         return True

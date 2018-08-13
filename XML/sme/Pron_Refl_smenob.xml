@@ -1,0 +1,1865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="Dictionary view" media="screen,tv,projection" href="../../scripts/gt_dictionary.css" type="text/css"?>
+<?xml-stylesheet alternate="yes" title="Hierarchical view" media="screen,tv,projection" href="../../scripts/gt_dictionary_alt.css" type="text/css"?>
+<!DOCTYPE r
+  PUBLIC "-//DivvunGiellatekno//DTD Dictionaries//Multilingual" "../../scripts/gt_dictionary.dtd">
+<r id="smenob" xml:lang="sme">
+   <lics xmlns:xhtml="http://www.w3.org/1999/xhtml" xml:space="preserve"><lic xml:lang="en">
+This code is made available under a Creative Commons Attribution license
+<a>http://creativecommons.org/licenses/by/3.0/no/deed.en</a>.
+
+You are free to copy, distribute and adapt the work, as long as you always give
+proper attribution using the attribution text below.
+
+For the full license text, see the link above.</lic><ref>Work by Nils Jernsletten, Giellatekno and Divvun at UiT,
+          and members of the language communities. Source code
+          available at <a>https://victorio.uit.no/langtech/trunk/</a>.</ref><sourcenote>
+     THIS TEXT IS THE ORIGINAL SOURCE CODE. This is NOT a fully styled and
+     published dictionary. As such it can and
+     will contain unfinished entries, unpublished entries, entries with
+     objectionable translations, etc. If you find any errors or want to add more
+     words, download the file, edit it, and send it back to
+     <a>mailto:feedback@divvun.no</a> and <a>mailto:giellatekno@uit.no</a>.
+     Please also note that the entries are not necessarily sorted,
+     or could be wrongly sorted.
+     </sourcenote></lics>
+   <e>
+      <lg freq="89661">
+         <l pos="Pron" type="Refl">ieš</l>
+         <analysis>Pron_Refl_Sg_Nom</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Du_Nom">
+               <wordform>ieža</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl_Nom">
+               <wordform>ieža</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">sjøl</t>
+            <xg>
+               <x>Mun lean dan ieš dahkan.</x>
+               <xt>Jeg har gjort det sjøl.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">ieža</l>
+         <lemma_ref lemmaID="ieš_pron_refl">ieš</lemma_ref>
+         <analysis>Pron_Refl_Du_Nom</analysis>
+         <analysis>Pron_Refl_Pl_Nom</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="Pron" type="Refl">sjøl</t>
+            <xg>
+               <x>Soai leaba dan ieža dahkan.</x>
+               <xt>De to har gjort det sjøl.</xt>
+            </xg>
+            <xg>
+               <x>Mii leat dan ieža dahkan.</x>
+               <xt>Vi har gjort det sjøl.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežan</l>
+         <analysis>Pron_Refl_Sg1_Acc</analysis>
+         <analysis>Pron_Refl_Sg1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Sg1_Acc/Gen">
+               <wordform>iežan</wordform>
+               <wordform>iehčan</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg1_Ill">
+               <wordform>alccesan</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg1_Loc">
+               <wordform>alddán</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg1_Com">
+               <wordform>iežainan</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg1_Ess">
+               <wordform>iehčanan</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">meg selv</t>
+            <xg>
+               <x>Mun oainnán iežan speadjalis.</x>
+               <xt>Jeg ser meg selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">min</t>
+            <t pos="Pron" type="Poss">min egen</t>
+            <xg>
+               <x>Mun stoagan iežan ustibiin.</x>
+               <xt>Jeg leker med vennen min.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčan</l>
+         <analysis>Pron_Refl_Sg1_Acc</analysis>
+         <analysis>Pron_Refl_Sg1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Sg1_Acc/Gen">
+               <wordform>iežan</wordform>
+               <wordform>iehčan</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg1_Ill">
+               <wordform>alccesan</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg1_Loc">
+               <wordform>alddán</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg1_Com">
+               <wordform>iežainan</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg1_Ess">
+               <wordform>iehčanan</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">meg selv</t>
+            <xg>
+               <x>Mun oainnán iehčan speadjalis.</x>
+               <xt>Jeg ser meg selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">min</t>
+            <t pos="Pron" type="Poss">min egen</t>
+            <xg>
+               <x>Mun stoagan iežan ustibiin.</x>
+               <xt>Jeg leker med vennen min.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežat</l>
+         <analysis>Pron_Refl_Sg2_Acc</analysis>
+         <analysis>Pron_Refl_Sg2_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Sg2_Acc/Gen">
+               <wordform>iežat</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg2_Ill">
+               <wordform>alccesat</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg2_Loc">
+               <wordform>alddát</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg2_Com">
+               <wordform>iežainat</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg2_Ess">
+               <wordform>iehčanat</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">deg selv</t>
+            <xg>
+               <x>Don oainnát iežat speadjalis.</x>
+               <xt>Du ser deg selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">din</t>
+            <t pos="Pron" type="Poss">din egen</t>
+            <xg>
+               <x>Don stoagat iežat ustibiin.</x>
+               <xt>Du leker med vennen din.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežas</l>
+         <analysis>Pron_Refl_Sg3_Acc</analysis>
+         <analysis>Pron_Refl_Sg3_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Sg3_Acc/Gen">
+               <wordform>iežas</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg3_Ill">
+               <wordform>alccesis</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg3_Loc">
+               <wordform>alddis</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg3_Com">
+               <wordform>iežainis</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Sg3_Ess">
+               <wordform>iehčanis</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">seg selv</t>
+            <xg>
+               <x>Eadni oaidná iežas speadjalis.</x>
+               <xt>Mor ser seg selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">sin</t>
+            <t pos="Pron" type="Poss">sin egen</t>
+            <xg>
+               <x>Lásse stoahká iežas ustibiin.</x>
+               <xt>Lasse leker med vennen sin.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežame</l>
+         <analysis>Pron_Refl_Du1_Acc</analysis>
+         <analysis>Pron_Refl_Du1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Du1_Acc/Gen">
+               <wordform>iežame</wordform>
+               <wordform>iehčame</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Ill">
+               <wordform>alcceseame</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Loc">
+               <wordform>alddáme</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Com">
+               <wordform>iežaineame</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Ess">
+               <wordform>iehčaneame</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">oss selv</t>
+            <xg>
+               <x>Moai oidne iežame speadjalis.</x>
+               <xt>Vi to ser oss selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Poss">vår</t>
+            <t pos="Pron" type="Poss">vår egen</t>
+            <xg>
+               <x>Moai stohke iežame ustibiin.</x>
+               <xt>Vi to leker med vennen vår.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčame</l>
+         <analysis>Pron_Refl_Du1_Acc</analysis>
+         <analysis>Pron_Refl_Du1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Du1_Acc/Gen">
+               <wordform>iežame</wordform>
+               <wordform>iehčame</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Ill">
+               <wordform>alcceseame</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Loc">
+               <wordform>alddáme</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Com">
+               <wordform>iežaineame</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Ess">
+               <wordform>iehčaneame</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">oss selv</t>
+            <xg>
+               <x>Moai oidne iehčame speadjalis.</x>
+               <xt>Vi to ser oss selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Poss">vår</t>
+            <t pos="Pron" type="Poss">vår egen</t>
+            <xg>
+               <x>Moai stohke iehčame ustibiin.</x>
+               <xt>Vi to leker med vennen vår.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaideame</l>
+         <analysis>Pron_Refl_Du1_Acc</analysis>
+         <analysis>Pron_Refl_Du1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Du1_Acc/Gen">
+               <wordform>iežame</wordform>
+               <wordform>iehčame</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Ill">
+               <wordform>alcceseame</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Loc">
+               <wordform>alddáme</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Com">
+               <wordform>iežaineame</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du1_Ess">
+               <wordform>iehčaneame</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">oss selv</t>
+            <xg>
+               <x>Moai oidne iežaideame speadjalis.</x>
+               <xt>Vi to ser oss selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Poss">vår</t>
+            <t pos="Pron" type="Poss">vår egen</t>
+            <xg>
+               <x>Moai stohke iežaideame ustibiin.</x>
+               <xt>Vi to leker med vennen vår.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežade</l>
+         <analysis>Pron_Refl_Du2_Acc</analysis>
+         <analysis>Pron_Refl_Du2_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Du2_Acc/Gen">
+               <wordform>iežade</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du2_Ill">
+               <wordform>alcceseatte</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du2_Loc">
+               <wordform>alddáde</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du2_Com">
+               <wordform>iežaineatte</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du2_Ess">
+               <wordform>iehčaneatte</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">dere selv</t>
+            <xg>
+               <x>Doai oaidnibeahtti iežade speadjalis.</x>
+               <xt>Dere to ser dere selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Poss">deres</t>
+            <t pos="Pron" type="Poss">deres egen</t>
+            <xg>
+               <x>Doai stoahkabeahtti iežade ustibiin.</x>
+               <xt>Dere to leker med vennen deres.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaideatte</l>
+         <analysis>Pron_Refl_Du2_Acc</analysis>
+         <analysis>Pron_Refl_Du2_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Du2_Acc/Gen">
+               <wordform>iežade</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du2_Ill">
+               <wordform>alcceseatte</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du2_Loc">
+               <wordform>alddáde</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du2_Com">
+               <wordform>iežaineatte</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du2_Ess">
+               <wordform>iehčaneatte</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">dere selv</t>
+            <xg>
+               <x>Doai oaidnibeahtti iežaideatte speadjalis.</x>
+               <xt>Dere to ser dere selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Poss">deres</t>
+            <t pos="Pron" type="Poss">deres egen</t>
+            <xg>
+               <x>Doai stoahkabeahtti iežaideatte ustibiin.</x>
+               <xt>Dere to leker med vennen deres.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaska</l>
+         <analysis>Pron_Refl_Du3_Acc</analysis>
+         <analysis>Pron_Refl_Du3_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Du3_Acc/Gen">
+               <wordform>iežaska</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du3_Ill">
+               <wordform>alcceseaskka</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du3_Loc">
+               <wordform>alddiska</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du3_Com">
+               <wordform>iežaineaskka</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du3_Ess">
+               <wordform>iehčaneaskka</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">seg selv</t>
+            <xg>
+               <x>Soai oaidniba iežaska speadjalis.</x>
+               <xt>De to ser seg selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Poss">deres</t>
+            <t pos="Pron" type="Poss">deres egen</t>
+            <xg>
+               <x>Soai stoahkaba iežaska ustibiin.</x>
+               <xt>De to leker med vennen deres.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaideaskka</l>
+         <analysis>Pron_Refl_Du3_Acc</analysis>
+         <analysis>Pron_Refl_Du3_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Du3_Acc/Gen">
+               <wordform>iežaska</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du3_Ill">
+               <wordform>alcceseaskka</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du3_Loc">
+               <wordform>alddiska</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du3_Com">
+               <wordform>iežaineaskka</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Du3_Ess">
+               <wordform>iehčaneaskka</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">seg selv</t>
+            <xg>
+               <x>Soai oaidniba iežaideaskka speadjalis.</x>
+               <xt>De to ser seg selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Poss">deres</t>
+            <t pos="Pron" type="Poss">deres egen</t>
+            <xg>
+               <x>Soai stoahkaba iežaideaskka ustibiin.</x>
+               <xt>De to leker med vennen deres.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežamet</l>
+         <analysis>Pron_Refl_Pl1_Acc</analysis>
+         <analysis>Pron_Refl_Pl1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Pl1_Acc/Gen">
+               <wordform>iežamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Ill">
+               <wordform>alcceseamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Loc">
+               <wordform>alddámet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Com">
+               <wordform>iežaineamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Ess">
+               <wordform>iehčaneamet</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">oss selv</t>
+            <xg>
+               <x>Mii oaidnit iežamet speadjalis.</x>
+               <xt>Vi ser oss selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">vår</t>
+            <t pos="Pron" type="Poss">vår egen</t>
+            <xg>
+               <x>Mii stoahkat iežamet ustibiin.</x>
+               <xt>Vi leker med vennen vår.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčamet</l>
+         <analysis>Pron_Refl_Pl1_Acc</analysis>
+         <analysis>Pron_Refl_Pl1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Pl1_Acc/Gen">
+               <wordform>iežamet</wordform>
+               <wordform>iehčamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Ill">
+               <wordform>alcceseamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Loc">
+               <wordform>alddámet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Com">
+               <wordform>iežaineamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Ess">
+               <wordform>iehčaneamet</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">oss selv</t>
+            <xg>
+               <x>Mii oaidnit iehčamet speadjalis.</x>
+               <xt>Vi ser oss selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">vår</t>
+            <t pos="Pron" type="Poss">vår egen</t>
+            <xg>
+               <x>Mii stoahkat iehčamet ustibiin.</x>
+               <xt>Vi leker med vennen vår.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaideamet</l>
+         <analysis>Pron_Refl_Pl1_Acc</analysis>
+         <analysis>Pron_Refl_Pl1_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Pl1_Acc/Gen">
+               <wordform>iežamet</wordform>
+               <wordform>iehčamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Ill">
+               <wordform>alcceseamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Loc">
+               <wordform>alddámet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Com">
+               <wordform>iežaineamet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl1_Ess">
+               <wordform>iehčaneamet</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">oss selv</t>
+            <xg>
+               <x>Mii oaidnit iežaideamet speadjalis.</x>
+               <xt>Vi ser oss selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">vår</t>
+            <t pos="Pron" type="Poss">vår egen</t>
+            <xg>
+               <x>Mii stoahkat iežaideamet ustibiin.</x>
+               <xt>Vi leker med vennen vår.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežadet</l>
+         <analysis>Pron_Refl_Pl2_Acc</analysis>
+         <analysis>Pron_Refl_Pl2_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Pl2_Acc/Gen">
+               <wordform>iežadet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl2_Ill">
+               <wordform>alcceseattet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl2_Loc">
+               <wordform>alddádet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl2_Com">
+               <wordform>iežaineattet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl2_Ess">
+               <wordform>iehčaneattet</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">dere selv</t>
+            <xg>
+               <x>Dii oaidnibehtet iežadet speadjalis.</x>
+               <xt>Dere ser dere selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">deres</t>
+            <t pos="Pron" type="Poss">deres egen</t>
+            <xg>
+               <x>Dii stoahkabehtet iežadet ustibiin.</x>
+               <xt>Dere leker med vennen deres.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaideattet</l>
+         <analysis>Pron_Refl_Pl2_Acc</analysis>
+         <analysis>Pron_Refl_Pl2_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Pl2_Acc/Gen">
+               <wordform>iežadet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl2_Ill">
+               <wordform>alcceseattet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl2_Loc">
+               <wordform>alddádet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl2_Com">
+               <wordform>iežaineattet</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl2_Ess">
+               <wordform>iehčaneattet</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">dere selv</t>
+            <xg>
+               <x>Dii oaidnibehtet iežaideattet speadjalis.</x>
+               <xt>Dere ser dere selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">deres</t>
+            <t pos="Pron" type="Poss">deres egen</t>
+            <xg>
+               <x>Dii stoahkabehtet iežaideattet ustibiin.</x>
+               <xt>Dere leker med vennen deres.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaset</l>
+         <analysis>Pron_Refl_Pl3_Acc</analysis>
+         <analysis>Pron_Refl_Pl3_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Pl3_Acc/Gen">
+               <wordform>iežaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl3_Ill">
+               <wordform>alcceseaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl3_Loc">
+               <wordform>alddiset</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl3_Com">
+               <wordform>iežaineaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl3_Ess">
+               <wordform>iehčaneaset</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="Pron" type="Refl">seg selv</t>
+            <xg>
+               <x>Sii oidnet iežaset speadjalis.</x>
+               <xt>De ser seg selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">deres</t>
+            <t pos="Pron" type="Poss">deres egen</t>
+            <xg>
+               <x>Sii stohket iežaset ustibiin.</x>
+               <xt>De leker med vennen deres.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaideaset</l>
+         <analysis>Pron_Refl_Pl3_Acc</analysis>
+         <analysis>Pron_Refl_Pl3_Gen</analysis>
+         <mini_paradigm>
+            <analysis ms="Pron_Refl_Pl3_Acc/Gen">
+               <wordform>iežaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl3_Ill">
+               <wordform>alcceseaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl3_Loc">
+               <wordform>alddiset</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl3_Com">
+               <wordform>iežaineaset</wordform>
+            </analysis>
+            <analysis ms="Pron_Refl_Pl3_Ess">
+               <wordform>iehčaneaset</wordform>
+            </analysis>
+         </mini_paradigm>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="Pron" type="Refl">seg selv</t>
+            <xg>
+               <x>Sii oidnet iežaideaset speadjalis.</x>
+               <xt>De ser seg selv i speilet.</xt>
+            </xg>
+         </tg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Poss">deres</t>
+            <t pos="Pron" type="Poss">deres egen</t>
+            <xg>
+               <x>Sii stohket iežaideaset ustibiin.</x>
+               <xt>De leker med vennen deres.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccesan</l>
+         <lemma_ref lemmaID="iežan_pron_refl">iežan</lemma_ref>
+         <analysis>Pron_Refl_Sg1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til meg selv</t>
+            <xg>
+               <x>Mun dadjen alccesan.</x>
+               <xt>Jeg sa til meg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccan</l>
+         <lemma_ref lemmaID="iežan_pron_refl">iežan</lemma_ref>
+         <analysis>Pron_Refl_Sg1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til meg selv</t>
+            <xg>
+               <x>Mun dadjen alccan.</x>
+               <xt>Jeg sa til meg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccen</l>
+         <lemma_ref lemmaID="iežan_pron_refl">iežan</lemma_ref>
+         <analysis>Pron_Refl_Sg1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til meg selv</t>
+            <xg>
+               <x>Mun dadjen alccen.</x>
+               <xt>Jeg sa til meg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddán</l>
+         <lemma_ref lemmaID="iežan_pron_refl">iežan</lemma_ref>
+         <analysis>Pron_Refl_Sg1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">jeg (har) selv</t>
+            <xg>
+               <x>Mus lea alddán biila.</x>
+               <xt>Jeg har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežainan</l>
+         <lemma_ref lemmaID="iežan_pron_refl">iežan</lemma_ref>
+         <analysis>Pron_Refl_Sg1_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">med meg selv</t>
+            <xg>
+               <x>Mun hupmen iežainan.</x>
+               <xt>Jeg snakket med meg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčanan</l>
+         <lemma_ref lemmaID="iežan_pron_refl">iežan</lemma_ref>
+         <analysis>Pron_Refl_Sg1_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">som meg selv</t>
+            <xg>
+               <x>Mun ledjen doppe iehčanan.</x>
+               <xt>Jeg var der alene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccesat</l>
+         <lemma_ref lemmaID="iežat_pron_refl">iežat</lemma_ref>
+         <analysis>Pron_Refl_Sg2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til deg selv</t>
+            <xg>
+               <x>Don oasttát alccesat.</x>
+               <xt>Du kjøper til deg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccat</l>
+         <lemma_ref lemmaID="iežat_pron_refl">iežat</lemma_ref>
+         <analysis>Pron_Refl_Sg2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til deg selv</t>
+            <xg>
+               <x>Don oasttát alccat.</x>
+               <xt>Du kjøper til deg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccet</l>
+         <lemma_ref lemmaID="iežat_pron_refl">iežat</lemma_ref>
+         <analysis>Pron_Refl_Sg2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til deg selv</t>
+            <xg>
+               <x>Don oasttát alccet.</x>
+               <xt>Du kjøper til deg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddát</l>
+         <lemma_ref lemmaID="iežat_pron_refl">iežat</lemma_ref>
+         <analysis>Pron_Refl_Sg2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">du (har) selv</t>
+            <xg>
+               <x>Dus lea alddát biila.</x>
+               <xt>Du har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežainat</l>
+         <lemma_ref lemmaID="iežat_pron_refl">iežat</lemma_ref>
+         <analysis>Pron_Refl_Sg2_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">med deg selv</t>
+            <xg>
+               <x>Don hupmet iežainat.</x>
+               <xt>Du snakket med selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčanat</l>
+         <lemma_ref lemmaID="iežat_pron_refl">iežat</lemma_ref>
+         <analysis>Pron_Refl_Sg2_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">som deg selv</t>
+            <xg>
+               <x>Don ledjet doppe iehčanat.</x>
+               <xt>Du var der alene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccesis</l>
+         <lemma_ref lemmaID="iežas_pron_refl">iežas</lemma_ref>
+         <analysis>Pron_Refl_Sg3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til seg selv</t>
+            <xg>
+               <x>Eadni oastá alccesis.</x>
+               <xt>Mor kjøper til seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccis</l>
+         <lemma_ref lemmaID="iežas_pron_refl">iežas</lemma_ref>
+         <analysis>Pron_Refl_Sg3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til seg selv</t>
+            <xg>
+               <x>Eadni oastá alccis.</x>
+               <xt>Mor kjøper til seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcces</l>
+         <lemma_ref lemmaID="iežas_pron_refl">iežas</lemma_ref>
+         <analysis>Pron_Refl_Sg3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til seg selv</t>
+            <xg>
+               <x>Eadni oastá alcces.</x>
+               <xt>Mor kjøper til seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddis</l>
+         <lemma_ref lemmaID="iežas_pron_refl">iežas</lemma_ref>
+         <analysis>Pron_Refl_Sg3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">han (har) selv</t>
+            <t pos="Pron" type="Refl">hun (har) selv</t>
+            <xg>
+               <x>Eatnis lea alddis biila.</x>
+               <xt>Mor har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddes</l>
+         <lemma_ref lemmaID="iežas_pron_refl">iežas</lemma_ref>
+         <analysis>Pron_Refl_Sg3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">han (har) selv</t>
+            <t pos="Pron" type="Refl">hun (har) selv</t>
+            <xg>
+               <x>Eatnis lea alddes biila.</x>
+               <xt>Mor har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežainis</l>
+         <lemma_ref lemmaID="iežas_pron_refl">iežas</lemma_ref>
+         <analysis>Pron_Refl_Sg3_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">med seg selv</t>
+            <xg>
+               <x>Eadni humai iežainis.</x>
+               <xt>Mor snakket med seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčanis</l>
+         <lemma_ref lemmaID="iežas_pron_refl">iežas</lemma_ref>
+         <analysis>Pron_Refl_Sg3_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">som seg selv</t>
+            <xg>
+               <x>Eadni lei doppe iehčanis.</x>
+               <xt>Mor var der alene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcceseame</l>
+         <lemma_ref lemmaID="iežame_pron_refl">iežame</lemma_ref>
+         <analysis>Pron_Refl_Du1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">til oss selv</t>
+            <xg>
+               <x>Moai oste alcceseame.</x>
+               <xt>Vi to kjøper til oss selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcceme</l>
+         <lemma_ref lemmaID="iežame_pron_refl">iežame</lemma_ref>
+         <analysis>Pron_Refl_Du1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">til oss selv</t>
+            <xg>
+               <x>Moai oste alcceme.</x>
+               <xt>Vi to kjøper til oss selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccame</l>
+         <lemma_ref lemmaID="iežame_pron_refl">iežame</lemma_ref>
+         <analysis>Pron_Refl_Du1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">til oss selv</t>
+            <xg>
+               <x>Moai oste alccame.</x>
+               <xt>Vi to kjøper til oss selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddáme</l>
+         <lemma_ref lemmaID="iežame_pron_refl">iežame</lemma_ref>
+         <analysis>Pron_Refl_Du1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">vi to (har) selv</t>
+            <xg>
+               <x>Munnos lea alddáme biila.</x>
+               <xt>Vi to har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddiineame</l>
+         <lemma_ref lemmaID="iežame_pron_refl">iežame</lemma_ref>
+         <analysis>Pron_Refl_Du1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">vi to (har) selv</t>
+            <xg>
+               <x>Munnos lea alddiineame biila.</x>
+               <xt>Vi to har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaineame</l>
+         <lemma_ref lemmaID="iežame_pron_refl">iežame</lemma_ref>
+         <analysis>Pron_Refl_Du1_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">med oss selv</t>
+            <xg>
+               <x>Moai humaime iežaineame.</x>
+               <xt>Vi to snakket med oss selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčaneame</l>
+         <lemma_ref lemmaID="iežame_pron_refl">iežame</lemma_ref>
+         <analysis>Pron_Refl_Du1_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">som oss selv</t>
+            <xg>
+               <x>Moai leimme doppe iehčaneame.</x>
+               <xt>Vi to var der alene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcceseatte</l>
+         <lemma_ref lemmaID="iežade_pron_refl">iežade</lemma_ref>
+         <analysis>Pron_Refl_Du2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">til dere selv</t>
+            <xg>
+               <x>Doai oastibeahtti alcceseatte.</x>
+               <xt>Dere to kjøper til dere selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccade</l>
+         <lemma_ref lemmaID="iežade_pron_refl">iežade</lemma_ref>
+         <analysis>Pron_Refl_Du2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">til dere selv</t>
+            <xg>
+               <x>Doai oastibeahtti alccade.</x>
+               <xt>Dere to kjøper til dere selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccede</l>
+         <lemma_ref lemmaID="iežade_pron_refl">iežade</lemma_ref>
+         <analysis>Pron_Refl_Du2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">til dere selv</t>
+            <xg>
+               <x>Doai oastibeahtti alccede.</x>
+               <xt>Dere to kjøper til dere selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddáde</l>
+         <lemma_ref lemmaID="iežade_pron_refl">iežade</lemma_ref>
+         <analysis>Pron_Refl_Du2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">dere to (har) selv</t>
+            <xg>
+               <x>Dudnos lea alddáde biila.</x>
+               <xt>Dere to har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddiineatte</l>
+         <lemma_ref lemmaID="iežade_pron_refl">iežade</lemma_ref>
+         <analysis>Pron_Refl_Du2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">dere to (har) selv</t>
+            <xg>
+               <x>Dudnos lea alddiineatte biila.</x>
+               <xt>Dere to har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaineatte</l>
+         <lemma_ref lemmaID="iežade_pron_refl">iežade</lemma_ref>
+         <analysis>Pron_Refl_Du2_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">med dere selv</t>
+            <xg>
+               <x>Doai humaide iežaineatte.</x>
+               <xt>Dere to snakket med dere selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčaneatte</l>
+         <lemma_ref lemmaID="iežade_pron_refl">iežade</lemma_ref>
+         <analysis>Pron_Refl_Du2_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">som dere selv</t>
+            <xg>
+               <x>Doai leidde doppe iehčaneatte.</x>
+               <xt>Dere to var der alene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcceseaskka</l>
+         <lemma_ref lemmaID="iežaska_pron_refl">iežaska</lemma_ref>
+         <analysis>Pron_Refl_Du3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">til seg selv</t>
+            <xg>
+               <x>Soai oastiba alcceseaskka.</x>
+               <xt>De to kjøper til seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcciska</l>
+         <lemma_ref lemmaID="iežaska_pron_refl">iežaska</lemma_ref>
+         <analysis>Pron_Refl_Du3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">til seg selv</t>
+            <xg>
+               <x>Soai oastiba alcciska.</x>
+               <xt>De to kjøper til seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcceska</l>
+         <lemma_ref lemmaID="iežaska_pron_refl">iežaska</lemma_ref>
+         <analysis>Pron_Refl_Du3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">til seg selv</t>
+            <xg>
+               <x>Soai oastiba alcceska.</x>
+               <xt>De to kjøper til seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddiska</l>
+         <lemma_ref lemmaID="iežaska_pron_refl">iežaska</lemma_ref>
+         <analysis>Pron_Refl_Du3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">de to (har) selv</t>
+            <xg>
+               <x>Sudnos lea alddiska biila.</x>
+               <xt>De to har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddeska</l>
+         <lemma_ref lemmaID="iežaska_pron_refl">iežaska</lemma_ref>
+         <analysis>Pron_Refl_Du3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">de to (har) selv</t>
+            <xg>
+               <x>Sudnos lea alddeska biila.</x>
+               <xt>De to har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddiineaskka</l>
+         <lemma_ref lemmaID="iežaska_pron_refl">iežaska</lemma_ref>
+         <analysis>Pron_Refl_Du3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">de to (har) selv</t>
+            <xg>
+               <x>Sudnos lea alddiineaskka biila.</x>
+               <xt>De to har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaineaskka</l>
+         <lemma_ref lemmaID="iežaska_pron_refl">iežaska</lemma_ref>
+         <analysis>Pron_Refl_Du3_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">med seg selv</t>
+            <xg>
+               <x>Soai humaiga iežaineaskka.</x>
+               <xt>De to snakket med seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčaneaskka</l>
+         <lemma_ref lemmaID="iežaska_pron_refl">iežaska</lemma_ref>
+         <analysis>Pron_Refl_Du3_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om to</re>
+            <t pos="Pron" type="Refl">som seg selv</t>
+            <xg>
+               <x>Soai leigga doppe iehčaneaskka.</x>
+               <xt>De to var der alene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcceseamet</l>
+         <lemma_ref lemmaID="iežamet_pron_refl">iežamet</lemma_ref>
+         <analysis>Pron_Refl_Pl1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til oss selv</t>
+            <xg>
+               <x>Mii dajaimet alcceseamet.</x>
+               <xt>Vi sa til oss selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccamet</l>
+         <lemma_ref lemmaID="iežamet_pron_refl">iežamet</lemma_ref>
+         <analysis>Pron_Refl_Pl1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til oss selv</t>
+            <xg>
+               <x>Mii dajaimet alccamet.</x>
+               <xt>Vi sa til oss selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccemet</l>
+         <lemma_ref lemmaID="iežamet_pron_refl">iežamet</lemma_ref>
+         <analysis>Pron_Refl_Pl1_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til oss selv</t>
+            <xg>
+               <x>Mii dajaimet alccemet.</x>
+               <xt>Vi sa til oss selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddámet</l>
+         <lemma_ref lemmaID="iežamet_pron_refl">iežamet</lemma_ref>
+         <analysis>Pron_Refl_Pl1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">vi (har) selv</t>
+            <xg>
+               <x>Mis lea alddámet biila.</x>
+               <xt>Vi har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddiineamet</l>
+         <lemma_ref lemmaID="iežamet_pron_refl">iežamet</lemma_ref>
+         <analysis>Pron_Refl_Pl1_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">vi (har) selv</t>
+            <xg>
+               <x>Mis lea alddiineamet biila.</x>
+               <xt>Vi har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaineamet</l>
+         <lemma_ref lemmaID="iežamet_pron_refl">iežamet</lemma_ref>
+         <analysis>Pron_Refl_Pl1_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">med oss selv</t>
+            <xg>
+               <x>Mii humaimet iežaineamet.</x>
+               <xt>Vi snakket med oss selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčaneamet</l>
+         <lemma_ref lemmaID="iežamet_pron_refl">iežamet</lemma_ref>
+         <analysis>Pron_Refl_Pl1_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">som oss selv</t>
+            <xg>
+               <x>Mii leimmet doppe iehčaneamet.</x>
+               <xt>Vi var der alene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcceseattet</l>
+         <lemma_ref lemmaID="iežadet_pron_refl">iežadet</lemma_ref>
+         <analysis>Pron_Refl_Pl2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til dere selv</t>
+            <xg>
+               <x>Dii oastibehtet alcceseattet.</x>
+               <xt>Dere kjøper til dere selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccadet</l>
+         <lemma_ref lemmaID="iežadet_pron_refl">iežadet</lemma_ref>
+         <analysis>Pron_Refl_Pl2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til dere selv</t>
+            <xg>
+               <x>Dii oastibehtet alccadet.</x>
+               <xt>Dere kjøper til dere selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alccedet</l>
+         <lemma_ref lemmaID="iežadet_pron_refl">iežadet</lemma_ref>
+         <analysis>Pron_Refl_Pl2_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">til dere selv</t>
+            <xg>
+               <x>Dii oastibehtet alccedet.</x>
+               <xt>Dere kjøper til dere selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddádet</l>
+         <lemma_ref lemmaID="iežadet_pron_refl">iežadet</lemma_ref>
+         <analysis>Pron_Refl_Pl2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">dere (har) selv</t>
+            <xg>
+               <x>Dis lea alddádet biila.</x>
+               <xt>Dere har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddiineattet</l>
+         <lemma_ref lemmaID="iežadet_pron_refl">iežadet</lemma_ref>
+         <analysis>Pron_Refl_Pl2_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">dere (har) selv</t>
+            <xg>
+               <x>Dis lea alddiineattet biila.</x>
+               <xt>Dere har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaineattet</l>
+         <lemma_ref lemmaID="iežadet_pron_refl">iežadet</lemma_ref>
+         <analysis>Pron_Refl_Pl2_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">med dere selv</t>
+            <xg>
+               <x>Dii humaidet iežaineattet.</x>
+               <xt>Dere snakket med dere selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčaneattet</l>
+         <lemma_ref lemmaID="iežadet_pron_refl">iežadet</lemma_ref>
+         <analysis>Pron_Refl_Pl2_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">som dere selv</t>
+            <xg>
+               <x>Dii leiddet doppe iehčaneattet.</x>
+               <xt>Dere var der alene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcceseaset</l>
+         <lemma_ref lemmaID="iežaset_pron_refl">iežaset</lemma_ref>
+         <analysis>Pron_Refl_Pl3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="Pron" type="Refl">til seg selv</t>
+            <xg>
+               <x>Sii ostet alcceseaset.</x>
+               <xt>De kjøper til seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcceset</l>
+         <lemma_ref lemmaID="iežaset_pron_refl">iežaset</lemma_ref>
+         <analysis>Pron_Refl_Pl3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="Pron" type="Refl">til seg selv</t>
+            <xg>
+               <x>Sii ostet alcceset.</x>
+               <xt>De kjøper til seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alcciset</l>
+         <lemma_ref lemmaID="iežaset_pron_refl">iežaset</lemma_ref>
+         <analysis>Pron_Refl_Pl3_Ill</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="Pron" type="Refl">til seg selv</t>
+            <xg>
+               <x>Sii ostet alcciset.</x>
+               <xt>De kjøper til seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddiset</l>
+         <lemma_ref lemmaID="iežaset_pron_refl">iežaset</lemma_ref>
+         <analysis>Pron_Refl_Pl3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">de (har) selv</t>
+            <xg>
+               <x>Sis lea alddiset biila.</x>
+               <xt>De har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddeset</l>
+         <lemma_ref lemmaID="iežaset_pron_refl">iežaset</lemma_ref>
+         <analysis>Pron_Refl_Pl3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">de (har) selv</t>
+            <xg>
+               <x>Sis lea alddeset biila.</x>
+               <xt>De har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">alddiineaset</l>
+         <lemma_ref lemmaID="iežaset_pron_refl">iežaset</lemma_ref>
+         <analysis>Pron_Refl_Pl3_Loc</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <t pos="Pron" type="Refl">de (har) selv</t>
+            <xg>
+               <x>Sis lea alddiineaset biila.</x>
+               <xt>De har bil selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iežaineaset</l>
+         <lemma_ref lemmaID="iežaset_pron_refl">iežaset</lemma_ref>
+         <analysis>Pron_Refl_Pl3_Com</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="Pron" type="Refl">med seg selv</t>
+            <xg>
+               <x>Sii hupme iežaineaset.</x>
+               <xt>De snakket med seg selv.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg freq="0">
+         <l pos="Pron" type="Refl">iehčaneaset</l>
+         <lemma_ref lemmaID="iežaset_pron_refl">iežaset</lemma_ref>
+         <analysis>Pron_Refl_Pl3_Ess</analysis>
+      </lg>
+      <mg>
+         <tg xml:lang="nob">
+            <re>om flere</re>
+            <t pos="Pron" type="Refl">som seg selv</t>
+            <xg>
+               <x>Sii ledje doppe iehčaneaset.</x>
+               <xt>De var der alene.</xt>
+            </xg>
+         </tg>
+      </mg>
+   </e>
+   <xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                 src="../../scripts/gt_dictionary.js"
+                 type="text/javascript"/>
+</r>

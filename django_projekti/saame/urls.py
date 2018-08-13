@@ -42,5 +42,9 @@ urlpatterns = [
     url(r'^' + re.escape(prefix)+ r'listLemmas/', views.list_lemmas, name='list_lemmas'),
     url(r'^' + re.escape(prefix)+ r'listLanguages/', views.list_languages, name='list_languages'),
     url(r'^' + re.escape(prefix)+ r'search/', views.search, name='search'),
-    url(r'^' + re.escape(prefix)+ r'downloadModel/', views.download_model, name='downloadModel')
+    url(r'^' + re.escape(prefix)+ r'downloadModel/', views.download_model, name='downloadModel'),
+    url(r'^' + re.escape(prefix)+ r'editSearch/', views.editSearch, name='editSearch'),
+    url(r'^' + re.escape(prefix)+ r'searchProviders/', views.searchProviders, name='searchProviders'),
+    url(r'^' + re.escape(prefix)+ r'saveSearch/', views.saveSearch, name='saveSearch'),
+    url(r'^' + re.escape(prefix)+ r'login/', views.login, name='login')
 ]
