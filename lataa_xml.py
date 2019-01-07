@@ -8,11 +8,11 @@ import urllib
 #url = "https://victorio.uit.no/langtech/trunk/words/dicts/koikpv/src/"
 
 #urls = ["https://victorio.uit.no/langtech/trunk/words/dicts/smenob/src/", "https://victorio.uit.no/langtech/trunk/words/dicts/smefin/src/" , "https://victorio.uit.no/langtech/trunk/words/dicts/smesma/src/","https://victorio.uit.no/langtech/trunk/words/dicts/smesmj/src/","https://victorio.uit.no/langtech/trunk/words/dicts/smesmn/src/"]
-urls = ["https://victorio.uit.no/langtech/trunk/langs/sms/src/morphology/stems/"]
-
+#urls = ["https://victorio.uit.no/langtech/trunk/langs/sms/src/morphology/stems/"]
+urls = ["https://victorio.uit.no/langtech/trunk/words/dicts/kpv2X/src/"]
 
 for url in urls:
-	save_to_dir = "/sms/"
+	save_to_dir = "/kpv/"
 
 	response = urllib2.urlopen(url)
 	html = response.read()

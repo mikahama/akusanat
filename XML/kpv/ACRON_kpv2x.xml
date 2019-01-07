@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../../../giella-core/schemas/fiu-dict-schema.xsd" xml:lang="kpv"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <e>
+      <lg>
+         <l pos="N">АК</l>
+         <stg>
+            <st Contlex="ACRON">АК</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <defNative>акционер котыр</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="N">joint-stock company</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">osakeyhtiö</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">АО</l>
+         <stg>
+            <st Contlex="ACRON">АО</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <semRel lemmaID="акционер котыр" semRelType="see"/>
+            <semRel lemmaID="АК" semRelType="see"/>
+            <defNative>акционернӧй общество</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="N">LTD</t>
+            <t pos="N">Limited</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">osakeyhtiö</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">АОЗТ</l>
+         <stg>
+            <st Contlex="ACRON">АОЗТ</st>
+         </stg>
+      </lg>
+      <mg>
+	<semRel lemmaID="пӧдса акционер котыр" semRelType="see"/>
+	<defNative>пӧдса акционер котыр</defNative>
+	<tg xml:lang="eng">
+	  <t/>
+	</tg>
+	<tg xml:lang="fin">
+	  <t pos="N">suljetun tyypin osakeyhtiö</t>
+	  <t pos="N">suljettu osakeyhtiö</t>
+	</tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">АПК</l>
+         <stg>
+            <st Contlex="ACRON">АПК</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <defNative>агропромышленнӧй комплекс</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="N">agro-industrial complex</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">maatalouskompleksi</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">АССР</l>
+         <stg>
+            <st Contlex="ACRON">АССР</st>
+         </stg>
+      </lg>
+      <mg>
+	<defNative>автономнӧй сӧветскӧй социалистическӧй республика</defNative>
+         <tg xml:lang="eng">
+            <t pos="N">autonomous soviet socialist republic</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">autonominen sosialistinen neuvostotasavalta</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">АТП</l>
+         <stg>
+            <st Contlex="ACRON">АТП</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="company"/>
+            </head>
+            <defNative>автотранспортнӧй предприятие</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="N">transport company??</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">autoliikenneyritys</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">АЭК</l>
+         <stg>
+            <st Contlex="ACRON">АЭК</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="company"/>
+            </head>
+            <defNative>акционернӧй энергетическӧй компания</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">voima(talous)osakeyhtiö</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ВИЧ</l>
+         <stg>
+            <st Contlex="ACRON">ВИЧ</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="N">HIV</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">HIV</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ГАП</l>
+         <stg>
+            <st Contlex="ACRON">ГАП</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <defNative>государственнӧй авиапредприятие</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="N">state airliner</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">valtion lentoyhtiö</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ДВП</l>
+         <stg>
+            <st Contlex="ACRON">ДВП</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <semRel lemmaID="пусі пӧл" semRelType="confer"/>
+            <defNative>древесноволокнистые плиты</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="N">??press board</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">puukuitulevyt</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ДРСУ</l>
+         <stg>
+            <st Contlex="ACRON">ДРСУ</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <semRel lemmaID="туй вӧчан да дзоньталан веськӧдланін" semRelType="confer"/>
+            <defNative>дoрожно-ремонтное строительное управление</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">tielaitos?</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ДСП</l>
+         <stg>
+            <st Contlex="ACRON">ДСП</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t>lastulevy</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ЖЭК</l>
+         <stg>
+            <st Contlex="ACRON">ЖЭК</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="company"/>
+            </head>
+            <semRel lemmaID="оланін ?? овмӧс" semRelType="confer"/>
+            <defNative>жилищно-эксплоатационнӧй комбинат</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">asuinrakennustutkimuskombinaatti??</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">КР</l>
+         <stg>
+            <st Contlex="ACRON">КР</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="republic"/>
+            </head>
+            <defNative>Коми Республика</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="N">The Komi Republic</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">Komin tasavalta</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ЛПК</l>
+         <stg>
+            <st Contlex="ACRON">ЛПК</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="company"/>
+            </head>
+            <defNative>лесопромьшленнӧй комплекс</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">metsäteollisuuskompleksi</t>
+         </tg>
+      </mg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="company"/>
+            </head>
+            <defNative>лесопромьшленнӧй комплекс</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">metsäteollisuuskompleksi</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">НГП</l>
+         <stg>
+            <st Contlex="ACRON">НГП</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">НКГБ</l>
+         <stg>
+            <st Contlex="ACRON">НКГБ</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">НПГ</l>
+         <stg>
+            <st Contlex="ACRON">НПГ</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">НПЗ</l>
+         <stg>
+            <st Contlex="ACRON">НПЗ</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">НПСР</l>
+         <stg>
+            <st Contlex="ACRON">НПСР</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ПМК</l>
+         <stg>
+            <st Contlex="ACRON">ПМК</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ПФ</l>
+         <stg>
+            <st Contlex="ACRON">ПФ</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">РСКБ</l>
+         <stg>
+            <st Contlex="ACRON">РСКБ</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">РСФСР</l>
+         <stg>
+            <st Contlex="ACRON">РСФСР</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="country"/>
+            </head>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">РФ</l>
+         <stg>
+            <st Contlex="ACRON">РФ</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="country"/>
+            </head>
+            <defNative>россия федерация</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="N">Russian Federation</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">Venäjän federaatio</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">РФЖК</l>
+         <stg>
+            <st Contlex="ACRON">РФЖК</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="kodex"/>
+            </head>
+            <defNative>РФ жилищнӧй кодекс</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">Venäjän federaation asuntolakikokoelma</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">РЭУ</l>
+         <stg>
+            <st Contlex="ACRON">РЭУ</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">САУ</l>
+         <stg>
+            <st Contlex="ACRON">САУ</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <defNative>самоходнӧй артиллерийскӧй установка</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">moottoroidun tykistön laitteet</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">СП</l>
+         <stg>
+            <st Contlex="ACRON">СП</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">СПИД</l>
+         <stg>
+            <st Contlex="ACRON">СПИД</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t pos="N">AIDS</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">AIDS</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">СССР</l>
+         <stg>
+            <st Contlex="ACRON">СССР</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="country"/>
+            </head>
+            <defNative>Sӧветскӧй Sоциалистическӧй Республикаяслӧн Союз</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t pos="N">U.S.S.R.</t>
+            <t pos="N">Union of Soviet Socialist Republics</t>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">Sosialististen neuvostotasavaltojen liitto</t>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">Сыктывкарса ЛПК</l>
+         <stg>
+            <st Contlex="ACRON">Сыктывкарса ЛПК</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <head>
+               <isa isaType="company"/>
+            </head>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ТОО</l>
+         <stg>
+            <st Contlex="ACRON">ТОО</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">УВД</l>
+         <stg>
+            <st Contlex="ACRON">УВД</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">УНПО</l>
+         <stg>
+            <st Contlex="ACRON">УНПО</st>
+         </stg>
+      </lg>
+      <mg>
+         <defNative/>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t/>
+         </tg>
+      </mg>
+   </e>
+   <e>
+      <lg>
+         <l pos="N">ЦБ</l>
+         <stg>
+            <st Contlex="ACRON">ЦБ</st>
+         </stg>
+      </lg>
+      <mg>
+         <m>
+            <defNative>Центробанк</defNative>
+         </m>
+         <tg xml:lang="eng">
+            <t/>
+         </tg>
+         <tg xml:lang="fin">
+            <t pos="N">keskuspankki</t>
+         </tg>
+      </mg>
+   </e>
+</r>

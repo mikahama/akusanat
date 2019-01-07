@@ -40,7 +40,7 @@ file_types = {
 }
 api_keys =[u"sdfrf4535gdg35ertgfd", u"45454arefg785421!R", u"e3455rtwe54325t"]
 
-supported_languages = ["sms", "izh", "mhr", "vot", "olo", "myv", "mdf", "mrj", "udm", "yrk", "koi", "kpv"]
+supported_languages = ["sms", "izh", "mhr", "vot", "olo", "myv", "mdf", "mrj", "udm", "yrk", "koi", "kpv", "est"]
 supported_translation_languages = ["fin", "eng", "rus", "deu", "nob", "sme", "smn", "sjd", "sma", "sju", "sjd", "sje", "smj", "sjt", "sms", "est", "fit", "fkv", "hun", "izh", "kca", "koi", "kpv", "lav", "liv", "mdf", "mhr", "mns", "mrj", "myv", "nio", "olo", "udm", "vep", "vot", "vro", "yrk", "non", "rom", "ron", "som", "swe", "krl", "lud", "fra", "lat"]
 
 def download_model(request):
