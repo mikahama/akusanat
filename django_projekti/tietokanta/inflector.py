@@ -20,8 +20,14 @@ def return_model(language, model_type):
     base_dir = os.path.dirname(os.path.dirname(__file__))
     if model_type == "analyser":
         filename = os.path.join(base_dir, "transducers/"+language+"/analyser-gt-desc.hfstol")
+    elif model_type == "analyser-norm":
+        filename = os.path.join(base_dir, "transducers/"+language+"/analyser-gt-norm.hfstol")
     elif model_type == "generator":
         filename = os.path.join(base_dir, "transducers/"+language+"/generator-dict-gt-norm.hfstol")
+    elif model_type == "generator-desc":
+        filename = os.path.join(base_dir, "transducers/"+language+"/generator-gt-desc.hfstol")
+    elif model_type == "generator-norm":
+        filename = os.path.join(base_dir, "transducers/"+language+"/generator-gt-norm.hfstol")
     else:
         filename = os.path.join(base_dir, "transducers/"+language+"/disambiguator.cg3")
     return open(filename, "rb")

@@ -365,7 +365,7 @@ def update_system(request):
     return HttpResponse(result, status=200)
 
 def version(request):
-    return HttpResponse("1.0.2 " + getattr(settings, "CURRENT_URL", "null domain"), status=200)
+    return HttpResponse("1.0.3 " + getattr(settings, "CURRENT_URL", "null domain"), status=200)
 
 def rsa_key(request):
     BASE_DIR = os.path.dirname(os.path.dirname(__file__))
