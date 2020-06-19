@@ -1,4 +1,7 @@
 # Akusanat
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3901371.svg)](https://doi.org/10.5281/zenodo.3901371)
+
 Akusanat is a MediaWiki based online dictionary system for Uralic languages. This repository contains the code for our custom-made XML-MediaWiki synchronization system.
 
 http://www.akusanat.com
